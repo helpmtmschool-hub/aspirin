@@ -5,6 +5,10 @@ import { cors } from 'hono/cors';
 type Bindings = {
   DB?: D1Database;
   STREAM_ORIGIN?: string;
+  ONEDRIVE_CLIENT_ID?: string;
+  ONEDRIVE_TENANT_ID?: string;
+  ONEDRIVE_REFRESH_TOKEN?: string;
+  ONEDRIVE_DRIVE_TARGET?: string;
 };
 
 const app = new Hono<{ Bindings: Bindings }>().basePath('/api');
@@ -14,6 +18,97 @@ app.use('*', cors());
 
 // Helper to get stream origin
 const getStreamOrigin = (env: Bindings) => env.STREAM_ORIGIN || 'http://127.0.0.1:8787';
+
+interface TokenCache {
+  accessToken: string;
+  expiresAt: number;
+}
+let tokenCache: TokenCache | null = null;
+const downloadUrlCache = new Map<string, { url: string; expiresAt: number }>();
+let cachedManifest: Record<string, any> | null = null;
+let lastManifestFetch = 0;
+
+async function getGraphAccessToken(env: Bindings): Promise<string | null> {
+  const refreshToken = env.ONEDRIVE_REFRESH_TOKEN;
+  if (!refreshToken) return null;
+
+  const now = Date.now();
+  if (tokenCache && tokenCache.expiresAt > now + 60000) {
+    return tokenCache.accessToken;
+  }
+
+  const clientId = env.ONEDRIVE_CLIENT_ID || 'ba92c830-fac7-4d60-a0ff-8bf0b581a4c4';
+  const tenantId = env.ONEDRIVE_TENANT_ID || '938a1924-0af0-4599-819b-177a1dcf8fd6';
+
+  try {
+    const res = await fetch(`https://login.microsoftonline.com/${tenantId}/oauth2/v2.0/token`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: new URLSearchParams({
+        client_id: clientId,
+        grant_type: 'refresh_token',
+        refresh_token: refreshToken,
+      }),
+    });
+    if (!res.ok) {
+      return null;
+    }
+    const data: any = await res.json();
+    tokenCache = {
+      accessToken: data.access_token,
+      expiresAt: now + (data.expires_in || 3600) * 1000,
+    };
+    return tokenCache.accessToken;
+  } catch (e) {
+    return null;
+  }
+}
+
+async function getOneDriveDownloadUrl(env: Bindings, itemId: string): Promise<string | null> {
+  const now = Date.now();
+  const cached = downloadUrlCache.get(itemId);
+  if (cached && cached.expiresAt > now) {
+    return cached.url;
+  }
+
+  const token = await getGraphAccessToken(env);
+  if (!token) return null;
+
+  try {
+    const driveTarget = env.ONEDRIVE_DRIVE_TARGET || 'sites/root/drive';
+    const res = await fetch(`https://graph.microsoft.com/v1.0/${driveTarget}/items/${itemId}?$select=@microsoft.graph.downloadUrl`, {
+      headers: { Authorization: `Bearer ${token}` },
+    });
+    if (!res.ok) return null;
+    const data: any = await res.json();
+    const downloadUrl = data['@microsoft.graph.downloadUrl'];
+    if (downloadUrl) {
+      downloadUrlCache.set(itemId, { url: downloadUrl, expiresAt: now + 45 * 60 * 1000 });
+      return downloadUrl;
+    }
+  } catch (e) {
+    // Silent fallback
+  }
+  return null;
+}
+
+async function getManifest(): Promise<Record<string, any>> {
+  const now = Date.now();
+  if (cachedManifest && (now - lastManifestFetch < 60000)) {
+    return cachedManifest;
+  }
+  try {
+    const res = await fetch('https://raw.githubusercontent.com/helpmtmschool-hub/aspirin/main/engine/transfer_manifest.json');
+    if (res.ok) {
+      cachedManifest = await res.json();
+      lastManifestFetch = now;
+      return cachedManifest;
+    }
+  } catch (e) {
+    // Fallback
+  }
+  return cachedManifest || {};
+}
 
 // 1. GET /api/subjects - List 19 MBBS subjects with progress stats
 app.get('/subjects', async (c) => {
@@ -152,9 +247,28 @@ app.get('/topics/:id', async (c) => {
   }
 });
 
-// 4. GET /api/stream/:chatId/:messageId - Edge stream router with Range forwarding
+// 4. GET /api/stream/:chatId/:messageId - Edge stream router with OneDrive 302 & Stream Bridge fallback
 app.get('/stream/:chatId/:messageId', async (c) => {
   const { chatId, messageId } = c.req.param();
+
+  // 1. Check if video has been migrated to 25 TB SharePoint drive
+  try {
+    const manifest = await getManifest();
+    const itemKey = `px_${chatId}_${messageId}`;
+    const item = manifest[itemKey];
+
+    if (item && item.onedrive_item_id && item.status === 'completed') {
+      const directUrl = await getOneDriveDownloadUrl(c.env, item.onedrive_item_id);
+      if (directUrl) {
+        // Fast 302 redirect directly to Microsoft SharePoint global CDN
+        return c.redirect(directUrl, 302);
+      }
+    }
+  } catch (e) {
+    // If manifest or OneDrive check fails, proceed to stream bridge fallback
+  }
+
+  // 2. Fallback to MTProto stream bridge
   const streamOrigin = getStreamOrigin(c.env);
   const targetUrl = `${streamOrigin}/stream/${chatId}/${messageId}`;
 
@@ -187,16 +301,34 @@ app.get('/stream/:chatId/:messageId', async (c) => {
     return c.json(
       {
         error: `Failed to connect to Telegram stream bridge at ${streamOrigin}: ${err.message}`,
-        hint: "Ensure 'python engine/stream_bridge.py' is running or STREAM_ORIGIN is set.",
+        hint: "Ensure 'python engine/stream_bridge.py' is running, or that the lecture has finished cloud migration to SharePoint.",
       },
       502
     );
   }
 });
 
-// 5. GET /api/notes/:chatId/:messageId - Notes & PDF streaming
+// 5. GET /api/notes/:chatId/:messageId - Notes & PDF streaming with OneDrive 302 & Stream Bridge fallback
 app.get('/notes/:chatId/:messageId', async (c) => {
   const { chatId, messageId } = c.req.param();
+
+  // 1. Check if PDF note has been migrated to 25 TB SharePoint drive
+  try {
+    const manifest = await getManifest();
+    const itemKey = `px_${chatId}_${messageId}`;
+    const item = manifest[itemKey];
+
+    if (item && item.onedrive_item_id && item.status === 'completed') {
+      const directUrl = await getOneDriveDownloadUrl(c.env, item.onedrive_item_id);
+      if (directUrl) {
+        return c.redirect(directUrl, 302);
+      }
+    }
+  } catch (e) {
+    // Fallback to stream bridge
+  }
+
+  // 2. Fallback to stream bridge
   const streamOrigin = getStreamOrigin(c.env);
   const targetUrl = `${streamOrigin}/note/${chatId}/${messageId}`;
 
