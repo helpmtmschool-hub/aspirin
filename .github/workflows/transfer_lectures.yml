@@ -1,6 +1,9 @@
 name: Transfer Lectures from Telegram to OneDrive
 
 on:
+  schedule:
+    # Runs automatically every 4 hours (00:00, 04:00, 08:00, 12:00, 16:00, 20:00 UTC)
+    - cron: '0 */4 * * *'
   workflow_dispatch:
     inputs:
       platform:
@@ -20,16 +23,6 @@ on:
         type: choice
         options:
           - all
-          - anatomy
-          - physiology
-          - biochemistry
-          - pathology
-          - pharmacology
-          - microbiology
-          - forensic_medicine
-          - psm
-          - ophthalmology
-          - ent
           - medicine
           - surgery
           - obg
@@ -39,17 +32,31 @@ on:
           - psychiatry
           - radiology
           - anesthesia
+          - psm
+          - forensic_medicine
+          - ophthalmology
+          - ent
+          - pathology
+          - pharmacology
+          - microbiology
+          - anatomy
+          - physiology
+          - biochemistry
           - notes_pdf
       batch_size:
         description: "Batch limit (number of files to transfer in this run)"
         required: true
-        default: "20"
+        default: "25"
         type: string
       dry_run:
         description: "Dry run (test without actually transferring)"
         required: true
         default: false
         type: boolean
+
+concurrency:
+  group: telegram-transfer-pipeline
+  cancel-in-progress: false
 
 permissions:
   contents: write
@@ -79,15 +86,24 @@ jobs:
 
       - name: Execute Telegram to OneDrive Pipeline
         run: |
+          PLATFORM="${{ github.event.inputs.platform || 'all' }}"
+          SUBJECT="${{ github.event.inputs.subject || 'all' }}"
+          BATCH_SIZE="${{ github.event.inputs.batch_size || '25' }}"
           DRY_RUN_FLAG=""
           if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
             DRY_RUN_FLAG="--dry-run"
           fi
 
+          echo "Starting Telegram to SharePoint transfer batch..."
+          echo "Platform: $PLATFORM"
+          echo "Subject: $SUBJECT"
+          echo "Batch size: $BATCH_SIZE"
+          echo "Dry run flag: $DRY_RUN_FLAG"
+
           python engine/telegram_to_onedrive.py \
-            --platform "${{ github.event.inputs.platform }}" \
-            --subject "${{ github.event.inputs.subject }}" \
-            --limit "${{ github.event.inputs.batch_size }}" \
+            --platform "$PLATFORM" \
+            --subject "$SUBJECT" \
+            --limit "$BATCH_SIZE" \
             $DRY_RUN_FLAG
         env:
           TELEGRAM_API_ID: ${{ secrets.TELEGRAM_API_ID }}
@@ -106,4 +122,8 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add engine/transfer_manifest.json
-          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: sync transfer manifest [skip ci]" && git push)
+          if ! git diff --quiet || ! git diff --staged --quiet; then
+            git commit -m "chore: sync transfer manifest [skip ci]"
+            git pull --rebase origin main
+            git push origin main
+          fi

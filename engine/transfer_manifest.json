@@ -94,5 +94,11 @@
     "size_bytes": 161990269,
     "uploaded_at": "2026-09-23T15:19:46Z",
     "status": "completed"
+  },
+  "px_-1003709841202_689": {
+    "status": "completed",
+    "type": "separator",
+    "text": "MEDICINE",
+    "skipped": true
   }
 }

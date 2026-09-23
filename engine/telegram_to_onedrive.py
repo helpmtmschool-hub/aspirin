@@ -117,6 +117,68 @@ def normalize_subject_title(raw_title: str) -> str:
     return "medicine"
 
 
+# Academic clinical hierarchy for lecture migration:
+# 1. PrepLadder Medicine lectures first (English, then Hinglish)
+# 2. PrepLadder Final Year clinical subjects (Surgery, OBG, Pediatrics, Orthopedics, Dermatology, Psychiatry, Radiology, Anesthesia)
+# 3. PrepLadder Remaining Years:
+#    - 3rd Prof: Ophthalmology, ENT, PSM, FMT
+#    - 2nd Prof: Pathology, Pharmacology, Microbiology
+#    - 1st Prof: Anatomy, Physiology, Biochemistry
+# 4. Cerebellum Academy in the exact same clinical order:
+#    - Medicine -> Final Year -> Remaining Years -> Notes PDF
+SUBJECT_CLINICAL_RANK = {
+    "medicine": 1,
+    "surgery": 2,
+    "obg": 3,
+    "pediatrics": 4,
+    "orthopedics": 5,
+    "dermatology": 6,
+    "psychiatry": 7,
+    "radiology": 8,
+    "anesthesia": 9,
+    "ophthalmology": 10,
+    "ent": 11,
+    "psm": 12,
+    "forensic_medicine": 13,
+    "pathology": 14,
+    "pharmacology": 15,
+    "microbiology": 16,
+    "anatomy": 17,
+    "physiology": 18,
+    "biochemistry": 19,
+    "notes_pdf": 20,
+}
+
+
+def get_section_priority(sec_platform: str, raw_title: str) -> tuple:
+    """
+    Returns a sort tuple prioritizing:
+    1. PrepLadder Medicine
+    2. PrepLadder Final Year
+    3. PrepLadder Remaining Years (3rd, 2nd, 1st profs)
+    4. Cerebellum Medicine
+    5. Cerebellum Final Year
+    6. Cerebellum Remaining Years
+    7. Cerebellum Notes PDF
+    """
+    norm_subj = normalize_subject_title(raw_title)
+    platform_group = 1 if sec_platform in ("prepx_en", "prepx_hi") else 2
+
+    if norm_subj == "medicine":
+        cat_rank = 1
+    elif norm_subj in ("surgery", "obg", "pediatrics", "orthopedics", "dermatology", "psychiatry", "radiology", "anesthesia"):
+        cat_rank = 2
+    elif norm_subj in ("ophthalmology", "ent", "psm", "forensic_medicine", "pathology", "pharmacology", "microbiology", "anatomy", "physiology", "biochemistry"):
+        cat_rank = 3
+    else:
+        cat_rank = 4
+
+    platform_rank = 1 if sec_platform == "prepx_en" else (2 if sec_platform == "prepx_hi" else 3)
+    subj_rank = SUBJECT_CLINICAL_RANK.get(norm_subj, 99)
+
+    return (platform_group, cat_rank, platform_rank, subj_rank)
+
+
 class FastTelegramDownloader:
     """
     High-performance, 100% ban-safe parallel MTProto downloader.
@@ -410,8 +472,14 @@ class LectureTransferEngine:
         with open(SECTIONS_PATH, "r", encoding="utf-8") as f:
             sections = json.load(f)
 
+        # Sort master sections according to academic clinical priority
+        sorted_sections = sorted(
+            sections,
+            key=lambda s: get_section_priority(s.get("platform", ""), s.get("title", ""))
+        )
+
         queue = []
-        for sec in sections:
+        for sec in sorted_sections:
             sec_platform = sec["platform"]
             raw_title = sec["title"]
             norm_subj = normalize_subject_title(raw_title)
@@ -640,6 +708,9 @@ async def run_pipeline(platform: Optional[str] = None, subject: Optional[str] = 
     print(f" Target Subject:         {subject or 'ALL'}")
     print(f" Total Pending in Queue: {len(queue)}")
     print(f" Batch Limit for run:    {limit}")
+    if queue:
+        first = queue[0]
+        print(f" Priority #1 in Queue:   [{first['platform']}] {first['subject_name']} (Msg {first['message_id']})")
     print("=" * 65)
 
     processed = 0
@@ -672,7 +743,7 @@ def main():
     parser = argparse.ArgumentParser(description="Yui Telegram to 25 TB SharePoint Migration Engine (Fast & Ban-Proof)")
     parser.add_argument("--platform", default=None, help="Platform: 'prepx_en', 'prepx_hi', 'cerebellum', or 'all'")
     parser.add_argument("--subject", default=None, help="Target subject (e.g. 'anatomy', 'notes_pdf', or 'all')")
-    parser.add_argument("--limit", type=int, default=20, help="Max items to upload in this run (default: 20)")
+    parser.add_argument("--limit", type=int, default=25, help="Max items to upload in this run (default: 25)")
     parser.add_argument("--dry-run", action="store_true", help="List files without actually uploading")
 
     args = parser.parse_args()
