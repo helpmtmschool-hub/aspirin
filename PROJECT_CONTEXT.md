@@ -132,7 +132,7 @@ The migration queue automatically prioritizes lectures in this clinical hierarch
 
 ## 5. 🛡️ 100% Anti-Ban Telegram MTProto Specifications
 
-To prevent any rate limits or account bans on the user's Telegram account (`Sain` `@Sain1919`, User ID `5188277368`):
+To prevent any rate limits or account bans on the authenticated Telegram account (User ID `5188277368`):
 1. **Concurrency Cap = 4:** Strictly bounded to 4 parallel chunk workers (exactly matching official Telegram Desktop client spec: `kMaxConcurrentFileRequests = 4`).
 2. **Chunk Part Size = 512 KiB (`TG_PART_SIZE`):** Telegram API requires 512 KiB parts. Passing partial or odd byte sizes results in `LimitInvalidError`. Telegram automatically sends remaining partial bytes on the final chunk.
 3. **Connection Pooling per DC:** Warm `MTProtoSender` connections are cached per Data Center (`self._senders_by_dc[dc_id]`), eliminating expensive cross-DC authorization handshakes on every lecture.
