@@ -1,0 +1,20 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "yui-lms",
+  "pages_build_output_dir": "dist",
+  "compatibility_date": "2025-02-01",
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "yui-db",
+      "database_id": "yui-db-local"
+    }
+  ],
+  "vars": {
+    "APP_NAME": "aspirin Medical LMS",
+    "STREAM_ORIGIN": "http://127.0.0.1:8787"
+  }
+}

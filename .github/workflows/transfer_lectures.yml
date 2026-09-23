@@ -1,0 +1,96 @@
+name: Transfer Lectures from Telegram to OneDrive
+
+on:
+  workflow_dispatch:
+    inputs:
+      subject:
+        description: "Select Subject to transfer (or 'all')"
+        required: true
+        default: "all"
+        type: choice
+        options:
+          - all
+          - anatomy
+          - physiology
+          - biochemistry
+          - pathology
+          - pharmacology
+          - microbiology
+          - forensic_medicine
+          - psm
+          - ophthalmology
+          - ent
+          - medicine
+          - surgery
+          - obgyn
+          - pediatrics
+          - orthopedics
+          - dermatology
+          - psychiatry
+          - radiology
+          - anesthesia
+      batch_size:
+        description: "Batch limit (number of files to transfer in this run)"
+        required: true
+        default: "20"
+        type: string
+      dry_run:
+        description: "Dry run (test without actually transferring)"
+        required: true
+        default: false
+        type: boolean
+
+permissions:
+  contents: write
+
+jobs:
+  transfer:
+    name: Stream Lectures to OneDrive
+    runs-on: ubuntu-latest
+    timeout-minutes: 360 # GitHub maximum job execution time: 6 hours
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install Python Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install telethon requests cryptg tqdm
+
+      - name: Execute Telegram to OneDrive Pipeline
+        run: |
+          DRY_RUN_FLAG=""
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+            DRY_RUN_FLAG="--dry-run"
+          fi
+
+          python engine/telegram_to_onedrive.py \
+            --subject "${{ github.event.inputs.subject }}" \
+            --limit "${{ github.event.inputs.batch_size }}" \
+            $DRY_RUN_FLAG
+        env:
+          TELEGRAM_API_ID: ${{ secrets.TELEGRAM_API_ID }}
+          TELEGRAM_API_HASH: ${{ secrets.TELEGRAM_API_HASH }}
+          TELEGRAM_SESSION_STRING: ${{ secrets.TELEGRAM_SESSION_STRING }}
+          ONEDRIVE_CLIENT_ID: ${{ secrets.ONEDRIVE_CLIENT_ID }}
+          ONEDRIVE_CLIENT_SECRET: ${{ secrets.ONEDRIVE_CLIENT_SECRET }}
+          ONEDRIVE_REFRESH_TOKEN: ${{ secrets.ONEDRIVE_REFRESH_TOKEN }}
+          ONEDRIVE_TENANT_ID: ${{ secrets.ONEDRIVE_TENANT_ID || 'common' }}
+          PYTHONUNBUFFERED: "1"
+
+      - name: Commit & Push Updated Manifest
+        if: ${{ github.event.inputs.dry_run != 'true' }}
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add engine/transfer_manifest.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: sync transfer manifest [skip ci]" && git push)
