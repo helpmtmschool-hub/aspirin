@@ -1,6 +1,6 @@
 {
-  "version": "2.0.0",
-  "updated_at": "2026-09-24T12:15:03.402Z",
+  "version": "2.1.0",
+  "updated_at": "2026-09-24T12:27:47.759Z",
   "subjects": [
     {
       "id": "anatomy",
@@ -30,8 +30,8 @@
               "chat_id": -1003709841202,
               "message_id": 4,
               "pearls": [
-                "Core high-yield neuroanatomy landmarks & clinical pathways in 01. Introduction",
-                "Key examination pearls for NEET-PG / INICET"
+                "Core high-yield neuroanatomy landmarks in 01. Introduction",
+                "High-yield clinical pathways and examination pearls"
               ],
               "date": "2026-09-23T14:38:19Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/4"
@@ -49,8 +49,8 @@
               "chat_id": -1003709841202,
               "message_id": 5,
               "pearls": [
-                "Core high-yield neuroanatomy landmarks & clinical pathways in 02. Spinal Cord",
-                "Key examination pearls for NEET-PG / INICET"
+                "Core high-yield neuroanatomy landmarks in 02. Spinal Cord",
+                "High-yield clinical pathways and examination pearls"
               ],
               "date": "2026-09-23T15:12:18Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/5"
@@ -68,8 +68,8 @@
               "chat_id": -1003709841202,
               "message_id": 6,
               "pearls": [
-                "Core high-yield neuroanatomy landmarks & clinical pathways in 03. Brainstem",
-                "Key examination pearls for NEET-PG / INICET"
+                "Core high-yield neuroanatomy landmarks in 03. Brainstem",
+                "High-yield clinical pathways and examination pearls"
               ],
               "date": "2026-09-23T15:15:24Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/6"
@@ -87,8 +87,8 @@
               "chat_id": -1003709841202,
               "message_id": 7,
               "pearls": [
-                "Core high-yield neuroanatomy landmarks & clinical pathways in 04. Transverse Section of Mid Brain, Pons & Medulla",
-                "Key examination pearls for NEET-PG / INICET"
+                "Core high-yield neuroanatomy landmarks in 04. Transverse Section of Mid Brain, Pons & Medulla",
+                "High-yield clinical pathways and examination pearls"
               ],
               "date": "2026-09-23T15:16:05Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/7"
@@ -106,8 +106,8 @@
               "chat_id": -1003709841202,
               "message_id": 8,
               "pearls": [
-                "Core high-yield neuroanatomy landmarks & clinical pathways in 05. White Matter and Grey Matter of Cerebrum",
-                "Key examination pearls for NEET-PG / INICET"
+                "Core high-yield neuroanatomy landmarks in 05. White Matter and Grey Matter of Cerebrum",
+                "High-yield clinical pathways and examination pearls"
               ],
               "date": "2026-09-23T15:17:53Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/8"
@@ -125,8 +125,8 @@
               "chat_id": -1003709841202,
               "message_id": 9,
               "pearls": [
-                "Core high-yield neuroanatomy landmarks & clinical pathways in 06. White Matter - Descending tract",
-                "Key examination pearls for NEET-PG / INICET"
+                "Core high-yield neuroanatomy landmarks in 06. White Matter - Descending tract",
+                "High-yield clinical pathways and examination pearls"
               ],
               "date": "2026-09-23T15:19:46Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/9"
@@ -316,13 +316,13 @@
       "total_notes": 20,
       "modules": [
         {
-          "id": "mod_med_cardio",
-          "name": "Cardiology, ECG & Hematology (Dr. Deepak Marwah)",
+          "id": "mod_med_full",
+          "name": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
           "topics": [
             {
               "id": "topic_-1003709841202_690",
               "subject_id": "medicine",
-              "module": "Cardiology, ECG & Hematology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "1. 5 Hacks to Complete Internal Medicine for NEET PG",
               "filename": "1. 5 Hacks to Complete Internal Medicine for NEET PG.mp4",
               "file_size_bytes": 184194164,
@@ -332,8 +332,8 @@
               "chat_id": -1003709841202,
               "message_id": 690,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 1. 5 Hacks to Complete Internal Medicine for NEET PG",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 1. 5 Hacks to Complete Internal Medicine for NEET PG",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-23T16:19:48Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/690"
@@ -341,7 +341,7 @@
             {
               "id": "topic_-1003709841202_691",
               "subject_id": "medicine",
-              "module": "Cardiology, ECG & Hematology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "2. Heart Sounds Part 1",
               "filename": "2. Heart Sounds Part 1.mp4",
               "file_size_bytes": 369307198,
@@ -351,8 +351,8 @@
               "chat_id": -1003709841202,
               "message_id": 691,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 2. Heart Sounds Part 1",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 2. Heart Sounds Part 1",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-23T16:23:52Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/691"
@@ -360,7 +360,7 @@
             {
               "id": "topic_-1003709841202_692",
               "subject_id": "medicine",
-              "module": "Cardiology, ECG & Hematology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "3. Heart Sounds Part 2",
               "filename": "3. Heart Sounds Part 2.mp4",
               "file_size_bytes": 431033540,
@@ -370,8 +370,8 @@
               "chat_id": -1003709841202,
               "message_id": 692,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 3. Heart Sounds Part 2",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 3. Heart Sounds Part 2",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-23T16:28:51Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/692"
@@ -379,7 +379,7 @@
             {
               "id": "topic_-1003709841202_693",
               "subject_id": "medicine",
-              "module": "Cardiology, ECG & Hematology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "4. Heart Sounds Part 3",
               "filename": "4. Heart Sounds Part 3.mp4",
               "file_size_bytes": 538292039,
@@ -389,8 +389,8 @@
               "chat_id": -1003709841202,
               "message_id": 693,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 4. Heart Sounds Part 3",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 4. Heart Sounds Part 3",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-23T16:46:08Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/693"
@@ -398,7 +398,7 @@
             {
               "id": "topic_-1003709841202_694",
               "subject_id": "medicine",
-              "module": "Cardiology, ECG & Hematology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "5. Mitral Valve Prolapse",
               "filename": "5. Mitral Valve Prolapse.mp4",
               "file_size_bytes": 218928073,
@@ -408,8 +408,8 @@
               "chat_id": -1003709841202,
               "message_id": 694,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 5. Mitral Valve Prolapse",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 5. Mitral Valve Prolapse",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-23T16:49:45Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/694"
@@ -417,7 +417,7 @@
             {
               "id": "topic_-1003709841202_695",
               "subject_id": "medicine",
-              "module": "Cardiology, ECG & Hematology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "6. Mitral Regurgitation",
               "filename": "6. Mitral Regurgitation.mp4",
               "file_size_bytes": 250785228,
@@ -427,8 +427,8 @@
               "chat_id": -1003709841202,
               "message_id": 695,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 6. Mitral Regurgitation",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 6. Mitral Regurgitation",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-23T16:53:15Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/695"
@@ -436,7 +436,7 @@
             {
               "id": "topic_-1003709841202_696",
               "subject_id": "medicine",
-              "module": "Cardiology, ECG & Hematology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "7. Aortic Stenosis",
               "filename": "7. Aortic Stenosis.mp4",
               "file_size_bytes": 356405177,
@@ -446,8 +446,8 @@
               "chat_id": -1003709841202,
               "message_id": 696,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 7. Aortic Stenosis",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 7. Aortic Stenosis",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-23T16:58:09Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/696"
@@ -455,7 +455,7 @@
             {
               "id": "topic_-1003709841202_697",
               "subject_id": "medicine",
-              "module": "Cardiology, ECG & Hematology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "8. Aortic Regurgitation",
               "filename": "8. Aortic Regurgitation.mp4",
               "file_size_bytes": 228858357,
@@ -465,8 +465,8 @@
               "chat_id": -1003709841202,
               "message_id": 697,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 8. Aortic Regurgitation",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 8. Aortic Regurgitation",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-23T17:03:00Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/697"
@@ -474,7 +474,7 @@
             {
               "id": "topic_-1003709841202_698",
               "subject_id": "medicine",
-              "module": "Cardiology, ECG & Hematology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "9. Tricuspid Stenosis",
               "filename": "9. Tricuspid Stenosis.mp4",
               "file_size_bytes": 149626037,
@@ -484,8 +484,8 @@
               "chat_id": -1003709841202,
               "message_id": 698,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 9. Tricuspid Stenosis",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 9. Tricuspid Stenosis",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-23T17:04:52Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/698"
@@ -493,7 +493,7 @@
             {
               "id": "topic_-1003709841202_699",
               "subject_id": "medicine",
-              "module": "Cardiology, ECG & Hematology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "10. Tricuspid Regurgitation, Pulmonic Stenosis and Pulmonic",
               "filename": "10. Tricuspid Regurgitation, Pulmonic Stenosis and Pulmonic.mp4",
               "file_size_bytes": 331811439,
@@ -503,8 +503,8 @@
               "chat_id": -1003709841202,
               "message_id": 699,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 10. Tricuspid Regurgitation, Pulmonic Stenosis and Pulmonic",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 10. Tricuspid Regurgitation, Pulmonic Stenosis and Pulmonic",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-23T17:08:45Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/699"
@@ -512,7 +512,7 @@
             {
               "id": "topic_-1003709841202_700",
               "subject_id": "medicine",
-              "module": "Cardiology, ECG & Hematology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "11. Murmurs",
               "filename": "11. Murmurs.mp4",
               "file_size_bytes": 753667395,
@@ -522,8 +522,8 @@
               "chat_id": -1003709841202,
               "message_id": 700,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 11. Murmurs",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 11. Murmurs",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-23T17:17:46Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/700"
@@ -531,7 +531,7 @@
             {
               "id": "topic_-1003709841202_701",
               "subject_id": "medicine",
-              "module": "Cardiology, ECG & Hematology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "12. Takotsubo Cardiomyopathies and Brugada Syndrome",
               "filename": "12. Takotsubo Cardiomyopathies and Brugada Syndrome.mp4",
               "file_size_bytes": 280173339,
@@ -541,8 +541,8 @@
               "chat_id": -1003709841202,
               "message_id": 701,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 12. Takotsubo Cardiomyopathies and Brugada Syndrome",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 12. Takotsubo Cardiomyopathies and Brugada Syndrome",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-23T17:21:15Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/701"
@@ -550,7 +550,7 @@
             {
               "id": "topic_-1003709841202_702",
               "subject_id": "medicine",
-              "module": "Cardiology, ECG & Hematology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "13. ECG and Arrhythmias",
               "filename": "13. ECG and Arrhythmias.mp4",
               "file_size_bytes": 962717119,
@@ -560,8 +560,8 @@
               "chat_id": -1003709841202,
               "message_id": 702,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 13. ECG and Arrhythmias",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 13. ECG and Arrhythmias",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-23T17:40:47Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/702"
@@ -569,7 +569,7 @@
             {
               "id": "topic_-1003709841202_703",
               "subject_id": "medicine",
-              "module": "Cardiology, ECG & Hematology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "14. ECG Changes in Hypokalemia & Hyperkalemia",
               "filename": "14. ECG Changes in Hypokalemia & Hyperkalemia.mp4",
               "file_size_bytes": 206291718,
@@ -579,8 +579,8 @@
               "chat_id": -1003709841202,
               "message_id": 703,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 14. ECG Changes in Hypokalemia & Hyperkalemia",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 14. ECG Changes in Hypokalemia & Hyperkalemia",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-23T18:00:13Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/703"
@@ -588,7 +588,7 @@
             {
               "id": "topic_-1003709841202_704",
               "subject_id": "medicine",
-              "module": "Cardiology, ECG & Hematology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "15. Ischemic Heart Disease Part 1",
               "filename": "15. Ischemic Heart Disease Part 1.mp4",
               "file_size_bytes": 769466636,
@@ -598,8 +598,8 @@
               "chat_id": -1003709841202,
               "message_id": 704,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 15. Ischemic Heart Disease Part 1",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 15. Ischemic Heart Disease Part 1",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-23T18:10:34Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/704"
@@ -607,7 +607,7 @@
             {
               "id": "topic_-1003709841202_705",
               "subject_id": "medicine",
-              "module": "Cardiology, ECG & Hematology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "16. Ischemic Heart Disease Part 2",
               "filename": "16. Ischemic Heart Disease Part 2.mp4",
               "file_size_bytes": 769939849,
@@ -617,8 +617,8 @@
               "chat_id": -1003709841202,
               "message_id": 705,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 16. Ischemic Heart Disease Part 2",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 16. Ischemic Heart Disease Part 2",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-23T18:19:30Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/705"
@@ -626,7 +626,7 @@
             {
               "id": "topic_-1003709841202_706",
               "subject_id": "medicine",
-              "module": "Cardiology, ECG & Hematology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "17. Symptomatic Bradycardia with a Pulse",
               "filename": "17. Symptomatic Bradycardia with a Pulse.mp4",
               "file_size_bytes": 275626507,
@@ -636,8 +636,8 @@
               "chat_id": -1003709841202,
               "message_id": 706,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 17. Symptomatic Bradycardia with a Pulse",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 17. Symptomatic Bradycardia with a Pulse",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-23T18:22:42Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/706"
@@ -645,7 +645,7 @@
             {
               "id": "topic_-1003709841202_707",
               "subject_id": "medicine",
-              "module": "Cardiology, ECG & Hematology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "18. Congenital Heart Disease",
               "filename": "18. Congenital Heart Disease.mp4",
               "file_size_bytes": 560999825,
@@ -655,8 +655,8 @@
               "chat_id": -1003709841202,
               "message_id": 707,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 18. Congenital Heart Disease",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 18. Congenital Heart Disease",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-23T18:29:03Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/707"
@@ -664,7 +664,7 @@
             {
               "id": "topic_-1003709841202_708",
               "subject_id": "medicine",
-              "module": "Cardiology, ECG & Hematology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "19. Metabolic-Syndrome-X and Syndrome-Z",
               "filename": "19. Metabolic-Syndrome-X and Syndrome-Z.mp4",
               "file_size_bytes": 160907094,
@@ -674,8 +674,8 @@
               "chat_id": -1003709841202,
               "message_id": 708,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 19. Metabolic-Syndrome-X and Syndrome-Z",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 19. Metabolic-Syndrome-X and Syndrome-Z",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-23T18:31:23Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/708"
@@ -683,7 +683,7 @@
             {
               "id": "topic_-1003709841202_709",
               "subject_id": "medicine",
-              "module": "Cardiology, ECG & Hematology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "20. Hypertension",
               "filename": "20. Hypertension.mp4",
               "file_size_bytes": 617478830,
@@ -693,8 +693,8 @@
               "chat_id": -1003709841202,
               "message_id": 709,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 20. Hypertension",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 20. Hypertension",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-23T18:38:17Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/709"
@@ -702,7 +702,7 @@
             {
               "id": "topic_-1003709841202_710",
               "subject_id": "medicine",
-              "module": "Cardiology, ECG & Hematology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "21. Diseases of Pericardium",
               "filename": "21. Diseases of Pericardium.mp4",
               "file_size_bytes": 559925093,
@@ -712,8 +712,8 @@
               "chat_id": -1003709841202,
               "message_id": 710,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 21. Diseases of Pericardium",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 21. Diseases of Pericardium",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-23T18:44:33Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/710"
@@ -721,7 +721,7 @@
             {
               "id": "topic_-1003709841202_711",
               "subject_id": "medicine",
-              "module": "Cardiology, ECG & Hematology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "22. Congestive Heart Failure",
               "filename": "22. Congestive Heart Failure.mp4",
               "file_size_bytes": 547594815,
@@ -731,8 +731,8 @@
               "chat_id": -1003709841202,
               "message_id": 711,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 22. Congestive Heart Failure",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 22. Congestive Heart Failure",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-23T18:52:36Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/711"
@@ -740,7 +740,7 @@
             {
               "id": "topic_-1003709841202_712",
               "subject_id": "medicine",
-              "module": "Cardiology, ECG & Hematology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "23. Bundle Branch Block",
               "filename": "23. Bundle Branch Block.mp4",
               "file_size_bytes": 186359096,
@@ -750,8 +750,8 @@
               "chat_id": -1003709841202,
               "message_id": 712,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 23. Bundle Branch Block",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 23. Bundle Branch Block",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-23T18:55:10Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/712"
@@ -759,7 +759,7 @@
             {
               "id": "topic_-1003709841202_713",
               "subject_id": "medicine",
-              "module": "Cardiology, ECG & Hematology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "24. Rheumatic Heart Disease",
               "filename": "24. Rheumatic Heart Disease.mp4",
               "file_size_bytes": 346582077,
@@ -769,8 +769,8 @@
               "chat_id": -1003709841202,
               "message_id": 713,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 24. Rheumatic Heart Disease",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 24. Rheumatic Heart Disease",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-23T18:59:16Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/713"
@@ -778,7 +778,7 @@
             {
               "id": "topic_-1003709841202_714",
               "subject_id": "medicine",
-              "module": "Cardiology, ECG & Hematology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "25. Infective Endocarditis",
               "filename": "25. Infective Endocarditis.mp4",
               "file_size_bytes": 389350489,
@@ -788,8 +788,8 @@
               "chat_id": -1003709841202,
               "message_id": 714,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 25. Infective Endocarditis",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 25. Infective Endocarditis",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-23T19:03:48Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/714"
@@ -797,7 +797,7 @@
             {
               "id": "topic_-1003709841202_715",
               "subject_id": "medicine",
-              "module": "Cardiology, ECG & Hematology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "26. Cardiomyopathy",
               "filename": "26. Cardiomyopathy.mp4",
               "file_size_bytes": 554587733,
@@ -807,8 +807,8 @@
               "chat_id": -1003709841202,
               "message_id": 715,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 26. Cardiomyopathy",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 26. Cardiomyopathy",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-23T19:13:27Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/715"
@@ -816,7 +816,7 @@
             {
               "id": "topic_-1003709841202_716",
               "subject_id": "medicine",
-              "module": "Cardiology, ECG & Hematology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "27. Multifocal Atrial Tachycardia",
               "filename": "27. Multifocal Atrial Tachycardia.mp4",
               "file_size_bytes": 96850482,
@@ -826,8 +826,8 @@
               "chat_id": -1003709841202,
               "message_id": 716,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 27. Multifocal Atrial Tachycardia",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 27. Multifocal Atrial Tachycardia",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-23T19:31:54Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/716"
@@ -835,7 +835,7 @@
             {
               "id": "topic_-1003709841202_717",
               "subject_id": "medicine",
-              "module": "Cardiology, ECG & Hematology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "28. Cardiology Image Based Question",
               "filename": "28. Cardiology Image Based Question.mp4",
               "file_size_bytes": 584233074,
@@ -845,8 +845,8 @@
               "chat_id": -1003709841202,
               "message_id": 717,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 28. Cardiology Image Based Question",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 28. Cardiology Image Based Question",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-23T19:51:13Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/717"
@@ -854,7 +854,7 @@
             {
               "id": "topic_-1003709841202_718",
               "subject_id": "medicine",
-              "module": "Cardiology, ECG & Hematology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "29. Basic Life Support",
               "filename": "29. Basic Life Support.mp4",
               "file_size_bytes": 181757047,
@@ -864,8 +864,8 @@
               "chat_id": -1003709841202,
               "message_id": 718,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 29. Basic Life Support",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 29. Basic Life Support",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-23T22:36:22Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/718"
@@ -873,7 +873,7 @@
             {
               "id": "topic_-1003709841202_719",
               "subject_id": "medicine",
-              "module": "Cardiology, ECG & Hematology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "30. Pulseless Electrical Activity",
               "filename": "30. Pulseless Electrical Activity.mp4",
               "file_size_bytes": 110517850,
@@ -883,8 +883,8 @@
               "chat_id": -1003709841202,
               "message_id": 719,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 30. Pulseless Electrical Activity",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 30. Pulseless Electrical Activity",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-23T22:37:03Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/719"
@@ -892,7 +892,7 @@
             {
               "id": "topic_-1003709841202_720",
               "subject_id": "medicine",
-              "module": "Cardiology, ECG & Hematology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "31. Advanced Cardiac Life Support",
               "filename": "31. Advanced Cardiac Life Support.mp4",
               "file_size_bytes": 230558586,
@@ -902,8 +902,8 @@
               "chat_id": -1003709841202,
               "message_id": 720,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 31. Advanced Cardiac Life Support",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 31. Advanced Cardiac Life Support",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-23T22:38:23Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/720"
@@ -911,7 +911,7 @@
             {
               "id": "topic_-1003709841202_721",
               "subject_id": "medicine",
-              "module": "Cardiology, ECG & Hematology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "32. Mechanical Ventilation",
               "filename": "32. Mechanical Ventilation.mp4",
               "file_size_bytes": 277149801,
@@ -921,8 +921,8 @@
               "chat_id": -1003709841202,
               "message_id": 721,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 32. Mechanical Ventilation",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 32. Mechanical Ventilation",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-23T22:40:03Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/721"
@@ -930,7 +930,7 @@
             {
               "id": "topic_-1003709841202_722",
               "subject_id": "medicine",
-              "module": "Cardiology, ECG & Hematology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "33. Massive Transfusion Protocol",
               "filename": "33. Massive Transfusion Protocol.mp4",
               "file_size_bytes": 137585608,
@@ -940,8 +940,8 @@
               "chat_id": -1003709841202,
               "message_id": 722,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 33. Massive Transfusion Protocol",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 33. Massive Transfusion Protocol",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-23T22:40:52Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/722"
@@ -949,7 +949,7 @@
             {
               "id": "topic_-1003709841202_723",
               "subject_id": "medicine",
-              "module": "Cardiology, ECG & Hematology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "34. ARDS",
               "filename": "34. ARDS.mp4",
               "file_size_bytes": 244838413,
@@ -959,8 +959,8 @@
               "chat_id": -1003709841202,
               "message_id": 723,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 34. ARDS",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 34. ARDS",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-23T22:42:14Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/723"
@@ -968,7 +968,7 @@
             {
               "id": "topic_-1003709841202_724",
               "subject_id": "medicine",
-              "module": "Cardiology, ECG & Hematology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "35. Snake Bite",
               "filename": "35. Snake Bite.mp4",
               "file_size_bytes": 196272021,
@@ -978,8 +978,8 @@
               "chat_id": -1003709841202,
               "message_id": 724,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 35. Snake Bite",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 35. Snake Bite",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-23T22:43:25Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/724"
@@ -987,7 +987,7 @@
             {
               "id": "topic_-1003709841202_725",
               "subject_id": "medicine",
-              "module": "Cardiology, ECG & Hematology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "36. High Altitude Pulmonary Edema and Hypothermia",
               "filename": "36. High Altitude Pulmonary Edema and Hypothermia.mp4",
               "file_size_bytes": 209706222,
@@ -997,8 +997,8 @@
               "chat_id": -1003709841202,
               "message_id": 725,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 36. High Altitude Pulmonary Edema and Hypothermia",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 36. High Altitude Pulmonary Edema and Hypothermia",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-23T22:44:43Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/725"
@@ -1006,7 +1006,7 @@
             {
               "id": "topic_-1003709841202_726",
               "subject_id": "medicine",
-              "module": "Cardiology, ECG & Hematology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "37. Diabetes Mellitus Part 1",
               "filename": "37. Diabetes Mellitus Part 1.mp4",
               "file_size_bytes": 386429234,
@@ -1016,8 +1016,8 @@
               "chat_id": -1003709841202,
               "message_id": 726,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 37. Diabetes Mellitus Part 1",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 37. Diabetes Mellitus Part 1",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-23T22:47:04Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/726"
@@ -1025,7 +1025,7 @@
             {
               "id": "topic_-1003709841202_727",
               "subject_id": "medicine",
-              "module": "Cardiology, ECG & Hematology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "38. Diabetes Mellitus Part 2",
               "filename": "38. Diabetes Mellitus Part 2.mp4",
               "file_size_bytes": 755002848,
@@ -1035,8 +1035,8 @@
               "chat_id": -1003709841202,
               "message_id": 727,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 38. Diabetes Mellitus Part 2",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 38. Diabetes Mellitus Part 2",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-23T22:51:17Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/727"
@@ -1044,7 +1044,7 @@
             {
               "id": "topic_-1003709841202_728",
               "subject_id": "medicine",
-              "module": "Cardiology, ECG & Hematology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "39. Diabetic Ketoacidosis and Hyperosmolar Coma",
               "filename": "39. Diabetic Ketoacidosis and Hyperosmolar Coma.mp4",
               "file_size_bytes": 425790791,
@@ -1054,8 +1054,8 @@
               "chat_id": -1003709841202,
               "message_id": 728,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 39. Diabetic Ketoacidosis and Hyperosmolar Coma",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 39. Diabetic Ketoacidosis and Hyperosmolar Coma",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-23T22:53:45Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/728"
@@ -1063,7 +1063,7 @@
             {
               "id": "topic_-1003709841202_729",
               "subject_id": "medicine",
-              "module": "Cardiology, ECG & Hematology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "40. Diseases of Adrenal Gland",
               "filename": "40. Diseases of Adrenal Gland.mp4",
               "file_size_bytes": 1002385343,
@@ -1073,8 +1073,8 @@
               "chat_id": -1003709841202,
               "message_id": 729,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 40. Diseases of Adrenal Gland",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 40. Diseases of Adrenal Gland",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-23T22:59:23Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/729"
@@ -1082,7 +1082,7 @@
             {
               "id": "topic_-1003709841202_730",
               "subject_id": "medicine",
-              "module": "Cardiology, ECG & Hematology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "41. Cushing Syndrome",
               "filename": "41. Cushing Syndrome.mp4",
               "file_size_bytes": 292637007,
@@ -1092,8 +1092,8 @@
               "chat_id": -1003709841202,
               "message_id": 730,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 41. Cushing Syndrome",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 41. Cushing Syndrome",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-23T23:01:13Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/730"
@@ -1101,7 +1101,7 @@
             {
               "id": "topic_-1003709841202_731",
               "subject_id": "medicine",
-              "module": "Cardiology, ECG & Hematology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "42. Diseases of Thyroid",
               "filename": "42. Diseases of Thyroid.mp4",
               "file_size_bytes": 556000445,
@@ -1111,8 +1111,8 @@
               "chat_id": -1003709841202,
               "message_id": 731,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 42. Diseases of Thyroid",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 42. Diseases of Thyroid",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-23T23:04:30Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/731"
@@ -1120,7 +1120,7 @@
             {
               "id": "topic_-1003709841202_732",
               "subject_id": "medicine",
-              "module": "Cardiology, ECG & Hematology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "43. Pancreatic Neuroendocrine Tumors",
               "filename": "43. Pancreatic Neuroendocrine Tumors.mp4",
               "file_size_bytes": 271476628,
@@ -1130,8 +1130,8 @@
               "chat_id": -1003709841202,
               "message_id": 732,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 43. Pancreatic Neuroendocrine Tumors",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 43. Pancreatic Neuroendocrine Tumors",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-23T23:06:10Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/732"
@@ -1139,7 +1139,7 @@
             {
               "id": "topic_-1003709841202_733",
               "subject_id": "medicine",
-              "module": "Cardiology, ECG & Hematology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "44. Disorders of Parathyroid Gland",
               "filename": "44. Disorders of Parathyroid Gland.mp4",
               "file_size_bytes": 425680428,
@@ -1149,8 +1149,8 @@
               "chat_id": -1003709841202,
               "message_id": 733,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 44. Disorders of Parathyroid Gland",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 44. Disorders of Parathyroid Gland",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-23T23:08:38Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/733"
@@ -1158,7 +1158,7 @@
             {
               "id": "topic_-1003709841202_734",
               "subject_id": "medicine",
-              "module": "Cardiology, ECG & Hematology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "45. Multiple Endocrine Neoplasia",
               "filename": "45. Multiple Endocrine Neoplasia.mp4",
               "file_size_bytes": 137360606,
@@ -1168,8 +1168,8 @@
               "chat_id": -1003709841202,
               "message_id": 734,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 45. Multiple Endocrine Neoplasia",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 45. Multiple Endocrine Neoplasia",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-23T23:09:30Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/734"
@@ -1177,7 +1177,7 @@
             {
               "id": "topic_-1003709841202_735",
               "subject_id": "medicine",
-              "module": "Cardiology, ECG & Hematology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "46. Diseases of Anterior Pituitary",
               "filename": "46. Diseases of Anterior Pituitary.mp4",
               "file_size_bytes": 361636205,
@@ -1187,8 +1187,8 @@
               "chat_id": -1003709841202,
               "message_id": 735,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 46. Diseases of Anterior Pituitary",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 46. Diseases of Anterior Pituitary",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-23T23:11:37Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/735"
@@ -1196,7 +1196,7 @@
             {
               "id": "topic_-1003709841202_736",
               "subject_id": "medicine",
-              "module": "Cardiology, ECG & Hematology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "47. Endocrinology Image Based Questions",
               "filename": "47. Endocrinology Image Based Questions.mp4",
               "file_size_bytes": 83587881,
@@ -1206,8 +1206,8 @@
               "chat_id": -1003709841202,
               "message_id": 736,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 47. Endocrinology Image Based Questions",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 47. Endocrinology Image Based Questions",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-23T23:12:05Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/736"
@@ -1215,7 +1215,7 @@
             {
               "id": "topic_-1003709841202_737",
               "subject_id": "medicine",
-              "module": "Cardiology, ECG & Hematology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "48. Electrolyte Imbalances",
               "filename": "48. Electrolyte Imbalances.mp4",
               "file_size_bytes": 426913446,
@@ -1225,8 +1225,8 @@
               "chat_id": -1003709841202,
               "message_id": 737,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 48. Electrolyte Imbalances",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 48. Electrolyte Imbalances",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-23T23:14:32Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/737"
@@ -1234,7 +1234,7 @@
             {
               "id": "topic_-1003709841202_738",
               "subject_id": "medicine",
-              "module": "Cardiology, ECG & Hematology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "49. Bartter Syndrome, Gitelman Syndrome, Liddle Syndrome an",
               "filename": "49. Bartter Syndrome, Gitelman Syndrome, Liddle Syndrome an.mp4",
               "file_size_bytes": 298313779,
@@ -1244,8 +1244,8 @@
               "chat_id": -1003709841202,
               "message_id": 738,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 49. Bartter Syndrome, Gitelman Syndrome, Liddle Syndrome an",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 49. Bartter Syndrome, Gitelman Syndrome, Liddle Syndrome an",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-23T23:16:11Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/738"
@@ -1253,7 +1253,7 @@
             {
               "id": "topic_-1003709841202_739",
               "subject_id": "medicine",
-              "module": "Cardiology, ECG & Hematology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "50. Ciliopathies",
               "filename": "50. Ciliopathies.mp4",
               "file_size_bytes": 90600754,
@@ -1263,8 +1263,8 @@
               "chat_id": -1003709841202,
               "message_id": 739,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 50. Ciliopathies",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 50. Ciliopathies",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-23T23:16:44Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/739"
@@ -1272,7 +1272,7 @@
             {
               "id": "topic_-1003709841202_740",
               "subject_id": "medicine",
-              "module": "Cardiology, ECG & Hematology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "51. Polycystic Kidney Disease",
               "filename": "51. Polycystic Kidney Disease.mp4",
               "file_size_bytes": 143664818,
@@ -1282,8 +1282,8 @@
               "chat_id": -1003709841202,
               "message_id": 740,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 51. Polycystic Kidney Disease",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 51. Polycystic Kidney Disease",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-23T23:17:33Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/740"
@@ -1291,7 +1291,7 @@
             {
               "id": "topic_-1003709841202_741",
               "subject_id": "medicine",
-              "module": "Cardiology, ECG & Hematology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "52. Thrombotic Thrombocytopenic Purpura",
               "filename": "52. Thrombotic Thrombocytopenic Purpura.mp4",
               "file_size_bytes": 89114884,
@@ -1301,8 +1301,8 @@
               "chat_id": -1003709841202,
               "message_id": 741,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 52. Thrombotic Thrombocytopenic Purpura",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 52. Thrombotic Thrombocytopenic Purpura",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-23T23:18:05Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/741"
@@ -1310,7 +1310,7 @@
             {
               "id": "topic_-1003709841202_742",
               "subject_id": "medicine",
-              "module": "Cardiology, ECG & Hematology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "53. Kidney Urine analysis",
               "filename": "53. Kidney Urine analysis.mp4",
               "file_size_bytes": 221974052,
@@ -1320,8 +1320,8 @@
               "chat_id": -1003709841202,
               "message_id": 742,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 53. Kidney Urine analysis",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 53. Kidney Urine analysis",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-23T23:19:19Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/742"
@@ -1329,7 +1329,7 @@
             {
               "id": "topic_-1003709841202_743",
               "subject_id": "medicine",
-              "module": "Cardiology, ECG & Hematology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "54. Acute Kidney Injury",
               "filename": "54. Acute Kidney Injury.mp4",
               "file_size_bytes": 597473381,
@@ -1339,8 +1339,8 @@
               "chat_id": -1003709841202,
               "message_id": 743,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 54. Acute Kidney Injury",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 54. Acute Kidney Injury",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-24T02:28:53Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/743"
@@ -1348,7 +1348,7 @@
             {
               "id": "topic_-1003709841202_744",
               "subject_id": "medicine",
-              "module": "Cardiology, ECG & Hematology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "55. Chronic Kidney Disease",
               "filename": "55. Chronic Kidney Disease.mp4",
               "file_size_bytes": 324838718,
@@ -1358,8 +1358,8 @@
               "chat_id": -1003709841202,
               "message_id": 744,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 55. Chronic Kidney Disease",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 55. Chronic Kidney Disease",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-24T02:31:24Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/744"
@@ -1367,7 +1367,7 @@
             {
               "id": "topic_-1003709841202_745",
               "subject_id": "medicine",
-              "module": "Cardiology, ECG & Hematology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "56. Kidney Stone",
               "filename": "56. Kidney Stone.mp4",
               "file_size_bytes": 155634698,
@@ -1377,8 +1377,8 @@
               "chat_id": -1003709841202,
               "message_id": 745,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 56. Kidney Stone",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 56. Kidney Stone",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-24T02:32:20Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/745"
@@ -1386,7 +1386,7 @@
             {
               "id": "topic_-1003709841202_746",
               "subject_id": "medicine",
-              "module": "Cardiology, ECG & Hematology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "57. Renal Tubular Acidosis",
               "filename": "57. Renal Tubular Acidosis.mp4",
               "file_size_bytes": 167345340,
@@ -1396,8 +1396,8 @@
               "chat_id": -1003709841202,
               "message_id": 746,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 57. Renal Tubular Acidosis",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 57. Renal Tubular Acidosis",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-24T02:33:40Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/746"
@@ -1405,7 +1405,7 @@
             {
               "id": "topic_-1003709841202_747",
               "subject_id": "medicine",
-              "module": "Cardiology, ECG & Hematology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "58. Nephrotic and Nephritic Syndrome",
               "filename": "58. Nephrotic and Nephritic Syndrome.mp4",
               "file_size_bytes": 657170134,
@@ -1415,8 +1415,8 @@
               "chat_id": -1003709841202,
               "message_id": 747,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 58. Nephrotic and Nephritic Syndrome",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 58. Nephrotic and Nephritic Syndrome",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-24T02:37:44Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/747"
@@ -1424,7 +1424,7 @@
             {
               "id": "topic_-1003709841202_748",
               "subject_id": "medicine",
-              "module": "Cardiology, ECG & Hematology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "59. Nephrotic and Nephritic Syndrome",
               "filename": "59. Nephrotic and Nephritic Syndrome.mp4",
               "file_size_bytes": 657170134,
@@ -1434,8 +1434,8 @@
               "chat_id": -1003709841202,
               "message_id": 748,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 59. Nephrotic and Nephritic Syndrome",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 59. Nephrotic and Nephritic Syndrome",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-24T02:42:00Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/748"
@@ -1443,7 +1443,7 @@
             {
               "id": "topic_-1003709841202_749",
               "subject_id": "medicine",
-              "module": "Cardiology, ECG & Hematology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "60. GI Bleeding",
               "filename": "60. GI Bleeding.mp4",
               "file_size_bytes": 304919589,
@@ -1453,8 +1453,8 @@
               "chat_id": -1003709841202,
               "message_id": 749,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 60. GI Bleeding",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 60. GI Bleeding",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-24T02:44:02Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/749"
@@ -1462,7 +1462,7 @@
             {
               "id": "topic_-1003709841202_750",
               "subject_id": "medicine",
-              "module": "Cardiology, ECG & Hematology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "61. Peptic Ulcer Disease",
               "filename": "61. Peptic Ulcer Disease.mp4",
               "file_size_bytes": 224182169,
@@ -1472,8 +1472,8 @@
               "chat_id": -1003709841202,
               "message_id": 750,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 61. Peptic Ulcer Disease",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 61. Peptic Ulcer Disease",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-24T02:45:38Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/750"
@@ -1481,7 +1481,7 @@
             {
               "id": "topic_-1003709841202_751",
               "subject_id": "medicine",
-              "module": "Cardiology, ECG & Hematology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "62. Zollinger Ellison Syndrome",
               "filename": "62. Zollinger Ellison Syndrome.mp4",
               "file_size_bytes": 79288886,
@@ -1491,8 +1491,8 @@
               "chat_id": -1003709841202,
               "message_id": 751,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 62. Zollinger Ellison Syndrome",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 62. Zollinger Ellison Syndrome",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-24T02:46:08Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/751"
@@ -1500,7 +1500,7 @@
             {
               "id": "topic_-1003709841202_752",
               "subject_id": "medicine",
-              "module": "Cardiology, ECG & Hematology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "63. Malabsorption Syndrome",
               "filename": "63. Malabsorption Syndrome.mp4",
               "file_size_bytes": 416828344,
@@ -1510,8 +1510,8 @@
               "chat_id": -1003709841202,
               "message_id": 752,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 63. Malabsorption Syndrome",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 63. Malabsorption Syndrome",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-24T02:48:45Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/752"
@@ -1519,7 +1519,7 @@
             {
               "id": "topic_-1003709841202_753",
               "subject_id": "medicine",
-              "module": "Cardiology, ECG & Hematology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "64. Inflammatory Bowel Disease",
               "filename": "64. Inflammatory Bowel Disease.mp4",
               "file_size_bytes": 374166090,
@@ -1529,8 +1529,8 @@
               "chat_id": -1003709841202,
               "message_id": 753,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 64. Inflammatory Bowel Disease",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 64. Inflammatory Bowel Disease",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-24T02:53:18Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/753"
@@ -1538,7 +1538,7 @@
             {
               "id": "topic_-1003709841202_754",
               "subject_id": "medicine",
-              "module": "Cardiology, ECG & Hematology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "65. Irritable Bowel Syndrome",
               "filename": "65. Irritable Bowel Syndrome.mp4",
               "file_size_bytes": 94659192,
@@ -1548,8 +1548,8 @@
               "chat_id": -1003709841202,
               "message_id": 754,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 65. Irritable Bowel Syndrome",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 65. Irritable Bowel Syndrome",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-24T02:54:37Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/754"
@@ -1557,7 +1557,7 @@
             {
               "id": "topic_-1003709841202_755",
               "subject_id": "medicine",
-              "module": "Cardiology, ECG & Hematology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "66. Irritable Bowel Syndrome",
               "filename": "66. Irritable Bowel Syndrome.mp4",
               "file_size_bytes": 94659192,
@@ -1567,8 +1567,8 @@
               "chat_id": -1003709841202,
               "message_id": 755,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 66. Irritable Bowel Syndrome",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 66. Irritable Bowel Syndrome",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-24T02:55:54Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/755"
@@ -1576,7 +1576,7 @@
             {
               "id": "topic_-1003709841202_756",
               "subject_id": "medicine",
-              "module": "Cardiology, ECG & Hematology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "67. Chronic Lymphocytic Leukemia",
               "filename": "67. Chronic Lymphocytic Leukemia.mp4",
               "file_size_bytes": 127089970,
@@ -1586,8 +1586,8 @@
               "chat_id": -1003709841202,
               "message_id": 756,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 67. Chronic Lymphocytic Leukemia",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 67. Chronic Lymphocytic Leukemia",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-24T02:57:39Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/756"
@@ -1595,7 +1595,7 @@
             {
               "id": "topic_-1003709841202_757",
               "subject_id": "medicine",
-              "module": "Cardiology, ECG & Hematology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "68. Chronic Myeloid Leukemia",
               "filename": "68. Chronic Myeloid Leukemia.mp4",
               "file_size_bytes": 184107453,
@@ -1605,8 +1605,8 @@
               "chat_id": -1003709841202,
               "message_id": 757,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 68. Chronic Myeloid Leukemia",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 68. Chronic Myeloid Leukemia",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-24T03:00:08Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/757"
@@ -1614,7 +1614,7 @@
             {
               "id": "topic_-1003709841202_758",
               "subject_id": "medicine",
-              "module": "Cardiology, ECG & Hematology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "69. Acute Myeloid Leukemia",
               "filename": "69. Acute Myeloid Leukemia.mp4",
               "file_size_bytes": 198421859,
@@ -1624,8 +1624,8 @@
               "chat_id": -1003709841202,
               "message_id": 758,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 69. Acute Myeloid Leukemia",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 69. Acute Myeloid Leukemia",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-24T03:02:36Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/758"
@@ -1633,7 +1633,7 @@
             {
               "id": "topic_-1003709841202_759",
               "subject_id": "medicine",
-              "module": "Cardiology, ECG & Hematology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "70. Acute Lymphoblastic Leukemia",
               "filename": "70. Acute Lymphoblastic Leukemia.mp4",
               "file_size_bytes": 152453942,
@@ -1643,8 +1643,8 @@
               "chat_id": -1003709841202,
               "message_id": 759,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 70. Acute Lymphoblastic Leukemia",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 70. Acute Lymphoblastic Leukemia",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-24T03:04:40Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/759"
@@ -1652,7 +1652,7 @@
             {
               "id": "topic_-1003709841202_760",
               "subject_id": "medicine",
-              "module": "Cardiology, ECG & Hematology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "71. Multiple Myeloma",
               "filename": "71. Multiple Myeloma.mp4",
               "file_size_bytes": 281421461,
@@ -1662,8 +1662,8 @@
               "chat_id": -1003709841202,
               "message_id": 760,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 71. Multiple Myeloma",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 71. Multiple Myeloma",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-24T03:08:10Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/760"
@@ -1671,7 +1671,7 @@
             {
               "id": "topic_-1003709841202_761",
               "subject_id": "medicine",
-              "module": "Cardiology, ECG & Hematology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "72. Blood Components",
               "filename": "72. Blood Components.mp4",
               "file_size_bytes": 88902485,
@@ -1681,8 +1681,8 @@
               "chat_id": -1003709841202,
               "message_id": 761,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 72. Blood Components",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 72. Blood Components",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-24T03:09:25Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/761"
@@ -1690,7 +1690,7 @@
             {
               "id": "topic_-1003709841202_762",
               "subject_id": "medicine",
-              "module": "Cardiology, ECG & Hematology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "73. Complications of Blood Transfusion",
               "filename": "73. Complications of Blood Transfusion.mp4",
               "file_size_bytes": 279583080,
@@ -1700,8 +1700,8 @@
               "chat_id": -1003709841202,
               "message_id": 762,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 73. Complications of Blood Transfusion",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 73. Complications of Blood Transfusion",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-24T03:13:02Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/762"
@@ -1709,7 +1709,7 @@
             {
               "id": "topic_-1003709841202_763",
               "subject_id": "medicine",
-              "module": "Cardiology, ECG & Hematology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "74. Hodgkins and Non-Hodgkins Lymphoma",
               "filename": "74. Hodgkins and Non-Hodgkins Lymphoma.mp4",
               "file_size_bytes": 278288715,
@@ -1719,8 +1719,8 @@
               "chat_id": -1003709841202,
               "message_id": 763,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 74. Hodgkins and Non-Hodgkins Lymphoma",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 74. Hodgkins and Non-Hodgkins Lymphoma",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-24T03:16:43Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/763"
@@ -1728,7 +1728,7 @@
             {
               "id": "topic_-1003709841202_764",
               "subject_id": "medicine",
-              "module": "Cardiology, ECG & Hematology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "75. Thalassemia",
               "filename": "75. Thalassemia.mp4",
               "file_size_bytes": 272788354,
@@ -1738,8 +1738,8 @@
               "chat_id": -1003709841202,
               "message_id": 764,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 75. Thalassemia",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 75. Thalassemia",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-24T03:20:15Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/764"
@@ -1747,7 +1747,7 @@
             {
               "id": "topic_-1003709841202_765",
               "subject_id": "medicine",
-              "module": "Cardiology, ECG & Hematology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "76. Sickle Cell Disease, G-6PD Deficiency and Other Hemolyt",
               "filename": "76. Sickle Cell Disease, G-6PD Deficiency and Other Hemolyt.mp4",
               "file_size_bytes": 193934383,
@@ -1757,8 +1757,8 @@
               "chat_id": -1003709841202,
               "message_id": 765,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 76. Sickle Cell Disease, G-6PD Deficiency and Other Hemolyt",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 76. Sickle Cell Disease, G-6PD Deficiency and Other Hemolyt",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-24T03:22:41Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/765"
@@ -1766,7 +1766,7 @@
             {
               "id": "topic_-1003709841202_766",
               "subject_id": "medicine",
-              "module": "Cardiology, ECG & Hematology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "77. Sideroblastic Anemia",
               "filename": "77. Sideroblastic Anemia.mp4",
               "file_size_bytes": 43684688,
@@ -1776,8 +1776,8 @@
               "chat_id": -1003709841202,
               "message_id": 766,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 77. Sideroblastic Anemia",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 77. Sideroblastic Anemia",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-24T03:23:13Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/766"
@@ -1785,7 +1785,7 @@
             {
               "id": "topic_-1003709841202_767",
               "subject_id": "medicine",
-              "module": "Cardiology, ECG & Hematology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "78. Platelet Disorders",
               "filename": "78. Platelet Disorders.mp4",
               "file_size_bytes": 186035441,
@@ -1795,22 +1795,16 @@
               "chat_id": -1003709841202,
               "message_id": 767,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 78. Platelet Disorders",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 78. Platelet Disorders",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-24T03:25:44Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/767"
-            }
-          ]
-        },
-        {
-          "id": "mod_med_neuro",
-          "name": "Neurology & Pulmonology (Dr. Deepak Marwah)",
-          "topics": [
+            },
             {
               "id": "topic_-1003709841202_768",
               "subject_id": "medicine",
-              "module": "Neurology & Pulmonology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "79. Stroke",
               "filename": "79. Stroke.mp4",
               "file_size_bytes": 625628215,
@@ -1820,8 +1814,8 @@
               "chat_id": -1003709841202,
               "message_id": 768,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 79. Stroke",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 79. Stroke",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-24T05:40:44Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/768"
@@ -1829,7 +1823,7 @@
             {
               "id": "topic_-1003709841202_769",
               "subject_id": "medicine",
-              "module": "Neurology & Pulmonology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "80. Headache and Migraine",
               "filename": "80. Headache and Migraine.mp4",
               "file_size_bytes": 422235379,
@@ -1839,8 +1833,8 @@
               "chat_id": -1003709841202,
               "message_id": 769,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 80. Headache and Migraine",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 80. Headache and Migraine",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-24T05:45:31Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/769"
@@ -1848,7 +1842,7 @@
             {
               "id": "topic_-1003709841202_770",
               "subject_id": "medicine",
-              "module": "Neurology & Pulmonology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "81. Epilepsy and EEG",
               "filename": "81. Epilepsy and EEG.mp4",
               "file_size_bytes": 520208266,
@@ -1858,8 +1852,8 @@
               "chat_id": -1003709841202,
               "message_id": 770,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 81. Epilepsy and EEG",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 81. Epilepsy and EEG",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-24T05:51:22Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/770"
@@ -1867,7 +1861,7 @@
             {
               "id": "topic_-1003709841202_771",
               "subject_id": "medicine",
-              "module": "Neurology & Pulmonology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "82. Raised ICP and Brain Death",
               "filename": "82. Raised ICP and Brain Death.mp4",
               "file_size_bytes": 407916019,
@@ -1877,8 +1871,8 @@
               "chat_id": -1003709841202,
               "message_id": 771,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 82. Raised ICP and Brain Death",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 82. Raised ICP and Brain Death",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-24T05:56:08Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/771"
@@ -1886,7 +1880,7 @@
             {
               "id": "topic_-1003709841202_772",
               "subject_id": "medicine",
-              "module": "Neurology & Pulmonology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "83. Meningitis Part 1",
               "filename": "83. Meningitis Part 1.mp4",
               "file_size_bytes": 199175278,
@@ -1896,8 +1890,8 @@
               "chat_id": -1003709841202,
               "message_id": 772,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 83. Meningitis Part 1",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 83. Meningitis Part 1",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-24T05:58:31Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/772"
@@ -1905,7 +1899,7 @@
             {
               "id": "topic_-1003709841202_773",
               "subject_id": "medicine",
-              "module": "Neurology & Pulmonology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "84. Meningitis Part 2",
               "filename": "84. Meningitis Part 2.mp4",
               "file_size_bytes": 513392353,
@@ -1915,8 +1909,8 @@
               "chat_id": -1003709841202,
               "message_id": 773,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 84. Meningitis Part 2",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 84. Meningitis Part 2",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-24T06:04:15Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/773"
@@ -1924,7 +1918,7 @@
             {
               "id": "topic_-1003709841202_774",
               "subject_id": "medicine",
-              "module": "Neurology & Pulmonology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "85. Parkinsonism and Parkinsons Disease",
               "filename": "85. Parkinsonism and Parkinsons Disease.mp4",
               "file_size_bytes": 487905774,
@@ -1934,8 +1928,8 @@
               "chat_id": -1003709841202,
               "message_id": 774,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 85. Parkinsonism and Parkinsons Disease",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 85. Parkinsonism and Parkinsons Disease",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-24T06:09:43Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/774"
@@ -1943,7 +1937,7 @@
             {
               "id": "topic_-1003709841202_775",
               "subject_id": "medicine",
-              "module": "Neurology & Pulmonology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "86. Myasthenia Gravis",
               "filename": "86. Myasthenia Gravis.mp4",
               "file_size_bytes": 333088998,
@@ -1953,8 +1947,8 @@
               "chat_id": -1003709841202,
               "message_id": 775,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 86. Myasthenia Gravis",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 86. Myasthenia Gravis",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-24T06:13:30Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/775"
@@ -1962,7 +1956,7 @@
             {
               "id": "topic_-1003709841202_776",
               "subject_id": "medicine",
-              "module": "Neurology & Pulmonology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "87. Guillian Barre Syndrome",
               "filename": "87. Guillian Barre Syndrome.mp4",
               "file_size_bytes": 212608981,
@@ -1972,8 +1966,8 @@
               "chat_id": -1003709841202,
               "message_id": 776,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 87. Guillian Barre Syndrome",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 87. Guillian Barre Syndrome",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-24T06:15:57Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/776"
@@ -1981,7 +1975,7 @@
             {
               "id": "topic_-1003709841202_777",
               "subject_id": "medicine",
-              "module": "Neurology & Pulmonology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "88. Alzheimer's Disease",
               "filename": "88. Alzheimer's Disease.mp4",
               "file_size_bytes": 255577195,
@@ -1991,8 +1985,8 @@
               "chat_id": -1003709841202,
               "message_id": 777,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 88. Alzheimer's Disease",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 88. Alzheimer's Disease",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-24T06:19:04Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/777"
@@ -2000,7 +1994,7 @@
             {
               "id": "topic_-1003709841202_778",
               "subject_id": "medicine",
-              "module": "Neurology & Pulmonology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "89. Multiple Sclerosis",
               "filename": "89. Multiple Sclerosis.mp4",
               "file_size_bytes": 362283046,
@@ -2010,8 +2004,8 @@
               "chat_id": -1003709841202,
               "message_id": 778,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 89. Multiple Sclerosis",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 89. Multiple Sclerosis",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-24T06:23:11Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/778"
@@ -2019,7 +2013,7 @@
             {
               "id": "topic_-1003709841202_779",
               "subject_id": "medicine",
-              "module": "Neurology & Pulmonology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "90. Neuromyelitis Optica Spectrum Disorder",
               "filename": "90. Neuromyelitis Optica Spectrum Disorder.mp4",
               "file_size_bytes": 97732794,
@@ -2029,8 +2023,8 @@
               "chat_id": -1003709841202,
               "message_id": 779,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 90. Neuromyelitis Optica Spectrum Disorder",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 90. Neuromyelitis Optica Spectrum Disorder",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-24T06:24:24Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/779"
@@ -2038,7 +2032,7 @@
             {
               "id": "topic_-1003709841202_780",
               "subject_id": "medicine",
-              "module": "Neurology & Pulmonology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "91. Amyotrophic Lateral Sclerosis and Motor Neuron Disease",
               "filename": "91. Amyotrophic Lateral Sclerosis and Motor Neuron Disease.mp4",
               "file_size_bytes": 196572077,
@@ -2048,8 +2042,8 @@
               "chat_id": -1003709841202,
               "message_id": 780,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 91. Amyotrophic Lateral Sclerosis and Motor Neuron Disease",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 91. Amyotrophic Lateral Sclerosis and Motor Neuron Disease",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-24T06:26:47Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/780"
@@ -2057,7 +2051,7 @@
             {
               "id": "topic_-1003709841202_781",
               "subject_id": "medicine",
-              "module": "Neurology & Pulmonology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "92. Syringomelia and Conus Medullaris Syndrome",
               "filename": "92. Syringomelia and Conus Medullaris Syndrome.mp4",
               "file_size_bytes": 261507029,
@@ -2067,8 +2061,8 @@
               "chat_id": -1003709841202,
               "message_id": 781,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 92. Syringomelia and Conus Medullaris Syndrome",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 92. Syringomelia and Conus Medullaris Syndrome",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-24T06:29:58Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/781"
@@ -2076,7 +2070,7 @@
             {
               "id": "topic_-1003709841202_782",
               "subject_id": "medicine",
-              "module": "Neurology & Pulmonology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "93. Channelopathies",
               "filename": "93. Channelopathies.mp4",
               "file_size_bytes": 107819310,
@@ -2086,8 +2080,8 @@
               "chat_id": -1003709841202,
               "message_id": 782,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 93. Channelopathies",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 93. Channelopathies",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-24T06:31:11Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/782"
@@ -2095,7 +2089,7 @@
             {
               "id": "topic_-1003709841202_783",
               "subject_id": "medicine",
-              "module": "Neurology & Pulmonology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "94. Subarachnoid Hemorrhage",
               "filename": "94. Subarachnoid Hemorrhage.mp4",
               "file_size_bytes": 245621493,
@@ -2105,8 +2099,8 @@
               "chat_id": -1003709841202,
               "message_id": 783,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 94. Subarachnoid Hemorrhage",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 94. Subarachnoid Hemorrhage",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-24T06:33:52Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/783"
@@ -2114,7 +2108,7 @@
             {
               "id": "topic_-1003709841202_784",
               "subject_id": "medicine",
-              "module": "Neurology & Pulmonology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "95. Transient Ischemic Attack and Stroke Interventions",
               "filename": "95. Transient Ischemic Attack and Stroke Interventions.mp4",
               "file_size_bytes": 535273403,
@@ -2124,8 +2118,8 @@
               "chat_id": -1003709841202,
               "message_id": 784,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 95. Transient Ischemic Attack and Stroke Interventions",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 95. Transient Ischemic Attack and Stroke Interventions",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-24T06:39:56Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/784"
@@ -2133,7 +2127,7 @@
             {
               "id": "topic_-1003709841202_785",
               "subject_id": "medicine",
-              "module": "Neurology & Pulmonology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "96. Neurocysticercosis and Brain Tumors",
               "filename": "96. Neurocysticercosis and Brain Tumors.mp4",
               "file_size_bytes": 292510892,
@@ -2143,8 +2137,8 @@
               "chat_id": -1003709841202,
               "message_id": 785,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 96. Neurocysticercosis and Brain Tumors",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 96. Neurocysticercosis and Brain Tumors",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-24T06:43:15Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/785"
@@ -2152,7 +2146,7 @@
             {
               "id": "topic_-1003709841202_786",
               "subject_id": "medicine",
-              "module": "Neurology & Pulmonology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "97. Intracranial Hemorrhage",
               "filename": "97. Intracranial Hemorrhage.mp4",
               "file_size_bytes": 227356452,
@@ -2162,8 +2156,8 @@
               "chat_id": -1003709841202,
               "message_id": 786,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 97. Intracranial Hemorrhage",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 97. Intracranial Hemorrhage",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-24T06:45:54Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/786"
@@ -2171,7 +2165,7 @@
             {
               "id": "topic_-1003709841202_787",
               "subject_id": "medicine",
-              "module": "Neurology & Pulmonology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "98. Systemic Lupus Erythematosus",
               "filename": "98. Systemic Lupus Erythematosus.mp4",
               "file_size_bytes": 367086319,
@@ -2181,8 +2175,8 @@
               "chat_id": -1003709841202,
               "message_id": 787,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 98. Systemic Lupus Erythematosus",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 98. Systemic Lupus Erythematosus",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-24T06:50:06Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/787"
@@ -2190,7 +2184,7 @@
             {
               "id": "topic_-1003709841202_788",
               "subject_id": "medicine",
-              "module": "Neurology & Pulmonology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "99. Rheumatoid Arthritis",
               "filename": "99. Rheumatoid Arthritis.mp4",
               "file_size_bytes": 122620636,
@@ -2200,8 +2194,8 @@
               "chat_id": -1003709841202,
               "message_id": 788,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 99. Rheumatoid Arthritis",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 99. Rheumatoid Arthritis",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-24T06:51:30Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/788"
@@ -2209,7 +2203,7 @@
             {
               "id": "topic_-1003709841202_789",
               "subject_id": "medicine",
-              "module": "Neurology & Pulmonology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "100. Crystal Arthropathy",
               "filename": "100. Crystal Arthropathy.mp4",
               "file_size_bytes": 155750855,
@@ -2219,8 +2213,8 @@
               "chat_id": -1003709841202,
               "message_id": 789,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 100. Crystal Arthropathy",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 100. Crystal Arthropathy",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-24T06:53:16Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/789"
@@ -2228,7 +2222,7 @@
             {
               "id": "topic_-1003709841202_790",
               "subject_id": "medicine",
-              "module": "Neurology & Pulmonology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "101. Vasculitis",
               "filename": "101. Vasculitis.mp4",
               "file_size_bytes": 298219339,
@@ -2238,8 +2232,8 @@
               "chat_id": -1003709841202,
               "message_id": 790,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 101. Vasculitis",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 101. Vasculitis",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-24T06:55:30Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/790"
@@ -2247,7 +2241,7 @@
             {
               "id": "topic_-1003709841202_791",
               "subject_id": "medicine",
-              "module": "Neurology & Pulmonology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "102. Scleroderma Sjogren Syndrome",
               "filename": "102. Scleroderma Sjogren Syndrome.mp4",
               "file_size_bytes": 203623925,
@@ -2257,8 +2251,8 @@
               "chat_id": -1003709841202,
               "message_id": 791,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 102. Scleroderma Sjogren Syndrome",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 102. Scleroderma Sjogren Syndrome",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-24T06:56:44Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/791"
@@ -2266,7 +2260,7 @@
             {
               "id": "topic_-1003709841202_792",
               "subject_id": "medicine",
-              "module": "Neurology & Pulmonology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "103. Sarcoidosis",
               "filename": "103. Sarcoidosis.mp4",
               "file_size_bytes": 238959433,
@@ -2276,8 +2270,8 @@
               "chat_id": -1003709841202,
               "message_id": 792,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 103. Sarcoidosis",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 103. Sarcoidosis",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-24T06:58:06Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/792"
@@ -2285,7 +2279,7 @@
             {
               "id": "topic_-1003709841202_793",
               "subject_id": "medicine",
-              "module": "Neurology & Pulmonology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "104. IgG4 Related Disease",
               "filename": "104. IgG4 Related Disease.mp4",
               "file_size_bytes": 47481387,
@@ -2295,8 +2289,8 @@
               "chat_id": -1003709841202,
               "message_id": 793,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 104. IgG4 Related Disease",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 104. IgG4 Related Disease",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-24T08:53:45Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/793"
@@ -2304,7 +2298,7 @@
             {
               "id": "topic_-1003709841202_794",
               "subject_id": "medicine",
-              "module": "Neurology & Pulmonology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "105. Axial Spondyloarthritis",
               "filename": "105. Axial Spondyloarthritis.mp4",
               "file_size_bytes": 137490976,
@@ -2314,8 +2308,8 @@
               "chat_id": -1003709841202,
               "message_id": 794,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 105. Axial Spondyloarthritis",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 105. Axial Spondyloarthritis",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-24T08:54:45Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/794"
@@ -2323,7 +2317,7 @@
             {
               "id": "topic_-1003709841202_795",
               "subject_id": "medicine",
-              "module": "Neurology & Pulmonology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "106. Hepatitis B",
               "filename": "106. Hepatitis B.mp4",
               "file_size_bytes": 345933665,
@@ -2333,8 +2327,8 @@
               "chat_id": -1003709841202,
               "message_id": 795,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 106. Hepatitis B",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 106. Hepatitis B",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-24T08:56:52Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/795"
@@ -2342,7 +2336,7 @@
             {
               "id": "topic_-1003709841202_796",
               "subject_id": "medicine",
-              "module": "Neurology & Pulmonology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "107. Hepatitis C-D and Fulminant Hepatic Failure",
               "filename": "107. Hepatitis C-D and Fulminant Hepatic Failure.mp4",
               "file_size_bytes": 251321084,
@@ -2352,8 +2346,8 @@
               "chat_id": -1003709841202,
               "message_id": 796,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 107. Hepatitis C-D and Fulminant Hepatic Failure",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 107. Hepatitis C-D and Fulminant Hepatic Failure",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-24T08:58:23Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/796"
@@ -2361,7 +2355,7 @@
             {
               "id": "topic_-1003709841202_797",
               "subject_id": "medicine",
-              "module": "Neurology & Pulmonology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "108. Hepatorenal Syndrome and Hepatopulmonary Syndrome",
               "filename": "108. Hepatorenal Syndrome and Hepatopulmonary Syndrome.mp4",
               "file_size_bytes": 159050137,
@@ -2371,8 +2365,8 @@
               "chat_id": -1003709841202,
               "message_id": 797,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 108. Hepatorenal Syndrome and Hepatopulmonary Syndrome",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 108. Hepatorenal Syndrome and Hepatopulmonary Syndrome",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-24T08:59:14Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/797"
@@ -2380,7 +2374,7 @@
             {
               "id": "topic_-1003709841202_798",
               "subject_id": "medicine",
-              "module": "Neurology & Pulmonology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "109. Autoimmune Hepatitis",
               "filename": "109. Autoimmune Hepatitis.mp4",
               "file_size_bytes": 36732718,
@@ -2390,8 +2384,8 @@
               "chat_id": -1003709841202,
               "message_id": 798,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 109. Autoimmune Hepatitis",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 109. Autoimmune Hepatitis",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-24T08:59:32Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/798"
@@ -2399,7 +2393,7 @@
             {
               "id": "topic_-1003709841202_799",
               "subject_id": "medicine",
-              "module": "Neurology & Pulmonology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "110. Cirrhosis and Its Complications",
               "filename": "110. Cirrhosis and Its Complications.mp4",
               "file_size_bytes": 431639485,
@@ -2409,8 +2403,8 @@
               "chat_id": -1003709841202,
               "message_id": 799,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 110. Cirrhosis and Its Complications",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 110. Cirrhosis and Its Complications",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-24T09:02:03Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/799"
@@ -2418,7 +2412,7 @@
             {
               "id": "topic_-1003709841202_800",
               "subject_id": "medicine",
-              "module": "Neurology & Pulmonology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "111. PBC and PSC",
               "filename": "111. PBC and PSC.mp4",
               "file_size_bytes": 68709054,
@@ -2428,8 +2422,8 @@
               "chat_id": -1003709841202,
               "message_id": 800,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 111. PBC and PSC",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 111. PBC and PSC",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-24T09:02:35Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/800"
@@ -2437,7 +2431,7 @@
             {
               "id": "topic_-1003709841202_801",
               "subject_id": "medicine",
-              "module": "Neurology & Pulmonology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "112. Wilson Disease and Hemochromatosis",
               "filename": "112. Wilson Disease and Hemochromatosis.mp4",
               "file_size_bytes": 255478371,
@@ -2447,8 +2441,8 @@
               "chat_id": -1003709841202,
               "message_id": 801,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 112. Wilson Disease and Hemochromatosis",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 112. Wilson Disease and Hemochromatosis",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-24T09:04:07Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/801"
@@ -2456,7 +2450,7 @@
             {
               "id": "topic_-1003709841202_802",
               "subject_id": "medicine",
-              "module": "Neurology & Pulmonology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "113. Alcoholic Hepatitis",
               "filename": "113. Alcoholic Hepatitis.mp4",
               "file_size_bytes": 136578183,
@@ -2466,8 +2460,8 @@
               "chat_id": -1003709841202,
               "message_id": 802,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 113. Alcoholic Hepatitis",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 113. Alcoholic Hepatitis",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-24T09:05:02Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/802"
@@ -2475,7 +2469,7 @@
             {
               "id": "topic_-1003709841202_803",
               "subject_id": "medicine",
-              "module": "Neurology & Pulmonology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "114. Hereditary Hyperbilirubinemia",
               "filename": "114. Hereditary Hyperbilirubinemia.mp4",
               "file_size_bytes": 142590674,
@@ -2485,8 +2479,8 @@
               "chat_id": -1003709841202,
               "message_id": 803,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 114. Hereditary Hyperbilirubinemia",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 114. Hereditary Hyperbilirubinemia",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-24T09:05:54Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/803"
@@ -2494,7 +2488,7 @@
             {
               "id": "topic_-1003709841202_804",
               "subject_id": "medicine",
-              "module": "Neurology & Pulmonology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "115. Paracetamol and Iron Toxicity",
               "filename": "115. Paracetamol and Iron Toxicity.mp4",
               "file_size_bytes": 94893760,
@@ -2504,8 +2498,8 @@
               "chat_id": -1003709841202,
               "message_id": 804,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 115. Paracetamol and Iron Toxicity",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 115. Paracetamol and Iron Toxicity",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-24T09:06:30Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/804"
@@ -2513,7 +2507,7 @@
             {
               "id": "topic_-1003709841202_805",
               "subject_id": "medicine",
-              "module": "Neurology & Pulmonology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "116. Budd Chiari Syndrome",
               "filename": "116. Budd Chiari Syndrome.mp4",
               "file_size_bytes": 70192988,
@@ -2523,8 +2517,8 @@
               "chat_id": -1003709841202,
               "message_id": 805,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 116. Budd Chiari Syndrome",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 116. Budd Chiari Syndrome",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-24T09:06:58Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/805"
@@ -2532,7 +2526,7 @@
             {
               "id": "topic_-1003709841202_806",
               "subject_id": "medicine",
-              "module": "Neurology & Pulmonology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "117. Cystic Fibrosis",
               "filename": "117. Cystic Fibrosis.mp4",
               "file_size_bytes": 172383304,
@@ -2542,8 +2536,8 @@
               "chat_id": -1003709841202,
               "message_id": 806,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 117. Cystic Fibrosis",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 117. Cystic Fibrosis",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-24T09:08:08Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/806"
@@ -2551,7 +2545,7 @@
             {
               "id": "topic_-1003709841202_807",
               "subject_id": "medicine",
-              "module": "Neurology & Pulmonology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "118. Obstructive Sleep Apnea",
               "filename": "118. Obstructive Sleep Apnea.mp4",
               "file_size_bytes": 183704319,
@@ -2561,8 +2555,8 @@
               "chat_id": -1003709841202,
               "message_id": 807,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 118. Obstructive Sleep Apnea",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 118. Obstructive Sleep Apnea",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-24T09:09:21Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/807"
@@ -2570,7 +2564,7 @@
             {
               "id": "topic_-1003709841202_808",
               "subject_id": "medicine",
-              "module": "Neurology & Pulmonology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "119. Pulmonary Thromboembolism",
               "filename": "119. Pulmonary Thromboembolism.mp4",
               "file_size_bytes": 377613484,
@@ -2580,8 +2574,8 @@
               "chat_id": -1003709841202,
               "message_id": 808,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 119. Pulmonary Thromboembolism",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 119. Pulmonary Thromboembolism",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-24T09:11:35Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/808"
@@ -2589,7 +2583,7 @@
             {
               "id": "topic_-1003709841202_809",
               "subject_id": "medicine",
-              "module": "Neurology & Pulmonology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "120. Fat Embolism Syndrome",
               "filename": "120. Fat Embolism Syndrome.mp4",
               "file_size_bytes": 115976899,
@@ -2599,8 +2593,8 @@
               "chat_id": -1003709841202,
               "message_id": 809,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 120. Fat Embolism Syndrome",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 120. Fat Embolism Syndrome",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-24T09:12:22Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/809"
@@ -2608,7 +2602,7 @@
             {
               "id": "topic_-1003709841202_810",
               "subject_id": "medicine",
-              "module": "Neurology & Pulmonology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "121. Bronchiectasis",
               "filename": "121. Bronchiectasis.mp4",
               "file_size_bytes": 175217278,
@@ -2618,8 +2612,8 @@
               "chat_id": -1003709841202,
               "message_id": 810,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 121. Bronchiectasis",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 121. Bronchiectasis",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-24T09:13:28Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/810"
@@ -2627,7 +2621,7 @@
             {
               "id": "topic_-1003709841202_811",
               "subject_id": "medicine",
-              "module": "Neurology & Pulmonology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "122. Pneumonia",
               "filename": "122. Pneumonia.mp4",
               "file_size_bytes": 322821893,
@@ -2637,8 +2631,8 @@
               "chat_id": -1003709841202,
               "message_id": 811,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 122. Pneumonia",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 122. Pneumonia",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-24T09:15:20Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/811"
@@ -2646,7 +2640,7 @@
             {
               "id": "topic_-1003709841202_812",
               "subject_id": "medicine",
-              "module": "Neurology & Pulmonology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "123. Bronchial Asthma",
               "filename": "123. Bronchial Asthma.mp4",
               "file_size_bytes": 377364835,
@@ -2656,8 +2650,8 @@
               "chat_id": -1003709841202,
               "message_id": 812,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 123. Bronchial Asthma",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 123. Bronchial Asthma",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-24T09:17:30Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/812"
@@ -2665,7 +2659,7 @@
             {
               "id": "topic_-1003709841202_813",
               "subject_id": "medicine",
-              "module": "Neurology & Pulmonology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "124. COPD",
               "filename": "124. COPD.mp4",
               "file_size_bytes": 346922714,
@@ -2675,8 +2669,8 @@
               "chat_id": -1003709841202,
               "message_id": 813,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 124. COPD",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 124. COPD",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-24T09:19:44Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/813"
@@ -2684,7 +2678,7 @@
             {
               "id": "topic_-1003709841202_814",
               "subject_id": "medicine",
-              "module": "Neurology & Pulmonology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "125. Respiratory Failure",
               "filename": "125. Respiratory Failure.mp4",
               "file_size_bytes": 144285271,
@@ -2694,8 +2688,8 @@
               "chat_id": -1003709841202,
               "message_id": 814,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 125. Respiratory Failure",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 125. Respiratory Failure",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-24T09:20:30Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/814"
@@ -2703,7 +2697,7 @@
             {
               "id": "topic_-1003709841202_815",
               "subject_id": "medicine",
-              "module": "Neurology & Pulmonology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "126. Tuberculosis",
               "filename": "126. Tuberculosis.mp4",
               "file_size_bytes": 334416238,
@@ -2713,8 +2707,8 @@
               "chat_id": -1003709841202,
               "message_id": 815,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 126. Tuberculosis",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 126. Tuberculosis",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-24T09:22:29Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/815"
@@ -2722,7 +2716,7 @@
             {
               "id": "topic_-1003709841202_816",
               "subject_id": "medicine",
-              "module": "Neurology & Pulmonology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "127. Interstitial Lung Disease",
               "filename": "127. Interstitial Lung Disease.mp4",
               "file_size_bytes": 182304327,
@@ -2732,8 +2726,8 @@
               "chat_id": -1003709841202,
               "message_id": 816,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 127. Interstitial Lung Disease",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 127. Interstitial Lung Disease",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-24T09:23:38Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/816"
@@ -2741,7 +2735,7 @@
             {
               "id": "topic_-1003709841202_817",
               "subject_id": "medicine",
-              "module": "Neurology & Pulmonology (Dr. Deepak Marwah)",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
               "title": "128. Pulmonary Alveolar Proteinosis",
               "filename": "128. Pulmonary Alveolar Proteinosis.mp4",
               "file_size_bytes": 65075178,
@@ -2751,8 +2745,8 @@
               "chat_id": -1003709841202,
               "message_id": 817,
               "pearls": [
-                "High-yield clinical diagnostic criteria and management in 128. Pulmonary Alveolar Proteinosis",
-                "Standard protocol guidelines emphasized by Dr. Deepak Marwah"
+                "Core clinical concepts & diagnostic criteria in 128. Pulmonary Alveolar Proteinosis",
+                "High-yield management protocols emphasized by Dr. Deepak Marwah"
               ],
               "date": "2026-09-24T09:24:04Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/817"

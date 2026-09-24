@@ -30,10 +30,10 @@ export const MasterNotesShelf: React.FC<MasterNotesShelfProps> = ({
         <div>
           <h3 className="text-xl sm:text-2xl font-bold tracking-tight text-[#0a0a0a] font-display flex items-center gap-2.5">
             <BookOpen className="w-5 h-5 text-[#0a0a0a]" />
-            24 Master Clinical Review Books
+            Master Clinical Review Textbooks
           </h3>
           <p className="text-xs sm:text-sm text-[#6a6a6a]">
-            Full-color faculty textbooks across all 19 MBBS subjects (Anatomy, Pharmacology, Medicine & more).
+            Full-color faculty review textbooks across preclinical and clinical specialties.
           </p>
         </div>
 

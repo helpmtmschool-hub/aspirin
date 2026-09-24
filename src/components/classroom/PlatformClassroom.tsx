@@ -17,7 +17,7 @@ import {
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Subject, Topic, NoteItem, PlatformId, UserProgressItem } from '../../types/lms';
-import { PLATFORMS, getSubjectVisual } from '../../services/api';
+import { PLATFORMS, getSubjectVisual, extractLectureNumber } from '../../services/api';
 import { ProgressService } from '../../services/progress';
 import { VideoThumbnail } from '../common/VideoThumbnail';
 
@@ -125,7 +125,9 @@ export const PlatformClassroom: React.FC<PlatformClassroomProps> = ({
     })
     .filter((mod) => (query ? mod.topics.length > 0 : true));
 
-  const allTopicsInCurriculum = pData.modules.flatMap((m) => m.topics);
+  const allTopicsInCurriculum = pData.modules
+    .flatMap((m) => m.topics)
+    .sort((a, b) => extractLectureNumber(a.title) - extractLectureNumber(b.title));
   const visual = subject.visual || getSubjectVisual(subject.id);
   const completedLecturesCount = pData.modules.reduce((sum, m) => {
     return sum + m.topics.filter((t) => localProgress[t.id]?.isCompleted || t.is_completed).length;

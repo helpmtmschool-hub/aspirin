@@ -211,10 +211,15 @@ export function getSubjectVisual(subjectId: string): SubjectVisual {
   );
 }
 
-const DB_NAME = 'aspirin_cache_v2';
-const DB_VERSION = 2;
-const STORE_NAME = 'catalog_store_v2';
-const CATALOG_KEY = 'master_catalog_v2';
+export function extractLectureNumber(title: string): number {
+  const match = (title || '').match(/^0*(\d+)\b/);
+  return match ? parseInt(match[1], 10) : 999999;
+}
+
+const DB_NAME = 'aspirin_cache_v3';
+const DB_VERSION = 3;
+const STORE_NAME = 'catalog_store_v3';
+const CATALOG_KEY = 'master_catalog_v3';
 
 export class LMSApiService {
   private static dbPromise: Promise<IDBPDatabase> | null = null;
@@ -357,6 +362,13 @@ export class LMSApiService {
         });
       });
 
+      // Sort topics in each module by their natural numerical sequence in title
+      Object.values(platformData).forEach((pContent) => {
+        pContent.modules.forEach((mod) => {
+          mod.topics.sort((a, b) => extractLectureNumber(a.title) - extractLectureNumber(b.title));
+        });
+      });
+
       // 2. Process Notes
       (sub.notes || []).forEach((n: any) => {
         const platform = this.detectPlatform(n);
@@ -451,16 +463,19 @@ export class LMSApiService {
     });
 
     const highYieldLectures = allTopics
-      .filter((t) => (t.pearls && t.pearls.length > 0) || t.title.toLowerCase().includes('high yield') || t.title.toLowerCase().includes('pyq'))
+      .filter((t) => t.pearls && t.pearls.length > 0)
+      .sort((a, b) => extractLectureNumber(a.title) - extractLectureNumber(b.title))
       .slice(0, 15);
 
     const firstProfPicks = allTopics
       .filter((t) => ['anatomy', 'physiology', 'biochemistry'].includes(t.subject_id))
+      .sort((a, b) => extractLectureNumber(a.title) - extractLectureNumber(b.title))
       .slice(0, 12);
 
     const clinicalPicks = allTopics
-      .filter((t) => ['medicine', 'surgery', 'obg', 'pediatrics', 'pharmacology'].includes(t.subject_id))
-      .slice(0, 12);
+      .filter((t) => t.subject_id === 'medicine')
+      .sort((a, b) => extractLectureNumber(a.title) - extractLectureNumber(b.title))
+      .slice(0, 15);
 
     const masterBooks = await this.getMasterTextbooks();
 

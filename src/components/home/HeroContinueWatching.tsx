@@ -63,12 +63,12 @@ export const HeroContinueWatching: React.FC<HeroContinueWatchingProps> = ({
                   PrepLadder Edition X
                 </span>
                 <h3 className="text-xl font-bold leading-snug">
-                  Neuroanatomy & Clinical Cardiology
+                  General Medicine & Neuroanatomy
                 </h3>
               </div>
 
               <p className="text-xs text-white/80 leading-relaxed">
-                84 high-yield lectures by Dr. Deepak Marwah and senior clinical faculty covering core exam concepts and clinical cases.
+                134 sequential clinical lectures by Dr. Deepak Marwah and senior clinical faculty covering comprehensive medicine and neuroanatomy.
               </p>
 
               <div className="pt-2">
