@@ -38,7 +38,7 @@ const MockAuthContext = createContext<AuthState>({
   user: {
     id: 'user_aspirant_dev_01',
     fullName: 'Dr. Aspirant (Study Group)',
-    primaryEmailAddress: { emailAddress: 'doctor@aspirinlms.org' },
+    primaryEmailAddress: { emailAddress: 'doctor@aspirin.org' },
     plan: 'inner_circle',
   },
   getToken: async () => null,
@@ -62,7 +62,7 @@ const ClerkUserBridge: React.FC<{ children: ReactNode }> = ({ children }) => {
           id: user.id,
           fullName: user.fullName || user.username || user.firstName || 'Dr. Aspirant',
           primaryEmailAddress: { 
-            emailAddress: user.primaryEmailAddress?.emailAddress || 'student@aspirinlms.org' 
+            emailAddress: user.primaryEmailAddress?.emailAddress || 'student@aspirin.org' 
           },
           imageUrl: user.imageUrl,
           plan: 'inner_circle' as const,
@@ -126,7 +126,7 @@ export const AuthProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
         user: {
           id: 'user_aspirant_dev_01',
           fullName: 'Dr. Aspirant',
-          primaryEmailAddress: { emailAddress: 'studygroup@aspirinlms.org' },
+          primaryEmailAddress: { emailAddress: 'studygroup@aspirin.org' },
           plan: 'inner_circle',
         },
         getToken: async () => null,

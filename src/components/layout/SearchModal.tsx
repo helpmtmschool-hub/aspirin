@@ -106,7 +106,7 @@ export const SearchModal: React.FC<SearchModalProps> = ({
           {isSearching && (
             <div className="py-8 text-center text-sm text-[#6a6a6a] flex items-center justify-center gap-2">
               <div className="w-4 h-4 rounded-full border-2 border-[#0a0a0a] border-t-transparent animate-spin" />
-              Searching 3,950+ medical lectures...
+              Searching clinical video library...
             </div>
           )}
 

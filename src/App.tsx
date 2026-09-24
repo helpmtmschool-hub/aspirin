@@ -325,12 +325,13 @@ export const AppContent: React.FC = () => {
       <footer className="bg-[#faf5e8] border-t border-[#e5e5e5] py-16 px-4 sm:px-6 lg:px-8 mt-auto">
         <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-6 text-xs text-[#6a6a6a]">
           <div className="flex items-center gap-3">
-            <span className="font-bold text-sm text-[#0a0a0a] font-display">aspirin LMS</span>
+            <img src="/logo-main.png" alt="Aspirin" className="w-6 h-6 rounded-md object-contain" />
+            <span className="font-bold text-sm text-[#0a0a0a] font-display">Aspirin</span>
             <span className="text-[11px] px-2 py-0.5 rounded-full bg-[#f5f0e0] border border-[#e5e5e5] text-[#0a0a0a]">
               Clinical Education
             </span>
           </div>
-          <p>© 2026 aspirin Medical LMS. Comprehensive digital learning for medical students and exam aspirants.</p>
+          <p>© 2026 Aspirin. Comprehensive digital learning for medical students and exam aspirants.</p>
         </div>
       </footer>
 

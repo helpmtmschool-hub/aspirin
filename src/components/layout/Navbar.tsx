@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import { 
-  Stethoscope, 
   Search, 
   Home, 
   BookOpen, 
@@ -64,18 +63,15 @@ export const Navbar: React.FC<NavbarProps> = ({
             whileTap={{ scale: 0.98 }}
             className="flex items-center gap-3 cursor-pointer group"
           >
-            <div className="w-9 h-9 rounded-xl bg-[#0a0a0a] flex items-center justify-center text-white shadow-sm group-hover:scale-105 transition-transform">
-              <Stethoscope className="w-5 h-5 text-[#ffb084]" />
-            </div>
+            <img
+              src="/logo-main.png"
+              alt="Aspirin"
+              className="w-10 h-10 rounded-xl object-contain drop-shadow-sm group-hover:scale-105 transition-transform"
+            />
             <div className="flex flex-col">
-              <div className="flex items-center gap-1.5">
-                <span className="text-xl font-bold tracking-tight text-[#0a0a0a] font-display">
-                  aspirin
-                </span>
-                <span className="text-[10px] font-bold tracking-wide uppercase px-1.5 py-0.5 rounded-full bg-[#f5f0e0] text-[#0a0a0a] border border-[#e5e5e5]">
-                  LMS
-                </span>
-              </div>
+              <span className="text-xl font-bold tracking-tight text-[#0a0a0a] font-display">
+                Aspirin
+              </span>
               <span className="text-[10px] text-[#6a6a6a] font-medium flex items-center gap-1.5">
                 <span className="w-1.5 h-1.5 rounded-full bg-[#22c55e]" />
                 Clinical Video Library

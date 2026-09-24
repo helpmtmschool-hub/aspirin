@@ -45,7 +45,7 @@ export const ForensicWatermark: React.FC = () => {
       y += (targetY - y) * 0.05;
 
       const userName = user?.fullName || 'Dr. Aspirant';
-      const userEmail = user?.primaryEmailAddress?.emailAddress || 'studygroup@aspirinlms.org';
+      const userEmail = user?.primaryEmailAddress?.emailAddress || 'studygroup@aspirin.org';
       const timestamp = new Date().toISOString().replace('T', ' ').slice(0, 19);
 
       ctx.save();

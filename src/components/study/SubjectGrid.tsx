@@ -166,16 +166,25 @@ export const SubjectGrid: React.FC<SubjectGridProps> = ({
                       {visual.tagline}
                     </p>
                     <div className={`text-[11px] font-mono ${theme.isDark ? 'text-white/70' : 'text-[#6a6a6a]'} flex items-center gap-2 mt-1`}>
-                      <span>{sub.total_topics} lectures</span>
-                      <span>•</span>
-                      <span>{sub.total_notes} notes</span>
+                      {sub.total_topics > 0 || sub.total_notes > 0 ? (
+                        <>
+                          {sub.total_topics > 0 && <span>{sub.total_topics} lecture{sub.total_topics > 1 ? 's' : ''}</span>}
+                          {sub.total_topics > 0 && sub.total_notes > 0 && <span>•</span>}
+                          {sub.total_notes > 0 && <span>{sub.total_notes} note{sub.total_notes > 1 ? 's' : ''}</span>}
+                        </>
+                      ) : (
+                        <span className="italic opacity-70">Curriculum in preparation</span>
+                      )}
                     </div>
                   </div>
                 </div>
 
                 {/* Available Platforms Badges */}
                 <div className="flex flex-wrap items-center gap-1.5 pt-1">
-                  {(sub.available_platforms || ['prepx_en', 'cerebellum']).map((pid) => {
+                  {(sub.available_platforms && sub.available_platforms.length > 0
+                    ? sub.available_platforms
+                    : (['prepx_en', 'cerebellum'] as PlatformId[])
+                  ).map((pid) => {
                     const p = PLATFORMS[pid];
                     if (!p) return null;
                     return (
@@ -199,9 +208,9 @@ export const SubjectGrid: React.FC<SubjectGridProps> = ({
               {/* Progress Bar & Footer */}
               <div className={`pt-4 border-t ${theme.isDark ? 'border-white/15' : 'border-[#0a0a0a]/10'} mt-5 space-y-2`}>
                 <div className={`flex items-center justify-between text-xs font-mono ${theme.isDark ? 'text-white/80' : 'text-[#3a3a3a]'}`}>
-                  <span>{pct}% Completed</span>
+                  <span>{sub.total_topics > 0 ? `${pct}% Completed` : 'Available Soon'}</span>
                   <span className="font-sans font-bold flex items-center gap-1 group-hover:translate-x-1 transition-transform">
-                    Enter Classroom <ChevronRight className="w-3.5 h-3.5" />
+                    {sub.total_topics > 0 || sub.total_notes > 0 ? 'Enter Classroom' : 'View Track'} <ChevronRight className="w-3.5 h-3.5" />
                   </span>
                 </div>
                 <div className={`w-full h-2 rounded-full ${theme.isDark ? 'bg-white/20' : 'bg-[#0a0a0a]/10'} overflow-hidden`}>

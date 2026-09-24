@@ -211,10 +211,10 @@ export function getSubjectVisual(subjectId: string): SubjectVisual {
   );
 }
 
-const DB_NAME = 'aspirin_lms_cache';
-const DB_VERSION = 1;
-const STORE_NAME = 'catalog_store';
-const CATALOG_KEY = 'master_catalog';
+const DB_NAME = 'aspirin_cache_v2';
+const DB_VERSION = 2;
+const STORE_NAME = 'catalog_store_v2';
+const CATALOG_KEY = 'master_catalog_v2';
 
 export class LMSApiService {
   private static dbPromise: Promise<IDBPDatabase> | null = null;
@@ -391,6 +391,7 @@ export class LMSApiService {
       return {
         ...sub,
         total_topics: totalTopicsCount,
+        total_notes: (sub.notes || []).length,
         completed_topics: completedTopicsCount,
         progress_percentage: totalTopicsCount > 0 ? Math.round((completedTopicsCount / totalTopicsCount) * 100) : 0,
         available_platforms,
