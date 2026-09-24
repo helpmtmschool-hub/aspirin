@@ -1,6 +1,6 @@
 {
   "version": "2.2.0",
-  "updated_at": "2026-09-24T13:14:15.837Z",
+  "updated_at": "2026-09-24T13:58:44.885Z",
   "subjects": [
     {
       "id": "anatomy",
@@ -2912,8 +2912,8 @@
               "filename": "132. ABG Analysis Simplified Part 1.mp4",
               "file_size_bytes": 339100344,
               "file_size_mb": 323.39,
-              "duration_seconds": 0,
-              "duration_formatted": "0m",
+              "duration_seconds": 4010,
+              "duration_formatted": "1h 6m",
               "chat_id": -1003709841202,
               "message_id": 821,
               "pearls": [
@@ -3107,9 +3107,187 @@
       "category": "Clinical",
       "icon": "Scissors",
       "color": "#DC2626",
-      "total_topics": 0,
+      "total_topics": 9,
       "total_notes": 3,
-      "modules": [],
+      "modules": [
+        {
+          "id": "mod_marrow_surgery",
+          "name": "Marrow Edition 6 - General Surgery",
+          "topics": [
+            {
+              "id": "topic_-1003264222864_340",
+              "subject_id": "surgery",
+              "module": "Marrow Edition 6 - General Surgery",
+              "title": "1 HOW TO READ SURGERY",
+              "filename": "1 HOW TO READ SURGERY.mp4",
+              "file_size_bytes": 155668805,
+              "file_size_mb": 148.46,
+              "duration_seconds": 623,
+              "duration_formatted": "10m 23s",
+              "chat_id": -1003264222864,
+              "message_id": 340,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 1 HOW TO READ SURGERY",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-24T13:16:31Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/340"
+            },
+            {
+              "id": "topic_-1003264222864_341",
+              "subject_id": "surgery",
+              "module": "Marrow Edition 6 - General Surgery",
+              "title": "2 patient safety zone and surgey position",
+              "filename": "2 patient safety zone and surgey position.mp4",
+              "file_size_bytes": 443776657,
+              "file_size_mb": 423.22,
+              "duration_seconds": 3455,
+              "duration_formatted": "57m 35s",
+              "chat_id": -1003264222864,
+              "message_id": 341,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 2 patient safety zone and surgey position",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-24T13:19:11Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/341"
+            },
+            {
+              "id": "topic_-1003264222864_342",
+              "subject_id": "surgery",
+              "module": "Marrow Edition 6 - General Surgery",
+              "title": "3 surgical blades and energy source",
+              "filename": "3 surgical blades and energy source.mp4",
+              "file_size_bytes": 459198900,
+              "file_size_mb": 437.93,
+              "duration_seconds": 2657,
+              "duration_formatted": "44m 17s",
+              "chat_id": -1003264222864,
+              "message_id": 342,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 3 surgical blades and energy source",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-24T13:22:08Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/342"
+            },
+            {
+              "id": "topic_-1003264222864_343",
+              "subject_id": "surgery",
+              "module": "Marrow Edition 6 - General Surgery",
+              "title": "4 suture knot and surgical drain",
+              "filename": "4 suture knot and surgical drain.mp4",
+              "file_size_bytes": 748128936,
+              "file_size_mb": 713.47,
+              "duration_seconds": 4940,
+              "duration_formatted": "1h 22m",
+              "chat_id": -1003264222864,
+              "message_id": 343,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 4 suture knot and surgical drain",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-24T13:26:54Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/343"
+            },
+            {
+              "id": "topic_-1003264222864_344",
+              "subject_id": "surgery",
+              "module": "Marrow Edition 6 - General Surgery",
+              "title": "5 case of post op fever",
+              "filename": "5 case of post op fever.mp4",
+              "file_size_bytes": 740020358,
+              "file_size_mb": 705.74,
+              "duration_seconds": 3631,
+              "duration_formatted": "60m 31s",
+              "chat_id": -1003264222864,
+              "message_id": 344,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 5 case of post op fever",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-24T13:31:44Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/344"
+            },
+            {
+              "id": "topic_-1003264222864_345",
+              "subject_id": "surgery",
+              "module": "Marrow Edition 6 - General Surgery",
+              "title": "6 day care surgery",
+              "filename": "6 day care surgery.mp4",
+              "file_size_bytes": 190570334,
+              "file_size_mb": 181.74,
+              "duration_seconds": 1436,
+              "duration_formatted": "23m 56s",
+              "chat_id": -1003264222864,
+              "message_id": 345,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 6 day care surgery",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-24T13:33:00Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/345"
+            },
+            {
+              "id": "topic_-1003264222864_346",
+              "subject_id": "surgery",
+              "module": "Marrow Edition 6 - General Surgery",
+              "title": "7 surgical nutition",
+              "filename": "7 surgical nutition.mp4",
+              "file_size_bytes": 745441218,
+              "file_size_mb": 710.91,
+              "duration_seconds": 3765,
+              "duration_formatted": "1h 2m",
+              "chat_id": -1003264222864,
+              "message_id": 346,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 7 surgical nutition",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-24T13:38:04Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/346"
+            },
+            {
+              "id": "topic_-1003264222864_347",
+              "subject_id": "surgery",
+              "module": "Marrow Edition 6 - General Surgery",
+              "title": "8 shock part 1",
+              "filename": "8 shock part 1.mp4",
+              "file_size_bytes": 820077145,
+              "file_size_mb": 782.09,
+              "duration_seconds": 4056,
+              "duration_formatted": "1h 7m",
+              "chat_id": -1003264222864,
+              "message_id": 347,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 8 shock part 1",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-24T13:50:31Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/347"
+            },
+            {
+              "id": "topic_-1003264222864_348",
+              "subject_id": "surgery",
+              "module": "Marrow Edition 6 - General Surgery",
+              "title": "9 shock part 2",
+              "filename": "9 shock part 2.mp4",
+              "file_size_bytes": 411193874,
+              "file_size_mb": 392.15,
+              "duration_seconds": 2396,
+              "duration_formatted": "39m 56s",
+              "chat_id": -1003264222864,
+              "message_id": 348,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 9 shock part 2",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-24T13:56:17Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/348"
+            }
+          ]
+        }
+      ],
       "notes": []
     },
     {

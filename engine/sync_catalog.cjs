@@ -4,36 +4,55 @@ const path = require('path');
 async function syncCatalog() {
   const rootDir = path.resolve(__dirname, '..');
   const tokenFile = path.resolve(rootDir, 'onedrive_token.json');
-  const raw = JSON.parse(fs.readFileSync(tokenFile, 'utf8'));
-  let accessToken = raw.access_token;
-  const refreshToken = raw.refresh_token;
 
-  const clientId = 'ba92c830-fac7-4d60-a0ff-8bf0b581a4c4';
-  const tenantId = '938a1924-0af0-4599-819b-177a1dcf8fd6';
+  // Support both local (token file) and CI (env vars) environments
+  let accessToken = '';
+  let refreshToken = '';
+  const clientId = process.env.ONEDRIVE_CLIENT_ID || 'ba92c830-fac7-4d60-a0ff-8bf0b581a4c4';
+  const clientSecret = process.env.ONEDRIVE_CLIENT_SECRET || '';
+  const tenantId = process.env.ONEDRIVE_TENANT_ID || '938a1924-0af0-4599-819b-177a1dcf8fd6';
+
+  if (fs.existsSync(tokenFile)) {
+    const raw = JSON.parse(fs.readFileSync(tokenFile, 'utf8'));
+    accessToken = raw.access_token || '';
+    refreshToken = raw.refresh_token || '';
+  } else if (process.env.ONEDRIVE_REFRESH_TOKEN) {
+    refreshToken = process.env.ONEDRIVE_REFRESH_TOKEN;
+    console.log('Using ONEDRIVE_REFRESH_TOKEN from environment (CI mode).');
+  } else {
+    console.warn('No token file or ONEDRIVE_REFRESH_TOKEN found. Skipping Graph API metadata fetch.');
+  }
 
   // 1. Refresh Microsoft Graph token if needed
-  try {
-    const refreshRes = await fetch(`https://login.microsoftonline.com/${tenantId}/oauth2/v2.0/token`, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-      body: new URLSearchParams({
+  if (refreshToken) {
+    try {
+      const body = {
         client_id: clientId,
         grant_type: 'refresh_token',
         refresh_token: refreshToken,
-      }),
-    });
+      };
+      if (clientSecret) body.client_secret = clientSecret;
 
-    if (refreshRes.ok) {
-      const data = await refreshRes.json();
-      accessToken = data.access_token;
-      if (data.refresh_token) {
-        raw.access_token = data.access_token;
-        raw.refresh_token = data.refresh_token;
-        fs.writeFileSync(tokenFile, JSON.stringify(raw, null, 2));
+      const refreshRes = await fetch(`https://login.microsoftonline.com/${tenantId}/oauth2/v2.0/token`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: new URLSearchParams(body),
+      });
+
+      if (refreshRes.ok) {
+        const data = await refreshRes.json();
+        accessToken = data.access_token;
+        // Save updated tokens back to local file if it exists
+        if (fs.existsSync(tokenFile)) {
+          const raw = JSON.parse(fs.readFileSync(tokenFile, 'utf8'));
+          raw.access_token = data.access_token;
+          if (data.refresh_token) raw.refresh_token = data.refresh_token;
+          fs.writeFileSync(tokenFile, JSON.stringify(raw, null, 2));
+        }
       }
+    } catch (err) {
+      console.warn('Token refresh warning:', err.message);
     }
-  } catch (err) {
-    console.warn('Token refresh warning:', err.message);
   }
 
   // 2. Read manifest

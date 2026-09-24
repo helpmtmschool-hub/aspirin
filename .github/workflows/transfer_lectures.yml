@@ -131,7 +131,10 @@ jobs:
           echo "Syncing catalog with updated manifest..."
           node engine/sync_catalog.cjs
         env:
-          NODE_ENV: "production"
+          ONEDRIVE_CLIENT_ID: ${{ secrets.ONEDRIVE_CLIENT_ID }}
+          ONEDRIVE_CLIENT_SECRET: ${{ secrets.ONEDRIVE_CLIENT_SECRET }}
+          ONEDRIVE_REFRESH_TOKEN: ${{ secrets.ONEDRIVE_REFRESH_TOKEN }}
+          ONEDRIVE_TENANT_ID: ${{ secrets.ONEDRIVE_TENANT_ID || '938a1924-0af0-4599-819b-177a1dcf8fd6' }}
 
       - name: Commit & Push Updated Manifest + Catalog
         if: ${{ always() && github.event.inputs.dry_run != 'true' }}
