@@ -3548,5 +3548,17 @@
     "type": "dummy_placeholder_skipped",
     "text": "Dummy #73 placeholder - Real is msg 2001",
     "skipped": true
+  },
+  "mr_-1003264222864_418": {
+    "status": "completed",
+    "type": "duplicate_skipped",
+    "text": "Duplicate post of Msg 417 Cleft Lip & Palate (doc_id 6161212714476637060)",
+    "skipped": true
+  },
+  "mr_-1003264222864_210": {
+    "status": "completed",
+    "type": "misplaced_skipped",
+    "text": "Misplaced duplicate post of Ophthalmology Lecture 5 (msg 216)",
+    "skipped": true
   }
 }
