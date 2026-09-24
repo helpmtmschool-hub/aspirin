@@ -160,6 +160,40 @@ async function getManifest(): Promise<Record<string, any>> {
   return cachedManifest;
 }
 
+function resolveManifestItem(manifest: Record<string, any>, chatId: string | number, messageId: string | number): any {
+  if (!manifest) return null;
+  const cId = String(chatId);
+  const mId = String(messageId);
+
+  // 1. Direct platform prefix lookups (mr_ = Marrow, px_ = PrepLadder, cb_ = Cerebellum)
+  const direct = manifest[`mr_${cId}_${mId}`] ||
+                 manifest[`px_${cId}_${mId}`] ||
+                 manifest[`cb_${cId}_${mId}`] ||
+                 manifest[`${cId}_${mId}`];
+  if (direct) return direct;
+
+  // 2. Suffix match (_chatId_messageId)
+  const suffix = `_${cId}_${mId}`;
+  for (const [key, val] of Object.entries(manifest)) {
+    if (key.endsWith(suffix) || key === `${cId}_${mId}`) {
+      return val;
+    }
+  }
+
+  // 3. Attribute match
+  for (const val of Object.values(manifest)) {
+    if (val && typeof val === 'object') {
+      const matchChat = String(val.telegram_chat_id || val.chat_id || '');
+      const matchMsg = String(val.telegram_message_id || val.message_id || '');
+      if (matchChat === cId && matchMsg === mId) {
+        return val;
+      }
+    }
+  }
+
+  return null;
+}
+
 // Clerk Networkless / Edge Authentication Helper
 async function authenticateUser(c: any): Promise<{ userId: string; sessionId?: string } | null> {
   const authHeader = c.req.header('authorization') || c.req.header('Authorization');
@@ -349,8 +383,7 @@ app.get('/stream/:chatId/:messageId', async (c) => {
 
   try {
     const manifest = await getManifest();
-    const itemKey = `px_${chatId}_${messageId}`;
-    const item = manifest[itemKey];
+    const item = resolveManifestItem(manifest, chatId, messageId);
 
     if (item && item.onedrive_item_id && item.status === 'completed') {
       const directUrl = await getOneDriveDownloadUrl(c.env, item.onedrive_item_id);
@@ -400,8 +433,7 @@ app.get('/notes/:chatId/:messageId', async (c) => {
 
   try {
     const manifest = await getManifest();
-    const itemKey = `px_${chatId}_${messageId}`;
-    const item = manifest[itemKey];
+    const item = resolveManifestItem(manifest, chatId, messageId);
 
     if (item && item.onedrive_item_id && item.status === 'completed') {
       const directUrl = await getOneDriveDownloadUrl(c.env, item.onedrive_item_id);
@@ -451,8 +483,7 @@ app.get('/thumbnail/:chatId/:messageId', async (c) => {
 
   try {
     const manifest = await getManifest();
-    const itemKey = `px_${chatId}_${messageId}`;
-    const item = manifest[itemKey];
+    const item = resolveManifestItem(manifest, chatId, messageId);
 
     if (item && item.onedrive_item_id && item.status === 'completed') {
       const directUrl = await getOneDriveThumbnailUrl(c.env, item.onedrive_item_id);

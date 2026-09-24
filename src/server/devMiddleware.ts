@@ -38,6 +38,40 @@ function getManifest(rootDir: string): Record<string, any> {
   return cachedManifest || {};
 }
 
+function resolveManifestItem(manifest: Record<string, any>, chatId: string | number, messageId: string | number): any {
+  if (!manifest) return null;
+  const cId = String(chatId);
+  const mId = String(messageId);
+
+  // 1. Direct platform prefix lookups (mr_ = Marrow, px_ = PrepLadder, cb_ = Cerebellum)
+  const direct = manifest[`mr_${cId}_${mId}`] ||
+                 manifest[`px_${cId}_${mId}`] ||
+                 manifest[`cb_${cId}_${mId}`] ||
+                 manifest[`${cId}_${mId}`];
+  if (direct) return direct;
+
+  // 2. Suffix match (_chatId_messageId)
+  const suffix = `_${cId}_${mId}`;
+  for (const [key, val] of Object.entries(manifest)) {
+    if (key.endsWith(suffix) || key === `${cId}_${mId}`) {
+      return val;
+    }
+  }
+
+  // 3. Attribute match
+  for (const val of Object.values(manifest)) {
+    if (val && typeof val === 'object') {
+      const matchChat = String(val.telegram_chat_id || val.chat_id || '');
+      const matchMsg = String(val.telegram_message_id || val.message_id || '');
+      if (matchChat === cId && matchMsg === mId) {
+        return val;
+      }
+    }
+  }
+
+  return null;
+}
+
 async function getGraphAccessToken(rootDir: string): Promise<string | null> {
   const now = Date.now();
   if (tokenCache && tokenCache.expiresAt > now + 60000) {
@@ -256,10 +290,8 @@ export function aspirinDevApiPlugin(): Plugin {
           const type = streamMatch[1]; // 'stream' or 'notes'
           const chatId = streamMatch[2];
           const messageId = streamMatch[3];
-          const itemKey = `px_${chatId}_${messageId}`;
-
           const manifest = getManifest(rootDir);
-          const manifestItem = manifest[itemKey];
+          const manifestItem = resolveManifestItem(manifest, chatId, messageId);
 
           // Check if item is migrated to OneDrive / SharePoint
           if (manifestItem && manifestItem.onedrive_item_id && manifestItem.status === 'completed') {
@@ -325,10 +357,8 @@ export function aspirinDevApiPlugin(): Plugin {
         if (thumbMatch) {
           const chatId = thumbMatch[1];
           const messageId = thumbMatch[2];
-          const itemKey = `px_${chatId}_${messageId}`;
-
           const manifest = getManifest(rootDir);
-          const manifestItem = manifest[itemKey];
+          const manifestItem = resolveManifestItem(manifest, chatId, messageId);
 
           if (manifestItem && manifestItem.onedrive_item_id && manifestItem.status === 'completed') {
             const directUrl = await getOneDriveThumbnailUrl(rootDir, manifestItem.onedrive_item_id);
