@@ -225,14 +225,24 @@ async function syncCatalog() {
         };
         sub.modules.push(mod);
       }
+    } else if (platform === 'prepx_hi') {
+      mod = sub.modules.find((m) => m.id === `mod_prepx_hi_${subId}` || m.name.includes('Hinglish'));
+      if (!mod) {
+        mod = {
+          id: `mod_prepx_hi_${subId}`,
+          name: `PrepLadder Edition X (Hinglish) - ${sub.name}`,
+          topics: [],
+        };
+        sub.modules.push(mod);
+      }
     } else {
-      // PrepLadder
+      // PrepLadder English (prepx_en)
       if (subId === 'medicine') {
         mod = sub.modules.find((m) => m.id === 'mod_med_full') || sub.modules[0];
       } else if (subId === 'anatomy') {
         mod = sub.modules.find((m) => m.id === 'mod_anat_neuro') || sub.modules[0];
       } else {
-        mod = sub.modules.find((m) => m.id === `mod_prepx_en_${subId}` || m.name.includes('PrepLadder'));
+        mod = sub.modules.find((m) => m.id === `mod_prepx_en_${subId}` || (m.name.includes('PrepLadder') && !m.name.includes('Hinglish')));
       }
 
       if (!mod) {
