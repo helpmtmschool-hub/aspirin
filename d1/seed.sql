@@ -1,5 +1,4 @@
 -- Yui LMS D1 Initial Seed Data
-BEGIN TRANSACTION;
 INSERT INTO subjects (id, name, code, prof, category, icon, color, display_order) VALUES ('anatomy', 'Anatomy', 'ANAT', '1st Prof', 'Pre-Clinical', 'Bone', '#E11D48', 1);
 INSERT INTO modules (id, subject_id, title, display_order) VALUES ('mod_anatomy_1', 'anatomy', 'Clinical Lectures & PYQs', 1);
 INSERT INTO topics (id, subject_id, module_id, title, filename, file_size_bytes, duration_seconds, duration_formatted, telegram_chat_id, telegram_message_id, pearls_json, display_order) VALUES ('topic_-1002175257682_4855', 'anatomy', 'mod_anatomy_1', 'General Embryology Hinglish.mp4 Uploaded By 👉 @Cerebellu', 'General Embryology Hinglish.mp4 Uploaded By 👉 @Cerebellu.mp4', 425396116, 1800, '30 mins', -1002175257682, 4855, '["Core high-yield concepts in General Embryology Hinglish.mp4 Uploaded By \ud83d\udc49 @Cerebellu", "Focus on clinical presentation, investigation of choice, and management protocols"]', 1);
@@ -550,5 +549,4 @@ INSERT INTO notes (id, subject_id, title, filename, file_size_bytes, telegram_ch
 INSERT INTO notes (id, subject_id, title, filename, file_size_bytes, telegram_chat_id, telegram_message_id) VALUES ('note_-1002723611303_8367', 'anesthesiology', 'ANESTHESIA AIIMS  2014-2018  PYTs', 'ANESTHESIA_AIIMS__2014-2018__PYTs.pdf', 587019, -1002723611303, 8367);
 INSERT INTO notes (id, subject_id, title, filename, file_size_bytes, telegram_chat_id, telegram_message_id) VALUES ('note_-1002723611303_8366', 'anesthesiology', 'ANESTHESIA INICET PYTs', 'ANESTHESIA_INICET_PYTs.pdf', 281183, -1002723611303, 8366);
 INSERT INTO notes (id, subject_id, title, filename, file_size_bytes, telegram_chat_id, telegram_message_id) VALUES ('note_-1002723611303_8365', 'anesthesiology', 'ANESTHESIA NEETPG PYTs', 'ANESTHESIA_NEETPG_PYTs.pdf', 249093, -1002723611303, 8365);
-INSERT INTO notes (id, subject_id, title, filename, file_size_bytes, telegram_chat_id, telegram_message_id) VALUES ('note_-1003709841202_4015', 'anesthesiology', 'Anesthesia (Dr. Jhanvi Bajaj)', 'Anesthesia (Dr. Jhanvi Bajaj).pdf', 215110390, -1003709841202, 4015);
-COMMIT;
+INSERT INTO notes (id, subject_id, title, filename, file_size_bytes, telegram_chat_id, telegram_message_id) VALUES ('note_-1003709841202_4015', 'anesthesiology', 'Anesthesia (Dr. Jhanvi Bajaj)', 'Anesthesia (Dr. Jhanvi Bajaj).pdf', 215110390, -1003709841202, 4015);

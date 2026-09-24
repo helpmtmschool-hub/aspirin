@@ -8,8 +8,11 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "pages:dev": "wrangler pages dev dist --d1 DB=yui-db",
+    "pages:deploy": "wrangler pages deploy dist",
     "d1:init": "wrangler d1 execute yui-db --local --file=./d1/schema.sql",
     "d1:seed": "wrangler d1 execute yui-db --local --file=./d1/seed.sql",
+    "d1:remote:init": "wrangler d1 execute yui-db --remote --file=./d1/schema.sql",
+    "d1:remote:seed": "wrangler d1 execute yui-db --remote --file=./d1/seed.sql",
     "migrate:notes": "python engine/telegram_to_onedrive.py --subject notes_pdf"
   },
   "dependencies": {

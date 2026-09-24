@@ -10,7 +10,7 @@
     {
       "binding": "DB",
       "database_name": "yui-db",
-      "database_id": "yui-db-local"
+      "database_id": "0f671e86-6451-4d48-87fd-11a06d5cc89a"
     }
   ],
   "vars": {
