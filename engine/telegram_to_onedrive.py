@@ -149,66 +149,94 @@ def normalize_subject_title(raw_title: str) -> str:
     return "medicine"
 
 
-# Academic clinical hierarchy for lecture migration:
-# 1. PrepLadder Medicine lectures first (English, then Hinglish)
-# 2. PrepLadder Final Year clinical subjects (Surgery, OBG, Pediatrics, Orthopedics, Dermatology, Psychiatry, Radiology, Anesthesia)
-# 3. PrepLadder Remaining Years:
-#    - 3rd Prof: Ophthalmology, ENT, PSM, FMT
-#    - 2nd Prof: Pathology, Pharmacology, Microbiology
-#    - 1st Prof: Anatomy, Physiology, Biochemistry
-# 4. Cerebellum Academy in the exact same clinical order:
-#    - Medicine -> Final Year -> Remaining Years -> Notes PDF
+# Final Year MBBS / NEET-PG Clinical Subjects
+FINAL_YEAR_SUBJECTS = {
+    "surgery",
+    "obg",
+    "pediatrics",
+    "orthopedics",
+    "dermatology",
+    "psychiatry",
+    "radiology",
+    "anesthesia",
+    "ophthalmology",
+    "ent",
+    "medicine",
+}
+
+# Clinical order within subjects (Surgery first, then OBG, Pediatrics, etc.)
+# Medicine is rank 11 so completed English medicine doesn't block, and Hinglish medicine doesn't precede clinicals.
 SUBJECT_CLINICAL_RANK = {
-    "medicine": 1,
-    "surgery": 2,
-    "obg": 3,
-    "pediatrics": 4,
-    "orthopedics": 5,
-    "dermatology": 6,
-    "psychiatry": 7,
-    "radiology": 8,
-    "anesthesia": 9,
-    "ophthalmology": 10,
-    "ent": 11,
+    "surgery": 1,
+    "obg": 2,
+    "pediatrics": 3,
+    "orthopedics": 4,
+    "dermatology": 5,
+    "psychiatry": 6,
+    "radiology": 7,
+    "anesthesia": 8,
+    "ophthalmology": 9,
+    "ent": 10,
+    "medicine": 11,
     "psm": 12,
     "forensic_medicine": 13,
+    "fmt": 13,
     "pathology": 14,
     "pharmacology": 15,
     "microbiology": 16,
     "anatomy": 17,
     "physiology": 18,
     "biochemistry": 19,
-    "notes_pdf": 20,
+    "notes_pdf": 99,
 }
 
 
-def get_section_priority(sec_platform: str, raw_title: str) -> tuple:
+def get_item_priority(item: Dict[str, Any]) -> tuple:
     """
-    Returns a sort tuple prioritizing:
-    1. PrepLadder Medicine
-    2. PrepLadder Final Year
-    3. PrepLadder Remaining Years (3rd, 2nd, 1st profs)
-    4. Cerebellum Medicine
-    5. Cerebellum Final Year
-    6. Cerebellum Remaining Years
-    7. Cerebellum Notes PDF
+    Queue priority tiers (all videos only):
+    Tier 1: Marrow all final years subjects first (except medicine)
+    Tier 2: PrepLadder all final years subjects (except what's already uploaded)
+    Tier 3: Marrow remaining years subjects [never medicine]
+    Tier 4: PrepLadder remaining year subjects
+    Tier 5: Cerebellum remaining subjects
     """
-    norm_subj = normalize_subject_title(raw_title)
-    platform_group = 1 if sec_platform in ("prepx_en", "prepx_hi") else 2
+    platform = item.get("platform", "")
+    subj = item.get("subject_id", "")
+    is_final_year = subj in FINAL_YEAR_SUBJECTS
 
-    if norm_subj == "medicine":
-        cat_rank = 1
-    elif norm_subj in ("surgery", "obg", "pediatrics", "orthopedics", "dermatology", "psychiatry", "radiology", "anesthesia"):
-        cat_rank = 2
-    elif norm_subj in ("ophthalmology", "ent", "psm", "forensic_medicine", "pathology", "pharmacology", "microbiology", "anatomy", "physiology", "biochemistry"):
-        cat_rank = 3
+    # NEVER medicine for Marrow
+    if platform == "marrow" and subj == "medicine":
+        return (999, 999, 999, 999)
+
+    if platform == "marrow" and is_final_year:
+        tier = 1
+    elif platform in ("prepx_en", "prepx_hi") and is_final_year:
+        tier = 2
+    elif platform == "marrow" and not is_final_year:
+        tier = 3
+    elif platform in ("prepx_en", "prepx_hi") and not is_final_year:
+        tier = 4
+    elif platform == "cerebellum":
+        tier = 5
     else:
-        cat_rank = 4
+        tier = 6
 
-    platform_rank = 1 if sec_platform == "prepx_en" else (2 if sec_platform == "prepx_hi" else 3)
-    subj_rank = SUBJECT_CLINICAL_RANK.get(norm_subj, 99)
+    # Sub-rank within tier:
+    # 1. Platform preference: prepx_en ahead of prepx_hi
+    if platform == "prepx_en":
+        plat_rank = 1
+    elif platform == "prepx_hi":
+        plat_rank = 2
+    else:
+        plat_rank = 1
 
-    return (platform_group, cat_rank, platform_rank, subj_rank)
+    # 2. Subject rank (surgery=1, obg=2, pediatrics=3, etc.)
+    subj_rank = SUBJECT_CLINICAL_RANK.get(subj, 50)
+
+    # 3. Message sequence
+    msg_id = item.get("message_id", 0)
+
+    return (tier, plat_rank, subj_rank, msg_id)
 
 
 class FastTelegramDownloader:
@@ -524,68 +552,77 @@ class LectureTransferEngine:
 
     def load_queue(self, platform: Optional[str] = None, target_subject: Optional[str] = None) -> List[Dict[str, Any]]:
         """
-        Loads unuploaded lecture tasks based on Prep X + Cerebellum master sections.
-        Falls back to legacy catalog.json if sections file is absent.
+        Loads unuploaded lecture tasks strictly based on user priority tiers:
+        1. Marrow all final years subjects first (except medicine)
+        2. PrepLadder all final years subjects (except what's already uploaded)
+        3. Marrow remaining years subjects [never medicine]
+        4. PrepLadder remaining year subjects
+        5. Cerebellum remaining subjects
         """
-        if not SECTIONS_PATH.exists():
-            return self._load_queue_legacy(target_subject)
+        raw_items: List[Dict[str, Any]] = []
 
-        with open(SECTIONS_PATH, "r", encoding="utf-8") as f:
-            sections = json.load(f)
+        # 1. Load PrepLadder & Cerebellum sections
+        if SECTIONS_PATH.exists():
+            with open(SECTIONS_PATH, "r", encoding="utf-8") as f:
+                sections = json.load(f)
 
-        # Sort master sections according to academic clinical priority
-        sorted_sections = sorted(
-            sections,
-            key=lambda s: get_section_priority(s.get("platform", ""), s.get("title", ""))
-        )
+            for sec in sections:
+                sec_platform = sec["platform"]
+                raw_title = sec["title"]
+                norm_subj = normalize_subject_title(raw_title)
 
-        queue = []
-        for sec in sorted_sections:
-            sec_platform = sec["platform"]
-            raw_title = sec["title"]
-            norm_subj = normalize_subject_title(raw_title)
-
-            # Filter by platform
-            if platform and platform.lower() not in (sec_platform.lower(), "all"):
-                continue
-
-            # Filter by subject
-            if target_subject and target_subject.lower() != "all":
-                tgt = target_subject.lower().strip()
-                if tgt == "obgyn":
-                    tgt = "obg"
-                if tgt != norm_subj.lower():
+                # Skip non-video notes if videos_only is active
+                if self.videos_only and norm_subj == "notes_pdf":
                     continue
 
-            platform_folder = PLATFORM_FOLDER_MAP.get(sec_platform, sec_platform)
-            subj_folder = SUBJECT_FOLDER_MAP.get(norm_subj, norm_subj)
-
-            # Add extra faculty name for Cerebellum specialized tracks
-            faculty_tag = ""
-            if "DR AJ" in raw_title.upper(): faculty_tag = "_Dr_Ankur_Jain"
-            elif "DR SP" in raw_title.upper(): faculty_tag = "_Dr_Smily_Pruthi"
-            elif "DR D P" in raw_title.upper(): faculty_tag = "_Dr_Devyani_Puri"
-            elif "DR P S" in raw_title.upper(): faculty_tag = "_Dr_Priyanka_Sachdev"
-
-            folder_display = f"{subj_folder}{faculty_tag}"
-
-            for mid in range(sec["start_id"], sec["end_id"] + 1):
-                item_id = f"px_{PREPX_CHANNEL_ID}_{mid}"
-                if item_id in self.manifest and self.manifest[item_id].get("status") == "completed":
+                # Filter by platform
+                if platform and platform.lower() not in (sec_platform.lower(), "all"):
                     continue
 
-                queue.append({
-                    "id": item_id,
-                    "chat_id": PREPX_CHANNEL_ID,
-                    "message_id": mid,
-                    "platform": sec_platform,
-                    "platform_folder": platform_folder,
-                    "subject_id": norm_subj,
-                    "subject_name": raw_title,
-                    "subject_folder": folder_display,
-                })
+                # Filter by subject
+                if target_subject and target_subject.lower() != "all":
+                    tgt = target_subject.lower().strip()
+                    if tgt in ("obgyn", "obg"):
+                        if norm_subj not in ("obgyn", "obg"):
+                            continue
+                    elif tgt in ("anesthesiology", "anesthesia"):
+                        if norm_subj not in ("anesthesiology", "anesthesia"):
+                            continue
+                    elif tgt in ("fmt", "forensic_medicine"):
+                        if norm_subj not in ("fmt", "forensic_medicine"):
+                            continue
+                    elif tgt != norm_subj.lower():
+                        continue
 
-        # Load Marrow Final Year sections
+                platform_folder = PLATFORM_FOLDER_MAP.get(sec_platform, sec_platform)
+                subj_folder = SUBJECT_FOLDER_MAP.get(norm_subj, norm_subj)
+
+                # Add extra faculty name for Cerebellum specialized tracks
+                faculty_tag = ""
+                if "DR AJ" in raw_title.upper(): faculty_tag = "_Dr_Ankur_Jain"
+                elif "DR SP" in raw_title.upper(): faculty_tag = "_Dr_Smily_Pruthi"
+                elif "DR D P" in raw_title.upper(): faculty_tag = "_Dr_Devyani_Puri"
+                elif "DR P S" in raw_title.upper(): faculty_tag = "_Dr_Priyanka_Sachdev"
+
+                folder_display = f"{subj_folder}{faculty_tag}"
+
+                for mid in range(sec["start_id"], sec["end_id"] + 1):
+                    item_id = f"px_{PREPX_CHANNEL_ID}_{mid}"
+                    if item_id in self.manifest and self.manifest[item_id].get("status") == "completed":
+                        continue
+
+                    raw_items.append({
+                        "id": item_id,
+                        "chat_id": PREPX_CHANNEL_ID,
+                        "message_id": mid,
+                        "platform": sec_platform,
+                        "platform_folder": platform_folder,
+                        "subject_id": norm_subj,
+                        "subject_name": raw_title,
+                        "subject_folder": folder_display,
+                    })
+
+        # 2. Load Marrow sections
         if MARROW_SECTIONS_PATH.exists() and (not platform or platform.lower() in ("marrow", "all")):
             try:
                 with open(MARROW_SECTIONS_PATH, "r", encoding="utf-8") as f:
@@ -593,11 +630,23 @@ class LectureTransferEngine:
 
                 for sec in marrow_sections:
                     sec_subj = sec["subject_id"]
+
+                    # Explicit rule: NEVER medicine for Marrow
+                    if sec_subj == "medicine":
+                        continue
+
                     if target_subject and target_subject.lower() != "all":
                         tgt = target_subject.lower().strip()
-                        if tgt == "obgyn":
-                            tgt = "obg"
-                        if tgt != sec_subj.lower():
+                        if tgt in ("obgyn", "obg"):
+                            if sec_subj not in ("obgyn", "obg"):
+                                continue
+                        elif tgt in ("anesthesiology", "anesthesia"):
+                            if sec_subj not in ("anesthesiology", "anesthesia"):
+                                continue
+                        elif tgt in ("fmt", "forensic_medicine"):
+                            if sec_subj not in ("fmt", "forensic_medicine"):
+                                continue
+                        elif tgt != sec_subj.lower():
                             continue
 
                     platform_folder = PLATFORM_FOLDER_MAP.get("marrow", "04_Marrow_Edition_6")
@@ -609,7 +658,7 @@ class LectureTransferEngine:
                         if item_id in self.manifest and self.manifest[item_id].get("status") == "completed":
                             continue
 
-                        queue.append({
+                        raw_items.append({
                             "id": item_id,
                             "chat_id": MARROW_CHANNEL_ID,
                             "message_id": mid,
@@ -623,7 +672,16 @@ class LectureTransferEngine:
             except Exception as e:
                 print(f"[Warning] Failed to load marrow sections: {e}")
 
-        return queue
+        # Fallback to legacy catalog only if no items found
+        if not raw_items and not SECTIONS_PATH.exists():
+            return self._load_queue_legacy(target_subject)
+
+        # 3. Sort all candidate items strictly by the 4-tier user priority
+        raw_items.sort(key=get_item_priority)
+
+        # Filter out any discarded items (e.g. tier 999)
+        valid_items = [it for it in raw_items if get_item_priority(it)[0] < 900]
+        return valid_items
 
     def _load_queue_legacy(self, target_subject: Optional[str] = None) -> List[Dict[str, Any]]:
         """Legacy catalog fallback."""

@@ -1,10 +1,11 @@
 name: Transfer Lectures from Telegram to OneDrive
 
-# Upload Sequence (automated every 3 hours):
-# 1. Remaining PrepLadder English lectures (videos only)
-# 2. Marrow Final Year subjects except Medicine (videos only)
-# The queue in telegram_to_onedrive.py naturally processes PrepLadder first,
-# then Marrow, so running with --platform all follows this sequence.
+# Upload Sequence (automated every 3 hours, all videos only):
+# 1. Marrow all final years subjects first (except medicine)
+# 2. PrepLadder all final years subjects (except what's already uploaded)
+# 3. Marrow remaining years subjects [never medicine]
+# 4. PrepLadder remaining year subjects
+# The queue in telegram_to_onedrive.py strictly enforces this 4-tier sequence.
 
 on:
   schedule:
