@@ -1,6 +1,65 @@
 const fs = require('fs');
 const path = require('path');
 
+const ACRONYMS = new Set([
+  'ENT', 'OBG', 'PSM', 'FMT', 'EEG', 'ICP', 'ALS', 'MND', 'SAH', 'TIA',
+  'SLE', 'RA', 'PBC', 'PSC', 'COPD', 'TB', 'ILD', 'PAP', 'LBW', 'CT',
+  'MRI', 'USG', 'PROM', 'IUGR', 'PCOS', 'PID', 'CIN', 'ATLS', 'IV', 'GI',
+  'NEET', 'PG', 'COVID', 'HIV', 'DNA', 'RNA', 'CSF', 'RBC', 'WBC', 'HB',
+  'ABG', 'ECG', 'LFT', 'KFT', 'RFT', 'P1', 'P2', 'P3', 'P4'
+]);
+
+const MINOR_WORDS = new Set(['a', 'an', 'the', 'and', 'but', 'or', 'for', 'nor', 'on', 'at', 'to', 'from', 'by', 'of', 'in', 'with']);
+
+function toTitleCase(s) {
+  const tokens = s.split(/(\s+|[-/(),])/);
+  let wordIdx = 0;
+  return tokens.map((tok) => {
+    if (!tok || /^(\s+|[-/(),])$/.test(tok)) return tok;
+    const cleaned = tok.replace(/[^\w]/g, '').toUpperCase();
+    if (ACRONYMS.has(cleaned)) {
+      wordIdx++;
+      return cleaned;
+    }
+    if (wordIdx > 0 && MINOR_WORDS.has(tok.toLowerCase())) {
+      wordIdx++;
+      return tok.toLowerCase();
+    }
+    wordIdx++;
+    return tok.charAt(0).toUpperCase() + tok.slice(1).toLowerCase();
+  }).join('');
+}
+
+function formatLectureTitle(rawTitle, subjectName, subjectId) {
+  let t = (rawTitle || '').trim().replace(/\.(mp4|mkv|webm|pdf)$/i, '').trim();
+  t = t.replace(/\bsurgey\b/gi, 'Surgery')
+       .replace(/\bnutition\b/gi, 'Nutrition')
+       .replace(/\bdsz\b/gi, 'Disease')
+       .replace(/\bpappulo\b/gi, 'Papulo')
+       .replace(/\bbasi\b/gi, 'Basics')
+       .replace(/\bint obstruction\b/gi, 'Intestinal Obstruction')
+       .replace(/\buppergi\b/gi, 'Upper GI')
+       .replace(/\bthyriod\b/gi, 'Thyroid')
+       .replace(/\bmedistanum\b/gi, 'Mediastinum')
+       .replace(/\bamnitic\b/gi, 'Amniotic')
+       .replace(/\bderma\b|\bdermat\b/gi, 'Dermatology')
+       .replace(/\bortho\b/gi, 'Orthopedics')
+       .replace(/\bed6\b|\bedition\s*0?6\b/gi, 'Edition 6')
+       .replace(/\s+/g, ' ')
+       .trim();
+
+  const m = t.match(/^(?:lecture\s*)?0*(\d+)[\.\s\-_:]*(.*)$/i);
+  if (m) {
+    const num = parseInt(m[1], 10);
+    let rest = m[2].trim();
+    if (!rest) {
+      rest = subjectName ? `${subjectName} Part ${num}` : `Part ${num}`;
+    }
+    return `${num}. ${toTitleCase(rest)}`;
+  }
+  return toTitleCase(t);
+}
+
 async function syncCatalog() {
   const rootDir = path.resolve(__dirname, '..');
   const tokenFile = path.resolve(rootDir, 'onedrive_token.json');
@@ -193,7 +252,8 @@ async function syncCatalog() {
     const topicId = `topic_${chatId}_${msgId}`;
     let topic = mod.topics.find((t) => t.id === topicId);
 
-    const title = item.clean_title || item.title || (item.filename ? item.filename.replace(/\.(mp4|mkv|webm|pdf)$/i, '') : `Lecture ${msgId}`);
+    const rawTitle = item.clean_title || item.title || (item.filename ? item.filename.replace(/\.(mp4|mkv|webm|pdf)$/i, '') : `Lecture ${msgId}`);
+    const title = formatLectureTitle(rawTitle, sub ? sub.name : '', subId);
     const sizeBytes = item.size_bytes || item.file_size || 0;
     const sizeMb = Math.round((sizeBytes / (1024 * 1024)) * 100) / 100;
 
@@ -225,6 +285,15 @@ async function syncCatalog() {
       if (item.duration_formatted) topic.duration_formatted = item.duration_formatted;
       topic.thumbnail_url = `/api/thumbnail/${chatId}/${msgId}`;
     }
+
+    // Always keep module topics sorted in exact numerical sequence
+    mod.topics.sort((a, b) => {
+      const mA = (a.title || '').match(/^0*(\d+)\b/);
+      const mB = (b.title || '').match(/^0*(\d+)\b/);
+      const nA = mA ? parseInt(mA[1], 10) : 999999;
+      const nB = mB ? parseInt(mB[1], 10) : 999999;
+      return nA - nB;
+    });
   }
 
   // Deduplicate topics and remove empty modules

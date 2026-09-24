@@ -2737,7 +2737,7 @@
     "status": "completed"
   },
   "mr_-1003264222864_340": {
-    "title": "1 HOW TO READ SURGERY",
+    "title": "1. How to Read Surgery",
     "filename": "1 HOW TO READ SURGERY.mp4",
     "platform": "marrow",
     "subject_id": "surgery",
@@ -2756,7 +2756,7 @@
     "status": "completed"
   },
   "mr_-1003264222864_341": {
-    "title": "2 patient safety zone and surgey position",
+    "title": "2. Patient Safety Zone and Surgery Position",
     "filename": "2 patient safety zone and surgey position.mp4",
     "platform": "marrow",
     "subject_id": "surgery",
@@ -2775,7 +2775,7 @@
     "status": "completed"
   },
   "mr_-1003264222864_342": {
-    "title": "3 surgical blades and energy source",
+    "title": "3. Surgical Blades and Energy Source",
     "filename": "3 surgical blades and energy source.mp4",
     "platform": "marrow",
     "subject_id": "surgery",
@@ -2794,7 +2794,7 @@
     "status": "completed"
   },
   "mr_-1003264222864_343": {
-    "title": "4 suture knot and surgical drain",
+    "title": "4. Suture Knot and Surgical Drain",
     "filename": "4 suture knot and surgical drain.mp4",
     "platform": "marrow",
     "subject_id": "surgery",
@@ -2813,7 +2813,7 @@
     "status": "completed"
   },
   "mr_-1003264222864_344": {
-    "title": "5 case of post op fever",
+    "title": "5. Case of Post Op Fever",
     "filename": "5 case of post op fever.mp4",
     "platform": "marrow",
     "subject_id": "surgery",
@@ -2832,7 +2832,7 @@
     "status": "completed"
   },
   "mr_-1003264222864_345": {
-    "title": "6 day care surgery",
+    "title": "6. Day Care Surgery",
     "filename": "6 day care surgery.mp4",
     "platform": "marrow",
     "subject_id": "surgery",
@@ -2851,7 +2851,7 @@
     "status": "completed"
   },
   "mr_-1003264222864_346": {
-    "title": "7 surgical nutition",
+    "title": "7. Surgical Nutrition",
     "filename": "7 surgical nutition.mp4",
     "platform": "marrow",
     "subject_id": "surgery",
@@ -2870,7 +2870,7 @@
     "status": "completed"
   },
   "mr_-1003264222864_347": {
-    "title": "8 shock part 1",
+    "title": "8. Shock Part 1",
     "filename": "8 shock part 1.mp4",
     "platform": "marrow",
     "subject_id": "surgery",
@@ -2889,7 +2889,7 @@
     "status": "completed"
   },
   "mr_-1003264222864_348": {
-    "title": "9 shock part 2",
+    "title": "9. Shock Part 2",
     "filename": "9 shock part 2.mp4",
     "platform": "marrow",
     "subject_id": "surgery",
@@ -2906,5 +2906,11 @@
     "thumbnail_url": "/api/thumbnail/-1003264222864/348",
     "uploaded_at": "2026-09-24T13:56:17Z",
     "status": "completed"
+  },
+  "px_-1003709841202_831": {
+    "status": "completed",
+    "type": "separator",
+    "text": "SURGERY",
+    "skipped": true
   }
 }

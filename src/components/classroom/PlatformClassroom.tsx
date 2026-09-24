@@ -150,7 +150,7 @@ export const PlatformClassroom: React.FC<PlatformClassroomProps> = ({
         </motion.button>
 
         {/* Quick Platform Switcher Tabs */}
-        <div className="flex items-center gap-1 p-1 rounded-full bg-[#f5f0e0] border border-[#e5e5e5] overflow-x-auto max-w-full relative self-start sm:self-auto">
+        <div className="flex items-center gap-1 p-1 rounded-full bg-[#f5f0e0] border border-[#e5e5e5] overflow-x-auto max-w-full relative self-start sm:self-auto scrollbar-none touch-snap-x">
           {(subject.available_platforms && subject.available_platforms.length > 0 
             ? subject.available_platforms 
             : (['prepx_en', 'prepx_hi', 'cerebellum', 'marrow'] as PlatformId[])
@@ -182,10 +182,10 @@ export const PlatformClassroom: React.FC<PlatformClassroomProps> = ({
       </div>
 
       {/* Dedicated Subject Hero Banner */}
-      <div className="p-6 sm:p-8 rounded-[24px] bg-[#faf5e8] border border-[#e5e5e5] shadow-xs">
+      <div className="p-4 sm:p-8 rounded-[20px] sm:rounded-[24px] bg-[#faf5e8] border border-[#e5e5e5] shadow-xs">
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-6">
-          <div className="flex items-start sm:items-center gap-4 sm:gap-5">
-            <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-2xl bg-[#fffaf0] border border-[#e5e5e5] flex items-center justify-center text-4xl sm:text-5xl shadow-xs shrink-0">
+          <div className="flex items-start sm:items-center gap-3.5 sm:gap-5">
+            <div className="w-14 h-14 sm:w-20 sm:h-20 rounded-2xl bg-[#fffaf0] border border-[#e5e5e5] flex items-center justify-center text-3xl sm:text-5xl shadow-xs shrink-0">
               <span role="img" aria-label={subject.name}>{visual.emoji}</span>
             </div>
             <div className="space-y-1.5">
@@ -404,11 +404,11 @@ export const PlatformClassroom: React.FC<PlatformClassroomProps> = ({
                                 whileHover={{ backgroundColor: "rgba(250, 245, 232, 0.7)" }}
                                 whileTap={{ scale: 0.995 }}
                                 onClick={() => onPlayTopic(topic, allTopicsInCurriculum)}
-                                className="p-4 flex items-center justify-between gap-4 transition-colors cursor-pointer group"
+                                className="p-3 sm:p-4 flex items-center justify-between gap-2.5 sm:gap-4 transition-colors cursor-pointer group"
                               >
-                                <div className="flex items-center gap-3.5 min-w-0">
+                                <div className="flex items-center gap-3 sm:gap-3.5 min-w-0">
                                   {/* Video Thumbnail Preview */}
-                                  <div className="w-20 sm:w-24 shrink-0 rounded-xl overflow-hidden border border-[#e5e5e5] shadow-xs">
+                                  <div className="w-16 sm:w-24 shrink-0 rounded-lg sm:rounded-xl overflow-hidden border border-[#e5e5e5] shadow-xs">
                                     <VideoThumbnail
                                       topic={topic}
                                       size="sm"
@@ -419,7 +419,12 @@ export const PlatformClassroom: React.FC<PlatformClassroomProps> = ({
 
                                   <div className="min-w-0 space-y-1">
                                     <div className="flex items-center gap-2 flex-wrap">
-                                      <h5 className="text-xs sm:text-sm font-semibold text-[#0a0a0a] truncate group-hover:text-[#ff4d8b] transition-colors">
+                                      {extractLectureNumber(topic.title) < 99999 && (
+                                        <span className="inline-flex items-center justify-center px-1.5 py-0.5 rounded-md bg-[#0a0a0a] text-white text-[10px] font-mono font-bold shrink-0">
+                                          #{extractLectureNumber(topic.title)}
+                                        </span>
+                                      )}
+                                      <h5 className="text-xs sm:text-sm font-semibold text-[#0a0a0a] line-clamp-2 leading-snug group-hover:text-[#ff4d8b] transition-colors">
                                         {topic.title}
                                       </h5>
                                       {hasPearls && (
@@ -430,7 +435,7 @@ export const PlatformClassroom: React.FC<PlatformClassroomProps> = ({
                                       )}
                                     </div>
 
-                                    <div className="flex items-center gap-3 text-[11px] font-mono text-[#6a6a6a]">
+                                    <div className="flex items-center gap-2.5 sm:gap-3 text-[11px] font-mono text-[#6a6a6a]">
                                       <span className="flex items-center gap-1">
                                         <Clock className="w-3 h-3" />
                                         {topic.duration_formatted}
@@ -454,7 +459,7 @@ export const PlatformClassroom: React.FC<PlatformClassroomProps> = ({
                                   <button
                                     type="button"
                                     onClick={(e) => handleToggleBookmark(e, topic)}
-                                    className={`p-2 rounded-lg border transition ${
+                                    className={`w-9 h-9 sm:w-8 sm:h-8 flex items-center justify-center rounded-lg border transition ${
                                       isBookmarked
                                         ? 'bg-[#e8b94a] text-[#0a0a0a] border-[#e8b94a]'
                                         : 'bg-[#fffaf0] border-[#e5e5e5] text-[#6a6a6a] hover:text-[#0a0a0a] hover:bg-[#faf5e8]'

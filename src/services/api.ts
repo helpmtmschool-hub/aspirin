@@ -221,14 +221,27 @@ export function getSubjectVisual(subjectId: string): SubjectVisual {
 }
 
 export function extractLectureNumber(title: string): number {
-  const match = (title || '').match(/^0*(\d+)\b/);
+  if (!title) return 999999;
+  const match = title.match(/^(?:lecture\s*)?0*(\d+)\b/i);
   return match ? parseInt(match[1], 10) : 999999;
 }
 
-const DB_NAME = 'aspirin_cache_v4';
-const DB_VERSION = 4;
-const STORE_NAME = 'catalog_store_v4';
-const CATALOG_KEY = 'master_catalog_v4';
+export function formatDisplayTitle(rawTitle: string): string {
+  if (!rawTitle) return '';
+  const num = extractLectureNumber(rawTitle);
+  if (num < 999999) {
+    const stripped = rawTitle.replace(/^(?:lecture\s*)?0*\d+[\.\s\-_:]*/i, '').trim();
+    if (stripped) {
+      return `${num}. ${stripped}`;
+    }
+  }
+  return rawTitle;
+}
+
+const DB_NAME = 'aspirin_cache_v5';
+const DB_VERSION = 5;
+const STORE_NAME = 'catalog_store_v5';
+const CATALOG_KEY = 'master_catalog_v5';
 
 export class LMSApiService {
   private static dbPromise: Promise<IDBPDatabase> | null = null;

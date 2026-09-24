@@ -149,6 +149,66 @@ def normalize_subject_title(raw_title: str) -> str:
     return "medicine"
 
 
+ACRONYMS = {
+    'ENT', 'OBG', 'PSM', 'FMT', 'EEG', 'ICP', 'ALS', 'MND', 'SAH', 'TIA',
+    'SLE', 'RA', 'PBC', 'PSC', 'COPD', 'TB', 'ILD', 'PAP', 'LBW', 'CT',
+    'MRI', 'USG', 'PROM', 'IUGR', 'PCOS', 'PID', 'CIN', 'ATLS', 'IV', 'GI',
+    'NEET', 'PG', 'COVID', 'HIV', 'DNA', 'RNA', 'CSF', 'RBC', 'WBC', 'HB',
+    'ABG', 'ECG', 'LFT', 'KFT', 'RFT', 'P1', 'P2', 'P3', 'P4'
+}
+
+MINOR_WORDS = {'a', 'an', 'the', 'and', 'but', 'or', 'for', 'nor', 'on', 'at', 'to', 'from', 'by', 'of', 'in', 'with'}
+
+
+def to_title_case(s: str) -> str:
+    tokens = re.split(r'(\s+|[-/(),])', s)
+    out = []
+    word_idx = 0
+    for tok in tokens:
+        if not tok or re.match(r'^(\s+|[-/(),])$', tok):
+            out.append(tok)
+            continue
+        cleaned = re.sub(r'[^\w]', '', tok).upper()
+        if cleaned in ACRONYMS:
+            out.append(cleaned)
+        elif word_idx > 0 and tok.lower() in MINOR_WORDS:
+            out.append(tok.lower())
+        else:
+            out.append(tok.capitalize())
+        word_idx += 1
+    return "".join(out)
+
+
+def normalize_lecture_title(raw_title: str, subject_name: str = "", subject_id: str = "") -> str:
+    t = raw_title.strip()
+    t = re.sub(r'\.(mp4|mkv|webm|pdf)$', '', t, flags=re.I).strip()
+    t = re.sub(r'\bsurgey\b', 'Surgery', t, flags=re.I)
+    t = re.sub(r'\bnutition\b', 'Nutrition', t, flags=re.I)
+    t = re.sub(r'\bdsz\b', 'Disease', t, flags=re.I)
+    t = re.sub(r'\bpappulo\b', 'Papulo', t, flags=re.I)
+    t = re.sub(r'\bbasi\b', 'Basics', t, flags=re.I)
+    t = re.sub(r'\bint obstruction\b', 'Intestinal Obstruction', t, flags=re.I)
+    t = re.sub(r'\buppergi\b', 'Upper GI', t, flags=re.I)
+    t = re.sub(r'\bthyriod\b', 'Thyroid', t, flags=re.I)
+    t = re.sub(r'\bmedistanum\b', 'Mediastinum', t, flags=re.I)
+    t = re.sub(r'\bamnitic\b', 'Amniotic', t, flags=re.I)
+    t = re.sub(r'\bderma\b|\bdermat\b', 'Dermatology', t, flags=re.I)
+    t = re.sub(r'\bortho\b', 'Orthopedics', t, flags=re.I)
+    t = re.sub(r'\bed6\b|\bedition\s*0?6\b', 'Edition 6', t, flags=re.I)
+    t = re.sub(r'\s+', ' ', t).strip()
+
+    m = re.match(r'^(?:lecture\s*)?0*(\d+)[\.\s\-_:]*(.*)$', t, flags=re.I)
+    if m:
+        num = int(m.group(1))
+        rest = m.group(2).strip()
+        if not rest:
+            rest = f"{subject_name} Part {num}" if subject_name else f"Part {num}"
+        clean_rest = to_title_case(rest)
+        return f"{num}. {clean_rest}"
+    else:
+        return to_title_case(t)
+
+
 # Final Year MBBS / NEET-PG Clinical Subjects
 FINAL_YEAR_SUBJECTS = {
     "surgery",
@@ -780,7 +840,9 @@ class LectureTransferEngine:
             self._save_manifest()
             return
 
-        clean_title = re.sub(r"\.(mp4|pdf|mkv|webm|mov)$", "", clean_name, flags=re.I).strip()
+        # Ensure strict sequential title formatting: e.g. '1. How to Read Surgery'
+        clean_title = normalize_lecture_title(raw_fn, item.get("subject_name", ""), item.get("subject_id", ""))
+        clean_name = f"{clean_title}.pdf" if is_pdf else f"{clean_title}.mp4"
         remote_path = f"Aspirin_LMS/{platform_folder}/{subj_folder}/{clean_name}"
 
         print(f"\n[{'PDF' if is_pdf else 'VIDEO'}] {platform_folder} / {subj_folder} -> {clean_name}")
