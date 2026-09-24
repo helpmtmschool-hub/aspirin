@@ -216,10 +216,10 @@ export function extractLectureNumber(title: string): number {
   return match ? parseInt(match[1], 10) : 999999;
 }
 
-const DB_NAME = 'aspirin_cache_v3';
-const DB_VERSION = 3;
-const STORE_NAME = 'catalog_store_v3';
-const CATALOG_KEY = 'master_catalog_v3';
+const DB_NAME = 'aspirin_cache_v4';
+const DB_VERSION = 4;
+const STORE_NAME = 'catalog_store_v4';
+const CATALOG_KEY = 'master_catalog_v4';
 
 export class LMSApiService {
   private static dbPromise: Promise<IDBPDatabase> | null = null;
