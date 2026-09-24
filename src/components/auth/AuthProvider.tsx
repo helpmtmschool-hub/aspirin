@@ -7,7 +7,7 @@ import {
   useUser as useClerkUser,
   useAuth as useClerkAuth,
 } from '@clerk/react';
-import { Shield, User as UserIcon, LogIn, Sparkles } from 'lucide-react';
+import { Shield, User as UserIcon, LogIn } from 'lucide-react';
 
 const PUBLISHABLE_KEY = import.meta.env.VITE_CLERK_PUBLISHABLE_KEY;
 export const isClerkConfigured = !!PUBLISHABLE_KEY && !PUBLISHABLE_KEY.includes('placeholder') && PUBLISHABLE_KEY.startsWith('pk_');

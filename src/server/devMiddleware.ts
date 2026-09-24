@@ -161,6 +161,56 @@ async function getOneDriveThumbnailUrl(rootDir: string, itemId: string, size: st
   return null;
 }
 
+interface DevUserState {
+  progress: Record<string, Record<string, any>>;
+  notes: Record<string, Array<{ id: number; topic_id: string; timestamp_seconds: number; note_text: string; created_at: string }>>;
+  sessions: Record<string, { deviceId: string; deviceName: string; lastHeartbeat: string }>;
+}
+
+function getDevStatePath(rootDir: string): string {
+  const dir = path.resolve(rootDir, '.stream_cache');
+  if (!fs.existsSync(dir)) {
+    fs.mkdirSync(dir, { recursive: true });
+  }
+  return path.join(dir, 'user_state_dev.json');
+}
+
+function loadDevState(rootDir: string): DevUserState {
+  const filePath = getDevStatePath(rootDir);
+  if (fs.existsSync(filePath)) {
+    try {
+      return JSON.parse(fs.readFileSync(filePath, 'utf8'));
+    } catch {}
+  }
+  return { progress: {}, notes: {}, sessions: {} };
+}
+
+function saveDevState(rootDir: string, state: DevUserState) {
+  const filePath = getDevStatePath(rootDir);
+  try {
+    fs.writeFileSync(filePath, JSON.stringify(state, null, 2), 'utf8');
+  } catch (e) {
+    console.warn('[Aspirin Dev API] Failed to save dev user state:', e);
+  }
+}
+
+function parseJsonBody(req: any): Promise<any> {
+  return new Promise((resolve) => {
+    let body = '';
+    req.on('data', (chunk: any) => {
+      body += chunk;
+    });
+    req.on('end', () => {
+      try {
+        resolve(body ? JSON.parse(body) : {});
+      } catch {
+        resolve({});
+      }
+    });
+    req.on('error', () => resolve({}));
+  });
+}
+
 export function aspirinDevApiPlugin(): Plugin {
   return {
     name: 'aspirin-dev-api-plugin',
@@ -306,10 +356,103 @@ export function aspirinDevApiPlugin(): Plugin {
           return;
         }
 
-        // 4. Mock endpoints for dev mode (Heartbeat, Progress)
-        if (url === '/api/progress' && req.method === 'POST') {
+        // 4. Cloud Sync: User Watch Progress
+        const progUserMatch = url.match(/^\/api\/progress\/([^/?]+)/);
+        if (progUserMatch && req.method === 'GET') {
+          const userId = decodeURIComponent(progUserMatch[1]);
+          const state = loadDevState(rootDir);
+          const userProg = state.progress[userId] || {};
           res.setHeader('Content-Type', 'application/json');
-          res.end(JSON.stringify({ success: true, localDev: true, processed: 1 }));
+          res.end(JSON.stringify({ success: true, progress: userProg }));
+          return;
+        }
+
+        if ((url === '/api/progress' || url.startsWith('/api/progress?')) && req.method === 'POST') {
+          const body = await parseJsonBody(req);
+          const headerUserId = req.headers['x-user-id'];
+          const userId = (Array.isArray(headerUserId) ? headerUserId[0] : headerUserId) || body.userId || 'aspirin_guest';
+          const items: any[] = Array.isArray(body.batch) ? body.batch : body && body.topicId ? [body] : [];
+
+          const state = loadDevState(rootDir);
+          if (!state.progress[userId]) {
+            state.progress[userId] = {};
+          }
+
+          for (const item of items) {
+            if (item && item.topicId) {
+              state.progress[userId][item.topicId] = {
+                topicId: item.topicId,
+                watchedSeconds: item.watchedSeconds || 0,
+                totalSeconds: item.totalSeconds || 1800,
+                isCompleted: !!item.isCompleted,
+                isBookmarked: !!item.isBookmarked,
+                lastWatchedAt: item.lastWatchedAt || new Date().toISOString(),
+                subjectId: item.subjectId,
+                platformId: item.platformId,
+              };
+            }
+          }
+          saveDevState(rootDir, state);
+          res.setHeader('Content-Type', 'application/json');
+          res.end(JSON.stringify({ success: true, synced: items.length, localDev: true }));
+          return;
+        }
+
+        // 5. Cloud Sync: Timestamped Clinical Notes
+        const userNotesTopicMatch = url.match(/^\/api\/user-notes\/([^/?]+)/);
+        if (userNotesTopicMatch && req.method === 'GET') {
+          const topicId = decodeURIComponent(userNotesTopicMatch[1]);
+          const headerUserId = req.headers['x-user-id'];
+          const userId = (Array.isArray(headerUserId) ? headerUserId[0] : headerUserId) || 'aspirin_guest';
+          const state = loadDevState(rootDir);
+          const notes = (state.notes[userId] || []).filter((n) => n.topic_id === topicId);
+          res.setHeader('Content-Type', 'application/json');
+          res.end(JSON.stringify({ success: true, notes }));
+          return;
+        }
+
+        if ((url === '/api/user-notes' || url.startsWith('/api/user-notes?')) && req.method === 'POST') {
+          const body = await parseJsonBody(req);
+          const headerUserId = req.headers['x-user-id'];
+          const userId = (Array.isArray(headerUserId) ? headerUserId[0] : headerUserId) || body.userId || 'aspirin_guest';
+          const state = loadDevState(rootDir);
+          if (!state.notes[userId]) {
+            state.notes[userId] = [];
+          }
+          const newNote = {
+            id: Date.now(),
+            topic_id: body.topicId || body.topic_id,
+            timestamp_seconds: Math.floor(body.timestampSeconds ?? body.timestamp_seconds ?? 0),
+            note_text: (body.noteText || body.note_text || '').trim(),
+            created_at: new Date().toISOString(),
+          };
+          state.notes[userId].push(newNote);
+          saveDevState(rootDir, state);
+          res.setHeader('Content-Type', 'application/json');
+          res.end(JSON.stringify({ success: true, id: newNote.id, note: newNote }));
+          return;
+        }
+
+        const delNoteMatch = url.match(/^\/api\/user-notes\/(\d+)/);
+        if (delNoteMatch && req.method === 'DELETE') {
+          const noteId = parseInt(delNoteMatch[1], 10);
+          const headerUserId = req.headers['x-user-id'];
+          const userId = (Array.isArray(headerUserId) ? headerUserId[0] : headerUserId) || 'aspirin_guest';
+          const state = loadDevState(rootDir);
+          if (state.notes[userId]) {
+            state.notes[userId] = state.notes[userId].filter((n) => n.id !== noteId);
+            saveDevState(rootDir, state);
+          }
+          res.setHeader('Content-Type', 'application/json');
+          res.end(JSON.stringify({ success: true, deletedId: noteId }));
+          return;
+        }
+
+        // 6. Active 1-Device Session Management
+        if (url.startsWith('/api/sessions/')) {
+          const body = await parseJsonBody(req);
+          res.setHeader('Content-Type', 'application/json');
+          res.end(JSON.stringify({ success: true, active: true, deviceId: body.deviceId || 'dev_device' }));
           return;
         }
 

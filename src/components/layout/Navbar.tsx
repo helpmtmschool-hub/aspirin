@@ -6,9 +6,12 @@ import {
   BookOpen, 
   Bookmark, 
   Command,
-  Cloud
+  Check,
+  RefreshCw,
 } from 'lucide-react';
 import { UserProfileButton } from '../auth/AuthProvider';
+import { ProgressService, SyncStatus } from '../../services/progress';
+import { useState } from 'react';
 
 import { motion } from 'motion/react';
 
@@ -34,6 +37,15 @@ export const Navbar: React.FC<NavbarProps> = ({
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
   }, [onOpenSearch]);
+
+  const [syncStatus, setSyncStatus] = useState<SyncStatus>('idle');
+
+  useEffect(() => {
+    const unsubscribe = ProgressService.onSyncStatusChange((status) => {
+      setSyncStatus(status);
+    });
+    return unsubscribe;
+  }, []);
 
   const navItems = [
     { id: 'home' as const, label: 'Home', icon: Home },
@@ -64,9 +76,9 @@ export const Navbar: React.FC<NavbarProps> = ({
                   LMS
                 </span>
               </div>
-              <span className="text-[10px] text-[#6a6a6a] font-medium flex items-center gap-1">
-                <Cloud className="w-3 h-3 text-[#22c55e]" />
-                SharePoint Azure CDN
+              <span className="text-[10px] text-[#6a6a6a] font-medium flex items-center gap-1.5">
+                <span className="w-1.5 h-1.5 rounded-full bg-[#22c55e]" />
+                Clinical Video Library
               </span>
             </div>
           </motion.div>
@@ -115,8 +127,44 @@ export const Navbar: React.FC<NavbarProps> = ({
           </button>
         </div>
 
-        {/* Right: Auth Profile Button */}
-        <div className="flex items-center gap-3 shrink-0">
+        {/* Right: Cloud Sync Status & Auth Profile Button */}
+        <div className="flex items-center gap-2.5 shrink-0">
+          {/* Progress Status Indicator */}
+          <div 
+            title={
+              syncStatus === 'syncing' 
+                ? 'Saving your progress...' 
+                : syncStatus === 'synced' 
+                ? 'All watch progress is saved' 
+                : syncStatus === 'error'
+                ? 'Working offline — changes will save when connected'
+                : 'Progress saved'
+            }
+            className="hidden sm:flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-[#f5f0e0] border border-[#e5e5e5] text-[11px] font-mono text-[#4a4a4a]"
+          >
+            {syncStatus === 'syncing' ? (
+              <>
+                <RefreshCw className="w-3 h-3 text-[#ff4d8b] animate-spin" />
+                <span className="text-[10px] text-[#ff4d8b] font-medium">Saving</span>
+              </>
+            ) : syncStatus === 'synced' ? (
+              <>
+                <Check className="w-3 h-3 text-[#10b981]" />
+                <span className="text-[10px] text-[#0a0a0a] font-medium">Saved</span>
+              </>
+            ) : syncStatus === 'error' ? (
+              <>
+                <span className="w-1.5 h-1.5 rounded-full bg-[#f59e0b]" />
+                <span className="text-[10px] text-[#b45309] font-medium">Offline</span>
+              </>
+            ) : (
+              <>
+                <Check className="w-3 h-3 text-[#6a6a6a]" />
+                <span className="text-[10px] text-[#6a6a6a]">Saved</span>
+              </>
+            )}
+          </div>
+
           <UserProfileButton />
         </div>
       </div>

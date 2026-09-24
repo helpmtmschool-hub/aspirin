@@ -11,15 +11,14 @@ import {
   FastForward, 
   Bookmark, 
   Clock,
-  Sparkles,
   FileText,
   Edit3,
   Trash2,
   SkipForward,
   SkipBack,
   SplitSquareVertical,
-  CloudUpload,
-  RotateCw
+  RotateCw,
+  Check
 } from 'lucide-react';
 import { Topic, NoteItem, UserNote } from '../../types/lms';
 import { ProgressService } from '../../services/progress';
@@ -55,13 +54,25 @@ export const VideoPlayer: React.FC<VideoPlayerProps> = ({
   const [isFullscreen, setIsFullscreen] = useState(false);
   const [showControls, setShowControls] = useState(true);
   const [isBookmarked, setIsBookmarked] = useState(ProgressService.isBookmarked(topic.id));
-  const [cloudMigrationError, setCloudMigrationError] = useState(false);
+  const [lectureUnavailable, setLectureUnavailable] = useState(false);
 
   // Modern Buffer & Loading State
   const [isLoading, setIsLoading] = useState(true);
   const [isBuffering, setIsBuffering] = useState(false);
   const [bufferedPercent, setBufferedPercent] = useState(0);
   const [clickFeedback, setClickFeedback] = useState<'play' | 'pause' | null>(null);
+
+  // Cross-Device Auto-Resume State
+  const [resumePrompt, setResumePrompt] = useState<{
+    seconds: number;
+    formattedTime: string;
+    percent: number;
+    countdown: number;
+  } | null>(null);
+  const [resumedToast, setResumedToast] = useState<string | null>(null);
+  const [cloudSavedToast, setCloudSavedToast] = useState(false);
+  const pendingSeekRef = useRef<number | null>(null);
+  const resumeTimerRef = useRef<ReturnType<typeof setInterval> | null>(null);
 
   // Companion Notes & Personal Notes State
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
@@ -84,21 +95,79 @@ export const VideoPlayer: React.FC<VideoPlayerProps> = ({
   const nextTopic = currentIndex !== -1 && currentIndex < playlist.length - 1 ? playlist[currentIndex + 1] : null;
   const prevTopic = currentIndex > 0 ? playlist[currentIndex - 1] : null;
 
+  const applyResume = (seconds: number, formatted: string) => {
+    if (resumeTimerRef.current) clearInterval(resumeTimerRef.current);
+    setResumePrompt(null);
+    if (videoRef.current && videoRef.current.readyState >= 1) {
+      videoRef.current.currentTime = seconds;
+      setCurrentTime(seconds);
+      const p = videoRef.current.play();
+      if (p !== undefined) p.catch(() => {});
+      setIsPlaying(true);
+    } else {
+      pendingSeekRef.current = seconds;
+    }
+    setResumedToast(`Resumed from ${formatted}`);
+    setTimeout(() => setResumedToast(null), 3200);
+  };
+
+  const handleStartOver = () => {
+    if (resumeTimerRef.current) clearInterval(resumeTimerRef.current);
+    setResumePrompt(null);
+    pendingSeekRef.current = null;
+    if (videoRef.current) {
+      videoRef.current.currentTime = 0;
+      setCurrentTime(0);
+      const p = videoRef.current.play();
+      if (p !== undefined) p.catch(() => {});
+      setIsPlaying(true);
+    }
+  };
+
+  const dismissResume = () => {
+    if (resumeTimerRef.current) clearInterval(resumeTimerRef.current);
+    setResumePrompt(null);
+  };
+
   useEffect(() => {
-    setCloudMigrationError(false);
+    setLectureUnavailable(false);
     setDuration(topic.duration_seconds || 1800);
     setIsLoading(true);
     setIsBuffering(false);
     setBufferedPercent(0);
 
-    // 1. Resume position
-    const saved = ProgressService.getLocalProgress()[topic.id];
-    if (saved && saved.watchedSeconds > 0 && videoRef.current) {
-      videoRef.current.currentTime = saved.watchedSeconds;
+    // 1. Check intelligent resume position
+    const resumeInfo = ProgressService.getResumePosition(topic.id);
+    if (resumeInfo.shouldPrompt) {
+      setResumePrompt({
+        seconds: resumeInfo.resumeSeconds,
+        formattedTime: resumeInfo.formattedTime,
+        percent: resumeInfo.percent,
+        countdown: 6,
+      });
+
+      if (resumeTimerRef.current) clearInterval(resumeTimerRef.current);
+      resumeTimerRef.current = setInterval(() => {
+        setResumePrompt((prev) => {
+          if (!prev) return null;
+          if (prev.countdown <= 1) {
+            clearInterval(resumeTimerRef.current!);
+            applyResume(prev.seconds, prev.formattedTime);
+            return null;
+          }
+          return { ...prev, countdown: prev.countdown - 1 };
+        });
+      }, 1000);
+    } else {
+      setResumePrompt(null);
+      pendingSeekRef.current = null;
     }
 
-    // 2. Load User Notes
+    // 2. Load User Notes (Local cache + Remote cloud sync)
     setUserNotes(ProgressService.getTopicNotes(topic.id));
+    ProgressService.fetchRemoteNotes(topic.id).then((synced) => {
+      setUserNotes(synced);
+    });
 
     // 3. Load Companion Subject Notes
     LMSApiService.getSubject(topic.subject_id).then((sub) => {
@@ -115,6 +184,10 @@ export const VideoPlayer: React.FC<VideoPlayerProps> = ({
 
     // Reset countdown
     setUpNextCountdown(null);
+
+    return () => {
+      if (resumeTimerRef.current) clearInterval(resumeTimerRef.current);
+    };
   }, [topic.id, topic.subject_id, topic.platform_id]);
 
   // Keyboard Shortcuts Listener
@@ -181,6 +254,8 @@ export const VideoPlayer: React.FC<VideoPlayerProps> = ({
       videoRef.current.pause();
       setIsPlaying(false);
       ProgressService.flushPendingSync();
+      setCloudSavedToast(true);
+      setTimeout(() => setCloudSavedToast(false), 2400);
     }
     setTimeout(() => setClickFeedback(null), 450);
   };
@@ -259,6 +334,11 @@ export const VideoPlayer: React.FC<VideoPlayerProps> = ({
     if (videoRef.current.duration && !isNaN(videoRef.current.duration)) {
       setDuration(videoRef.current.duration);
     }
+    if (pendingSeekRef.current !== null) {
+      videoRef.current.currentTime = pendingSeekRef.current;
+      setCurrentTime(pendingSeekRef.current);
+      pendingSeekRef.current = null;
+    }
     handleProgress();
   };
 
@@ -267,7 +347,7 @@ export const VideoPlayer: React.FC<VideoPlayerProps> = ({
     console.warn('[VideoPlayer] Video element error:', err);
     setIsLoading(false);
     setIsBuffering(false);
-    setCloudMigrationError(true);
+    setLectureUnavailable(true);
   };
 
   const handleVideoEnded = () => {
@@ -340,17 +420,17 @@ export const VideoPlayer: React.FC<VideoPlayerProps> = ({
     setTimeout(() => noteInputRef.current?.focus(), 100);
   };
 
-  const handleSaveNote = () => {
+  const handleSaveNote = async () => {
     if (!noteText.trim()) return;
-    const newNote = ProgressService.addTopicNote(topic.id, noteTimestamp, noteText);
-    setUserNotes((prev) => [...prev, newNote].sort((a, b) => a.timestamp_seconds - b.timestamp_seconds));
+    const added = await ProgressService.addTopicNote(topic.id, noteTimestamp || currentTime, noteText);
+    setUserNotes((prev) => [...prev, added].sort((a, b) => a.timestamp_seconds - b.timestamp_seconds));
     setNoteText('');
     setIsWritingNote(false);
   };
 
-  const handleDeleteNote = (noteId?: number) => {
+  const handleDeleteNote = async (noteId?: number) => {
     if (!noteId) return;
-    ProgressService.deleteTopicNote(topic.id, noteId);
+    await ProgressService.deleteTopicNote(topic.id, noteId);
     setUserNotes((prev) => prev.filter((n) => n.id !== noteId));
   };
 
@@ -404,36 +484,44 @@ export const VideoPlayer: React.FC<VideoPlayerProps> = ({
             className="w-full h-full object-contain cursor-pointer"
           />
 
-          {/* Modern Dual Orbital Loading & Buffering Animation */}
+          {/* Minimalist Apple/Netflix-Style Video Loading & Buffering Indicator */}
           <AnimatePresence>
-            {(isLoading || isBuffering) && !cloudMigrationError && (
+            {(isLoading || isBuffering) && !lectureUnavailable && (
               <motion.div
-                initial={{ opacity: 0, scale: 0.9 }}
+                initial={{ opacity: 0, scale: 0.95 }}
                 animate={{ opacity: 1, scale: 1 }}
-                exit={{ opacity: 0, scale: 0.9 }}
-                transition={{ duration: 0.2 }}
-                className="absolute inset-0 z-30 flex flex-col items-center justify-center pointer-events-none"
+                exit={{ opacity: 0, scale: 0.95 }}
+                transition={{ duration: 0.18 }}
+                className="absolute inset-0 z-30 flex items-center justify-center pointer-events-none"
               >
-                <div className="flex flex-col items-center gap-3.5 p-6 rounded-[24px] bg-black/75 backdrop-blur-xl border border-white/15 shadow-2xl">
-                  {/* Modern Dual Orbital Spinner */}
-                  <div className="relative w-14 h-14 sm:w-16 sm:h-16 flex items-center justify-center">
-                    {/* Outer Glowing Ring */}
-                    <div className="absolute inset-0 rounded-full border-[3px] border-transparent border-t-[#ff4d8b] border-r-[#ff4d8b]/50 animate-spin" />
-                    {/* Inner Reverse Ring */}
-                    <div className="w-9 h-9 sm:w-10 sm:h-10 rounded-full border-2 border-transparent border-b-[#b8a4ed] border-l-[#b8a4ed]/50 animate-[spin_1.2s_linear_infinite_reverse]" />
-                    {/* Pulsing Core */}
-                    <Sparkles className="w-4 h-4 text-white/90 animate-pulse" />
+                <div className="flex flex-col items-center gap-3">
+                  <div className="w-14 h-14 rounded-full bg-black/60 backdrop-blur-md border border-white/15 flex items-center justify-center shadow-2xl">
+                    <svg className="w-7 h-7 animate-spin text-white" viewBox="0 0 32 32">
+                      <circle
+                        cx="16"
+                        cy="16"
+                        r="12"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2.5"
+                        className="opacity-20"
+                      />
+                      <circle
+                        cx="16"
+                        cy="16"
+                        r="12"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2.5"
+                        strokeDasharray="55"
+                        strokeDashoffset="20"
+                        strokeLinecap="round"
+                        className="opacity-95"
+                      />
+                    </svg>
                   </div>
-
-                  {/* Buffer Status Badge */}
-                  <div className="flex items-center gap-2 text-xs font-mono font-medium text-white/95">
-                    <span className="w-2 h-2 rounded-full bg-[#ff4d8b] animate-ping" />
-                    <span>{isLoading ? 'Connecting 1080p Stream...' : 'Buffering Stream...'}</span>
-                  </div>
-
-                  {/* Micro Tech Pill */}
-                  <span className="text-[10px] font-mono text-white/40 tracking-wider uppercase">
-                    SharePoint Azure Global CDN
+                  <span className="text-[11px] font-medium text-white/90 tracking-wider bg-black/50 backdrop-blur-md px-3 py-1 rounded-full border border-white/10 shadow-sm">
+                    {isLoading ? 'Loading video...' : 'Buffering...'}
                   </span>
                 </div>
               </motion.div>
@@ -462,26 +550,26 @@ export const VideoPlayer: React.FC<VideoPlayerProps> = ({
             )}
           </AnimatePresence>
 
-          {/* Cloud Migration Pending Overlay */}
-          {cloudMigrationError && (
+          {/* Lecture Unavailable State */}
+          {lectureUnavailable && (
             <div className="absolute inset-0 z-30 flex flex-col items-center justify-center p-6 bg-[#0a0a0a]/80 backdrop-blur-md text-center">
               <div className="max-w-md w-full bg-[#fffaf0] border border-[#e5e5e5] rounded-[24px] p-6 sm:p-8 text-[#0a0a0a] shadow-2xl flex flex-col items-center text-center">
-                <div className="w-14 h-14 rounded-[18px] bg-[#e8b94a]/20 border border-[#e8b94a]/40 flex items-center justify-center text-[#946600] mb-4">
-                  <CloudUpload className="w-7 h-7" />
+                <div className="w-14 h-14 rounded-[18px] bg-[#f5f0e0] border border-[#e5e5e5] flex items-center justify-center text-[#0a0a0a] mb-4">
+                  <Play className="w-6 h-6 fill-current ml-0.5" />
                 </div>
-                <span className="inline-flex items-center px-3 py-1 rounded-full bg-[#e8b94a]/15 text-[#855900] text-[10px] font-mono uppercase font-bold tracking-wider mb-2">
-                  Cloud Migration In Progress
+                <span className="inline-flex items-center px-3 py-1 rounded-full bg-[#f5f0e0] text-[#0a0a0a] text-[10px] font-mono uppercase font-bold tracking-wider mb-2 border border-[#e5e5e5]">
+                  Coming Soon
                 </span>
                 <h3 className="font-display font-medium text-lg sm:text-xl text-[#0a0a0a] tracking-tight mb-2">
                   {topic.title}
                 </h3>
                 <p className="text-xs sm:text-sm text-[#3a3a3a] leading-relaxed mb-6">
-                  This lecture is queued for cloud transfer to your 25 TB SharePoint drive. Completed subjects (such as PrepLadder X Neuroanatomy & Cardiology) are available for instant 1080p streaming.
+                  This lecture is currently being prepared and will be available in the library soon. You can explore available lectures in the curriculum.
                 </p>
                 <div className="flex items-center gap-3">
                   <button
                     onClick={() => {
-                      setCloudMigrationError(false);
+                      setLectureUnavailable(false);
                       setIsLoading(true);
                       if (videoRef.current) {
                         videoRef.current.load();
@@ -504,6 +592,102 @@ export const VideoPlayer: React.FC<VideoPlayerProps> = ({
               </div>
             </div>
           )}
+
+          {/* Transient Resumed Notification Badge */}
+          <AnimatePresence>
+            {resumedToast && (
+              <motion.div
+                initial={{ opacity: 0, y: -20, scale: 0.9 }}
+                animate={{ opacity: 1, y: 0, scale: 1 }}
+                exit={{ opacity: 0, y: -20, scale: 0.9 }}
+                className="absolute top-20 left-1/2 -translate-x-1/2 z-50 pointer-events-none"
+              >
+                <div className="flex items-center gap-2 px-4 py-2 rounded-full bg-black/85 backdrop-blur-md border border-emerald-500/40 text-emerald-400 text-xs font-mono font-medium shadow-xl">
+                  <Check className="w-3.5 h-3.5 text-emerald-400" />
+                  <span>{resumedToast}</span>
+                </div>
+              </motion.div>
+            )}
+          </AnimatePresence>
+
+          {/* Transient Saved Toast */}
+          <AnimatePresence>
+            {cloudSavedToast && (
+              <motion.div
+                initial={{ opacity: 0, y: -20, scale: 0.9 }}
+                animate={{ opacity: 1, y: 0, scale: 1 }}
+                exit={{ opacity: 0, y: -20, scale: 0.9 }}
+                className="absolute top-20 right-6 z-50 pointer-events-none"
+              >
+                <div className="flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-black/85 backdrop-blur-md border border-white/20 text-white/90 text-xs font-medium shadow-xl">
+                  <Check className="w-3.5 h-3.5 text-[#10b981]" />
+                  <span>Progress Saved</span>
+                </div>
+              </motion.div>
+            )}
+          </AnimatePresence>
+
+          {/* Floating Auto-Resume Card */}
+          <AnimatePresence>
+            {resumePrompt && (
+              <motion.div
+                initial={{ opacity: 0, y: 20, scale: 0.95 }}
+                animate={{ opacity: 1, y: 0, scale: 1 }}
+                exit={{ opacity: 0, y: 20, scale: 0.95 }}
+                transition={{ type: "spring", stiffness: 350, damping: 28 }}
+                className="absolute bottom-28 left-1/2 -translate-x-1/2 z-50 w-[92%] sm:w-auto sm:min-w-[420px] max-w-lg p-4 sm:p-5 rounded-[22px] bg-black/90 backdrop-blur-xl border border-white/20 shadow-2xl text-white space-y-3"
+              >
+                <div className="flex items-center justify-between gap-3">
+                  <span className="inline-flex items-center gap-2 px-2.5 py-0.5 rounded-full bg-emerald-500/20 border border-emerald-500/40 text-emerald-400 text-[11px] font-mono font-bold uppercase tracking-wider">
+                    <span className="w-2 h-2 rounded-full bg-emerald-400 animate-ping" />
+                    Resume Playback
+                  </span>
+
+                  <div className="flex items-center gap-2">
+                    <span className="text-[11px] font-mono text-white/60">
+                      Auto-resumes in {resumePrompt.countdown}s
+                    </span>
+                    <button
+                      onClick={dismissResume}
+                      className="p-1 rounded-full text-white/50 hover:text-white hover:bg-white/10 transition"
+                      aria-label="Dismiss resume prompt"
+                    >
+                      <X className="w-3.5 h-3.5" />
+                    </button>
+                  </div>
+                </div>
+
+                <div className="space-y-1.5">
+                  <p className="text-xs sm:text-sm text-white/90 font-medium">
+                    You were watching at <span className="font-mono text-white font-bold">{resumePrompt.formattedTime}</span> ({resumePrompt.percent}% completed)
+                  </p>
+                  <div className="w-full h-1.5 rounded-full bg-white/15 overflow-hidden">
+                    <div 
+                      className="h-full bg-gradient-to-r from-emerald-500 to-[#ff4d8b] rounded-full transition-all duration-300" 
+                      style={{ width: `${resumePrompt.percent}%` }}
+                    />
+                  </div>
+                </div>
+
+                <div className="flex items-center gap-2.5 pt-1">
+                  <button
+                    onClick={() => applyResume(resumePrompt.seconds, resumePrompt.formattedTime)}
+                    className="flex-1 py-2 px-4 rounded-[12px] bg-[#ff4d8b] hover:bg-[#ff3377] text-white text-xs font-semibold shadow-md transition flex items-center justify-center gap-1.5"
+                  >
+                    <Play className="w-3.5 h-3.5 fill-white" />
+                    Resume at {resumePrompt.formattedTime}
+                  </button>
+                  <button
+                    onClick={handleStartOver}
+                    className="py-2 px-3.5 rounded-[12px] bg-white/10 hover:bg-white/20 text-white/80 hover:text-white text-xs font-medium transition flex items-center gap-1.5"
+                  >
+                    <RotateCcw className="w-3 h-3" />
+                    Start at 0:00
+                  </button>
+                </div>
+              </motion.div>
+            )}
+          </AnimatePresence>
 
           {/* Top Controls Bar */}
           <div 
@@ -572,8 +756,8 @@ export const VideoPlayer: React.FC<VideoPlayerProps> = ({
           {upNextCountdown !== null && nextTopic && (
             <div className="absolute bottom-24 right-6 z-50 p-5 rounded-[20px] bg-[#fffaf0] border border-[#e5e5e5] shadow-2xl max-w-sm text-[#0a0a0a] animate-in slide-in-from-bottom-5 duration-200">
               <div className="flex items-center justify-between gap-3 mb-2">
-                <span className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-[#a4d4c5]/30 text-[#1a3a3a] text-[10px] uppercase font-bold tracking-wider font-mono">
-                  <Sparkles className="w-3 h-3 text-[#1a3a3a]" /> Up Next in {upNextCountdown}s
+                <span className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-[#a4d4c5]/30 text-[#1a3a3a] text-[10px] uppercase font-bold tracking-wider font-mono">
+                  <Play className="w-2.5 h-2.5 fill-current text-[#1a3a3a]" /> Up Next in {upNextCountdown}s
                 </span>
                 <button
                   onClick={cancelUpNext}

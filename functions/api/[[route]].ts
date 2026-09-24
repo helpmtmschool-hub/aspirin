@@ -711,6 +711,26 @@ app.get('/user-notes/:topicId', async (c) => {
   }
 });
 
+// 8.2 DELETE /api/user-notes/:id - Delete a user note
+app.delete('/user-notes/:id', async (c) => {
+  const db = c.env.DB;
+  const noteId = c.req.param('id');
+  if (!db) return c.json({ error: 'D1 Database not bound' }, 500);
+
+  try {
+    const auth = await authenticateUser(c);
+    const userId = auth?.userId || c.req.header('x-user-id') || 'aspirin_guest';
+    await db
+      .prepare(`DELETE FROM user_notes WHERE id = ? AND user_id = ?`)
+      .bind(noteId, userId)
+      .run();
+
+    return c.json({ success: true, deletedId: noteId });
+  } catch (err: any) {
+    return c.json({ error: err.message }, 500);
+  }
+});
+
 // 9. GET /api/search - Global search
 app.get('/search', async (c) => {
   const db = c.env.DB;

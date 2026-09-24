@@ -164,7 +164,7 @@ export const SUBJECT_VISUALS: Record<string, SubjectVisual> = {
   dermatology: {
     id: 'dermatology',
     emoji: '🧴',
-    iconName: 'Sparkles',
+    iconName: 'Sun',
     tagline: 'Infections, Eczema, Psoriasis, STIs, Leprosy & Dermatosurgery',
     prof: 'Final Prof Part 2',
   },

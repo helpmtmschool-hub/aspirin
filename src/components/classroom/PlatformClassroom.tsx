@@ -9,7 +9,7 @@ import {
   Clock, 
   ChevronDown, 
   ChevronUp,
-  Sparkles,
+  Award,
   BookOpen,
   Search,
   Maximize2,
@@ -422,7 +422,7 @@ export const PlatformClassroom: React.FC<PlatformClassroomProps> = ({
                                       </h5>
                                       {hasPearls && (
                                         <span className="inline-flex items-center gap-1 text-[10px] font-mono font-semibold px-2 py-0.5 rounded-full bg-[#e8b94a]/20 text-[#855900] border border-[#e8b94a]/30 shrink-0">
-                                          <Sparkles className="w-2.5 h-2.5 text-[#e8b94a]" />
+                                          <Award className="w-2.5 h-2.5 text-[#e8b94a]" />
                                           High-Yield
                                         </span>
                                       )}

@@ -1,5 +1,5 @@
 import React from 'react';
-import { X, Film, FileText, ChevronRight, Sparkles, CheckCircle2 } from 'lucide-react';
+import { X, Film, FileText, ChevronRight, CheckCircle2 } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Subject, PlatformId } from '../../types/lms';
 import { PLATFORMS } from '../../services/api';

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { X, FileText, ExternalLink, CloudUpload } from 'lucide-react';
+import { X, FileText, ExternalLink } from 'lucide-react';
 import { motion } from 'motion/react';
 import { NoteItem } from '../../types/lms';
 import { ForensicWatermark } from '../security/ForensicWatermark';
@@ -96,14 +96,16 @@ export const NotesReader: React.FC<NotesReaderProps> = ({
         <div className="flex-1 w-full h-full bg-white relative overflow-hidden flex items-center justify-center">
           {loadState === 'pending' ? (
             <div className="flex flex-col items-center justify-center p-8 text-center max-w-md space-y-4">
-              <div className="w-14 h-14 rounded-[18px] bg-[#e8b94a]/20 border border-[#e8b94a]/40 flex items-center justify-center text-[#946600]">
-                <CloudUpload className="w-7 h-7" />
+              <div className="w-14 h-14 rounded-[18px] bg-[#f5f0e0] border border-[#e5e5e5] flex items-center justify-center text-[#0a0a0a]">
+                <FileText className="w-7 h-7" />
               </div>
               <div className="space-y-1.5">
-                <h4 className="font-display font-medium text-lg text-[#0a0a0a]">Queued for Cloud Migration</h4>
+                <span className="inline-flex items-center px-3 py-1 rounded-full bg-[#f5f0e0] text-[#0a0a0a] text-[10px] font-mono uppercase font-bold tracking-wider border border-[#e5e5e5]">
+                  Coming Soon
+                </span>
+                <h4 className="font-display font-medium text-lg text-[#0a0a0a]">Notes Coming Soon</h4>
                 <p className="text-xs text-[#3a3a3a] leading-relaxed">
-                  This clinical PDF is queued to be uploaded to your 25 TB SharePoint drive.
-                  Run <code className="text-[#0a0a0a] font-mono bg-[#f5f0e0] px-1.5 py-0.5 rounded border border-[#e5e5e5]">pnpm migrate:notes</code> in the terminal to upload master notes to Azure CDN.
+                  This clinical review textbook is currently being prepared and will be available to read in the library shortly.
                 </p>
               </div>
               <button

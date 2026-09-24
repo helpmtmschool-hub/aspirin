@@ -14,7 +14,7 @@ import { LMSApiService } from './services/api';
 import { ProgressService } from './services/progress';
 import { DeviceGuard } from './components/security/DeviceGuard';
 import { Subject, Topic, NoteItem, PlatformId, UserProgressItem } from './types/lms';
-import { Sparkles, Film, Bookmark, BookOpen } from 'lucide-react';
+import { Award, Film, Bookmark, BookOpen } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 import { VideoThumbnail } from './components/common/VideoThumbnail';
 
@@ -24,12 +24,24 @@ export const AppContent: React.FC = () => {
   const [subjects, setSubjects] = useState<Subject[]>([]);
   const [isLoading, setIsLoading] = useState(true);
 
-  // Sync Clerk authentication with ProgressService
+  // Sync Clerk authentication with ProgressService & trigger remote cloud sync
   useEffect(() => {
-    if (user?.id) {
-      ProgressService.setAuth(user.id, getToken);
-    }
+    const userId = user?.id || 'aspirin_guest';
+    ProgressService.setAuth(userId, getToken);
+    ProgressService.syncRemoteProgress(userId).then(() => {
+      refreshProgress();
+    });
   }, [user?.id, getToken]);
+
+  // Keep Continue Watching & bookmarks in sync whenever cloud updates
+  useEffect(() => {
+    const unsubscribe = ProgressService.onSyncStatusChange((status) => {
+      if (status === 'synced') {
+        refreshProgress();
+      }
+    });
+    return unsubscribe;
+  }, [subjects]);
 
   // Home Shelves State
   const [curatedFeed, setCuratedFeed] = useState<{
@@ -184,7 +196,7 @@ export const AppContent: React.FC = () => {
                   <MediaShelf
                     title="High-Yield Clinical Grand Rounds"
                     subtitle="Core topics tested repeatedly in NEET PG and INI-CET"
-                    icon={<Sparkles className="w-5 h-5 text-[#e8b94a]" />}
+                    icon={<Award className="w-5 h-5 text-[#e8b94a]" />}
                     topics={curatedFeed.highYieldLectures}
                     progressMap={progressMap}
                     onSelectTopic={(topic) => handlePlayTopic(topic, curatedFeed.highYieldLectures)}
@@ -315,10 +327,10 @@ export const AppContent: React.FC = () => {
           <div className="flex items-center gap-3">
             <span className="font-bold text-sm text-[#0a0a0a] font-display">aspirin LMS</span>
             <span className="text-[11px] px-2 py-0.5 rounded-full bg-[#f5f0e0] border border-[#e5e5e5] text-[#0a0a0a]">
-              Clay Design System
+              Clinical Education
             </span>
           </div>
-          <p>© 2026 aspirin Medical LMS. Zero-egress streaming powered by Microsoft SharePoint & Cloudflare.</p>
+          <p>© 2026 aspirin Medical LMS. Comprehensive digital learning for medical students and exam aspirants.</p>
         </div>
       </footer>
 

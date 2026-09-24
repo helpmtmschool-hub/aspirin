@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Play, Clock, Sparkles } from 'lucide-react';
+import { Play, Clock, Award } from 'lucide-react';
 import { Topic } from '../../types/lms';
 import { PLATFORMS, getSubjectVisual } from '../../services/api';
 
@@ -62,7 +62,7 @@ export const VideoThumbnail: React.FC<VideoThumbnailProps> = ({
         </div>
       </div>
 
-      {/* Real SharePoint Thumbnail Image */}
+      {/* Video Thumbnail Image */}
       {!imageError && (
         <img
           src={thumbUrl}
@@ -98,7 +98,7 @@ export const VideoThumbnail: React.FC<VideoThumbnailProps> = ({
       {/* High-Yield Pearls Badge (Top Right) */}
       {showPearlsBadge && topic.pearls && topic.pearls.length > 0 && (
         <div className="absolute top-2 right-2 z-10 px-1.5 py-0.5 rounded-md bg-[#e8b94a]/90 backdrop-blur-sm text-[9px] font-bold text-[#3a2700] flex items-center gap-1 shadow-sm">
-          <Sparkles className="w-2.5 h-2.5 fill-current" />
+          <Award className="w-2.5 h-2.5 fill-current" />
           <span>High-Yield</span>
         </div>
       )}

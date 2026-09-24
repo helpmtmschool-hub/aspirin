@@ -1,5 +1,5 @@
 import React from 'react';
-import { Play, Sparkles, CheckCircle2, BookOpen } from 'lucide-react';
+import { Play, Award, CheckCircle2, BookOpen } from 'lucide-react';
 import { motion } from 'motion/react';
 import { Topic, UserProgressItem } from '../../types/lms';
 import { PLATFORMS, getSubjectVisual } from '../../services/api';
@@ -24,8 +24,8 @@ export const HeroContinueWatching: React.FC<HeroContinueWatchingProps> = ({
           {/* Left Column (7 cols): Editorial Typography */}
           <div className="lg:col-span-7 space-y-5">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#f5f0e0] border border-[#e5e5e5] text-[#0a0a0a] text-xs font-semibold">
-              <Sparkles className="w-3.5 h-3.5 text-[#ff4d8b]" />
-              Cloud-Native Medical Education
+              <span className="w-2 h-2 rounded-full bg-[#ff4d8b]" />
+              Complete Medical Curriculum
             </div>
 
             <h1 className="text-3xl sm:text-5xl lg:text-6xl font-medium tracking-tight text-[#0a0a0a] font-display leading-[1.08]">
@@ -33,7 +33,7 @@ export const HeroContinueWatching: React.FC<HeroContinueWatchingProps> = ({
             </h1>
 
             <p className="text-[#3a3a3a] text-sm sm:text-base leading-relaxed max-w-xl">
-              Study PrepLadder Edition X and Cerebellum Academy video lectures and clinical review textbooks, streamed with zero latency via Microsoft SharePoint Azure CDN.
+              Study PrepLadder Edition X and Cerebellum Academy video lectures and clinical review textbooks, structured for MBBS professional exams and clinical mastery.
             </p>
 
             <div className="flex flex-wrap items-center gap-3 pt-2">
@@ -68,7 +68,7 @@ export const HeroContinueWatching: React.FC<HeroContinueWatchingProps> = ({
               </div>
 
               <p className="text-xs text-white/80 leading-relaxed">
-                84 high-yield lectures by Dr. Deepak Marwah and senior clinical faculty are cloud-ready on Azure CDN.
+                84 high-yield lectures by Dr. Deepak Marwah and senior clinical faculty covering core exam concepts and clinical cases.
               </p>
 
               <div className="pt-2">
@@ -181,7 +181,7 @@ export const HeroContinueWatching: React.FC<HeroContinueWatchingProps> = ({
           <div className="rounded-[20px] bg-[#b8a4ed]/25 p-5 text-[#0a0a0a] border border-[#b8a4ed]/40 space-y-2.5 shadow-xs">
             <div className="flex items-center justify-between text-xs font-semibold">
               <span className="uppercase tracking-wider font-mono">Clinical Pearls</span>
-              <Sparkles className="w-3.5 h-3.5 text-[#5e38ba]" />
+              <Award className="w-3.5 h-3.5 text-[#5e38ba]" />
             </div>
 
             <div className="space-y-1.5">
