@@ -4,44 +4,42 @@
 
 @layer base {
   :root {
-    --apple-hairline: rgba(255, 255, 255, 0.08);
+    --clay-canvas: #fffaf0;
+    --clay-surface-soft: #faf5e8;
+    --clay-surface-card: #f5f0e0;
+    --clay-surface-strong: #ebe6d6;
+    --clay-hairline: #e5e5e5;
+    --clay-ink: #0a0a0a;
+    --clay-body: #3a3a3a;
+    --clay-muted: #6a6a6a;
   }
 
   body {
-    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display", "Plus Jakarta Sans", "Inter", system-ui, sans-serif;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
-    background-color: #020617;
-    color: #f8fafc;
+    background-color: #fffaf0;
+    color: #0a0a0a;
   }
 
-  /* Strict tabular numbers for timestamps and statistics */
+  /* Display headlines: Plain Black / Plus Jakarta Sans at weight 500 with negative tracking */
+  h1, h2, h3, .font-display {
+    font-family: 'Plus Jakarta Sans', 'Inter', -apple-system, sans-serif;
+    font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
+  }
+
+  /* Tabular numbers for timestamps, durations, and counts */
   .font-mono, [data-tabular-nums] {
     font-variant-numeric: tabular-nums;
     font-feature-settings: 'tnum' 1;
   }
 }
 
-/* Apple HIG Hairline & Glass utility classes */
-.apple-glass {
-  background: rgba(15, 23, 42, 0.65);
-  backdrop-filter: blur(28px) saturate(140%);
-  -webkit-backdrop-filter: blur(28px) saturate(140%);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-.apple-glass-clear {
-  background: rgba(0, 0, 0, 0.35);
-  backdrop-filter: blur(20px) saturate(130%);
-  -webkit-backdrop-filter: blur(20px) saturate(130%);
-  border: 1px solid rgba(255, 255, 255, 0.15);
-}
-
-/* Minimal Apple-style scrollbars */
+/* Clay Minimalist Scrollbars */
 ::-webkit-scrollbar {
-  width: 6px;
-  height: 6px;
+  width: 8px;
+  height: 8px;
 }
 
 ::-webkit-scrollbar-track {
@@ -49,31 +47,85 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgba(255, 255, 255, 0.15);
+  background: #e5e5e5;
   border-radius: 9999px;
+  border: 2px solid #fffaf0;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(255, 255, 255, 0.3);
+  background: #d4d4d4;
 }
 
-/* Video Range slider styling */
+/* Clay Buttons */
+.clay-btn-primary {
+  background-color: #0a0a0a;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 0.875rem;
+  border-radius: 12px;
+  padding: 0.625rem 1.25rem;
+  transition: all 0.15s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.clay-btn-primary:hover {
+  background-color: #1f1f1f;
+}
+.clay-btn-primary:active {
+  transform: scale(0.98);
+}
+
+.clay-btn-secondary {
+  background-color: #fffaf0;
+  color: #0a0a0a;
+  border: 1px solid #e5e5e5;
+  font-weight: 600;
+  font-size: 0.875rem;
+  border-radius: 12px;
+  padding: 0.625rem 1.25rem;
+  transition: all 0.15s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.clay-btn-secondary:hover {
+  background-color: #faf5e8;
+  border-color: #d4d4d4;
+}
+
+.clay-btn-on-color {
+  background-color: #ffffff;
+  color: #0a0a0a;
+  font-weight: 600;
+  font-size: 0.875rem;
+  border-radius: 12px;
+  padding: 0.625rem 1.25rem;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  transition: all 0.15s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.clay-btn-on-color:hover {
+  background-color: #fffaf0;
+  transform: translateY(-1px);
+}
+
+/* Video Range slider styling for Clay */
 input[type=range] {
-  accent-color: #14b8a6;
+  accent-color: #0a0a0a;
 }
 
-/* Smooth fade in */
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: scale(0.98);
+/* Accessibility: Respect Reduced Motion Preferences */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
   }
-  to {
-    opacity: 1;
-    transform: scale(1);
-  }
-}
-
-.animate-fade-in {
-  animation: fadeIn 0.18s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }

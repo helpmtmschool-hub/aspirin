@@ -49,6 +49,7 @@ TG_PART_SIZE = 512 * 1024
 
 PROJECT_DIR = Path(__file__).resolve().parent.parent
 MANIFEST_PATH = PROJECT_DIR / "engine" / "transfer_manifest.json"
+PUBLIC_MANIFEST_PATH = PROJECT_DIR / "public" / "transfer_manifest.json"
 SECTIONS_PATH = PROJECT_DIR / "engine" / "prepx_sections.json"
 LEGACY_CATALOG_PATH = PROJECT_DIR / "public" / "catalog.json"
 PREPX_CHANNEL_ID = -1003709841202
@@ -353,6 +354,31 @@ class OneDriveClient:
             return res.json()["uploadUrl"]
         raise RuntimeError(f"Error creating upload session for {remote_path}: {res.status_code} - {res.text}")
 
+    def get_video_metadata(self, item_id: str) -> Dict[str, Any]:
+        """Fetches video duration, resolution, and thumbnail info from Microsoft Graph."""
+        token = self.get_valid_token()
+        endpoint = f"https://graph.microsoft.com/v1.0/{self.drive_target}/items/{item_id}?$select=id,name,video"
+        headers = {"Authorization": f"Bearer {token}"}
+        try:
+            res = requests.get(endpoint, headers=headers, timeout=15)
+            if res.status_code == 200:
+                data = res.json()
+                video = data.get("video") or {}
+                duration_ms = video.get("duration")
+                if duration_ms:
+                    sec = round(duration_ms / 1000)
+                    m = sec // 60
+                    s = sec % 60
+                    formatted = f"{m // 60}h {m % 60}m" if m > 60 else f"{m}m {s}s" if s > 0 else f"{m}m"
+                    return {
+                        "duration_seconds": sec,
+                        "duration_formatted": formatted,
+                        "resolution": f"{video.get('width')}x{video.get('height')}" if video.get("width") else None,
+                    }
+        except Exception:
+            pass
+        return {}
+
     def upload_file(self, upload_url: str, file_path: Path, chunk_size: int = UPLOAD_CHUNK_SIZE, retries: int = 5) -> Optional[Dict[str, Any]]:
         """Uploads a local file in 20 MiB chunks directly to Microsoft Graph uploadUrl."""
         total_size = file_path.stat().st_size
@@ -427,6 +453,9 @@ class LectureTransferEngine:
         MANIFEST_PATH.parent.mkdir(parents=True, exist_ok=True)
         with open(MANIFEST_PATH, "w", encoding="utf-8") as f:
             json.dump(self.manifest, f, indent=2)
+        if PUBLIC_MANIFEST_PATH.parent.exists():
+            with open(PUBLIC_MANIFEST_PATH, "w", encoding="utf-8") as f:
+                json.dump(self.manifest, f, indent=2)
 
     async def init_telegram(self):
         api_id = os.environ.get("TELEGRAM_API_ID")
@@ -650,6 +679,11 @@ class LectureTransferEngine:
         drive_item_id = result_meta.get("id") if result_meta else None
         web_url = result_meta.get("webUrl") if result_meta else None
 
+        # Fetch video duration and resolution if video
+        video_meta = {}
+        if not is_pdf and drive_item_id and self.od_client:
+            video_meta = self.od_client.get_video_metadata(drive_item_id)
+
         self.manifest[item_id] = {
             "title": clean_title,
             "filename": clean_name,
@@ -662,6 +696,10 @@ class LectureTransferEngine:
             "onedrive_path": f"/{remote_path}",
             "web_url": web_url,
             "size_bytes": total_size,
+            "duration_seconds": video_meta.get("duration_seconds"),
+            "duration_formatted": video_meta.get("duration_formatted"),
+            "resolution": video_meta.get("resolution"),
+            "thumbnail_url": f"/api/thumbnail/{chat_id}/{message_id}" if not is_pdf else None,
             "uploaded_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
             "status": "completed",
         }

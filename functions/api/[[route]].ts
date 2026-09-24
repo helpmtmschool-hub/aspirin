@@ -1,14 +1,16 @@
 import { Hono } from 'hono';
 import { handle } from 'hono/cloudflare-pages';
 import { cors } from 'hono/cors';
+import { verifyToken } from '@clerk/backend';
 
 type Bindings = {
   DB?: D1Database;
-  STREAM_ORIGIN?: string;
   ONEDRIVE_CLIENT_ID?: string;
   ONEDRIVE_TENANT_ID?: string;
   ONEDRIVE_REFRESH_TOKEN?: string;
   ONEDRIVE_DRIVE_TARGET?: string;
+  CLERK_SECRET_KEY?: string;
+  CLERK_JWT_KEY?: string;
 };
 
 const app = new Hono<{ Bindings: Bindings }>().basePath('/api');
@@ -16,16 +18,13 @@ const app = new Hono<{ Bindings: Bindings }>().basePath('/api');
 // Enable CORS for all routes
 app.use('*', cors());
 
-// Helper to get stream origin
-const getStreamOrigin = (env: Bindings) => env.STREAM_ORIGIN || 'http://127.0.0.1:8787';
-
 interface TokenCache {
   accessToken: string;
   expiresAt: number;
 }
 let tokenCache: TokenCache | null = null;
 const downloadUrlCache = new Map<string, { url: string; expiresAt: number }>();
-let cachedManifest: Record<string, any> | null = null;
+let cachedManifest: Record<string, any> = {};
 let lastManifestFetch = 0;
 
 async function getGraphAccessToken(env: Bindings): Promise<string | null> {
@@ -92,22 +91,119 @@ async function getOneDriveDownloadUrl(env: Bindings, itemId: string): Promise<st
   return null;
 }
 
+const thumbnailUrlCache = new Map<string, { url: string; expiresAt: number }>();
+
+async function getOneDriveThumbnailUrl(env: Bindings, itemId: string, size: string = 'c640x360'): Promise<string | null> {
+  const cacheKey = `${itemId}_${size}`;
+  const now = Date.now();
+  const cached = thumbnailUrlCache.get(cacheKey);
+  if (cached && cached.expiresAt > now) {
+    return cached.url;
+  }
+
+  const token = await getGraphAccessToken(env);
+  if (!token) return null;
+
+  try {
+    const driveTarget = env.ONEDRIVE_DRIVE_TARGET || 'sites/root/drive';
+    const res = await fetch(
+      `https://graph.microsoft.com/v1.0/${driveTarget}/items/${itemId}/thumbnails/0/${size}/content`,
+      {
+        headers: { Authorization: `Bearer ${token}` },
+        redirect: 'manual',
+      }
+    );
+    if (res.status === 302) {
+      const location = res.headers.get('location');
+      if (location) {
+        thumbnailUrlCache.set(cacheKey, { url: location, expiresAt: now + 2 * 60 * 60 * 1000 });
+        return location;
+      }
+    }
+
+    const listRes = await fetch(
+      `https://graph.microsoft.com/v1.0/${driveTarget}/items/${itemId}/thumbnails`,
+      {
+        headers: { Authorization: `Bearer ${token}` },
+      }
+    );
+    if (listRes.ok) {
+      const data: any = await listRes.json();
+      const directUrl = data.value?.[0]?.large?.url || data.value?.[0]?.medium?.url;
+      if (directUrl) {
+        thumbnailUrlCache.set(cacheKey, { url: directUrl, expiresAt: now + 2 * 60 * 60 * 1000 });
+        return directUrl;
+      }
+    }
+  } catch (e) {
+    // Silent fallback
+  }
+  return null;
+}
+
 async function getManifest(): Promise<Record<string, any>> {
   const now = Date.now();
-  if (cachedManifest && (now - lastManifestFetch < 60000)) {
+  if (Object.keys(cachedManifest).length > 0 && (now - lastManifestFetch < 60000)) {
     return cachedManifest;
   }
   try {
     const res = await fetch('https://raw.githubusercontent.com/helpmtmschool-hub/aspirin/main/engine/transfer_manifest.json');
     if (res.ok) {
-      cachedManifest = await res.json();
+      const data: any = await res.json();
+      cachedManifest = data || {};
       lastManifestFetch = now;
       return cachedManifest;
     }
   } catch (e) {
     // Fallback
   }
-  return cachedManifest || {};
+  return cachedManifest;
+}
+
+// Clerk Networkless / Edge Authentication Helper
+async function authenticateUser(c: any): Promise<{ userId: string; sessionId?: string } | null> {
+  const authHeader = c.req.header('authorization') || c.req.header('Authorization');
+  const queryToken = c.req.query('token');
+  const cookieHeader = c.req.header('cookie') || '';
+  const sessionCookie = cookieHeader
+    .split(';')
+    .map((s: string) => s.trim())
+    .find((s: string) => s.startsWith('__session='))
+    ?.split('=')[1];
+
+  const token = authHeader?.startsWith('Bearer ')
+    ? authHeader.substring(7)
+    : queryToken || sessionCookie || null;
+
+  const rawJwtKey = c.env.CLERK_JWT_KEY;
+  const secretKey = c.env.CLERK_SECRET_KEY;
+  const jwtKey = rawJwtKey ? rawJwtKey.replace(/\\n/g, '\n') : undefined;
+
+  // 1. If token is present, verify with Clerk via networkless JWT Key or Secret Key
+  if (token && (jwtKey || secretKey)) {
+    try {
+      const verified = await verifyToken(token, {
+        jwtKey,
+        secretKey,
+      });
+      if (verified && verified.sub) {
+        return {
+          userId: verified.sub,
+          sessionId: (verified as any).sid,
+        };
+      }
+    } catch (err) {
+      console.warn('[Edge Auth] Clerk token verification failed:', err);
+    }
+  }
+
+  // 2. If Clerk is not actively configured on the edge worker (dev/local), allow guest/header fallback
+  if (!jwtKey && !secretKey) {
+    const guestId = c.req.header('x-user-id') || 'aspirin_guest';
+    return { userId: guestId };
+  }
+
+  return null;
 }
 
 // 1. GET /api/subjects - List 19 MBBS subjects with progress stats
@@ -247,11 +343,10 @@ app.get('/topics/:id', async (c) => {
   }
 });
 
-// 4. GET /api/stream/:chatId/:messageId - Edge stream router with OneDrive 302 & Stream Bridge fallback
+// 4. GET /api/stream/:chatId/:messageId - Cloud-native streaming via Microsoft SharePoint Azure CDN (HTTP 206 Stream Proxy)
 app.get('/stream/:chatId/:messageId', async (c) => {
   const { chatId, messageId } = c.req.param();
 
-  // 1. Check if video has been migrated to 25 TB SharePoint drive
   try {
     const manifest = await getManifest();
     const itemKey = `px_${chatId}_${messageId}`;
@@ -260,59 +355,49 @@ app.get('/stream/:chatId/:messageId', async (c) => {
     if (item && item.onedrive_item_id && item.status === 'completed') {
       const directUrl = await getOneDriveDownloadUrl(c.env, item.onedrive_item_id);
       if (directUrl) {
-        // Fast 302 redirect directly to Microsoft SharePoint global CDN
-        return c.redirect(directUrl, 302);
+        const range = c.req.header('range');
+        const upstreamHeaders: Record<string, string> = {};
+        if (range) upstreamHeaders['Range'] = range;
+
+        const upstreamRes = await fetch(directUrl, { headers: upstreamHeaders });
+        const headers = new Headers();
+        headers.set('Content-Type', upstreamRes.headers.get('content-type') || 'video/mp4');
+        headers.set('Accept-Ranges', 'bytes');
+        if (upstreamRes.headers.get('content-range')) {
+          headers.set('Content-Range', upstreamRes.headers.get('content-range')!);
+        }
+        if (upstreamRes.headers.get('content-length')) {
+          headers.set('Content-Length', upstreamRes.headers.get('content-length')!);
+        }
+        headers.set('Access-Control-Allow-Origin', '*');
+        headers.set('Access-Control-Expose-Headers', 'Content-Range, Content-Length, Accept-Ranges');
+        headers.set('Cache-Control', 'public, max-age=3600');
+
+        return new Response(upstreamRes.body, {
+          status: upstreamRes.status,
+          headers,
+        });
       }
     }
   } catch (e) {
-    // If manifest or OneDrive check fails, proceed to stream bridge fallback
+    // Manifest or graph error handled below
   }
 
-  // 2. Fallback to MTProto stream bridge
-  const streamOrigin = getStreamOrigin(c.env);
-  const targetUrl = `${streamOrigin}/stream/${chatId}/${messageId}`;
-
-  const forwardHeaders: Record<string, string> = {};
-  const rangeHeader = c.req.header('range');
-  if (rangeHeader) {
-    forwardHeaders['Range'] = rangeHeader;
-  }
-
-  try {
-    const upstreamRes = await fetch(targetUrl, {
-      headers: forwardHeaders,
-    });
-
-    const responseHeaders = new Headers(upstreamRes.headers);
-    responseHeaders.set('Access-Control-Allow-Origin', '*');
-    responseHeaders.set('Access-Control-Allow-Methods', 'GET, HEAD, OPTIONS');
-    responseHeaders.set('Access-Control-Allow-Headers', 'Range, Content-Type');
-    responseHeaders.set(
-      'Access-Control-Expose-Headers',
-      'Content-Range, Content-Length, Accept-Ranges'
-    );
-    responseHeaders.set('Accept-Ranges', 'bytes');
-
-    return new Response(upstreamRes.body, {
-      status: upstreamRes.status,
-      headers: responseHeaders,
-    });
-  } catch (err: any) {
-    return c.json(
-      {
-        error: `Failed to connect to Telegram stream bridge at ${streamOrigin}: ${err.message}`,
-        hint: "Ensure 'python engine/stream_bridge.py' is running, or that the lecture has finished cloud migration to SharePoint.",
-      },
-      502
-    );
-  }
+  return c.json(
+    {
+      error: 'This lecture is currently queued for cloud migration to SharePoint.',
+      status: 'pending_migration',
+      chat_id: chatId,
+      message_id: messageId,
+    },
+    404
+  );
 });
 
-// 5. GET /api/notes/:chatId/:messageId - Notes & PDF streaming with OneDrive 302 & Stream Bridge fallback
+// 5. GET /api/notes/:chatId/:messageId - Cloud-native Clinical Notes streaming via Microsoft SharePoint
 app.get('/notes/:chatId/:messageId', async (c) => {
   const { chatId, messageId } = c.req.param();
 
-  // 1. Check if PDF note has been migrated to 25 TB SharePoint drive
   try {
     const manifest = await getManifest();
     const itemKey = `px_${chatId}_${messageId}`;
@@ -321,111 +406,284 @@ app.get('/notes/:chatId/:messageId', async (c) => {
     if (item && item.onedrive_item_id && item.status === 'completed') {
       const directUrl = await getOneDriveDownloadUrl(c.env, item.onedrive_item_id);
       if (directUrl) {
+        const range = c.req.header('range');
+        const upstreamHeaders: Record<string, string> = {};
+        if (range) upstreamHeaders['Range'] = range;
+
+        const upstreamRes = await fetch(directUrl, { headers: upstreamHeaders });
+        const headers = new Headers();
+        headers.set('Content-Type', upstreamRes.headers.get('content-type') || 'application/pdf');
+        headers.set('Accept-Ranges', 'bytes');
+        if (upstreamRes.headers.get('content-range')) {
+          headers.set('Content-Range', upstreamRes.headers.get('content-range')!);
+        }
+        if (upstreamRes.headers.get('content-length')) {
+          headers.set('Content-Length', upstreamRes.headers.get('content-length')!);
+        }
+        headers.set('Access-Control-Allow-Origin', '*');
+        headers.set('Access-Control-Expose-Headers', 'Content-Range, Content-Length, Accept-Ranges');
+        headers.set('Cache-Control', 'public, max-age=3600');
+
+        return new Response(upstreamRes.body, {
+          status: upstreamRes.status,
+          headers,
+        });
+      }
+    }
+  } catch (e) {
+    // Error handled below
+  }
+
+  return c.json(
+    {
+      error: 'This clinical note is currently queued for cloud migration to SharePoint.',
+      status: 'pending_migration',
+      chat_id: chatId,
+      message_id: messageId,
+    },
+    404
+  );
+});
+
+// 5.1 GET /api/thumbnail/:chatId/:messageId - Cloud-native Video Thumbnail streaming via Microsoft SharePoint Azure CDN (HTTP 302)
+app.get('/thumbnail/:chatId/:messageId', async (c) => {
+  const { chatId, messageId } = c.req.param();
+
+  try {
+    const manifest = await getManifest();
+    const itemKey = `px_${chatId}_${messageId}`;
+    const item = manifest[itemKey];
+
+    if (item && item.onedrive_item_id && item.status === 'completed') {
+      const directUrl = await getOneDriveThumbnailUrl(c.env, item.onedrive_item_id);
+      if (directUrl) {
+        c.header('Cache-Control', 'public, max-age=7200');
         return c.redirect(directUrl, 302);
       }
     }
   } catch (e) {
-    // Fallback to stream bridge
+    // Handled below
   }
 
-  // 2. Fallback to stream bridge
-  const streamOrigin = getStreamOrigin(c.env);
-  const targetUrl = `${streamOrigin}/note/${chatId}/${messageId}`;
-
-  const forwardHeaders: Record<string, string> = {};
-  const rangeHeader = c.req.header('range');
-  if (rangeHeader) {
-    forwardHeaders['Range'] = rangeHeader;
-  }
-
-  try {
-    const upstreamRes = await fetch(targetUrl, {
-      headers: forwardHeaders,
-    });
-
-    const responseHeaders = new Headers(upstreamRes.headers);
-    responseHeaders.set('Access-Control-Allow-Origin', '*');
-    return new Response(upstreamRes.body, {
-      status: upstreamRes.status,
-      headers: responseHeaders,
-    });
-  } catch (err: any) {
-    return c.json({ error: `Failed to fetch note: ${err.message}` }, 502);
-  }
+  return c.json(
+    {
+      error: 'This lecture thumbnail is currently queued for cloud migration to SharePoint.',
+      status: 'pending_migration',
+      chat_id: chatId,
+      message_id: messageId,
+    },
+    404
+  );
 });
 
-// 5.1 GET /api/info/* - Proxy info & health checks to stream bridge
-app.get('/info/:tail{.+}', async (c) => {
-  const tail = c.req.param('tail');
-  const streamOrigin = getStreamOrigin(c.env);
-  const targetUrl = `${streamOrigin}/${tail}`;
-
-  try {
-    const upstreamRes = await fetch(targetUrl);
-    const responseHeaders = new Headers(upstreamRes.headers);
-    responseHeaders.set('Access-Control-Allow-Origin', '*');
-    return new Response(upstreamRes.body, {
-      status: upstreamRes.status,
-      headers: responseHeaders,
-    });
-  } catch (err: any) {
-    return c.json({ error: err.message }, 502);
-  }
-});
-
-// 6. POST /api/progress - Save watch progress and completion
+// 6. POST /api/progress - Debounced batch or single watch progress sync
 app.post('/progress', async (c) => {
   const db = c.env.DB;
   if (!db) return c.json({ error: 'D1 Database not bound' }, 500);
 
-  const body = await c.req.json();
-  const { topicId, watchedSeconds, totalSeconds, isCompleted, isBookmarked } = body;
-
   try {
-    await db
-      .prepare(
-        `INSERT INTO user_progress (topic_id, watched_seconds, total_seconds, is_completed, is_bookmarked, last_watched_at)
-         VALUES (?, ?, ?, ?, ?, datetime('now'))
-         ON CONFLICT(topic_id) DO UPDATE SET
-           watched_seconds = COALESCE(?, watched_seconds),
-           total_seconds = COALESCE(?, total_seconds),
-           is_completed = COALESCE(?, is_completed),
-           is_bookmarked = COALESCE(?, is_bookmarked),
-           last_watched_at = datetime('now')`
-      )
-      .bind(
-        topicId,
-        watchedSeconds || 0,
-        totalSeconds || 1800,
-        isCompleted ?? 0,
-        isBookmarked ?? 0,
-        watchedSeconds,
-        totalSeconds,
-        isCompleted,
-        isBookmarked
-      )
-      .run();
+    const auth = await authenticateUser(c);
+    const body: any = await c.req.json();
+    const userId = auth?.userId || c.req.header('x-user-id') || body.userId || 'aspirin_guest';
 
-    return c.json({ success: true });
+    // Support both batch payload and single topic payload
+    const items: any[] = Array.isArray(body.batch) ? body.batch : [body];
+    if (items.length === 0) {
+      return c.json({ success: true, count: 0 });
+    }
+
+    const statements = items
+      .filter((item) => item && item.topicId)
+      .map((item) => {
+        const watchedSecs = item.watchedSeconds || 0;
+        const totalSecs = item.totalSeconds || 1800;
+        const isComp = item.isCompleted ? 1 : 0;
+        const isBook = item.isBookmarked ? 1 : 0;
+
+        return db
+          .prepare(
+            `INSERT INTO user_progress (user_id, topic_id, watched_seconds, total_seconds, is_completed, is_bookmarked, last_watched_at, updated_at)
+             VALUES (?, ?, ?, ?, ?, ?, datetime('now'), datetime('now'))
+             ON CONFLICT(user_id, topic_id) DO UPDATE SET
+               watched_seconds = ?,
+               total_seconds = ?,
+               is_completed = ?,
+               is_bookmarked = ?,
+               last_watched_at = datetime('now'),
+               updated_at = datetime('now')`
+          )
+          .bind(
+            userId,
+            item.topicId,
+            watchedSecs,
+            totalSecs,
+            isComp,
+            isBook,
+            watchedSecs,
+            totalSecs,
+            isComp,
+            isBook
+          );
+      });
+
+    if (statements.length > 0) {
+      await db.batch(statements);
+    }
+
+    return c.json({ success: true, synced: statements.length });
   } catch (err: any) {
     return c.json({ error: err.message }, 500);
   }
 });
 
-// 7. POST /api/user-notes - Add timestamped clinical note
+// 6.1 GET /api/progress/:userId - Fetch all user progress for device sync
+app.get('/progress/:userId', async (c) => {
+  const db = c.env.DB;
+  const paramUserId = c.req.param('userId');
+  if (!db) return c.json({ error: 'D1 Database not bound' }, 500);
+
+  try {
+    const auth = await authenticateUser(c);
+    const userId = auth?.userId || paramUserId || 'aspirin_guest';
+    const res = await db
+      .prepare(`SELECT * FROM user_progress WHERE user_id = ?`)
+      .bind(userId)
+      .all();
+
+    const progressMap: Record<string, any> = {};
+    (res.results || []).forEach((row: any) => {
+      progressMap[row.topic_id] = {
+        topicId: row.topic_id,
+        watchedSeconds: row.watched_seconds,
+        totalSeconds: row.total_seconds,
+        isCompleted: Boolean(row.is_completed),
+        isBookmarked: Boolean(row.is_bookmarked),
+        lastWatchedAt: row.last_watched_at,
+      };
+    });
+
+    return c.json({ success: true, progress: progressMap });
+  } catch (err: any) {
+    return c.json({ error: err.message }, 500);
+  }
+});
+
+// 7. 1-Device Active Session Policy (Anti-Account Sharing)
+// 7.1 POST /api/sessions/register - Register new device session
+app.post('/sessions/register', async (c) => {
+  const db = c.env.DB;
+  if (!db) return c.json({ error: 'D1 Database not bound' }, 500);
+
+  try {
+    const auth = await authenticateUser(c);
+    const body: any = await c.req.json();
+    const userId = auth?.userId || body.userId;
+    const sessionId = auth?.sessionId || body.sessionId || 'default_session';
+    const { deviceId, deviceName } = body;
+
+    if (!userId || !deviceId) {
+      return c.json({ error: 'Missing userId or deviceId' }, 400);
+    }
+
+    const ip = c.req.header('cf-connecting-ip') || c.req.header('x-real-ip') || 'unknown';
+    const userAgent = c.req.header('user-agent') || 'unknown';
+
+    // Upsert into active sessions table
+    await db
+      .prepare(
+        `INSERT INTO user_active_sessions (user_id, session_id, device_id, device_name, ip_address, user_agent, last_heartbeat)
+         VALUES (?, ?, ?, ?, ?, ?, datetime('now'))
+         ON CONFLICT(user_id) DO UPDATE SET
+           session_id = ?,
+           device_id = ?,
+           device_name = ?,
+           ip_address = ?,
+           user_agent = ?,
+           last_heartbeat = datetime('now')`
+      )
+      .bind(
+        userId,
+        sessionId || 'default_session',
+        deviceId,
+        deviceName || 'Browser',
+        ip,
+        userAgent,
+        sessionId || 'default_session',
+        deviceId,
+        deviceName || 'Browser',
+        ip,
+        userAgent
+      )
+      .run();
+
+    return c.json({ success: true, activeDeviceId: deviceId });
+  } catch (err: any) {
+    return c.json({ error: err.message }, 500);
+  }
+});
+
+// 7.2 POST /api/sessions/heartbeat - Keepalive & concurrent device check
+app.post('/sessions/heartbeat', async (c) => {
+  const db = c.env.DB;
+  if (!db) return c.json({ error: 'D1 Database not bound' }, 500);
+
+  try {
+    const auth = await authenticateUser(c);
+    const body: any = await c.req.json();
+    const userId = auth?.userId || body.userId;
+    const { deviceId } = body;
+
+    if (!userId || !deviceId) {
+      return c.json({ active: true });
+    }
+
+    const session: any = await db
+      .prepare(`SELECT * FROM user_active_sessions WHERE user_id = ?`)
+      .bind(userId)
+      .first();
+
+    // If no record exists, register this device
+    if (!session) {
+      return c.json({ active: true });
+    }
+
+    // Check if another device took over the active session
+    if (session.device_id !== deviceId) {
+      return c.json({
+        active: false,
+        reason: 'CONCURRENT_DEVICE_DETECTED',
+        activeDeviceName: session.device_name || 'Another device',
+        message: 'Your account was accessed from another device. Playback paused.',
+      });
+    }
+
+    // Update heartbeat timestamp
+    await db
+      .prepare(`UPDATE user_active_sessions SET last_heartbeat = datetime('now') WHERE user_id = ?`)
+      .bind(userId)
+      .run();
+
+    return c.json({ active: true });
+  } catch (err: any) {
+    return c.json({ error: err.message }, 500);
+  }
+});
+
+// 8. POST /api/user-notes - Add timestamped clinical note
 app.post('/user-notes', async (c) => {
   const db = c.env.DB;
   if (!db) return c.json({ error: 'D1 Database not bound' }, 500);
 
-  const body = await c.req.json();
-  const { topicId, timestampSeconds, noteText } = body;
-
   try {
+    const body = await c.req.json();
+    const userId = c.req.header('x-user-id') || body.userId || 'aspirin_guest';
+    const { topicId, timestampSeconds, noteText } = body;
+
     const result = await db
       .prepare(
-        `INSERT INTO user_notes (topic_id, timestamp_seconds, note_text) VALUES (?, ?, ?)`
+        `INSERT INTO user_notes (user_id, topic_id, timestamp_seconds, note_text) VALUES (?, ?, ?, ?)`
       )
-      .bind(topicId, timestampSeconds, noteText)
+      .bind(userId, topicId, timestampSeconds, noteText)
       .run();
 
     return c.json({ success: true, id: result.meta.last_row_id });
@@ -434,7 +692,26 @@ app.post('/user-notes', async (c) => {
   }
 });
 
-// 8. GET /api/search - Global search
+// 8.1 GET /api/user-notes/:topicId - Fetch user notes for a topic
+app.get('/user-notes/:topicId', async (c) => {
+  const db = c.env.DB;
+  const topicId = c.req.param('topicId');
+  const userId = c.req.header('x-user-id') || c.req.query('userId') || 'aspirin_guest';
+  if (!db) return c.json({ error: 'D1 Database not bound' }, 500);
+
+  try {
+    const res = await db
+      .prepare(`SELECT * FROM user_notes WHERE user_id = ? AND topic_id = ? ORDER BY timestamp_seconds ASC`)
+      .bind(userId, topicId)
+      .all();
+
+    return c.json({ success: true, notes: res.results || [] });
+  } catch (err: any) {
+    return c.json({ error: err.message }, 500);
+  }
+});
+
+// 9. GET /api/search - Global search
 app.get('/search', async (c) => {
   const db = c.env.DB;
   const q = c.req.query('q') || '';

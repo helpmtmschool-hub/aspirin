@@ -4,6 +4,26 @@ export type MBBSProf =
   | '3rd Prof Part 1'
   | 'Final Prof Part 2';
 
+export type PlatformId = 'prepx_en' | 'prepx_hi' | 'cerebellum';
+
+export interface PlatformMetadata {
+  id: PlatformId;
+  name: string;
+  shortName: string;
+  tagline: string;
+  badge: string;
+  badgeColor: string;
+  facultyHighlight?: string;
+}
+
+export interface SubjectVisual {
+  id: string;
+  emoji: string;
+  iconName: string;
+  tagline: string;
+  prof: string;
+}
+
 export interface Subject {
   id: string;
   name: string;
@@ -13,18 +33,29 @@ export interface Subject {
   icon: string;
   color: string;
   display_order: number;
+  available_platforms: PlatformId[];
   total_topics: number;
   total_notes: number;
   completed_topics?: number;
   progress_percentage?: number;
-  modules?: Module[];
-  notes?: NoteItem[];
+  platform_data?: Record<PlatformId, PlatformContent>;
+  visual?: SubjectVisual;
+}
+
+export interface PlatformContent {
+  platform_id: PlatformId;
+  subject_id: string;
+  faculty?: string;
+  modules: Module[];
+  notes: NoteItem[];
+  total_duration_formatted?: string;
 }
 
 export interface Module {
   id: string;
   name: string;
   subject_id?: string;
+  platform_id?: PlatformId;
   topics: Topic[];
 }
 
@@ -33,6 +64,7 @@ export interface Topic {
   subject_id: string;
   module_id?: string;
   module?: string;
+  platform_id?: PlatformId;
   title: string;
   filename: string;
   file_size_bytes: number;
@@ -41,25 +73,28 @@ export interface Topic {
   duration_formatted?: string;
   telegram_chat_id: number;
   telegram_message_id: number;
-  pearls: string[];
+  thumbnail_url?: string;
+  pearls?: string[];
   watched_seconds?: number;
-  is_completed?: number | boolean;
-  is_bookmarked?: number | boolean;
+  is_completed?: boolean;
+  is_bookmarked?: boolean;
   stream_url?: string;
-  user_notes?: UserNote[];
-  date?: string;
+  last_watched_at?: string;
 }
 
 export interface NoteItem {
   id: string;
   subject_id: string;
+  platform_id?: PlatformId;
   title: string;
+  faculty?: string;
   filename: string;
   file_size_bytes: number;
   file_size_mb?: number;
   telegram_chat_id: number;
   telegram_message_id: number;
   date?: string;
+  is_master_textbook?: boolean;
 }
 
 export interface UserNote {
@@ -70,14 +105,44 @@ export interface UserNote {
   created_at?: string;
 }
 
-export interface UserProgressState {
-  [topicId: string]: {
-    watchedSeconds: number;
-    totalSeconds: number;
-    isCompleted: boolean;
-    isBookmarked: boolean;
-    lastWatchedAt?: string;
-  };
+export interface UserProgressItem {
+  topicId?: string;
+  watchedSeconds: number;
+  totalSeconds: number;
+  isCompleted: boolean;
+  isBookmarked: boolean;
+  lastWatchedAt?: string;
+  subjectId?: string;
+  platformId?: PlatformId;
 }
 
-export type LMSTheme = 'marrow' | 'prepladder' | 'night';
+export interface UserProgressState {
+  [topicId: string]: UserProgressItem;
+}
+
+export interface UserBookmarkItem {
+  topic: Topic;
+  timestamp: string;
+}
+
+// Future QBank schema ready
+export interface QBankQuestion {
+  id: string;
+  subject_id: string;
+  module_name: string;
+  stem: string;
+  image_url?: string;
+  options: {
+    id: 'A' | 'B' | 'C' | 'D';
+    text: string;
+    percentage_chosen?: number;
+  }[];
+  correct_option: 'A' | 'B' | 'C' | 'D';
+  explanation: {
+    summary: string;
+    key_concept: string;
+    options_breakdown: Record<'A' | 'B' | 'C' | 'D', string>;
+    high_yield_pearl?: string;
+  };
+  tags: string[];
+}

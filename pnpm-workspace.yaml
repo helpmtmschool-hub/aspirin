@@ -1,0 +1,10 @@
+allowBuilds:
+  '@clerk/shared': true
+  esbuild: true
+  sharp: true
+  workerd: true
+minimumReleaseAgeExclude:
+  - '@clerk/react@6.17.0'
+  - '@clerk/shared@4.34.0'
+  - hono@4.13.9
+  - lucide-react@1.48.0

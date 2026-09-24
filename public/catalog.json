@@ -10,9 +10,129 @@
       "category": "Pre-Clinical",
       "icon": "Bone",
       "color": "#E11D48",
-      "total_topics": 3,
+      "total_topics": 9,
       "total_notes": 5,
       "modules": [
+        {
+          "id": "mod_anatomy_prepx_neuro",
+          "name": "PrepLadder X - Neuroanatomy",
+          "topics": [
+            {
+              "id": "topic_-1003709841202_4",
+              "subject_id": "anatomy",
+              "module": "PrepLadder X - Neuroanatomy",
+              "title": "01. Introduction",
+              "filename": "01. Introduction.mp4",
+              "file_size_bytes": 130536608,
+              "file_size_mb": 124.49,
+              "duration_seconds": 2385,
+              "duration_formatted": "39m 45s",
+              "chat_id": -1003709841202,
+              "message_id": 4,
+              "pearls": [
+                "Core high-yield neuroanatomy landmarks & clinical pathways in 01. Introduction",
+                "Key examination pearls for NEET-PG / INICET"
+              ],
+              "date": "2026-09-23T14:38:19Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/4"
+            },
+            {
+              "id": "topic_-1003709841202_5",
+              "subject_id": "anatomy",
+              "module": "PrepLadder X - Neuroanatomy",
+              "title": "02. Spinal Cord",
+              "filename": "02. Spinal Cord.mp4",
+              "file_size_bytes": 130447083,
+              "file_size_mb": 124.4,
+              "duration_seconds": 2226,
+              "duration_formatted": "37m 6s",
+              "chat_id": -1003709841202,
+              "message_id": 5,
+              "pearls": [
+                "Core high-yield neuroanatomy landmarks & clinical pathways in 02. Spinal Cord",
+                "Key examination pearls for NEET-PG / INICET"
+              ],
+              "date": "2026-09-23T15:12:18Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/5"
+            },
+            {
+              "id": "topic_-1003709841202_6",
+              "subject_id": "anatomy",
+              "module": "PrepLadder X - Neuroanatomy",
+              "title": "03. Brainstem",
+              "filename": "03. Brainstem.mp4",
+              "file_size_bytes": 542378412,
+              "file_size_mb": 517.25,
+              "duration_seconds": 5992,
+              "duration_formatted": "1h 39m",
+              "chat_id": -1003709841202,
+              "message_id": 6,
+              "pearls": [
+                "Core high-yield neuroanatomy landmarks & clinical pathways in 03. Brainstem",
+                "Key examination pearls for NEET-PG / INICET"
+              ],
+              "date": "2026-09-23T15:15:24Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/6"
+            },
+            {
+              "id": "topic_-1003709841202_7",
+              "subject_id": "anatomy",
+              "module": "PrepLadder X - Neuroanatomy",
+              "title": "04. Transverse Section of Mid Brain, Pons & Medulla",
+              "filename": "04. Transverse Section of Mid Brain, Pons & Medulla.mp4",
+              "file_size_bytes": 125898489,
+              "file_size_mb": 120.07,
+              "duration_seconds": 2000,
+              "duration_formatted": "33m 20s",
+              "chat_id": -1003709841202,
+              "message_id": 7,
+              "pearls": [
+                "Core high-yield neuroanatomy landmarks & clinical pathways in 04. Transverse Section of Mid Brain, Pons & Medulla",
+                "Key examination pearls for NEET-PG / INICET"
+              ],
+              "date": "2026-09-23T15:16:05Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/7"
+            },
+            {
+              "id": "topic_-1003709841202_8",
+              "subject_id": "anatomy",
+              "module": "PrepLadder X - Neuroanatomy",
+              "title": "05. White Matter and Grey Matter of Cerebrum",
+              "filename": "05. White Matter and Grey Matter of Cerebrum.mp4",
+              "file_size_bytes": 294205415,
+              "file_size_mb": 280.58,
+              "duration_seconds": 4106,
+              "duration_formatted": "1h 8m",
+              "chat_id": -1003709841202,
+              "message_id": 8,
+              "pearls": [
+                "Core high-yield neuroanatomy landmarks & clinical pathways in 05. White Matter and Grey Matter of Cerebrum",
+                "Key examination pearls for NEET-PG / INICET"
+              ],
+              "date": "2026-09-23T15:17:53Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/8"
+            },
+            {
+              "id": "topic_-1003709841202_9",
+              "subject_id": "anatomy",
+              "module": "PrepLadder X - Neuroanatomy",
+              "title": "06. White Matter - Descending tract",
+              "filename": "06. White Matter - Descending tract.mp4",
+              "file_size_bytes": 161990269,
+              "file_size_mb": 154.49,
+              "duration_seconds": 3003,
+              "duration_formatted": "50m 3s",
+              "chat_id": -1003709841202,
+              "message_id": 9,
+              "pearls": [
+                "Core high-yield neuroanatomy landmarks & clinical pathways in 06. White Matter - Descending tract",
+                "Key examination pearls for NEET-PG / INICET"
+              ],
+              "date": "2026-09-23T15:19:46Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/9"
+            }
+          ]
+        },
         {
           "id": "mod_anatomy_1",
           "name": "Clinical Lectures & PYQs",
@@ -1574,7 +1694,7 @@
               "title": "Ear - Inner Ear Semicircular Canals, Vestibular test and vertigo",
               "filename": "Ear_Inner Ear Semicircular Canals, Vestibular test and verti.mp4",
               "file_size_bytes": 81788485,
-              "file_size_mb": 78.0,
+              "file_size_mb": 78,
               "duration_seconds": 1800,
               "duration_formatted": "30 mins",
               "chat_id": -1003506593387,
@@ -1592,7 +1712,7 @@
               "title": "Ear - Inner ear labyrinth",
               "filename": "Ear_Inner ear labyrinth.mp4",
               "file_size_bytes": 153087128,
-              "file_size_mb": 146.0,
+              "file_size_mb": 146,
               "duration_seconds": 1800,
               "duration_formatted": "30 mins",
               "chat_id": -1003506593387,
@@ -2420,7 +2540,7 @@
               "title": "Disorders of Pigmentation English  Uploaded By 👉 @Cerebe",
               "filename": "Disorders of Pigmentation English  Uploaded By 👉 @Cerebe.mp4",
               "file_size_bytes": 402658246,
-              "file_size_mb": 384.0,
+              "file_size_mb": 384,
               "duration_seconds": 1800,
               "duration_formatted": "30 mins",
               "chat_id": -1003709841202,
@@ -3116,9 +3236,1497 @@
       "category": "Clinical",
       "icon": "Stethoscope",
       "color": "#0284C7",
-      "total_topics": 199,
+      "total_topics": 277,
       "total_notes": 20,
       "modules": [
+        {
+          "id": "mod_medicine_prepx_cardio",
+          "name": "PrepLadder X - Cardiology (Dr. Deepak Marwah)",
+          "topics": [
+            {
+              "id": "topic_-1003709841202_690",
+              "subject_id": "medicine",
+              "module": "PrepLadder X - Cardiology (Dr. Deepak Marwah)",
+              "title": "1. 5 Hacks to Complete Internal Medicine for NEET PG",
+              "filename": "1. 5 Hacks to Complete Internal Medicine for NEET PG.mp4",
+              "file_size_bytes": 184194164,
+              "file_size_mb": 175.66,
+              "duration_seconds": 2679,
+              "duration_formatted": "44m 39s",
+              "chat_id": -1003709841202,
+              "message_id": 690,
+              "pearls": [
+                "High-yield clinical medicine pearls from Dr. Deepak Marwah on 1. 5 Hacks to Complete Internal Medicine for NEET PG",
+                "Clinical signs, murmur maneuvers, and treatment algorithms"
+              ],
+              "date": "2026-09-23T16:19:48Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/690"
+            },
+            {
+              "id": "topic_-1003709841202_691",
+              "subject_id": "medicine",
+              "module": "PrepLadder X - Cardiology (Dr. Deepak Marwah)",
+              "title": "2. Heart Sounds Part 1",
+              "filename": "2. Heart Sounds Part 1.mp4",
+              "file_size_bytes": 369307198,
+              "file_size_mb": 352.2,
+              "duration_seconds": 4059,
+              "duration_formatted": "1h 7m",
+              "chat_id": -1003709841202,
+              "message_id": 691,
+              "pearls": [
+                "High-yield clinical medicine pearls from Dr. Deepak Marwah on 2. Heart Sounds Part 1",
+                "Clinical signs, murmur maneuvers, and treatment algorithms"
+              ],
+              "date": "2026-09-23T16:23:52Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/691"
+            },
+            {
+              "id": "topic_-1003709841202_692",
+              "subject_id": "medicine",
+              "module": "PrepLadder X - Cardiology (Dr. Deepak Marwah)",
+              "title": "3. Heart Sounds Part 2",
+              "filename": "3. Heart Sounds Part 2.mp4",
+              "file_size_bytes": 431033540,
+              "file_size_mb": 411.07,
+              "duration_seconds": 4227,
+              "duration_formatted": "1h 10m",
+              "chat_id": -1003709841202,
+              "message_id": 692,
+              "pearls": [
+                "High-yield clinical medicine pearls from Dr. Deepak Marwah on 3. Heart Sounds Part 2",
+                "Clinical signs, murmur maneuvers, and treatment algorithms"
+              ],
+              "date": "2026-09-23T16:28:51Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/692"
+            },
+            {
+              "id": "topic_-1003709841202_693",
+              "subject_id": "medicine",
+              "module": "PrepLadder X - Cardiology (Dr. Deepak Marwah)",
+              "title": "4. Heart Sounds Part 3",
+              "filename": "4. Heart Sounds Part 3.mp4",
+              "file_size_bytes": 538292039,
+              "file_size_mb": 513.36,
+              "duration_seconds": 5285,
+              "duration_formatted": "1h 28m",
+              "chat_id": -1003709841202,
+              "message_id": 693,
+              "pearls": [
+                "High-yield clinical medicine pearls from Dr. Deepak Marwah on 4. Heart Sounds Part 3",
+                "Clinical signs, murmur maneuvers, and treatment algorithms"
+              ],
+              "date": "2026-09-23T16:46:08Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/693"
+            },
+            {
+              "id": "topic_-1003709841202_694",
+              "subject_id": "medicine",
+              "module": "PrepLadder X - Cardiology (Dr. Deepak Marwah)",
+              "title": "5. Mitral Valve Prolapse",
+              "filename": "5. Mitral Valve Prolapse.mp4",
+              "file_size_bytes": 218928073,
+              "file_size_mb": 208.79,
+              "duration_seconds": 2180,
+              "duration_formatted": "36m 20s",
+              "chat_id": -1003709841202,
+              "message_id": 694,
+              "pearls": [
+                "High-yield clinical medicine pearls from Dr. Deepak Marwah on 5. Mitral Valve Prolapse",
+                "Clinical signs, murmur maneuvers, and treatment algorithms"
+              ],
+              "date": "2026-09-23T16:49:45Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/694"
+            },
+            {
+              "id": "topic_-1003709841202_695",
+              "subject_id": "medicine",
+              "module": "PrepLadder X - Cardiology (Dr. Deepak Marwah)",
+              "title": "6. Mitral Regurgitation",
+              "filename": "6. Mitral Regurgitation.mp4",
+              "file_size_bytes": 250785228,
+              "file_size_mb": 239.17,
+              "duration_seconds": 2884,
+              "duration_formatted": "48m 4s",
+              "chat_id": -1003709841202,
+              "message_id": 695,
+              "pearls": [
+                "High-yield clinical medicine pearls from Dr. Deepak Marwah on 6. Mitral Regurgitation",
+                "Clinical signs, murmur maneuvers, and treatment algorithms"
+              ],
+              "date": "2026-09-23T16:53:15Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/695"
+            },
+            {
+              "id": "topic_-1003709841202_696",
+              "subject_id": "medicine",
+              "module": "PrepLadder X - Cardiology (Dr. Deepak Marwah)",
+              "title": "7. Aortic Stenosis",
+              "filename": "7. Aortic Stenosis.mp4",
+              "file_size_bytes": 356405177,
+              "file_size_mb": 339.89,
+              "duration_seconds": 3087,
+              "duration_formatted": "51m 27s",
+              "chat_id": -1003709841202,
+              "message_id": 696,
+              "pearls": [
+                "High-yield clinical medicine pearls from Dr. Deepak Marwah on 7. Aortic Stenosis",
+                "Clinical signs, murmur maneuvers, and treatment algorithms"
+              ],
+              "date": "2026-09-23T16:58:09Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/696"
+            },
+            {
+              "id": "topic_-1003709841202_697",
+              "subject_id": "medicine",
+              "module": "PrepLadder X - Cardiology (Dr. Deepak Marwah)",
+              "title": "8. Aortic Regurgitation",
+              "filename": "8. Aortic Regurgitation.mp4",
+              "file_size_bytes": 228858357,
+              "file_size_mb": 218.26,
+              "duration_seconds": 2902,
+              "duration_formatted": "48m 22s",
+              "chat_id": -1003709841202,
+              "message_id": 697,
+              "pearls": [
+                "High-yield clinical medicine pearls from Dr. Deepak Marwah on 8. Aortic Regurgitation",
+                "Clinical signs, murmur maneuvers, and treatment algorithms"
+              ],
+              "date": "2026-09-23T17:03:00Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/697"
+            },
+            {
+              "id": "topic_-1003709841202_698",
+              "subject_id": "medicine",
+              "module": "PrepLadder X - Cardiology (Dr. Deepak Marwah)",
+              "title": "9. Tricuspid Stenosis",
+              "filename": "9. Tricuspid Stenosis.mp4",
+              "file_size_bytes": 149626037,
+              "file_size_mb": 142.69,
+              "duration_seconds": 1185,
+              "duration_formatted": "19m 45s",
+              "chat_id": -1003709841202,
+              "message_id": 698,
+              "pearls": [
+                "High-yield clinical medicine pearls from Dr. Deepak Marwah on 9. Tricuspid Stenosis",
+                "Clinical signs, murmur maneuvers, and treatment algorithms"
+              ],
+              "date": "2026-09-23T17:04:52Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/698"
+            },
+            {
+              "id": "topic_-1003709841202_699",
+              "subject_id": "medicine",
+              "module": "PrepLadder X - Cardiology (Dr. Deepak Marwah)",
+              "title": "10. Tricuspid Regurgitation, Pulmonic Stenosis and Pulmonic",
+              "filename": "10. Tricuspid Regurgitation, Pulmonic Stenosis and Pulmonic.mp4",
+              "file_size_bytes": 331811439,
+              "file_size_mb": 316.44,
+              "duration_seconds": 3005,
+              "duration_formatted": "50m 5s",
+              "chat_id": -1003709841202,
+              "message_id": 699,
+              "pearls": [
+                "High-yield clinical medicine pearls from Dr. Deepak Marwah on 10. Tricuspid Regurgitation, Pulmonic Stenosis and Pulmonic",
+                "Clinical signs, murmur maneuvers, and treatment algorithms"
+              ],
+              "date": "2026-09-23T17:08:45Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/699"
+            },
+            {
+              "id": "topic_-1003709841202_700",
+              "subject_id": "medicine",
+              "module": "PrepLadder X - Cardiology (Dr. Deepak Marwah)",
+              "title": "11. Murmurs",
+              "filename": "11. Murmurs.mp4",
+              "file_size_bytes": 753667395,
+              "file_size_mb": 718.75,
+              "duration_seconds": 6583,
+              "duration_formatted": "1h 49m",
+              "chat_id": -1003709841202,
+              "message_id": 700,
+              "pearls": [
+                "High-yield clinical medicine pearls from Dr. Deepak Marwah on 11. Murmurs",
+                "Clinical signs, murmur maneuvers, and treatment algorithms"
+              ],
+              "date": "2026-09-23T17:17:46Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/700"
+            },
+            {
+              "id": "topic_-1003709841202_701",
+              "subject_id": "medicine",
+              "module": "PrepLadder X - Cardiology (Dr. Deepak Marwah)",
+              "title": "12. Takotsubo Cardiomyopathies and Brugada Syndrome",
+              "filename": "12. Takotsubo Cardiomyopathies and Brugada Syndrome.mp4",
+              "file_size_bytes": 280173339,
+              "file_size_mb": 267.19,
+              "duration_seconds": 2551,
+              "duration_formatted": "42m 31s",
+              "chat_id": -1003709841202,
+              "message_id": 701,
+              "pearls": [
+                "High-yield clinical medicine pearls from Dr. Deepak Marwah on 12. Takotsubo Cardiomyopathies and Brugada Syndrome",
+                "Clinical signs, murmur maneuvers, and treatment algorithms"
+              ],
+              "date": "2026-09-23T17:21:15Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/701"
+            },
+            {
+              "id": "topic_-1003709841202_702",
+              "subject_id": "medicine",
+              "module": "PrepLadder X - Cardiology (Dr. Deepak Marwah)",
+              "title": "13. ECG and Arrhythmias",
+              "filename": "13. ECG and Arrhythmias.mp4",
+              "file_size_bytes": 962717119,
+              "file_size_mb": 918.12,
+              "duration_seconds": 10334,
+              "duration_formatted": "2h 52m",
+              "chat_id": -1003709841202,
+              "message_id": 702,
+              "pearls": [
+                "High-yield clinical medicine pearls from Dr. Deepak Marwah on 13. ECG and Arrhythmias",
+                "Clinical signs, murmur maneuvers, and treatment algorithms"
+              ],
+              "date": "2026-09-23T17:40:47Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/702"
+            },
+            {
+              "id": "topic_-1003709841202_703",
+              "subject_id": "medicine",
+              "module": "PrepLadder X - Cardiology (Dr. Deepak Marwah)",
+              "title": "14. ECG Changes in Hypokalemia & Hyperkalemia",
+              "filename": "14. ECG Changes in Hypokalemia & Hyperkalemia.mp4",
+              "file_size_bytes": 206291718,
+              "file_size_mb": 196.74,
+              "duration_seconds": 2020,
+              "duration_formatted": "33m 40s",
+              "chat_id": -1003709841202,
+              "message_id": 703,
+              "pearls": [
+                "High-yield clinical medicine pearls from Dr. Deepak Marwah on 14. ECG Changes in Hypokalemia & Hyperkalemia",
+                "Clinical signs, murmur maneuvers, and treatment algorithms"
+              ],
+              "date": "2026-09-23T18:00:13Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/703"
+            },
+            {
+              "id": "topic_-1003709841202_704",
+              "subject_id": "medicine",
+              "module": "PrepLadder X - Cardiology (Dr. Deepak Marwah)",
+              "title": "15. Ischemic Heart Disease Part 1",
+              "filename": "15. Ischemic Heart Disease Part 1.mp4",
+              "file_size_bytes": 769466636,
+              "file_size_mb": 733.82,
+              "duration_seconds": 6701,
+              "duration_formatted": "1h 51m",
+              "chat_id": -1003709841202,
+              "message_id": 704,
+              "pearls": [
+                "High-yield clinical medicine pearls from Dr. Deepak Marwah on 15. Ischemic Heart Disease Part 1",
+                "Clinical signs, murmur maneuvers, and treatment algorithms"
+              ],
+              "date": "2026-09-23T18:10:34Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/704"
+            },
+            {
+              "id": "topic_-1003709841202_705",
+              "subject_id": "medicine",
+              "module": "PrepLadder X - Cardiology (Dr. Deepak Marwah)",
+              "title": "16. Ischemic Heart Disease Part 2",
+              "filename": "16. Ischemic Heart Disease Part 2.mp4",
+              "file_size_bytes": 769939849,
+              "file_size_mb": 734.27,
+              "duration_seconds": 6852,
+              "duration_formatted": "1h 54m",
+              "chat_id": -1003709841202,
+              "message_id": 705,
+              "pearls": [
+                "High-yield clinical medicine pearls from Dr. Deepak Marwah on 16. Ischemic Heart Disease Part 2",
+                "Clinical signs, murmur maneuvers, and treatment algorithms"
+              ],
+              "date": "2026-09-23T18:19:30Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/705"
+            },
+            {
+              "id": "topic_-1003709841202_706",
+              "subject_id": "medicine",
+              "module": "PrepLadder X - Cardiology (Dr. Deepak Marwah)",
+              "title": "17. Symptomatic Bradycardia with a Pulse",
+              "filename": "17. Symptomatic Bradycardia with a Pulse.mp4",
+              "file_size_bytes": 275626507,
+              "file_size_mb": 262.86,
+              "duration_seconds": 2668,
+              "duration_formatted": "44m 28s",
+              "chat_id": -1003709841202,
+              "message_id": 706,
+              "pearls": [
+                "High-yield clinical medicine pearls from Dr. Deepak Marwah on 17. Symptomatic Bradycardia with a Pulse",
+                "Clinical signs, murmur maneuvers, and treatment algorithms"
+              ],
+              "date": "2026-09-23T18:22:42Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/706"
+            },
+            {
+              "id": "topic_-1003709841202_707",
+              "subject_id": "medicine",
+              "module": "PrepLadder X - Cardiology (Dr. Deepak Marwah)",
+              "title": "18. Congenital Heart Disease",
+              "filename": "18. Congenital Heart Disease.mp4",
+              "file_size_bytes": 560999825,
+              "file_size_mb": 535.01,
+              "duration_seconds": 5992,
+              "duration_formatted": "1h 39m",
+              "chat_id": -1003709841202,
+              "message_id": 707,
+              "pearls": [
+                "High-yield clinical medicine pearls from Dr. Deepak Marwah on 18. Congenital Heart Disease",
+                "Clinical signs, murmur maneuvers, and treatment algorithms"
+              ],
+              "date": "2026-09-23T18:29:03Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/707"
+            },
+            {
+              "id": "topic_-1003709841202_708",
+              "subject_id": "medicine",
+              "module": "PrepLadder X - Cardiology (Dr. Deepak Marwah)",
+              "title": "19. Metabolic-Syndrome-X and Syndrome-Z",
+              "filename": "19. Metabolic-Syndrome-X and Syndrome-Z.mp4",
+              "file_size_bytes": 160907094,
+              "file_size_mb": 153.45,
+              "duration_seconds": 1529,
+              "duration_formatted": "25m 29s",
+              "chat_id": -1003709841202,
+              "message_id": 708,
+              "pearls": [
+                "High-yield clinical medicine pearls from Dr. Deepak Marwah on 19. Metabolic-Syndrome-X and Syndrome-Z",
+                "Clinical signs, murmur maneuvers, and treatment algorithms"
+              ],
+              "date": "2026-09-23T18:31:23Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/708"
+            },
+            {
+              "id": "topic_-1003709841202_709",
+              "subject_id": "medicine",
+              "module": "PrepLadder X - Cardiology (Dr. Deepak Marwah)",
+              "title": "20. Hypertension",
+              "filename": "20. Hypertension.mp4",
+              "file_size_bytes": 617478830,
+              "file_size_mb": 588.87,
+              "duration_seconds": 6065,
+              "duration_formatted": "1h 41m",
+              "chat_id": -1003709841202,
+              "message_id": 709,
+              "pearls": [
+                "High-yield clinical medicine pearls from Dr. Deepak Marwah on 20. Hypertension",
+                "Clinical signs, murmur maneuvers, and treatment algorithms"
+              ],
+              "date": "2026-09-23T18:38:17Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/709"
+            },
+            {
+              "id": "topic_-1003709841202_710",
+              "subject_id": "medicine",
+              "module": "PrepLadder X - Cardiology (Dr. Deepak Marwah)",
+              "title": "21. Diseases of Pericardium",
+              "filename": "21. Diseases of Pericardium.mp4",
+              "file_size_bytes": 559925093,
+              "file_size_mb": 533.99,
+              "duration_seconds": 4756,
+              "duration_formatted": "1h 19m",
+              "chat_id": -1003709841202,
+              "message_id": 710,
+              "pearls": [
+                "High-yield clinical medicine pearls from Dr. Deepak Marwah on 21. Diseases of Pericardium",
+                "Clinical signs, murmur maneuvers, and treatment algorithms"
+              ],
+              "date": "2026-09-23T18:44:33Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/710"
+            },
+            {
+              "id": "topic_-1003709841202_711",
+              "subject_id": "medicine",
+              "module": "PrepLadder X - Cardiology (Dr. Deepak Marwah)",
+              "title": "22. Congestive Heart Failure",
+              "filename": "22. Congestive Heart Failure.mp4",
+              "file_size_bytes": 547594815,
+              "file_size_mb": 522.23,
+              "duration_seconds": 5456,
+              "duration_formatted": "1h 30m",
+              "chat_id": -1003709841202,
+              "message_id": 711,
+              "pearls": [
+                "High-yield clinical medicine pearls from Dr. Deepak Marwah on 22. Congestive Heart Failure",
+                "Clinical signs, murmur maneuvers, and treatment algorithms"
+              ],
+              "date": "2026-09-23T18:52:36Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/711"
+            },
+            {
+              "id": "topic_-1003709841202_712",
+              "subject_id": "medicine",
+              "module": "PrepLadder X - Cardiology (Dr. Deepak Marwah)",
+              "title": "23. Bundle Branch Block",
+              "filename": "23. Bundle Branch Block.mp4",
+              "file_size_bytes": 186359096,
+              "file_size_mb": 177.73,
+              "duration_seconds": 1357,
+              "duration_formatted": "22m 37s",
+              "chat_id": -1003709841202,
+              "message_id": 712,
+              "pearls": [
+                "High-yield clinical medicine pearls from Dr. Deepak Marwah on 23. Bundle Branch Block",
+                "Clinical signs, murmur maneuvers, and treatment algorithms"
+              ],
+              "date": "2026-09-23T18:55:10Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/712"
+            },
+            {
+              "id": "topic_-1003709841202_713",
+              "subject_id": "medicine",
+              "module": "PrepLadder X - Cardiology (Dr. Deepak Marwah)",
+              "title": "24. Rheumatic Heart Disease",
+              "filename": "24. Rheumatic Heart Disease.mp4",
+              "file_size_bytes": 346582077,
+              "file_size_mb": 330.53,
+              "duration_seconds": 4081,
+              "duration_formatted": "1h 8m",
+              "chat_id": -1003709841202,
+              "message_id": 713,
+              "pearls": [
+                "High-yield clinical medicine pearls from Dr. Deepak Marwah on 24. Rheumatic Heart Disease",
+                "Clinical signs, murmur maneuvers, and treatment algorithms"
+              ],
+              "date": "2026-09-23T18:59:16Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/713"
+            },
+            {
+              "id": "topic_-1003709841202_714",
+              "subject_id": "medicine",
+              "module": "PrepLadder X - Cardiology (Dr. Deepak Marwah)",
+              "title": "25. Infective Endocarditis",
+              "filename": "25. Infective Endocarditis.mp4",
+              "file_size_bytes": 389350489,
+              "file_size_mb": 371.31,
+              "duration_seconds": 4555,
+              "duration_formatted": "1h 15m",
+              "chat_id": -1003709841202,
+              "message_id": 714,
+              "pearls": [
+                "High-yield clinical medicine pearls from Dr. Deepak Marwah on 25. Infective Endocarditis",
+                "Clinical signs, murmur maneuvers, and treatment algorithms"
+              ],
+              "date": "2026-09-23T19:03:48Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/714"
+            },
+            {
+              "id": "topic_-1003709841202_715",
+              "subject_id": "medicine",
+              "module": "PrepLadder X - Cardiology (Dr. Deepak Marwah)",
+              "title": "26. Cardiomyopathy",
+              "filename": "26. Cardiomyopathy.mp4",
+              "file_size_bytes": 554587733,
+              "file_size_mb": 528.9,
+              "duration_seconds": 5753,
+              "duration_formatted": "1h 35m",
+              "chat_id": -1003709841202,
+              "message_id": 715,
+              "pearls": [
+                "High-yield clinical medicine pearls from Dr. Deepak Marwah on 26. Cardiomyopathy",
+                "Clinical signs, murmur maneuvers, and treatment algorithms"
+              ],
+              "date": "2026-09-23T19:13:27Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/715"
+            },
+            {
+              "id": "topic_-1003709841202_716",
+              "subject_id": "medicine",
+              "module": "PrepLadder X - Cardiology (Dr. Deepak Marwah)",
+              "title": "27. Multifocal Atrial Tachycardia",
+              "filename": "27. Multifocal Atrial Tachycardia.mp4",
+              "file_size_bytes": 96850482,
+              "file_size_mb": 92.36,
+              "duration_seconds": 896,
+              "duration_formatted": "14m 56s",
+              "chat_id": -1003709841202,
+              "message_id": 716,
+              "pearls": [
+                "High-yield clinical medicine pearls from Dr. Deepak Marwah on 27. Multifocal Atrial Tachycardia",
+                "Clinical signs, murmur maneuvers, and treatment algorithms"
+              ],
+              "date": "2026-09-23T19:31:54Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/716"
+            },
+            {
+              "id": "topic_-1003709841202_717",
+              "subject_id": "medicine",
+              "module": "PrepLadder X - Cardiology (Dr. Deepak Marwah)",
+              "title": "28. Cardiology Image Based Question",
+              "filename": "28. Cardiology Image Based Question.mp4",
+              "file_size_bytes": 584233074,
+              "file_size_mb": 557.17,
+              "duration_seconds": 4294,
+              "duration_formatted": "1h 11m",
+              "chat_id": -1003709841202,
+              "message_id": 717,
+              "pearls": [
+                "High-yield clinical medicine pearls from Dr. Deepak Marwah on 28. Cardiology Image Based Question",
+                "Clinical signs, murmur maneuvers, and treatment algorithms"
+              ],
+              "date": "2026-09-23T19:51:13Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/717"
+            },
+            {
+              "id": "topic_-1003709841202_718",
+              "subject_id": "medicine",
+              "module": "PrepLadder X - Cardiology (Dr. Deepak Marwah)",
+              "title": "29. Basic Life Support",
+              "filename": "29. Basic Life Support.mp4",
+              "file_size_bytes": 181757047,
+              "file_size_mb": 173.34,
+              "duration_seconds": 1846,
+              "duration_formatted": "30m 46s",
+              "chat_id": -1003709841202,
+              "message_id": 718,
+              "pearls": [
+                "High-yield clinical medicine pearls from Dr. Deepak Marwah on 29. Basic Life Support",
+                "Clinical signs, murmur maneuvers, and treatment algorithms"
+              ],
+              "date": "2026-09-23T22:36:22Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/718"
+            },
+            {
+              "id": "topic_-1003709841202_719",
+              "subject_id": "medicine",
+              "module": "PrepLadder X - Cardiology (Dr. Deepak Marwah)",
+              "title": "30. Pulseless Electrical Activity",
+              "filename": "30. Pulseless Electrical Activity.mp4",
+              "file_size_bytes": 110517850,
+              "file_size_mb": 105.4,
+              "duration_seconds": 1208,
+              "duration_formatted": "20m 8s",
+              "chat_id": -1003709841202,
+              "message_id": 719,
+              "pearls": [
+                "High-yield clinical medicine pearls from Dr. Deepak Marwah on 30. Pulseless Electrical Activity",
+                "Clinical signs, murmur maneuvers, and treatment algorithms"
+              ],
+              "date": "2026-09-23T22:37:03Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/719"
+            },
+            {
+              "id": "topic_-1003709841202_720",
+              "subject_id": "medicine",
+              "module": "PrepLadder X - Cardiology (Dr. Deepak Marwah)",
+              "title": "31. Advanced Cardiac Life Support",
+              "filename": "31. Advanced Cardiac Life Support.mp4",
+              "file_size_bytes": 230558586,
+              "file_size_mb": 219.88,
+              "duration_seconds": 2734,
+              "duration_formatted": "45m 34s",
+              "chat_id": -1003709841202,
+              "message_id": 720,
+              "pearls": [
+                "High-yield clinical medicine pearls from Dr. Deepak Marwah on 31. Advanced Cardiac Life Support",
+                "Clinical signs, murmur maneuvers, and treatment algorithms"
+              ],
+              "date": "2026-09-23T22:38:23Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/720"
+            },
+            {
+              "id": "topic_-1003709841202_721",
+              "subject_id": "medicine",
+              "module": "PrepLadder X - Cardiology (Dr. Deepak Marwah)",
+              "title": "32. Mechanical Ventilation",
+              "filename": "32. Mechanical Ventilation.mp4",
+              "file_size_bytes": 277149801,
+              "file_size_mb": 264.31,
+              "duration_seconds": 2106,
+              "duration_formatted": "35m 6s",
+              "chat_id": -1003709841202,
+              "message_id": 721,
+              "pearls": [
+                "High-yield clinical medicine pearls from Dr. Deepak Marwah on 32. Mechanical Ventilation",
+                "Clinical signs, murmur maneuvers, and treatment algorithms"
+              ],
+              "date": "2026-09-23T22:40:03Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/721"
+            },
+            {
+              "id": "topic_-1003709841202_722",
+              "subject_id": "medicine",
+              "module": "PrepLadder X - Cardiology (Dr. Deepak Marwah)",
+              "title": "33. Massive Transfusion Protocol",
+              "filename": "33. Massive Transfusion Protocol.mp4",
+              "file_size_bytes": 137585608,
+              "file_size_mb": 131.21,
+              "duration_seconds": 1294,
+              "duration_formatted": "21m 34s",
+              "chat_id": -1003709841202,
+              "message_id": 722,
+              "pearls": [
+                "High-yield clinical medicine pearls from Dr. Deepak Marwah on 33. Massive Transfusion Protocol",
+                "Clinical signs, murmur maneuvers, and treatment algorithms"
+              ],
+              "date": "2026-09-23T22:40:52Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/722"
+            },
+            {
+              "id": "topic_-1003709841202_723",
+              "subject_id": "medicine",
+              "module": "PrepLadder X - Cardiology (Dr. Deepak Marwah)",
+              "title": "34. ARDS",
+              "filename": "34. ARDS.mp4",
+              "file_size_bytes": 244838413,
+              "file_size_mb": 233.5,
+              "duration_seconds": 2863,
+              "duration_formatted": "47m 43s",
+              "chat_id": -1003709841202,
+              "message_id": 723,
+              "pearls": [
+                "High-yield clinical medicine pearls from Dr. Deepak Marwah on 34. ARDS",
+                "Clinical signs, murmur maneuvers, and treatment algorithms"
+              ],
+              "date": "2026-09-23T22:42:14Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/723"
+            },
+            {
+              "id": "topic_-1003709841202_724",
+              "subject_id": "medicine",
+              "module": "PrepLadder X - Cardiology (Dr. Deepak Marwah)",
+              "title": "35. Snake Bite",
+              "filename": "35. Snake Bite.mp4",
+              "file_size_bytes": 196272021,
+              "file_size_mb": 187.18,
+              "duration_seconds": 1981,
+              "duration_formatted": "33m 1s",
+              "chat_id": -1003709841202,
+              "message_id": 724,
+              "pearls": [
+                "High-yield clinical medicine pearls from Dr. Deepak Marwah on 35. Snake Bite",
+                "Clinical signs, murmur maneuvers, and treatment algorithms"
+              ],
+              "date": "2026-09-23T22:43:25Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/724"
+            },
+            {
+              "id": "topic_-1003709841202_725",
+              "subject_id": "medicine",
+              "module": "PrepLadder X - Cardiology (Dr. Deepak Marwah)",
+              "title": "36. High Altitude Pulmonary Edema and Hypothermia",
+              "filename": "36. High Altitude Pulmonary Edema and Hypothermia.mp4",
+              "file_size_bytes": 209706222,
+              "file_size_mb": 199.99,
+              "duration_seconds": 2356,
+              "duration_formatted": "39m 16s",
+              "chat_id": -1003709841202,
+              "message_id": 725,
+              "pearls": [
+                "High-yield clinical medicine pearls from Dr. Deepak Marwah on 36. High Altitude Pulmonary Edema and Hypothermia",
+                "Clinical signs, murmur maneuvers, and treatment algorithms"
+              ],
+              "date": "2026-09-23T22:44:43Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/725"
+            },
+            {
+              "id": "topic_-1003709841202_726",
+              "subject_id": "medicine",
+              "module": "PrepLadder X - Cardiology (Dr. Deepak Marwah)",
+              "title": "37. Diabetes Mellitus Part 1",
+              "filename": "37. Diabetes Mellitus Part 1.mp4",
+              "file_size_bytes": 386429234,
+              "file_size_mb": 368.53,
+              "duration_seconds": 5238,
+              "duration_formatted": "1h 27m",
+              "chat_id": -1003709841202,
+              "message_id": 726,
+              "pearls": [
+                "High-yield clinical medicine pearls from Dr. Deepak Marwah on 37. Diabetes Mellitus Part 1",
+                "Clinical signs, murmur maneuvers, and treatment algorithms"
+              ],
+              "date": "2026-09-23T22:47:04Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/726"
+            },
+            {
+              "id": "topic_-1003709841202_727",
+              "subject_id": "medicine",
+              "module": "PrepLadder X - Cardiology (Dr. Deepak Marwah)",
+              "title": "38. Diabetes Mellitus Part 2",
+              "filename": "38. Diabetes Mellitus Part 2.mp4",
+              "file_size_bytes": 755002848,
+              "file_size_mb": 720.03,
+              "duration_seconds": 7213,
+              "duration_formatted": "2h 0m",
+              "chat_id": -1003709841202,
+              "message_id": 727,
+              "pearls": [
+                "High-yield clinical medicine pearls from Dr. Deepak Marwah on 38. Diabetes Mellitus Part 2",
+                "Clinical signs, murmur maneuvers, and treatment algorithms"
+              ],
+              "date": "2026-09-23T22:51:17Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/727"
+            },
+            {
+              "id": "topic_-1003709841202_728",
+              "subject_id": "medicine",
+              "module": "PrepLadder X - Cardiology (Dr. Deepak Marwah)",
+              "title": "39. Diabetic Ketoacidosis and Hyperosmolar Coma",
+              "filename": "39. Diabetic Ketoacidosis and Hyperosmolar Coma.mp4",
+              "file_size_bytes": 425790791,
+              "file_size_mb": 406.07,
+              "duration_seconds": 4340,
+              "duration_formatted": "1h 12m",
+              "chat_id": -1003709841202,
+              "message_id": 728,
+              "pearls": [
+                "High-yield clinical medicine pearls from Dr. Deepak Marwah on 39. Diabetic Ketoacidosis and Hyperosmolar Coma",
+                "Clinical signs, murmur maneuvers, and treatment algorithms"
+              ],
+              "date": "2026-09-23T22:53:45Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/728"
+            },
+            {
+              "id": "topic_-1003709841202_729",
+              "subject_id": "medicine",
+              "module": "PrepLadder X - Cardiology (Dr. Deepak Marwah)",
+              "title": "40. Diseases of Adrenal Gland",
+              "filename": "40. Diseases of Adrenal Gland.mp4",
+              "file_size_bytes": 1002385343,
+              "file_size_mb": 955.95,
+              "duration_seconds": 7490,
+              "duration_formatted": "2h 4m",
+              "chat_id": -1003709841202,
+              "message_id": 729,
+              "pearls": [
+                "High-yield clinical medicine pearls from Dr. Deepak Marwah on 40. Diseases of Adrenal Gland",
+                "Clinical signs, murmur maneuvers, and treatment algorithms"
+              ],
+              "date": "2026-09-23T22:59:23Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/729"
+            },
+            {
+              "id": "topic_-1003709841202_730",
+              "subject_id": "medicine",
+              "module": "PrepLadder X - Cardiology (Dr. Deepak Marwah)",
+              "title": "41. Cushing Syndrome",
+              "filename": "41. Cushing Syndrome.mp4",
+              "file_size_bytes": 292637007,
+              "file_size_mb": 279.08,
+              "duration_seconds": 2996,
+              "duration_formatted": "49m 56s",
+              "chat_id": -1003709841202,
+              "message_id": 730,
+              "pearls": [
+                "High-yield clinical medicine pearls from Dr. Deepak Marwah on 41. Cushing Syndrome",
+                "Clinical signs, murmur maneuvers, and treatment algorithms"
+              ],
+              "date": "2026-09-23T23:01:13Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/730"
+            },
+            {
+              "id": "topic_-1003709841202_731",
+              "subject_id": "medicine",
+              "module": "PrepLadder X - Cardiology (Dr. Deepak Marwah)",
+              "title": "42. Diseases of Thyroid",
+              "filename": "42. Diseases of Thyroid.mp4",
+              "file_size_bytes": 556000445,
+              "file_size_mb": 530.24,
+              "duration_seconds": 7149,
+              "duration_formatted": "1h 59m",
+              "chat_id": -1003709841202,
+              "message_id": 731,
+              "pearls": [
+                "High-yield clinical medicine pearls from Dr. Deepak Marwah on 42. Diseases of Thyroid",
+                "Clinical signs, murmur maneuvers, and treatment algorithms"
+              ],
+              "date": "2026-09-23T23:04:30Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/731"
+            },
+            {
+              "id": "topic_-1003709841202_732",
+              "subject_id": "medicine",
+              "module": "PrepLadder X - Cardiology (Dr. Deepak Marwah)",
+              "title": "43. Pancreatic Neuroendocrine Tumors",
+              "filename": "43. Pancreatic Neuroendocrine Tumors.mp4",
+              "file_size_bytes": 271476628,
+              "file_size_mb": 258.9,
+              "duration_seconds": 3078,
+              "duration_formatted": "51m 18s",
+              "chat_id": -1003709841202,
+              "message_id": 732,
+              "pearls": [
+                "High-yield clinical medicine pearls from Dr. Deepak Marwah on 43. Pancreatic Neuroendocrine Tumors",
+                "Clinical signs, murmur maneuvers, and treatment algorithms"
+              ],
+              "date": "2026-09-23T23:06:10Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/732"
+            },
+            {
+              "id": "topic_-1003709841202_733",
+              "subject_id": "medicine",
+              "module": "PrepLadder X - Cardiology (Dr. Deepak Marwah)",
+              "title": "44. Disorders of Parathyroid Gland",
+              "filename": "44. Disorders of Parathyroid Gland.mp4",
+              "file_size_bytes": 425680428,
+              "file_size_mb": 405.96,
+              "duration_seconds": 5297,
+              "duration_formatted": "1h 28m",
+              "chat_id": -1003709841202,
+              "message_id": 733,
+              "pearls": [
+                "High-yield clinical medicine pearls from Dr. Deepak Marwah on 44. Disorders of Parathyroid Gland",
+                "Clinical signs, murmur maneuvers, and treatment algorithms"
+              ],
+              "date": "2026-09-23T23:08:38Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/733"
+            },
+            {
+              "id": "topic_-1003709841202_734",
+              "subject_id": "medicine",
+              "module": "PrepLadder X - Cardiology (Dr. Deepak Marwah)",
+              "title": "45. Multiple Endocrine Neoplasia",
+              "filename": "45. Multiple Endocrine Neoplasia.mp4",
+              "file_size_bytes": 137360606,
+              "file_size_mb": 131,
+              "duration_seconds": 1797,
+              "duration_formatted": "29m 57s",
+              "chat_id": -1003709841202,
+              "message_id": 734,
+              "pearls": [
+                "High-yield clinical medicine pearls from Dr. Deepak Marwah on 45. Multiple Endocrine Neoplasia",
+                "Clinical signs, murmur maneuvers, and treatment algorithms"
+              ],
+              "date": "2026-09-23T23:09:30Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/734"
+            },
+            {
+              "id": "topic_-1003709841202_735",
+              "subject_id": "medicine",
+              "module": "PrepLadder X - Cardiology (Dr. Deepak Marwah)",
+              "title": "46. Diseases of Anterior Pituitary",
+              "filename": "46. Diseases of Anterior Pituitary.mp4",
+              "file_size_bytes": 361636205,
+              "file_size_mb": 344.88,
+              "duration_seconds": 3284,
+              "duration_formatted": "54m 44s",
+              "chat_id": -1003709841202,
+              "message_id": 735,
+              "pearls": [
+                "High-yield clinical medicine pearls from Dr. Deepak Marwah on 46. Diseases of Anterior Pituitary",
+                "Clinical signs, murmur maneuvers, and treatment algorithms"
+              ],
+              "date": "2026-09-23T23:11:37Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/735"
+            },
+            {
+              "id": "topic_-1003709841202_736",
+              "subject_id": "medicine",
+              "module": "PrepLadder X - Cardiology (Dr. Deepak Marwah)",
+              "title": "47. Endocrinology Image Based Questions",
+              "filename": "47. Endocrinology Image Based Questions.mp4",
+              "file_size_bytes": 83587881,
+              "file_size_mb": 79.72,
+              "duration_seconds": 603,
+              "duration_formatted": "10m 3s",
+              "chat_id": -1003709841202,
+              "message_id": 736,
+              "pearls": [
+                "High-yield clinical medicine pearls from Dr. Deepak Marwah on 47. Endocrinology Image Based Questions",
+                "Clinical signs, murmur maneuvers, and treatment algorithms"
+              ],
+              "date": "2026-09-23T23:12:05Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/736"
+            },
+            {
+              "id": "topic_-1003709841202_737",
+              "subject_id": "medicine",
+              "module": "PrepLadder X - Cardiology (Dr. Deepak Marwah)",
+              "title": "48. Electrolyte Imbalances",
+              "filename": "48. Electrolyte Imbalances.mp4",
+              "file_size_bytes": 426913446,
+              "file_size_mb": 407.14,
+              "duration_seconds": 5507,
+              "duration_formatted": "1h 31m",
+              "chat_id": -1003709841202,
+              "message_id": 737,
+              "pearls": [
+                "High-yield clinical medicine pearls from Dr. Deepak Marwah on 48. Electrolyte Imbalances",
+                "Clinical signs, murmur maneuvers, and treatment algorithms"
+              ],
+              "date": "2026-09-23T23:14:32Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/737"
+            },
+            {
+              "id": "topic_-1003709841202_738",
+              "subject_id": "medicine",
+              "module": "PrepLadder X - Cardiology (Dr. Deepak Marwah)",
+              "title": "49. Bartter Syndrome, Gitelman Syndrome, Liddle Syndrome an",
+              "filename": "49. Bartter Syndrome, Gitelman Syndrome, Liddle Syndrome an.mp4",
+              "file_size_bytes": 298313779,
+              "file_size_mb": 284.49,
+              "duration_seconds": 3576,
+              "duration_formatted": "59m 36s",
+              "chat_id": -1003709841202,
+              "message_id": 738,
+              "pearls": [
+                "High-yield clinical medicine pearls from Dr. Deepak Marwah on 49. Bartter Syndrome, Gitelman Syndrome, Liddle Syndrome an",
+                "Clinical signs, murmur maneuvers, and treatment algorithms"
+              ],
+              "date": "2026-09-23T23:16:11Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/738"
+            },
+            {
+              "id": "topic_-1003709841202_739",
+              "subject_id": "medicine",
+              "module": "PrepLadder X - Cardiology (Dr. Deepak Marwah)",
+              "title": "50. Ciliopathies",
+              "filename": "50. Ciliopathies.mp4",
+              "file_size_bytes": 90600754,
+              "file_size_mb": 86.4,
+              "duration_seconds": 1260,
+              "duration_formatted": "21m",
+              "chat_id": -1003709841202,
+              "message_id": 739,
+              "pearls": [
+                "High-yield clinical medicine pearls from Dr. Deepak Marwah on 50. Ciliopathies",
+                "Clinical signs, murmur maneuvers, and treatment algorithms"
+              ],
+              "date": "2026-09-23T23:16:44Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/739"
+            },
+            {
+              "id": "topic_-1003709841202_740",
+              "subject_id": "medicine",
+              "module": "PrepLadder X - Cardiology (Dr. Deepak Marwah)",
+              "title": "51. Polycystic Kidney Disease",
+              "filename": "51. Polycystic Kidney Disease.mp4",
+              "file_size_bytes": 143664818,
+              "file_size_mb": 137.01,
+              "duration_seconds": 1544,
+              "duration_formatted": "25m 44s",
+              "chat_id": -1003709841202,
+              "message_id": 740,
+              "pearls": [
+                "High-yield clinical medicine pearls from Dr. Deepak Marwah on 51. Polycystic Kidney Disease",
+                "Clinical signs, murmur maneuvers, and treatment algorithms"
+              ],
+              "date": "2026-09-23T23:17:33Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/740"
+            },
+            {
+              "id": "topic_-1003709841202_741",
+              "subject_id": "medicine",
+              "module": "PrepLadder X - Cardiology (Dr. Deepak Marwah)",
+              "title": "52. Thrombotic Thrombocytopenic Purpura",
+              "filename": "52. Thrombotic Thrombocytopenic Purpura.mp4",
+              "file_size_bytes": 89114884,
+              "file_size_mb": 84.99,
+              "duration_seconds": 1152,
+              "duration_formatted": "19m 12s",
+              "chat_id": -1003709841202,
+              "message_id": 741,
+              "pearls": [
+                "High-yield clinical medicine pearls from Dr. Deepak Marwah on 52. Thrombotic Thrombocytopenic Purpura",
+                "Clinical signs, murmur maneuvers, and treatment algorithms"
+              ],
+              "date": "2026-09-23T23:18:05Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/741"
+            },
+            {
+              "id": "topic_-1003709841202_742",
+              "subject_id": "medicine",
+              "module": "PrepLadder X - Cardiology (Dr. Deepak Marwah)",
+              "title": "53. Kidney Urine analysis",
+              "filename": "53. Kidney Urine analysis.mp4",
+              "file_size_bytes": 221974052,
+              "file_size_mb": 211.69,
+              "duration_seconds": 2572,
+              "duration_formatted": "42m 52s",
+              "chat_id": -1003709841202,
+              "message_id": 742,
+              "pearls": [
+                "High-yield clinical medicine pearls from Dr. Deepak Marwah on 53. Kidney Urine analysis",
+                "Clinical signs, murmur maneuvers, and treatment algorithms"
+              ],
+              "date": "2026-09-23T23:19:19Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/742"
+            },
+            {
+              "id": "topic_-1003709841202_743",
+              "subject_id": "medicine",
+              "module": "PrepLadder X - Cardiology (Dr. Deepak Marwah)",
+              "title": "54. Acute Kidney Injury",
+              "filename": "54. Acute Kidney Injury.mp4",
+              "file_size_bytes": 597473381,
+              "file_size_mb": 569.8,
+              "duration_seconds": 5236,
+              "duration_formatted": "1h 27m",
+              "chat_id": -1003709841202,
+              "message_id": 743,
+              "pearls": [
+                "High-yield clinical medicine pearls from Dr. Deepak Marwah on 54. Acute Kidney Injury",
+                "Clinical signs, murmur maneuvers, and treatment algorithms"
+              ],
+              "date": "2026-09-24T02:28:53Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/743"
+            },
+            {
+              "id": "topic_-1003709841202_744",
+              "subject_id": "medicine",
+              "module": "PrepLadder X - Cardiology (Dr. Deepak Marwah)",
+              "title": "55. Chronic Kidney Disease",
+              "filename": "55. Chronic Kidney Disease.mp4",
+              "file_size_bytes": 324838718,
+              "file_size_mb": 309.79,
+              "duration_seconds": 4175,
+              "duration_formatted": "1h 9m",
+              "chat_id": -1003709841202,
+              "message_id": 744,
+              "pearls": [
+                "High-yield clinical medicine pearls from Dr. Deepak Marwah on 55. Chronic Kidney Disease",
+                "Clinical signs, murmur maneuvers, and treatment algorithms"
+              ],
+              "date": "2026-09-24T02:31:24Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/744"
+            },
+            {
+              "id": "topic_-1003709841202_745",
+              "subject_id": "medicine",
+              "module": "PrepLadder X - Cardiology (Dr. Deepak Marwah)",
+              "title": "56. Kidney Stone",
+              "filename": "56. Kidney Stone.mp4",
+              "file_size_bytes": 155634698,
+              "file_size_mb": 148.42,
+              "duration_seconds": 1811,
+              "duration_formatted": "30m 11s",
+              "chat_id": -1003709841202,
+              "message_id": 745,
+              "pearls": [
+                "High-yield clinical medicine pearls from Dr. Deepak Marwah on 56. Kidney Stone",
+                "Clinical signs, murmur maneuvers, and treatment algorithms"
+              ],
+              "date": "2026-09-24T02:32:20Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/745"
+            },
+            {
+              "id": "topic_-1003709841202_746",
+              "subject_id": "medicine",
+              "module": "PrepLadder X - Cardiology (Dr. Deepak Marwah)",
+              "title": "57. Renal Tubular Acidosis",
+              "filename": "57. Renal Tubular Acidosis.mp4",
+              "file_size_bytes": 167345340,
+              "file_size_mb": 159.59,
+              "duration_seconds": 1658,
+              "duration_formatted": "27m 38s",
+              "chat_id": -1003709841202,
+              "message_id": 746,
+              "pearls": [
+                "High-yield clinical medicine pearls from Dr. Deepak Marwah on 57. Renal Tubular Acidosis",
+                "Clinical signs, murmur maneuvers, and treatment algorithms"
+              ],
+              "date": "2026-09-24T02:33:40Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/746"
+            },
+            {
+              "id": "topic_-1003709841202_747",
+              "subject_id": "medicine",
+              "module": "PrepLadder X - Cardiology (Dr. Deepak Marwah)",
+              "title": "58. Nephrotic and Nephritic Syndrome",
+              "filename": "58. Nephrotic and Nephritic Syndrome.mp4",
+              "file_size_bytes": 657170134,
+              "file_size_mb": 626.73,
+              "duration_seconds": 5364,
+              "duration_formatted": "1h 29m",
+              "chat_id": -1003709841202,
+              "message_id": 747,
+              "pearls": [
+                "High-yield clinical medicine pearls from Dr. Deepak Marwah on 58. Nephrotic and Nephritic Syndrome",
+                "Clinical signs, murmur maneuvers, and treatment algorithms"
+              ],
+              "date": "2026-09-24T02:37:44Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/747"
+            },
+            {
+              "id": "topic_-1003709841202_748",
+              "subject_id": "medicine",
+              "module": "PrepLadder X - Cardiology (Dr. Deepak Marwah)",
+              "title": "59. Nephrotic and Nephritic Syndrome",
+              "filename": "59. Nephrotic and Nephritic Syndrome.mp4",
+              "file_size_bytes": 657170134,
+              "file_size_mb": 626.73,
+              "duration_seconds": 5364,
+              "duration_formatted": "1h 29m",
+              "chat_id": -1003709841202,
+              "message_id": 748,
+              "pearls": [
+                "High-yield clinical medicine pearls from Dr. Deepak Marwah on 59. Nephrotic and Nephritic Syndrome",
+                "Clinical signs, murmur maneuvers, and treatment algorithms"
+              ],
+              "date": "2026-09-24T02:42:00Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/748"
+            },
+            {
+              "id": "topic_-1003709841202_749",
+              "subject_id": "medicine",
+              "module": "PrepLadder X - Cardiology (Dr. Deepak Marwah)",
+              "title": "60. GI Bleeding",
+              "filename": "60. GI Bleeding.mp4",
+              "file_size_bytes": 304919589,
+              "file_size_mb": 290.79,
+              "duration_seconds": 3101,
+              "duration_formatted": "51m 41s",
+              "chat_id": -1003709841202,
+              "message_id": 749,
+              "pearls": [
+                "High-yield clinical medicine pearls from Dr. Deepak Marwah on 60. GI Bleeding",
+                "Clinical signs, murmur maneuvers, and treatment algorithms"
+              ],
+              "date": "2026-09-24T02:44:02Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/749"
+            },
+            {
+              "id": "topic_-1003709841202_750",
+              "subject_id": "medicine",
+              "module": "PrepLadder X - Cardiology (Dr. Deepak Marwah)",
+              "title": "61. Peptic Ulcer Disease",
+              "filename": "61. Peptic Ulcer Disease.mp4",
+              "file_size_bytes": 224182169,
+              "file_size_mb": 213.8,
+              "duration_seconds": 2480,
+              "duration_formatted": "41m 20s",
+              "chat_id": -1003709841202,
+              "message_id": 750,
+              "pearls": [
+                "High-yield clinical medicine pearls from Dr. Deepak Marwah on 61. Peptic Ulcer Disease",
+                "Clinical signs, murmur maneuvers, and treatment algorithms"
+              ],
+              "date": "2026-09-24T02:45:38Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/750"
+            },
+            {
+              "id": "topic_-1003709841202_751",
+              "subject_id": "medicine",
+              "module": "PrepLadder X - Cardiology (Dr. Deepak Marwah)",
+              "title": "62. Zollinger Ellison Syndrome",
+              "filename": "62. Zollinger Ellison Syndrome.mp4",
+              "file_size_bytes": 79288886,
+              "file_size_mb": 75.62,
+              "duration_seconds": 1198,
+              "duration_formatted": "19m 58s",
+              "chat_id": -1003709841202,
+              "message_id": 751,
+              "pearls": [
+                "High-yield clinical medicine pearls from Dr. Deepak Marwah on 62. Zollinger Ellison Syndrome",
+                "Clinical signs, murmur maneuvers, and treatment algorithms"
+              ],
+              "date": "2026-09-24T02:46:08Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/751"
+            },
+            {
+              "id": "topic_-1003709841202_752",
+              "subject_id": "medicine",
+              "module": "PrepLadder X - Cardiology (Dr. Deepak Marwah)",
+              "title": "63. Malabsorption Syndrome",
+              "filename": "63. Malabsorption Syndrome.mp4",
+              "file_size_bytes": 416828344,
+              "file_size_mb": 397.52,
+              "duration_seconds": 3765,
+              "duration_formatted": "1h 2m",
+              "chat_id": -1003709841202,
+              "message_id": 752,
+              "pearls": [
+                "High-yield clinical medicine pearls from Dr. Deepak Marwah on 63. Malabsorption Syndrome",
+                "Clinical signs, murmur maneuvers, and treatment algorithms"
+              ],
+              "date": "2026-09-24T02:48:45Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/752"
+            },
+            {
+              "id": "topic_-1003709841202_753",
+              "subject_id": "medicine",
+              "module": "PrepLadder X - Cardiology (Dr. Deepak Marwah)",
+              "title": "64. Inflammatory Bowel Disease",
+              "filename": "64. Inflammatory Bowel Disease.mp4",
+              "file_size_bytes": 374166090,
+              "file_size_mb": 356.83,
+              "duration_seconds": 3459,
+              "duration_formatted": "57m 39s",
+              "chat_id": -1003709841202,
+              "message_id": 753,
+              "pearls": [
+                "High-yield clinical medicine pearls from Dr. Deepak Marwah on 64. Inflammatory Bowel Disease",
+                "Clinical signs, murmur maneuvers, and treatment algorithms"
+              ],
+              "date": "2026-09-24T02:53:18Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/753"
+            },
+            {
+              "id": "topic_-1003709841202_754",
+              "subject_id": "medicine",
+              "module": "PrepLadder X - Cardiology (Dr. Deepak Marwah)",
+              "title": "65. Irritable Bowel Syndrome",
+              "filename": "65. Irritable Bowel Syndrome.mp4",
+              "file_size_bytes": 94659192,
+              "file_size_mb": 90.27,
+              "duration_seconds": 1051,
+              "duration_formatted": "17m 31s",
+              "chat_id": -1003709841202,
+              "message_id": 754,
+              "pearls": [
+                "High-yield clinical medicine pearls from Dr. Deepak Marwah on 65. Irritable Bowel Syndrome",
+                "Clinical signs, murmur maneuvers, and treatment algorithms"
+              ],
+              "date": "2026-09-24T02:54:37Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/754"
+            },
+            {
+              "id": "topic_-1003709841202_755",
+              "subject_id": "medicine",
+              "module": "PrepLadder X - Cardiology (Dr. Deepak Marwah)",
+              "title": "66. Irritable Bowel Syndrome",
+              "filename": "66. Irritable Bowel Syndrome.mp4",
+              "file_size_bytes": 94659192,
+              "file_size_mb": 90.27,
+              "duration_seconds": 1051,
+              "duration_formatted": "17m 31s",
+              "chat_id": -1003709841202,
+              "message_id": 755,
+              "pearls": [
+                "High-yield clinical medicine pearls from Dr. Deepak Marwah on 66. Irritable Bowel Syndrome",
+                "Clinical signs, murmur maneuvers, and treatment algorithms"
+              ],
+              "date": "2026-09-24T02:55:54Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/755"
+            },
+            {
+              "id": "topic_-1003709841202_756",
+              "subject_id": "medicine",
+              "module": "PrepLadder X - Cardiology (Dr. Deepak Marwah)",
+              "title": "67. Chronic Lymphocytic Leukemia",
+              "filename": "67. Chronic Lymphocytic Leukemia.mp4",
+              "file_size_bytes": 127089970,
+              "file_size_mb": 121.2,
+              "duration_seconds": 1561,
+              "duration_formatted": "26m 1s",
+              "chat_id": -1003709841202,
+              "message_id": 756,
+              "pearls": [
+                "High-yield clinical medicine pearls from Dr. Deepak Marwah on 67. Chronic Lymphocytic Leukemia",
+                "Clinical signs, murmur maneuvers, and treatment algorithms"
+              ],
+              "date": "2026-09-24T02:57:39Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/756"
+            },
+            {
+              "id": "topic_-1003709841202_757",
+              "subject_id": "medicine",
+              "module": "PrepLadder X - Cardiology (Dr. Deepak Marwah)",
+              "title": "68. Chronic Myeloid Leukemia",
+              "filename": "68. Chronic Myeloid Leukemia.mp4",
+              "file_size_bytes": 184107453,
+              "file_size_mb": 175.58,
+              "duration_seconds": 1735,
+              "duration_formatted": "28m 55s",
+              "chat_id": -1003709841202,
+              "message_id": 757,
+              "pearls": [
+                "High-yield clinical medicine pearls from Dr. Deepak Marwah on 68. Chronic Myeloid Leukemia",
+                "Clinical signs, murmur maneuvers, and treatment algorithms"
+              ],
+              "date": "2026-09-24T03:00:08Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/757"
+            },
+            {
+              "id": "topic_-1003709841202_758",
+              "subject_id": "medicine",
+              "module": "PrepLadder X - Cardiology (Dr. Deepak Marwah)",
+              "title": "69. Acute Myeloid Leukemia",
+              "filename": "69. Acute Myeloid Leukemia.mp4",
+              "file_size_bytes": 198421859,
+              "file_size_mb": 189.23,
+              "duration_seconds": 1906,
+              "duration_formatted": "31m 46s",
+              "chat_id": -1003709841202,
+              "message_id": 758,
+              "pearls": [
+                "High-yield clinical medicine pearls from Dr. Deepak Marwah on 69. Acute Myeloid Leukemia",
+                "Clinical signs, murmur maneuvers, and treatment algorithms"
+              ],
+              "date": "2026-09-24T03:02:36Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/758"
+            },
+            {
+              "id": "topic_-1003709841202_759",
+              "subject_id": "medicine",
+              "module": "PrepLadder X - Cardiology (Dr. Deepak Marwah)",
+              "title": "70. Acute Lymphoblastic Leukemia",
+              "filename": "70. Acute Lymphoblastic Leukemia.mp4",
+              "file_size_bytes": 152453942,
+              "file_size_mb": 145.39,
+              "duration_seconds": 2159,
+              "duration_formatted": "35m 59s",
+              "chat_id": -1003709841202,
+              "message_id": 759,
+              "pearls": [
+                "High-yield clinical medicine pearls from Dr. Deepak Marwah on 70. Acute Lymphoblastic Leukemia",
+                "Clinical signs, murmur maneuvers, and treatment algorithms"
+              ],
+              "date": "2026-09-24T03:04:40Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/759"
+            },
+            {
+              "id": "topic_-1003709841202_760",
+              "subject_id": "medicine",
+              "module": "PrepLadder X - Cardiology (Dr. Deepak Marwah)",
+              "title": "71. Multiple Myeloma",
+              "filename": "71. Multiple Myeloma.mp4",
+              "file_size_bytes": 281421461,
+              "file_size_mb": 268.38,
+              "duration_seconds": 2659,
+              "duration_formatted": "44m 19s",
+              "chat_id": -1003709841202,
+              "message_id": 760,
+              "pearls": [
+                "High-yield clinical medicine pearls from Dr. Deepak Marwah on 71. Multiple Myeloma",
+                "Clinical signs, murmur maneuvers, and treatment algorithms"
+              ],
+              "date": "2026-09-24T03:08:10Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/760"
+            },
+            {
+              "id": "topic_-1003709841202_761",
+              "subject_id": "medicine",
+              "module": "PrepLadder X - Cardiology (Dr. Deepak Marwah)",
+              "title": "72. Blood Components",
+              "filename": "72. Blood Components.mp4",
+              "file_size_bytes": 88902485,
+              "file_size_mb": 84.78,
+              "duration_seconds": 1155,
+              "duration_formatted": "19m 15s",
+              "chat_id": -1003709841202,
+              "message_id": 761,
+              "pearls": [
+                "High-yield clinical medicine pearls from Dr. Deepak Marwah on 72. Blood Components",
+                "Clinical signs, murmur maneuvers, and treatment algorithms"
+              ],
+              "date": "2026-09-24T03:09:25Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/761"
+            },
+            {
+              "id": "topic_-1003709841202_762",
+              "subject_id": "medicine",
+              "module": "PrepLadder X - Cardiology (Dr. Deepak Marwah)",
+              "title": "73. Complications of Blood Transfusion",
+              "filename": "73. Complications of Blood Transfusion.mp4",
+              "file_size_bytes": 279583080,
+              "file_size_mb": 266.63,
+              "duration_seconds": 3751,
+              "duration_formatted": "1h 2m",
+              "chat_id": -1003709841202,
+              "message_id": 762,
+              "pearls": [
+                "High-yield clinical medicine pearls from Dr. Deepak Marwah on 73. Complications of Blood Transfusion",
+                "Clinical signs, murmur maneuvers, and treatment algorithms"
+              ],
+              "date": "2026-09-24T03:13:02Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/762"
+            },
+            {
+              "id": "topic_-1003709841202_763",
+              "subject_id": "medicine",
+              "module": "PrepLadder X - Cardiology (Dr. Deepak Marwah)",
+              "title": "74. Hodgkins and Non-Hodgkins Lymphoma",
+              "filename": "74. Hodgkins and Non-Hodgkins Lymphoma.mp4",
+              "file_size_bytes": 278288715,
+              "file_size_mb": 265.4,
+              "duration_seconds": 2919,
+              "duration_formatted": "48m 39s",
+              "chat_id": -1003709841202,
+              "message_id": 763,
+              "pearls": [
+                "High-yield clinical medicine pearls from Dr. Deepak Marwah on 74. Hodgkins and Non-Hodgkins Lymphoma",
+                "Clinical signs, murmur maneuvers, and treatment algorithms"
+              ],
+              "date": "2026-09-24T03:16:43Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/763"
+            },
+            {
+              "id": "topic_-1003709841202_764",
+              "subject_id": "medicine",
+              "module": "PrepLadder X - Cardiology (Dr. Deepak Marwah)",
+              "title": "75. Thalassemia",
+              "filename": "75. Thalassemia.mp4",
+              "file_size_bytes": 272788354,
+              "file_size_mb": 260.15,
+              "duration_seconds": 3576,
+              "duration_formatted": "59m 36s",
+              "chat_id": -1003709841202,
+              "message_id": 764,
+              "pearls": [
+                "High-yield clinical medicine pearls from Dr. Deepak Marwah on 75. Thalassemia",
+                "Clinical signs, murmur maneuvers, and treatment algorithms"
+              ],
+              "date": "2026-09-24T03:20:15Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/764"
+            },
+            {
+              "id": "topic_-1003709841202_765",
+              "subject_id": "medicine",
+              "module": "PrepLadder X - Cardiology (Dr. Deepak Marwah)",
+              "title": "76. Sickle Cell Disease, G-6PD Deficiency and Other Hemolyt",
+              "filename": "76. Sickle Cell Disease, G-6PD Deficiency and Other Hemolyt.mp4",
+              "file_size_bytes": 193934383,
+              "file_size_mb": 184.95,
+              "duration_seconds": 2617,
+              "duration_formatted": "43m 37s",
+              "chat_id": -1003709841202,
+              "message_id": 765,
+              "pearls": [
+                "High-yield clinical medicine pearls from Dr. Deepak Marwah on 76. Sickle Cell Disease, G-6PD Deficiency and Other Hemolyt",
+                "Clinical signs, murmur maneuvers, and treatment algorithms"
+              ],
+              "date": "2026-09-24T03:22:41Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/765"
+            },
+            {
+              "id": "topic_-1003709841202_766",
+              "subject_id": "medicine",
+              "module": "PrepLadder X - Cardiology (Dr. Deepak Marwah)",
+              "title": "77. Sideroblastic Anemia",
+              "filename": "77. Sideroblastic Anemia.mp4",
+              "file_size_bytes": 43684688,
+              "file_size_mb": 41.66,
+              "duration_seconds": 578,
+              "duration_formatted": "9m 38s",
+              "chat_id": -1003709841202,
+              "message_id": 766,
+              "pearls": [
+                "High-yield clinical medicine pearls from Dr. Deepak Marwah on 77. Sideroblastic Anemia",
+                "Clinical signs, murmur maneuvers, and treatment algorithms"
+              ],
+              "date": "2026-09-24T03:23:13Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/766"
+            },
+            {
+              "id": "topic_-1003709841202_767",
+              "subject_id": "medicine",
+              "module": "PrepLadder X - Cardiology (Dr. Deepak Marwah)",
+              "title": "78. Platelet Disorders",
+              "filename": "78. Platelet Disorders.mp4",
+              "file_size_bytes": 186035441,
+              "file_size_mb": 177.42,
+              "duration_seconds": 2542,
+              "duration_formatted": "42m 22s",
+              "chat_id": -1003709841202,
+              "message_id": 767,
+              "pearls": [
+                "High-yield clinical medicine pearls from Dr. Deepak Marwah on 78. Platelet Disorders",
+                "Clinical signs, murmur maneuvers, and treatment algorithms"
+              ],
+              "date": "2026-09-24T03:25:44Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/767"
+            }
+          ]
+        },
         {
           "id": "mod_medicine_1",
           "name": "Clinical Lectures & PYQs",
@@ -3688,7 +5296,7 @@
               "title": "Back of Thigh and Popliteal Fossa Hinglish.mp4 Uploaded",
               "filename": "Back of Thigh and Popliteal Fossa Hinglish.mp4 Uploaded .mp4",
               "file_size_bytes": 298841543,
-              "file_size_mb": 285.0,
+              "file_size_mb": 285,
               "duration_seconds": 1800,
               "duration_formatted": "30 mins",
               "chat_id": -1002175257682,
@@ -7789,7 +9397,7 @@
           "title": "ORTHOPAEDICS FMGE PYTs",
           "filename": "ORTHOPAEDICS_FMGE_PYTs.pdf",
           "file_size_bytes": 1045299,
-          "file_size_mb": 1.0,
+          "file_size_mb": 1,
           "chat_id": -1002723611303,
           "message_id": 8407,
           "date": "2026-08-14T12:07:54+00:00"

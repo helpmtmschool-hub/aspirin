@@ -1,12 +1,9 @@
--- Yui LMS Cloudflare D1 Relational Database Schema
+-- Drop user-state tables to allow clean schema migration
 DROP TABLE IF EXISTS user_notes;
+DROP TABLE IF EXISTS user_active_sessions;
 DROP TABLE IF EXISTS user_progress;
-DROP TABLE IF EXISTS notes;
-DROP TABLE IF EXISTS topics;
-DROP TABLE IF EXISTS modules;
-DROP TABLE IF EXISTS subjects;
 
-CREATE TABLE subjects (
+CREATE TABLE IF NOT EXISTS subjects (
     id TEXT PRIMARY KEY,
     name TEXT NOT NULL,
     code TEXT NOT NULL,
@@ -17,7 +14,7 @@ CREATE TABLE subjects (
     display_order INTEGER NOT NULL
 );
 
-CREATE TABLE modules (
+CREATE TABLE IF NOT EXISTS modules (
     id TEXT PRIMARY KEY,
     subject_id TEXT NOT NULL,
     title TEXT NOT NULL,
@@ -25,7 +22,7 @@ CREATE TABLE modules (
     FOREIGN KEY(subject_id) REFERENCES subjects(id)
 );
 
-CREATE TABLE topics (
+CREATE TABLE IF NOT EXISTS topics (
     id TEXT PRIMARY KEY,
     subject_id TEXT NOT NULL,
     module_id TEXT NOT NULL,
@@ -42,7 +39,7 @@ CREATE TABLE topics (
     FOREIGN KEY(module_id) REFERENCES modules(id)
 );
 
-CREATE TABLE notes (
+CREATE TABLE IF NOT EXISTS notes (
     id TEXT PRIMARY KEY,
     subject_id TEXT NOT NULL,
     title TEXT NOT NULL,
@@ -53,25 +50,44 @@ CREATE TABLE notes (
     FOREIGN KEY(subject_id) REFERENCES subjects(id)
 );
 
-CREATE TABLE user_progress (
-    topic_id TEXT PRIMARY KEY,
+-- Multi-user watch progress table (2-minute debounced sync)
+CREATE TABLE IF NOT EXISTS user_progress (
+    user_id TEXT NOT NULL DEFAULT 'aspirin_guest',
+    topic_id TEXT NOT NULL,
     watched_seconds REAL DEFAULT 0,
     total_seconds REAL DEFAULT 1800,
     is_completed INTEGER DEFAULT 0,
     is_bookmarked INTEGER DEFAULT 0,
-    last_watched_at TEXT,
-    FOREIGN KEY(topic_id) REFERENCES topics(id)
+    last_watched_at TEXT DEFAULT CURRENT_TIMESTAMP,
+    updated_at TEXT DEFAULT CURRENT_TIMESTAMP,
+    PRIMARY KEY (user_id, topic_id)
 );
 
-CREATE TABLE user_notes (
+-- 1-Device Active Session Policy Table (Anti-Account Sharing)
+CREATE TABLE IF NOT EXISTS user_active_sessions (
+    user_id TEXT PRIMARY KEY,
+    session_id TEXT NOT NULL,
+    device_id TEXT NOT NULL,
+    device_name TEXT,
+    ip_address TEXT,
+    user_agent TEXT,
+    last_heartbeat TEXT DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Timestamped Personal Clinical Notes
+CREATE TABLE IF NOT EXISTS user_notes (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
+    user_id TEXT NOT NULL DEFAULT 'aspirin_guest',
     topic_id TEXT NOT NULL,
     timestamp_seconds REAL NOT NULL,
     note_text TEXT NOT NULL,
-    created_at TEXT DEFAULT CURRENT_TIMESTAMP,
-    FOREIGN KEY(topic_id) REFERENCES topics(id)
+    created_at TEXT DEFAULT CURRENT_TIMESTAMP
 );
 
-CREATE INDEX idx_topics_subject ON topics(subject_id);
-CREATE INDEX idx_notes_subject ON notes(subject_id);
-CREATE INDEX idx_progress_topic ON user_progress(topic_id);
+-- Optimized Performance Indexes for Cloudflare D1
+CREATE INDEX IF NOT EXISTS idx_topics_subject ON topics(subject_id);
+CREATE INDEX IF NOT EXISTS idx_notes_subject ON notes(subject_id);
+CREATE INDEX IF NOT EXISTS idx_progress_user ON user_progress(user_id);
+CREATE INDEX IF NOT EXISTS idx_progress_user_topic ON user_progress(user_id, topic_id);
+CREATE INDEX IF NOT EXISTS idx_user_notes_topic ON user_notes(user_id, topic_id);
+CREATE INDEX IF NOT EXISTS idx_active_sessions_device ON user_active_sessions(user_id, device_id);
