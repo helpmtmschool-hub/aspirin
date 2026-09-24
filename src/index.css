@@ -12,6 +12,12 @@
     --clay-ink: #0a0a0a;
     --clay-body: #3a3a3a;
     --clay-muted: #6a6a6a;
+    
+    /* Device Safe-Area Inset Tokens (iOS / Android Gestures) */
+    --sat: env(safe-area-inset-top, 0px);
+    --sab: env(safe-area-inset-bottom, 0px);
+    --sal: env(safe-area-inset-left, 0px);
+    --sar: env(safe-area-inset-right, 0px);
   }
 
   body {
@@ -118,6 +124,60 @@
 /* Video Range slider styling for Clay */
 input[type=range] {
   accent-color: #0a0a0a;
+}
+
+/* Minimalist Video Captions / Subtitles Styling */
+video::cue {
+  background-color: rgba(10, 10, 10, 0.82);
+  color: #fffaf0;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: clamp(12px, 1.8vw, 15px);
+  font-weight: 500;
+  line-height: 1.45;
+  border-radius: 4px;
+  padding: 2px 6px;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+}
+
+/* Responsive & Mobile Touch Utilities */
+.safe-pb-nav {
+  padding-bottom: max(0.75rem, env(safe-area-inset-bottom, 0px));
+}
+
+.safe-pt-header {
+  padding-top: max(0.5rem, env(safe-area-inset-top, 0px));
+}
+
+.min-h-dvh {
+  min-height: 100vh;
+  min-height: 100dvh;
+}
+
+.h-dvh {
+  height: 100vh;
+  height: 100dvh;
+}
+
+/* Touch Targets: minimum 44px hit-box per WCAG AAA */
+.touch-target {
+  min-width: 44px;
+  min-height: 44px;
+}
+
+/* Smooth Touch Momentum Scrolling with Snapping */
+.touch-snap-x {
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+}
+
+.touch-snap-start {
+  scroll-snap-align: start;
+}
+
+/* Soft Edge Horizontal Gradient Mask for Carousel Peeks */
+.mask-fade-right {
+  mask-image: linear-gradient(to right, black 85%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to right, black 85%, transparent 100%);
 }
 
 /* Accessibility: Respect Reduced Motion Preferences */

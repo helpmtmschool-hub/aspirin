@@ -20,7 +20,7 @@ export const MobileNav: React.FC<MobileNavProps> = ({
   ];
 
   return (
-    <nav className="md:hidden fixed bottom-0 left-0 right-0 z-40 bg-[#fffaf0]/95 backdrop-blur-md border-t border-[#e5e5e5] px-4 py-2 flex items-center justify-around shadow-sm">
+    <nav className="md:hidden fixed bottom-0 left-0 right-0 z-40 bg-[#fffaf0]/95 backdrop-blur-md border-t border-[#e5e5e5] px-2 pt-1.5 pb-[max(0.75rem,env(safe-area-inset-bottom,0px))] flex items-center justify-around shadow-sm">
       {tabs.slice(0, 2).map((tab) => {
         const Icon = tab.icon;
         const isActive = activeTab === tab.id;
@@ -29,7 +29,7 @@ export const MobileNav: React.FC<MobileNavProps> = ({
             key={tab.id}
             whileTap={{ scale: 0.92 }}
             onClick={() => onTabChange(tab.id)}
-            className={`relative flex flex-col items-center gap-1 text-[11px] font-medium transition ${
+            className={`relative flex flex-col items-center justify-center min-w-[56px] min-h-[44px] gap-1 text-[11px] font-medium transition touch-manipulation ${
               isActive ? 'text-[#0a0a0a] font-bold' : 'text-[#6a6a6a] hover:text-[#0a0a0a]'
             }`}
           >
@@ -51,7 +51,7 @@ export const MobileNav: React.FC<MobileNavProps> = ({
       <motion.button
         whileTap={{ scale: 0.92 }}
         onClick={onOpenSearch}
-        className="flex flex-col items-center gap-1 text-[11px] font-medium text-[#6a6a6a] hover:text-[#0a0a0a] transition"
+        className="flex flex-col items-center justify-center min-w-[56px] min-h-[44px] gap-1 text-[11px] font-medium text-[#6a6a6a] hover:text-[#0a0a0a] transition touch-manipulation"
       >
         <div className="p-1.5 rounded-full">
           <Search className="w-4 h-4" />
@@ -67,7 +67,7 @@ export const MobileNav: React.FC<MobileNavProps> = ({
             key={tab.id}
             whileTap={{ scale: 0.92 }}
             onClick={() => onTabChange(tab.id)}
-            className={`relative flex flex-col items-center gap-1 text-[11px] font-medium transition ${
+            className={`relative flex flex-col items-center justify-center min-w-[56px] min-h-[44px] gap-1 text-[11px] font-medium transition touch-manipulation ${
               isActive ? 'text-[#0a0a0a] font-bold' : 'text-[#6a6a6a] hover:text-[#0a0a0a]'
             }`}
           >

@@ -19,20 +19,20 @@ export const HeroContinueWatching: React.FC<HeroContinueWatchingProps> = ({
   if (!item) {
     // Clay Signature 7-5 Hero Band
     return (
-      <div className="relative rounded-[24px] bg-[#faf5e8] border border-[#e5e5e5] p-8 sm:p-12 overflow-hidden">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+      <div className="relative rounded-[20px] sm:rounded-[24px] bg-[#faf5e8] border border-[#e5e5e5] p-5 sm:p-8 lg:p-12 overflow-hidden">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-8 items-center">
           {/* Left Column (7 cols): Editorial Typography */}
-          <div className="lg:col-span-7 space-y-5">
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#f5f0e0] border border-[#e5e5e5] text-[#0a0a0a] text-xs font-semibold">
+          <div className="lg:col-span-7 space-y-4 sm:space-y-5">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#f5f0e0] border border-[#e5e5e5] text-[#0a0a0a] text-xs font-semibold self-start">
               <span className="w-2 h-2 rounded-full bg-[#ff4d8b]" />
               Complete Medical Curriculum
             </div>
 
-            <h1 className="text-3xl sm:text-5xl lg:text-6xl font-medium tracking-tight text-[#0a0a0a] font-display leading-[1.08]">
+            <h1 className="text-2xl sm:text-4xl lg:text-5xl font-medium tracking-tight text-[#0a0a0a] font-display leading-[1.12]">
               Master 19 MBBS Subjects with High-Yield Faculty.
             </h1>
 
-            <p className="text-[#3a3a3a] text-sm sm:text-base leading-relaxed max-w-xl">
+            <p className="text-[#3a3a3a] text-xs sm:text-base leading-relaxed max-w-xl">
               Study PrepLadder Edition X and Cerebellum Academy video lectures and clinical review textbooks, structured for MBBS professional exams and clinical mastery.
             </p>
 
@@ -41,7 +41,7 @@ export const HeroContinueWatching: React.FC<HeroContinueWatchingProps> = ({
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
                 onClick={onExplore}
-                className="clay-btn-primary"
+                className="clay-btn-primary w-full sm:w-auto"
               >
                 <Play className="w-4 h-4 fill-white" />
                 Explore 19 Subjects
@@ -102,10 +102,10 @@ export const HeroContinueWatching: React.FC<HeroContinueWatchingProps> = ({
   };
 
   return (
-    <div className="relative rounded-[24px] bg-[#faf5e8] border border-[#e5e5e5] p-6 sm:p-10">
-      <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+    <div className="relative rounded-[20px] sm:rounded-[24px] bg-[#faf5e8] border border-[#e5e5e5] p-5 sm:p-8 lg:p-10">
+      <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-8 items-center">
         {/* Left Column: Title & Progress */}
-        <div className="lg:col-span-7 space-y-4">
+        <div className="lg:col-span-7 space-y-3.5 sm:space-y-4">
           <div className="flex flex-wrap items-center gap-2">
             <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-[#f5f0e0] border border-[#e5e5e5] text-[#0a0a0a] text-xs font-bold">
               <span className="w-2 h-2 rounded-full bg-[#ff4d8b] animate-ping" />
@@ -124,7 +124,7 @@ export const HeroContinueWatching: React.FC<HeroContinueWatchingProps> = ({
             </span>
           </div>
 
-          <h2 className="text-2xl sm:text-4xl font-medium tracking-tight text-[#0a0a0a] font-display leading-tight">
+          <h2 className="text-xl sm:text-3xl lg:text-4xl font-medium tracking-tight text-[#0a0a0a] font-display leading-snug">
             {topic.title}
           </h2>
 
@@ -135,7 +135,7 @@ export const HeroContinueWatching: React.FC<HeroContinueWatchingProps> = ({
           )}
 
           {/* Clean Clay Progress Track */}
-          <div className="space-y-1.5 pt-2 max-w-md">
+          <div className="space-y-1.5 pt-1 sm:pt-2 max-w-md">
             <div className="flex items-center justify-between text-xs text-[#6a6a6a] font-mono">
               <span>{formatTime(watched)} watched ({percent}%)</span>
               <span>{remainingMins}m remaining</span>
@@ -155,7 +155,7 @@ export const HeroContinueWatching: React.FC<HeroContinueWatchingProps> = ({
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
               onClick={() => onPlay(topic)}
-              className="clay-btn-primary"
+              className="clay-btn-primary w-full sm:w-auto"
             >
               <Play className="w-4 h-4 fill-white" />
               Resume Lecture

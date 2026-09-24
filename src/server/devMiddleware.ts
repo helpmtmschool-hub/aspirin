@@ -386,6 +386,53 @@ export function aspirinDevApiPlugin(): Plugin {
           return;
         }
 
+        // 3.5 Subtitle route: /api/subtitles/:chatId/:messageId
+        const subMatch = url.match(/^\/api\/subtitles\/(-?\d+)\/(\d+)/);
+        if (subMatch) {
+          const chatId = subMatch[1];
+          const messageId = subMatch[2];
+
+          // Check local cache or public directory for sidecar .vtt
+          const candidatePaths = [
+            path.resolve(rootDir, `.stream_cache/subtitles/${chatId}_${messageId}.vtt`),
+            path.resolve(rootDir, `public/subtitles/${chatId}_${messageId}.vtt`),
+            path.resolve(rootDir, `.stream_cache/subtitles/${chatId}_${messageId}.srt`),
+          ];
+
+          for (const cand of candidatePaths) {
+            if (fs.existsSync(cand)) {
+              res.writeHead(200, {
+                'Content-Type': 'text/vtt; charset=utf-8',
+                'Access-Control-Allow-Origin': '*',
+                'Cache-Control': 'public, max-age=7200',
+              });
+              res.end(fs.readFileSync(cand));
+              return;
+            }
+          }
+
+          // Check if transfer manifest has a direct subtitle URL
+          const manifest = getManifest(rootDir);
+          const manifestItem = resolveManifestItem(manifest, chatId, messageId);
+          if (manifestItem && manifestItem.subtitles_url) {
+            res.writeHead(302, {
+              Location: manifestItem.subtitles_url,
+              'Access-Control-Allow-Origin': '*',
+            });
+            res.end();
+            return;
+          }
+
+          // Return standard valid empty WebVTT file so browser HTML5 parser succeeds cleanly
+          res.writeHead(200, {
+            'Content-Type': 'text/vtt; charset=utf-8',
+            'Access-Control-Allow-Origin': '*',
+            'Cache-Control': 'public, max-age=3600',
+          });
+          res.end("WEBVTT\n\n");
+          return;
+        }
+
         // 4. Cloud Sync: User Watch Progress
         const progUserMatch = url.match(/^\/api\/progress\/([^/?]+)/);
         if (progUserMatch && req.method === 'GET') {

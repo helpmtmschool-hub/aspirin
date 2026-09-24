@@ -66,43 +66,53 @@ export const SearchModal: React.FC<SearchModalProps> = ({
           exit={{ opacity: 0 }}
           transition={{ duration: 0.15 }}
           onClick={onClose}
-          className="fixed inset-0 z-50 flex items-start justify-center pt-16 sm:pt-24 px-4 bg-[#0a0a0a]/50 backdrop-blur-sm"
+          className="fixed inset-0 z-50 flex items-start justify-center sm:pt-20 p-0 sm:px-4 bg-[#0a0a0a]/50 backdrop-blur-sm"
         >
           <motion.div 
             initial={{ opacity: 0, scale: 0.96, y: -10 }}
             animate={{ opacity: 1, scale: 1, y: 0 }}
             exit={{ opacity: 0, scale: 0.96, y: -10 }}
             transition={{ type: "spring", stiffness: 450, damping: 32 }}
-            className="w-full max-w-2xl bg-[#fffaf0] border border-[#e5e5e5] rounded-[24px] shadow-2xl overflow-hidden flex flex-col max-h-[80vh]"
+            className="w-full h-[100dvh] sm:h-auto sm:max-h-[82vh] sm:max-w-2xl bg-[#fffaf0] border-0 sm:border border-[#e5e5e5] rounded-none sm:rounded-[24px] shadow-2xl overflow-hidden flex flex-col"
             onClick={(e) => e.stopPropagation()}
           >
-        {/* Search Input Bar */}
-        <div className="flex items-center gap-3 px-5 py-4 border-b border-[#e5e5e5] bg-[#faf5e8]">
+        {/* Search Input Bar (Sticky on Mobile) */}
+        <div className="sticky top-0 z-20 flex items-center gap-3 px-4 sm:px-5 py-3.5 sm:py-4 border-b border-[#e5e5e5] bg-[#faf5e8] shrink-0">
           <Search className="w-5 h-5 text-[#0a0a0a] shrink-0" />
           <input
             ref={inputRef}
             type="text"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            placeholder="Search lectures, topics, faculty, textbooks, clinical pearls..."
+            placeholder="Search lectures, topics, faculty, textbooks..."
             className="w-full bg-transparent text-[#0a0a0a] placeholder-[#6a6a6a] text-sm focus:outline-none font-medium"
           />
           {query ? (
             <button 
               onClick={() => setQuery('')}
               className="p-1 rounded-md text-[#6a6a6a] hover:text-[#0a0a0a] hover:bg-[#e5e5e5]/50"
+              aria-label="Clear query"
             >
               <X className="w-4 h-4" />
             </button>
           ) : (
-            <kbd className="px-2 py-0.5 rounded-md text-[10px] font-mono border border-[#e5e5e5] bg-[#f5f0e0] text-[#0a0a0a]">
+            <kbd className="hidden sm:inline-block px-2 py-0.5 rounded-md text-[10px] font-mono border border-[#e5e5e5] bg-[#f5f0e0] text-[#0a0a0a]">
               ESC
             </kbd>
           )}
+
+          {/* Mobile direct close button */}
+          <button
+            onClick={onClose}
+            className="sm:hidden p-1.5 rounded-lg text-[#6a6a6a] hover:text-[#0a0a0a]"
+            aria-label="Close search"
+          >
+            <X className="w-5 h-5" />
+          </button>
         </div>
 
         {/* Results Container */}
-        <div className="overflow-y-auto p-5 space-y-5 divide-y divide-[#e5e5e5]">
+        <div className="flex-1 min-h-0 overflow-y-auto p-4 sm:p-5 space-y-5 divide-y divide-[#e5e5e5]">
           {isSearching && (
             <div className="py-8 text-center text-sm text-[#6a6a6a] flex items-center justify-center gap-2">
               <div className="w-4 h-4 rounded-full border-2 border-[#0a0a0a] border-t-transparent animate-spin" />

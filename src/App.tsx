@@ -147,7 +147,7 @@ export const AppContent: React.FC = () => {
       />
 
       {/* Main Body */}
-      <main className="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12 pb-24 md:pb-16 space-y-12">
+      <main className="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-10 pb-[calc(6rem+env(safe-area-inset-bottom,0px))] md:pb-16 space-y-10 sm:space-y-12">
         {isLoading ? (
           <div className="py-24 flex flex-col items-center justify-center space-y-4">
             <div className="w-10 h-10 rounded-full border-3 border-[#0a0a0a] border-t-transparent animate-spin" />

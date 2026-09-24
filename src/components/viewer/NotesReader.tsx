@@ -42,7 +42,7 @@ export const NotesReader: React.FC<NotesReaderProps> = ({
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
       transition={{ duration: 0.2 }}
-      className="fixed inset-0 z-50 flex items-center justify-center p-2 sm:p-4 bg-[#0a0a0a]/60 backdrop-blur-md"
+      className="fixed inset-0 z-50 flex items-center justify-center p-0 sm:p-4 bg-[#0a0a0a]/60 backdrop-blur-md"
     >
       <motion.div 
         initial={{ opacity: 0, scale: 0.94, y: 10 }}
@@ -50,32 +50,32 @@ export const NotesReader: React.FC<NotesReaderProps> = ({
         exit={{ opacity: 0, scale: 0.94, y: 10 }}
         transition={{ type: "spring", stiffness: 400, damping: 30 }}
         onContextMenu={(e) => e.preventDefault()}
-        className="relative w-full h-full max-w-6xl flex flex-col bg-[#fffaf0] border border-[#e5e5e5] rounded-[24px] overflow-hidden shadow-2xl select-none"
+        className="relative w-full h-[100dvh] sm:h-full max-w-6xl flex flex-col bg-[#fffaf0] border-0 sm:border border-[#e5e5e5] rounded-none sm:rounded-[24px] overflow-hidden shadow-2xl select-none"
       >
         {/* Dynamic Forensic Watermark Overlay */}
         <ForensicWatermark />
 
         {/* Top Header */}
-        <div className="p-4 bg-[#faf5e8] border-b border-[#e5e5e5] flex items-center justify-between z-40 relative">
-          <div className="flex items-center gap-3 truncate max-w-xl">
-            <div className="w-9 h-9 rounded-[12px] bg-[#ff4d8b]/10 border border-[#ff4d8b]/20 flex items-center justify-center text-[#ff4d8b] shrink-0">
+        <div className="pt-[max(0.75rem,env(safe-area-inset-top,0px))] pb-3 px-3.5 sm:p-4 bg-[#faf5e8] border-b border-[#e5e5e5] flex items-center justify-between z-40 relative">
+          <div className="flex items-center gap-2.5 sm:gap-3 truncate max-w-xl">
+            <div className="w-8 h-8 sm:w-9 sm:h-9 rounded-[12px] bg-[#ff4d8b]/10 border border-[#ff4d8b]/20 flex items-center justify-center text-[#ff4d8b] shrink-0">
               <FileText className="w-4 h-4" />
             </div>
             <div className="truncate">
               <span className="text-[10px] font-mono font-bold uppercase tracking-wider text-[#ff4d8b]">
                 {note.subject_id} • Clinical Notes
               </span>
-              <h3 className="text-sm font-medium text-[#0a0a0a] truncate">{note.title}</h3>
+              <h3 className="text-xs sm:text-sm font-medium text-[#0a0a0a] truncate">{note.title}</h3>
             </div>
           </div>
 
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-1.5 sm:gap-2">
             {loadState === 'ready' && (
               <a
                 href={noteStreamUrl}
                 target="_blank"
                 rel="noreferrer"
-                className="p-2 px-3 rounded-full bg-[#ebe6d6]/60 hover:bg-[#ebe6d6] text-[#0a0a0a] transition flex items-center gap-1.5 text-xs font-medium"
+                className="p-2 px-2.5 sm:px-3 rounded-full bg-[#ebe6d6]/60 hover:bg-[#ebe6d6] text-[#0a0a0a] transition flex items-center gap-1.5 text-xs font-medium min-h-[36px]"
               >
                 <ExternalLink className="w-3.5 h-3.5" />
                 <span className="hidden sm:inline">Pop Out</span>
@@ -84,7 +84,7 @@ export const NotesReader: React.FC<NotesReaderProps> = ({
 
             <button
               onClick={onClose}
-              className="p-2 rounded-full text-[#6a6a6a] hover:text-[#0a0a0a] hover:bg-[#ebe6d6]/50 transition shrink-0"
+              className="p-2 rounded-full text-[#6a6a6a] hover:text-[#0a0a0a] hover:bg-[#ebe6d6]/50 transition shrink-0 min-w-[36px] min-h-[36px] flex items-center justify-center"
               aria-label="Close viewer"
             >
               <X className="w-5 h-5" />

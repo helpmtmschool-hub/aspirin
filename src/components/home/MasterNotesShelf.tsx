@@ -61,7 +61,7 @@ export const MasterNotesShelf: React.FC<MasterNotesShelfProps> = ({
       {/* Horizontal Carousel with Clay Surface Cards */}
       <div
         ref={scrollRef}
-        className="flex items-stretch gap-4 overflow-x-auto pb-4 pt-1 px-1 scrollbar-none scroll-smooth"
+        className="flex items-stretch gap-3.5 sm:gap-4 overflow-x-auto pb-4 pt-1 px-1 scrollbar-none scroll-smooth snap-x snap-mandatory"
         style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
       >
         {books.map((book) => {
@@ -71,7 +71,7 @@ export const MasterNotesShelf: React.FC<MasterNotesShelfProps> = ({
               whileHover={{ y: -4, scale: 1.01 }}
               whileTap={{ scale: 0.98 }}
               onClick={() => onSelectNote(book)}
-              className="flex-shrink-0 w-48 sm:w-56 rounded-[20px] border border-[#e5e5e5] bg-[#f5f0e0] hover:bg-[#faf5e8] cursor-pointer overflow-hidden shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between group"
+              className="flex-shrink-0 w-44 sm:w-56 snap-start rounded-[20px] border border-[#e5e5e5] bg-[#f5f0e0] hover:bg-[#faf5e8] cursor-pointer overflow-hidden shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between group"
             >
               {/* Book Spine / Cover Mockup */}
               <div className="p-5 border-b border-[#e5e5e5]/80 space-y-3.5">

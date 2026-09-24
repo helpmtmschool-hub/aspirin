@@ -69,7 +69,7 @@ export const MediaShelf: React.FC<MediaShelfProps> = ({
       {/* Horizontal Carousel with Clay Feature Cards */}
       <div
         ref={rowRef}
-        className="flex items-stretch gap-4 overflow-x-auto pb-4 pt-1 px-1 scrollbar-none scroll-smooth"
+        className="flex items-stretch gap-3.5 sm:gap-4 overflow-x-auto pb-4 pt-1 px-1 scrollbar-none scroll-smooth snap-x snap-mandatory"
         style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
       >
         {topics.map((topic) => {
@@ -85,7 +85,7 @@ export const MediaShelf: React.FC<MediaShelfProps> = ({
               whileHover={{ y: -4, scale: 1.01 }}
               whileTap={{ scale: 0.98 }}
               onClick={() => onSelectTopic(topic)}
-              className="flex-shrink-0 w-64 sm:w-72 rounded-[20px] border border-[#e5e5e5] bg-[#faf5e8] hover:bg-[#f5f0e0] cursor-pointer overflow-hidden shadow-sm hover:shadow-md transition-shadow group flex flex-col justify-between"
+              className="flex-shrink-0 w-[240px] sm:w-72 snap-start rounded-[20px] border border-[#e5e5e5] bg-[#faf5e8] hover:bg-[#f5f0e0] cursor-pointer overflow-hidden shadow-sm hover:shadow-md transition-shadow group flex flex-col justify-between"
             >
               {/* Thumbnail Area */}
               <div className="relative w-full border-b border-[#e5e5e5] overflow-hidden">

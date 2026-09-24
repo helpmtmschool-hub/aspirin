@@ -507,6 +507,34 @@ app.get('/thumbnail/:chatId/:messageId', async (c) => {
   );
 });
 
+// 5.2 GET /api/subtitles/:chatId/:messageId - Cloud-native WebVTT subtitles streaming
+app.get('/subtitles/:chatId/:messageId', async (c) => {
+  const { chatId, messageId } = c.req.param();
+
+  try {
+    const manifest = await getManifest();
+    const item = resolveManifestItem(manifest, chatId, messageId);
+
+    if (item && item.subtitles_url) {
+      c.header('Cache-Control', 'public, max-age=7200');
+      c.header('Access-Control-Allow-Origin', '*');
+      return c.redirect(item.subtitles_url, 302);
+    }
+  } catch (e) {
+    // Handled below
+  }
+
+  // Fallback to standard clean empty WebVTT file so browser HTML5 parser succeeds cleanly
+  return new Response("WEBVTT\n\n", {
+    status: 200,
+    headers: {
+      'Content-Type': 'text/vtt; charset=utf-8',
+      'Access-Control-Allow-Origin': '*',
+      'Cache-Control': 'public, max-age=3600',
+    },
+  });
+});
+
 // 6. POST /api/progress - Debounced batch or single watch progress sync
 app.post('/progress', async (c) => {
   const db = c.env.DB;

@@ -111,15 +111,15 @@ export const SubjectGrid: React.FC<SubjectGridProps> = ({
           </p>
         </div>
 
-        {/* Prof Filter Pills: Shared Layout Animated Pill */}
-        <div className="flex items-center gap-1 overflow-x-auto pb-1 max-w-full scrollbar-none p-1 rounded-full bg-[#f5f0e0] border border-[#e5e5e5] relative">
+        {/* Prof Filter Pills: Shared Layout Animated Pill with Touch Snap */}
+        <div className="flex items-center gap-1 overflow-x-auto pb-1 max-w-full scrollbar-none p-1 rounded-full bg-[#f5f0e0] border border-[#e5e5e5] relative snap-x snap-mandatory">
           {PROF_TABS.map((prof) => {
             const isSelected = selectedProf === prof;
             return (
               <button
                 key={prof}
                 onClick={() => setSelectedProf(prof)}
-                className={`relative px-3 py-1.5 rounded-full text-xs font-semibold whitespace-nowrap transition-colors duration-150 ${
+                className={`relative px-3 py-1.5 rounded-full text-xs font-semibold whitespace-nowrap transition-colors duration-150 snap-start ${
                   isSelected ? 'text-white' : 'text-[#6a6a6a] hover:text-[#0a0a0a]'
                 }`}
               >
@@ -140,7 +140,7 @@ export const SubjectGrid: React.FC<SubjectGridProps> = ({
       </div>
 
       {/* Grid of 19 Subjects with Clay Saturated Cards and Layout Animation */}
-      <motion.div layout className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+      <motion.div layout className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5">
         <AnimatePresence>
           {filteredSubjects.map((sub, index) => {
             const pct = sub.progress_percentage || 0;
@@ -158,9 +158,9 @@ export const SubjectGrid: React.FC<SubjectGridProps> = ({
                 whileHover={{ y: -4, transition: { duration: 0.2 } }}
                 whileTap={{ scale: 0.98 }}
                 onClick={() => onSelectSubject(sub)}
-                className={`p-6 rounded-[24px] ${theme.bg} ${theme.text} border border-[#e5e5e5]/80 cursor-pointer shadow-sm hover:shadow-md transition-shadow duration-200 group flex flex-col justify-between`}
+                className={`p-4 sm:p-6 rounded-[20px] sm:rounded-[24px] ${theme.bg} ${theme.text} border border-[#e5e5e5]/80 cursor-pointer shadow-sm hover:shadow-md transition-shadow duration-200 group flex flex-col justify-between`}
               >
-              <div className="space-y-4">
+              <div className="space-y-3.5 sm:space-y-4">
                 {/* Top Badge & Category */}
                 <div className="flex items-center justify-between">
                   <span className={`px-2.5 py-0.5 rounded-full ${theme.badge} text-[10px] font-mono font-bold uppercase tracking-wider`}>
@@ -172,14 +172,14 @@ export const SubjectGrid: React.FC<SubjectGridProps> = ({
                 </div>
 
                 {/* Subject Title & Emoji Icon */}
-                <div className="flex items-center gap-3.5">
-                  <div className={`w-14 h-14 rounded-2xl ${theme.isDark ? 'bg-white/10 text-white' : 'bg-white/80 text-[#0a0a0a]'} border border-black/5 flex items-center justify-center text-3xl shadow-xs group-hover:scale-110 transition-transform duration-200 shrink-0`}>
+                <div className="flex items-center gap-3 sm:gap-3.5">
+                  <div className={`w-12 h-12 sm:w-14 sm:h-14 rounded-xl sm:rounded-2xl ${theme.isDark ? 'bg-white/10 text-white' : 'bg-white/80 text-[#0a0a0a]'} border border-black/5 flex items-center justify-center text-2xl sm:text-3xl shadow-xs group-hover:scale-110 transition-transform duration-200 shrink-0`}>
                     <span role="img" aria-label={sub.name}>
                       {visual.emoji}
                     </span>
                   </div>
                   <div className="min-w-0">
-                    <h3 className="text-lg font-bold font-display tracking-tight leading-snug truncate">
+                    <h3 className="text-base sm:text-lg font-bold font-display tracking-tight leading-snug truncate">
                       {sub.name}
                     </h3>
                     <p className={`text-xs ${theme.isDark ? 'text-white/80' : 'text-[#3a3a3a]'} line-clamp-1 mt-0.5 font-medium`}>
