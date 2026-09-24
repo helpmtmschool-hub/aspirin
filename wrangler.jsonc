@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "yui-lms",
+  "name": "aspirin-lms",
   "pages_build_output_dir": "dist",
   "compatibility_date": "2025-02-01",
   "compatibility_flags": [
