@@ -52,9 +52,9 @@ MANIFEST_PATH = PROJECT_DIR / "engine" / "transfer_manifest.json"
 PUBLIC_MANIFEST_PATH = PROJECT_DIR / "public" / "transfer_manifest.json"
 SECTIONS_PATH = PROJECT_DIR / "engine" / "prepx_sections.json"
 MARROW_SECTIONS_PATH = PROJECT_DIR / "engine" / "marrow_sections.json"
-LEGACY_CATALOG_PATH = PROJECT_DIR / "public" / "catalog.json"
 PREPX_CHANNEL_ID = -1003709841202
 MARROW_CHANNEL_ID = -1003264222864
+PREPX_HI_MEDICINE_TITLES_PATH = PROJECT_DIR / "engine" / "prepx_hi_medicine_clean_titles.json"
 
 def load_env_file():
     env_file = PROJECT_DIR / ".env"
@@ -201,6 +201,8 @@ def normalize_lecture_title(raw_title: str, subject_name: str = "", subject_id: 
     if m:
         num = int(m.group(1))
         rest = m.group(2).strip()
+        if num > 500:
+            return to_title_case(t)
         if not rest:
             rest = f"{subject_name} Part {num}" if subject_name else f"Part {num}"
         clean_rest = to_title_case(rest)
@@ -622,6 +624,14 @@ class LectureTransferEngine:
         raw_items: List[Dict[str, Any]] = []
 
         # 1. Load PrepLadder & Cerebellum sections
+        prepx_hi_med_titles = {}
+        if PREPX_HI_MEDICINE_TITLES_PATH.exists():
+            try:
+                with open(PREPX_HI_MEDICINE_TITLES_PATH, "r", encoding="utf-8") as f:
+                    prepx_hi_med_titles = json.load(f)
+            except Exception:
+                pass
+
         if SECTIONS_PATH.exists():
             with open(SECTIONS_PATH, "r", encoding="utf-8") as f:
                 sections = json.load(f)
@@ -671,6 +681,10 @@ class LectureTransferEngine:
                     if item_id in self.manifest and self.manifest[item_id].get("status") == "completed":
                         continue
 
+                    pref_title = None
+                    if sec_platform == "prepx_hi" and norm_subj == "medicine":
+                        pref_title = prepx_hi_med_titles.get(str(mid)) or prepx_hi_med_titles.get(mid)
+
                     raw_items.append({
                         "id": item_id,
                         "chat_id": PREPX_CHANNEL_ID,
@@ -680,6 +694,7 @@ class LectureTransferEngine:
                         "subject_id": norm_subj,
                         "subject_name": raw_title,
                         "subject_folder": folder_display,
+                        "preferred_title": pref_title,
                     })
 
         # 2. Load Marrow sections
@@ -804,6 +819,9 @@ class LectureTransferEngine:
             return
 
         total_size = msg.file.size
+        caption = (msg.text or msg.message or "").strip()
+        first_line_caption = caption.split("\n")[0].strip() if caption else ""
+
         raw_fn = None
         if item.get("preferred_title"):
             raw_fn = item["preferred_title"]
@@ -815,11 +833,12 @@ class LectureTransferEngine:
                     raw_fn = attr.file_name
                     break
 
-        if not raw_fn:
-            caption = (msg.text or msg.message or "").strip()
-            if caption:
-                raw_fn = caption.split("\n")[0].strip()
-            else:
+        # If raw_fn is missing or a raw backend numeric CDN ID (e.g. '48598.mp4'):
+        is_numeric_fn = bool(raw_fn and re.match(r'^\d+\.(mp4|mkv|webm|pdf)$', str(raw_fn).lower()))
+        if is_numeric_fn or not raw_fn:
+            if first_line_caption:
+                raw_fn = first_line_caption
+            elif not raw_fn:
                 raw_fn = f"lecture_{message_id}.mp4"
 
         clean_name = sanitize_filename(raw_fn)

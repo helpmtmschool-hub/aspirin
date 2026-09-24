@@ -1,6 +1,6 @@
 {
   "version": "2.2.0",
-  "updated_at": "2026-09-24T17:53:18.860Z",
+  "updated_at": "2026-09-24T18:36:11.474Z",
   "subjects": [
     {
       "id": "anatomy",
@@ -408,7 +408,7 @@
       "category": "Clinical",
       "icon": "Stethoscope",
       "color": "#0284C7",
-      "total_topics": 141,
+      "total_topics": 177,
       "total_notes": 20,
       "modules": [
         {
@@ -3093,6 +3093,696 @@
               ],
               "date": "2026-09-24T13:12:14Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/830"
+            }
+          ]
+        },
+        {
+          "id": "mod_prepx_hi_medicine",
+          "name": "PrepLadder Edition X (Hinglish) - General Medicine",
+          "topics": [
+            {
+              "id": "topic_-1003709841202_1858",
+              "subject_id": "medicine",
+              "module": "PrepLadder Edition X (Hinglish) - General Medicine",
+              "title": "1. Introduction to Medicine",
+              "filename": "01. Introduction to Medicine.mp4",
+              "file_size_bytes": 1878333,
+              "file_size_mb": 1.79,
+              "duration_seconds": 8,
+              "duration_formatted": "0m 8s",
+              "chat_id": -1003709841202,
+              "message_id": 1858,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 1. Introduction to Medicine",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-24T18:00:00Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/1858"
+            },
+            {
+              "id": "topic_-1003709841202_1859",
+              "subject_id": "medicine",
+              "module": "PrepLadder Edition X (Hinglish) - General Medicine",
+              "title": "2. Heart Sounds Part 1",
+              "filename": "02. Heart Sounds Part 1.mp4",
+              "file_size_bytes": 452524213,
+              "file_size_mb": 431.56,
+              "duration_seconds": 3583,
+              "duration_formatted": "59m 43s",
+              "chat_id": -1003709841202,
+              "message_id": 1859,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 2. Heart Sounds Part 1",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-24T18:00:00Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/1859"
+            },
+            {
+              "id": "topic_-1003709841202_1860",
+              "subject_id": "medicine",
+              "module": "PrepLadder Edition X (Hinglish) - General Medicine",
+              "title": "3. Heart Sounds Part 2",
+              "filename": "03. Heart Sounds Part 2.mp4",
+              "file_size_bytes": 437520306,
+              "file_size_mb": 417.25,
+              "duration_seconds": 4051,
+              "duration_formatted": "1h 7m",
+              "chat_id": -1003709841202,
+              "message_id": 1860,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 3. Heart Sounds Part 2",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-24T18:00:00Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/1860"
+            },
+            {
+              "id": "topic_-1003709841202_1861",
+              "subject_id": "medicine",
+              "module": "PrepLadder Edition X (Hinglish) - General Medicine",
+              "title": "4. Heart Sounds Part 3",
+              "filename": "04. Heart Sounds Part 3.mp4",
+              "file_size_bytes": 624260879,
+              "file_size_mb": 595.34,
+              "duration_seconds": 5153,
+              "duration_formatted": "1h 25m",
+              "chat_id": -1003709841202,
+              "message_id": 1861,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 4. Heart Sounds Part 3",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-24T18:00:00Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/1861"
+            },
+            {
+              "id": "topic_-1003709841202_1862",
+              "subject_id": "medicine",
+              "module": "PrepLadder Edition X (Hinglish) - General Medicine",
+              "title": "5. Mitral Valve Prolapse",
+              "filename": "05. Mitral Valve Prolapse.mp4",
+              "file_size_bytes": 273518923,
+              "file_size_mb": 260.85,
+              "duration_seconds": 2542,
+              "duration_formatted": "42m 22s",
+              "chat_id": -1003709841202,
+              "message_id": 1862,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 5. Mitral Valve Prolapse",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-24T18:00:00Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/1862"
+            },
+            {
+              "id": "topic_-1003709841202_1863",
+              "subject_id": "medicine",
+              "module": "PrepLadder Edition X (Hinglish) - General Medicine",
+              "title": "6. Mitral Regurgitation",
+              "filename": "06. Mitral Regurgitation.mp4",
+              "file_size_bytes": 245651071,
+              "file_size_mb": 234.27,
+              "duration_seconds": 2719,
+              "duration_formatted": "45m 19s",
+              "chat_id": -1003709841202,
+              "message_id": 1863,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 6. Mitral Regurgitation",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-24T18:00:00Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/1863"
+            },
+            {
+              "id": "topic_-1003709841202_1864",
+              "subject_id": "medicine",
+              "module": "PrepLadder Edition X (Hinglish) - General Medicine",
+              "title": "7. Aortic Stenosis",
+              "filename": "07. Aortic Stenosis.mp4",
+              "file_size_bytes": 345850356,
+              "file_size_mb": 329.83,
+              "duration_seconds": 3098,
+              "duration_formatted": "51m 38s",
+              "chat_id": -1003709841202,
+              "message_id": 1864,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 7. Aortic Stenosis",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-24T18:00:00Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/1864"
+            },
+            {
+              "id": "topic_-1003709841202_1865",
+              "subject_id": "medicine",
+              "module": "PrepLadder Edition X (Hinglish) - General Medicine",
+              "title": "8. Aortic Regurgitation",
+              "filename": "08. Aortic Regurgitation.mp4",
+              "file_size_bytes": 243619980,
+              "file_size_mb": 232.33,
+              "duration_seconds": 2614,
+              "duration_formatted": "43m 34s",
+              "chat_id": -1003709841202,
+              "message_id": 1865,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 8. Aortic Regurgitation",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-24T18:00:00Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/1865"
+            },
+            {
+              "id": "topic_-1003709841202_1866",
+              "subject_id": "medicine",
+              "module": "PrepLadder Edition X (Hinglish) - General Medicine",
+              "title": "9. Tricuspid Stenosis",
+              "filename": "09. Tricuspid Stenosis.mp4",
+              "file_size_bytes": 113107743,
+              "file_size_mb": 107.87,
+              "duration_seconds": 921,
+              "duration_formatted": "15m 21s",
+              "chat_id": -1003709841202,
+              "message_id": 1866,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 9. Tricuspid Stenosis",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-24T18:00:00Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/1866"
+            },
+            {
+              "id": "topic_-1003709841202_1867",
+              "subject_id": "medicine",
+              "module": "PrepLadder Edition X (Hinglish) - General Medicine",
+              "title": "10. Tricuspid Regurgitation, Pulmonic Stenosis and Pulmonic Regurgitation",
+              "filename": "10. Tricuspid Regurgitation, Pulmonic Stenosis and Pulmonic Regurgitation.mp4",
+              "file_size_bytes": 288838309,
+              "file_size_mb": 275.46,
+              "duration_seconds": 2729,
+              "duration_formatted": "45m 29s",
+              "chat_id": -1003709841202,
+              "message_id": 1867,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 10. Tricuspid Regurgitation, Pulmonic Stenosis and Pulmonic Regurgitation",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-24T18:00:00Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/1867"
+            },
+            {
+              "id": "topic_-1003709841202_1868",
+              "subject_id": "medicine",
+              "module": "PrepLadder Edition X (Hinglish) - General Medicine",
+              "title": "11. Murmurs",
+              "filename": "11. Murmurs.mp4",
+              "file_size_bytes": 659113906,
+              "file_size_mb": 628.58,
+              "duration_seconds": 7094,
+              "duration_formatted": "1h 58m",
+              "chat_id": -1003709841202,
+              "message_id": 1868,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 11. Murmurs",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-24T18:00:00Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/1868"
+            },
+            {
+              "id": "topic_-1003709841202_1869",
+              "subject_id": "medicine",
+              "module": "PrepLadder Edition X (Hinglish) - General Medicine",
+              "title": "12. Takotsubo Cardiomyopathies and Brugada Syndrome",
+              "filename": "12. Takotsubo Cardiomyopathies and Brugada Syndrome.mp4",
+              "file_size_bytes": 261150981,
+              "file_size_mb": 249.05,
+              "duration_seconds": 2471,
+              "duration_formatted": "41m 11s",
+              "chat_id": -1003709841202,
+              "message_id": 1869,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 12. Takotsubo Cardiomyopathies and Brugada Syndrome",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-24T18:00:00Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/1869"
+            },
+            {
+              "id": "topic_-1003709841202_1870",
+              "subject_id": "medicine",
+              "module": "PrepLadder Edition X (Hinglish) - General Medicine",
+              "title": "13. ECG and Arrhythmias",
+              "filename": "13. ECG and Arrhythmias.mp4",
+              "file_size_bytes": 1878333,
+              "file_size_mb": 1.79,
+              "duration_seconds": 8,
+              "duration_formatted": "0m 8s",
+              "chat_id": -1003709841202,
+              "message_id": 1870,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 13. ECG and Arrhythmias",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-24T18:00:00Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/1870"
+            },
+            {
+              "id": "topic_-1003709841202_1871",
+              "subject_id": "medicine",
+              "module": "PrepLadder Edition X (Hinglish) - General Medicine",
+              "title": "14. ECG Changes in Hypokalemia & Hyperkalemia",
+              "filename": "14. ECG Changes in Hypokalemia & Hyperkalemia.mp4",
+              "file_size_bytes": 174427638,
+              "file_size_mb": 166.35,
+              "duration_seconds": 1849,
+              "duration_formatted": "30m 49s",
+              "chat_id": -1003709841202,
+              "message_id": 1871,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 14. ECG Changes in Hypokalemia & Hyperkalemia",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-24T18:00:00Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/1871"
+            },
+            {
+              "id": "topic_-1003709841202_1872",
+              "subject_id": "medicine",
+              "module": "PrepLadder Edition X (Hinglish) - General Medicine",
+              "title": "15. Ischemic Heart Disease Part 1",
+              "filename": "15. Ischemic Heart Disease Part 1.mp4",
+              "file_size_bytes": 773463191,
+              "file_size_mb": 737.63,
+              "duration_seconds": 6710,
+              "duration_formatted": "1h 51m",
+              "chat_id": -1003709841202,
+              "message_id": 1872,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 15. Ischemic Heart Disease Part 1",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-24T18:00:00Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/1872"
+            },
+            {
+              "id": "topic_-1003709841202_1873",
+              "subject_id": "medicine",
+              "module": "PrepLadder Edition X (Hinglish) - General Medicine",
+              "title": "16. Ischemic Heart Disease Part 2",
+              "filename": "16. Ischemic Heart Disease Part 2.mp4",
+              "file_size_bytes": 773983954,
+              "file_size_mb": 738.13,
+              "duration_seconds": 6860,
+              "duration_formatted": "1h 54m",
+              "chat_id": -1003709841202,
+              "message_id": 1873,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 16. Ischemic Heart Disease Part 2",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-24T18:00:00Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/1873"
+            },
+            {
+              "id": "topic_-1003709841202_1874",
+              "subject_id": "medicine",
+              "module": "PrepLadder Edition X (Hinglish) - General Medicine",
+              "title": "17. Symptomatic Bradycardia with a Pulse",
+              "filename": "17. Symptomatic Bradycardia with a Pulse.mp4",
+              "file_size_bytes": 271221741,
+              "file_size_mb": 258.66,
+              "duration_seconds": 2964,
+              "duration_formatted": "49m 24s",
+              "chat_id": -1003709841202,
+              "message_id": 1874,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 17. Symptomatic Bradycardia with a Pulse",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-24T18:00:00Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/1874"
+            },
+            {
+              "id": "topic_-1003709841202_1875",
+              "subject_id": "medicine",
+              "module": "PrepLadder Edition X (Hinglish) - General Medicine",
+              "title": "18. Congenital Heart Disease",
+              "filename": "18. Congenital Heart Disease.mp4",
+              "file_size_bytes": 587074885,
+              "file_size_mb": 559.88,
+              "duration_seconds": 5887,
+              "duration_formatted": "1h 38m",
+              "chat_id": -1003709841202,
+              "message_id": 1875,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 18. Congenital Heart Disease",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-24T18:00:00Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/1875"
+            },
+            {
+              "id": "topic_-1003709841202_1876",
+              "subject_id": "medicine",
+              "module": "PrepLadder Edition X (Hinglish) - General Medicine",
+              "title": "19. Metabolic-Syndrome-X and Syndrome-Z",
+              "filename": "19. Metabolic-Syndrome-X and Syndrome-Z.mp4",
+              "file_size_bytes": 161081162,
+              "file_size_mb": 153.62,
+              "duration_seconds": 1662,
+              "duration_formatted": "27m 42s",
+              "chat_id": -1003709841202,
+              "message_id": 1876,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 19. Metabolic-Syndrome-X and Syndrome-Z",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-24T18:00:00Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/1876"
+            },
+            {
+              "id": "topic_-1003709841202_1877",
+              "subject_id": "medicine",
+              "module": "PrepLadder Edition X (Hinglish) - General Medicine",
+              "title": "20. Hypertension",
+              "filename": "20. Hypertension.mp4",
+              "file_size_bytes": 902131164,
+              "file_size_mb": 860.34,
+              "duration_seconds": 7620,
+              "duration_formatted": "2h 7m",
+              "chat_id": -1003709841202,
+              "message_id": 1877,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 20. Hypertension",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-24T18:00:00Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/1877"
+            },
+            {
+              "id": "topic_-1003709841202_1878",
+              "subject_id": "medicine",
+              "module": "PrepLadder Edition X (Hinglish) - General Medicine",
+              "title": "21. Diseases of Pericardium",
+              "filename": "21. Diseases of Pericardium.mp4",
+              "file_size_bytes": 513493618,
+              "file_size_mb": 489.71,
+              "duration_seconds": 4222,
+              "duration_formatted": "1h 10m",
+              "chat_id": -1003709841202,
+              "message_id": 1878,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 21. Diseases of Pericardium",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-24T18:00:00Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/1878"
+            },
+            {
+              "id": "topic_-1003709841202_1879",
+              "subject_id": "medicine",
+              "module": "PrepLadder Edition X (Hinglish) - General Medicine",
+              "title": "22. Congestive Heart Failure",
+              "filename": "22. Congestive Heart Failure.mp4",
+              "file_size_bytes": 521392319,
+              "file_size_mb": 497.24,
+              "duration_seconds": 5696,
+              "duration_formatted": "1h 34m",
+              "chat_id": -1003709841202,
+              "message_id": 1879,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 22. Congestive Heart Failure",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-24T18:00:00Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/1879"
+            },
+            {
+              "id": "topic_-1003709841202_1880",
+              "subject_id": "medicine",
+              "module": "PrepLadder Edition X (Hinglish) - General Medicine",
+              "title": "23. Bundle Branch Block",
+              "filename": "23. Bundle Branch Block.mp4",
+              "file_size_bytes": 177956096,
+              "file_size_mb": 169.71,
+              "duration_seconds": 1294,
+              "duration_formatted": "21m 34s",
+              "chat_id": -1003709841202,
+              "message_id": 1880,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 23. Bundle Branch Block",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-24T18:00:00Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/1880"
+            },
+            {
+              "id": "topic_-1003709841202_1881",
+              "subject_id": "medicine",
+              "module": "PrepLadder Edition X (Hinglish) - General Medicine",
+              "title": "24. Rheumatic Heart Disease",
+              "filename": "24. Rheumatic Heart Disease.mp4",
+              "file_size_bytes": 413038929,
+              "file_size_mb": 393.9,
+              "duration_seconds": 4237,
+              "duration_formatted": "1h 10m",
+              "chat_id": -1003709841202,
+              "message_id": 1881,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 24. Rheumatic Heart Disease",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-24T18:00:00Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/1881"
+            },
+            {
+              "id": "topic_-1003709841202_1882",
+              "subject_id": "medicine",
+              "module": "PrepLadder Edition X (Hinglish) - General Medicine",
+              "title": "25. Infective Endocarditis",
+              "filename": "25. Infective Endocarditis.mp4",
+              "file_size_bytes": 568196066,
+              "file_size_mb": 541.87,
+              "duration_seconds": 5021,
+              "duration_formatted": "1h 23m",
+              "chat_id": -1003709841202,
+              "message_id": 1882,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 25. Infective Endocarditis",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-24T18:00:00Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/1882"
+            },
+            {
+              "id": "topic_-1003709841202_1883",
+              "subject_id": "medicine",
+              "module": "PrepLadder Edition X (Hinglish) - General Medicine",
+              "title": "26. Cardiomyopathy",
+              "filename": "26. Cardiomyopathy.mp4",
+              "file_size_bytes": 473100599,
+              "file_size_mb": 451.18,
+              "duration_seconds": 5752,
+              "duration_formatted": "1h 35m",
+              "chat_id": -1003709841202,
+              "message_id": 1883,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 26. Cardiomyopathy",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-24T18:00:00Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/1883"
+            },
+            {
+              "id": "topic_-1003709841202_1884",
+              "subject_id": "medicine",
+              "module": "PrepLadder Edition X (Hinglish) - General Medicine",
+              "title": "27. Multifocal Atrial Tachycardia",
+              "filename": "27. Multifocal Atrial Tachycardia.mp4",
+              "file_size_bytes": 94479677,
+              "file_size_mb": 90.1,
+              "duration_seconds": 943,
+              "duration_formatted": "15m 43s",
+              "chat_id": -1003709841202,
+              "message_id": 1884,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 27. Multifocal Atrial Tachycardia",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-24T18:00:00Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/1884"
+            },
+            {
+              "id": "topic_-1003709841202_1885",
+              "subject_id": "medicine",
+              "module": "PrepLadder Edition X (Hinglish) - General Medicine",
+              "title": "28. Cardiology Image Based Question",
+              "filename": "28. Cardiology Image Based Question.mp4",
+              "file_size_bytes": 570124031,
+              "file_size_mb": 543.71,
+              "duration_seconds": 4859,
+              "duration_formatted": "1h 20m",
+              "chat_id": -1003709841202,
+              "message_id": 1885,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 28. Cardiology Image Based Question",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-24T18:00:00Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/1885"
+            },
+            {
+              "id": "topic_-1003709841202_1886",
+              "subject_id": "medicine",
+              "module": "PrepLadder Edition X (Hinglish) - General Medicine",
+              "title": "29. Basic Life Support",
+              "filename": "29. Basic Life Support.mp4",
+              "file_size_bytes": 206423012,
+              "file_size_mb": 196.86,
+              "duration_seconds": 1915,
+              "duration_formatted": "31m 55s",
+              "chat_id": -1003709841202,
+              "message_id": 1886,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 29. Basic Life Support",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-24T18:00:00Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/1886"
+            },
+            {
+              "id": "topic_-1003709841202_1887",
+              "subject_id": "medicine",
+              "module": "PrepLadder Edition X (Hinglish) - General Medicine",
+              "title": "30. Pulseless Electrical Activity",
+              "filename": "30. Pulseless Electrical Activity.mp4",
+              "file_size_bytes": 148151302,
+              "file_size_mb": 141.29,
+              "duration_seconds": 1457,
+              "duration_formatted": "24m 17s",
+              "chat_id": -1003709841202,
+              "message_id": 1887,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 30. Pulseless Electrical Activity",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-24T18:00:00Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/1887"
+            },
+            {
+              "id": "topic_-1003709841202_1888",
+              "subject_id": "medicine",
+              "module": "PrepLadder Edition X (Hinglish) - General Medicine",
+              "title": "31. Advanced Cardiac Life Support",
+              "filename": "31. Advanced Cardiac Life Support.mp4",
+              "file_size_bytes": 274893861,
+              "file_size_mb": 262.16,
+              "duration_seconds": 2619,
+              "duration_formatted": "43m 39s",
+              "chat_id": -1003709841202,
+              "message_id": 1888,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 31. Advanced Cardiac Life Support",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-24T18:00:00Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/1888"
+            },
+            {
+              "id": "topic_-1003709841202_1889",
+              "subject_id": "medicine",
+              "module": "PrepLadder Edition X (Hinglish) - General Medicine",
+              "title": "32. Mechanical Ventilation",
+              "filename": "32. Mechanical Ventilation.mp4",
+              "file_size_bytes": 281282465,
+              "file_size_mb": 268.25,
+              "duration_seconds": 2358,
+              "duration_formatted": "39m 18s",
+              "chat_id": -1003709841202,
+              "message_id": 1889,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 32. Mechanical Ventilation",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-24T18:00:00Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/1889"
+            },
+            {
+              "id": "topic_-1003709841202_1890",
+              "subject_id": "medicine",
+              "module": "PrepLadder Edition X (Hinglish) - General Medicine",
+              "title": "33. Massive Transfusion Protocol",
+              "filename": "33. Massive Transfusion Protocol.mp4",
+              "file_size_bytes": 141853274,
+              "file_size_mb": 135.28,
+              "duration_seconds": 1325,
+              "duration_formatted": "22m 5s",
+              "chat_id": -1003709841202,
+              "message_id": 1890,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 33. Massive Transfusion Protocol",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-24T18:00:00Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/1890"
+            },
+            {
+              "id": "topic_-1003709841202_1891",
+              "subject_id": "medicine",
+              "module": "PrepLadder Edition X (Hinglish) - General Medicine",
+              "title": "34. Ards",
+              "filename": "34. ARDS.mp4",
+              "file_size_bytes": 375459708,
+              "file_size_mb": 358.07,
+              "duration_seconds": 3204,
+              "duration_formatted": "53m 24s",
+              "chat_id": -1003709841202,
+              "message_id": 1891,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 34. Ards",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-24T18:00:00Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/1891"
+            },
+            {
+              "id": "topic_-1003709841202_1892",
+              "subject_id": "medicine",
+              "module": "PrepLadder Edition X (Hinglish) - General Medicine",
+              "title": "35. Snake Bite",
+              "filename": "35. Snake Bite.mp4",
+              "file_size_bytes": 170078614,
+              "file_size_mb": 162.2,
+              "duration_seconds": 1794,
+              "duration_formatted": "29m 54s",
+              "chat_id": -1003709841202,
+              "message_id": 1892,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 35. Snake Bite",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-24T18:00:00Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/1892"
+            },
+            {
+              "id": "topic_-1003709841202_1893",
+              "subject_id": "medicine",
+              "module": "PrepLadder Edition X (Hinglish) - General Medicine",
+              "title": "36. High Altitude Pulmonary Edema",
+              "filename": "36. High Altitude Pulmonary Edema.mp4",
+              "file_size_bytes": 243784410,
+              "file_size_mb": 232.49,
+              "duration_seconds": 2676,
+              "duration_formatted": "44m 36s",
+              "chat_id": -1003709841202,
+              "message_id": 1893,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 36. High Altitude Pulmonary Edema",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-24T18:00:00Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/1893"
             }
           ]
         }

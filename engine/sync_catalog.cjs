@@ -51,6 +51,7 @@ function formatLectureTitle(rawTitle, subjectName, subjectId) {
   const m = t.match(/^(?:lecture\s*)?0*(\d+)[\.\s\-_:]*(.*)$/i);
   if (m) {
     const num = parseInt(m[1], 10);
+    if (num > 500) return toTitleCase(t);
     let rest = m[2].trim();
     if (!rest) {
       rest = subjectName ? `${subjectName} Part ${num}` : `Part ${num}`;
