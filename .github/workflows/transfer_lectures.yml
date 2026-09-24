@@ -8,8 +8,8 @@ name: Transfer Lectures from Telegram to OneDrive
 
 on:
   schedule:
-    # Runs automatically every 3 hours to maximize throughput without API flags
-    - cron: '0 */3 * * *'
+    # Runs every 3 hours at minute 17 (off-peak minute avoids GitHub's global top-of-the-hour queue delays)
+    - cron: '17 */3 * * *'
   workflow_dispatch:
     inputs:
       platform:
