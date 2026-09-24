@@ -51,13 +51,44 @@ PROJECT_DIR = Path(__file__).resolve().parent.parent
 MANIFEST_PATH = PROJECT_DIR / "engine" / "transfer_manifest.json"
 PUBLIC_MANIFEST_PATH = PROJECT_DIR / "public" / "transfer_manifest.json"
 SECTIONS_PATH = PROJECT_DIR / "engine" / "prepx_sections.json"
+MARROW_SECTIONS_PATH = PROJECT_DIR / "engine" / "marrow_sections.json"
 LEGACY_CATALOG_PATH = PROJECT_DIR / "public" / "catalog.json"
 PREPX_CHANNEL_ID = -1003709841202
+MARROW_CHANNEL_ID = -1003264222864
+
+def load_env_file():
+    env_file = PROJECT_DIR / ".env"
+    if env_file.exists():
+        with open(env_file, "r", encoding="utf-8") as f:
+            for line in f:
+                line = line.strip()
+                if line and not line.startswith("#") and "=" in line:
+                    k, v = line.split("=", 1)
+                    k = k.strip()
+                    v = v.strip().strip('"').strip("'")
+                    if k and k not in os.environ:
+                        os.environ[k] = v
+
+load_env_file()
 
 PLATFORM_FOLDER_MAP = {
     "prepx_en": "01_PrepLadder_X_English",
     "prepx_hi": "02_PrepLadder_X_Hinglish",
     "cerebellum": "03_Cerebellum_Academy",
+    "marrow": "04_Marrow_Edition_6",
+}
+
+MARROW_FINAL_YEAR_TOPICS = {
+    "surgery": 339,
+    "obg": 423,
+    "pediatrics": 252,
+    "orthopedics": 787,
+    "anesthesia": 575,
+    "dermatology": 310,
+    "psychiatry": 1293,
+    "radiology": 533,
+    "ophthalmology": 211,
+    "ent": 146,
 }
 
 SUBJECT_FOLDER_MAP = {
@@ -432,9 +463,10 @@ class OneDriveClient:
 
 
 class LectureTransferEngine:
-    def __init__(self, od_client: Optional[OneDriveClient], dry_run: bool = False):
+    def __init__(self, od_client: Optional[OneDriveClient], dry_run: bool = False, videos_only: bool = True):
         self.od_client = od_client
         self.dry_run = dry_run
+        self.videos_only = videos_only
         self.tg_client: Optional[TelegramClient] = None
         self.downloader: Optional[FastTelegramDownloader] = None
         self.manifest: Dict[str, Any] = self._load_manifest()
@@ -553,6 +585,44 @@ class LectureTransferEngine:
                     "subject_folder": folder_display,
                 })
 
+        # Load Marrow Final Year sections
+        if MARROW_SECTIONS_PATH.exists() and (not platform or platform.lower() in ("marrow", "all")):
+            try:
+                with open(MARROW_SECTIONS_PATH, "r", encoding="utf-8") as f:
+                    marrow_sections = json.load(f)
+
+                for sec in marrow_sections:
+                    sec_subj = sec["subject_id"]
+                    if target_subject and target_subject.lower() != "all":
+                        tgt = target_subject.lower().strip()
+                        if tgt == "obgyn":
+                            tgt = "obg"
+                        if tgt != sec_subj.lower():
+                            continue
+
+                    platform_folder = PLATFORM_FOLDER_MAP.get("marrow", "04_Marrow_Edition_6")
+                    subj_folder = SUBJECT_FOLDER_MAP.get(sec_subj, sec_subj)
+
+                    for vid in sec.get("videos", []):
+                        mid = vid["message_id"]
+                        item_id = f"mr_{MARROW_CHANNEL_ID}_{mid}"
+                        if item_id in self.manifest and self.manifest[item_id].get("status") == "completed":
+                            continue
+
+                        queue.append({
+                            "id": item_id,
+                            "chat_id": MARROW_CHANNEL_ID,
+                            "message_id": mid,
+                            "platform": "marrow",
+                            "platform_folder": platform_folder,
+                            "subject_id": sec_subj,
+                            "subject_name": f"Marrow {sec['title']}",
+                            "subject_folder": subj_folder,
+                            "preferred_title": vid.get("title"),
+                        })
+            except Exception as e:
+                print(f"[Warning] Failed to load marrow sections: {e}")
+
         return queue
 
     def _load_queue_legacy(self, target_subject: Optional[str] = None) -> List[Dict[str, Any]]:
@@ -617,7 +687,9 @@ class LectureTransferEngine:
 
         total_size = msg.file.size
         raw_fn = None
-        if msg.file and msg.file.name:
+        if item.get("preferred_title"):
+            raw_fn = item["preferred_title"]
+        elif msg.file and msg.file.name:
             raw_fn = msg.file.name
         elif msg.document and msg.document.attributes:
             for attr in msg.document.attributes:
@@ -635,10 +707,22 @@ class LectureTransferEngine:
         clean_name = sanitize_filename(raw_fn)
 
         is_pdf = clean_name.lower().endswith(".pdf") or "pdf" in clean_name.lower()
-        if not is_pdf and not clean_name.lower().endswith((".mp4", ".mkv")):
+        if not is_pdf and not clean_name.lower().endswith((".mp4", ".mkv", ".webm", ".mov")):
             clean_name += ".mp4"
 
-        clean_title = re.sub(r"\.(mp4|pdf|mkv)$", "", clean_name, flags=re.I).strip()
+        is_video = bool(msg.video) or (msg.file and msg.file.mime_type and msg.file.mime_type.startswith("video/")) or clean_name.lower().endswith((".mp4", ".mkv", ".webm", ".mov"))
+        if self.videos_only and (is_pdf or not is_video):
+            print(f"  [Notice] Skipping non-video file {clean_name} (--videos-only is enabled).")
+            self.manifest[item_id] = {
+                "status": "completed",
+                "type": "non_video_skipped",
+                "filename": clean_name,
+                "skipped": True,
+            }
+            self._save_manifest()
+            return
+
+        clean_title = re.sub(r"\.(mp4|pdf|mkv|webm|mov)$", "", clean_name, flags=re.I).strip()
         remote_path = f"Aspirin_LMS/{platform_folder}/{subj_folder}/{clean_name}"
 
         print(f"\n[{'PDF' if is_pdf else 'VIDEO'}] {platform_folder} / {subj_folder} -> {clean_name}")
@@ -709,7 +793,7 @@ class LectureTransferEngine:
         await asyncio.sleep(2)
 
 
-async def run_pipeline(platform: Optional[str] = None, subject: Optional[str] = None, limit: int = 20, dry_run: bool = False):
+async def run_pipeline(platform: Optional[str] = None, subject: Optional[str] = None, limit: int = 20, dry_run: bool = False, videos_only: bool = True):
     od_client = None
     if not dry_run:
         client_id = os.environ.get("ONEDRIVE_CLIENT_ID")
@@ -736,7 +820,7 @@ async def run_pipeline(platform: Optional[str] = None, subject: Optional[str] = 
             drive_target=drive_target,
         )
 
-    engine = LectureTransferEngine(od_client, dry_run=dry_run)
+    engine = LectureTransferEngine(od_client, dry_run=dry_run, videos_only=videos_only)
     await engine.init_telegram()
 
     queue = engine.load_queue(platform=platform, target_subject=subject)
@@ -744,6 +828,7 @@ async def run_pipeline(platform: Optional[str] = None, subject: Optional[str] = 
     print(f" Yui Pipeline: Telegram -> 25 TB SharePoint Drive (Fast & Ban-Proof)")
     print(f" Platform Edition:       {platform or 'ALL'}")
     print(f" Target Subject:         {subject or 'ALL'}")
+    print(f" Videos Only Filter:     {videos_only}")
     print(f" Total Pending in Queue: {len(queue)}")
     print(f" Batch Limit for run:    {limit}")
     if queue:
@@ -779,13 +864,14 @@ async def run_pipeline(platform: Optional[str] = None, subject: Optional[str] = 
 
 def main():
     parser = argparse.ArgumentParser(description="Yui Telegram to 25 TB SharePoint Migration Engine (Fast & Ban-Proof)")
-    parser.add_argument("--platform", default=None, help="Platform: 'prepx_en', 'prepx_hi', 'cerebellum', or 'all'")
-    parser.add_argument("--subject", default=None, help="Target subject (e.g. 'anatomy', 'notes_pdf', or 'all')")
+    parser.add_argument("--platform", default=None, help="Platform: 'prepx_en', 'prepx_hi', 'cerebellum', 'marrow', or 'all'")
+    parser.add_argument("--subject", default=None, help="Target subject (e.g. 'surgery', 'medicine', or 'all')")
     parser.add_argument("--limit", type=int, default=25, help="Max items to upload in this run (default: 25)")
     parser.add_argument("--dry-run", action="store_true", help="List files without actually uploading")
+    parser.add_argument("--videos-only", action="store_true", default=True, help="Only upload video files (default: True)")
 
     args = parser.parse_args()
-    asyncio.run(run_pipeline(platform=args.platform, subject=args.subject, limit=args.limit, dry_run=args.dry_run))
+    asyncio.run(run_pipeline(platform=args.platform, subject=args.subject, limit=args.limit, dry_run=args.dry_run, videos_only=args.videos_only))
 
 
 if __name__ == "__main__":

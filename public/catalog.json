@@ -1,6 +1,6 @@
 {
   "version": "2.2.0",
-  "updated_at": "2026-09-24T12:34:34.726Z",
+  "updated_at": "2026-09-24T13:14:15.837Z",
   "subjects": [
     {
       "id": "anatomy",
@@ -10,7 +10,7 @@
       "category": "Pre-Clinical",
       "icon": "Bone",
       "color": "#E11D48",
-      "total_topics": 9,
+      "total_topics": 7,
       "total_notes": 5,
       "modules": [
         {
@@ -132,6 +132,31 @@
               "thumbnail_url": "/api/thumbnail/-1003709841202/9"
             }
           ]
+        },
+        {
+          "id": "mod_cerebellum_anatomy",
+          "name": "Cerebellum Academy - Anatomy",
+          "topics": [
+            {
+              "id": "topic_-1003709841202_3995",
+              "subject_id": "anatomy",
+              "module": "Cerebellum Academy - Anatomy",
+              "title": "Anatomy (Dr. Shrikant Verma)",
+              "filename": "Anatomy (Dr. Shrikant Verma).pdf",
+              "file_size_bytes": 1001925432,
+              "file_size_mb": 955.51,
+              "duration_seconds": 0,
+              "duration_formatted": "0m",
+              "chat_id": -1003709841202,
+              "message_id": 3995,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in Anatomy (Dr. Shrikant Verma)",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-24T12:00:00Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/3995"
+            }
+          ]
         }
       ],
       "notes": [
@@ -157,9 +182,35 @@
       "category": "Pre-Clinical",
       "icon": "Activity",
       "color": "#EA580C",
-      "total_topics": 0,
+      "total_topics": 1,
       "total_notes": 4,
-      "modules": [],
+      "modules": [
+        {
+          "id": "mod_cerebellum_physiology",
+          "name": "Cerebellum Academy - Physiology",
+          "topics": [
+            {
+              "id": "topic_-1003709841202_3998",
+              "subject_id": "physiology",
+              "module": "Cerebellum Academy - Physiology",
+              "title": "Physiology (Dr. Pooja Nigade)",
+              "filename": "Physiology (Dr. Pooja Nigade).pdf",
+              "file_size_bytes": 902010166,
+              "file_size_mb": 860.22,
+              "duration_seconds": 0,
+              "duration_formatted": "0m",
+              "chat_id": -1003709841202,
+              "message_id": 3998,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in Physiology (Dr. Pooja Nigade)",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-24T12:00:00Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/3998"
+            }
+          ]
+        }
+      ],
       "notes": [
         {
           "id": "note_-1003709841202_3998",
@@ -183,9 +234,54 @@
       "category": "Pre-Clinical",
       "icon": "Dna",
       "color": "#D97706",
-      "total_topics": 0,
+      "total_topics": 2,
       "total_notes": 7,
-      "modules": [],
+      "modules": [
+        {
+          "id": "mod_cerebellum_biochemistry",
+          "name": "Cerebellum Academy - Biochemistry",
+          "topics": [
+            {
+              "id": "topic_-1003709841202_3996",
+              "subject_id": "biochemistry",
+              "module": "Cerebellum Academy - Biochemistry",
+              "title": "Biochemistry (Dr. Ankur Jain)",
+              "filename": "Biochemistry (Dr. Ankur Jain).pdf",
+              "file_size_bytes": 540683384,
+              "file_size_mb": 515.64,
+              "duration_seconds": 0,
+              "duration_formatted": "0m",
+              "chat_id": -1003709841202,
+              "message_id": 3996,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in Biochemistry (Dr. Ankur Jain)",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-24T12:00:00Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/3996"
+            },
+            {
+              "id": "topic_-1003709841202_3997",
+              "subject_id": "biochemistry",
+              "module": "Cerebellum Academy - Biochemistry",
+              "title": "Biochemistry (Dr. Smily Pruthi)",
+              "filename": "Biochemistry (Dr. Smily Pruthi).pdf",
+              "file_size_bytes": 191827522,
+              "file_size_mb": 182.94,
+              "duration_seconds": 0,
+              "duration_formatted": "0m",
+              "chat_id": -1003709841202,
+              "message_id": 3997,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in Biochemistry (Dr. Smily Pruthi)",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-24T12:00:00Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/3997"
+            }
+          ]
+        }
+      ],
       "notes": [
         {
           "id": "note_-1003709841202_3996",
@@ -221,7 +317,7 @@
       "category": "Para-Clinical",
       "icon": "Microscope",
       "color": "#7C3AED",
-      "total_topics": 3,
+      "total_topics": 0,
       "total_notes": 5,
       "modules": [],
       "notes": []
@@ -234,7 +330,7 @@
       "category": "Para-Clinical",
       "icon": "Pill",
       "color": "#2563EB",
-      "total_topics": 2,
+      "total_topics": 0,
       "total_notes": 4,
       "modules": [],
       "notes": []
@@ -256,7 +352,7 @@
       "id": "forensic_medicine",
       "name": "Forensic Medicine",
       "code": "FMT",
-      "prof": "2nd Prof",
+      "prof": "3rd Prof Part 1",
       "category": "Para-Clinical",
       "icon": "ShieldAlert",
       "color": "#4B5563",
@@ -282,7 +378,7 @@
       "id": "ophthalmology",
       "name": "Ophthalmology",
       "code": "OPHTH",
-      "prof": "3rd Prof Part 1",
+      "prof": "Final Prof Part 2",
       "category": "Clinical",
       "icon": "Eye",
       "color": "#0284C7",
@@ -295,11 +391,11 @@
       "id": "ent",
       "name": "ENT (Otorhinolaryngology)",
       "code": "ENT",
-      "prof": "3rd Prof Part 1",
+      "prof": "Final Prof Part 2",
       "category": "Clinical",
       "icon": "Ear",
       "color": "#059669",
-      "total_topics": 99,
+      "total_topics": 0,
       "total_notes": 43,
       "modules": [],
       "notes": []
@@ -312,7 +408,7 @@
       "category": "Clinical",
       "icon": "Stethoscope",
       "color": "#0284C7",
-      "total_topics": 277,
+      "total_topics": 141,
       "total_notes": 20,
       "modules": [
         {
@@ -2750,6 +2846,253 @@
               ],
               "date": "2026-09-24T09:24:04Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/817"
+            },
+            {
+              "id": "topic_-1003709841202_818",
+              "subject_id": "medicine",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
+              "title": "129. Pleural Effusion",
+              "filename": "129. Pleural Effusion.mp4",
+              "file_size_bytes": 316657516,
+              "file_size_mb": 301.99,
+              "duration_seconds": 3313,
+              "duration_formatted": "55m 13s",
+              "chat_id": -1003709841202,
+              "message_id": 818,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 129. Pleural Effusion",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-24T12:54:29Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/818"
+            },
+            {
+              "id": "topic_-1003709841202_819",
+              "subject_id": "medicine",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
+              "title": "130. Pneumothorax",
+              "filename": "130. Pneumothorax.mp4",
+              "file_size_bytes": 273149715,
+              "file_size_mb": 260.5,
+              "duration_seconds": 2594,
+              "duration_formatted": "43m 14s",
+              "chat_id": -1003709841202,
+              "message_id": 819,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 130. Pneumothorax",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-24T12:56:29Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/819"
+            },
+            {
+              "id": "topic_-1003709841202_820",
+              "subject_id": "medicine",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
+              "title": "131. Flow Volume Curve, Spirometry and DLCO",
+              "filename": "131. Flow Volume Curve, Spirometry and DLCO.mp4",
+              "file_size_bytes": 134889945,
+              "file_size_mb": 128.64,
+              "duration_seconds": 2286,
+              "duration_formatted": "38m 6s",
+              "chat_id": -1003709841202,
+              "message_id": 820,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 131. Flow Volume Curve, Spirometry and DLCO",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-24T12:57:34Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/820"
+            },
+            {
+              "id": "topic_-1003709841202_821",
+              "subject_id": "medicine",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
+              "title": "132. ABG Analysis Simplified Part 1",
+              "filename": "132. ABG Analysis Simplified Part 1.mp4",
+              "file_size_bytes": 339100344,
+              "file_size_mb": 323.39,
+              "duration_seconds": 0,
+              "duration_formatted": "0m",
+              "chat_id": -1003709841202,
+              "message_id": 821,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 132. ABG Analysis Simplified Part 1",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-24T13:00:10Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/821"
+            },
+            {
+              "id": "topic_-1003709841202_822",
+              "subject_id": "medicine",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
+              "title": "133. ABG Analysis Simplified Part 2",
+              "filename": "133. ABG Analysis Simplified Part 2.mp4",
+              "file_size_bytes": 269848500,
+              "file_size_mb": 257.35,
+              "duration_seconds": 2811,
+              "duration_formatted": "46m 51s",
+              "chat_id": -1003709841202,
+              "message_id": 822,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 133. ABG Analysis Simplified Part 2",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-24T13:02:06Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/822"
+            },
+            {
+              "id": "topic_-1003709841202_823",
+              "subject_id": "medicine",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
+              "title": "134. ABG Analysis Simplified Part 3",
+              "filename": "134. ABG Analysis Simplified Part 3.mp4",
+              "file_size_bytes": 240510235,
+              "file_size_mb": 229.37,
+              "duration_seconds": 1875,
+              "duration_formatted": "31m 15s",
+              "chat_id": -1003709841202,
+              "message_id": 823,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 134. ABG Analysis Simplified Part 3",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-24T13:03:56Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/823"
+            },
+            {
+              "id": "topic_-1003709841202_824",
+              "subject_id": "medicine",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
+              "title": "135. Fever of Unknown Origin",
+              "filename": "135. Fever of Unknown Origin.mp4",
+              "file_size_bytes": 232139675,
+              "file_size_mb": 221.39,
+              "duration_seconds": 2427,
+              "duration_formatted": "40m 27s",
+              "chat_id": -1003709841202,
+              "message_id": 824,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 135. Fever of Unknown Origin",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-24T13:05:36Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/824"
+            },
+            {
+              "id": "topic_-1003709841202_825",
+              "subject_id": "medicine",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
+              "title": "136. Dengue Fever",
+              "filename": "136. Dengue Fever.mp4",
+              "file_size_bytes": 198581268,
+              "file_size_mb": 189.38,
+              "duration_seconds": 1936,
+              "duration_formatted": "32m 16s",
+              "chat_id": -1003709841202,
+              "message_id": 825,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 136. Dengue Fever",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-24T13:06:59Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/825"
+            },
+            {
+              "id": "topic_-1003709841202_826",
+              "subject_id": "medicine",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
+              "title": "137. Nipah, Zika and Monkeypox",
+              "filename": "137. Nipah, Zika and Monkeypox.mp4",
+              "file_size_bytes": 94665721,
+              "file_size_mb": 90.28,
+              "duration_seconds": 1263,
+              "duration_formatted": "21m 3s",
+              "chat_id": -1003709841202,
+              "message_id": 826,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 137. Nipah, Zika and Monkeypox",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-24T13:07:42Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/826"
+            },
+            {
+              "id": "topic_-1003709841202_827",
+              "subject_id": "medicine",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
+              "title": "138. Pneumocystis Jiroveci",
+              "filename": "138. Pneumocystis Jiroveci.mp4",
+              "file_size_bytes": 99995447,
+              "file_size_mb": 95.36,
+              "duration_seconds": 1059,
+              "duration_formatted": "17m 39s",
+              "chat_id": -1003709841202,
+              "message_id": 827,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 138. Pneumocystis Jiroveci",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-24T13:08:26Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/827"
+            },
+            {
+              "id": "topic_-1003709841202_828",
+              "subject_id": "medicine",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
+              "title": "139. Aspergillosis",
+              "filename": "139. Aspergillosis.mp4",
+              "file_size_bytes": 101242494,
+              "file_size_mb": 96.55,
+              "duration_seconds": 1261,
+              "duration_formatted": "21m 1s",
+              "chat_id": -1003709841202,
+              "message_id": 828,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 139. Aspergillosis",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-24T13:09:06Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/828"
+            },
+            {
+              "id": "topic_-1003709841202_829",
+              "subject_id": "medicine",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
+              "title": "140. AIDS",
+              "filename": "140. AIDS.mp4",
+              "file_size_bytes": 270704661,
+              "file_size_mb": 258.16,
+              "duration_seconds": 3544,
+              "duration_formatted": "59m 4s",
+              "chat_id": -1003709841202,
+              "message_id": 829,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 140. AIDS",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-24T13:10:57Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/829"
+            },
+            {
+              "id": "topic_-1003709841202_830",
+              "subject_id": "medicine",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
+              "title": "141. SARS COV-2-COVID-19",
+              "filename": "141. SARS COV-2-COVID-19.mp4",
+              "file_size_bytes": 172743442,
+              "file_size_mb": 164.74,
+              "duration_seconds": 2269,
+              "duration_formatted": "37m 49s",
+              "chat_id": -1003709841202,
+              "message_id": 830,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 141. SARS COV-2-COVID-19",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-24T13:12:14Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/830"
             }
           ]
         }
@@ -2764,7 +3107,7 @@
       "category": "Clinical",
       "icon": "Scissors",
       "color": "#DC2626",
-      "total_topics": 18,
+      "total_topics": 0,
       "total_notes": 3,
       "modules": [],
       "notes": []
@@ -2777,7 +3120,7 @@
       "category": "Clinical",
       "icon": "HeartHandshake",
       "color": "#DB2777",
-      "total_topics": 6,
+      "total_topics": 0,
       "total_notes": 4,
       "modules": [],
       "notes": []
@@ -2803,7 +3146,7 @@
       "category": "Clinical",
       "icon": "Footprints",
       "color": "#65A30D",
-      "total_topics": 13,
+      "total_topics": 0,
       "total_notes": 5,
       "modules": [],
       "notes": []
@@ -2816,7 +3159,7 @@
       "category": "Clinical",
       "icon": "Sparkles",
       "color": "#9333EA",
-      "total_topics": 5,
+      "total_topics": 0,
       "total_notes": 4,
       "modules": [],
       "notes": []
@@ -2829,7 +3172,7 @@
       "category": "Clinical",
       "icon": "Brain",
       "color": "#4F46E5",
-      "total_topics": 1,
+      "total_topics": 0,
       "total_notes": 4,
       "modules": [],
       "notes": []
@@ -2842,7 +3185,7 @@
       "category": "Clinical",
       "icon": "Scan",
       "color": "#0891B2",
-      "total_topics": 3,
+      "total_topics": 0,
       "total_notes": 4,
       "modules": [],
       "notes": []
@@ -2855,7 +3198,7 @@
       "category": "Clinical",
       "icon": "Wind",
       "color": "#475569",
-      "total_topics": 24,
+      "total_topics": 0,
       "total_notes": 5,
       "modules": [],
       "notes": []

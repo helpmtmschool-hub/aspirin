@@ -15,7 +15,7 @@ export const PlatformModal: React.FC<PlatformModalProps> = ({
   onClose,
   onSelectPlatform,
 }) => {
-  const platforms: PlatformId[] = ['prepx_en', 'prepx_hi', 'cerebellum'];
+  const platforms: PlatformId[] = ['prepx_en', 'prepx_hi', 'cerebellum', 'marrow'];
 
   return (
     <AnimatePresence>

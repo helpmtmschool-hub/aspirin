@@ -4,7 +4,7 @@ export type MBBSProf =
   | '3rd Prof Part 1'
   | 'Final Prof Part 2';
 
-export type PlatformId = 'prepx_en' | 'prepx_hi' | 'cerebellum';
+export type PlatformId = 'prepx_en' | 'prepx_hi' | 'cerebellum' | 'marrow';
 
 export interface PlatformMetadata {
   id: PlatformId;

@@ -39,6 +39,15 @@ export const PLATFORMS: Record<PlatformId, PlatformMetadata> = {
     badgeColor: 'from-rose-600 to-red-600',
     facultyHighlight: 'Dr. Gobind Rai Garg, Dr. Shrikant Verma, Dr. Vivek Jain',
   },
+  marrow: {
+    id: 'marrow',
+    name: 'Marrow Edition 6',
+    shortName: 'Marrow E6',
+    tagline: 'Standard Edition 6 clinical QBank & clinical video masterclasses',
+    badge: 'MARROW E6',
+    badgeColor: 'from-emerald-600 to-teal-700',
+    facultyHighlight: 'Dr. Rohan Khandelwal, Dr. Sakshi Arora, Dr. Abbas Ali',
+  },
 };
 
 export const SUBJECT_VISUALS: Record<string, SubjectVisual> = {
@@ -89,14 +98,14 @@ export const SUBJECT_VISUALS: Record<string, SubjectVisual> = {
     emoji: '⚖️',
     iconName: 'Scale',
     tagline: 'Medical Jurisprudence, Thanatology, Autopsy & Clinical Toxicology',
-    prof: '2nd Prof',
+    prof: '3rd Prof Part 1',
   },
   fmt: {
     id: 'forensic_medicine',
     emoji: '⚖️',
     iconName: 'Scale',
     tagline: 'Medical Jurisprudence, Thanatology, Autopsy & Clinical Toxicology',
-    prof: '2nd Prof',
+    prof: '3rd Prof Part 1',
   },
   psm: {
     id: 'psm',
@@ -110,14 +119,14 @@ export const SUBJECT_VISUALS: Record<string, SubjectVisual> = {
     emoji: '👁️',
     iconName: 'Eye',
     tagline: 'Cornea, Cataract, Glaucoma, Retina, Strabismus & Neuro-Ophthalmology',
-    prof: '3rd Prof Part 1',
+    prof: 'Final Prof Part 2',
   },
   ent: {
     id: 'ent',
     emoji: '👂',
     iconName: 'Ear',
     tagline: 'Otology, Audiology, Rhinology, Larynx, Head & Neck Surgery',
-    prof: '3rd Prof Part 1',
+    prof: 'Final Prof Part 2',
   },
   medicine: {
     id: 'medicine',
@@ -243,7 +252,11 @@ export class LMSApiService {
   public static detectPlatform(item: { chat_id?: number; message_id?: number; filename?: string; title?: string }): PlatformId {
     const fn = (item.filename || item.title || '').toLowerCase();
     const msgId = item.message_id || 0;
+    const chatId = item.chat_id || 0;
 
+    if (chatId === -1003264222864 || fn.includes('marrow') || (item.title && item.title.toLowerCase().includes('marrow'))) {
+      return 'marrow';
+    }
     if (fn.includes('cerebellu') || fn.includes('dr.') || fn.includes('dr ') || msgId >= 2382) {
       return 'cerebellum';
     }
@@ -311,6 +324,7 @@ export class LMSApiService {
         prepx_en: { platform_id: 'prepx_en', subject_id: sub.id, modules: [], notes: [] },
         prepx_hi: { platform_id: 'prepx_hi', subject_id: sub.id, modules: [], notes: [] },
         cerebellum: { platform_id: 'cerebellum', subject_id: sub.id, modules: [], notes: [] },
+        marrow: { platform_id: 'marrow', subject_id: sub.id, modules: [], notes: [] },
       };
 
       // 1. Process Modules & Topics

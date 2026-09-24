@@ -20,6 +20,26 @@ const PROF_TABS: (MBBSProf | 'all')[] = [
   'Final Prof Part 2',
 ];
 
+const getProfTabLabel = (prof: MBBSProf | 'all') => {
+  switch (prof) {
+    case 'all': return 'All 19 Subjects';
+    case '1st Prof': return '1st Year (1st Prof)';
+    case '2nd Prof': return '2nd Year (2nd Prof)';
+    case '3rd Prof Part 1': return '3rd Year (Part 1)';
+    case 'Final Prof Part 2': return 'Final Year (Part 2)';
+  }
+};
+
+const getProfYearBadge = (prof: MBBSProf | string) => {
+  switch (prof) {
+    case '1st Prof': return '1st Year • 1st Prof';
+    case '2nd Prof': return '2nd Year • 2nd Prof';
+    case '3rd Prof Part 1': return '3rd Year • Part 1';
+    case 'Final Prof Part 2': return 'Final Year • Part 2';
+    default: return prof;
+  }
+};
+
 // Clay Saturated Card Color Mapper based on Medical Curriculum hierarchy
 const getSubjectClayTheme = (subject: Subject) => {
   switch (subject.id) {
@@ -87,7 +107,7 @@ export const SubjectGrid: React.FC<SubjectGridProps> = ({
             19 MBBS Subjects Curriculum
           </h2>
           <p className="text-xs sm:text-sm text-[#6a6a6a]">
-            Choose between PrepLadder Edition X (English / Hinglish) and Cerebellum Academy faculty tracks.
+            Choose between PrepLadder Edition X, Cerebellum Academy, and Marrow Edition 6 clinical tracks.
           </p>
         </div>
 
@@ -111,7 +131,7 @@ export const SubjectGrid: React.FC<SubjectGridProps> = ({
                   />
                 )}
                 <span className="relative z-10">
-                  {prof === 'all' ? 'All 19 Subjects' : prof}
+                  {getProfTabLabel(prof)}
                 </span>
               </button>
             );
@@ -144,7 +164,7 @@ export const SubjectGrid: React.FC<SubjectGridProps> = ({
                 {/* Top Badge & Category */}
                 <div className="flex items-center justify-between">
                   <span className={`px-2.5 py-0.5 rounded-full ${theme.badge} text-[10px] font-mono font-bold uppercase tracking-wider`}>
-                    {sub.prof}
+                    {getProfYearBadge(sub.prof)}
                   </span>
                   <span className={`text-[10px] font-bold uppercase tracking-wider font-mono opacity-80`}>
                     {sub.category}
@@ -183,7 +203,7 @@ export const SubjectGrid: React.FC<SubjectGridProps> = ({
                 <div className="flex flex-wrap items-center gap-1.5 pt-1">
                   {(sub.available_platforms && sub.available_platforms.length > 0
                     ? sub.available_platforms
-                    : (['prepx_en', 'cerebellum'] as PlatformId[])
+                    : (['prepx_en', 'cerebellum', 'marrow'] as PlatformId[])
                   ).map((pid) => {
                     const p = PLATFORMS[pid];
                     if (!p) return null;

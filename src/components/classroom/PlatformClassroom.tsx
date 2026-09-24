@@ -153,7 +153,7 @@ export const PlatformClassroom: React.FC<PlatformClassroomProps> = ({
         <div className="flex items-center gap-1 p-1 rounded-full bg-[#f5f0e0] border border-[#e5e5e5] overflow-x-auto max-w-full relative self-start sm:self-auto">
           {(subject.available_platforms && subject.available_platforms.length > 0 
             ? subject.available_platforms 
-            : (['prepx_en', 'prepx_hi', 'cerebellum'] as PlatformId[])
+            : (['prepx_en', 'prepx_hi', 'cerebellum', 'marrow'] as PlatformId[])
           ).map((pid) => {
             const p = PLATFORMS[pid];
             if (!p) return null;
