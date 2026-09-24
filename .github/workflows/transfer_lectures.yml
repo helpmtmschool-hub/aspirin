@@ -119,7 +119,6 @@ jobs:
           TELEGRAM_API_HASH: ${{ secrets.TELEGRAM_API_HASH }}
           TELEGRAM_SESSION_STRING: ${{ secrets.TELEGRAM_SESSION_STRING }}
           ONEDRIVE_CLIENT_ID: ${{ secrets.ONEDRIVE_CLIENT_ID }}
-          ONEDRIVE_CLIENT_SECRET: ${{ secrets.ONEDRIVE_CLIENT_SECRET }}
           ONEDRIVE_REFRESH_TOKEN: ${{ secrets.ONEDRIVE_REFRESH_TOKEN }}
           ONEDRIVE_TENANT_ID: ${{ secrets.ONEDRIVE_TENANT_ID || '938a1924-0af0-4599-819b-177a1dcf8fd6' }}
           ONEDRIVE_DRIVE_TARGET: "sites/root/drive"
@@ -132,7 +131,6 @@ jobs:
           node engine/sync_catalog.cjs
         env:
           ONEDRIVE_CLIENT_ID: ${{ secrets.ONEDRIVE_CLIENT_ID }}
-          ONEDRIVE_CLIENT_SECRET: ${{ secrets.ONEDRIVE_CLIENT_SECRET }}
           ONEDRIVE_REFRESH_TOKEN: ${{ secrets.ONEDRIVE_REFRESH_TOKEN }}
           ONEDRIVE_TENANT_ID: ${{ secrets.ONEDRIVE_TENANT_ID || '938a1924-0af0-4599-819b-177a1dcf8fd6' }}
 
