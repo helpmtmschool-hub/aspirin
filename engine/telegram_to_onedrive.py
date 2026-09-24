@@ -859,6 +859,18 @@ class LectureTransferEngine:
             self._save_manifest()
             return
 
+        # Safeguard: Skip dummy 8-second 1.79MB placeholder clips in Telegram channels
+        if not is_pdf and total_size < 3 * 1024 * 1024:
+            print(f"  [Notice] Skipping dummy placeholder clip {clean_name} ({round(total_size / (1024*1024), 2)} MB).")
+            self.manifest[item_id] = {
+                "status": "completed",
+                "type": "dummy_placeholder_skipped",
+                "filename": clean_name,
+                "skipped": True,
+            }
+            self._save_manifest()
+            return
+
         # Ensure strict sequential title formatting: e.g. '1. How to Read Surgery'
         clean_title = normalize_lecture_title(raw_fn, item.get("subject_name", ""), item.get("subject_id", ""))
         clean_name = f"{clean_title}.pdf" if is_pdf else f"{clean_title}.mp4"

@@ -2920,22 +2920,10 @@
     "skipped": true
   },
   "px_-1003709841202_1858": {
-    "title": "01. Introduction to Medicine",
-    "filename": "01. Introduction to Medicine.mp4",
-    "platform": "prepx_hi",
-    "subject_id": "medicine",
-    "folder_path": "02_PrepLadder_X_Hinglish/11_General_Medicine",
-    "telegram_chat_id": -1003709841202,
-    "telegram_message_id": 1858,
-    "onedrive_item_id": "01UVXU6W7B733K2UHW5RBYIG7DL3QFIPSP",
-    "onedrive_path": "/Aspirin_LMS/02_PrepLadder_X_Hinglish/11_General_Medicine/01. Introduction to Medicine.mp4",
-    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/02_PrepLadder_X_Hinglish/11_General_Medicine/01.%20Introduction%20to%20Medicine.mp4",
-    "size_bytes": 1878333,
-    "uploaded_at": "2026-09-24T18:00:00Z",
     "status": "completed",
-    "duration_seconds": 8,
-    "duration_formatted": "0m 8s",
-    "resolution": "1280x720"
+    "type": "dummy_placeholder_skipped",
+    "text": "Dummy #1 placeholder - Real is msg 1999",
+    "skipped": true
   },
   "px_-1003709841202_1859": {
     "title": "02. Heart Sounds Part 1",
@@ -3550,21 +3538,15 @@
     "resolution": "1280x720"
   },
   "px_-1003709841202_1870": {
-    "title": "13. ECG and Arrhythmias",
-    "filename": "13. ECG and Arrhythmias.mp4",
-    "platform": "prepx_hi",
-    "subject_id": "medicine",
-    "folder_path": "02_PrepLadder_X_Hinglish/11_General_Medicine",
-    "telegram_chat_id": -1003709841202,
-    "telegram_message_id": 1870,
-    "onedrive_item_id": "01UVXU6W4MXEB7MQUWJ5BIK25M7BTRJ52Y",
-    "onedrive_path": "/Aspirin_LMS/02_PrepLadder_X_Hinglish/11_General_Medicine/13. ECG and Arrhythmias.mp4",
-    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/02_PrepLadder_X_Hinglish/11_General_Medicine/13.%20ECG%20and%20Arrhythmias.mp4",
-    "size_bytes": 1878333,
-    "uploaded_at": "2026-09-24T18:00:00Z",
     "status": "completed",
-    "duration_seconds": 8,
-    "duration_formatted": "0m 8s",
-    "resolution": "1280x720"
+    "type": "dummy_placeholder_skipped",
+    "text": "Dummy #13 placeholder - Real is msg 2000",
+    "skipped": true
+  },
+  "px_-1003709841202_1930": {
+    "status": "completed",
+    "type": "dummy_placeholder_skipped",
+    "text": "Dummy #73 placeholder - Real is msg 2001",
+    "skipped": true
   }
 }

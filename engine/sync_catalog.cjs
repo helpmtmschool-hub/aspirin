@@ -189,10 +189,23 @@ async function syncCatalog() {
     subjectMap.set(sub.id, sub);
   }
 
+  // Purge any skipped or incomplete topics from catalog
+  for (const [key, item] of Object.entries(manifest)) {
+    if (item.skipped || !item.onedrive_item_id || item.type === 'separator' || item.type === 'dummy_placeholder_skipped') {
+      const parts = key.split('_');
+      const chatId = item.telegram_chat_id || item.chat_id || (parts.length >= 3 ? parseInt(parts[1], 10) : -1003709841202);
+      const msgId = item.telegram_message_id || item.message_id || (parts.length >= 3 ? parseInt(parts[2], 10) : 0);
+      const topicId = `topic_${chatId}_${msgId}`;
+      for (const s of catalog.subjects || []) {
+        for (const m of s.modules || []) {
+          m.topics = m.topics.filter(t => t.id !== topicId);
+        }
+      }
+    }
+  }
+
   // Map manifest items to topics in catalog
   for (const [key, item] of completed) {
-    if (item.type === 'separator' || item.type === 'non_video_skipped') continue;
-
     let subId = item.subject_id;
     if (subId === 'obg') subId = 'obgyn';
     if (subId === 'anesthesia') subId = 'anesthesiology';
@@ -256,7 +269,6 @@ async function syncCatalog() {
       }
     }
 
-    // Extract chatId and msgId reliably from item or key
     const parts = key.split('_');
     const chatId = item.telegram_chat_id || item.chat_id || (parts.length >= 3 ? parseInt(parts[1], 10) : -1003709841202);
     const msgId = item.telegram_message_id || item.message_id || (parts.length >= 3 ? parseInt(parts[2], 10) : 0);

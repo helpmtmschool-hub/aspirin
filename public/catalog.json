@@ -1,6 +1,6 @@
 {
   "version": "2.2.0",
-  "updated_at": "2026-09-24T18:36:11.474Z",
+  "updated_at": "2026-09-24T18:46:01.094Z",
   "subjects": [
     {
       "id": "anatomy",
@@ -408,7 +408,7 @@
       "category": "Clinical",
       "icon": "Stethoscope",
       "color": "#0284C7",
-      "total_topics": 177,
+      "total_topics": 175,
       "total_notes": 20,
       "modules": [
         {
@@ -3101,25 +3101,6 @@
           "name": "PrepLadder Edition X (Hinglish) - General Medicine",
           "topics": [
             {
-              "id": "topic_-1003709841202_1858",
-              "subject_id": "medicine",
-              "module": "PrepLadder Edition X (Hinglish) - General Medicine",
-              "title": "1. Introduction to Medicine",
-              "filename": "01. Introduction to Medicine.mp4",
-              "file_size_bytes": 1878333,
-              "file_size_mb": 1.79,
-              "duration_seconds": 8,
-              "duration_formatted": "0m 8s",
-              "chat_id": -1003709841202,
-              "message_id": 1858,
-              "pearls": [
-                "Key clinical concepts and high-yield examination pearls in 1. Introduction to Medicine",
-                "Essential clinical reasoning, diagnostic criteria and management guidelines"
-              ],
-              "date": "2026-09-24T18:00:00Z",
-              "thumbnail_url": "/api/thumbnail/-1003709841202/1858"
-            },
-            {
               "id": "topic_-1003709841202_1859",
               "subject_id": "medicine",
               "module": "PrepLadder Edition X (Hinglish) - General Medicine",
@@ -3327,25 +3308,6 @@
               ],
               "date": "2026-09-24T18:00:00Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/1869"
-            },
-            {
-              "id": "topic_-1003709841202_1870",
-              "subject_id": "medicine",
-              "module": "PrepLadder Edition X (Hinglish) - General Medicine",
-              "title": "13. ECG and Arrhythmias",
-              "filename": "13. ECG and Arrhythmias.mp4",
-              "file_size_bytes": 1878333,
-              "file_size_mb": 1.79,
-              "duration_seconds": 8,
-              "duration_formatted": "0m 8s",
-              "chat_id": -1003709841202,
-              "message_id": 1870,
-              "pearls": [
-                "Key clinical concepts and high-yield examination pearls in 13. ECG and Arrhythmias",
-                "Essential clinical reasoning, diagnostic criteria and management guidelines"
-              ],
-              "date": "2026-09-24T18:00:00Z",
-              "thumbnail_url": "/api/thumbnail/-1003709841202/1870"
             },
             {
               "id": "topic_-1003709841202_1871",
