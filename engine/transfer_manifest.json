@@ -2813,7 +2813,7 @@
     "status": "completed"
   },
   "mr_-1003264222864_344": {
-    "title": "5. Case of Post Op Fever",
+    "title": "5. Case of Post-Op Fever",
     "filename": "5 case of post op fever.mp4",
     "platform": "marrow",
     "subject_id": "surgery",
@@ -3923,7 +3923,7 @@
     "status": "completed"
   },
   "mr_-1003264222864_368": {
-    "title": "29. Intestinal Obstruction",
+    "title": "29. Intestinal Obstruction Part 1",
     "filename": "29. Intestinal Obstruction.mp4",
     "platform": "marrow",
     "subject_id": "surgery",
@@ -3961,7 +3961,7 @@
     "status": "completed"
   },
   "mr_-1003264222864_370": {
-    "title": "31. Small and Large Bowel Condition",
+    "title": "31. Small and Large Bowel Conditions",
     "filename": "31. Small and Large Bowel Condition.mp4",
     "platform": "marrow",
     "subject_id": "surgery",
@@ -3999,7 +3999,7 @@
     "status": "completed"
   },
   "mr_-1003264222864_372": {
-    "title": "33. Colorectal Poly Part 1",
+    "title": "33. Colorectal Polyps Part 1",
     "filename": "33. Colorectal Poly Part 1.mp4",
     "platform": "marrow",
     "subject_id": "surgery",
@@ -4018,7 +4018,7 @@
     "status": "completed"
   },
   "mr_-1003264222864_373": {
-    "title": "34. Colorectal Poly Part 2",
+    "title": "34. Colorectal Polyps Part 2",
     "filename": "34. Colorectal Poly Part 2.mp4",
     "platform": "marrow",
     "subject_id": "surgery",
@@ -4037,7 +4037,7 @@
     "status": "completed"
   },
   "mr_-1003264222864_374": {
-    "title": "35. Rectal and Anal Disease Part 1",
+    "title": "35. Rectal and Anal Diseases Part 1",
     "filename": "35. Rectal and Anal Disease Part 1.mp4",
     "platform": "marrow",
     "subject_id": "surgery",
@@ -4056,7 +4056,7 @@
     "status": "completed"
   },
   "mr_-1003264222864_375": {
-    "title": "36. Rectum and Anal Disease Part 2",
+    "title": "36. Rectal and Anal Diseases Part 2",
     "filename": "36. Rectum and Anal Disease Part 2.mp4",
     "platform": "marrow",
     "subject_id": "surgery",
@@ -4132,7 +4132,7 @@
     "status": "completed"
   },
   "mr_-1003264222864_379": {
-    "title": "40. Gall Bladder and Billary Tree Part 1",
+    "title": "40. Gall Bladder and Biliary Tree Part 1",
     "filename": "40. Gall Bladder and Billary Tree Part 1.mp4",
     "platform": "marrow",
     "subject_id": "surgery",
@@ -4151,7 +4151,7 @@
     "status": "completed"
   },
   "mr_-1003264222864_380": {
-    "title": "41. Gall Bladder and Billiary Tree Part 2",
+    "title": "41. Gall Bladder and Biliary Tree Part 2",
     "filename": "41. Gall Bladder and Billiary Tree Part 2.mp4",
     "platform": "marrow",
     "subject_id": "surgery",
@@ -4170,7 +4170,7 @@
     "status": "completed"
   },
   "mr_-1003264222864_381": {
-    "title": "42. Benign Pancreatic Condition",
+    "title": "42. Benign Pancreatic Conditions",
     "filename": "42. Benign Pancreatic Condition.mp4",
     "platform": "marrow",
     "subject_id": "surgery",
@@ -4189,7 +4189,7 @@
     "status": "completed"
   },
   "mr_-1003264222864_382": {
-    "title": "43. Pancreatic Conditions Part 2",
+    "title": "43. Malignant Pancreatic Conditions",
     "filename": "43. Pancreatic Conditions Part 2.mp4",
     "platform": "marrow",
     "subject_id": "surgery",
@@ -4208,7 +4208,7 @@
     "status": "completed"
   },
   "mr_-1003264222864_383": {
-    "title": "44. Clinical Case Discussion Lump",
+    "title": "44. Clinical Case Discussion - Lump",
     "filename": "44. Clinical Case Discussion Lump.mp4",
     "platform": "marrow",
     "subject_id": "surgery",
@@ -4219,15 +4219,15 @@
     "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/12_General_Surgery/44. Clinical Case Discussion Lump.mp4",
     "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/12_General_Surgery/44.%20Clinical%20Case%20Discussion%20Lump.mp4",
     "size_bytes": 241422597,
-    "duration_seconds": null,
-    "duration_formatted": null,
-    "resolution": null,
+    "duration_seconds": 1948,
+    "duration_formatted": "32m 28s",
+    "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/383",
     "uploaded_at": "2026-09-25T08:02:41Z",
     "status": "completed"
   },
   "mr_-1003264222864_384": {
-    "title": "45. Inguinal Hernia Part 1",
+    "title": "45. Abdominal Emergencies - Clinical Scenarios",
     "filename": "45. Inguinal Hernia Part 1.mp4",
     "platform": "marrow",
     "subject_id": "surgery",
@@ -4246,7 +4246,7 @@
     "status": "completed"
   },
   "mr_-1003264222864_385": {
-    "title": "46. Inguinal Hernia Part 2",
+    "title": "46. Testicular Disorders Part 1",
     "filename": "46. Inguinal Hernia Part 2.mp4",
     "platform": "marrow",
     "subject_id": "surgery",
@@ -4265,7 +4265,7 @@
     "status": "completed"
   },
   "mr_-1003264222864_386": {
-    "title": "47. Ventral and Umbilical Hernia",
+    "title": "47. Testicular Disorders Part 2",
     "filename": "47. Ventral and Umbilical Hernia.mp4",
     "platform": "marrow",
     "subject_id": "surgery",
@@ -4284,7 +4284,7 @@
     "status": "completed"
   },
   "mr_-1003264222864_387": {
-    "title": "48. Other Hernias",
+    "title": "48. Clinical Case of a Scrotal Swelling",
     "filename": "48. Other Hernias.mp4",
     "platform": "marrow",
     "subject_id": "surgery",
@@ -4303,7 +4303,7 @@
     "status": "completed"
   },
   "mr_-1003264222864_388": {
-    "title": "49. Abdominal Wall and Umbilicus",
+    "title": "49. Urethral and Penile Disorders",
     "filename": "49. Abdominal Wall and Umbilicus.mp4",
     "platform": "marrow",
     "subject_id": "surgery",
@@ -4322,7 +4322,7 @@
     "status": "completed"
   },
   "mr_-1003264222864_389": {
-    "title": "50. Peritoneum and Mesentery",
+    "title": "50. Kidney Part 1",
     "filename": "50. Peritoneum and Mesentery.mp4",
     "platform": "marrow",
     "subject_id": "surgery",
@@ -4341,7 +4341,7 @@
     "status": "completed"
   },
   "mr_-1003264222864_390": {
-    "title": "51. Arterial Disorders Part 1",
+    "title": "51. Kidney Part 2",
     "filename": "51. Arterial Disorders Part 1.mp4",
     "platform": "marrow",
     "subject_id": "surgery",
@@ -4360,7 +4360,7 @@
     "status": "completed"
   },
   "mr_-1003264222864_391": {
-    "title": "52. Arterial Disorders Part 2",
+    "title": "52. Urinary Bladder",
     "filename": "52. Arterial Disorders Part 2.mp4",
     "platform": "marrow",
     "subject_id": "surgery",
@@ -4379,7 +4379,7 @@
     "status": "completed"
   },
   "mr_-1003264222864_392": {
-    "title": "53. Venous Disorders - Varicose Veins",
+    "title": "53. Prostate Part 1",
     "filename": "53. Venous Disorders - Varicose Veins.mp4",
     "platform": "marrow",
     "subject_id": "surgery",
@@ -4398,7 +4398,7 @@
     "status": "completed"
   },
   "mr_-1003264222864_393": {
-    "title": "54. Deep Vein Thrombosis and Ulcers",
+    "title": "54. Prostate Part 2",
     "filename": "54. Deep Vein Thrombosis and Ulcers.mp4",
     "platform": "marrow",
     "subject_id": "surgery",
@@ -4417,7 +4417,7 @@
     "status": "completed"
   },
   "mr_-1003264222864_394": {
-    "title": "55. Lymphatics and Lymphedema",
+    "title": "55. Minimally Invasive Surgery",
     "filename": "55. Lymphatics and Lymphedema.mp4",
     "platform": "marrow",
     "subject_id": "surgery",
@@ -4428,15 +4428,15 @@
     "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/12_General_Surgery/55. Lymphatics and Lymphedema.mp4",
     "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/12_General_Surgery/55.%20Lymphatics%20and%20Lymphedema.mp4",
     "size_bytes": 569847413,
-    "duration_seconds": null,
-    "duration_formatted": null,
-    "resolution": null,
+    "duration_seconds": 3498,
+    "duration_formatted": "58m 18s",
+    "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/394",
     "uploaded_at": "2026-09-25T08:16:31Z",
     "status": "completed"
   },
   "mr_-1003264222864_395": {
-    "title": "56. Kidney and Ureter Part 1",
+    "title": "56. Transplant Surgery",
     "filename": "56. Kidney and Ureter Part 1.mp4",
     "platform": "marrow",
     "subject_id": "surgery",
@@ -4447,15 +4447,15 @@
     "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/12_General_Surgery/56. Kidney and Ureter Part 1.mp4",
     "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/12_General_Surgery/56.%20Kidney%20and%20Ureter%20Part%201.mp4",
     "size_bytes": 524056839,
-    "duration_seconds": null,
-    "duration_formatted": null,
-    "resolution": null,
+    "duration_seconds": 3432,
+    "duration_formatted": "57m 12s",
+    "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/395",
     "uploaded_at": "2026-09-25T08:19:25Z",
     "status": "completed"
   },
   "mr_-1003264222864_396": {
-    "title": "57. Kidney and Ureter Part 2",
+    "title": "57. Plastic Surgery - Wounds and Cleft Lip Part 1",
     "filename": "57. Kidney and Ureter Part 2.mp4",
     "platform": "marrow",
     "subject_id": "surgery",
@@ -4466,15 +4466,15 @@
     "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/12_General_Surgery/57. Kidney and Ureter Part 2.mp4",
     "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/12_General_Surgery/57.%20Kidney%20and%20Ureter%20Part%202.mp4",
     "size_bytes": 937412885,
-    "duration_seconds": null,
-    "duration_formatted": null,
-    "resolution": null,
+    "duration_seconds": 4235,
+    "duration_formatted": "1h 10m",
+    "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/396",
     "uploaded_at": "2026-09-25T08:24:22Z",
     "status": "completed"
   },
   "mr_-1003264222864_397": {
-    "title": "58. Urinary Bladder",
+    "title": "58. Plastic Surgery - Wounds and Cleft Lip Part 2",
     "filename": "58. Urinary Bladder.mp4",
     "platform": "marrow",
     "subject_id": "surgery",
@@ -4485,15 +4485,15 @@
     "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/12_General_Surgery/58. Urinary Bladder.mp4",
     "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/12_General_Surgery/58.%20Urinary%20Bladder.mp4",
     "size_bytes": 288608641,
-    "duration_seconds": null,
-    "duration_formatted": null,
-    "resolution": null,
+    "duration_seconds": 2443,
+    "duration_formatted": "40m 43s",
+    "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/397",
     "uploaded_at": "2026-09-25T08:25:51Z",
     "status": "completed"
   },
   "mr_-1003264222864_398": {
-    "title": "59. Prostate and Urethra",
+    "title": "59. Neurosurgery Part 1",
     "filename": "59. Prostate and Urethra.mp4",
     "platform": "marrow",
     "subject_id": "surgery",
@@ -4504,15 +4504,15 @@
     "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/12_General_Surgery/59. Prostate and Urethra.mp4",
     "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/12_General_Surgery/59.%20Prostate%20and%20Urethra.mp4",
     "size_bytes": 372216915,
-    "duration_seconds": null,
-    "duration_formatted": null,
-    "resolution": null,
+    "duration_seconds": 3001,
+    "duration_formatted": "50m 1s",
+    "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/398",
     "uploaded_at": "2026-09-25T08:28:02Z",
     "status": "completed"
   },
   "mr_-1003264222864_399": {
-    "title": "60. Testis and Scrotum",
+    "title": "60. Neurosurgery Part 2",
     "filename": "60. Testis and Scrotum.mp4",
     "platform": "marrow",
     "subject_id": "surgery",
@@ -4523,15 +4523,15 @@
     "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/12_General_Surgery/60. Testis and Scrotum.mp4",
     "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/12_General_Surgery/60.%20Testis%20and%20Scrotum.mp4",
     "size_bytes": 455590297,
-    "duration_seconds": null,
-    "duration_formatted": null,
-    "resolution": null,
+    "duration_seconds": 3579,
+    "duration_formatted": "59m 39s",
+    "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/399",
     "uploaded_at": "2026-09-25T08:30:42Z",
     "status": "completed"
   },
   "mr_-1003264222864_400": {
-    "title": "61. Burns Part 1",
+    "title": "61. Basics of Trauma Management",
     "filename": "61. Burns Part 1.mp4",
     "platform": "marrow",
     "subject_id": "surgery",
@@ -4542,15 +4542,15 @@
     "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/12_General_Surgery/61. Burns Part 1.mp4",
     "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/12_General_Surgery/61.%20Burns%20Part%201.mp4",
     "size_bytes": 654646800,
-    "duration_seconds": null,
-    "duration_formatted": null,
-    "resolution": null,
+    "duration_seconds": 4488,
+    "duration_formatted": "1h 14m",
+    "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/400",
     "uploaded_at": "2026-09-25T08:34:23Z",
     "status": "completed"
   },
   "mr_-1003264222864_401": {
-    "title": "62. Burns Part 2",
+    "title": "62. Abdominal Trauma",
     "filename": "62. Burns Part 2.mp4",
     "platform": "marrow",
     "subject_id": "surgery",
@@ -4561,15 +4561,15 @@
     "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/12_General_Surgery/62. Burns Part 2.mp4",
     "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/12_General_Surgery/62.%20Burns%20Part%202.mp4",
     "size_bytes": 545547530,
-    "duration_seconds": null,
-    "duration_formatted": null,
-    "resolution": null,
+    "duration_seconds": 4349,
+    "duration_formatted": "1h 12m",
+    "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/401",
     "uploaded_at": "2026-09-25T08:37:20Z",
     "status": "completed"
   },
   "mr_-1003264222864_402": {
-    "title": "63. Skin Tumors and Melanoma",
+    "title": "63. Thoracic Trauma",
     "filename": "63. Skin Tumors and Melanoma.mp4",
     "platform": "marrow",
     "subject_id": "surgery",
@@ -4580,15 +4580,15 @@
     "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/12_General_Surgery/63. Skin Tumors and Melanoma.mp4",
     "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/12_General_Surgery/63.%20Skin%20Tumors%20and%20Melanoma.mp4",
     "size_bytes": 539853622,
-    "duration_seconds": null,
-    "duration_formatted": null,
-    "resolution": null,
+    "duration_seconds": 4773,
+    "duration_formatted": "1h 19m",
+    "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/402",
     "uploaded_at": "2026-09-25T08:40:26Z",
     "status": "completed"
   },
   "mr_-1003264222864_403": {
-    "title": "64. Plastic Surgery and Flaps",
+    "title": "64. Head Trauma",
     "filename": "64. Plastic Surgery and Flaps.mp4",
     "platform": "marrow",
     "subject_id": "surgery",
@@ -4599,15 +4599,15 @@
     "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/12_General_Surgery/64. Plastic Surgery and Flaps.mp4",
     "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/12_General_Surgery/64.%20Plastic%20Surgery%20and%20Flaps.mp4",
     "size_bytes": 883894339,
-    "duration_seconds": null,
-    "duration_formatted": null,
-    "resolution": null,
+    "duration_seconds": 4037,
+    "duration_formatted": "1h 7m",
+    "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/403",
     "uploaded_at": "2026-09-25T08:45:38Z",
     "status": "completed"
   },
   "mr_-1003264222864_404": {
-    "title": "65. Wounds, Sinus and Fistula",
+    "title": "65. Thermal Injury",
     "filename": "65. Wounds, Sinus and Fistula.mp4",
     "platform": "marrow",
     "subject_id": "surgery",
@@ -4618,15 +4618,15 @@
     "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/12_General_Surgery/65. Wounds, Sinus and Fistula.mp4",
     "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/12_General_Surgery/65.%20Wounds,%20Sinus%20and%20Fistula.mp4",
     "size_bytes": 577192529,
-    "duration_seconds": null,
-    "duration_formatted": null,
-    "resolution": null,
+    "duration_seconds": 4821,
+    "duration_formatted": "1h 20m",
+    "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/404",
     "uploaded_at": "2026-09-25T08:49:00Z",
     "status": "completed"
   },
   "mr_-1003264222864_405": {
-    "title": "66. Surgical Infections and Sepsis",
+    "title": "66. Trauma - Emergency Scenarios",
     "filename": "66. Surgical Infections and Sepsis.mp4",
     "platform": "marrow",
     "subject_id": "surgery",
@@ -4637,15 +4637,15 @@
     "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/12_General_Surgery/66. Surgical Infections and Sepsis.mp4",
     "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/12_General_Surgery/66.%20Surgical%20Infections%20and%20Sepsis.mp4",
     "size_bytes": 241450613,
-    "duration_seconds": null,
-    "duration_formatted": null,
-    "resolution": null,
+    "duration_seconds": 1425,
+    "duration_formatted": "23m 45s",
+    "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/405",
     "uploaded_at": "2026-09-25T08:50:23Z",
     "status": "completed"
   },
   "mr_-1003264222864_406": {
-    "title": "67. Trauma and ATLS Part 1",
+    "title": "67. Clinical Case Discussion - Inguinoscrotal Swelling",
     "filename": "67. Trauma and ATLS Part 1.mp4",
     "platform": "marrow",
     "subject_id": "surgery",
@@ -4656,15 +4656,15 @@
     "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/12_General_Surgery/67. Trauma and ATLS Part 1.mp4",
     "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/12_General_Surgery/67.%20Trauma%20and%20ATLS%20Part%201.mp4",
     "size_bytes": 172493417,
-    "duration_seconds": null,
-    "duration_formatted": null,
-    "resolution": null,
+    "duration_seconds": 1307,
+    "duration_formatted": "21m 47s",
+    "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/406",
     "uploaded_at": "2026-09-25T08:51:25Z",
     "status": "completed"
   },
   "mr_-1003264222864_407": {
-    "title": "68. Trauma and ATLS Part 2",
+    "title": "68. Hernia Part 1",
     "filename": "68. Trauma and ATLS Part 2.mp4",
     "platform": "marrow",
     "subject_id": "surgery",
@@ -4675,15 +4675,15 @@
     "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/12_General_Surgery/68. Trauma and ATLS Part 2.mp4",
     "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/12_General_Surgery/68.%20Trauma%20and%20ATLS%20Part%202.mp4",
     "size_bytes": 856467646,
-    "duration_seconds": null,
-    "duration_formatted": null,
-    "resolution": null,
+    "duration_seconds": 5136,
+    "duration_formatted": "1h 25m",
+    "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/407",
     "uploaded_at": "2026-09-25T08:55:56Z",
     "status": "completed"
   },
   "mr_-1003264222864_408": {
-    "title": "69. Head Injury",
+    "title": "69. Hernia Part 2",
     "filename": "69. Head Injury.mp4",
     "platform": "marrow",
     "subject_id": "surgery",
@@ -4694,15 +4694,15 @@
     "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/12_General_Surgery/69. Head Injury.mp4",
     "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/12_General_Surgery/69.%20Head%20Injury.mp4",
     "size_bytes": 624365438,
-    "duration_seconds": null,
-    "duration_formatted": null,
-    "resolution": null,
+    "duration_seconds": 3965,
+    "duration_formatted": "1h 6m",
+    "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/408",
     "uploaded_at": "2026-09-25T08:59:16Z",
     "status": "completed"
   },
   "mr_-1003264222864_409": {
-    "title": "70. Chest Trauma",
+    "title": "70. Deep Vein Thrombosis",
     "filename": "70. Chest Trauma.mp4",
     "platform": "marrow",
     "subject_id": "surgery",
@@ -4713,15 +4713,15 @@
     "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/12_General_Surgery/70. Chest Trauma.mp4",
     "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/12_General_Surgery/70.%20Chest%20Trauma.mp4",
     "size_bytes": 605685187,
-    "duration_seconds": null,
-    "duration_formatted": null,
-    "resolution": null,
+    "duration_seconds": 3402,
+    "duration_formatted": "56m 42s",
+    "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/409",
     "uploaded_at": "2026-09-25T09:02:29Z",
     "status": "completed"
   },
   "mr_-1003264222864_410": {
-    "title": "71. Abdominal Trauma",
+    "title": "71. Varicose Veins",
     "filename": "71. Abdominal Trauma.mp4",
     "platform": "marrow",
     "subject_id": "surgery",
@@ -4732,9 +4732,9 @@
     "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/12_General_Surgery/71. Abdominal Trauma.mp4",
     "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/12_General_Surgery/71.%20Abdominal%20Trauma.mp4",
     "size_bytes": 635868724,
-    "duration_seconds": null,
-    "duration_formatted": null,
-    "resolution": null,
+    "duration_seconds": 3810,
+    "duration_formatted": "1h 3m",
+    "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/410",
     "uploaded_at": "2026-09-25T09:06:08Z",
     "status": "completed"
