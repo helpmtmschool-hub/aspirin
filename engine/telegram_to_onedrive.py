@@ -1084,7 +1084,7 @@ def main():
     parser = argparse.ArgumentParser(description="Yui Telegram to 25 TB SharePoint Migration Engine (Fast & Ban-Proof)")
     parser.add_argument("--platform", default=None, help="Platform: 'prepx_en', 'prepx_hi', 'cerebellum', 'marrow', or 'all'")
     parser.add_argument("--subject", default=None, help="Target subject (e.g. 'surgery', 'medicine', or 'all')")
-    parser.add_argument("--limit", type=int, default=25, help="Max items to upload in this run (default: 25)")
+    parser.add_argument("--limit", type=int, default=35, help="Max items to upload in this run (default: 35)")
     parser.add_argument("--dry-run", action="store_true", help="List files without actually uploading")
     parser.add_argument("--videos-only", action="store_true", default=True, help="Only upload video files (default: True)")
 
