@@ -475,6 +475,20 @@ class OneDriveClient:
             return res.json()["uploadUrl"]
         raise RuntimeError(f"Error creating upload session for {remote_path}: {res.status_code} - {res.text}")
 
+    def get_file_by_path(self, remote_path: str) -> Optional[Dict[str, Any]]:
+        """Checks if a file already exists on SharePoint and returns its metadata."""
+        token = self.get_valid_token()
+        clean_path = "/" + remote_path.strip("/")
+        endpoint = f"https://graph.microsoft.com/v1.0/{self.drive_target}/root:{clean_path}?$select=id,name,size,webUrl,video,lastModifiedDateTime"
+        headers = {"Authorization": f"Bearer {token}"}
+        try:
+            res = requests.get(endpoint, headers=headers, timeout=10)
+            if res.status_code == 200:
+                return res.json()
+        except Exception:
+            pass
+        return None
+
     def get_video_metadata(self, item_id: str) -> Dict[str, Any]:
         """Fetches video duration, resolution, and thumbnail info from Microsoft Graph."""
         token = self.get_valid_token()
@@ -875,6 +889,49 @@ class LectureTransferEngine:
         clean_title = normalize_lecture_title(raw_fn, item.get("subject_name", ""), item.get("subject_id", ""))
         clean_name = f"{clean_title}.pdf" if is_pdf else f"{clean_title}.mp4"
         remote_path = f"Aspirin_LMS/{platform_folder}/{subj_folder}/{clean_name}"
+
+        # Fast Remote Check: If file already exists on SharePoint (e.g. from an unmerged run), skip download
+        if self.od_client:
+            existing_meta = self.od_client.get_file_by_path(remote_path)
+            min_expected_size = 100 * 1024 if is_pdf else 1024 * 1024
+            if existing_meta and existing_meta.get("size", 0) > min_expected_size:
+                size_mb = round(existing_meta.get("size", 0) / (1024 * 1024), 2)
+                print(f"  [Found on SharePoint] {clean_name} already exists ({size_mb} MB). Skipping download.")
+                drive_item_id = existing_meta.get("id")
+                web_url = existing_meta.get("webUrl")
+                video_obj = existing_meta.get("video") or {}
+                duration_sec = None
+                duration_fmt = None
+                resolution = None
+                if video_obj.get("duration"):
+                    duration_sec = round(video_obj["duration"] / 1000)
+                    m = duration_sec // 60
+                    s = duration_sec % 60
+                    duration_fmt = f"{m // 60}h {m % 60}m" if m > 60 else f"{m}m {s}s" if s > 0 else f"{m}m"
+                if video_obj.get("width"):
+                    resolution = f"{video_obj['width']}x{video_obj.get('height')}"
+
+                self.manifest[item_id] = {
+                    "title": clean_title,
+                    "filename": clean_name,
+                    "platform": item["platform"],
+                    "subject_id": item["subject_id"],
+                    "folder_path": f"{platform_folder}/{subj_folder}",
+                    "telegram_chat_id": chat_id,
+                    "telegram_message_id": message_id,
+                    "onedrive_item_id": drive_item_id,
+                    "onedrive_path": f"/{remote_path}",
+                    "web_url": web_url,
+                    "size_bytes": existing_meta.get("size", total_size),
+                    "duration_seconds": duration_sec,
+                    "duration_formatted": duration_fmt,
+                    "resolution": resolution,
+                    "thumbnail_url": f"/api/thumbnail/{chat_id}/{message_id}" if not is_pdf else None,
+                    "uploaded_at": existing_meta.get("lastModifiedDateTime") or time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
+                    "status": "completed",
+                }
+                self._save_manifest()
+                return
 
         print(f"\n[{'PDF' if is_pdf else 'VIDEO'}] {platform_folder} / {subj_folder} -> {clean_name}")
         print(f"Remote: /{remote_path}")

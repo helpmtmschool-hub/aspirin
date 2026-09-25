@@ -140,9 +140,13 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git fetch origin main || true
+          python engine/merge_manifests.py
+          node engine/sync_catalog.cjs || true
           git add engine/transfer_manifest.json public/transfer_manifest.json public/catalog.json
           if ! git diff --quiet || ! git diff --staged --quiet; then
             git commit -m "chore: sync transfer manifest + catalog [skip ci]"
-            git pull --rebase origin main
-            git push origin main
+            git pull --rebase -X theirs origin main || (git rebase --abort && git pull --no-edit -s recursive -X ours origin main) || true
+            git push origin main || true
           fi
+

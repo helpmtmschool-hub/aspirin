@@ -1,6 +1,6 @@
 {
   "version": "2.2.0",
-  "updated_at": "2026-09-24T18:56:16.348Z",
+  "updated_at": "2026-09-25T08:09:43.959Z",
   "subjects": [
     {
       "id": "anatomy",
@@ -3759,7 +3759,7 @@
       "category": "Clinical",
       "icon": "Scissors",
       "color": "#DC2626",
-      "total_topics": 9,
+      "total_topics": 54,
       "total_notes": 3,
       "modules": [
         {
@@ -3936,6 +3936,861 @@
               ],
               "date": "2026-09-24T13:56:17Z",
               "thumbnail_url": "/api/thumbnail/-1003264222864/348"
+            },
+            {
+              "id": "topic_-1003264222864_349",
+              "subject_id": "surgery",
+              "module": "Marrow Edition 6 - General Surgery",
+              "title": "10. Breast Part 1",
+              "filename": "10. Breast Part 1.mp4",
+              "file_size_bytes": 673578924,
+              "file_size_mb": 642.37,
+              "duration_seconds": 3620,
+              "duration_formatted": "60m 20s",
+              "chat_id": -1003264222864,
+              "message_id": 349,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 10. Breast Part 1",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-25T06:20:25Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/349"
+            },
+            {
+              "id": "topic_-1003264222864_350",
+              "subject_id": "surgery",
+              "module": "Marrow Edition 6 - General Surgery",
+              "title": "11. Breast Part 2",
+              "filename": "11. Breast Part 2.mp4",
+              "file_size_bytes": 383167725,
+              "file_size_mb": 365.42,
+              "duration_seconds": 3655,
+              "duration_formatted": "60m 55s",
+              "chat_id": -1003264222864,
+              "message_id": 350,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 11. Breast Part 2",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-25T06:22:37Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/350"
+            },
+            {
+              "id": "topic_-1003264222864_351",
+              "subject_id": "surgery",
+              "module": "Marrow Edition 6 - General Surgery",
+              "title": "12. Breast Case Discussion and Operative Video",
+              "filename": "12. Breast Case Discussion and Operative Video.mp4",
+              "file_size_bytes": 442480268,
+              "file_size_mb": 421.98,
+              "duration_seconds": 1603,
+              "duration_formatted": "26m 43s",
+              "chat_id": -1003264222864,
+              "message_id": 351,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 12. Breast Case Discussion and Operative Video",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-25T06:25:04Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/351"
+            },
+            {
+              "id": "topic_-1003264222864_352",
+              "subject_id": "surgery",
+              "module": "Marrow Edition 6 - General Surgery",
+              "title": "13. Breast Part 3",
+              "filename": "13. Breast Part 3.mp4",
+              "file_size_bytes": 850665824,
+              "file_size_mb": 811.26,
+              "duration_seconds": 6091,
+              "duration_formatted": "1h 41m",
+              "chat_id": -1003264222864,
+              "message_id": 352,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 13. Breast Part 3",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-25T06:29:30Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/352"
+            },
+            {
+              "id": "topic_-1003264222864_353",
+              "subject_id": "surgery",
+              "module": "Marrow Edition 6 - General Surgery",
+              "title": "14. Breast Part 4",
+              "filename": "14. Breast Part 4.mp4",
+              "file_size_bytes": 415854753,
+              "file_size_mb": 396.59,
+              "duration_seconds": 3445,
+              "duration_formatted": "57m 25s",
+              "chat_id": -1003264222864,
+              "message_id": 353,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 14. Breast Part 4",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-25T06:31:55Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/353"
+            },
+            {
+              "id": "topic_-1003264222864_354",
+              "subject_id": "surgery",
+              "module": "Marrow Edition 6 - General Surgery",
+              "title": "15. Thyroid Part 1",
+              "filename": "15. Thyroid Part 1.mp4",
+              "file_size_bytes": 811435584,
+              "file_size_mb": 773.85,
+              "duration_seconds": 4933,
+              "duration_formatted": "1h 22m",
+              "chat_id": -1003264222864,
+              "message_id": 354,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 15. Thyroid Part 1",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-25T06:35:58Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/354"
+            },
+            {
+              "id": "topic_-1003264222864_355",
+              "subject_id": "surgery",
+              "module": "Marrow Edition 6 - General Surgery",
+              "title": "16. Thyroid Part 2",
+              "filename": "16. Thyroid Part 2.mp4",
+              "file_size_bytes": 645905602,
+              "file_size_mb": 615.98,
+              "duration_seconds": 5228,
+              "duration_formatted": "1h 27m",
+              "chat_id": -1003264222864,
+              "message_id": 355,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 16. Thyroid Part 2",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-25T06:39:37Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/355"
+            },
+            {
+              "id": "topic_-1003264222864_356",
+              "subject_id": "surgery",
+              "module": "Marrow Edition 6 - General Surgery",
+              "title": "17. Thyroid Part 3",
+              "filename": "17. Thyroid Part 3.mp4",
+              "file_size_bytes": 649893490,
+              "file_size_mb": 619.79,
+              "duration_seconds": 4283,
+              "duration_formatted": "1h 11m",
+              "chat_id": -1003264222864,
+              "message_id": 356,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 17. Thyroid Part 3",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-25T06:42:58Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/356"
+            },
+            {
+              "id": "topic_-1003264222864_357",
+              "subject_id": "surgery",
+              "module": "Marrow Edition 6 - General Surgery",
+              "title": "18. Case of Swelling of Neck",
+              "filename": "18. Case of Swelling of Neck.mp4",
+              "file_size_bytes": 164986560,
+              "file_size_mb": 157.34,
+              "duration_seconds": 1044,
+              "duration_formatted": "17m 24s",
+              "chat_id": -1003264222864,
+              "message_id": 357,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 18. Case of Swelling of Neck",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-25T06:43:50Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/357"
+            },
+            {
+              "id": "topic_-1003264222864_358",
+              "subject_id": "surgery",
+              "module": "Marrow Edition 6 - General Surgery",
+              "title": "19. Parathyroid",
+              "filename": "19. Parathyroid.mp4",
+              "file_size_bytes": 374620867,
+              "file_size_mb": 357.27,
+              "duration_seconds": 3094,
+              "duration_formatted": "51m 34s",
+              "chat_id": -1003264222864,
+              "message_id": 358,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 19. Parathyroid",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-25T06:45:57Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/358"
+            },
+            {
+              "id": "topic_-1003264222864_359",
+              "subject_id": "surgery",
+              "module": "Marrow Edition 6 - General Surgery",
+              "title": "20. Adrenal Gland",
+              "filename": "20. Adrenal Gland.mp4",
+              "file_size_bytes": 489546982,
+              "file_size_mb": 466.87,
+              "duration_seconds": 3604,
+              "duration_formatted": "60m 4s",
+              "chat_id": -1003264222864,
+              "message_id": 359,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 20. Adrenal Gland",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-25T06:48:33Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/359"
+            },
+            {
+              "id": "topic_-1003264222864_360",
+              "subject_id": "surgery",
+              "module": "Marrow Edition 6 - General Surgery",
+              "title": "21. Esophagus Part 1",
+              "filename": "21. Esophagus Part 1.mp4",
+              "file_size_bytes": 1136061674,
+              "file_size_mb": 1083.43,
+              "duration_seconds": 5191,
+              "duration_formatted": "1h 26m",
+              "chat_id": -1003264222864,
+              "message_id": 360,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 21. Esophagus Part 1",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-25T06:54:05Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/360"
+            },
+            {
+              "id": "topic_-1003264222864_361",
+              "subject_id": "surgery",
+              "module": "Marrow Edition 6 - General Surgery",
+              "title": "22. Esophagus Part 2",
+              "filename": "22. Esophagus Part 2.mp4",
+              "file_size_bytes": 434033361,
+              "file_size_mb": 413.93,
+              "duration_seconds": 2373,
+              "duration_formatted": "39m 33s",
+              "chat_id": -1003264222864,
+              "message_id": 361,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 22. Esophagus Part 2",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-25T06:56:21Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/361"
+            },
+            {
+              "id": "topic_-1003264222864_362",
+              "subject_id": "surgery",
+              "module": "Marrow Edition 6 - General Surgery",
+              "title": "23. Esophagus Part 3",
+              "filename": "23. Esophagus Part 3.mp4",
+              "file_size_bytes": 742781069,
+              "file_size_mb": 708.37,
+              "duration_seconds": 4183,
+              "duration_formatted": "1h 9m",
+              "chat_id": -1003264222864,
+              "message_id": 362,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 23. Esophagus Part 3",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-25T07:00:05Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/362"
+            },
+            {
+              "id": "topic_-1003264222864_363",
+              "subject_id": "surgery",
+              "module": "Marrow Edition 6 - General Surgery",
+              "title": "24. Stomach Part 1",
+              "filename": "24. Stomach Part 1.mp4",
+              "file_size_bytes": 926968062,
+              "file_size_mb": 884.03,
+              "duration_seconds": 3575,
+              "duration_formatted": "59m 35s",
+              "chat_id": -1003264222864,
+              "message_id": 363,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 24. Stomach Part 1",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-25T07:04:38Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/363"
+            },
+            {
+              "id": "topic_-1003264222864_364",
+              "subject_id": "surgery",
+              "module": "Marrow Edition 6 - General Surgery",
+              "title": "25. Stomach Part 2",
+              "filename": "25. Stomach Part 2.mp4",
+              "file_size_bytes": 666045878,
+              "file_size_mb": 635.19,
+              "duration_seconds": 2918,
+              "duration_formatted": "48m 38s",
+              "chat_id": -1003264222864,
+              "message_id": 364,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 25. Stomach Part 2",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-25T07:07:54Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/364"
+            },
+            {
+              "id": "topic_-1003264222864_365",
+              "subject_id": "surgery",
+              "module": "Marrow Edition 6 - General Surgery",
+              "title": "26. Stomach Part 3",
+              "filename": "26. Stomach Part 3.mp4",
+              "file_size_bytes": 913223338,
+              "file_size_mb": 870.92,
+              "duration_seconds": 4130,
+              "duration_formatted": "1h 8m",
+              "chat_id": -1003264222864,
+              "message_id": 365,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 26. Stomach Part 3",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-25T07:13:11Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/365"
+            },
+            {
+              "id": "topic_-1003264222864_366",
+              "subject_id": "surgery",
+              "module": "Marrow Edition 6 - General Surgery",
+              "title": "27. Bariatric Surgery",
+              "filename": "27. Bariatric Surgery.mp4",
+              "file_size_bytes": 612012839,
+              "file_size_mb": 583.66,
+              "duration_seconds": 2663,
+              "duration_formatted": "44m 23s",
+              "chat_id": -1003264222864,
+              "message_id": 366,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 27. Bariatric Surgery",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-25T07:16:32Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/366"
+            },
+            {
+              "id": "topic_-1003264222864_367",
+              "subject_id": "surgery",
+              "module": "Marrow Edition 6 - General Surgery",
+              "title": "28. Upper GI Hemorrhage",
+              "filename": "28. Upper GI Hemorrhage.mp4",
+              "file_size_bytes": 511446736,
+              "file_size_mb": 487.75,
+              "duration_seconds": 4301,
+              "duration_formatted": "1h 11m",
+              "chat_id": -1003264222864,
+              "message_id": 367,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 28. Upper GI Hemorrhage",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-25T07:19:36Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/367"
+            },
+            {
+              "id": "topic_-1003264222864_368",
+              "subject_id": "surgery",
+              "module": "Marrow Edition 6 - General Surgery",
+              "title": "29. Intestinal Obstruction",
+              "filename": "29. Intestinal Obstruction.mp4",
+              "file_size_bytes": 650240490,
+              "file_size_mb": 620.12,
+              "duration_seconds": 5441,
+              "duration_formatted": "1h 30m",
+              "chat_id": -1003264222864,
+              "message_id": 368,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 29. Intestinal Obstruction",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-25T07:23:01Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/368"
+            },
+            {
+              "id": "topic_-1003264222864_369",
+              "subject_id": "surgery",
+              "module": "Marrow Edition 6 - General Surgery",
+              "title": "30. Intestinal Obstruction Part 2",
+              "filename": "30. Intestinal Obstruction Part 2.mp4",
+              "file_size_bytes": 273698239,
+              "file_size_mb": 261.02,
+              "duration_seconds": 2271,
+              "duration_formatted": "37m 51s",
+              "chat_id": -1003264222864,
+              "message_id": 369,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 30. Intestinal Obstruction Part 2",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-25T07:24:26Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/369"
+            },
+            {
+              "id": "topic_-1003264222864_370",
+              "subject_id": "surgery",
+              "module": "Marrow Edition 6 - General Surgery",
+              "title": "31. Small and Large Bowel Condition",
+              "filename": "31. Small and Large Bowel Condition.mp4",
+              "file_size_bytes": 706093968,
+              "file_size_mb": 673.38,
+              "duration_seconds": 4512,
+              "duration_formatted": "1h 15m",
+              "chat_id": -1003264222864,
+              "message_id": 370,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 31. Small and Large Bowel Condition",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-25T07:27:51Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/370"
+            },
+            {
+              "id": "topic_-1003264222864_371",
+              "subject_id": "surgery",
+              "module": "Marrow Edition 6 - General Surgery",
+              "title": "32. Appendix",
+              "filename": "32. Appendix.mp4",
+              "file_size_bytes": 761253003,
+              "file_size_mb": 725.99,
+              "duration_seconds": 4638,
+              "duration_formatted": "1h 17m",
+              "chat_id": -1003264222864,
+              "message_id": 371,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 32. Appendix",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-25T07:31:37Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/371"
+            },
+            {
+              "id": "topic_-1003264222864_372",
+              "subject_id": "surgery",
+              "module": "Marrow Edition 6 - General Surgery",
+              "title": "33. Colorectal Poly Part 1",
+              "filename": "33. Colorectal Poly Part 1.mp4",
+              "file_size_bytes": 500017329,
+              "file_size_mb": 476.85,
+              "duration_seconds": 3605,
+              "duration_formatted": "60m 5s",
+              "chat_id": -1003264222864,
+              "message_id": 372,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 33. Colorectal Poly Part 1",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-25T07:34:20Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/372"
+            },
+            {
+              "id": "topic_-1003264222864_373",
+              "subject_id": "surgery",
+              "module": "Marrow Edition 6 - General Surgery",
+              "title": "34. Colorectal Poly Part 2",
+              "filename": "34. Colorectal Poly Part 2.mp4",
+              "file_size_bytes": 473487462,
+              "file_size_mb": 451.55,
+              "duration_seconds": 3017,
+              "duration_formatted": "50m 17s",
+              "chat_id": -1003264222864,
+              "message_id": 373,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 34. Colorectal Poly Part 2",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-25T07:36:43Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/373"
+            },
+            {
+              "id": "topic_-1003264222864_374",
+              "subject_id": "surgery",
+              "module": "Marrow Edition 6 - General Surgery",
+              "title": "35. Rectal and Anal Disease Part 1",
+              "filename": "35. Rectal and Anal Disease Part 1.mp4",
+              "file_size_bytes": 813917530,
+              "file_size_mb": 776.21,
+              "duration_seconds": 4113,
+              "duration_formatted": "1h 8m",
+              "chat_id": -1003264222864,
+              "message_id": 374,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 35. Rectal and Anal Disease Part 1",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-25T07:40:51Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/374"
+            },
+            {
+              "id": "topic_-1003264222864_375",
+              "subject_id": "surgery",
+              "module": "Marrow Edition 6 - General Surgery",
+              "title": "36. Rectum and Anal Disease Part 2",
+              "filename": "36. Rectum and Anal Disease Part 2.mp4",
+              "file_size_bytes": 185290116,
+              "file_size_mb": 176.71,
+              "duration_seconds": 1394,
+              "duration_formatted": "23m 14s",
+              "chat_id": -1003264222864,
+              "message_id": 375,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 36. Rectum and Anal Disease Part 2",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-25T07:41:53Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/375"
+            },
+            {
+              "id": "topic_-1003264222864_376",
+              "subject_id": "surgery",
+              "module": "Marrow Edition 6 - General Surgery",
+              "title": "37. Liver Part 1",
+              "filename": "37. Liver Part 1.mp4",
+              "file_size_bytes": 482833264,
+              "file_size_mb": 460.47,
+              "duration_seconds": 4055,
+              "duration_formatted": "1h 7m",
+              "chat_id": -1003264222864,
+              "message_id": 376,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 37. Liver Part 1",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-25T07:44:30Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/376"
+            },
+            {
+              "id": "topic_-1003264222864_377",
+              "subject_id": "surgery",
+              "module": "Marrow Edition 6 - General Surgery",
+              "title": "38. Liver Part 2",
+              "filename": "38. Liver Part 2.mp4",
+              "file_size_bytes": 447546798,
+              "file_size_mb": 426.81,
+              "duration_seconds": 3641,
+              "duration_formatted": "60m 41s",
+              "chat_id": -1003264222864,
+              "message_id": 377,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 38. Liver Part 2",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-25T07:46:48Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/377"
+            },
+            {
+              "id": "topic_-1003264222864_378",
+              "subject_id": "surgery",
+              "module": "Marrow Edition 6 - General Surgery",
+              "title": "39. Spleen",
+              "filename": "39. Spleen.mp4",
+              "file_size_bytes": 270585369,
+              "file_size_mb": 258.05,
+              "duration_seconds": 2399,
+              "duration_formatted": "39m 59s",
+              "chat_id": -1003264222864,
+              "message_id": 378,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 39. Spleen",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-25T07:48:20Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/378"
+            },
+            {
+              "id": "topic_-1003264222864_379",
+              "subject_id": "surgery",
+              "module": "Marrow Edition 6 - General Surgery",
+              "title": "40. Gall Bladder and Billary Tree Part 1",
+              "filename": "40. Gall Bladder and Billary Tree Part 1.mp4",
+              "file_size_bytes": 531124683,
+              "file_size_mb": 506.52,
+              "duration_seconds": 3971,
+              "duration_formatted": "1h 6m",
+              "chat_id": -1003264222864,
+              "message_id": 379,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 40. Gall Bladder and Billary Tree Part 1",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-25T07:51:04Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/379"
+            },
+            {
+              "id": "topic_-1003264222864_380",
+              "subject_id": "surgery",
+              "module": "Marrow Edition 6 - General Surgery",
+              "title": "41. Gall Bladder and Billiary Tree Part 2",
+              "filename": "41. Gall Bladder and Billiary Tree Part 2.mp4",
+              "file_size_bytes": 582997629,
+              "file_size_mb": 555.99,
+              "duration_seconds": 4250,
+              "duration_formatted": "1h 10m",
+              "chat_id": -1003264222864,
+              "message_id": 380,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 41. Gall Bladder and Billiary Tree Part 2",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-25T07:54:03Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/380"
+            },
+            {
+              "id": "topic_-1003264222864_381",
+              "subject_id": "surgery",
+              "module": "Marrow Edition 6 - General Surgery",
+              "title": "42. Benign Pancreatic Condition",
+              "filename": "42. Benign Pancreatic Condition.mp4",
+              "file_size_bytes": 767307925,
+              "file_size_mb": 731.76,
+              "duration_seconds": 5070,
+              "duration_formatted": "1h 24m",
+              "chat_id": -1003264222864,
+              "message_id": 381,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 42. Benign Pancreatic Condition",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-25T07:57:46Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/381"
+            },
+            {
+              "id": "topic_-1003264222864_382",
+              "subject_id": "surgery",
+              "module": "Marrow Edition 6 - General Surgery",
+              "title": "43. Pancreatic Conditions Part 2",
+              "filename": "43. Pancreatic Conditions Part 2.mp4",
+              "file_size_bytes": 732016986,
+              "file_size_mb": 698.11,
+              "duration_seconds": 5428,
+              "duration_formatted": "1h 30m",
+              "chat_id": -1003264222864,
+              "message_id": 382,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 43. Pancreatic Conditions Part 2",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-25T08:01:22Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/382"
+            },
+            {
+              "id": "topic_-1003264222864_383",
+              "subject_id": "surgery",
+              "module": "Marrow Edition 6 - General Surgery",
+              "title": "44. Clinical Case Discussion Lump",
+              "filename": "44. Clinical Case Discussion Lump.mp4",
+              "file_size_bytes": 241422597,
+              "file_size_mb": 230.24,
+              "duration_seconds": 0,
+              "duration_formatted": "0m",
+              "chat_id": -1003264222864,
+              "message_id": 383,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 44. Clinical Case Discussion Lump",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-25T08:02:41Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/383"
+            },
+            {
+              "id": "topic_-1003264222864_384",
+              "subject_id": "surgery",
+              "module": "Marrow Edition 6 - General Surgery",
+              "title": "45. Inguinal Hernia Part 1",
+              "filename": "45. Inguinal Hernia Part 1.mp4",
+              "file_size_bytes": 402964586,
+              "file_size_mb": 384.3,
+              "duration_seconds": 3389,
+              "duration_formatted": "56m 29s",
+              "chat_id": -1003264222864,
+              "message_id": 384,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 45. Inguinal Hernia Part 1",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-25T08:04:55Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/384"
+            },
+            {
+              "id": "topic_-1003264222864_385",
+              "subject_id": "surgery",
+              "module": "Marrow Edition 6 - General Surgery",
+              "title": "46. Inguinal Hernia Part 2",
+              "filename": "46. Inguinal Hernia Part 2.mp4",
+              "file_size_bytes": 606483557,
+              "file_size_mb": 578.39,
+              "duration_seconds": 4200,
+              "duration_formatted": "1h 10m",
+              "chat_id": -1003264222864,
+              "message_id": 385,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 46. Inguinal Hernia Part 2",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-25T08:08:04Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/385"
+            },
+            {
+              "id": "topic_-1003264222864_386",
+              "subject_id": "surgery",
+              "module": "Marrow Edition 6 - General Surgery",
+              "title": "47. Ventral and Umbilical Hernia",
+              "filename": "47. Ventral and Umbilical Hernia.mp4",
+              "file_size_bytes": 240955252,
+              "file_size_mb": 229.79,
+              "duration_seconds": 2102,
+              "duration_formatted": "35m 2s",
+              "chat_id": -1003264222864,
+              "message_id": 386,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 47. Ventral and Umbilical Hernia",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-25T08:09:25Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/386"
+            },
+            {
+              "id": "topic_-1003264222864_387",
+              "subject_id": "surgery",
+              "module": "Marrow Edition 6 - General Surgery",
+              "title": "48. Other Hernias",
+              "filename": "48. Other Hernias.mp4",
+              "file_size_bytes": 163416179,
+              "file_size_mb": 155.85,
+              "duration_seconds": 674,
+              "duration_formatted": "11m 14s",
+              "chat_id": -1003264222864,
+              "message_id": 387,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 48. Other Hernias",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-25T05:19:13Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/387"
+            },
+            {
+              "id": "topic_-1003264222864_388",
+              "subject_id": "surgery",
+              "module": "Marrow Edition 6 - General Surgery",
+              "title": "49. Abdominal Wall and Umbilicus",
+              "filename": "49. Abdominal Wall and Umbilicus.mp4",
+              "file_size_bytes": 454090038,
+              "file_size_mb": 433.05,
+              "duration_seconds": 3732,
+              "duration_formatted": "1h 2m",
+              "chat_id": -1003264222864,
+              "message_id": 388,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 49. Abdominal Wall and Umbilicus",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-25T05:24:05Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/388"
+            },
+            {
+              "id": "topic_-1003264222864_389",
+              "subject_id": "surgery",
+              "module": "Marrow Edition 6 - General Surgery",
+              "title": "50. Peritoneum and Mesentery",
+              "filename": "50. Peritoneum and Mesentery.mp4",
+              "file_size_bytes": 763231937,
+              "file_size_mb": 727.87,
+              "duration_seconds": 5952,
+              "duration_formatted": "1h 39m",
+              "chat_id": -1003264222864,
+              "message_id": 389,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 50. Peritoneum and Mesentery",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-25T05:37:03Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/389"
+            },
+            {
+              "id": "topic_-1003264222864_390",
+              "subject_id": "surgery",
+              "module": "Marrow Edition 6 - General Surgery",
+              "title": "51. Arterial Disorders Part 1",
+              "filename": "51. Arterial Disorders Part 1.mp4",
+              "file_size_bytes": 477592506,
+              "file_size_mb": 455.47,
+              "duration_seconds": 4732,
+              "duration_formatted": "1h 18m",
+              "chat_id": -1003264222864,
+              "message_id": 390,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 51. Arterial Disorders Part 1",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-25T05:45:27Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/390"
+            },
+            {
+              "id": "topic_-1003264222864_391",
+              "subject_id": "surgery",
+              "module": "Marrow Edition 6 - General Surgery",
+              "title": "52. Arterial Disorders Part 2",
+              "filename": "52. Arterial Disorders Part 2.mp4",
+              "file_size_bytes": 363797967,
+              "file_size_mb": 346.94,
+              "duration_seconds": 2974,
+              "duration_formatted": "49m 34s",
+              "chat_id": -1003264222864,
+              "message_id": 391,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 52. Arterial Disorders Part 2",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-25T05:51:41Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/391"
+            },
+            {
+              "id": "topic_-1003264222864_392",
+              "subject_id": "surgery",
+              "module": "Marrow Edition 6 - General Surgery",
+              "title": "53. Venous Disorders - Varicose Veins",
+              "filename": "53. Venous Disorders - Varicose Veins.mp4",
+              "file_size_bytes": 385973739,
+              "file_size_mb": 368.09,
+              "duration_seconds": 3000,
+              "duration_formatted": "50m",
+              "chat_id": -1003264222864,
+              "message_id": 392,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 53. Venous Disorders - Varicose Veins",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-25T05:58:21Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/392"
+            },
+            {
+              "id": "topic_-1003264222864_393",
+              "subject_id": "surgery",
+              "module": "Marrow Edition 6 - General Surgery",
+              "title": "54. Deep Vein Thrombosis and Ulcers",
+              "filename": "54. Deep Vein Thrombosis and Ulcers.mp4",
+              "file_size_bytes": 528745404,
+              "file_size_mb": 504.25,
+              "duration_seconds": 3902,
+              "duration_formatted": "1h 5m",
+              "chat_id": -1003264222864,
+              "message_id": 393,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 54. Deep Vein Thrombosis and Ulcers",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-25T06:07:38Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/393"
             }
           ]
         }
