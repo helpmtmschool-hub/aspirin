@@ -1,6 +1,6 @@
 {
   "version": "2.2.0",
-  "updated_at": "2026-09-25T08:09:43.959Z",
+  "updated_at": "2026-09-25T09:06:26.731Z",
   "subjects": [
     {
       "id": "anatomy",
@@ -3759,7 +3759,7 @@
       "category": "Clinical",
       "icon": "Scissors",
       "color": "#DC2626",
-      "total_topics": 54,
+      "total_topics": 71,
       "total_notes": 3,
       "modules": [
         {
@@ -4791,6 +4791,329 @@
               ],
               "date": "2026-09-25T06:07:38Z",
               "thumbnail_url": "/api/thumbnail/-1003264222864/393"
+            },
+            {
+              "id": "topic_-1003264222864_394",
+              "subject_id": "surgery",
+              "module": "Marrow Edition 6 - General Surgery",
+              "title": "55. Lymphatics and Lymphedema",
+              "filename": "55. Lymphatics and Lymphedema.mp4",
+              "file_size_bytes": 569847413,
+              "file_size_mb": 543.45,
+              "duration_seconds": 0,
+              "duration_formatted": "0m",
+              "chat_id": -1003264222864,
+              "message_id": 394,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 55. Lymphatics and Lymphedema",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-25T08:16:31Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/394"
+            },
+            {
+              "id": "topic_-1003264222864_395",
+              "subject_id": "surgery",
+              "module": "Marrow Edition 6 - General Surgery",
+              "title": "56. Kidney and Ureter Part 1",
+              "filename": "56. Kidney and Ureter Part 1.mp4",
+              "file_size_bytes": 524056839,
+              "file_size_mb": 499.78,
+              "duration_seconds": 0,
+              "duration_formatted": "0m",
+              "chat_id": -1003264222864,
+              "message_id": 395,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 56. Kidney and Ureter Part 1",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-25T08:19:25Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/395"
+            },
+            {
+              "id": "topic_-1003264222864_396",
+              "subject_id": "surgery",
+              "module": "Marrow Edition 6 - General Surgery",
+              "title": "57. Kidney and Ureter Part 2",
+              "filename": "57. Kidney and Ureter Part 2.mp4",
+              "file_size_bytes": 937412885,
+              "file_size_mb": 893.99,
+              "duration_seconds": 0,
+              "duration_formatted": "0m",
+              "chat_id": -1003264222864,
+              "message_id": 396,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 57. Kidney and Ureter Part 2",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-25T08:24:22Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/396"
+            },
+            {
+              "id": "topic_-1003264222864_397",
+              "subject_id": "surgery",
+              "module": "Marrow Edition 6 - General Surgery",
+              "title": "58. Urinary Bladder",
+              "filename": "58. Urinary Bladder.mp4",
+              "file_size_bytes": 288608641,
+              "file_size_mb": 275.24,
+              "duration_seconds": 0,
+              "duration_formatted": "0m",
+              "chat_id": -1003264222864,
+              "message_id": 397,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 58. Urinary Bladder",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-25T08:25:51Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/397"
+            },
+            {
+              "id": "topic_-1003264222864_398",
+              "subject_id": "surgery",
+              "module": "Marrow Edition 6 - General Surgery",
+              "title": "59. Prostate and Urethra",
+              "filename": "59. Prostate and Urethra.mp4",
+              "file_size_bytes": 372216915,
+              "file_size_mb": 354.97,
+              "duration_seconds": 0,
+              "duration_formatted": "0m",
+              "chat_id": -1003264222864,
+              "message_id": 398,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 59. Prostate and Urethra",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-25T08:28:02Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/398"
+            },
+            {
+              "id": "topic_-1003264222864_399",
+              "subject_id": "surgery",
+              "module": "Marrow Edition 6 - General Surgery",
+              "title": "60. Testis and Scrotum",
+              "filename": "60. Testis and Scrotum.mp4",
+              "file_size_bytes": 455590297,
+              "file_size_mb": 434.48,
+              "duration_seconds": 0,
+              "duration_formatted": "0m",
+              "chat_id": -1003264222864,
+              "message_id": 399,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 60. Testis and Scrotum",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-25T08:30:42Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/399"
+            },
+            {
+              "id": "topic_-1003264222864_400",
+              "subject_id": "surgery",
+              "module": "Marrow Edition 6 - General Surgery",
+              "title": "61. Burns Part 1",
+              "filename": "61. Burns Part 1.mp4",
+              "file_size_bytes": 654646800,
+              "file_size_mb": 624.32,
+              "duration_seconds": 0,
+              "duration_formatted": "0m",
+              "chat_id": -1003264222864,
+              "message_id": 400,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 61. Burns Part 1",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-25T08:34:23Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/400"
+            },
+            {
+              "id": "topic_-1003264222864_401",
+              "subject_id": "surgery",
+              "module": "Marrow Edition 6 - General Surgery",
+              "title": "62. Burns Part 2",
+              "filename": "62. Burns Part 2.mp4",
+              "file_size_bytes": 545547530,
+              "file_size_mb": 520.27,
+              "duration_seconds": 0,
+              "duration_formatted": "0m",
+              "chat_id": -1003264222864,
+              "message_id": 401,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 62. Burns Part 2",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-25T08:37:20Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/401"
+            },
+            {
+              "id": "topic_-1003264222864_402",
+              "subject_id": "surgery",
+              "module": "Marrow Edition 6 - General Surgery",
+              "title": "63. Skin Tumors and Melanoma",
+              "filename": "63. Skin Tumors and Melanoma.mp4",
+              "file_size_bytes": 539853622,
+              "file_size_mb": 514.84,
+              "duration_seconds": 0,
+              "duration_formatted": "0m",
+              "chat_id": -1003264222864,
+              "message_id": 402,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 63. Skin Tumors and Melanoma",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-25T08:40:26Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/402"
+            },
+            {
+              "id": "topic_-1003264222864_403",
+              "subject_id": "surgery",
+              "module": "Marrow Edition 6 - General Surgery",
+              "title": "64. Plastic Surgery and Flaps",
+              "filename": "64. Plastic Surgery and Flaps.mp4",
+              "file_size_bytes": 883894339,
+              "file_size_mb": 842.95,
+              "duration_seconds": 0,
+              "duration_formatted": "0m",
+              "chat_id": -1003264222864,
+              "message_id": 403,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 64. Plastic Surgery and Flaps",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-25T08:45:38Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/403"
+            },
+            {
+              "id": "topic_-1003264222864_404",
+              "subject_id": "surgery",
+              "module": "Marrow Edition 6 - General Surgery",
+              "title": "65. Wounds, Sinus and Fistula",
+              "filename": "65. Wounds, Sinus and Fistula.mp4",
+              "file_size_bytes": 577192529,
+              "file_size_mb": 550.45,
+              "duration_seconds": 0,
+              "duration_formatted": "0m",
+              "chat_id": -1003264222864,
+              "message_id": 404,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 65. Wounds, Sinus and Fistula",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-25T08:49:00Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/404"
+            },
+            {
+              "id": "topic_-1003264222864_405",
+              "subject_id": "surgery",
+              "module": "Marrow Edition 6 - General Surgery",
+              "title": "66. Surgical Infections and Sepsis",
+              "filename": "66. Surgical Infections and Sepsis.mp4",
+              "file_size_bytes": 241450613,
+              "file_size_mb": 230.27,
+              "duration_seconds": 0,
+              "duration_formatted": "0m",
+              "chat_id": -1003264222864,
+              "message_id": 405,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 66. Surgical Infections and Sepsis",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-25T08:50:23Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/405"
+            },
+            {
+              "id": "topic_-1003264222864_406",
+              "subject_id": "surgery",
+              "module": "Marrow Edition 6 - General Surgery",
+              "title": "67. Trauma and ATLS Part 1",
+              "filename": "67. Trauma and ATLS Part 1.mp4",
+              "file_size_bytes": 172493417,
+              "file_size_mb": 164.5,
+              "duration_seconds": 0,
+              "duration_formatted": "0m",
+              "chat_id": -1003264222864,
+              "message_id": 406,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 67. Trauma and ATLS Part 1",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-25T08:51:25Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/406"
+            },
+            {
+              "id": "topic_-1003264222864_407",
+              "subject_id": "surgery",
+              "module": "Marrow Edition 6 - General Surgery",
+              "title": "68. Trauma and ATLS Part 2",
+              "filename": "68. Trauma and ATLS Part 2.mp4",
+              "file_size_bytes": 856467646,
+              "file_size_mb": 816.79,
+              "duration_seconds": 0,
+              "duration_formatted": "0m",
+              "chat_id": -1003264222864,
+              "message_id": 407,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 68. Trauma and ATLS Part 2",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-25T08:55:56Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/407"
+            },
+            {
+              "id": "topic_-1003264222864_408",
+              "subject_id": "surgery",
+              "module": "Marrow Edition 6 - General Surgery",
+              "title": "69. Head Injury",
+              "filename": "69. Head Injury.mp4",
+              "file_size_bytes": 624365438,
+              "file_size_mb": 595.44,
+              "duration_seconds": 0,
+              "duration_formatted": "0m",
+              "chat_id": -1003264222864,
+              "message_id": 408,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 69. Head Injury",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-25T08:59:16Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/408"
+            },
+            {
+              "id": "topic_-1003264222864_409",
+              "subject_id": "surgery",
+              "module": "Marrow Edition 6 - General Surgery",
+              "title": "70. Chest Trauma",
+              "filename": "70. Chest Trauma.mp4",
+              "file_size_bytes": 605685187,
+              "file_size_mb": 577.63,
+              "duration_seconds": 0,
+              "duration_formatted": "0m",
+              "chat_id": -1003264222864,
+              "message_id": 409,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 70. Chest Trauma",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-25T09:02:29Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/409"
+            },
+            {
+              "id": "topic_-1003264222864_410",
+              "subject_id": "surgery",
+              "module": "Marrow Edition 6 - General Surgery",
+              "title": "71. Abdominal Trauma",
+              "filename": "71. Abdominal Trauma.mp4",
+              "file_size_bytes": 635868724,
+              "file_size_mb": 606.41,
+              "duration_seconds": 0,
+              "duration_formatted": "0m",
+              "chat_id": -1003264222864,
+              "message_id": 410,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 71. Abdominal Trauma",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-25T09:06:08Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/410"
             }
           ]
         }
