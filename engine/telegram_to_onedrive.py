@@ -52,6 +52,7 @@ MANIFEST_PATH = PROJECT_DIR / "engine" / "transfer_manifest.json"
 PUBLIC_MANIFEST_PATH = PROJECT_DIR / "public" / "transfer_manifest.json"
 SECTIONS_PATH = PROJECT_DIR / "engine" / "prepx_sections.json"
 MARROW_SECTIONS_PATH = PROJECT_DIR / "engine" / "marrow_sections.json"
+LEGACY_CATALOG_PATH = PROJECT_DIR / "public" / "catalog.json"
 PREPX_CHANNEL_ID = -1003709841202
 MARROW_CHANNEL_ID = -1003264222864
 PREPX_HI_MEDICINE_TITLES_PATH = PROJECT_DIR / "engine" / "prepx_hi_medicine_clean_titles.json"
