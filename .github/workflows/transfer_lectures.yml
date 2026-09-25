@@ -53,7 +53,7 @@ on:
       batch_size:
         description: "Batch limit (number of files to transfer in this run)"
         required: true
-        default: "50"
+        default: "35"
         type: string
       dry_run:
         description: "Dry run (test without actually transferring)"
@@ -95,7 +95,7 @@ jobs:
         run: |
           PLATFORM="${{ github.event.inputs.platform || 'all' }}"
           SUBJECT="${{ github.event.inputs.subject || 'all' }}"
-          BATCH_SIZE="${{ github.event.inputs.batch_size || '50' }}"
+          BATCH_SIZE="${{ github.event.inputs.batch_size || '35' }}"
           DRY_RUN_FLAG=""
           if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
             DRY_RUN_FLAG="--dry-run"

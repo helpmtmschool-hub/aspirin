@@ -1045,7 +1045,16 @@ async def run_pipeline(platform: Optional[str] = None, subject: Optional[str] = 
     print("=" * 65)
 
     processed = 0
+    t_start = time.time()
+    # Safety limit: Gracefully exit 45 mins before GitHub's 6-hour hard runner timeout
+    MAX_RUN_SECONDS = 5.25 * 3600  # 5 hours 15 minutes
+
     for item in queue[:limit]:
+        elapsed = time.time() - t_start
+        if elapsed > MAX_RUN_SECONDS:
+            hrs = round(elapsed / 3600, 2)
+            print(f"\n[Time Guard] Runner has executed for {hrs} hours. Gracefully stopping batch to allow clean catalog sync and git push.")
+            break
         try:
             await engine.transfer_item(item)
             processed += 1
