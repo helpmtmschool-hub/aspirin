@@ -52,7 +52,7 @@ brain/
 *.session*
 credentials_telegram.json
 credentials*.json
-onedrive_token.json
+onedrive_token*.json
 token.json
 tokens.json
 *secret*.json
