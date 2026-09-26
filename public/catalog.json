@@ -1,6 +1,6 @@
 {
   "version": "2.2.0",
-  "updated_at": "2026-09-25T22:10:40.933Z",
+  "updated_at": "2026-09-26T10:25:15.714Z",
   "subjects": [
     {
       "id": "anatomy",
@@ -5337,7 +5337,7 @@
       "category": "Clinical",
       "icon": "HeartHandshake",
       "color": "#DB2777",
-      "total_topics": 59,
+      "total_topics": 76,
       "total_notes": 4,
       "modules": [
         {
@@ -6464,6 +6464,329 @@
               ],
               "date": "2026-09-25T22:09:31Z",
               "thumbnail_url": "/api/thumbnail/-1003264222864/482"
+            },
+            {
+              "id": "topic_-1003264222864_483",
+              "subject_id": "obgyn",
+              "module": "Marrow Edition 6 - Obstetrics & Gynecology",
+              "title": "60. Atypical Uterine Bleeding Part 2",
+              "filename": "60. Atypical Uterine Bleeding Part 2.mp4",
+              "file_size_bytes": 705695565,
+              "file_size_mb": 673,
+              "duration_seconds": 3909,
+              "duration_formatted": "1h 5m",
+              "chat_id": -1003264222864,
+              "message_id": 483,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 60. Atypical Uterine Bleeding Part 2",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-26T05:16:29Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/483"
+            },
+            {
+              "id": "topic_-1003264222864_484",
+              "subject_id": "obgyn",
+              "module": "Marrow Edition 6 - Obstetrics & Gynecology",
+              "title": "61. Dysmenorrhea",
+              "filename": "61. Dysmenorrhea.mp4",
+              "file_size_bytes": 143088883,
+              "file_size_mb": 136.46,
+              "duration_seconds": 901,
+              "duration_formatted": "15m 1s",
+              "chat_id": -1003264222864,
+              "message_id": 484,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 61. Dysmenorrhea",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-26T05:19:47Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/484"
+            },
+            {
+              "id": "topic_-1003264222864_485",
+              "subject_id": "obgyn",
+              "module": "Marrow Edition 6 - Obstetrics & Gynecology",
+              "title": "62. Gynecology Anatomy Integration Part 1",
+              "filename": "62. Gynecology Anatomy Integration Part 1.mp4",
+              "file_size_bytes": 512129194,
+              "file_size_mb": 488.4,
+              "duration_seconds": 2878,
+              "duration_formatted": "47m 58s",
+              "chat_id": -1003264222864,
+              "message_id": 485,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 62. Gynecology Anatomy Integration Part 1",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-26T05:32:02Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/485"
+            },
+            {
+              "id": "topic_-1003264222864_486",
+              "subject_id": "obgyn",
+              "module": "Marrow Edition 6 - Obstetrics & Gynecology",
+              "title": "63. Gynecology Anatomy Integration Part 2",
+              "filename": "63. Gynecology Anatomy Integration Part 2.mp4",
+              "file_size_bytes": 703975818,
+              "file_size_mb": 671.36,
+              "duration_seconds": 3294,
+              "duration_formatted": "54m 54s",
+              "chat_id": -1003264222864,
+              "message_id": 486,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 63. Gynecology Anatomy Integration Part 2",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-26T05:52:56Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/486"
+            },
+            {
+              "id": "topic_-1003264222864_487",
+              "subject_id": "obgyn",
+              "module": "Marrow Edition 6 - Obstetrics & Gynecology",
+              "title": "64. Gynecology Anatomy Integration Part 3",
+              "filename": "64. Gynecology Anatomy Integration Part 3.mp4",
+              "file_size_bytes": 928202102,
+              "file_size_mb": 885.2,
+              "duration_seconds": 5610,
+              "duration_formatted": "1h 33m",
+              "chat_id": -1003264222864,
+              "message_id": 487,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 64. Gynecology Anatomy Integration Part 3",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-26T06:14:57Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/487"
+            },
+            {
+              "id": "topic_-1003264222864_488",
+              "subject_id": "obgyn",
+              "module": "Marrow Edition 6 - Obstetrics & Gynecology",
+              "title": "65. Gynecology Anatomy Integration Part 4",
+              "filename": "65. Gynecology Anatomy Integration Part 4.mp4",
+              "file_size_bytes": 400516514,
+              "file_size_mb": 381.96,
+              "duration_seconds": 2683,
+              "duration_formatted": "44m 43s",
+              "chat_id": -1003264222864,
+              "message_id": 488,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 65. Gynecology Anatomy Integration Part 4",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-26T06:24:23Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/488"
+            },
+            {
+              "id": "topic_-1003264222864_489",
+              "subject_id": "obgyn",
+              "module": "Marrow Edition 6 - Obstetrics & Gynecology",
+              "title": "66. Gynecology Physiology Integration Part 1",
+              "filename": "66. Gynecology Physiology Integration Part 1.mp4",
+              "file_size_bytes": 755434211,
+              "file_size_mb": 720.44,
+              "duration_seconds": 3474,
+              "duration_formatted": "57m 54s",
+              "chat_id": -1003264222864,
+              "message_id": 489,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 66. Gynecology Physiology Integration Part 1",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-26T06:42:16Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/489"
+            },
+            {
+              "id": "topic_-1003264222864_490",
+              "subject_id": "obgyn",
+              "module": "Marrow Edition 6 - Obstetrics & Gynecology",
+              "title": "67. Gynecology Physiology Integration Part 2",
+              "filename": "67. Gynecology Physiology Integration Part 2.mp4",
+              "file_size_bytes": 567847557,
+              "file_size_mb": 541.54,
+              "duration_seconds": 2875,
+              "duration_formatted": "47m 55s",
+              "chat_id": -1003264222864,
+              "message_id": 490,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 67. Gynecology Physiology Integration Part 2",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-26T06:55:53Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/490"
+            },
+            {
+              "id": "topic_-1003264222864_491",
+              "subject_id": "obgyn",
+              "module": "Marrow Edition 6 - Obstetrics & Gynecology",
+              "title": "68. Gynecology Pharmacology Integration Part 1",
+              "filename": "68. Gynecology Pharmacology Integration Part 1.mp4",
+              "file_size_bytes": 802619710,
+              "file_size_mb": 765.44,
+              "duration_seconds": 2869,
+              "duration_formatted": "47m 49s",
+              "chat_id": -1003264222864,
+              "message_id": 491,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 68. Gynecology Pharmacology Integration Part 1",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-26T07:15:36Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/491"
+            },
+            {
+              "id": "topic_-1003264222864_492",
+              "subject_id": "obgyn",
+              "module": "Marrow Edition 6 - Obstetrics & Gynecology",
+              "title": "69. Gynecology Pharmacology Integration Part 2",
+              "filename": "69. Gynecology Pharmacology Integration Part 2.mp4",
+              "file_size_bytes": 1124437089,
+              "file_size_mb": 1072.35,
+              "duration_seconds": 4088,
+              "duration_formatted": "1h 8m",
+              "chat_id": -1003264222864,
+              "message_id": 492,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 69. Gynecology Pharmacology Integration Part 2",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-26T07:43:37Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/492"
+            },
+            {
+              "id": "topic_-1003264222864_493",
+              "subject_id": "obgyn",
+              "module": "Marrow Edition 6 - Obstetrics & Gynecology",
+              "title": "70. Gynecology Pharmacology Integration Part 3",
+              "filename": "70. Gynecology Pharmacology Integration Part 3.mp4",
+              "file_size_bytes": 798380901,
+              "file_size_mb": 761.4,
+              "duration_seconds": 2889,
+              "duration_formatted": "48m 9s",
+              "chat_id": -1003264222864,
+              "message_id": 493,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 70. Gynecology Pharmacology Integration Part 3",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-26T08:03:16Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/493"
+            },
+            {
+              "id": "topic_-1003264222864_494",
+              "subject_id": "obgyn",
+              "module": "Marrow Edition 6 - Obstetrics & Gynecology",
+              "title": "71. Gynecology Pathology Integration Part 1",
+              "filename": "71. Gynecology Pathology Integration Part 1.mp4",
+              "file_size_bytes": 812074315,
+              "file_size_mb": 774.45,
+              "duration_seconds": 3322,
+              "duration_formatted": "55m 22s",
+              "chat_id": -1003264222864,
+              "message_id": 494,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 71. Gynecology Pathology Integration Part 1",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-26T08:23:15Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/494"
+            },
+            {
+              "id": "topic_-1003264222864_495",
+              "subject_id": "obgyn",
+              "module": "Marrow Edition 6 - Obstetrics & Gynecology",
+              "title": "72. Gynecology Pathology Integration Part 2",
+              "filename": "72. Gynecology Pathology Integration Part 2.mp4",
+              "file_size_bytes": 786018854,
+              "file_size_mb": 749.61,
+              "duration_seconds": 3167,
+              "duration_formatted": "52m 47s",
+              "chat_id": -1003264222864,
+              "message_id": 495,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 72. Gynecology Pathology Integration Part 2",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-26T08:43:41Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/495"
+            },
+            {
+              "id": "topic_-1003264222864_496",
+              "subject_id": "obgyn",
+              "module": "Marrow Edition 6 - Obstetrics & Gynecology",
+              "title": "73. Menopause",
+              "filename": "73. Menopause.mp4",
+              "file_size_bytes": 987557332,
+              "file_size_mb": 941.81,
+              "duration_seconds": 4636,
+              "duration_formatted": "1h 17m",
+              "chat_id": -1003264222864,
+              "message_id": 496,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 73. Menopause",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-26T09:08:01Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/496"
+            },
+            {
+              "id": "topic_-1003264222864_497",
+              "subject_id": "obgyn",
+              "module": "Marrow Edition 6 - Obstetrics & Gynecology",
+              "title": "74. PCOS Part 1",
+              "filename": "74. PCOS Part 1.mp4",
+              "file_size_bytes": 1057925298,
+              "file_size_mb": 1008.92,
+              "duration_seconds": 4232,
+              "duration_formatted": "1h 10m",
+              "chat_id": -1003264222864,
+              "message_id": 497,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 74. PCOS Part 1",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-26T09:34:42Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/497"
+            },
+            {
+              "id": "topic_-1003264222864_498",
+              "subject_id": "obgyn",
+              "module": "Marrow Edition 6 - Obstetrics & Gynecology",
+              "title": "75. PCOS Part 2",
+              "filename": "75. PCOS Part 2.mp4",
+              "file_size_bytes": 1002739510,
+              "file_size_mb": 956.29,
+              "duration_seconds": 5670,
+              "duration_formatted": "1h 34m",
+              "chat_id": -1003264222864,
+              "message_id": 498,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 75. PCOS Part 2",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-26T09:59:25Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/498"
+            },
+            {
+              "id": "topic_-1003264222864_499",
+              "subject_id": "obgyn",
+              "module": "Marrow Edition 6 - Obstetrics & Gynecology",
+              "title": "76. Endometrosis",
+              "filename": "76. Endometrosis.mp4",
+              "file_size_bytes": 1056417420,
+              "file_size_mb": 1007.48,
+              "duration_seconds": 5618,
+              "duration_formatted": "1h 33m",
+              "chat_id": -1003264222864,
+              "message_id": 499,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 76. Endometrosis",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-26T10:25:09Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/499"
             }
           ]
         }
