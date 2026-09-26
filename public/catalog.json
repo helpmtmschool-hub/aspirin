@@ -1,6 +1,6 @@
 {
   "version": "2.2.0",
-  "updated_at": "2026-09-26T10:25:15.714Z",
+  "updated_at": "2026-09-26T14:44:05.959Z",
   "subjects": [
     {
       "id": "anatomy",
@@ -408,7 +408,7 @@
       "category": "Clinical",
       "icon": "Stethoscope",
       "color": "#0284C7",
-      "total_topics": 175,
+      "total_topics": 141,
       "total_notes": 20,
       "modules": [
         {
@@ -3095,658 +3095,6 @@
               "thumbnail_url": "/api/thumbnail/-1003709841202/830"
             }
           ]
-        },
-        {
-          "id": "mod_prepx_hi_medicine",
-          "name": "PrepLadder Edition X (Hinglish) - General Medicine",
-          "topics": [
-            {
-              "id": "topic_-1003709841202_1859",
-              "subject_id": "medicine",
-              "module": "PrepLadder Edition X (Hinglish) - General Medicine",
-              "title": "2. Heart Sounds Part 1",
-              "filename": "02. Heart Sounds Part 1.mp4",
-              "file_size_bytes": 452524213,
-              "file_size_mb": 431.56,
-              "duration_seconds": 3583,
-              "duration_formatted": "59m 43s",
-              "chat_id": -1003709841202,
-              "message_id": 1859,
-              "pearls": [
-                "Key clinical concepts and high-yield examination pearls in 2. Heart Sounds Part 1",
-                "Essential clinical reasoning, diagnostic criteria and management guidelines"
-              ],
-              "date": "2026-09-24T18:00:00Z",
-              "thumbnail_url": "/api/thumbnail/-1003709841202/1859"
-            },
-            {
-              "id": "topic_-1003709841202_1860",
-              "subject_id": "medicine",
-              "module": "PrepLadder Edition X (Hinglish) - General Medicine",
-              "title": "3. Heart Sounds Part 2",
-              "filename": "03. Heart Sounds Part 2.mp4",
-              "file_size_bytes": 437520306,
-              "file_size_mb": 417.25,
-              "duration_seconds": 4051,
-              "duration_formatted": "1h 7m",
-              "chat_id": -1003709841202,
-              "message_id": 1860,
-              "pearls": [
-                "Key clinical concepts and high-yield examination pearls in 3. Heart Sounds Part 2",
-                "Essential clinical reasoning, diagnostic criteria and management guidelines"
-              ],
-              "date": "2026-09-24T18:00:00Z",
-              "thumbnail_url": "/api/thumbnail/-1003709841202/1860"
-            },
-            {
-              "id": "topic_-1003709841202_1861",
-              "subject_id": "medicine",
-              "module": "PrepLadder Edition X (Hinglish) - General Medicine",
-              "title": "4. Heart Sounds Part 3",
-              "filename": "04. Heart Sounds Part 3.mp4",
-              "file_size_bytes": 624260879,
-              "file_size_mb": 595.34,
-              "duration_seconds": 5153,
-              "duration_formatted": "1h 25m",
-              "chat_id": -1003709841202,
-              "message_id": 1861,
-              "pearls": [
-                "Key clinical concepts and high-yield examination pearls in 4. Heart Sounds Part 3",
-                "Essential clinical reasoning, diagnostic criteria and management guidelines"
-              ],
-              "date": "2026-09-24T18:00:00Z",
-              "thumbnail_url": "/api/thumbnail/-1003709841202/1861"
-            },
-            {
-              "id": "topic_-1003709841202_1862",
-              "subject_id": "medicine",
-              "module": "PrepLadder Edition X (Hinglish) - General Medicine",
-              "title": "5. Mitral Valve Prolapse",
-              "filename": "05. Mitral Valve Prolapse.mp4",
-              "file_size_bytes": 273518923,
-              "file_size_mb": 260.85,
-              "duration_seconds": 2542,
-              "duration_formatted": "42m 22s",
-              "chat_id": -1003709841202,
-              "message_id": 1862,
-              "pearls": [
-                "Key clinical concepts and high-yield examination pearls in 5. Mitral Valve Prolapse",
-                "Essential clinical reasoning, diagnostic criteria and management guidelines"
-              ],
-              "date": "2026-09-24T18:00:00Z",
-              "thumbnail_url": "/api/thumbnail/-1003709841202/1862"
-            },
-            {
-              "id": "topic_-1003709841202_1863",
-              "subject_id": "medicine",
-              "module": "PrepLadder Edition X (Hinglish) - General Medicine",
-              "title": "6. Mitral Regurgitation",
-              "filename": "06. Mitral Regurgitation.mp4",
-              "file_size_bytes": 245651071,
-              "file_size_mb": 234.27,
-              "duration_seconds": 2719,
-              "duration_formatted": "45m 19s",
-              "chat_id": -1003709841202,
-              "message_id": 1863,
-              "pearls": [
-                "Key clinical concepts and high-yield examination pearls in 6. Mitral Regurgitation",
-                "Essential clinical reasoning, diagnostic criteria and management guidelines"
-              ],
-              "date": "2026-09-24T18:00:00Z",
-              "thumbnail_url": "/api/thumbnail/-1003709841202/1863"
-            },
-            {
-              "id": "topic_-1003709841202_1864",
-              "subject_id": "medicine",
-              "module": "PrepLadder Edition X (Hinglish) - General Medicine",
-              "title": "7. Aortic Stenosis",
-              "filename": "07. Aortic Stenosis.mp4",
-              "file_size_bytes": 345850356,
-              "file_size_mb": 329.83,
-              "duration_seconds": 3098,
-              "duration_formatted": "51m 38s",
-              "chat_id": -1003709841202,
-              "message_id": 1864,
-              "pearls": [
-                "Key clinical concepts and high-yield examination pearls in 7. Aortic Stenosis",
-                "Essential clinical reasoning, diagnostic criteria and management guidelines"
-              ],
-              "date": "2026-09-24T18:00:00Z",
-              "thumbnail_url": "/api/thumbnail/-1003709841202/1864"
-            },
-            {
-              "id": "topic_-1003709841202_1865",
-              "subject_id": "medicine",
-              "module": "PrepLadder Edition X (Hinglish) - General Medicine",
-              "title": "8. Aortic Regurgitation",
-              "filename": "08. Aortic Regurgitation.mp4",
-              "file_size_bytes": 243619980,
-              "file_size_mb": 232.33,
-              "duration_seconds": 2614,
-              "duration_formatted": "43m 34s",
-              "chat_id": -1003709841202,
-              "message_id": 1865,
-              "pearls": [
-                "Key clinical concepts and high-yield examination pearls in 8. Aortic Regurgitation",
-                "Essential clinical reasoning, diagnostic criteria and management guidelines"
-              ],
-              "date": "2026-09-24T18:00:00Z",
-              "thumbnail_url": "/api/thumbnail/-1003709841202/1865"
-            },
-            {
-              "id": "topic_-1003709841202_1866",
-              "subject_id": "medicine",
-              "module": "PrepLadder Edition X (Hinglish) - General Medicine",
-              "title": "9. Tricuspid Stenosis",
-              "filename": "09. Tricuspid Stenosis.mp4",
-              "file_size_bytes": 113107743,
-              "file_size_mb": 107.87,
-              "duration_seconds": 921,
-              "duration_formatted": "15m 21s",
-              "chat_id": -1003709841202,
-              "message_id": 1866,
-              "pearls": [
-                "Key clinical concepts and high-yield examination pearls in 9. Tricuspid Stenosis",
-                "Essential clinical reasoning, diagnostic criteria and management guidelines"
-              ],
-              "date": "2026-09-24T18:00:00Z",
-              "thumbnail_url": "/api/thumbnail/-1003709841202/1866"
-            },
-            {
-              "id": "topic_-1003709841202_1867",
-              "subject_id": "medicine",
-              "module": "PrepLadder Edition X (Hinglish) - General Medicine",
-              "title": "10. Tricuspid Regurgitation, Pulmonic Stenosis and Pulmonic Regurgitation",
-              "filename": "10. Tricuspid Regurgitation, Pulmonic Stenosis and Pulmonic Regurgitation.mp4",
-              "file_size_bytes": 288838309,
-              "file_size_mb": 275.46,
-              "duration_seconds": 2729,
-              "duration_formatted": "45m 29s",
-              "chat_id": -1003709841202,
-              "message_id": 1867,
-              "pearls": [
-                "Key clinical concepts and high-yield examination pearls in 10. Tricuspid Regurgitation, Pulmonic Stenosis and Pulmonic Regurgitation",
-                "Essential clinical reasoning, diagnostic criteria and management guidelines"
-              ],
-              "date": "2026-09-24T18:00:00Z",
-              "thumbnail_url": "/api/thumbnail/-1003709841202/1867"
-            },
-            {
-              "id": "topic_-1003709841202_1868",
-              "subject_id": "medicine",
-              "module": "PrepLadder Edition X (Hinglish) - General Medicine",
-              "title": "11. Murmurs",
-              "filename": "11. Murmurs.mp4",
-              "file_size_bytes": 659113906,
-              "file_size_mb": 628.58,
-              "duration_seconds": 7094,
-              "duration_formatted": "1h 58m",
-              "chat_id": -1003709841202,
-              "message_id": 1868,
-              "pearls": [
-                "Key clinical concepts and high-yield examination pearls in 11. Murmurs",
-                "Essential clinical reasoning, diagnostic criteria and management guidelines"
-              ],
-              "date": "2026-09-24T18:00:00Z",
-              "thumbnail_url": "/api/thumbnail/-1003709841202/1868"
-            },
-            {
-              "id": "topic_-1003709841202_1869",
-              "subject_id": "medicine",
-              "module": "PrepLadder Edition X (Hinglish) - General Medicine",
-              "title": "12. Takotsubo Cardiomyopathies and Brugada Syndrome",
-              "filename": "12. Takotsubo Cardiomyopathies and Brugada Syndrome.mp4",
-              "file_size_bytes": 261150981,
-              "file_size_mb": 249.05,
-              "duration_seconds": 2471,
-              "duration_formatted": "41m 11s",
-              "chat_id": -1003709841202,
-              "message_id": 1869,
-              "pearls": [
-                "Key clinical concepts and high-yield examination pearls in 12. Takotsubo Cardiomyopathies and Brugada Syndrome",
-                "Essential clinical reasoning, diagnostic criteria and management guidelines"
-              ],
-              "date": "2026-09-24T18:00:00Z",
-              "thumbnail_url": "/api/thumbnail/-1003709841202/1869"
-            },
-            {
-              "id": "topic_-1003709841202_1871",
-              "subject_id": "medicine",
-              "module": "PrepLadder Edition X (Hinglish) - General Medicine",
-              "title": "14. ECG Changes in Hypokalemia & Hyperkalemia",
-              "filename": "14. ECG Changes in Hypokalemia & Hyperkalemia.mp4",
-              "file_size_bytes": 174427638,
-              "file_size_mb": 166.35,
-              "duration_seconds": 1849,
-              "duration_formatted": "30m 49s",
-              "chat_id": -1003709841202,
-              "message_id": 1871,
-              "pearls": [
-                "Key clinical concepts and high-yield examination pearls in 14. ECG Changes in Hypokalemia & Hyperkalemia",
-                "Essential clinical reasoning, diagnostic criteria and management guidelines"
-              ],
-              "date": "2026-09-24T18:00:00Z",
-              "thumbnail_url": "/api/thumbnail/-1003709841202/1871"
-            },
-            {
-              "id": "topic_-1003709841202_1872",
-              "subject_id": "medicine",
-              "module": "PrepLadder Edition X (Hinglish) - General Medicine",
-              "title": "15. Ischemic Heart Disease Part 1",
-              "filename": "15. Ischemic Heart Disease Part 1.mp4",
-              "file_size_bytes": 773463191,
-              "file_size_mb": 737.63,
-              "duration_seconds": 6710,
-              "duration_formatted": "1h 51m",
-              "chat_id": -1003709841202,
-              "message_id": 1872,
-              "pearls": [
-                "Key clinical concepts and high-yield examination pearls in 15. Ischemic Heart Disease Part 1",
-                "Essential clinical reasoning, diagnostic criteria and management guidelines"
-              ],
-              "date": "2026-09-24T18:00:00Z",
-              "thumbnail_url": "/api/thumbnail/-1003709841202/1872"
-            },
-            {
-              "id": "topic_-1003709841202_1873",
-              "subject_id": "medicine",
-              "module": "PrepLadder Edition X (Hinglish) - General Medicine",
-              "title": "16. Ischemic Heart Disease Part 2",
-              "filename": "16. Ischemic Heart Disease Part 2.mp4",
-              "file_size_bytes": 773983954,
-              "file_size_mb": 738.13,
-              "duration_seconds": 6860,
-              "duration_formatted": "1h 54m",
-              "chat_id": -1003709841202,
-              "message_id": 1873,
-              "pearls": [
-                "Key clinical concepts and high-yield examination pearls in 16. Ischemic Heart Disease Part 2",
-                "Essential clinical reasoning, diagnostic criteria and management guidelines"
-              ],
-              "date": "2026-09-24T18:00:00Z",
-              "thumbnail_url": "/api/thumbnail/-1003709841202/1873"
-            },
-            {
-              "id": "topic_-1003709841202_1874",
-              "subject_id": "medicine",
-              "module": "PrepLadder Edition X (Hinglish) - General Medicine",
-              "title": "17. Symptomatic Bradycardia with a Pulse",
-              "filename": "17. Symptomatic Bradycardia with a Pulse.mp4",
-              "file_size_bytes": 271221741,
-              "file_size_mb": 258.66,
-              "duration_seconds": 2964,
-              "duration_formatted": "49m 24s",
-              "chat_id": -1003709841202,
-              "message_id": 1874,
-              "pearls": [
-                "Key clinical concepts and high-yield examination pearls in 17. Symptomatic Bradycardia with a Pulse",
-                "Essential clinical reasoning, diagnostic criteria and management guidelines"
-              ],
-              "date": "2026-09-24T18:00:00Z",
-              "thumbnail_url": "/api/thumbnail/-1003709841202/1874"
-            },
-            {
-              "id": "topic_-1003709841202_1875",
-              "subject_id": "medicine",
-              "module": "PrepLadder Edition X (Hinglish) - General Medicine",
-              "title": "18. Congenital Heart Disease",
-              "filename": "18. Congenital Heart Disease.mp4",
-              "file_size_bytes": 587074885,
-              "file_size_mb": 559.88,
-              "duration_seconds": 5887,
-              "duration_formatted": "1h 38m",
-              "chat_id": -1003709841202,
-              "message_id": 1875,
-              "pearls": [
-                "Key clinical concepts and high-yield examination pearls in 18. Congenital Heart Disease",
-                "Essential clinical reasoning, diagnostic criteria and management guidelines"
-              ],
-              "date": "2026-09-24T18:00:00Z",
-              "thumbnail_url": "/api/thumbnail/-1003709841202/1875"
-            },
-            {
-              "id": "topic_-1003709841202_1876",
-              "subject_id": "medicine",
-              "module": "PrepLadder Edition X (Hinglish) - General Medicine",
-              "title": "19. Metabolic-Syndrome-X and Syndrome-Z",
-              "filename": "19. Metabolic-Syndrome-X and Syndrome-Z.mp4",
-              "file_size_bytes": 161081162,
-              "file_size_mb": 153.62,
-              "duration_seconds": 1662,
-              "duration_formatted": "27m 42s",
-              "chat_id": -1003709841202,
-              "message_id": 1876,
-              "pearls": [
-                "Key clinical concepts and high-yield examination pearls in 19. Metabolic-Syndrome-X and Syndrome-Z",
-                "Essential clinical reasoning, diagnostic criteria and management guidelines"
-              ],
-              "date": "2026-09-24T18:00:00Z",
-              "thumbnail_url": "/api/thumbnail/-1003709841202/1876"
-            },
-            {
-              "id": "topic_-1003709841202_1877",
-              "subject_id": "medicine",
-              "module": "PrepLadder Edition X (Hinglish) - General Medicine",
-              "title": "20. Hypertension",
-              "filename": "20. Hypertension.mp4",
-              "file_size_bytes": 902131164,
-              "file_size_mb": 860.34,
-              "duration_seconds": 7620,
-              "duration_formatted": "2h 7m",
-              "chat_id": -1003709841202,
-              "message_id": 1877,
-              "pearls": [
-                "Key clinical concepts and high-yield examination pearls in 20. Hypertension",
-                "Essential clinical reasoning, diagnostic criteria and management guidelines"
-              ],
-              "date": "2026-09-24T18:00:00Z",
-              "thumbnail_url": "/api/thumbnail/-1003709841202/1877"
-            },
-            {
-              "id": "topic_-1003709841202_1878",
-              "subject_id": "medicine",
-              "module": "PrepLadder Edition X (Hinglish) - General Medicine",
-              "title": "21. Diseases of Pericardium",
-              "filename": "21. Diseases of Pericardium.mp4",
-              "file_size_bytes": 513493618,
-              "file_size_mb": 489.71,
-              "duration_seconds": 4222,
-              "duration_formatted": "1h 10m",
-              "chat_id": -1003709841202,
-              "message_id": 1878,
-              "pearls": [
-                "Key clinical concepts and high-yield examination pearls in 21. Diseases of Pericardium",
-                "Essential clinical reasoning, diagnostic criteria and management guidelines"
-              ],
-              "date": "2026-09-24T18:00:00Z",
-              "thumbnail_url": "/api/thumbnail/-1003709841202/1878"
-            },
-            {
-              "id": "topic_-1003709841202_1879",
-              "subject_id": "medicine",
-              "module": "PrepLadder Edition X (Hinglish) - General Medicine",
-              "title": "22. Congestive Heart Failure",
-              "filename": "22. Congestive Heart Failure.mp4",
-              "file_size_bytes": 521392319,
-              "file_size_mb": 497.24,
-              "duration_seconds": 5696,
-              "duration_formatted": "1h 34m",
-              "chat_id": -1003709841202,
-              "message_id": 1879,
-              "pearls": [
-                "Key clinical concepts and high-yield examination pearls in 22. Congestive Heart Failure",
-                "Essential clinical reasoning, diagnostic criteria and management guidelines"
-              ],
-              "date": "2026-09-24T18:00:00Z",
-              "thumbnail_url": "/api/thumbnail/-1003709841202/1879"
-            },
-            {
-              "id": "topic_-1003709841202_1880",
-              "subject_id": "medicine",
-              "module": "PrepLadder Edition X (Hinglish) - General Medicine",
-              "title": "23. Bundle Branch Block",
-              "filename": "23. Bundle Branch Block.mp4",
-              "file_size_bytes": 177956096,
-              "file_size_mb": 169.71,
-              "duration_seconds": 1294,
-              "duration_formatted": "21m 34s",
-              "chat_id": -1003709841202,
-              "message_id": 1880,
-              "pearls": [
-                "Key clinical concepts and high-yield examination pearls in 23. Bundle Branch Block",
-                "Essential clinical reasoning, diagnostic criteria and management guidelines"
-              ],
-              "date": "2026-09-24T18:00:00Z",
-              "thumbnail_url": "/api/thumbnail/-1003709841202/1880"
-            },
-            {
-              "id": "topic_-1003709841202_1881",
-              "subject_id": "medicine",
-              "module": "PrepLadder Edition X (Hinglish) - General Medicine",
-              "title": "24. Rheumatic Heart Disease",
-              "filename": "24. Rheumatic Heart Disease.mp4",
-              "file_size_bytes": 413038929,
-              "file_size_mb": 393.9,
-              "duration_seconds": 4237,
-              "duration_formatted": "1h 10m",
-              "chat_id": -1003709841202,
-              "message_id": 1881,
-              "pearls": [
-                "Key clinical concepts and high-yield examination pearls in 24. Rheumatic Heart Disease",
-                "Essential clinical reasoning, diagnostic criteria and management guidelines"
-              ],
-              "date": "2026-09-24T18:00:00Z",
-              "thumbnail_url": "/api/thumbnail/-1003709841202/1881"
-            },
-            {
-              "id": "topic_-1003709841202_1882",
-              "subject_id": "medicine",
-              "module": "PrepLadder Edition X (Hinglish) - General Medicine",
-              "title": "25. Infective Endocarditis",
-              "filename": "25. Infective Endocarditis.mp4",
-              "file_size_bytes": 568196066,
-              "file_size_mb": 541.87,
-              "duration_seconds": 5021,
-              "duration_formatted": "1h 23m",
-              "chat_id": -1003709841202,
-              "message_id": 1882,
-              "pearls": [
-                "Key clinical concepts and high-yield examination pearls in 25. Infective Endocarditis",
-                "Essential clinical reasoning, diagnostic criteria and management guidelines"
-              ],
-              "date": "2026-09-24T18:00:00Z",
-              "thumbnail_url": "/api/thumbnail/-1003709841202/1882"
-            },
-            {
-              "id": "topic_-1003709841202_1883",
-              "subject_id": "medicine",
-              "module": "PrepLadder Edition X (Hinglish) - General Medicine",
-              "title": "26. Cardiomyopathy",
-              "filename": "26. Cardiomyopathy.mp4",
-              "file_size_bytes": 473100599,
-              "file_size_mb": 451.18,
-              "duration_seconds": 5752,
-              "duration_formatted": "1h 35m",
-              "chat_id": -1003709841202,
-              "message_id": 1883,
-              "pearls": [
-                "Key clinical concepts and high-yield examination pearls in 26. Cardiomyopathy",
-                "Essential clinical reasoning, diagnostic criteria and management guidelines"
-              ],
-              "date": "2026-09-24T18:00:00Z",
-              "thumbnail_url": "/api/thumbnail/-1003709841202/1883"
-            },
-            {
-              "id": "topic_-1003709841202_1884",
-              "subject_id": "medicine",
-              "module": "PrepLadder Edition X (Hinglish) - General Medicine",
-              "title": "27. Multifocal Atrial Tachycardia",
-              "filename": "27. Multifocal Atrial Tachycardia.mp4",
-              "file_size_bytes": 94479677,
-              "file_size_mb": 90.1,
-              "duration_seconds": 943,
-              "duration_formatted": "15m 43s",
-              "chat_id": -1003709841202,
-              "message_id": 1884,
-              "pearls": [
-                "Key clinical concepts and high-yield examination pearls in 27. Multifocal Atrial Tachycardia",
-                "Essential clinical reasoning, diagnostic criteria and management guidelines"
-              ],
-              "date": "2026-09-24T18:00:00Z",
-              "thumbnail_url": "/api/thumbnail/-1003709841202/1884"
-            },
-            {
-              "id": "topic_-1003709841202_1885",
-              "subject_id": "medicine",
-              "module": "PrepLadder Edition X (Hinglish) - General Medicine",
-              "title": "28. Cardiology Image Based Question",
-              "filename": "28. Cardiology Image Based Question.mp4",
-              "file_size_bytes": 570124031,
-              "file_size_mb": 543.71,
-              "duration_seconds": 4859,
-              "duration_formatted": "1h 20m",
-              "chat_id": -1003709841202,
-              "message_id": 1885,
-              "pearls": [
-                "Key clinical concepts and high-yield examination pearls in 28. Cardiology Image Based Question",
-                "Essential clinical reasoning, diagnostic criteria and management guidelines"
-              ],
-              "date": "2026-09-24T18:00:00Z",
-              "thumbnail_url": "/api/thumbnail/-1003709841202/1885"
-            },
-            {
-              "id": "topic_-1003709841202_1886",
-              "subject_id": "medicine",
-              "module": "PrepLadder Edition X (Hinglish) - General Medicine",
-              "title": "29. Basic Life Support",
-              "filename": "29. Basic Life Support.mp4",
-              "file_size_bytes": 206423012,
-              "file_size_mb": 196.86,
-              "duration_seconds": 1915,
-              "duration_formatted": "31m 55s",
-              "chat_id": -1003709841202,
-              "message_id": 1886,
-              "pearls": [
-                "Key clinical concepts and high-yield examination pearls in 29. Basic Life Support",
-                "Essential clinical reasoning, diagnostic criteria and management guidelines"
-              ],
-              "date": "2026-09-24T18:00:00Z",
-              "thumbnail_url": "/api/thumbnail/-1003709841202/1886"
-            },
-            {
-              "id": "topic_-1003709841202_1887",
-              "subject_id": "medicine",
-              "module": "PrepLadder Edition X (Hinglish) - General Medicine",
-              "title": "30. Pulseless Electrical Activity",
-              "filename": "30. Pulseless Electrical Activity.mp4",
-              "file_size_bytes": 148151302,
-              "file_size_mb": 141.29,
-              "duration_seconds": 1457,
-              "duration_formatted": "24m 17s",
-              "chat_id": -1003709841202,
-              "message_id": 1887,
-              "pearls": [
-                "Key clinical concepts and high-yield examination pearls in 30. Pulseless Electrical Activity",
-                "Essential clinical reasoning, diagnostic criteria and management guidelines"
-              ],
-              "date": "2026-09-24T18:00:00Z",
-              "thumbnail_url": "/api/thumbnail/-1003709841202/1887"
-            },
-            {
-              "id": "topic_-1003709841202_1888",
-              "subject_id": "medicine",
-              "module": "PrepLadder Edition X (Hinglish) - General Medicine",
-              "title": "31. Advanced Cardiac Life Support",
-              "filename": "31. Advanced Cardiac Life Support.mp4",
-              "file_size_bytes": 274893861,
-              "file_size_mb": 262.16,
-              "duration_seconds": 2619,
-              "duration_formatted": "43m 39s",
-              "chat_id": -1003709841202,
-              "message_id": 1888,
-              "pearls": [
-                "Key clinical concepts and high-yield examination pearls in 31. Advanced Cardiac Life Support",
-                "Essential clinical reasoning, diagnostic criteria and management guidelines"
-              ],
-              "date": "2026-09-24T18:00:00Z",
-              "thumbnail_url": "/api/thumbnail/-1003709841202/1888"
-            },
-            {
-              "id": "topic_-1003709841202_1889",
-              "subject_id": "medicine",
-              "module": "PrepLadder Edition X (Hinglish) - General Medicine",
-              "title": "32. Mechanical Ventilation",
-              "filename": "32. Mechanical Ventilation.mp4",
-              "file_size_bytes": 281282465,
-              "file_size_mb": 268.25,
-              "duration_seconds": 2358,
-              "duration_formatted": "39m 18s",
-              "chat_id": -1003709841202,
-              "message_id": 1889,
-              "pearls": [
-                "Key clinical concepts and high-yield examination pearls in 32. Mechanical Ventilation",
-                "Essential clinical reasoning, diagnostic criteria and management guidelines"
-              ],
-              "date": "2026-09-24T18:00:00Z",
-              "thumbnail_url": "/api/thumbnail/-1003709841202/1889"
-            },
-            {
-              "id": "topic_-1003709841202_1890",
-              "subject_id": "medicine",
-              "module": "PrepLadder Edition X (Hinglish) - General Medicine",
-              "title": "33. Massive Transfusion Protocol",
-              "filename": "33. Massive Transfusion Protocol.mp4",
-              "file_size_bytes": 141853274,
-              "file_size_mb": 135.28,
-              "duration_seconds": 1325,
-              "duration_formatted": "22m 5s",
-              "chat_id": -1003709841202,
-              "message_id": 1890,
-              "pearls": [
-                "Key clinical concepts and high-yield examination pearls in 33. Massive Transfusion Protocol",
-                "Essential clinical reasoning, diagnostic criteria and management guidelines"
-              ],
-              "date": "2026-09-24T18:00:00Z",
-              "thumbnail_url": "/api/thumbnail/-1003709841202/1890"
-            },
-            {
-              "id": "topic_-1003709841202_1891",
-              "subject_id": "medicine",
-              "module": "PrepLadder Edition X (Hinglish) - General Medicine",
-              "title": "34. Ards",
-              "filename": "34. ARDS.mp4",
-              "file_size_bytes": 375459708,
-              "file_size_mb": 358.07,
-              "duration_seconds": 3204,
-              "duration_formatted": "53m 24s",
-              "chat_id": -1003709841202,
-              "message_id": 1891,
-              "pearls": [
-                "Key clinical concepts and high-yield examination pearls in 34. Ards",
-                "Essential clinical reasoning, diagnostic criteria and management guidelines"
-              ],
-              "date": "2026-09-24T18:00:00Z",
-              "thumbnail_url": "/api/thumbnail/-1003709841202/1891"
-            },
-            {
-              "id": "topic_-1003709841202_1892",
-              "subject_id": "medicine",
-              "module": "PrepLadder Edition X (Hinglish) - General Medicine",
-              "title": "35. Snake Bite",
-              "filename": "35. Snake Bite.mp4",
-              "file_size_bytes": 170078614,
-              "file_size_mb": 162.2,
-              "duration_seconds": 1794,
-              "duration_formatted": "29m 54s",
-              "chat_id": -1003709841202,
-              "message_id": 1892,
-              "pearls": [
-                "Key clinical concepts and high-yield examination pearls in 35. Snake Bite",
-                "Essential clinical reasoning, diagnostic criteria and management guidelines"
-              ],
-              "date": "2026-09-24T18:00:00Z",
-              "thumbnail_url": "/api/thumbnail/-1003709841202/1892"
-            },
-            {
-              "id": "topic_-1003709841202_1893",
-              "subject_id": "medicine",
-              "module": "PrepLadder Edition X (Hinglish) - General Medicine",
-              "title": "36. High Altitude Pulmonary Edema",
-              "filename": "36. High Altitude Pulmonary Edema.mp4",
-              "file_size_bytes": 243784410,
-              "file_size_mb": 232.49,
-              "duration_seconds": 2676,
-              "duration_formatted": "44m 36s",
-              "chat_id": -1003709841202,
-              "message_id": 1893,
-              "pearls": [
-                "Key clinical concepts and high-yield examination pearls in 36. High Altitude Pulmonary Edema",
-                "Essential clinical reasoning, diagnostic criteria and management guidelines"
-              ],
-              "date": "2026-09-24T18:00:00Z",
-              "thumbnail_url": "/api/thumbnail/-1003709841202/1893"
-            }
-          ]
         }
       ],
       "notes": []
@@ -5337,7 +4685,7 @@
       "category": "Clinical",
       "icon": "HeartHandshake",
       "color": "#DB2777",
-      "total_topics": 76,
+      "total_topics": 109,
       "total_notes": 4,
       "modules": [
         {
@@ -6787,6 +6135,633 @@
               ],
               "date": "2026-09-26T10:25:09Z",
               "thumbnail_url": "/api/thumbnail/-1003264222864/499"
+            },
+            {
+              "id": "topic_-1003264222864_500",
+              "subject_id": "obgyn",
+              "module": "Marrow Edition 6 - Obstetrics & Gynecology",
+              "title": "77. Fibroid Part 1",
+              "filename": "77. Fibroid Part 1.mp4",
+              "file_size_bytes": 479778933,
+              "file_size_mb": 457.55,
+              "duration_seconds": 2334,
+              "duration_formatted": "38m 54s",
+              "chat_id": -1003264222864,
+              "message_id": 500,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 77. Fibroid Part 1",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-26T11:39:14Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/500"
+            },
+            {
+              "id": "topic_-1003264222864_501",
+              "subject_id": "obgyn",
+              "module": "Marrow Edition 6 - Obstetrics & Gynecology",
+              "title": "78. Fibroid Part 2",
+              "filename": "78. Fibroid Part 2.mp4",
+              "file_size_bytes": 1762627002,
+              "file_size_mb": 1680.97,
+              "duration_seconds": 7799,
+              "duration_formatted": "2h 9m",
+              "chat_id": -1003264222864,
+              "message_id": 501,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 78. Fibroid Part 2",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-26T12:23:12Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/501"
+            },
+            {
+              "id": "topic_-1003264222864_502",
+              "subject_id": "obgyn",
+              "module": "Marrow Edition 6 - Obstetrics & Gynecology",
+              "title": "79. Polyp and Adenomyosis",
+              "filename": "79. Polyp and Adenomyosis.mp4",
+              "file_size_bytes": 782379820,
+              "file_size_mb": 746.14,
+              "duration_seconds": 3775,
+              "duration_formatted": "1h 2m",
+              "chat_id": -1003264222864,
+              "message_id": 502,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 79. Polyp and Adenomyosis",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-26T12:29:43Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/502"
+            },
+            {
+              "id": "topic_-1003264222864_503",
+              "subject_id": "obgyn",
+              "module": "Marrow Edition 6 - Obstetrics & Gynecology",
+              "title": "80. Congenital Malformations of Uterus",
+              "filename": "80. Congenital Malformations of Uterus.mp4",
+              "file_size_bytes": 499974434,
+              "file_size_mb": 476.81,
+              "duration_seconds": 2803,
+              "duration_formatted": "46m 43s",
+              "chat_id": -1003264222864,
+              "message_id": 503,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 80. Congenital Malformations of Uterus",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-26T12:33:13Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/503"
+            },
+            {
+              "id": "topic_-1003264222864_504",
+              "subject_id": "obgyn",
+              "module": "Marrow Edition 6 - Obstetrics & Gynecology",
+              "title": "81. Prolapse",
+              "filename": "81. Prolapse.mp4",
+              "file_size_bytes": 1087176275,
+              "file_size_mb": 1036.81,
+              "duration_seconds": 5867,
+              "duration_formatted": "1h 37m",
+              "chat_id": -1003264222864,
+              "message_id": 504,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 81. Prolapse",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-26T12:40:43Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/504"
+            },
+            {
+              "id": "topic_-1003264222864_505",
+              "subject_id": "obgyn",
+              "module": "Marrow Edition 6 - Obstetrics & Gynecology",
+              "title": "82. Stress Urinary Incontinence",
+              "filename": "82. Stress Urinary Incontinence.mp4",
+              "file_size_bytes": 145550040,
+              "file_size_mb": 138.81,
+              "duration_seconds": 882,
+              "duration_formatted": "14m 42s",
+              "chat_id": -1003264222864,
+              "message_id": 505,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 82. Stress Urinary Incontinence",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-26T12:41:48Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/505"
+            },
+            {
+              "id": "topic_-1003264222864_506",
+              "subject_id": "obgyn",
+              "module": "Marrow Edition 6 - Obstetrics & Gynecology",
+              "title": "83. Urinary Fistulas",
+              "filename": "83. Urinary Fistulas.mp4",
+              "file_size_bytes": 176183359,
+              "file_size_mb": 168.02,
+              "duration_seconds": 1647,
+              "duration_formatted": "27m 27s",
+              "chat_id": -1003264222864,
+              "message_id": 506,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 83. Urinary Fistulas",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-26T12:43:08Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/506"
+            },
+            {
+              "id": "topic_-1003264222864_507",
+              "subject_id": "obgyn",
+              "module": "Marrow Edition 6 - Obstetrics & Gynecology",
+              "title": "84. Normal Sexual Development",
+              "filename": "84. Normal Sexual Development.mp4",
+              "file_size_bytes": 910499485,
+              "file_size_mb": 868.32,
+              "duration_seconds": 4834,
+              "duration_formatted": "1h 20m",
+              "chat_id": -1003264222864,
+              "message_id": 507,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 84. Normal Sexual Development",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-26T12:49:29Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/507"
+            },
+            {
+              "id": "topic_-1003264222864_508",
+              "subject_id": "obgyn",
+              "module": "Marrow Edition 6 - Obstetrics & Gynecology",
+              "title": "85. Puberty",
+              "filename": "85. Puberty.mp4",
+              "file_size_bytes": 255050311,
+              "file_size_mb": 243.23,
+              "duration_seconds": 1557,
+              "duration_formatted": "25m 57s",
+              "chat_id": -1003264222864,
+              "message_id": 508,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 85. Puberty",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-26T12:51:29Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/508"
+            },
+            {
+              "id": "topic_-1003264222864_509",
+              "subject_id": "obgyn",
+              "module": "Marrow Edition 6 - Obstetrics & Gynecology",
+              "title": "86. Disorders of Sexual Development Part 1",
+              "filename": "86. Disorders of Sexual Development Part 1.mp4",
+              "file_size_bytes": 598055620,
+              "file_size_mb": 570.35,
+              "duration_seconds": 4104,
+              "duration_formatted": "1h 8m",
+              "chat_id": -1003264222864,
+              "message_id": 509,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 86. Disorders of Sexual Development Part 1",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-26T12:55:37Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/509"
+            },
+            {
+              "id": "topic_-1003264222864_510",
+              "subject_id": "obgyn",
+              "module": "Marrow Edition 6 - Obstetrics & Gynecology",
+              "title": "87. Disorders of Sexual Development Part 2",
+              "filename": "87. Disorders of Sexual Development Part 2.mp4",
+              "file_size_bytes": 486546992,
+              "file_size_mb": 464.01,
+              "duration_seconds": 3421,
+              "duration_formatted": "57m 1s",
+              "chat_id": -1003264222864,
+              "message_id": 510,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 87. Disorders of Sexual Development Part 2",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-26T12:59:08Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/510"
+            },
+            {
+              "id": "topic_-1003264222864_511",
+              "subject_id": "obgyn",
+              "module": "Marrow Edition 6 - Obstetrics & Gynecology",
+              "title": "88. Primary Amenorrhea",
+              "filename": "88. Primary Amenorrhea.mp4",
+              "file_size_bytes": 470509554,
+              "file_size_mb": 448.71,
+              "duration_seconds": 3570,
+              "duration_formatted": "59m 30s",
+              "chat_id": -1003264222864,
+              "message_id": 511,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 88. Primary Amenorrhea",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-26T13:02:25Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/511"
+            },
+            {
+              "id": "topic_-1003264222864_512",
+              "subject_id": "obgyn",
+              "module": "Marrow Edition 6 - Obstetrics & Gynecology",
+              "title": "89. Secondary Amenorrhea",
+              "filename": "89. Secondary Amenorrhea.mp4",
+              "file_size_bytes": 1253939910,
+              "file_size_mb": 1195.85,
+              "duration_seconds": 5594,
+              "duration_formatted": "1h 33m",
+              "chat_id": -1003264222864,
+              "message_id": 512,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 89. Secondary Amenorrhea",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-26T13:11:08Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/512"
+            },
+            {
+              "id": "topic_-1003264222864_513",
+              "subject_id": "obgyn",
+              "module": "Marrow Edition 6 - Obstetrics & Gynecology",
+              "title": "90. Vaginitis",
+              "filename": "90. Vaginitis.mp4",
+              "file_size_bytes": 175894330,
+              "file_size_mb": 167.75,
+              "duration_seconds": 1029,
+              "duration_formatted": "17m 9s",
+              "chat_id": -1003264222864,
+              "message_id": 513,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 90. Vaginitis",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-26T13:12:27Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/513"
+            },
+            {
+              "id": "topic_-1003264222864_514",
+              "subject_id": "obgyn",
+              "module": "Marrow Edition 6 - Obstetrics & Gynecology",
+              "title": "91. PID",
+              "filename": "91. PID.mp4",
+              "file_size_bytes": 291273048,
+              "file_size_mb": 277.78,
+              "duration_seconds": 1470,
+              "duration_formatted": "24m 30s",
+              "chat_id": -1003264222864,
+              "message_id": 514,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 91. PID",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-26T13:14:33Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/514"
+            },
+            {
+              "id": "topic_-1003264222864_515",
+              "subject_id": "obgyn",
+              "module": "Marrow Edition 6 - Obstetrics & Gynecology",
+              "title": "92. Genital TB",
+              "filename": "92. Genital TB.mp4",
+              "file_size_bytes": 194382156,
+              "file_size_mb": 185.38,
+              "duration_seconds": 1152,
+              "duration_formatted": "19m 12s",
+              "chat_id": -1003264222864,
+              "message_id": 515,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 92. Genital TB",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-26T13:16:03Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/515"
+            },
+            {
+              "id": "topic_-1003264222864_516",
+              "subject_id": "obgyn",
+              "module": "Marrow Edition 6 - Obstetrics & Gynecology",
+              "title": "93. Female Infertility",
+              "filename": "93. Female Infertility.mp4",
+              "file_size_bytes": 1165709920,
+              "file_size_mb": 1111.71,
+              "duration_seconds": 5237,
+              "duration_formatted": "1h 27m",
+              "chat_id": -1003264222864,
+              "message_id": 516,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 93. Female Infertility",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-26T13:24:07Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/516"
+            },
+            {
+              "id": "topic_-1003264222864_517",
+              "subject_id": "obgyn",
+              "module": "Marrow Edition 6 - Obstetrics & Gynecology",
+              "title": "94. Male Infertility",
+              "filename": "94. Male Infertility.mp4",
+              "file_size_bytes": 734971080,
+              "file_size_mb": 700.92,
+              "duration_seconds": 4658,
+              "duration_formatted": "1h 17m",
+              "chat_id": -1003264222864,
+              "message_id": 517,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 94. Male Infertility",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-26T13:29:18Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/517"
+            },
+            {
+              "id": "topic_-1003264222864_518",
+              "subject_id": "obgyn",
+              "module": "Marrow Edition 6 - Obstetrics & Gynecology",
+              "title": "95. Natural Methods of Contraception",
+              "filename": "95. Natural Methods of Contraception.mp4",
+              "file_size_bytes": 395620345,
+              "file_size_mb": 377.29,
+              "duration_seconds": 1962,
+              "duration_formatted": "32m 42s",
+              "chat_id": -1003264222864,
+              "message_id": 518,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 95. Natural Methods of Contraception",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-26T13:32:07Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/518"
+            },
+            {
+              "id": "topic_-1003264222864_519",
+              "subject_id": "obgyn",
+              "module": "Marrow Edition 6 - Obstetrics & Gynecology",
+              "title": "96. Barrier Methods of Contraception",
+              "filename": "96. Barrier Methods of Contraception.mp4",
+              "file_size_bytes": 307615332,
+              "file_size_mb": 293.36,
+              "duration_seconds": 1358,
+              "duration_formatted": "22m 38s",
+              "chat_id": -1003264222864,
+              "message_id": 519,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 96. Barrier Methods of Contraception",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-26T13:34:31Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/519"
+            },
+            {
+              "id": "topic_-1003264222864_520",
+              "subject_id": "obgyn",
+              "module": "Marrow Edition 6 - Obstetrics & Gynecology",
+              "title": "97. Obstetrics & Gynecology Part 98",
+              "filename": "97. Obstetrics & Gynecology Part 98.mp4",
+              "file_size_bytes": 523692766,
+              "file_size_mb": 499.43,
+              "duration_seconds": 2960,
+              "duration_formatted": "49m 20s",
+              "chat_id": -1003264222864,
+              "message_id": 520,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 97. Obstetrics & Gynecology Part 98",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-26T13:38:21Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/520"
+            },
+            {
+              "id": "topic_-1003264222864_521",
+              "subject_id": "obgyn",
+              "module": "Marrow Edition 6 - Obstetrics & Gynecology",
+              "title": "98. Obstetrics & Gynecology Part 99",
+              "filename": "98. Obstetrics & Gynecology Part 99.mp4",
+              "file_size_bytes": 344587623,
+              "file_size_mb": 328.62,
+              "duration_seconds": 1650,
+              "duration_formatted": "27m 30s",
+              "chat_id": -1003264222864,
+              "message_id": 521,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 98. Obstetrics & Gynecology Part 99",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-26T13:40:50Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/521"
+            },
+            {
+              "id": "topic_-1003264222864_522",
+              "subject_id": "obgyn",
+              "module": "Marrow Edition 6 - Obstetrics & Gynecology",
+              "title": "99. Obstetrics & Gynecology Part 100",
+              "filename": "99. Obstetrics & Gynecology Part 100.mp4",
+              "file_size_bytes": 576595259,
+              "file_size_mb": 549.88,
+              "duration_seconds": 3316,
+              "duration_formatted": "55m 16s",
+              "chat_id": -1003264222864,
+              "message_id": 522,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 99. Obstetrics & Gynecology Part 100",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-26T13:45:08Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/522"
+            },
+            {
+              "id": "topic_-1003264222864_523",
+              "subject_id": "obgyn",
+              "module": "Marrow Edition 6 - Obstetrics & Gynecology",
+              "title": "100. Obstetrics & Gynecology Part 101",
+              "filename": "100. Obstetrics & Gynecology Part 101.mp4",
+              "file_size_bytes": 704781150,
+              "file_size_mb": 672.13,
+              "duration_seconds": 3574,
+              "duration_formatted": "59m 34s",
+              "chat_id": -1003264222864,
+              "message_id": 523,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 100. Obstetrics & Gynecology Part 101",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-26T13:50:17Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/523"
+            },
+            {
+              "id": "topic_-1003264222864_524",
+              "subject_id": "obgyn",
+              "module": "Marrow Edition 6 - Obstetrics & Gynecology",
+              "title": "101. Obstetrics & Gynecology Part 102",
+              "filename": "101. Obstetrics & Gynecology Part 102.mp4",
+              "file_size_bytes": 339021519,
+              "file_size_mb": 323.32,
+              "duration_seconds": 1572,
+              "duration_formatted": "26m 12s",
+              "chat_id": -1003264222864,
+              "message_id": 524,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 101. Obstetrics & Gynecology Part 102",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-26T13:52:48Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/524"
+            },
+            {
+              "id": "topic_-1003264222864_525",
+              "subject_id": "obgyn",
+              "module": "Marrow Edition 6 - Obstetrics & Gynecology",
+              "title": "102. Endometrial Hyperplasia",
+              "filename": "102. Endometrial Hyperplasia.mp4",
+              "file_size_bytes": 505772085,
+              "file_size_mb": 482.34,
+              "duration_seconds": 2598,
+              "duration_formatted": "43m 18s",
+              "chat_id": -1003264222864,
+              "message_id": 525,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 102. Endometrial Hyperplasia",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-26T13:56:15Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/525"
+            },
+            {
+              "id": "topic_-1003264222864_526",
+              "subject_id": "obgyn",
+              "module": "Marrow Edition 6 - Obstetrics & Gynecology",
+              "title": "103. Endometrial Cancer",
+              "filename": "103. Endometrial Cancer.mp4",
+              "file_size_bytes": 815333091,
+              "file_size_mb": 777.56,
+              "duration_seconds": 4979,
+              "duration_formatted": "1h 22m",
+              "chat_id": -1003264222864,
+              "message_id": 526,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 103. Endometrial Cancer",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-26T14:01:42Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/526"
+            },
+            {
+              "id": "topic_-1003264222864_527",
+              "subject_id": "obgyn",
+              "module": "Marrow Edition 6 - Obstetrics & Gynecology",
+              "title": "104. CIN Part 1",
+              "filename": "104. CIN Part 1.mp4",
+              "file_size_bytes": 650271300,
+              "file_size_mb": 620.15,
+              "duration_seconds": 4134,
+              "duration_formatted": "1h 8m",
+              "chat_id": -1003264222864,
+              "message_id": 527,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 104. CIN Part 1",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-26T14:06:03Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/527"
+            },
+            {
+              "id": "topic_-1003264222864_528",
+              "subject_id": "obgyn",
+              "module": "Marrow Edition 6 - Obstetrics & Gynecology",
+              "title": "105. CIN Part 2",
+              "filename": "105. CIN Part 2.mp4",
+              "file_size_bytes": 756182793,
+              "file_size_mb": 721.15,
+              "duration_seconds": 5272,
+              "duration_formatted": "1h 27m",
+              "chat_id": -1003264222864,
+              "message_id": 528,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 105. CIN Part 2",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-26T14:11:00Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/528"
+            },
+            {
+              "id": "topic_-1003264222864_529",
+              "subject_id": "obgyn",
+              "module": "Marrow Edition 6 - Obstetrics & Gynecology",
+              "title": "106. Cancer Cervix",
+              "filename": "106. Cancer Cervix.mp4",
+              "file_size_bytes": 604496261,
+              "file_size_mb": 576.49,
+              "duration_seconds": 3650,
+              "duration_formatted": "60m 50s",
+              "chat_id": -1003264222864,
+              "message_id": 529,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 106. Cancer Cervix",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-26T14:14:57Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/529"
+            },
+            {
+              "id": "topic_-1003264222864_530",
+              "subject_id": "obgyn",
+              "module": "Marrow Edition 6 - Obstetrics & Gynecology",
+              "title": "107. Obstetrics & Gynecology Part 108",
+              "filename": "107. Obstetrics & Gynecology Part 108.mp4",
+              "file_size_bytes": 760130261,
+              "file_size_mb": 724.92,
+              "duration_seconds": 4964,
+              "duration_formatted": "1h 22m",
+              "chat_id": -1003264222864,
+              "message_id": 530,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 107. Obstetrics & Gynecology Part 108",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-26T14:35:46Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/530"
+            },
+            {
+              "id": "topic_-1003264222864_531",
+              "subject_id": "obgyn",
+              "module": "Marrow Edition 6 - Obstetrics & Gynecology",
+              "title": "108. Obstetrics & Gynecology Part 109",
+              "filename": "108. Obstetrics & Gynecology Part 109.mp4",
+              "file_size_bytes": 357844392,
+              "file_size_mb": 341.27,
+              "duration_seconds": 2157,
+              "duration_formatted": "35m 57s",
+              "chat_id": -1003264222864,
+              "message_id": 531,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 108. Obstetrics & Gynecology Part 109",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-26T14:38:13Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/531"
+            },
+            {
+              "id": "topic_-1003264222864_532",
+              "subject_id": "obgyn",
+              "module": "Marrow Edition 6 - Obstetrics & Gynecology",
+              "title": "109. Obstetrics & Gynecology Part 110",
+              "filename": "109. Obstetrics & Gynecology Part 110.mp4",
+              "file_size_bytes": 423091287,
+              "file_size_mb": 403.49,
+              "duration_seconds": 2279,
+              "duration_formatted": "37m 59s",
+              "chat_id": -1003264222864,
+              "message_id": 532,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 109. Obstetrics & Gynecology Part 110",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-26T14:41:06Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/532"
             }
           ]
         }
@@ -6801,9 +6776,54 @@
       "category": "Clinical",
       "icon": "Baby",
       "color": "#F59E0B",
-      "total_topics": 0,
+      "total_topics": 2,
       "total_notes": 3,
-      "modules": [],
+      "modules": [
+        {
+          "id": "mod_marrow_pediatrics",
+          "name": "Marrow Edition 6 - Pediatrics",
+          "topics": [
+            {
+              "id": "topic_-1003264222864_253",
+              "subject_id": "pediatrics",
+              "module": "Marrow Edition 6 - Pediatrics",
+              "title": "1. How to Approach Pediatrics Edition 6",
+              "filename": "1. How to Approach Pediatrics Edition 6.mp4",
+              "file_size_bytes": 113506658,
+              "file_size_mb": 108.25,
+              "duration_seconds": 418,
+              "duration_formatted": "6m 58s",
+              "chat_id": -1003264222864,
+              "message_id": 253,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 1. How to Approach Pediatrics Edition 6",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-26T14:41:56Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/253"
+            },
+            {
+              "id": "topic_-1003264222864_254",
+              "subject_id": "pediatrics",
+              "module": "Marrow Edition 6 - Pediatrics",
+              "title": "2. Normal Newborn",
+              "filename": "2. Normal Newborn.mp4",
+              "file_size_bytes": 294475628,
+              "file_size_mb": 280.83,
+              "duration_seconds": 1754,
+              "duration_formatted": "29m 14s",
+              "chat_id": -1003264222864,
+              "message_id": 254,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 2. Normal Newborn",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-26T14:43:58Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/254"
+            }
+          ]
+        }
+      ],
       "notes": []
     },
     {
