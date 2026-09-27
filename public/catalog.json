@@ -1,6 +1,6 @@
 {
   "version": "2.2.0",
-  "updated_at": "2026-09-26T18:44:01.591Z",
+  "updated_at": "2026-09-27T02:27:34.296Z",
   "subjects": [
     {
       "id": "anatomy",
@@ -6776,7 +6776,7 @@
       "category": "Clinical",
       "icon": "Baby",
       "color": "#F59E0B",
-      "total_topics": 37,
+      "total_topics": 57,
       "total_notes": 3,
       "modules": [
         {
@@ -7485,6 +7485,386 @@
               ],
               "date": "2026-09-26T18:43:51Z",
               "thumbnail_url": "/api/thumbnail/-1003264222864/289"
+            },
+            {
+              "id": "topic_-1003264222864_290",
+              "subject_id": "pediatrics",
+              "module": "Marrow Edition 6 - Pediatrics",
+              "title": "38. Congenital Anomalies of Kidney and Urinary Tract",
+              "filename": "38. Congenital Anomalies of Kidney and Urinary Tract.mp4",
+              "file_size_bytes": 1013375326,
+              "file_size_mb": 966.43,
+              "duration_seconds": 3300,
+              "duration_formatted": "55m",
+              "chat_id": -1003264222864,
+              "message_id": 290,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 38. Congenital Anomalies of Kidney and Urinary Tract",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-26T21:18:36Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/290"
+            },
+            {
+              "id": "topic_-1003264222864_291",
+              "subject_id": "pediatrics",
+              "module": "Marrow Edition 6 - Pediatrics",
+              "title": "39. Glomerulonephritis",
+              "filename": "39. Glomerulonephritis.mp4",
+              "file_size_bytes": 475530898,
+              "file_size_mb": 453.5,
+              "duration_seconds": 1449,
+              "duration_formatted": "24m 9s",
+              "chat_id": -1003264222864,
+              "message_id": 291,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 39. Glomerulonephritis",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-26T21:21:50Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/291"
+            },
+            {
+              "id": "topic_-1003264222864_292",
+              "subject_id": "pediatrics",
+              "module": "Marrow Edition 6 - Pediatrics",
+              "title": "40. Nephrotic Syndrome",
+              "filename": "40. Nephrotic Syndrome.mp4",
+              "file_size_bytes": 726013084,
+              "file_size_mb": 692.38,
+              "duration_seconds": 2179,
+              "duration_formatted": "36m 19s",
+              "chat_id": -1003264222864,
+              "message_id": 292,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 40. Nephrotic Syndrome",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-26T21:26:35Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/292"
+            },
+            {
+              "id": "topic_-1003264222864_293",
+              "subject_id": "pediatrics",
+              "module": "Marrow Edition 6 - Pediatrics",
+              "title": "41. Inherited Tubular Disorders",
+              "filename": "41. Inherited Tubular Disorders.mp4",
+              "file_size_bytes": 249269870,
+              "file_size_mb": 237.72,
+              "duration_seconds": 1265,
+              "duration_formatted": "21m 5s",
+              "chat_id": -1003264222864,
+              "message_id": 293,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 41. Inherited Tubular Disorders",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-26T21:28:18Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/293"
+            },
+            {
+              "id": "topic_-1003264222864_294",
+              "subject_id": "pediatrics",
+              "module": "Marrow Edition 6 - Pediatrics",
+              "title": "42. Acute Kidney Injury and Chronic Kidney Disease",
+              "filename": "42. Acute Kidney Injury and Chronic Kidney Disease.mp4",
+              "file_size_bytes": 649992896,
+              "file_size_mb": 619.88,
+              "duration_seconds": 2980,
+              "duration_formatted": "49m 40s",
+              "chat_id": -1003264222864,
+              "message_id": 294,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 42. Acute Kidney Injury and Chronic Kidney Disease",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-26T21:32:38Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/294"
+            },
+            {
+              "id": "topic_-1003264222864_295",
+              "subject_id": "pediatrics",
+              "module": "Marrow Edition 6 - Pediatrics",
+              "title": "43. Congenital Anomalies and Hydrocephalus",
+              "filename": "43. Congenital Anomalies and Hydrocephalus.mp4",
+              "file_size_bytes": 1109217651,
+              "file_size_mb": 1057.83,
+              "duration_seconds": 3488,
+              "duration_formatted": "58m 8s",
+              "chat_id": -1003264222864,
+              "message_id": 295,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 43. Congenital Anomalies and Hydrocephalus",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-26T21:39:53Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/295"
+            },
+            {
+              "id": "topic_-1003264222864_296",
+              "subject_id": "pediatrics",
+              "module": "Marrow Edition 6 - Pediatrics",
+              "title": "44. Seizure Disorders and Epilepsy",
+              "filename": "44. Seizure Disorders and Epilepsy.mp4",
+              "file_size_bytes": 993651807,
+              "file_size_mb": 947.62,
+              "duration_seconds": 3028,
+              "duration_formatted": "50m 28s",
+              "chat_id": -1003264222864,
+              "message_id": 296,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 44. Seizure Disorders and Epilepsy",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-26T21:46:27Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/296"
+            },
+            {
+              "id": "topic_-1003264222864_297",
+              "subject_id": "pediatrics",
+              "module": "Marrow Edition 6 - Pediatrics",
+              "title": "45. Cerebral Palsy and Cns Infections",
+              "filename": "45. Cerebral Palsy and Cns Infections.mp4",
+              "file_size_bytes": 1112241248,
+              "file_size_mb": 1060.72,
+              "duration_seconds": 3388,
+              "duration_formatted": "56m 28s",
+              "chat_id": -1003264222864,
+              "message_id": 297,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 45. Cerebral Palsy and Cns Infections",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-26T21:53:47Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/297"
+            },
+            {
+              "id": "topic_-1003264222864_298",
+              "subject_id": "pediatrics",
+              "module": "Marrow Edition 6 - Pediatrics",
+              "title": "46. Neuromuscular Disorders",
+              "filename": "46. Neuromuscular Disorders.mp4",
+              "file_size_bytes": 1448820208,
+              "file_size_mb": 1381.7,
+              "duration_seconds": 4411,
+              "duration_formatted": "1h 13m",
+              "chat_id": -1003264222864,
+              "message_id": 298,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 46. Neuromuscular Disorders",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-26T22:28:12Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/298"
+            },
+            {
+              "id": "topic_-1003264222864_299",
+              "subject_id": "pediatrics",
+              "module": "Marrow Edition 6 - Pediatrics",
+              "title": "47. Growth Hormone Deficiency and Hypothyroidism",
+              "filename": "47. Growth Hormone Deficiency and Hypothyroidism.mp4",
+              "file_size_bytes": 461454356,
+              "file_size_mb": 440.08,
+              "duration_seconds": 2630,
+              "duration_formatted": "43m 50s",
+              "chat_id": -1003264222864,
+              "message_id": 299,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 47. Growth Hormone Deficiency and Hypothyroidism",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-26T22:41:49Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/299"
+            },
+            {
+              "id": "topic_-1003264222864_300",
+              "subject_id": "pediatrics",
+              "module": "Marrow Edition 6 - Pediatrics",
+              "title": "48. Adrenal Disorders",
+              "filename": "48. Adrenal Disorders.mp4",
+              "file_size_bytes": 1020266050,
+              "file_size_mb": 973,
+              "duration_seconds": 2904,
+              "duration_formatted": "48m 24s",
+              "chat_id": -1003264222864,
+              "message_id": 300,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 48. Adrenal Disorders",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-26T23:11:50Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/300"
+            },
+            {
+              "id": "topic_-1003264222864_301",
+              "subject_id": "pediatrics",
+              "module": "Marrow Edition 6 - Pediatrics",
+              "title": "49. Pubertal Disorders",
+              "filename": "49. Pubertal Disorders.mp4",
+              "file_size_bytes": 226872663,
+              "file_size_mb": 216.36,
+              "duration_seconds": 1858,
+              "duration_formatted": "30m 58s",
+              "chat_id": -1003264222864,
+              "message_id": 301,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 49. Pubertal Disorders",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-26T23:18:29Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/301"
+            },
+            {
+              "id": "topic_-1003264222864_302",
+              "subject_id": "pediatrics",
+              "module": "Marrow Edition 6 - Pediatrics",
+              "title": "50. Hematological Melagnancies",
+              "filename": "50. Hematological Melagnancies.mp4",
+              "file_size_bytes": 628576293,
+              "file_size_mb": 599.46,
+              "duration_seconds": 4174,
+              "duration_formatted": "1h 9m",
+              "chat_id": -1003264222864,
+              "message_id": 302,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 50. Hematological Melagnancies",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-26T23:36:54Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/302"
+            },
+            {
+              "id": "topic_-1003264222864_303",
+              "subject_id": "pediatrics",
+              "module": "Marrow Edition 6 - Pediatrics",
+              "title": "51. Solid Tumor in Children",
+              "filename": "51. Solid Tumor in Children.mp4",
+              "file_size_bytes": 363389397,
+              "file_size_mb": 346.56,
+              "duration_seconds": 2158,
+              "duration_formatted": "35m 58s",
+              "chat_id": -1003264222864,
+              "message_id": 303,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 51. Solid Tumor in Children",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-26T23:47:26Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/303"
+            },
+            {
+              "id": "topic_-1003264222864_304",
+              "subject_id": "pediatrics",
+              "module": "Marrow Edition 6 - Pediatrics",
+              "title": "52. Rheumatic Diseases of Childhood",
+              "filename": "52. Rheumatic Diseases of Childhood.mp4",
+              "file_size_bytes": 419313795,
+              "file_size_mb": 399.89,
+              "duration_seconds": 3537,
+              "duration_formatted": "58m 57s",
+              "chat_id": -1003264222864,
+              "message_id": 304,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 52. Rheumatic Diseases of Childhood",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-26T23:59:32Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/304"
+            },
+            {
+              "id": "topic_-1003264222864_305",
+              "subject_id": "pediatrics",
+              "module": "Marrow Edition 6 - Pediatrics",
+              "title": "53. Approach to Anemia in Children and Nutritional Anemia",
+              "filename": "53. Approach to Anemia in Children and Nutritional Anemia.mp4",
+              "file_size_bytes": 381025672,
+              "file_size_mb": 363.37,
+              "duration_seconds": 2531,
+              "duration_formatted": "42m 11s",
+              "chat_id": -1003264222864,
+              "message_id": 305,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 53. Approach to Anemia in Children and Nutritional Anemia",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T00:10:43Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/305"
+            },
+            {
+              "id": "topic_-1003264222864_306",
+              "subject_id": "pediatrics",
+              "module": "Marrow Edition 6 - Pediatrics",
+              "title": "54. Congenital Anomalies and Hydrocephalus",
+              "filename": "54. Congenital Anomalies and Hydrocephalus.mp4",
+              "file_size_bytes": 503584985,
+              "file_size_mb": 480.26,
+              "duration_seconds": 3072,
+              "duration_formatted": "51m 12s",
+              "chat_id": -1003264222864,
+              "message_id": 306,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 54. Congenital Anomalies and Hydrocephalus",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T00:25:34Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/306"
+            },
+            {
+              "id": "topic_-1003264222864_307",
+              "subject_id": "pediatrics",
+              "module": "Marrow Edition 6 - Pediatrics",
+              "title": "55. Bleeding Disorders",
+              "filename": "55. Bleeding Disorders.mp4",
+              "file_size_bytes": 179420740,
+              "file_size_mb": 171.11,
+              "duration_seconds": 1247,
+              "duration_formatted": "20m 47s",
+              "chat_id": -1003264222864,
+              "message_id": 307,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 55. Bleeding Disorders",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T00:30:53Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/307"
+            },
+            {
+              "id": "topic_-1003264222864_308",
+              "subject_id": "pediatrics",
+              "module": "Marrow Edition 6 - Pediatrics",
+              "title": "56. Shock",
+              "filename": "56. Shock.mp4",
+              "file_size_bytes": 246446803,
+              "file_size_mb": 235.03,
+              "duration_seconds": 1227,
+              "duration_formatted": "20m 27s",
+              "chat_id": -1003264222864,
+              "message_id": 308,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 56. Shock",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T00:38:05Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/308"
+            },
+            {
+              "id": "topic_-1003264222864_309",
+              "subject_id": "pediatrics",
+              "module": "Marrow Edition 6 - Pediatrics",
+              "title": "57. Pals Guidelines",
+              "filename": "57. Pals Guidelines.mp4",
+              "file_size_bytes": 670280031,
+              "file_size_mb": 639.23,
+              "duration_seconds": 3230,
+              "duration_formatted": "53m 50s",
+              "chat_id": -1003264222864,
+              "message_id": 309,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 57. Pals Guidelines",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T00:57:39Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/309"
             }
           ]
         }
@@ -7499,9 +7879,130 @@
       "category": "Clinical",
       "icon": "Footprints",
       "color": "#65A30D",
-      "total_topics": 0,
+      "total_topics": 6,
       "total_notes": 5,
-      "modules": [],
+      "modules": [
+        {
+          "id": "mod_marrow_orthopedics",
+          "name": "Marrow Edition 6 - Orthopedics",
+          "topics": [
+            {
+              "id": "topic_-1003264222864_788",
+              "subject_id": "orthopedics",
+              "module": "Marrow Edition 6 - Orthopedics",
+              "title": "1. How to Approach Orthopedics Edition 6",
+              "filename": "1. How to Approach Orthopedics Edition 6.mp4",
+              "file_size_bytes": 118781676,
+              "file_size_mb": 113.28,
+              "duration_seconds": 740,
+              "duration_formatted": "12m 20s",
+              "chat_id": -1003264222864,
+              "message_id": 788,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 1. How to Approach Orthopedics Edition 6",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T01:01:08Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/788"
+            },
+            {
+              "id": "topic_-1003264222864_789",
+              "subject_id": "orthopedics",
+              "module": "Marrow Edition 6 - Orthopedics",
+              "title": "2. Basics - Histo & Physio of Bones",
+              "filename": "2. Basics - Histo & Physio of Bones.mp4",
+              "file_size_bytes": 339334710,
+              "file_size_mb": 323.61,
+              "duration_seconds": 1799,
+              "duration_formatted": "29m 59s",
+              "chat_id": -1003264222864,
+              "message_id": 789,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 2. Basics - Histo & Physio of Bones",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T01:11:07Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/789"
+            },
+            {
+              "id": "topic_-1003264222864_790",
+              "subject_id": "orthopedics",
+              "module": "Marrow Edition 6 - Orthopedics",
+              "title": "3. Basics - Fracture & Healing",
+              "filename": "3. Basics - Fracture & Healing.mp4",
+              "file_size_bytes": 875337064,
+              "file_size_mb": 834.79,
+              "duration_seconds": 5134,
+              "duration_formatted": "1h 25m",
+              "chat_id": -1003264222864,
+              "message_id": 790,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 3. Basics - Fracture & Healing",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T01:36:52Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/790"
+            },
+            {
+              "id": "topic_-1003264222864_791",
+              "subject_id": "orthopedics",
+              "module": "Marrow Edition 6 - Orthopedics",
+              "title": "4. Open Fracture, Amputation & Polytrauma",
+              "filename": "4. Open Fracture, Amputation & Polytrauma.mp4",
+              "file_size_bytes": 648294051,
+              "file_size_mb": 618.26,
+              "duration_seconds": 3994,
+              "duration_formatted": "1h 6m",
+              "chat_id": -1003264222864,
+              "message_id": 791,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 4. Open Fracture, Amputation & Polytrauma",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T01:55:52Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/791"
+            },
+            {
+              "id": "topic_-1003264222864_792",
+              "subject_id": "orthopedics",
+              "module": "Marrow Edition 6 - Orthopedics",
+              "title": "5. Metabolic Bone Disease P1",
+              "filename": "5. Metabolic Bone Disease P1.mp4",
+              "file_size_bytes": 548305912,
+              "file_size_mb": 522.91,
+              "duration_seconds": 4133,
+              "duration_formatted": "1h 8m",
+              "chat_id": -1003264222864,
+              "message_id": 792,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 5. Metabolic Bone Disease P1",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T02:12:12Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/792"
+            },
+            {
+              "id": "topic_-1003264222864_793",
+              "subject_id": "orthopedics",
+              "module": "Marrow Edition 6 - Orthopedics",
+              "title": "6. Metabolic Bone Disease P2",
+              "filename": "6. Metabolic Bone Disease P2.mp4",
+              "file_size_bytes": 521807695,
+              "file_size_mb": 497.63,
+              "duration_seconds": 4060,
+              "duration_formatted": "1h 7m",
+              "chat_id": -1003264222864,
+              "message_id": 793,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 6. Metabolic Bone Disease P2",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T02:27:27Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/793"
+            }
+          ]
+        }
+      ],
       "notes": []
     },
     {
