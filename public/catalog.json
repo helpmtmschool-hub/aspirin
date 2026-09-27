@@ -1,6 +1,6 @@
 {
   "version": "2.2.0",
-  "updated_at": "2026-09-27T14:44:10.391Z",
+  "updated_at": "2026-09-27T18:08:56.583Z",
   "subjects": [
     {
       "id": "anatomy",
@@ -9478,7 +9478,7 @@
       "category": "Clinical",
       "icon": "Scan",
       "color": "#0891B2",
-      "total_topics": 4,
+      "total_topics": 21,
       "total_notes": 4,
       "modules": [
         {
@@ -9560,6 +9560,329 @@
               ],
               "date": "2026-09-27T14:43:59Z",
               "thumbnail_url": "/api/thumbnail/-1003264222864/537"
+            },
+            {
+              "id": "topic_-1003264222864_538",
+              "subject_id": "radiology",
+              "module": "Marrow Edition 6 - Radiology",
+              "title": "5. USG Basics",
+              "filename": "5. USG Basics.mp4",
+              "file_size_bytes": 375776149,
+              "file_size_mb": 358.37,
+              "duration_seconds": 2382,
+              "duration_formatted": "39m 42s",
+              "chat_id": -1003264222864,
+              "message_id": 538,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 5. USG Basics",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T17:01:47Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/538"
+            },
+            {
+              "id": "topic_-1003264222864_539",
+              "subject_id": "radiology",
+              "module": "Marrow Edition 6 - Radiology",
+              "title": "6. MRI Basics",
+              "filename": "6. MRI Basics.mp4",
+              "file_size_bytes": 217657672,
+              "file_size_mb": 207.57,
+              "duration_seconds": 1324,
+              "duration_formatted": "22m 4s",
+              "chat_id": -1003264222864,
+              "message_id": 539,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 6. MRI Basics",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T17:03:29Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/539"
+            },
+            {
+              "id": "topic_-1003264222864_540",
+              "subject_id": "radiology",
+              "module": "Marrow Edition 6 - Radiology",
+              "title": "7. Contrast Media",
+              "filename": "7. Contrast Media.mp4",
+              "file_size_bytes": 514516507,
+              "file_size_mb": 490.68,
+              "duration_seconds": 3870,
+              "duration_formatted": "1h 4m",
+              "chat_id": -1003264222864,
+              "message_id": 540,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 7. Contrast Media",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T17:07:11Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/540"
+            },
+            {
+              "id": "topic_-1003264222864_541",
+              "subject_id": "radiology",
+              "module": "Marrow Edition 6 - Radiology",
+              "title": "8. USG Interpretation Module",
+              "filename": "8. USG Interpretation Module.mp4",
+              "file_size_bytes": 482976769,
+              "file_size_mb": 460.6,
+              "duration_seconds": 3182,
+              "duration_formatted": "53m 2s",
+              "chat_id": -1003264222864,
+              "message_id": 541,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 8. USG Interpretation Module",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T17:10:38Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/541"
+            },
+            {
+              "id": "topic_-1003264222864_542",
+              "subject_id": "radiology",
+              "module": "Marrow Edition 6 - Radiology",
+              "title": "9. CT Interpretation Module",
+              "filename": "9. CT Interpretation Module.mp4",
+              "file_size_bytes": 576578603,
+              "file_size_mb": 549.87,
+              "duration_seconds": 4019,
+              "duration_formatted": "1h 6m",
+              "chat_id": -1003264222864,
+              "message_id": 542,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 9. CT Interpretation Module",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T17:14:44Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/542"
+            },
+            {
+              "id": "topic_-1003264222864_545",
+              "subject_id": "radiology",
+              "module": "Marrow Edition 6 - Radiology",
+              "title": "12. Pleural Abnormalities and Lobar Collapse",
+              "filename": "12. Pleural Abnormalities and Lobar Collapse.mp4",
+              "file_size_bytes": 652160196,
+              "file_size_mb": 621.95,
+              "duration_seconds": 4865,
+              "duration_formatted": "1h 21m",
+              "chat_id": -1003264222864,
+              "message_id": 545,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 12. Pleural Abnormalities and Lobar Collapse",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T17:21:46Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/545"
+            },
+            {
+              "id": "topic_-1003264222864_549",
+              "subject_id": "radiology",
+              "module": "Marrow Edition 6 - Radiology",
+              "title": "16. Congenital Heart Disease",
+              "filename": "16. Congenital Heart Disease.mp4",
+              "file_size_bytes": 198179042,
+              "file_size_mb": 189,
+              "duration_seconds": 1582,
+              "duration_formatted": "26m 22s",
+              "chat_id": -1003264222864,
+              "message_id": 549,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 16. Congenital Heart Disease",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T17:26:36Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/549"
+            },
+            {
+              "id": "topic_-1003264222864_550",
+              "subject_id": "radiology",
+              "module": "Marrow Edition 6 - Radiology",
+              "title": "17. Acquired Heart Disease",
+              "filename": "17. Acquired Heart Disease.mp4",
+              "file_size_bytes": 549849931,
+              "file_size_mb": 524.38,
+              "duration_seconds": 4592,
+              "duration_formatted": "1h 16m",
+              "chat_id": -1003264222864,
+              "message_id": 550,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 17. Acquired Heart Disease",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T17:30:32Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/550"
+            },
+            {
+              "id": "topic_-1003264222864_555",
+              "subject_id": "radiology",
+              "module": "Marrow Edition 6 - Radiology",
+              "title": "22. MRI Blood Appearance",
+              "filename": "22. MRI Blood Appearance.mp4",
+              "file_size_bytes": 155049266,
+              "file_size_mb": 147.87,
+              "duration_seconds": 832,
+              "duration_formatted": "13m 52s",
+              "chat_id": -1003264222864,
+              "message_id": 555,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 22. MRI Blood Appearance",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T17:36:05Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/555"
+            },
+            {
+              "id": "topic_-1003264222864_557",
+              "subject_id": "radiology",
+              "module": "Marrow Edition 6 - Radiology",
+              "title": "24. Gut Imaging",
+              "filename": "24. Gut Imaging.mp4",
+              "file_size_bytes": 400905741,
+              "file_size_mb": 382.33,
+              "duration_seconds": 3897,
+              "duration_formatted": "1h 4m",
+              "chat_id": -1003264222864,
+              "message_id": 557,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 24. Gut Imaging",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T17:39:49Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/557"
+            },
+            {
+              "id": "topic_-1003264222864_560",
+              "subject_id": "radiology",
+              "module": "Marrow Edition 6 - Radiology",
+              "title": "27. Git Imaging",
+              "filename": "27. Git Imaging.mp4",
+              "file_size_bytes": 336921685,
+              "file_size_mb": 321.31,
+              "duration_seconds": 3291,
+              "duration_formatted": "54m 51s",
+              "chat_id": -1003264222864,
+              "message_id": 560,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 27. Git Imaging",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T17:43:31Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/560"
+            },
+            {
+              "id": "topic_-1003264222864_562",
+              "subject_id": "radiology",
+              "module": "Marrow Edition 6 - Radiology",
+              "title": "29. Hepatobiliary and Pancreatic Imaging",
+              "filename": "29. Hepatobiliary and Pancreatic Imaging.mp4",
+              "file_size_bytes": 325920409,
+              "file_size_mb": 310.82,
+              "duration_seconds": 3032,
+              "duration_formatted": "50m 32s",
+              "chat_id": -1003264222864,
+              "message_id": 562,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 29. Hepatobiliary and Pancreatic Imaging",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T17:46:23Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/562"
+            },
+            {
+              "id": "topic_-1003264222864_563",
+              "subject_id": "radiology",
+              "module": "Marrow Edition 6 - Radiology",
+              "title": "30. Radionuclide Imaging Basics",
+              "filename": "30. Radionuclide Imaging Basics.mp4",
+              "file_size_bytes": 136485363,
+              "file_size_mb": 130.16,
+              "duration_seconds": 757,
+              "duration_formatted": "12m 37s",
+              "chat_id": -1003264222864,
+              "message_id": 563,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 30. Radionuclide Imaging Basics",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T17:47:26Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/563"
+            },
+            {
+              "id": "topic_-1003264222864_567",
+              "subject_id": "radiology",
+              "module": "Marrow Edition 6 - Radiology",
+              "title": "34. Radiotherapy. Part 1",
+              "filename": "34. Radiotherapy. Part 1.mp4",
+              "file_size_bytes": 725086962,
+              "file_size_mb": 691.5,
+              "duration_seconds": 4157,
+              "duration_formatted": "1h 9m",
+              "chat_id": -1003264222864,
+              "message_id": 567,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 34. Radiotherapy. Part 1",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T17:55:38Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/567"
+            },
+            {
+              "id": "topic_-1003264222864_568",
+              "subject_id": "radiology",
+              "module": "Marrow Edition 6 - Radiology",
+              "title": "35. Radiotherapy. Part 2",
+              "filename": "35. Radiotherapy. Part 2.mp4",
+              "file_size_bytes": 408605267,
+              "file_size_mb": 389.68,
+              "duration_seconds": 2203,
+              "duration_formatted": "36m 43s",
+              "chat_id": -1003264222864,
+              "message_id": 568,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 35. Radiotherapy. Part 2",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T17:58:37Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/568"
+            },
+            {
+              "id": "topic_-1003264222864_569",
+              "subject_id": "radiology",
+              "module": "Marrow Edition 6 - Radiology",
+              "title": "36. Obstetrics and Gynaecology Imaging",
+              "filename": "36. Obstetrics and Gynaecology Imaging.mp4",
+              "file_size_bytes": 490797751,
+              "file_size_mb": 468.06,
+              "duration_seconds": 2183,
+              "duration_formatted": "36m 23s",
+              "chat_id": -1003264222864,
+              "message_id": 569,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 36. Obstetrics and Gynaecology Imaging",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T18:02:11Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/569"
+            },
+            {
+              "id": "topic_-1003264222864_570",
+              "subject_id": "radiology",
+              "module": "Marrow Edition 6 - Radiology",
+              "title": "37. Breast Imaging",
+              "filename": "37. Breast Imaging.mp4",
+              "file_size_bytes": 642214385,
+              "file_size_mb": 612.46,
+              "duration_seconds": 2668,
+              "duration_formatted": "44m 28s",
+              "chat_id": -1003264222864,
+              "message_id": 570,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 37. Breast Imaging",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T18:06:42Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/570"
             }
           ]
         }
