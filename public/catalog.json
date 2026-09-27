@@ -1,6 +1,6 @@
 {
   "version": "2.2.0",
-  "updated_at": "2026-09-27T02:27:34.296Z",
+  "updated_at": "2026-09-27T03:31:14.356Z",
   "subjects": [
     {
       "id": "anatomy",
@@ -7502,7 +7502,7 @@
                 "Key clinical concepts and high-yield examination pearls in 38. Congenital Anomalies of Kidney and Urinary Tract",
                 "Essential clinical reasoning, diagnostic criteria and management guidelines"
               ],
-              "date": "2026-09-26T21:18:36Z",
+              "date": "2026-09-26T21:18:34Z",
               "thumbnail_url": "/api/thumbnail/-1003264222864/290"
             },
             {
@@ -7521,7 +7521,7 @@
                 "Key clinical concepts and high-yield examination pearls in 39. Glomerulonephritis",
                 "Essential clinical reasoning, diagnostic criteria and management guidelines"
               ],
-              "date": "2026-09-26T21:21:50Z",
+              "date": "2026-09-26T21:21:48Z",
               "thumbnail_url": "/api/thumbnail/-1003264222864/291"
             },
             {
@@ -7578,7 +7578,7 @@
                 "Key clinical concepts and high-yield examination pearls in 42. Acute Kidney Injury and Chronic Kidney Disease",
                 "Essential clinical reasoning, diagnostic criteria and management guidelines"
               ],
-              "date": "2026-09-26T21:32:38Z",
+              "date": "2026-09-26T21:32:36Z",
               "thumbnail_url": "/api/thumbnail/-1003264222864/294"
             },
             {
@@ -7597,7 +7597,7 @@
                 "Key clinical concepts and high-yield examination pearls in 43. Congenital Anomalies and Hydrocephalus",
                 "Essential clinical reasoning, diagnostic criteria and management guidelines"
               ],
-              "date": "2026-09-26T21:39:53Z",
+              "date": "2026-09-26T21:39:52Z",
               "thumbnail_url": "/api/thumbnail/-1003264222864/295"
             },
             {
@@ -7616,7 +7616,7 @@
                 "Key clinical concepts and high-yield examination pearls in 44. Seizure Disorders and Epilepsy",
                 "Essential clinical reasoning, diagnostic criteria and management guidelines"
               ],
-              "date": "2026-09-26T21:46:27Z",
+              "date": "2026-09-26T21:46:25Z",
               "thumbnail_url": "/api/thumbnail/-1003264222864/296"
             },
             {
@@ -7635,7 +7635,7 @@
                 "Key clinical concepts and high-yield examination pearls in 45. Cerebral Palsy and Cns Infections",
                 "Essential clinical reasoning, diagnostic criteria and management guidelines"
               ],
-              "date": "2026-09-26T21:53:47Z",
+              "date": "2026-09-26T21:53:45Z",
               "thumbnail_url": "/api/thumbnail/-1003264222864/297"
             },
             {
@@ -7654,7 +7654,7 @@
                 "Key clinical concepts and high-yield examination pearls in 46. Neuromuscular Disorders",
                 "Essential clinical reasoning, diagnostic criteria and management guidelines"
               ],
-              "date": "2026-09-26T22:28:12Z",
+              "date": "2026-09-26T22:28:10Z",
               "thumbnail_url": "/api/thumbnail/-1003264222864/298"
             },
             {
@@ -7692,7 +7692,7 @@
                 "Key clinical concepts and high-yield examination pearls in 48. Adrenal Disorders",
                 "Essential clinical reasoning, diagnostic criteria and management guidelines"
               ],
-              "date": "2026-09-26T23:11:50Z",
+              "date": "2026-09-26T23:11:49Z",
               "thumbnail_url": "/api/thumbnail/-1003264222864/300"
             },
             {
@@ -7730,7 +7730,7 @@
                 "Key clinical concepts and high-yield examination pearls in 50. Hematological Melagnancies",
                 "Essential clinical reasoning, diagnostic criteria and management guidelines"
               ],
-              "date": "2026-09-26T23:36:54Z",
+              "date": "2026-09-26T23:36:52Z",
               "thumbnail_url": "/api/thumbnail/-1003264222864/302"
             },
             {
@@ -7749,7 +7749,7 @@
                 "Key clinical concepts and high-yield examination pearls in 51. Solid Tumor in Children",
                 "Essential clinical reasoning, diagnostic criteria and management guidelines"
               ],
-              "date": "2026-09-26T23:47:26Z",
+              "date": "2026-09-26T23:47:25Z",
               "thumbnail_url": "/api/thumbnail/-1003264222864/303"
             },
             {
@@ -7768,7 +7768,7 @@
                 "Key clinical concepts and high-yield examination pearls in 52. Rheumatic Diseases of Childhood",
                 "Essential clinical reasoning, diagnostic criteria and management guidelines"
               ],
-              "date": "2026-09-26T23:59:32Z",
+              "date": "2026-09-26T23:59:30Z",
               "thumbnail_url": "/api/thumbnail/-1003264222864/304"
             },
             {
@@ -7825,7 +7825,7 @@
                 "Key clinical concepts and high-yield examination pearls in 55. Bleeding Disorders",
                 "Essential clinical reasoning, diagnostic criteria and management guidelines"
               ],
-              "date": "2026-09-27T00:30:53Z",
+              "date": "2026-09-27T00:30:52Z",
               "thumbnail_url": "/api/thumbnail/-1003264222864/307"
             },
             {
@@ -7863,7 +7863,7 @@
                 "Key clinical concepts and high-yield examination pearls in 57. Pals Guidelines",
                 "Essential clinical reasoning, diagnostic criteria and management guidelines"
               ],
-              "date": "2026-09-27T00:57:39Z",
+              "date": "2026-09-27T00:57:37Z",
               "thumbnail_url": "/api/thumbnail/-1003264222864/309"
             }
           ]
@@ -7879,7 +7879,7 @@
       "category": "Clinical",
       "icon": "Footprints",
       "color": "#65A30D",
-      "total_topics": 6,
+      "total_topics": 15,
       "total_notes": 5,
       "modules": [
         {
@@ -7902,7 +7902,7 @@
                 "Key clinical concepts and high-yield examination pearls in 1. How to Approach Orthopedics Edition 6",
                 "Essential clinical reasoning, diagnostic criteria and management guidelines"
               ],
-              "date": "2026-09-27T01:01:08Z",
+              "date": "2026-09-27T01:01:07Z",
               "thumbnail_url": "/api/thumbnail/-1003264222864/788"
             },
             {
@@ -7921,7 +7921,7 @@
                 "Key clinical concepts and high-yield examination pearls in 2. Basics - Histo & Physio of Bones",
                 "Essential clinical reasoning, diagnostic criteria and management guidelines"
               ],
-              "date": "2026-09-27T01:11:07Z",
+              "date": "2026-09-27T01:11:04Z",
               "thumbnail_url": "/api/thumbnail/-1003264222864/789"
             },
             {
@@ -7940,7 +7940,7 @@
                 "Key clinical concepts and high-yield examination pearls in 3. Basics - Fracture & Healing",
                 "Essential clinical reasoning, diagnostic criteria and management guidelines"
               ],
-              "date": "2026-09-27T01:36:52Z",
+              "date": "2026-09-27T01:36:50Z",
               "thumbnail_url": "/api/thumbnail/-1003264222864/790"
             },
             {
@@ -7978,7 +7978,7 @@
                 "Key clinical concepts and high-yield examination pearls in 5. Metabolic Bone Disease P1",
                 "Essential clinical reasoning, diagnostic criteria and management guidelines"
               ],
-              "date": "2026-09-27T02:12:12Z",
+              "date": "2026-09-27T02:12:11Z",
               "thumbnail_url": "/api/thumbnail/-1003264222864/792"
             },
             {
@@ -7997,8 +7997,179 @@
                 "Key clinical concepts and high-yield examination pearls in 6. Metabolic Bone Disease P2",
                 "Essential clinical reasoning, diagnostic criteria and management guidelines"
               ],
-              "date": "2026-09-27T02:27:27Z",
+              "date": "2026-09-27T02:27:26Z",
               "thumbnail_url": "/api/thumbnail/-1003264222864/793"
+            },
+            {
+              "id": "topic_-1003264222864_794",
+              "subject_id": "orthopedics",
+              "module": "Marrow Edition 6 - Orthopedics",
+              "title": "7. Upper Limb Trauma - Clavicle & Shoulder",
+              "filename": "7. Upper Limb Trauma - Clavicle & Shoulder.mp4",
+              "file_size_bytes": 411280927,
+              "file_size_mb": 392.23,
+              "duration_seconds": 2614,
+              "duration_formatted": "43m 34s",
+              "chat_id": -1003264222864,
+              "message_id": 794,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 7. Upper Limb Trauma - Clavicle & Shoulder",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T02:40:19Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/794"
+            },
+            {
+              "id": "topic_-1003264222864_795",
+              "subject_id": "orthopedics",
+              "module": "Marrow Edition 6 - Orthopedics",
+              "title": "8. Upper Limb Trauma - Arm & Elbow",
+              "filename": "8. Upper Limb Trauma - Arm & Elbow.mp4",
+              "file_size_bytes": 714242879,
+              "file_size_mb": 681.16,
+              "duration_seconds": 4916,
+              "duration_formatted": "1h 21m",
+              "chat_id": -1003264222864,
+              "message_id": 795,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 8. Upper Limb Trauma - Arm & Elbow",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T02:57:57Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/795"
+            },
+            {
+              "id": "topic_-1003264222864_796",
+              "subject_id": "orthopedics",
+              "module": "Marrow Edition 6 - Orthopedics",
+              "title": "9. Upper Limb Trauma - Arm, Wrist, & Hand",
+              "filename": "9. Upper Limb Trauma - Arm, Wrist, & Hand.mp4",
+              "file_size_bytes": 567658374,
+              "file_size_mb": 541.36,
+              "duration_seconds": 3976,
+              "duration_formatted": "1h 6m",
+              "chat_id": -1003264222864,
+              "message_id": 796,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 9. Upper Limb Trauma - Arm, Wrist, & Hand",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T03:01:39Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/796"
+            },
+            {
+              "id": "topic_-1003264222864_797",
+              "subject_id": "orthopedics",
+              "module": "Marrow Edition 6 - Orthopedics",
+              "title": "10. Lower Limb Trauma P1",
+              "filename": "10. Lower Limb Trauma P1.mp4",
+              "file_size_bytes": 974029971,
+              "file_size_mb": 928.91,
+              "duration_seconds": 6260,
+              "duration_formatted": "1h 44m",
+              "chat_id": -1003264222864,
+              "message_id": 797,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 10. Lower Limb Trauma P1",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T03:07:59Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/797"
+            },
+            {
+              "id": "topic_-1003264222864_798",
+              "subject_id": "orthopedics",
+              "module": "Marrow Edition 6 - Orthopedics",
+              "title": "11. Lower Limb Trauma P2",
+              "filename": "11. Lower Limb Trauma P2.mp4",
+              "file_size_bytes": 340877563,
+              "file_size_mb": 325.09,
+              "duration_seconds": 2729,
+              "duration_formatted": "45m 29s",
+              "chat_id": -1003264222864,
+              "message_id": 798,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 11. Lower Limb Trauma P2",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T03:10:27Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/798"
+            },
+            {
+              "id": "topic_-1003264222864_799",
+              "subject_id": "orthopedics",
+              "module": "Marrow Edition 6 - Orthopedics",
+              "title": "12. Sports Injuries",
+              "filename": "12. Sports Injuries.mp4",
+              "file_size_bytes": 736974314,
+              "file_size_mb": 702.83,
+              "duration_seconds": 4605,
+              "duration_formatted": "1h 16m",
+              "chat_id": -1003264222864,
+              "message_id": 799,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 12. Sports Injuries",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T03:16:41Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/799"
+            },
+            {
+              "id": "topic_-1003264222864_800",
+              "subject_id": "orthopedics",
+              "module": "Marrow Edition 6 - Orthopedics",
+              "title": "13. Regional Conditions",
+              "filename": "13. Regional Conditions.mp4",
+              "file_size_bytes": 796179264,
+              "file_size_mb": 759.3,
+              "duration_seconds": 5925,
+              "duration_formatted": "1h 38m",
+              "chat_id": -1003264222864,
+              "message_id": 800,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 13. Regional Conditions",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T03:23:43Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/800"
+            },
+            {
+              "id": "topic_-1003264222864_801",
+              "subject_id": "orthopedics",
+              "module": "Marrow Edition 6 - Orthopedics",
+              "title": "14. Nerve Injuries - Fundamentals",
+              "filename": "14. Nerve Injuries - Fundamentals.mp4",
+              "file_size_bytes": 309004051,
+              "file_size_mb": 294.69,
+              "duration_seconds": 2130,
+              "duration_formatted": "35m 30s",
+              "chat_id": -1003264222864,
+              "message_id": 801,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 14. Nerve Injuries - Fundamentals",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T03:25:54Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/801"
+            },
+            {
+              "id": "topic_-1003264222864_802",
+              "subject_id": "orthopedics",
+              "module": "Marrow Edition 6 - Orthopedics",
+              "title": "15. Nerve Injuries P1",
+              "filename": "15. Nerve Injuries P1.mp4",
+              "file_size_bytes": 755699166,
+              "file_size_mb": 720.69,
+              "duration_seconds": 4535,
+              "duration_formatted": "1h 15m",
+              "chat_id": -1003264222864,
+              "message_id": 802,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 15. Nerve Injuries P1",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T03:31:06Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/802"
             }
           ]
         }
