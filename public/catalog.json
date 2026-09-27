@@ -1,6 +1,6 @@
 {
   "version": "2.2.0",
-  "updated_at": "2026-09-27T18:08:56.583Z",
+  "updated_at": "2026-09-27T22:26:59.008Z",
   "subjects": [
     {
       "id": "anatomy",
@@ -9897,9 +9897,149 @@
       "category": "Clinical",
       "icon": "Wind",
       "color": "#475569",
-      "total_topics": 0,
+      "total_topics": 7,
       "total_notes": 5,
-      "modules": [],
+      "modules": [
+        {
+          "id": "mod_marrow_anesthesiology",
+          "name": "Marrow Edition 6 - Anesthesiology",
+          "topics": [
+            {
+              "id": "topic_-1003264222864_756",
+              "subject_id": "anesthesiology",
+              "module": "Marrow Edition 6 - Anesthesiology",
+              "title": "1. How to Approach Anaesthesia Edition 6",
+              "filename": "1. How to Approach Anaesthesia Edition 6.mp4",
+              "file_size_bytes": 159520912,
+              "file_size_mb": 152.13,
+              "duration_seconds": 979,
+              "duration_formatted": "16m 19s",
+              "chat_id": -1003264222864,
+              "message_id": 756,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 1. How to Approach Anaesthesia Edition 6",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T21:44:43Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/756"
+            },
+            {
+              "id": "topic_-1003264222864_757",
+              "subject_id": "anesthesiology",
+              "module": "Marrow Edition 6 - Anesthesiology",
+              "title": "2. Introduction and History",
+              "filename": "2. Introduction and History.mp4",
+              "file_size_bytes": 407814996,
+              "file_size_mb": 388.92,
+              "duration_seconds": 3067,
+              "duration_formatted": "51m 7s",
+              "chat_id": -1003264222864,
+              "message_id": 757,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 2. Introduction and History",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T21:47:41Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/757"
+            },
+            {
+              "id": "topic_-1003264222864_760",
+              "subject_id": "anesthesiology",
+              "module": "Marrow Edition 6 - Anesthesiology",
+              "title": "5. Pre-Op Preparation",
+              "filename": "5. Pre-Op Preparation.mp4",
+              "file_size_bytes": 405763544,
+              "file_size_mb": 386.97,
+              "duration_seconds": 3084,
+              "duration_formatted": "51m 24s",
+              "chat_id": -1003264222864,
+              "message_id": 760,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 5. Pre-Op Preparation",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T21:54:36Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/760"
+            },
+            {
+              "id": "topic_-1003264222864_765",
+              "subject_id": "anesthesiology",
+              "module": "Marrow Edition 6 - Anesthesiology",
+              "title": "10. Breathing Systems",
+              "filename": "10. Breathing Systems.mp4",
+              "file_size_bytes": 753814104,
+              "file_size_mb": 718.89,
+              "duration_seconds": 2744,
+              "duration_formatted": "45m 44s",
+              "chat_id": -1003264222864,
+              "message_id": 765,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 10. Breathing Systems",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T22:09:56Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/765"
+            },
+            {
+              "id": "topic_-1003264222864_768",
+              "subject_id": "anesthesiology",
+              "module": "Marrow Edition 6 - Anesthesiology",
+              "title": "13. Epidural Anaesthesia",
+              "filename": "13. Epidural Anaesthesia.mp4",
+              "file_size_bytes": 352285763,
+              "file_size_mb": 335.97,
+              "duration_seconds": 2174,
+              "duration_formatted": "36m 14s",
+              "chat_id": -1003264222864,
+              "message_id": 768,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 13. Epidural Anaesthesia",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T22:15:35Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/768"
+            },
+            {
+              "id": "topic_-1003264222864_769",
+              "subject_id": "anesthesiology",
+              "module": "Marrow Edition 6 - Anesthesiology",
+              "title": "14. Peripheral Nerve Blocks",
+              "filename": "14. Peripheral Nerve Blocks.mp4",
+              "file_size_bytes": 955043243,
+              "file_size_mb": 910.8,
+              "duration_seconds": 3502,
+              "duration_formatted": "58m 22s",
+              "chat_id": -1003264222864,
+              "message_id": 769,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 14. Peripheral Nerve Blocks",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T22:22:26Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/769"
+            },
+            {
+              "id": "topic_-1003264222864_770",
+              "subject_id": "anesthesiology",
+              "module": "Marrow Edition 6 - Anesthesiology",
+              "title": "15. Intravenous Anaesthetics",
+              "filename": "15. Intravenous Anaesthetics.mp4",
+              "file_size_bytes": 632888790,
+              "file_size_mb": 603.57,
+              "duration_seconds": 5212,
+              "duration_formatted": "1h 26m",
+              "chat_id": -1003264222864,
+              "message_id": 770,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 15. Intravenous Anaesthetics",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T22:26:52Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/770"
+            }
+          ]
+        }
+      ],
       "notes": []
     }
   ]
