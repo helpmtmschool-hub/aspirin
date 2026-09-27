@@ -1,6 +1,6 @@
 {
   "version": "2.2.0",
-  "updated_at": "2026-09-27T03:31:14.356Z",
+  "updated_at": "2026-09-27T09:54:24.247Z",
   "subjects": [
     {
       "id": "anatomy",
@@ -7879,7 +7879,7 @@
       "category": "Clinical",
       "icon": "Footprints",
       "color": "#65A30D",
-      "total_topics": 15,
+      "total_topics": 29,
       "total_notes": 5,
       "modules": [
         {
@@ -8170,6 +8170,272 @@
               ],
               "date": "2026-09-27T03:31:06Z",
               "thumbnail_url": "/api/thumbnail/-1003264222864/802"
+            },
+            {
+              "id": "topic_-1003264222864_803",
+              "subject_id": "orthopedics",
+              "module": "Marrow Edition 6 - Orthopedics",
+              "title": "16. Nerve Injuries P2",
+              "filename": "16. Nerve Injuries P2.mp4",
+              "file_size_bytes": 473844969,
+              "file_size_mb": 451.89,
+              "duration_seconds": 3124,
+              "duration_formatted": "52m 4s",
+              "chat_id": -1003264222864,
+              "message_id": 803,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 16. Nerve Injuries P2",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T05:23:46Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/803"
+            },
+            {
+              "id": "topic_-1003264222864_804",
+              "subject_id": "orthopedics",
+              "module": "Marrow Edition 6 - Orthopedics",
+              "title": "17. Bone Tumors P1",
+              "filename": "17. Bone Tumors P1.mp4",
+              "file_size_bytes": 682115877,
+              "file_size_mb": 650.52,
+              "duration_seconds": 4688,
+              "duration_formatted": "1h 18m",
+              "chat_id": -1003264222864,
+              "message_id": 804,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 17. Bone Tumors P1",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T05:28:49Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/804"
+            },
+            {
+              "id": "topic_-1003264222864_805",
+              "subject_id": "orthopedics",
+              "module": "Marrow Edition 6 - Orthopedics",
+              "title": "18. Bone Tumors P2",
+              "filename": "18. Bone Tumors P2.mp4",
+              "file_size_bytes": 315162802,
+              "file_size_mb": 300.56,
+              "duration_seconds": 2305,
+              "duration_formatted": "38m 25s",
+              "chat_id": -1003264222864,
+              "message_id": 805,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 18. Bone Tumors P2",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T05:31:08Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/805"
+            },
+            {
+              "id": "topic_-1003264222864_806",
+              "subject_id": "orthopedics",
+              "module": "Marrow Edition 6 - Orthopedics",
+              "title": "19. Orthopedics Infections - Pyogenic",
+              "filename": "19. Orthopedics Infections - Pyogenic.mp4",
+              "file_size_bytes": 619919655,
+              "file_size_mb": 591.2,
+              "duration_seconds": 4352,
+              "duration_formatted": "1h 12m",
+              "chat_id": -1003264222864,
+              "message_id": 806,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 19. Orthopedics Infections - Pyogenic",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T05:35:42Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/806"
+            },
+            {
+              "id": "topic_-1003264222864_807",
+              "subject_id": "orthopedics",
+              "module": "Marrow Edition 6 - Orthopedics",
+              "title": "20. Orthopedics Infections - TB",
+              "filename": "20. Orthopedics Infections - TB.mp4",
+              "file_size_bytes": 308365016,
+              "file_size_mb": 294.08,
+              "duration_seconds": 2403,
+              "duration_formatted": "40m 3s",
+              "chat_id": -1003264222864,
+              "message_id": 807,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 20. Orthopedics Infections - TB",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T05:38:20Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/807"
+            },
+            {
+              "id": "topic_-1003264222864_808",
+              "subject_id": "orthopedics",
+              "module": "Marrow Edition 6 - Orthopedics",
+              "title": "21. Peds Orthopedics P1",
+              "filename": "21. Peds Orthopedics P1.mp4",
+              "file_size_bytes": 432041140,
+              "file_size_mb": 412.03,
+              "duration_seconds": 3073,
+              "duration_formatted": "51m 13s",
+              "chat_id": -1003264222864,
+              "message_id": 808,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 21. Peds Orthopedics P1",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T05:41:33Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/808"
+            },
+            {
+              "id": "topic_-1003264222864_809",
+              "subject_id": "orthopedics",
+              "module": "Marrow Edition 6 - Orthopedics",
+              "title": "22. Peds Orthopedics P2",
+              "filename": "22. Peds Orthopedics P2.mp4",
+              "file_size_bytes": 437497616,
+              "file_size_mb": 417.23,
+              "duration_seconds": 2631,
+              "duration_formatted": "43m 51s",
+              "chat_id": -1003264222864,
+              "message_id": 809,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 22. Peds Orthopedics P2",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T05:45:03Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/809"
+            },
+            {
+              "id": "topic_-1003264222864_810",
+              "subject_id": "orthopedics",
+              "module": "Marrow Edition 6 - Orthopedics",
+              "title": "23. Peds Orthopedics P3",
+              "filename": "23. Peds Orthopedics P3.mp4",
+              "file_size_bytes": 339650889,
+              "file_size_mb": 323.92,
+              "duration_seconds": 2463,
+              "duration_formatted": "41m 3s",
+              "chat_id": -1003264222864,
+              "message_id": 810,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 23. Peds Orthopedics P3",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T05:47:29Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/810"
+            },
+            {
+              "id": "topic_-1003264222864_811",
+              "subject_id": "orthopedics",
+              "module": "Marrow Edition 6 - Orthopedics",
+              "title": "24. Peds Orthopedics Mcqs",
+              "filename": "24. Peds Orthopedics Mcqs.mp4",
+              "file_size_bytes": 89669448,
+              "file_size_mb": 85.52,
+              "duration_seconds": 733,
+              "duration_formatted": "12m 13s",
+              "chat_id": -1003264222864,
+              "message_id": 811,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 24. Peds Orthopedics Mcqs",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T05:48:15Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/811"
+            },
+            {
+              "id": "topic_-1003264222864_812",
+              "subject_id": "orthopedics",
+              "module": "Marrow Edition 6 - Orthopedics",
+              "title": "25. Avn & Osteochondritis",
+              "filename": "25. Avn & Osteochondritis.mp4",
+              "file_size_bytes": 507853825,
+              "file_size_mb": 484.33,
+              "duration_seconds": 3701,
+              "duration_formatted": "1h 1m",
+              "chat_id": -1003264222864,
+              "message_id": 812,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 25. Avn & Osteochondritis",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T05:51:59Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/812"
+            },
+            {
+              "id": "topic_-1003264222864_813",
+              "subject_id": "orthopedics",
+              "module": "Marrow Edition 6 - Orthopedics",
+              "title": "26. Spine P1",
+              "filename": "26. Spine P1.mp4",
+              "file_size_bytes": 458932108,
+              "file_size_mb": 437.67,
+              "duration_seconds": 3228,
+              "duration_formatted": "53m 48s",
+              "chat_id": -1003264222864,
+              "message_id": 813,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 26. Spine P1",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T05:55:20Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/813"
+            },
+            {
+              "id": "topic_-1003264222864_814",
+              "subject_id": "orthopedics",
+              "module": "Marrow Edition 6 - Orthopedics",
+              "title": "27. Spine P2",
+              "filename": "27. Spine P2.mp4",
+              "file_size_bytes": 456387287,
+              "file_size_mb": 435.24,
+              "duration_seconds": 3285,
+              "duration_formatted": "54m 45s",
+              "chat_id": -1003264222864,
+              "message_id": 814,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 27. Spine P2",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T05:58:45Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/814"
+            },
+            {
+              "id": "topic_-1003264222864_815",
+              "subject_id": "orthopedics",
+              "module": "Marrow Edition 6 - Orthopedics",
+              "title": "28. Joint Disorder P1",
+              "filename": "28. Joint Disorder P1.mp4",
+              "file_size_bytes": 637891676,
+              "file_size_mb": 608.34,
+              "duration_seconds": 4403,
+              "duration_formatted": "1h 13m",
+              "chat_id": -1003264222864,
+              "message_id": 815,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 28. Joint Disorder P1",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T06:03:19Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/815"
+            },
+            {
+              "id": "topic_-1003264222864_816",
+              "subject_id": "orthopedics",
+              "module": "Marrow Edition 6 - Orthopedics",
+              "title": "29. Joint Disorder P2",
+              "filename": "29. Joint Disorder P2.mp4",
+              "file_size_bytes": 288714795,
+              "file_size_mb": 275.34,
+              "duration_seconds": 1993,
+              "duration_formatted": "33m 13s",
+              "chat_id": -1003264222864,
+              "message_id": 816,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 29. Joint Disorder P2",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T06:12:26Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/816"
             }
           ]
         }
@@ -8184,9 +8450,415 @@
       "category": "Clinical",
       "icon": "Sparkles",
       "color": "#9333EA",
-      "total_topics": 0,
+      "total_topics": 21,
       "total_notes": 4,
-      "modules": [],
+      "modules": [
+        {
+          "id": "mod_marrow_dermatology",
+          "name": "Marrow Edition 6 - Dermatology",
+          "topics": [
+            {
+              "id": "topic_-1003264222864_311",
+              "subject_id": "dermatology",
+              "module": "Marrow Edition 6 - Dermatology",
+              "title": "1. Intro to Dermatology",
+              "filename": "1. Intro to Dermatology.mp4",
+              "file_size_bytes": 138160984,
+              "file_size_mb": 131.76,
+              "duration_seconds": 950,
+              "duration_formatted": "15m 50s",
+              "chat_id": -1003264222864,
+              "message_id": 311,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 1. Intro to Dermatology",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T06:16:47Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/311"
+            },
+            {
+              "id": "topic_-1003264222864_312",
+              "subject_id": "dermatology",
+              "module": "Marrow Edition 6 - Dermatology",
+              "title": "2. Basics Dermatology Part 1",
+              "filename": "2. Basics Dermatology Part 1.mp4",
+              "file_size_bytes": 352335198,
+              "file_size_mb": 336.01,
+              "duration_seconds": 3113,
+              "duration_formatted": "51m 53s",
+              "chat_id": -1003264222864,
+              "message_id": 312,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 2. Basics Dermatology Part 1",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T06:27:54Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/312"
+            },
+            {
+              "id": "topic_-1003264222864_313",
+              "subject_id": "dermatology",
+              "module": "Marrow Edition 6 - Dermatology",
+              "title": "3. Basic of Dermatology",
+              "filename": "3. Basic of Dermatology.mp4",
+              "file_size_bytes": 362583242,
+              "file_size_mb": 345.79,
+              "duration_seconds": 3313,
+              "duration_formatted": "55m 13s",
+              "chat_id": -1003264222864,
+              "message_id": 313,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 3. Basic of Dermatology",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T06:39:29Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/313"
+            },
+            {
+              "id": "topic_-1003264222864_314",
+              "subject_id": "dermatology",
+              "module": "Marrow Edition 6 - Dermatology",
+              "title": "4. Papulo Squ Disease Part 1",
+              "filename": "4. Papulo Squ Disease Part 1.mp4",
+              "file_size_bytes": 339221613,
+              "file_size_mb": 323.51,
+              "duration_seconds": 3013,
+              "duration_formatted": "50m 13s",
+              "chat_id": -1003264222864,
+              "message_id": 314,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 4. Papulo Squ Disease Part 1",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T06:50:07Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/314"
+            },
+            {
+              "id": "topic_-1003264222864_315",
+              "subject_id": "dermatology",
+              "module": "Marrow Edition 6 - Dermatology",
+              "title": "5. Papulo Squamous Disease",
+              "filename": "5. Papulo Squamous Disease.mp4",
+              "file_size_bytes": 208829460,
+              "file_size_mb": 199.16,
+              "duration_seconds": 1855,
+              "duration_formatted": "30m 55s",
+              "chat_id": -1003264222864,
+              "message_id": 315,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 5. Papulo Squamous Disease",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T06:56:48Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/315"
+            },
+            {
+              "id": "topic_-1003264222864_316",
+              "subject_id": "dermatology",
+              "module": "Marrow Edition 6 - Dermatology",
+              "title": "6. Appengdage Disored Part 1",
+              "filename": "6. Appengdage Disored Part 1.mp4",
+              "file_size_bytes": 336176081,
+              "file_size_mb": 320.6,
+              "duration_seconds": 3001,
+              "duration_formatted": "50m 1s",
+              "chat_id": -1003264222864,
+              "message_id": 316,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 6. Appengdage Disored Part 1",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T07:07:25Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/316"
+            },
+            {
+              "id": "topic_-1003264222864_317",
+              "subject_id": "dermatology",
+              "module": "Marrow Edition 6 - Dermatology",
+              "title": "7. Appendage Diso 2",
+              "filename": "7. Appendage Diso 2.mp4",
+              "file_size_bytes": 321012594,
+              "file_size_mb": 306.14,
+              "duration_seconds": 2347,
+              "duration_formatted": "39m 7s",
+              "chat_id": -1003264222864,
+              "message_id": 317,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 7. Appendage Diso 2",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T07:17:46Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/317"
+            },
+            {
+              "id": "topic_-1003264222864_318",
+              "subject_id": "dermatology",
+              "module": "Marrow Edition 6 - Dermatology",
+              "title": "8. Appendage and Disorder Part 3",
+              "filename": "8. Appendage and Disorder Part 3.mp4",
+              "file_size_bytes": 172535793,
+              "file_size_mb": 164.54,
+              "duration_seconds": 1292,
+              "duration_formatted": "21m 32s",
+              "chat_id": -1003264222864,
+              "message_id": 318,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 8. Appendage and Disorder Part 3",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T07:23:18Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/318"
+            },
+            {
+              "id": "topic_-1003264222864_319",
+              "subject_id": "dermatology",
+              "module": "Marrow Edition 6 - Dermatology",
+              "title": "9. Bullous Disease Part 1",
+              "filename": "9. Bullous Disease Part 1.mp4",
+              "file_size_bytes": 276234159,
+              "file_size_mb": 263.44,
+              "duration_seconds": 2399,
+              "duration_formatted": "39m 59s",
+              "chat_id": -1003264222864,
+              "message_id": 319,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 9. Bullous Disease Part 1",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T07:32:09Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/319"
+            },
+            {
+              "id": "topic_-1003264222864_320",
+              "subject_id": "dermatology",
+              "module": "Marrow Edition 6 - Dermatology",
+              "title": "10. Bullous Disease",
+              "filename": "10. Bullous Disease.mp4",
+              "file_size_bytes": 306878458,
+              "file_size_mb": 292.66,
+              "duration_seconds": 2857,
+              "duration_formatted": "47m 37s",
+              "chat_id": -1003264222864,
+              "message_id": 320,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 10. Bullous Disease",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T07:41:51Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/320"
+            },
+            {
+              "id": "topic_-1003264222864_321",
+              "subject_id": "dermatology",
+              "module": "Marrow Edition 6 - Dermatology",
+              "title": "11. Bacterial Infection Skin",
+              "filename": "11. Bacterial Infection Skin.mp4",
+              "file_size_bytes": 358172064,
+              "file_size_mb": 341.58,
+              "duration_seconds": 3209,
+              "duration_formatted": "53m 29s",
+              "chat_id": -1003264222864,
+              "message_id": 321,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 11. Bacterial Infection Skin",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T07:53:07Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/321"
+            },
+            {
+              "id": "topic_-1003264222864_322",
+              "subject_id": "dermatology",
+              "module": "Marrow Edition 6 - Dermatology",
+              "title": "12. Mycobacterial Infection",
+              "filename": "12. Mycobacterial Infection.mp4",
+              "file_size_bytes": 207984363,
+              "file_size_mb": 198.35,
+              "duration_seconds": 1922,
+              "duration_formatted": "32m 2s",
+              "chat_id": -1003264222864,
+              "message_id": 322,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 12. Mycobacterial Infection",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T07:59:47Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/322"
+            },
+            {
+              "id": "topic_-1003264222864_323",
+              "subject_id": "dermatology",
+              "module": "Marrow Edition 6 - Dermatology",
+              "title": "13. Viral Infection",
+              "filename": "13. Viral Infection.mp4",
+              "file_size_bytes": 410152208,
+              "file_size_mb": 391.15,
+              "duration_seconds": 3709,
+              "duration_formatted": "1h 1m",
+              "chat_id": -1003264222864,
+              "message_id": 323,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 13. Viral Infection",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T08:12:46Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/323"
+            },
+            {
+              "id": "topic_-1003264222864_324",
+              "subject_id": "dermatology",
+              "module": "Marrow Edition 6 - Dermatology",
+              "title": "14. Fungal Infections",
+              "filename": "14. Fungal Infections.mp4",
+              "file_size_bytes": 370043455,
+              "file_size_mb": 352.9,
+              "duration_seconds": 3292,
+              "duration_formatted": "54m 52s",
+              "chat_id": -1003264222864,
+              "message_id": 324,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 14. Fungal Infections",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T08:24:33Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/324"
+            },
+            {
+              "id": "topic_-1003264222864_325",
+              "subject_id": "dermatology",
+              "module": "Marrow Edition 6 - Dermatology",
+              "title": "15. Parasitic Inf",
+              "filename": "15. Parasitic Inf.mp4",
+              "file_size_bytes": 366975516,
+              "file_size_mb": 349.98,
+              "duration_seconds": 2633,
+              "duration_formatted": "43m 53s",
+              "chat_id": -1003264222864,
+              "message_id": 325,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 15. Parasitic Inf",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T08:41:26Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/325"
+            },
+            {
+              "id": "topic_-1003264222864_326",
+              "subject_id": "dermatology",
+              "module": "Marrow Edition 6 - Dermatology",
+              "title": "16. Hansen Disease",
+              "filename": "16. Hansen Disease.mp4",
+              "file_size_bytes": 263700301,
+              "file_size_mb": 251.48,
+              "duration_seconds": 2330,
+              "duration_formatted": "38m 50s",
+              "chat_id": -1003264222864,
+              "message_id": 326,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 16. Hansen Disease",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T08:58:51Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/326"
+            },
+            {
+              "id": "topic_-1003264222864_327",
+              "subject_id": "dermatology",
+              "module": "Marrow Edition 6 - Dermatology",
+              "title": "17. Hansen Disease",
+              "filename": "17. Hansen Disease.mp4",
+              "file_size_bytes": 272272417,
+              "file_size_mb": 259.66,
+              "duration_seconds": 2496,
+              "duration_formatted": "41m 36s",
+              "chat_id": -1003264222864,
+              "message_id": 327,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 17. Hansen Disease",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T09:15:24Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/327"
+            },
+            {
+              "id": "topic_-1003264222864_328",
+              "subject_id": "dermatology",
+              "module": "Marrow Edition 6 - Dermatology",
+              "title": "18. Std 1",
+              "filename": "18. Std 1.mp4",
+              "file_size_bytes": 331931300,
+              "file_size_mb": 316.55,
+              "duration_seconds": 2595,
+              "duration_formatted": "43m 15s",
+              "chat_id": -1003264222864,
+              "message_id": 328,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 18. Std 1",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T09:26:01Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/328"
+            },
+            {
+              "id": "topic_-1003264222864_329",
+              "subject_id": "dermatology",
+              "module": "Marrow Edition 6 - Dermatology",
+              "title": "19. Std 2",
+              "filename": "19. Std 2.mp4",
+              "file_size_bytes": 313843471,
+              "file_size_mb": 299.3,
+              "duration_seconds": 2293,
+              "duration_formatted": "38m 13s",
+              "chat_id": -1003264222864,
+              "message_id": 329,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 19. Std 2",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T09:36:02Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/329"
+            },
+            {
+              "id": "topic_-1003264222864_330",
+              "subject_id": "dermatology",
+              "module": "Marrow Edition 6 - Dermatology",
+              "title": "20. Std 3",
+              "filename": "20. Std 3.mp4",
+              "file_size_bytes": 272636439,
+              "file_size_mb": 260.01,
+              "duration_seconds": 1986,
+              "duration_formatted": "33m 6s",
+              "chat_id": -1003264222864,
+              "message_id": 330,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 20. Std 3",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T09:44:32Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/330"
+            },
+            {
+              "id": "topic_-1003264222864_331",
+              "subject_id": "dermatology",
+              "module": "Marrow Edition 6 - Dermatology",
+              "title": "21. Genodermatome",
+              "filename": "21. Genodermatome.mp4",
+              "file_size_bytes": 302779467,
+              "file_size_mb": 288.75,
+              "duration_seconds": 2730,
+              "duration_formatted": "45m 30s",
+              "chat_id": -1003264222864,
+              "message_id": 331,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 21. Genodermatome",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T09:54:14Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/331"
+            }
+          ]
+        }
+      ],
       "notes": []
     },
     {
