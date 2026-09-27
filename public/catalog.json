@@ -1,6 +1,6 @@
 {
   "version": "2.2.0",
-  "updated_at": "2026-09-27T09:54:24.247Z",
+  "updated_at": "2026-09-27T14:44:10.391Z",
   "subjects": [
     {
       "id": "anatomy",
@@ -8450,7 +8450,7 @@
       "category": "Clinical",
       "icon": "Sparkles",
       "color": "#9333EA",
-      "total_topics": 21,
+      "total_topics": 28,
       "total_notes": 4,
       "modules": [
         {
@@ -8855,6 +8855,139 @@
               ],
               "date": "2026-09-27T09:54:14Z",
               "thumbnail_url": "/api/thumbnail/-1003264222864/331"
+            },
+            {
+              "id": "topic_-1003264222864_332",
+              "subject_id": "dermatology",
+              "module": "Marrow Edition 6 - Dermatology",
+              "title": "22. Eczema",
+              "filename": "22. Eczema.mp4",
+              "file_size_bytes": 392001485,
+              "file_size_mb": 373.84,
+              "duration_seconds": 2771,
+              "duration_formatted": "46m 11s",
+              "chat_id": -1003264222864,
+              "message_id": 332,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 22. Eczema",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T12:17:24Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/332"
+            },
+            {
+              "id": "topic_-1003264222864_333",
+              "subject_id": "dermatology",
+              "module": "Marrow Edition 6 - Dermatology",
+              "title": "23. Histamine Related Disease",
+              "filename": "23. Histamine Related Disease.mp4",
+              "file_size_bytes": 192373227,
+              "file_size_mb": 183.46,
+              "duration_seconds": 1686,
+              "duration_formatted": "28m 6s",
+              "chat_id": -1003264222864,
+              "message_id": 333,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 23. Histamine Related Disease",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T12:23:43Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/333"
+            },
+            {
+              "id": "topic_-1003264222864_334",
+              "subject_id": "dermatology",
+              "module": "Marrow Edition 6 - Dermatology",
+              "title": "24. Pigmentary Disease",
+              "filename": "24. Pigmentary Disease.mp4",
+              "file_size_bytes": 336494687,
+              "file_size_mb": 320.91,
+              "duration_seconds": 2474,
+              "duration_formatted": "41m 14s",
+              "chat_id": -1003264222864,
+              "message_id": 334,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 24. Pigmentary Disease",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T12:34:38Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/334"
+            },
+            {
+              "id": "topic_-1003264222864_335",
+              "subject_id": "dermatology",
+              "module": "Marrow Edition 6 - Dermatology",
+              "title": "25. Cutaneous Drug Rxn",
+              "filename": "25. Cutaneous Drug Rxn.mp4",
+              "file_size_bytes": 164903667,
+              "file_size_mb": 157.26,
+              "duration_seconds": 1507,
+              "duration_formatted": "25m 7s",
+              "chat_id": -1003264222864,
+              "message_id": 335,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 25. Cutaneous Drug Rxn",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T12:39:59Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/335"
+            },
+            {
+              "id": "topic_-1003264222864_336",
+              "subject_id": "dermatology",
+              "module": "Marrow Edition 6 - Dermatology",
+              "title": "26. Skin in Rheumat",
+              "filename": "26. Skin in Rheumat.mp4",
+              "file_size_bytes": 305698195,
+              "file_size_mb": 291.54,
+              "duration_seconds": 2800,
+              "duration_formatted": "46m 40s",
+              "chat_id": -1003264222864,
+              "message_id": 336,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 26. Skin in Rheumat",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T12:49:54Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/336"
+            },
+            {
+              "id": "topic_-1003264222864_337",
+              "subject_id": "dermatology",
+              "module": "Marrow Edition 6 - Dermatology",
+              "title": "27. Skin and System",
+              "filename": "27. Skin and System.mp4",
+              "file_size_bytes": 224442100,
+              "file_size_mb": 214.04,
+              "duration_seconds": 2153,
+              "duration_formatted": "35m 53s",
+              "chat_id": -1003264222864,
+              "message_id": 337,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 27. Skin and System",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T12:57:16Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/337"
+            },
+            {
+              "id": "topic_-1003264222864_338",
+              "subject_id": "dermatology",
+              "module": "Marrow Edition 6 - Dermatology",
+              "title": "28. Short Topic on Derna",
+              "filename": "28. Short Topic on Derna.mp4",
+              "file_size_bytes": 284261404,
+              "file_size_mb": 271.09,
+              "duration_seconds": 2049,
+              "duration_formatted": "34m 9s",
+              "chat_id": -1003264222864,
+              "message_id": 338,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 28. Short Topic on Derna",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T13:07:40Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/338"
             }
           ]
         }
@@ -8869,9 +9002,472 @@
       "category": "Clinical",
       "icon": "Brain",
       "color": "#4F46E5",
-      "total_topics": 0,
+      "total_topics": 24,
       "total_notes": 4,
-      "modules": [],
+      "modules": [
+        {
+          "id": "mod_marrow_psychiatry",
+          "name": "Marrow Edition 6 - Psychiatry",
+          "topics": [
+            {
+              "id": "topic_-1003264222864_1294",
+              "subject_id": "psychiatry",
+              "module": "Marrow Edition 6 - Psychiatry",
+              "title": "1. How to Approach Psychiatry Edition 6",
+              "filename": "1. How to Approach Psychiatry Edition 6.mp4",
+              "file_size_bytes": 31066173,
+              "file_size_mb": 29.63,
+              "duration_seconds": 424,
+              "duration_formatted": "7m 4s",
+              "chat_id": -1003264222864,
+              "message_id": 1294,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 1. How to Approach Psychiatry Edition 6",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T13:08:46Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/1294"
+            },
+            {
+              "id": "topic_-1003264222864_1295",
+              "subject_id": "psychiatry",
+              "module": "Marrow Edition 6 - Psychiatry",
+              "title": "2. Introduction to Psychiatry",
+              "filename": "2. Introduction to Psychiatry.mp4",
+              "file_size_bytes": 119168192,
+              "file_size_mb": 113.65,
+              "duration_seconds": 1842,
+              "duration_formatted": "30m 42s",
+              "chat_id": -1003264222864,
+              "message_id": 1295,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 2. Introduction to Psychiatry",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T13:12:36Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/1295"
+            },
+            {
+              "id": "topic_-1003264222864_1296",
+              "subject_id": "psychiatry",
+              "module": "Marrow Edition 6 - Psychiatry",
+              "title": "3. Psychopathology",
+              "filename": "3. Psychopathology.mp4",
+              "file_size_bytes": 297954815,
+              "file_size_mb": 284.15,
+              "duration_seconds": 4979,
+              "duration_formatted": "1h 22m",
+              "chat_id": -1003264222864,
+              "message_id": 1296,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 3. Psychopathology",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T13:22:14Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/1296"
+            },
+            {
+              "id": "topic_-1003264222864_1297",
+              "subject_id": "psychiatry",
+              "module": "Marrow Edition 6 - Psychiatry",
+              "title": "4. Psychotic Disorders - Part 1",
+              "filename": "4. Psychotic Disorders - Part 1.mp4",
+              "file_size_bytes": 243330902,
+              "file_size_mb": 232.06,
+              "duration_seconds": 4380,
+              "duration_formatted": "1h 13m",
+              "chat_id": -1003264222864,
+              "message_id": 1297,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 4. Psychotic Disorders - Part 1",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T13:30:02Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/1297"
+            },
+            {
+              "id": "topic_-1003264222864_1298",
+              "subject_id": "psychiatry",
+              "module": "Marrow Edition 6 - Psychiatry",
+              "title": "5. Psychotic Disorders - Part 2",
+              "filename": "5. Psychotic Disorders - Part 2.mp4",
+              "file_size_bytes": 122946706,
+              "file_size_mb": 117.25,
+              "duration_seconds": 2283,
+              "duration_formatted": "38m 3s",
+              "chat_id": -1003264222864,
+              "message_id": 1298,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 5. Psychotic Disorders - Part 2",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T13:34:02Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/1298"
+            },
+            {
+              "id": "topic_-1003264222864_1299",
+              "subject_id": "psychiatry",
+              "module": "Marrow Edition 6 - Psychiatry",
+              "title": "6. Depressive Disorders",
+              "filename": "6. Depressive Disorders.mp4",
+              "file_size_bytes": 193041677,
+              "file_size_mb": 184.1,
+              "duration_seconds": 3786,
+              "duration_formatted": "1h 3m",
+              "chat_id": -1003264222864,
+              "message_id": 1299,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 6. Depressive Disorders",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T13:40:18Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/1299"
+            },
+            {
+              "id": "topic_-1003264222864_1300",
+              "subject_id": "psychiatry",
+              "module": "Marrow Edition 6 - Psychiatry",
+              "title": "7. Bipolar Disorder",
+              "filename": "7. Bipolar Disorder.mp4",
+              "file_size_bytes": 140087586,
+              "file_size_mb": 133.6,
+              "duration_seconds": 2578,
+              "duration_formatted": "42m 58s",
+              "chat_id": -1003264222864,
+              "message_id": 1300,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 7. Bipolar Disorder",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T13:44:47Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/1300"
+            },
+            {
+              "id": "topic_-1003264222864_1301",
+              "subject_id": "psychiatry",
+              "module": "Marrow Edition 6 - Psychiatry",
+              "title": "8. Stress, Trauma and Related Disorders",
+              "filename": "8. Stress, Trauma and Related Disorders.mp4",
+              "file_size_bytes": 177025477,
+              "file_size_mb": 168.82,
+              "duration_seconds": 3093,
+              "duration_formatted": "51m 33s",
+              "chat_id": -1003264222864,
+              "message_id": 1301,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 8. Stress, Trauma and Related Disorders",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T13:50:28Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/1301"
+            },
+            {
+              "id": "topic_-1003264222864_1302",
+              "subject_id": "psychiatry",
+              "module": "Marrow Edition 6 - Psychiatry",
+              "title": "9. Anxiety Disorders",
+              "filename": "9. Anxiety Disorders.mp4",
+              "file_size_bytes": 129427896,
+              "file_size_mb": 123.43,
+              "duration_seconds": 2461,
+              "duration_formatted": "41m 1s",
+              "chat_id": -1003264222864,
+              "message_id": 1302,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 9. Anxiety Disorders",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T13:54:41Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/1302"
+            },
+            {
+              "id": "topic_-1003264222864_1303",
+              "subject_id": "psychiatry",
+              "module": "Marrow Edition 6 - Psychiatry",
+              "title": "10. Obsessive Compulsive and Related Disorders",
+              "filename": "10. Obsessive Compulsive and Related Disorders.mp4",
+              "file_size_bytes": 142382033,
+              "file_size_mb": 135.79,
+              "duration_seconds": 2671,
+              "duration_formatted": "44m 31s",
+              "chat_id": -1003264222864,
+              "message_id": 1303,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 10. Obsessive Compulsive and Related Disorders",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T13:59:23Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/1303"
+            },
+            {
+              "id": "topic_-1003264222864_1304",
+              "subject_id": "psychiatry",
+              "module": "Marrow Edition 6 - Psychiatry",
+              "title": "11. Somatization, Dissociation and Related Disorders",
+              "filename": "11. Somatization, Dissociation and Related Disorders.mp4",
+              "file_size_bytes": 150274043,
+              "file_size_mb": 143.31,
+              "duration_seconds": 2922,
+              "duration_formatted": "48m 42s",
+              "chat_id": -1003264222864,
+              "message_id": 1304,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 11. Somatization, Dissociation and Related Disorders",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T14:04:12Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/1304"
+            },
+            {
+              "id": "topic_-1003264222864_1305",
+              "subject_id": "psychiatry",
+              "module": "Marrow Edition 6 - Psychiatry",
+              "title": "12. Neurocognitive Disorders",
+              "filename": "12. Neurocognitive Disorders.mp4",
+              "file_size_bytes": 160710473,
+              "file_size_mb": 153.27,
+              "duration_seconds": 3264,
+              "duration_formatted": "54m 24s",
+              "chat_id": -1003264222864,
+              "message_id": 1305,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 12. Neurocognitive Disorders",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T14:09:33Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/1305"
+            },
+            {
+              "id": "topic_-1003264222864_1306",
+              "subject_id": "psychiatry",
+              "module": "Marrow Edition 6 - Psychiatry",
+              "title": "13. Eating and Related Disorders",
+              "filename": "13. Eating and Related Disorders.mp4",
+              "file_size_bytes": 102396849,
+              "file_size_mb": 97.65,
+              "duration_seconds": 2033,
+              "duration_formatted": "33m 53s",
+              "chat_id": -1003264222864,
+              "message_id": 1306,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 13. Eating and Related Disorders",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T14:12:47Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/1306"
+            },
+            {
+              "id": "topic_-1003264222864_1307",
+              "subject_id": "psychiatry",
+              "module": "Marrow Edition 6 - Psychiatry",
+              "title": "14. Sex, Gender and Related Disorders",
+              "filename": "14. Sex, Gender and Related Disorders.mp4",
+              "file_size_bytes": 153568153,
+              "file_size_mb": 146.45,
+              "duration_seconds": 2913,
+              "duration_formatted": "48m 33s",
+              "chat_id": -1003264222864,
+              "message_id": 1307,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 14. Sex, Gender and Related Disorders",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T14:14:37Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/1307"
+            },
+            {
+              "id": "topic_-1003264222864_1308",
+              "subject_id": "psychiatry",
+              "module": "Marrow Edition 6 - Psychiatry",
+              "title": "15. Sleep and Related Disorders",
+              "filename": "15. Sleep and Related Disorders.mp4",
+              "file_size_bytes": 198976750,
+              "file_size_mb": 189.76,
+              "duration_seconds": 3840,
+              "duration_formatted": "1h 4m",
+              "chat_id": -1003264222864,
+              "message_id": 1308,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 15. Sleep and Related Disorders",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T14:16:25Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/1308"
+            },
+            {
+              "id": "topic_-1003264222864_1309",
+              "subject_id": "psychiatry",
+              "module": "Marrow Edition 6 - Psychiatry",
+              "title": "16. Personality and Related Disorders",
+              "filename": "16. Personality and Related Disorders.mp4",
+              "file_size_bytes": 134546050,
+              "file_size_mb": 128.31,
+              "duration_seconds": 2563,
+              "duration_formatted": "42m 43s",
+              "chat_id": -1003264222864,
+              "message_id": 1309,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 16. Personality and Related Disorders",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T14:17:35Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/1309"
+            },
+            {
+              "id": "topic_-1003264222864_1310",
+              "subject_id": "psychiatry",
+              "module": "Marrow Edition 6 - Psychiatry",
+              "title": "17. Substance Use and Other Addictive Disorders",
+              "filename": "17. Substance Use and Other Addictive Disorders.mp4",
+              "file_size_bytes": 314359736,
+              "file_size_mb": 299.8,
+              "duration_seconds": 5622,
+              "duration_formatted": "1h 33m",
+              "chat_id": -1003264222864,
+              "message_id": 1310,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 17. Substance Use and Other Addictive Disorders",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T14:20:05Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/1310"
+            },
+            {
+              "id": "topic_-1003264222864_1311",
+              "subject_id": "psychiatry",
+              "module": "Marrow Edition 6 - Psychiatry",
+              "title": "18. Child, Adolescent and Related Disorders",
+              "filename": "18. Child, Adolescent and Related Disorders.mp4",
+              "file_size_bytes": 168573405,
+              "file_size_mb": 160.76,
+              "duration_seconds": 3297,
+              "duration_formatted": "54m 57s",
+              "chat_id": -1003264222864,
+              "message_id": 1311,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 18. Child, Adolescent and Related Disorders",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T14:21:29Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/1311"
+            },
+            {
+              "id": "topic_-1003264222864_1312",
+              "subject_id": "psychiatry",
+              "module": "Marrow Edition 6 - Psychiatry",
+              "title": "19. Emergency Psychiatry",
+              "filename": "19. Emergency Psychiatry.mp4",
+              "file_size_bytes": 152396007,
+              "file_size_mb": 145.34,
+              "duration_seconds": 2697,
+              "duration_formatted": "44m 57s",
+              "chat_id": -1003264222864,
+              "message_id": 1312,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 19. Emergency Psychiatry",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T14:22:44Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/1312"
+            },
+            {
+              "id": "topic_-1003264222864_1313",
+              "subject_id": "psychiatry",
+              "module": "Marrow Edition 6 - Psychiatry",
+              "title": "20. Psychopharmacology",
+              "filename": "20. Psychopharmacology.mp4",
+              "file_size_bytes": 243761467,
+              "file_size_mb": 232.47,
+              "duration_seconds": 3915,
+              "duration_formatted": "1h 5m",
+              "chat_id": -1003264222864,
+              "message_id": 1313,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 20. Psychopharmacology",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T14:24:40Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/1313"
+            },
+            {
+              "id": "topic_-1003264222864_1314",
+              "subject_id": "psychiatry",
+              "module": "Marrow Edition 6 - Psychiatry",
+              "title": "21. Somatic Treatments in Psychiatry",
+              "filename": "21. Somatic Treatments in Psychiatry.mp4",
+              "file_size_bytes": 108119282,
+              "file_size_mb": 103.11,
+              "duration_seconds": 1823,
+              "duration_formatted": "30m 23s",
+              "chat_id": -1003264222864,
+              "message_id": 1314,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 21. Somatic Treatments in Psychiatry",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T14:25:36Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/1314"
+            },
+            {
+              "id": "topic_-1003264222864_1315",
+              "subject_id": "psychiatry",
+              "module": "Marrow Edition 6 - Psychiatry",
+              "title": "22. Psychology",
+              "filename": "22. Psychology.mp4",
+              "file_size_bytes": 322643890,
+              "file_size_mb": 307.7,
+              "duration_seconds": 5409,
+              "duration_formatted": "1h 30m",
+              "chat_id": -1003264222864,
+              "message_id": 1315,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 22. Psychology",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T14:28:13Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/1315"
+            },
+            {
+              "id": "topic_-1003264222864_1316",
+              "subject_id": "psychiatry",
+              "module": "Marrow Edition 6 - Psychiatry",
+              "title": "23. Psychological Therapies and Assessments",
+              "filename": "23. Psychological Therapies and Assessments.mp4",
+              "file_size_bytes": 240012909,
+              "file_size_mb": 228.89,
+              "duration_seconds": 3917,
+              "duration_formatted": "1h 5m",
+              "chat_id": -1003264222864,
+              "message_id": 1316,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 23. Psychological Therapies and Assessments",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T14:30:05Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/1316"
+            },
+            {
+              "id": "topic_-1003264222864_1317",
+              "subject_id": "psychiatry",
+              "module": "Marrow Edition 6 - Psychiatry",
+              "title": "24. Public Health and Legal Aspects Related to Mental Health",
+              "filename": "24. Public Health and Legal Aspects Related to Mental Health.mp4",
+              "file_size_bytes": 145849083,
+              "file_size_mb": 139.09,
+              "duration_seconds": 2423,
+              "duration_formatted": "40m 23s",
+              "chat_id": -1003264222864,
+              "message_id": 1317,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 24. Public Health and Legal Aspects Related to Mental Health",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T14:31:18Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/1317"
+            }
+          ]
+        }
+      ],
       "notes": []
     },
     {
@@ -8882,9 +9478,92 @@
       "category": "Clinical",
       "icon": "Scan",
       "color": "#0891B2",
-      "total_topics": 0,
+      "total_topics": 4,
       "total_notes": 4,
-      "modules": [],
+      "modules": [
+        {
+          "id": "mod_marrow_radiology",
+          "name": "Marrow Edition 6 - Radiology",
+          "topics": [
+            {
+              "id": "topic_-1003264222864_534",
+              "subject_id": "radiology",
+              "module": "Marrow Edition 6 - Radiology",
+              "title": "1. Introduction to Radiology",
+              "filename": "1. Introduction to Radiology.mp4",
+              "file_size_bytes": 456880309,
+              "file_size_mb": 435.72,
+              "duration_seconds": 1839,
+              "duration_formatted": "30m 39s",
+              "chat_id": -1003264222864,
+              "message_id": 534,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 1. Introduction to Radiology",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T14:34:27Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/534"
+            },
+            {
+              "id": "topic_-1003264222864_535",
+              "subject_id": "radiology",
+              "module": "Marrow Edition 6 - Radiology",
+              "title": "2. X-Ray Fundamentals",
+              "filename": "2. X-Ray Fundamentals.mp4",
+              "file_size_bytes": 639375542,
+              "file_size_mb": 609.76,
+              "duration_seconds": 4580,
+              "duration_formatted": "1h 16m",
+              "chat_id": -1003264222864,
+              "message_id": 535,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 2. X-Ray Fundamentals",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T14:38:55Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/535"
+            },
+            {
+              "id": "topic_-1003264222864_536",
+              "subject_id": "radiology",
+              "module": "Marrow Edition 6 - Radiology",
+              "title": "3. X-Ray Production and Interactions",
+              "filename": "3. X-Ray Production and Interactions.mp4",
+              "file_size_bytes": 416227901,
+              "file_size_mb": 396.95,
+              "duration_seconds": 2702,
+              "duration_formatted": "45m 2s",
+              "chat_id": -1003264222864,
+              "message_id": 536,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 3. X-Ray Production and Interactions",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T14:41:49Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/536"
+            },
+            {
+              "id": "topic_-1003264222864_537",
+              "subject_id": "radiology",
+              "module": "Marrow Edition 6 - Radiology",
+              "title": "4. CT Basics",
+              "filename": "4. CT Basics.mp4",
+              "file_size_bytes": 303525502,
+              "file_size_mb": 289.46,
+              "duration_seconds": 1738,
+              "duration_formatted": "28m 58s",
+              "chat_id": -1003264222864,
+              "message_id": 537,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 4. CT Basics",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-27T14:43:59Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/537"
+            }
+          ]
+        }
+      ],
       "notes": []
     },
     {
