@@ -1,6 +1,6 @@
 {
   "version": "2.2.0",
-  "updated_at": "2026-09-28T06:19:21.566Z",
+  "updated_at": "2026-09-28T14:51:47.503Z",
   "subjects": [
     {
       "id": "anatomy",
@@ -9897,7 +9897,7 @@
       "category": "Clinical",
       "icon": "Wind",
       "color": "#475569",
-      "total_topics": 8,
+      "total_topics": 9,
       "total_notes": 5,
       "modules": [
         {
@@ -10045,8 +10045,8 @@
               "filename": "22. Anaesthesia for Coexisting Diseases.mp4",
               "file_size_bytes": 477272645,
               "file_size_mb": 455.16,
-              "duration_seconds": 0,
-              "duration_formatted": "0m",
+              "duration_seconds": 3769,
+              "duration_formatted": "1h 2m",
               "chat_id": -1003264222864,
               "message_id": 777,
               "pearls": [
@@ -10055,6 +10055,25 @@
               ],
               "date": "2026-09-28T06:19:17Z",
               "thumbnail_url": "/api/thumbnail/-1003264222864/777"
+            },
+            {
+              "id": "topic_-1003264222864_778",
+              "subject_id": "anesthesiology",
+              "module": "Marrow Edition 6 - Anesthesiology",
+              "title": "23. Anaesthesia for Coexisting",
+              "filename": "23. Anaesthesia for Coexisting.mp4",
+              "file_size_bytes": 471686015,
+              "file_size_mb": 449.83,
+              "duration_seconds": 0,
+              "duration_formatted": "0m",
+              "chat_id": -1003264222864,
+              "message_id": 778,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 23. Anaesthesia for Coexisting",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-28T14:51:41Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/778"
             }
           ]
         }
