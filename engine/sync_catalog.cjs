@@ -6,10 +6,14 @@ const ACRONYMS = new Set([
   'SLE', 'RA', 'PBC', 'PSC', 'COPD', 'TB', 'ILD', 'PAP', 'LBW', 'CT',
   'MRI', 'USG', 'PROM', 'IUGR', 'PCOS', 'PID', 'CIN', 'ATLS', 'IV', 'GI',
   'NEET', 'PG', 'COVID', 'HIV', 'DNA', 'RNA', 'CSF', 'RBC', 'WBC', 'HB',
-  'ABG', 'ECG', 'LFT', 'KFT', 'RFT', 'P1', 'P2', 'P3', 'P4'
+  'ABG', 'ECG', 'LFT', 'KFT', 'RFT', 'P1', 'P2', 'P3', 'P4',
+  'HTN', 'PPH', 'IUCD', 'IUCDS'
 ]);
 
 const MINOR_WORDS = new Set(['a', 'an', 'the', 'and', 'but', 'or', 'for', 'nor', 'on', 'at', 'to', 'from', 'by', 'of', 'in', 'with']);
+
+// Acronym + lowercase inflectional suffix, which toUpperCase() would flatten to all-caps.
+const ACRONYM_DISPLAY = { IUCDS: 'IUCDs' };
 
 function toTitleCase(s) {
   const tokens = s.split(/(\s+|[-/(),])/);
@@ -19,7 +23,7 @@ function toTitleCase(s) {
     const cleaned = tok.replace(/[^\w]/g, '').toUpperCase();
     if (ACRONYMS.has(cleaned)) {
       wordIdx++;
-      return cleaned;
+      return ACRONYM_DISPLAY[cleaned] || cleaned;
     }
     if (wordIdx > 0 && MINOR_WORDS.has(tok.toLowerCase())) {
       wordIdx++;
@@ -293,16 +297,21 @@ async function syncCatalog() {
         duration_formatted: item.duration_formatted || '0m',
         chat_id: chatId,
         message_id: msgId,
-        pearls: [
-          `Key clinical concepts and high-yield examination pearls in ${title}`,
-          `Essential clinical reasoning, diagnostic criteria and management guidelines`
-        ],
+        is_high_yield: false,
+        pearls: [],
         date: item.uploaded_at || item.completed_at || new Date().toISOString(),
         thumbnail_url: `/api/thumbnail/${chatId}/${msgId}`,
       };
       mod.topics.push(topic);
     } else {
+      const previousTitle = topic.title;
       topic.title = title;
+      // Boilerplate pearls quote the lecture title; keep them from going stale on a rename.
+      if (previousTitle && previousTitle !== title && Array.isArray(topic.pearls)) {
+        topic.pearls = topic.pearls.map((p) =>
+          typeof p === 'string' && p.includes(previousTitle) ? p.split(previousTitle).join(title) : p
+        );
+      }
       topic.filename = item.filename || topic.filename;
       if (item.duration_seconds) topic.duration_seconds = item.duration_seconds;
       if (item.duration_formatted) topic.duration_formatted = item.duration_formatted;

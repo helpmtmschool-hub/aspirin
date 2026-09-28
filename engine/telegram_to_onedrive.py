@@ -155,10 +155,14 @@ ACRONYMS = {
     'SLE', 'RA', 'PBC', 'PSC', 'COPD', 'TB', 'ILD', 'PAP', 'LBW', 'CT',
     'MRI', 'USG', 'PROM', 'IUGR', 'PCOS', 'PID', 'CIN', 'ATLS', 'IV', 'GI',
     'NEET', 'PG', 'COVID', 'HIV', 'DNA', 'RNA', 'CSF', 'RBC', 'WBC', 'HB',
-    'ABG', 'ECG', 'LFT', 'KFT', 'RFT', 'P1', 'P2', 'P3', 'P4'
+    'ABG', 'ECG', 'LFT', 'KFT', 'RFT', 'P1', 'P2', 'P3', 'P4',
+    'HTN', 'PPH', 'IUCD', 'IUCDS'
 }
 
 MINOR_WORDS = {'a', 'an', 'the', 'and', 'but', 'or', 'for', 'nor', 'on', 'at', 'to', 'from', 'by', 'of', 'in', 'with'}
+
+# Acronym + lowercase inflectional suffix, which .upper() would flatten to all-caps.
+ACRONYM_DISPLAY = {'IUCDS': 'IUCDs'}
 
 
 def to_title_case(s: str) -> str:
@@ -171,7 +175,7 @@ def to_title_case(s: str) -> str:
             continue
         cleaned = re.sub(r'[^\w]', '', tok).upper()
         if cleaned in ACRONYMS:
-            out.append(cleaned)
+            out.append(ACRONYM_DISPLAY.get(cleaned, cleaned))
         elif word_idx > 0 and tok.lower() in MINOR_WORDS:
             out.append(tok.lower())
         else:

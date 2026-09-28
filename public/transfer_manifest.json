@@ -5174,45 +5174,105 @@
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/424",
     "uploaded_at": "2026-09-25T13:24:30Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 1,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3168,
+          "title": "1 How to study OBG using Marrow Edition 6"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 478,
+          "title": "1 How to study OBG using Marrow Edition 6"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_425": {
-    "title": "2. Obstetrics & Gynecology Part 2",
-    "filename": "2. Obstetrics & Gynecology Part 2.mp4",
+    "title": "2. Gametogenesis",
+    "filename": "2. Gametogenesis.mp4",
     "platform": "marrow",
     "subject_id": "obg",
     "folder_path": "04_Marrow_Edition_6/13_Obstetrics_and_Gynecology",
     "telegram_chat_id": -1003264222864,
     "telegram_message_id": 425,
     "onedrive_item_id": "01UVXU6W37CR2HO4ULWZA2CTU7NCUPWDHJ",
-    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/2. Obstetrics & Gynecology Part 2.mp4",
-    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/2.%20Obstetrics%20%26%20Gynecology%20Part%202.mp4",
+    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/2. Gametogenesis.mp4",
+    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/2.%20Gametogenesis.mp4",
     "size_bytes": 1119070009,
     "duration_seconds": 5926,
     "duration_formatted": "1h 38m",
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/425",
     "uploaded_at": "2026-09-25T13:46:57Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 2,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3169,
+          "title": "2 Gametogensis"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 479,
+          "title": "2 Gametogensis"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_426": {
-    "title": "3. Obstetrics & Gynecology Part 3",
-    "filename": "3. Obstetrics & Gynecology Part 3.mp4",
+    "title": "3. Fertilization and Implantation",
+    "filename": "3. Fertilization and Implantation.mp4",
     "platform": "marrow",
     "subject_id": "obg",
     "folder_path": "04_Marrow_Edition_6/13_Obstetrics_and_Gynecology",
     "telegram_chat_id": -1003264222864,
     "telegram_message_id": 426,
     "onedrive_item_id": "01UVXU6W42HQTMC6DSUVCJNAGVOG2U57IW",
-    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/3. Obstetrics & Gynecology Part 3.mp4",
-    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/3.%20Obstetrics%20%26%20Gynecology%20Part%203.mp4",
+    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/3. Fertilization and Implantation.mp4",
+    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/3.%20Fertilization%20and%20Implantation.mp4",
     "size_bytes": 758216798,
     "duration_seconds": 5003,
     "duration_formatted": "1h 23m",
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/426",
     "uploaded_at": "2026-09-25T14:02:23Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 3,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3170,
+          "title": "3 Fertilization and Implantation"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 480,
+          "title": "3 Fertilization and Implantation"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_427": {
     "title": "4. Teratogenic Exposure of Conceptus",
@@ -5231,7 +5291,27 @@
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/427",
     "uploaded_at": "2026-09-25T14:20:32Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 4,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3171,
+          "title": "4 Teratogenic Exposure of conceptus"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 481,
+          "title": "4 Teratogenic Exposure of conceptus"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_428": {
     "title": "5. Fetus",
@@ -5250,7 +5330,27 @@
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/428",
     "uploaded_at": "2026-09-25T14:27:06Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 5,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3172,
+          "title": "5 Fetus"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 482,
+          "title": "5 Fetus"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_429": {
     "title": "6. Placenta",
@@ -5269,7 +5369,27 @@
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/429",
     "uploaded_at": "2026-09-25T14:38:48Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 6,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3173,
+          "title": "6 Placenta"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 483,
+          "title": "6 Placenta"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_430": {
     "title": "7. Placental Functions",
@@ -5288,7 +5408,27 @@
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/430",
     "uploaded_at": "2026-09-25T14:58:35Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 7,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3174,
+          "title": "7 Placental Functions"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 484,
+          "title": "7 Placental Functions"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_431": {
     "title": "8. Placental Anomalies",
@@ -5307,140 +5447,300 @@
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/431",
     "uploaded_at": "2026-09-25T15:04:34Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 8,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3175,
+          "title": "8 Placental Anomalies"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 485,
+          "title": "8 Placental Anomalies"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_432": {
-    "title": "9. Obstetrics & Gynecology Part 9",
-    "filename": "9. Obstetrics & Gynecology Part 9.mp4",
+    "title": "9. Cord and Anomalies",
+    "filename": "9. Cord and Anomalies.mp4",
     "platform": "marrow",
     "subject_id": "obg",
     "folder_path": "04_Marrow_Edition_6/13_Obstetrics_and_Gynecology",
     "telegram_chat_id": -1003264222864,
     "telegram_message_id": 432,
     "onedrive_item_id": "01UVXU6W3ZBUU7WSVVMVCIURHOUNOPBMSC",
-    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/9. Obstetrics & Gynecology Part 9.mp4",
-    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/9.%20Obstetrics%20%26%20Gynecology%20Part%209.mp4",
+    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/9. Cord and Anomalies.mp4",
+    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/9.%20Cord%20and%20Anomalies.mp4",
     "size_bytes": 841427481,
     "duration_seconds": 5093,
     "duration_formatted": "1h 24m",
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/432",
     "uploaded_at": "2026-09-25T15:19:19Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 9,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3176,
+          "title": "9 Cord & Anomalies"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 486,
+          "title": "9 Cord & Anomalies"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_433": {
-    "title": "10. Amniotic Fluid",
-    "filename": "10. Amniotic Fluid.mp4",
+    "title": "10. Amniotic Fluid and Its Disorders Part 1",
+    "filename": "10. Amniotic Fluid and Its Disorders Part 1.mp4",
     "platform": "marrow",
     "subject_id": "obg",
     "folder_path": "04_Marrow_Edition_6/13_Obstetrics_and_Gynecology",
     "telegram_chat_id": -1003264222864,
     "telegram_message_id": 433,
     "onedrive_item_id": "01UVXU6W7S7I3ST232AFE3TPW4VGVD5JBS",
-    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/10. Amniotic Fluid.mp4",
-    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/10.%20Amniotic%20Fluid.mp4",
+    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/10. Amniotic Fluid and Its Disorders Part 1.mp4",
+    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/10.%20Amniotic%20Fluid%20and%20Its%20Disorders%20Part%201.mp4",
     "size_bytes": 294254759,
     "duration_seconds": 2151,
     "duration_formatted": "35m 51s",
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/433",
     "uploaded_at": "2026-09-25T15:21:11Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 10,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3177,
+          "title": "10 Amniotic Fluids and its disorders Part-1"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 487,
+          "title": "10 Amniotic Fluids and its disorders Part-1"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_434": {
-    "title": "11. Amniotic Fluid",
-    "filename": "11. Amniotic Fluid.mp4",
+    "title": "11. Amniotic Fluid and Its Disorders Part 2",
+    "filename": "11. Amniotic Fluid and Its Disorders Part 2.mp4",
     "platform": "marrow",
     "subject_id": "obg",
     "folder_path": "04_Marrow_Edition_6/13_Obstetrics_and_Gynecology",
     "telegram_chat_id": -1003264222864,
     "telegram_message_id": 434,
     "onedrive_item_id": "01UVXU6W2N6AE5MD372RFJ2NQZKPNFSMII",
-    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/11. Amniotic Fluid.mp4",
-    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/11.%20Amniotic%20Fluid.mp4",
+    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/11. Amniotic Fluid and Its Disorders Part 2.mp4",
+    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/11.%20Amniotic%20Fluid%20and%20Its%20Disorders%20Part%202.mp4",
     "size_bytes": 576761189,
     "duration_seconds": 3903,
     "duration_formatted": "1h 5m",
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/434",
     "uploaded_at": "2026-09-25T15:24:36Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 11,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3178,
+          "title": "11 Amniotic fluids and its disorders Part-2"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 488,
+          "title": "11 Amniotic fluids and its disorders Part-2"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_435": {
-    "title": "12. Obstetrics & Gynecology Part 12",
-    "filename": "12. Obstetrics & Gynecology Part 12.mp4",
+    "title": "12. Antenatal Patient History",
+    "filename": "12. Antenatal Patient History.mp4",
     "platform": "marrow",
     "subject_id": "obg",
     "folder_path": "04_Marrow_Edition_6/13_Obstetrics_and_Gynecology",
     "telegram_chat_id": -1003264222864,
     "telegram_message_id": 435,
     "onedrive_item_id": "01UVXU6W4WWDTZGC26XVF3YNOYKYVTNEOD",
-    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/12. Obstetrics & Gynecology Part 12.mp4",
-    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/12.%20Obstetrics%20%26%20Gynecology%20Part%2012.mp4",
+    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/12. Antenatal Patient History.mp4",
+    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/12.%20Antenatal%20Patient%20History.mp4",
     "size_bytes": 985565548,
     "duration_seconds": 4711,
     "duration_formatted": "1h 18m",
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/435",
     "uploaded_at": "2026-09-25T15:30:33Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 12,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3179,
+          "title": "12 Antenatal patient History"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 489,
+          "title": "12 Antenatal patient History"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_436": {
-    "title": "13. Obstetrics & Gynecology Part 13",
-    "filename": "13. Obstetrics & Gynecology Part 13.mp4",
+    "title": "13. Antenatal Patient Signs, Symptoms and Minor Ailments",
+    "filename": "13. Antenatal Patient Signs, Symptoms and Minor Ailments.mp4",
     "platform": "marrow",
     "subject_id": "obg",
     "folder_path": "04_Marrow_Edition_6/13_Obstetrics_and_Gynecology",
     "telegram_chat_id": -1003264222864,
     "telegram_message_id": 436,
     "onedrive_item_id": "01UVXU6W7YY766AS7UDRALBR57DLCSADUM",
-    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/13. Obstetrics & Gynecology Part 13.mp4",
-    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/13.%20Obstetrics%20%26%20Gynecology%20Part%2013.mp4",
+    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/13. Antenatal Patient Signs, Symptoms and Minor Ailments.mp4",
+    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/13.%20Antenatal%20Patient%20Signs,%20Symptoms%20and%20Minor%20Ailments.mp4",
     "size_bytes": 450914266,
     "duration_seconds": 3485,
     "duration_formatted": "58m 5s",
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/436",
     "uploaded_at": "2026-09-25T15:33:28Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 13,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3180,
+          "title": "13 Antenatal Patients Signs Symptoms and Minor ailments"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 490,
+          "title": "13 Antenatal Patients Signs Symptoms and Minor ailments"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_437": {
-    "title": "14. Obstetrics & Gynecology Part 14",
-    "filename": "14. Obstetrics & Gynecology Part 14.mp4",
+    "title": "14. Antenatal Patient Investigation and Advice",
+    "filename": "14. Antenatal Patient Investigation and Advice.mp4",
     "platform": "marrow",
     "subject_id": "obg",
     "folder_path": "04_Marrow_Edition_6/13_Obstetrics_and_Gynecology",
     "telegram_chat_id": -1003264222864,
     "telegram_message_id": 437,
     "onedrive_item_id": "01UVXU6WZO3D3QOGPIHFCZFIPHZGM2DFHT",
-    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/14. Obstetrics & Gynecology Part 14.mp4",
-    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/14.%20Obstetrics%20%26%20Gynecology%20Part%2014.mp4",
+    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/14. Antenatal Patient Investigation and Advice.mp4",
+    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/14.%20Antenatal%20Patient%20Investigation%20and%20Advice.mp4",
     "size_bytes": 490665490,
     "duration_seconds": 2890,
     "duration_formatted": "48m 10s",
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/437",
     "uploaded_at": "2026-09-25T15:36:43Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 14,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3181,
+          "title": "14 Antenatal Patient Investigation and advice"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 491,
+          "title": "14 Antenatal Patient Investigation and advice"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_438": {
-    "title": "15. Aneuploid",
-    "filename": "15. Aneuploid.mp4",
+    "title": "15. Aneuploidy Screening",
+    "filename": "15. Aneuploidy Screening.mp4",
     "platform": "marrow",
     "subject_id": "obg",
     "folder_path": "04_Marrow_Edition_6/13_Obstetrics_and_Gynecology",
     "telegram_chat_id": -1003264222864,
     "telegram_message_id": 438,
     "onedrive_item_id": "01UVXU6WYSKGJW6S4G3NHJ5ERVMLM4FF5A",
-    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/15. Aneuploid.mp4",
-    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/15.%20Aneuploid.mp4",
+    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/15. Aneuploidy Screening.mp4",
+    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/15.%20Aneuploidy%20Screening.mp4",
     "size_bytes": 592905271,
     "duration_seconds": 3898,
     "duration_formatted": "1h 4m",
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/438",
     "uploaded_at": "2026-09-25T15:40:26Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 15,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3182,
+          "title": "15 Aneuploidy Screening"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 492,
+          "title": "15 Aneuploidy Screening"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_439": {
     "title": "16. Fetal Monitoring",
@@ -5459,7 +5759,27 @@
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/439",
     "uploaded_at": "2026-09-25T15:43:11Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 16,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3183,
+          "title": "16 Fetal Monitoring"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 493,
+          "title": "16 Fetal Monitoring"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_440": {
     "title": "17. Maternal Adaptation in Pregnancy",
@@ -5478,7 +5798,27 @@
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/440",
     "uploaded_at": "2026-09-25T15:49:45Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 17,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3184,
+          "title": "17 Maternal Adaptation in pregnancy"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 494,
+          "title": "17 Maternal Adaptation in pregnancy"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_441": {
     "title": "18. Obstetrics Pharmacology Integration",
@@ -5497,7 +5837,27 @@
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/441",
     "uploaded_at": "2026-09-25T15:56:13Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 18,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3185,
+          "title": "18 Obstetrics Pharmacology Integration"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 495,
+          "title": "18 Obstetrics Pharmacology Integration"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_442": {
     "title": "19. Obstetrics Radiology Integration Part 1",
@@ -5516,7 +5876,27 @@
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/442",
     "uploaded_at": "2026-09-25T16:00:47Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 19,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3186,
+          "title": "19 Obstetrics Radiology Integration Part-1"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 496,
+          "title": "19 Obstetrics Radiology Integration Part-1"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_443": {
     "title": "20. Obstetrics Radiology Integration Part 2",
@@ -5535,7 +5915,27 @@
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/443",
     "uploaded_at": "2026-09-25T16:04:16Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 20,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3187,
+          "title": "20 Obstetrics Radiology Integration Part-2"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 497,
+          "title": "20 Obstetrics Radiology Integration Part-2"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_444": {
     "title": "21. Obstetrics Medicine Integration",
@@ -5554,121 +5954,261 @@
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/444",
     "uploaded_at": "2026-09-25T16:09:34Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 21,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3188,
+          "title": "21 Obstetrics Medicine Integration"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 498,
+          "title": "21 Obstetrics Medicine Integration"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_445": {
-    "title": "22. Anemia 1",
-    "filename": "22. Anemia 1.mp4",
+    "title": "22. Anemia in Pregnancy Part 1",
+    "filename": "22. Anemia in Pregnancy Part 1.mp4",
     "platform": "marrow",
     "subject_id": "obg",
     "folder_path": "04_Marrow_Edition_6/13_Obstetrics_and_Gynecology",
     "telegram_chat_id": -1003264222864,
     "telegram_message_id": 445,
     "onedrive_item_id": "01UVXU6WYBWBEK7B2L6JHKM2OODYSFWEJF",
-    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/22. Anemia 1.mp4",
-    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/22.%20Anemia%201.mp4",
+    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/22. Anemia in Pregnancy Part 1.mp4",
+    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/22.%20Anemia%20in%20Pregnancy%20Part%201.mp4",
     "size_bytes": 952315493,
     "duration_seconds": 3611,
     "duration_formatted": "60m 11s",
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/445",
     "uploaded_at": "2026-09-25T16:15:28Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 22,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3189,
+          "title": "22 Anemia in Pregnancy Part-1"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 499,
+          "title": "22 Anemia in Pregnancy Part-1"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_446": {
-    "title": "23. Obstetrics & Gynecology Part 23",
-    "filename": "23. Obstetrics & Gynecology Part 23.mp4",
+    "title": "23. Anemia in Pregnancy Part 2",
+    "filename": "23. Anemia in Pregnancy Part 2.mp4",
     "platform": "marrow",
     "subject_id": "obg",
     "folder_path": "04_Marrow_Edition_6/13_Obstetrics_and_Gynecology",
     "telegram_chat_id": -1003264222864,
     "telegram_message_id": 446,
     "onedrive_item_id": "01UVXU6W7TSOK3AO3ZAVA3HR2V26YVZ6J6",
-    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/23. Obstetrics & Gynecology Part 23.mp4",
-    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/23.%20Obstetrics%20%26%20Gynecology%20Part%2023.mp4",
+    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/23. Anemia in Pregnancy Part 2.mp4",
+    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/23.%20Anemia%20in%20Pregnancy%20Part%202.mp4",
     "size_bytes": 544909742,
     "duration_seconds": 2145,
     "duration_formatted": "35m 45s",
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/446",
     "uploaded_at": "2026-09-25T16:18:54Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 23,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3190,
+          "title": "23 Anemia in Pregnancy Part-2"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 500,
+          "title": "23 Anemia in Pregnancy Part-2"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_447": {
-    "title": "24. Obstetrics & Gynecology Part 24",
-    "filename": "24. Obstetrics & Gynecology Part 24.mp4",
+    "title": "24. Diabetes in Pregnancy Part 1",
+    "filename": "24. Diabetes in Pregnancy Part 1.mp4",
     "platform": "marrow",
     "subject_id": "obg",
     "folder_path": "04_Marrow_Edition_6/13_Obstetrics_and_Gynecology",
     "telegram_chat_id": -1003264222864,
     "telegram_message_id": 447,
     "onedrive_item_id": "01UVXU6WY3N34AS25ZK5EKABDEL2JDI6DE",
-    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/24. Obstetrics & Gynecology Part 24.mp4",
-    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/24.%20Obstetrics%20%26%20Gynecology%20Part%2024.mp4",
+    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/24. Diabetes in Pregnancy Part 1.mp4",
+    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/24.%20Diabetes%20in%20Pregnancy%20Part%201.mp4",
     "size_bytes": 990924559,
     "duration_seconds": 5954,
     "duration_formatted": "1h 39m",
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/447",
     "uploaded_at": "2026-09-25T16:24:59Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 24,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3191,
+          "title": "24 Diabetes in pregnacy Part-1"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 501,
+          "title": "24 Diabetes in pregnacy Part-1"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_448": {
-    "title": "25. Obstetrics & Gynecology Part 25",
-    "filename": "25. Obstetrics & Gynecology Part 25.mp4",
+    "title": "25. Diabetes in Pregnancy Part 2",
+    "filename": "25. Diabetes in Pregnancy Part 2.mp4",
     "platform": "marrow",
     "subject_id": "obg",
     "folder_path": "04_Marrow_Edition_6/13_Obstetrics_and_Gynecology",
     "telegram_chat_id": -1003264222864,
     "telegram_message_id": 448,
     "onedrive_item_id": "01UVXU6WYV5VEJPQROP5B25VWXEGOOKHGF",
-    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/25. Obstetrics & Gynecology Part 25.mp4",
-    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/25.%20Obstetrics%20%26%20Gynecology%20Part%2025.mp4",
+    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/25. Diabetes in Pregnancy Part 2.mp4",
+    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/25.%20Diabetes%20in%20Pregnancy%20Part%202.mp4",
     "size_bytes": 792093675,
     "duration_seconds": 4768,
     "duration_formatted": "1h 19m",
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/448",
     "uploaded_at": "2026-09-25T17:17:42Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 25,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3192,
+          "title": "25 Diabetes in pregnacy Part-2"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 502,
+          "title": "25 Diabetes in pregnacy Part-2"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_449": {
-    "title": "26. Obstetrics & Gynecology Part 26",
-    "filename": "26. Obstetrics & Gynecology Part 26.mp4",
+    "title": "26. HTN in Pregnancy Part 1",
+    "filename": "26. HTN in Pregnancy Part 1.mp4",
     "platform": "marrow",
     "subject_id": "obg",
     "folder_path": "04_Marrow_Edition_6/13_Obstetrics_and_Gynecology",
     "telegram_chat_id": -1003264222864,
     "telegram_message_id": 449,
     "onedrive_item_id": "01UVXU6W2CXM276TVRNRDKKJ4WZT3XOXX5",
-    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/26. Obstetrics & Gynecology Part 26.mp4",
-    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/26.%20Obstetrics%20%26%20Gynecology%20Part%2026.mp4",
+    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/26. HTN in Pregnancy Part 1.mp4",
+    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/26.%20HTN%20in%20Pregnancy%20Part%201.mp4",
     "size_bytes": 778078227,
     "duration_seconds": 4635,
     "duration_formatted": "1h 17m",
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/449",
     "uploaded_at": "2026-09-25T17:22:17Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 26,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3193,
+          "title": "26 HTN in pregnacy Part-1"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 503,
+          "title": "26 HTN in pregnacy Part-1"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_450": {
-    "title": "27. Obstetrics & Gynecology Part 27",
-    "filename": "27. Obstetrics & Gynecology Part 27.mp4",
+    "title": "27. HTN in Pregnancy Part 2",
+    "filename": "27. HTN in Pregnancy Part 2.mp4",
     "platform": "marrow",
     "subject_id": "obg",
     "folder_path": "04_Marrow_Edition_6/13_Obstetrics_and_Gynecology",
     "telegram_chat_id": -1003264222864,
     "telegram_message_id": 450,
     "onedrive_item_id": "01UVXU6W6MO4PLDHTUERAI4NEZY626RKLI",
-    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/27. Obstetrics & Gynecology Part 27.mp4",
-    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/27.%20Obstetrics%20%26%20Gynecology%20Part%2027.mp4",
+    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/27. HTN in Pregnancy Part 2.mp4",
+    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/27.%20HTN%20in%20Pregnancy%20Part%202.mp4",
     "size_bytes": 555840843,
     "duration_seconds": 3721,
     "duration_formatted": "1h 2m",
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/450",
     "uploaded_at": "2026-09-25T17:25:38Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 27,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3194,
+          "title": "27 HTN in pregnacy Part-2"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 504,
+          "title": "27 HTN in pregnacy Part-2"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_451": {
     "title": "28. IUGR",
@@ -5687,26 +6227,66 @@
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/451",
     "uploaded_at": "2026-09-25T17:28:32Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 28,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3195,
+          "title": "28 IUGR"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 505,
+          "title": "28 IUGR"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_452": {
-    "title": "29. Obstetrics & Gynecology Part 29",
-    "filename": "29. Obstetrics & Gynecology Part 29.mp4",
+    "title": "29. HIV in Pregnancy",
+    "filename": "29. HIV in Pregnancy.mp4",
     "platform": "marrow",
     "subject_id": "obg",
     "folder_path": "04_Marrow_Edition_6/13_Obstetrics_and_Gynecology",
     "telegram_chat_id": -1003264222864,
     "telegram_message_id": 452,
     "onedrive_item_id": "01UVXU6W6UDMQIFPDKBRE3CB66BRNRJY4E",
-    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/29. Obstetrics & Gynecology Part 29.mp4",
-    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/29.%20Obstetrics%20%26%20Gynecology%20Part%2029.mp4",
+    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/29. HIV in Pregnancy.mp4",
+    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/29.%20HIV%20in%20Pregnancy.mp4",
     "size_bytes": 538673241,
     "duration_seconds": 3381,
     "duration_formatted": "56m 21s",
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/452",
     "uploaded_at": "2026-09-25T17:31:43Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 29,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3196,
+          "title": "29 HIV in pregnacy"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 506,
+          "title": "29 HIV in pregnacy"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_453": {
     "title": "30. Rh Negative Pregnancy",
@@ -5725,7 +6305,27 @@
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/453",
     "uploaded_at": "2026-09-25T17:35:23Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 30,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3197,
+          "title": "30 Rh-negative Pregnacy"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 507,
+          "title": "30 Rh-negative Pregnacy"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_454": {
     "title": "31. Twin Pregnancy Part 1",
@@ -5744,7 +6344,27 @@
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/454",
     "uploaded_at": "2026-09-25T17:38:30Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 31,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3198,
+          "title": "31 Twin Pregnacy Part-1"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 508,
+          "title": "31 Twin Pregnacy Part-1"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_455": {
     "title": "32. Twin Pregnancy Part 2",
@@ -5763,7 +6383,27 @@
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/455",
     "uploaded_at": "2026-09-25T17:42:26Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 32,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3199,
+          "title": "32 Twin Pregnacy Part-2"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 509,
+          "title": "32 Twin Pregnacy Part-2"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_456": {
     "title": "33. Preterm Labor Part 1",
@@ -5782,7 +6422,27 @@
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/456",
     "uploaded_at": "2026-09-25T17:46:13Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 33,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3200,
+          "title": "33 Pretem Labor Part-1"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 510,
+          "title": "33 Pretem Labor Part-1"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_457": {
     "title": "34. Preterm Labor Part 2",
@@ -5801,7 +6461,27 @@
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/457",
     "uploaded_at": "2026-09-25T17:49:20Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 34,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3201,
+          "title": "34 Pretem Labor Part-2"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 511,
+          "title": "34 Pretem Labor Part-2"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_458": {
     "title": "35. PROM",
@@ -5820,197 +6500,417 @@
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/458",
     "uploaded_at": "2026-09-25T17:52:07Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 35,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3202,
+          "title": "35 PROM"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 512,
+          "title": "35 PROM"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_459": {
-    "title": "36. Obstetrics & Gynecology Part 36",
-    "filename": "36. Obstetrics & Gynecology Part 36.mp4",
+    "title": "36. Abortion Part 1",
+    "filename": "36. Abortion Part 1.mp4",
     "platform": "marrow",
     "subject_id": "obg",
     "folder_path": "04_Marrow_Edition_6/13_Obstetrics_and_Gynecology",
     "telegram_chat_id": -1003264222864,
     "telegram_message_id": 459,
     "onedrive_item_id": "01UVXU6W5BLX457PD2VBBJH45LV64NK3UF",
-    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/36. Obstetrics & Gynecology Part 36.mp4",
-    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/36.%20Obstetrics%20%26%20Gynecology%20Part%2036.mp4",
+    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/36. Abortion Part 1.mp4",
+    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/36.%20Abortion%20Part%201.mp4",
     "size_bytes": 915162058,
     "duration_seconds": 4645,
     "duration_formatted": "1h 17m",
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/459",
     "uploaded_at": "2026-09-25T18:13:56Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 36,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3203,
+          "title": "36 Abortion Part-1"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 513,
+          "title": "36 Abortion Part-1"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_460": {
-    "title": "37. Obstetrics & Gynecology Part 37",
-    "filename": "37. Obstetrics & Gynecology Part 37.mp4",
+    "title": "37. Abortion Part 2",
+    "filename": "37. Abortion Part 2.mp4",
     "platform": "marrow",
     "subject_id": "obg",
     "folder_path": "04_Marrow_Edition_6/13_Obstetrics_and_Gynecology",
     "telegram_chat_id": -1003264222864,
     "telegram_message_id": 460,
     "onedrive_item_id": "01UVXU6W3ZZ7JPAH3ZBJG3ZQJLEHADQPL5",
-    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/37. Obstetrics & Gynecology Part 37.mp4",
-    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/37.%20Obstetrics%20%26%20Gynecology%20Part%2037.mp4",
+    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/37. Abortion Part 2.mp4",
+    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/37.%20Abortion%20Part%202.mp4",
     "size_bytes": 823359831,
     "duration_seconds": 3826,
     "duration_formatted": "1h 3m",
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/460",
     "uploaded_at": "2026-09-25T18:18:19Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 37,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3204,
+          "title": "37 Abortion Part-2"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 514,
+          "title": "37 Abortion Part-2"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_461": {
-    "title": "38. Obstetrics & Gynecology Part 38",
-    "filename": "38. Obstetrics & Gynecology Part 38.mp4",
+    "title": "38. Ectopic Pregnancy Part 1",
+    "filename": "38. Ectopic Pregnancy Part 1.mp4",
     "platform": "marrow",
     "subject_id": "obg",
     "folder_path": "04_Marrow_Edition_6/13_Obstetrics_and_Gynecology",
     "telegram_chat_id": -1003264222864,
     "telegram_message_id": 461,
     "onedrive_item_id": "01UVXU6W766Z37NQDCL5GYDDWBGOXWMI7K",
-    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/38. Obstetrics & Gynecology Part 38.mp4",
-    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/38.%20Obstetrics%20%26%20Gynecology%20Part%2038.mp4",
+    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/38. Ectopic Pregnancy Part 1.mp4",
+    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/38.%20Ectopic%20Pregnancy%20Part%201.mp4",
     "size_bytes": 446315066,
     "duration_seconds": 2842,
     "duration_formatted": "47m 22s",
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/461",
     "uploaded_at": "2026-09-25T18:20:54Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 38,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3205,
+          "title": "38 Ectopic Pregnacy Part-1"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 515,
+          "title": "38 Ectopic Pregnacy Part-1"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_462": {
-    "title": "39. Obstetrics & Gynecology Part 39",
-    "filename": "39. Obstetrics & Gynecology Part 39.mp4",
+    "title": "39. Ectopic Pregnancy Part 2",
+    "filename": "39. Ectopic Pregnancy Part 2.mp4",
     "platform": "marrow",
     "subject_id": "obg",
     "folder_path": "04_Marrow_Edition_6/13_Obstetrics_and_Gynecology",
     "telegram_chat_id": -1003264222864,
     "telegram_message_id": 462,
     "onedrive_item_id": "01UVXU6W7MMEVJVLY22ZCYHU64K763FVDN",
-    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/39. Obstetrics & Gynecology Part 39.mp4",
-    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/39.%20Obstetrics%20%26%20Gynecology%20Part%2039.mp4",
+    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/39. Ectopic Pregnancy Part 2.mp4",
+    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/39.%20Ectopic%20Pregnancy%20Part%202.mp4",
     "size_bytes": 703129602,
     "duration_seconds": 4211,
     "duration_formatted": "1h 10m",
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/462",
     "uploaded_at": "2026-09-25T18:24:50Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 39,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3206,
+          "title": "39 Ectopic Pregnacy Part-2"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 516,
+          "title": "39 Ectopic Pregnacy Part-2"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_463": {
-    "title": "40. Obstetrics & Gynecology Part 40",
-    "filename": "40. Obstetrics & Gynecology Part 40.mp4",
+    "title": "40. Gestational Trophoblastic Disease",
+    "filename": "40. Gestational Trophoblastic Disease.mp4",
     "platform": "marrow",
     "subject_id": "obg",
     "folder_path": "04_Marrow_Edition_6/13_Obstetrics_and_Gynecology",
     "telegram_chat_id": -1003264222864,
     "telegram_message_id": 463,
     "onedrive_item_id": "01UVXU6W2WMZMW6GEBK5GZYS2UWJNULQAY",
-    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/40. Obstetrics & Gynecology Part 40.mp4",
-    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/40.%20Obstetrics%20%26%20Gynecology%20Part%2040.mp4",
+    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/40. Gestational Trophoblastic Disease.mp4",
+    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/40.%20Gestational%20Trophoblastic%20Disease.mp4",
     "size_bytes": 657138322,
     "duration_seconds": 3345,
     "duration_formatted": "55m 45s",
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/463",
     "uploaded_at": "2026-09-25T18:28:39Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 40,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3207,
+          "title": "40 Gestational Trophoblastic disease"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 517,
+          "title": "40 Gestational Trophoblastic disease"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_464": {
-    "title": "41. Obstetrics & Gynecology Part 41",
-    "filename": "41. Obstetrics & Gynecology Part 41.mp4",
+    "title": "41. Antepartum Haemorrhage",
+    "filename": "41. Antepartum Haemorrhage.mp4",
     "platform": "marrow",
     "subject_id": "obg",
     "folder_path": "04_Marrow_Edition_6/13_Obstetrics_and_Gynecology",
     "telegram_chat_id": -1003264222864,
     "telegram_message_id": 464,
     "onedrive_item_id": "01UVXU6W2O76JDS6M2IBDZPMFPDMWBNGTM",
-    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/41. Obstetrics & Gynecology Part 41.mp4",
-    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/41.%20Obstetrics%20%26%20Gynecology%20Part%2041.mp4",
+    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/41. Antepartum Haemorrhage.mp4",
+    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/41.%20Antepartum%20Haemorrhage.mp4",
     "size_bytes": 1190083244,
     "duration_seconds": 5350,
     "duration_formatted": "1h 29m",
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/464",
     "uploaded_at": "2026-09-25T18:35:02Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 41,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3208,
+          "title": "41 Antepartum Haemorrhage"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 518,
+          "title": "41 Antepartum Haemorrhage"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_465": {
-    "title": "42. Obstetrics & Gynecology Part 42",
-    "filename": "42. Obstetrics & Gynecology Part 42.mp4",
+    "title": "42. Placenta Accreta Spectrum",
+    "filename": "42. Placenta Accreta Spectrum.mp4",
     "platform": "marrow",
     "subject_id": "obg",
     "folder_path": "04_Marrow_Edition_6/13_Obstetrics_and_Gynecology",
     "telegram_chat_id": -1003264222864,
     "telegram_message_id": 465,
     "onedrive_item_id": "01UVXU6W64WH5EJOOX2ZBYSSSDVS454YMT",
-    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/42. Obstetrics & Gynecology Part 42.mp4",
-    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/42.%20Obstetrics%20%26%20Gynecology%20Part%2042.mp4",
+    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/42. Placenta Accreta Spectrum.mp4",
+    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/42.%20Placenta%20Accreta%20Spectrum.mp4",
     "size_bytes": 173462863,
     "duration_seconds": 1125,
     "duration_formatted": "18m 45s",
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/465",
     "uploaded_at": "2026-09-25T18:36:06Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 42,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3209,
+          "title": "42 Placenta Accreta spectrum"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 519,
+          "title": "42 Placenta Accreta spectrum"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_466": {
-    "title": "43. Obstetrics & Gynecology Part 43",
-    "filename": "43. Obstetrics & Gynecology Part 43.mp4",
+    "title": "43. Maternal Pelvis",
+    "filename": "43. Maternal Pelvis.mp4",
     "platform": "marrow",
     "subject_id": "obg",
     "folder_path": "04_Marrow_Edition_6/13_Obstetrics_and_Gynecology",
     "telegram_chat_id": -1003264222864,
     "telegram_message_id": 466,
     "onedrive_item_id": "01UVXU6W3NJ2IY3VXVG5AKY2GUQCCQ4LMT",
-    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/43. Obstetrics & Gynecology Part 43.mp4",
-    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/43.%20Obstetrics%20%26%20Gynecology%20Part%2043.mp4",
+    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/43. Maternal Pelvis.mp4",
+    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/43.%20Maternal%20Pelvis.mp4",
     "size_bytes": 901457207,
     "duration_seconds": 3856,
     "duration_formatted": "1h 4m",
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/466",
     "uploaded_at": "2026-09-25T18:41:12Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 43,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3210,
+          "title": "43 Maternal Pelvis"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 520,
+          "title": "43 Maternal Pelvis"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_467": {
-    "title": "44. Obstetrics & Gynecology Part 44",
-    "filename": "44. Obstetrics & Gynecology Part 44.mp4",
+    "title": "44. Fetal Skull",
+    "filename": "44. Fetal Skull.mp4",
     "platform": "marrow",
     "subject_id": "obg",
     "folder_path": "04_Marrow_Edition_6/13_Obstetrics_and_Gynecology",
     "telegram_chat_id": -1003264222864,
     "telegram_message_id": 467,
     "onedrive_item_id": "01UVXU6W5RM7N67SQRKZF35ZJFEZVWBJRL",
-    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/44. Obstetrics & Gynecology Part 44.mp4",
-    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/44.%20Obstetrics%20%26%20Gynecology%20Part%2044.mp4",
+    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/44. Fetal Skull.mp4",
+    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/44.%20Fetal%20Skull.mp4",
     "size_bytes": 572425071,
     "duration_seconds": 2518,
     "duration_formatted": "41m 58s",
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/467",
     "uploaded_at": "2026-09-25T18:44:32Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 44,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3211,
+          "title": "44 Fetal Skull"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 521,
+          "title": "44 Fetal Skull"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_468": {
-    "title": "45. Obstetrics & Gynecology Part 45",
-    "filename": "45. Obstetrics & Gynecology Part 45.mp4",
+    "title": "45. Terminology Related to Labor",
+    "filename": "45. Terminology Related to Labor.mp4",
     "platform": "marrow",
     "subject_id": "obg",
     "folder_path": "04_Marrow_Edition_6/13_Obstetrics_and_Gynecology",
     "telegram_chat_id": -1003264222864,
     "telegram_message_id": 468,
     "onedrive_item_id": "01UVXU6W5FI3DPCLD2DVHK3LPYKC4PDZCW",
-    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/45. Obstetrics & Gynecology Part 45.mp4",
-    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/45.%20Obstetrics%20%26%20Gynecology%20Part%2045.mp4",
+    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/45. Terminology Related to Labor.mp4",
+    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/45.%20Terminology%20Related%20to%20Labor.mp4",
     "size_bytes": 840780911,
     "duration_seconds": 3125,
     "duration_formatted": "52m 5s",
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/468",
     "uploaded_at": "2026-09-25T18:49:22Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 45,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3212,
+          "title": "45 Terminology related to Labor"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 522,
+          "title": "45 Terminology related to Labor"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_469": {
     "title": "46. Leopold Maneuver and Antenatal Examination",
@@ -6029,7 +6929,27 @@
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/469",
     "uploaded_at": "2026-09-25T18:53:50Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 46,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3213,
+          "title": "46 Leopold maneuver & Antenatal examination"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 523,
+          "title": "46 Leopold maneuver & Antenatal examination"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_470": {
     "title": "47. Mechanism of Labor",
@@ -6048,26 +6968,66 @@
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/470",
     "uploaded_at": "2026-09-25T19:03:41Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 47,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3214,
+          "title": "47 Mechanism of Labor"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 524,
+          "title": "47 Mechanism of Labor"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_471": {
-    "title": "48. Obstetrics & Gynecology Part 48",
-    "filename": "48. Obstetrics & Gynecology Part 48.mp4",
+    "title": "48. Normal Labor",
+    "filename": "48. Normal Labor.mp4",
     "platform": "marrow",
     "subject_id": "obg",
     "folder_path": "04_Marrow_Edition_6/13_Obstetrics_and_Gynecology",
     "telegram_chat_id": -1003264222864,
     "telegram_message_id": 471,
     "onedrive_item_id": "01UVXU6W76JWIOKK47XBGZ4H6PVINJ5ZLB",
-    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/48. Obstetrics & Gynecology Part 48.mp4",
-    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/48.%20Obstetrics%20%26%20Gynecology%20Part%2048.mp4",
+    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/48. Normal Labor.mp4",
+    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/48.%20Normal%20Labor.mp4",
     "size_bytes": 1026141460,
     "duration_seconds": 4468,
     "duration_formatted": "1h 14m",
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/471",
     "uploaded_at": "2026-09-25T19:09:13Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 48,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3215,
+          "title": "48 Normal Labor"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 525,
+          "title": "48 Normal Labor"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_472": {
     "title": "49. Induction of Labor",
@@ -6086,64 +7046,144 @@
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/472",
     "uploaded_at": "2026-09-25T19:14:02Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 49,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3216,
+          "title": "49 Induction of Labor"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 526,
+          "title": "49 Induction of Labor"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_473": {
-    "title": "50. Stages of Labor, Abnormal Labor, Partogram Part 1",
-    "filename": "50. Stages of Labor, Abnormal Labor, Partogram Part 1.mp4",
+    "title": "50. Stages of Labor, Abnormal Labor and Partogram Part 1",
+    "filename": "50. Stages of Labor, Abnormal Labor and Partogram Part 1.mp4",
     "platform": "marrow",
     "subject_id": "obg",
     "folder_path": "04_Marrow_Edition_6/13_Obstetrics_and_Gynecology",
     "telegram_chat_id": -1003264222864,
     "telegram_message_id": 473,
     "onedrive_item_id": "01UVXU6WZPX7QDO5ERSRD3B2WM6KCU6DEP",
-    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/50. Stages of Labor, Abnormal Labor, Partogram Part 1.mp4",
-    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/50.%20Stages%20of%20Labor,%20Abnormal%20Labor,%20Partogram%20Part%201.mp4",
+    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/50. Stages of Labor, Abnormal Labor and Partogram Part 1.mp4",
+    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/50.%20Stages%20of%20Labor,%20Abnormal%20Labor%20and%20Partogram%20Part%201.mp4",
     "size_bytes": 1049546218,
     "duration_seconds": 6595,
     "duration_formatted": "1h 49m",
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/473",
     "uploaded_at": "2026-09-25T19:20:16Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 50,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3217,
+          "title": "50 Stages of Labor, Abnormal Labor & Partogram Part-1"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 527,
+          "title": "50 Stages of Labor, Abnormal Labor & Partogram Part-1"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_474": {
-    "title": "51. Obstetrics & Gynecology Part 51",
-    "filename": "51. Obstetrics & Gynecology Part 51.mp4",
+    "title": "51. Stages of Labor, Abnormal Labor and Partogram Part 2",
+    "filename": "51. Stages of Labor, Abnormal Labor and Partogram Part 2.mp4",
     "platform": "marrow",
     "subject_id": "obg",
     "folder_path": "04_Marrow_Edition_6/13_Obstetrics_and_Gynecology",
     "telegram_chat_id": -1003264222864,
     "telegram_message_id": 474,
     "onedrive_item_id": "01UVXU6W3PCQV4QGOQANHIOAFKCYH7KZNI",
-    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/51. Obstetrics & Gynecology Part 51.mp4",
-    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/51.%20Obstetrics%20%26%20Gynecology%20Part%2051.mp4",
+    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/51. Stages of Labor, Abnormal Labor and Partogram Part 2.mp4",
+    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/51.%20Stages%20of%20Labor,%20Abnormal%20Labor%20and%20Partogram%20Part%202.mp4",
     "size_bytes": 630840975,
     "duration_seconds": 3998,
     "duration_formatted": "1h 6m",
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/474",
     "uploaded_at": "2026-09-25T19:40:29Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 51,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3218,
+          "title": "51 Stages of Labor, Abnormal Labor & Partogram Part-2"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 528,
+          "title": "51 Stages of Labor, Abnormal Labor & Partogram Part-2"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_475": {
-    "title": "52. Obstetrics & Gynecology Part 52",
-    "filename": "52. Obstetrics & Gynecology Part 52.mp4",
+    "title": "52. Complications of 3rd Stage of Labor - PPH",
+    "filename": "52. Complications of 3rd Stage of Labor - PPH.mp4",
     "platform": "marrow",
     "subject_id": "obg",
     "folder_path": "04_Marrow_Edition_6/13_Obstetrics_and_Gynecology",
     "telegram_chat_id": -1003264222864,
     "telegram_message_id": 475,
     "onedrive_item_id": "01UVXU6W3VG4DDL5K2INCZGAYMQYVNUBDR",
-    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/52. Obstetrics & Gynecology Part 52.mp4",
-    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/52.%20Obstetrics%20%26%20Gynecology%20Part%2052.mp4",
+    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/52. Complications of 3rd Stage of Labor - PPH.mp4",
+    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/52.%20Complications%20of%203rd%20Stage%20of%20Labor%20-%20PPH.mp4",
     "size_bytes": 291609729,
     "duration_seconds": 1931,
     "duration_formatted": "32m 11s",
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/475",
     "uploaded_at": "2026-09-25T19:42:14Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 52,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3219,
+          "title": "52 Complications of 3rd stage of Labor - PPH"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 529,
+          "title": "52 Complications of 3rd stage of Labor - PPH"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_476": {
     "title": "53. Malpresentation Part 1",
@@ -6162,7 +7202,27 @@
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/476",
     "uploaded_at": "2026-09-25T19:50:17Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 54,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3221,
+          "title": "54 Malpresentation Part-1"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 531,
+          "title": "54 Malpresentation Part-1"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_477": {
     "title": "54. Malpresentation Part 2",
@@ -6181,7 +7241,27 @@
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/477",
     "uploaded_at": "2026-09-25T20:05:32Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 55,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3222,
+          "title": "55 Malpresentation Part-2"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 532,
+          "title": "55 Malpresentation Part-2"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_478": {
     "title": "55. Instrumental Delivery",
@@ -6200,26 +7280,66 @@
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/478",
     "uploaded_at": "2026-09-25T20:28:43Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 56,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3223,
+          "title": "56 Instrumental Delivery"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 533,
+          "title": "56 Instrumental Delivery"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_479": {
-    "title": "56. Obstetrics & Gynecology Part 57",
-    "filename": "56. Obstetrics & Gynecology Part 57.mp4",
+    "title": "56. Cesarean Section",
+    "filename": "56. Cesarean Section.mp4",
     "platform": "marrow",
     "subject_id": "obg",
     "folder_path": "04_Marrow_Edition_6/13_Obstetrics_and_Gynecology",
     "telegram_chat_id": -1003264222864,
     "telegram_message_id": 479,
     "onedrive_item_id": "01UVXU6W3VE67KB3F3HNCZWW4JEX4OTY6R",
-    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/56. Obstetrics & Gynecology Part 57.mp4",
-    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/56.%20Obstetrics%20%26%20Gynecology%20Part%2057.mp4",
+    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/56. Cesarean Section.mp4",
+    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/56.%20Cesarean%20Section.mp4",
     "size_bytes": 1541006675,
     "duration_seconds": 6040,
     "duration_formatted": "1h 40m",
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/479",
     "uploaded_at": "2026-09-25T21:20:27Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 57,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3224,
+          "title": "57 Cesarean Section"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 534,
+          "title": "57 Cesarean Section"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_480": {
     "title": "57. Puerperium",
@@ -6238,7 +7358,27 @@
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/480",
     "uploaded_at": "2026-09-25T21:26:14Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 58,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3225,
+          "title": "58 Puerperium"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 535,
+          "title": "58 Puerperium"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_481": {
     "title": "58. Menstrual Cycle",
@@ -6257,7 +7397,27 @@
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/481",
     "uploaded_at": "2026-09-25T21:50:23Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 59,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3226,
+          "title": "59 Menstrual Cycle"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 536,
+          "title": "59 Menstrual Cycle"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_482": {
     "title": "59. Atypical Uterine Bleeding Part 1",
@@ -6276,7 +7436,27 @@
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/482",
     "uploaded_at": "2026-09-25T22:09:31Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 60,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3227,
+          "title": "60 Atypical Uterine Bleeding Part 1"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 537,
+          "title": "60 Atypical Uterine Bleeding Part 1"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_483": {
     "title": "60. Atypical Uterine Bleeding Part 2",
@@ -6295,7 +7475,27 @@
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/483",
     "uploaded_at": "2026-09-26T05:16:29Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 61,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3228,
+          "title": "61 Atypical Uterine Bleeding Part-2"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 538,
+          "title": "61 Atypical Uterine Bleeding Part-2"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_484": {
     "title": "61. Dysmenorrhea",
@@ -6314,7 +7514,27 @@
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/484",
     "uploaded_at": "2026-09-26T05:19:47Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 62,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3229,
+          "title": "62 Dysmennorhea"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 539,
+          "title": "62 Dysmennorhea"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_485": {
     "title": "62. Gynecology Anatomy Integration Part 1",
@@ -6333,7 +7553,27 @@
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/485",
     "uploaded_at": "2026-09-26T05:32:02Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 63,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3230,
+          "title": "63 Gynecology Anatomy Integration Part-1"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 540,
+          "title": "63 Gynecology Anatomy Integration Part-1"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_486": {
     "title": "63. Gynecology Anatomy Integration Part 2",
@@ -6352,7 +7592,27 @@
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/486",
     "uploaded_at": "2026-09-26T05:52:56Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 64,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3231,
+          "title": "64 Gynecology Anatomy Integration Part-2"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 541,
+          "title": "64 Gynecology Anatomy Integration Part-2"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_487": {
     "title": "64. Gynecology Anatomy Integration Part 3",
@@ -6371,7 +7631,27 @@
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/487",
     "uploaded_at": "2026-09-26T06:14:57Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 65,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3232,
+          "title": "65 Gynecology Anat Integration Part-3"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 542,
+          "title": "65 Gynecology Anat Integration Part-3"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_488": {
     "title": "65. Gynecology Anatomy Integration Part 4",
@@ -6390,7 +7670,27 @@
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/488",
     "uploaded_at": "2026-09-26T06:24:23Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 66,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3233,
+          "title": "66 Gynaecology Anat Integration Part-4"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 543,
+          "title": "66 Gynaecology Anat Integration Part-4"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_489": {
     "title": "66. Gynecology Physiology Integration Part 1",
@@ -6409,7 +7709,27 @@
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/489",
     "uploaded_at": "2026-09-26T06:42:16Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 67,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3234,
+          "title": "67 Gyanecology Physiology Integration Part-1"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 544,
+          "title": "67 Gyanecology Physiology Integration Part-1"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_490": {
     "title": "67. Gynecology Physiology Integration Part 2",
@@ -6428,7 +7748,27 @@
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/490",
     "uploaded_at": "2026-09-26T06:55:53Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 68,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3235,
+          "title": "68 Gyanecology Physiology Integration Part-2"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 545,
+          "title": "68 Gyanecology Physiology Integration Part-2"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_491": {
     "title": "68. Gynecology Pharmacology Integration Part 1",
@@ -6447,7 +7787,27 @@
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/491",
     "uploaded_at": "2026-09-26T07:15:36Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 69,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3236,
+          "title": "69 Gyanecology Pharmacology Integration Part-1"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 546,
+          "title": "69 Gyanecology Pharmacology Integration Part-1"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_492": {
     "title": "69. Gynecology Pharmacology Integration Part 2",
@@ -6466,7 +7826,27 @@
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/492",
     "uploaded_at": "2026-09-26T07:43:37Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 70,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3237,
+          "title": "70 Gyanecology Pharmacology Integration Part-2"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 547,
+          "title": "70 Gyanecology Pharmacology Integration Part-2"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_493": {
     "title": "70. Gynecology Pharmacology Integration Part 3",
@@ -6485,7 +7865,27 @@
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/493",
     "uploaded_at": "2026-09-26T08:03:16Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 71,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3238,
+          "title": "71 Gyaencology Pharmacology Integration Part-3"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 548,
+          "title": "71 Gyaencology Pharmacology Integration Part-3"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_494": {
     "title": "71. Gynecology Pathology Integration Part 1",
@@ -6504,7 +7904,27 @@
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/494",
     "uploaded_at": "2026-09-26T08:23:15Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 72,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3239,
+          "title": "72 Gyanecology Pathology Integration Part-1"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 549,
+          "title": "72 Gyanecology Pathology Integration Part-1"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_495": {
     "title": "72. Gynecology Pathology Integration Part 2",
@@ -6523,7 +7943,27 @@
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/495",
     "uploaded_at": "2026-09-26T08:43:41Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 73,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3240,
+          "title": "73 Gyanecology Pathology Integration Part-2"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 550,
+          "title": "73 Gyanecology Pathology Integration Part-2"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_496": {
     "title": "73. Menopause",
@@ -6542,7 +7982,27 @@
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/496",
     "uploaded_at": "2026-09-26T09:08:01Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 74,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3241,
+          "title": "74 Menopause"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 551,
+          "title": "74 Menopause"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_497": {
     "title": "74. PCOS Part 1",
@@ -6561,7 +8021,27 @@
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/497",
     "uploaded_at": "2026-09-26T09:34:42Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 75,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3242,
+          "title": "75 PCOS pt1"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 552,
+          "title": "75 PCOS pt1"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_498": {
     "title": "75. PCOS Part 2",
@@ -6580,26 +8060,66 @@
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/498",
     "uploaded_at": "2026-09-26T09:59:25Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 76,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3243,
+          "title": "76 PCOS Part-2"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 553,
+          "title": "76 PCOS Part-2"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_499": {
-    "title": "76. Endometrosis",
-    "filename": "76. Endometrosis.mp4",
+    "title": "76. Endometriosis",
+    "filename": "76. Endometriosis.mp4",
     "platform": "marrow",
     "subject_id": "obg",
     "folder_path": "04_Marrow_Edition_6/13_Obstetrics_and_Gynecology",
     "telegram_chat_id": -1003264222864,
     "telegram_message_id": 499,
     "onedrive_item_id": "01UVXU6W4MTR7PRE3DIJFJJL2YDQXR6BCY",
-    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/76. Endometrosis.mp4",
-    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/76.%20Endometrosis.mp4",
+    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/76. Endometriosis.mp4",
+    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/76.%20Endometriosis.mp4",
     "size_bytes": 1056417420,
     "duration_seconds": 5618,
     "duration_formatted": "1h 33m",
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/499",
     "uploaded_at": "2026-09-26T10:25:09Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 77,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3244,
+          "title": "77 Endometriosis"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 554,
+          "title": "77 Endometriosis"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_500": {
     "title": "77. Fibroid Part 1",
@@ -6618,7 +8138,27 @@
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/500",
     "uploaded_at": "2026-09-26T11:39:14Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 78,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3245,
+          "title": "78 Fibroid Part-1"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 555,
+          "title": "78 Fibroid Part-1"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_501": {
     "title": "78. Fibroid Part 2",
@@ -6637,7 +8177,27 @@
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/501",
     "uploaded_at": "2026-09-26T12:23:12Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 79,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3246,
+          "title": "79 Fibroid Part-2"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 556,
+          "title": "79 Fibroid Part-2"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_502": {
     "title": "79. Polyp and Adenomyosis",
@@ -6656,7 +8216,27 @@
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/502",
     "uploaded_at": "2026-09-26T12:29:43Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 80,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3247,
+          "title": "80 Polyp and Adenomyosis"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 557,
+          "title": "80 Polyp and Adenomyosis"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_503": {
     "title": "80. Congenital Malformations of Uterus",
@@ -6675,7 +8255,27 @@
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/503",
     "uploaded_at": "2026-09-26T12:33:13Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 81,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3248,
+          "title": "81 Congenital malformation of uterus"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 558,
+          "title": "81 Congenital malformation of uterus"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_504": {
     "title": "81. Prolapse",
@@ -6694,7 +8294,27 @@
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/504",
     "uploaded_at": "2026-09-26T12:40:43Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 82,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3249,
+          "title": "82 Prolapse"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 559,
+          "title": "82 Prolapse"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_505": {
     "title": "82. Stress Urinary Incontinence",
@@ -6713,7 +8333,27 @@
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/505",
     "uploaded_at": "2026-09-26T12:41:48Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 83,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3250,
+          "title": "83 Stress urinary incontinence"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 560,
+          "title": "83 Stress urinary incontinence"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_506": {
     "title": "83. Urinary Fistulas",
@@ -6732,7 +8372,27 @@
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/506",
     "uploaded_at": "2026-09-26T12:43:08Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 84,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3251,
+          "title": "84 Urinary Fistulas"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 561,
+          "title": "84 Urinary Fistulas"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_507": {
     "title": "84. Normal Sexual Development",
@@ -6751,7 +8411,27 @@
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/507",
     "uploaded_at": "2026-09-26T12:49:29Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 85,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3252,
+          "title": "85 Normal Sexual Development"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 562,
+          "title": "85 Normal Sexual Development"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_508": {
     "title": "85. Puberty",
@@ -6770,7 +8450,27 @@
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/508",
     "uploaded_at": "2026-09-26T12:51:29Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 86,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3253,
+          "title": "86 Puberty"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 563,
+          "title": "86 Puberty"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_509": {
     "title": "86. Disorders of Sexual Development Part 1",
@@ -6789,7 +8489,27 @@
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/509",
     "uploaded_at": "2026-09-26T12:55:37Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 87,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3254,
+          "title": "87 Disrders of Sexual deveolpment Part-1"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 564,
+          "title": "87 Disrders of Sexual deveolpment Part-1"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_510": {
     "title": "87. Disorders of Sexual Development Part 2",
@@ -6808,7 +8528,27 @@
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/510",
     "uploaded_at": "2026-09-26T12:59:08Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 88,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3255,
+          "title": "88 Disrders of Sexual deveolpment Part-2"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 565,
+          "title": "88 Disrders of Sexual deveolpment Part-2"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_511": {
     "title": "88. Primary Amenorrhea",
@@ -6827,7 +8567,27 @@
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/511",
     "uploaded_at": "2026-09-26T13:02:25Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 89,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3256,
+          "title": "89 Primary Amenorrhea"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 566,
+          "title": "89 Primary Amenorrhea"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_512": {
     "title": "89. Secondary Amenorrhea",
@@ -6846,7 +8606,27 @@
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/512",
     "uploaded_at": "2026-09-26T13:11:08Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 90,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3257,
+          "title": "90 Secondary Amenorrhea"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 567,
+          "title": "90 Secondary Amenorrhea"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_513": {
     "title": "90. Vaginitis",
@@ -6865,7 +8645,27 @@
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/513",
     "uploaded_at": "2026-09-26T13:12:27Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 91,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3258,
+          "title": "91 Vaginits"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 568,
+          "title": "91 Vaginits"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_514": {
     "title": "91. PID",
@@ -6884,7 +8684,27 @@
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/514",
     "uploaded_at": "2026-09-26T13:14:33Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 92,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3259,
+          "title": "92 PID"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 569,
+          "title": "92 PID"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_515": {
     "title": "92. Genital TB",
@@ -6903,7 +8723,27 @@
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/515",
     "uploaded_at": "2026-09-26T13:16:03Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 93,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3260,
+          "title": "93 Genital TB"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 570,
+          "title": "93 Genital TB"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_516": {
     "title": "93. Female Infertility",
@@ -6922,7 +8762,27 @@
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/516",
     "uploaded_at": "2026-09-26T13:24:07Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 94,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3261,
+          "title": "94 Female Infertility"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 571,
+          "title": "94 Female Infertility"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_517": {
     "title": "94. Male Infertility",
@@ -6941,7 +8801,27 @@
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/517",
     "uploaded_at": "2026-09-26T13:29:18Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 95,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3262,
+          "title": "95 Male Infertility"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 572,
+          "title": "95 Male Infertility"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_518": {
     "title": "95. Natural Methods of Contraception",
@@ -6960,7 +8840,27 @@
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/518",
     "uploaded_at": "2026-09-26T13:32:07Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 96,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3263,
+          "title": "96 Natural methods of Contraception"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 573,
+          "title": "96 Natural methods of Contraception"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_519": {
     "title": "96. Barrier Methods of Contraception",
@@ -6979,102 +8879,222 @@
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/519",
     "uploaded_at": "2026-09-26T13:34:31Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 97,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3264,
+          "title": "97 Barrier methods of contraception"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 574,
+          "title": "97 Barrier methods of contraception"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_520": {
-    "title": "97. Obstetrics & Gynecology Part 98",
-    "filename": "97. Obstetrics & Gynecology Part 98.mp4",
+    "title": "97. Estrogen and Progesterone Contraceptives",
+    "filename": "97. Estrogen and Progesterone Contraceptives.mp4",
     "platform": "marrow",
     "subject_id": "obg",
     "folder_path": "04_Marrow_Edition_6/13_Obstetrics_and_Gynecology",
     "telegram_chat_id": -1003264222864,
     "telegram_message_id": 520,
     "onedrive_item_id": "01UVXU6W5TCQ2WFLI2Z5GJ5NTHLHVRQ3BA",
-    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/97. Obstetrics & Gynecology Part 98.mp4",
-    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/97.%20Obstetrics%20%26%20Gynecology%20Part%2098.mp4",
+    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/97. Estrogen and Progesterone Contraceptives.mp4",
+    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/97.%20Estrogen%20and%20Progesterone%20Contraceptives.mp4",
     "size_bytes": 523692766,
     "duration_seconds": 2960,
     "duration_formatted": "49m 20s",
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/520",
     "uploaded_at": "2026-09-26T13:38:21Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 98,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3265,
+          "title": "98 Estrogen & Progesterone Contraceptives"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 575,
+          "title": "98 Estrogen & Progesterone Contraceptives"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_521": {
-    "title": "98. Obstetrics & Gynecology Part 99",
-    "filename": "98. Obstetrics & Gynecology Part 99.mp4",
+    "title": "98. Only Progesterone Contraceptives",
+    "filename": "98. Only Progesterone Contraceptives.mp4",
     "platform": "marrow",
     "subject_id": "obg",
     "folder_path": "04_Marrow_Edition_6/13_Obstetrics_and_Gynecology",
     "telegram_chat_id": -1003264222864,
     "telegram_message_id": 521,
     "onedrive_item_id": "01UVXU6W42KMSHGVPDQFDYNPI66KCA73AC",
-    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/98. Obstetrics & Gynecology Part 99.mp4",
-    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/98.%20Obstetrics%20%26%20Gynecology%20Part%2099.mp4",
+    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/98. Only Progesterone Contraceptives.mp4",
+    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/98.%20Only%20Progesterone%20Contraceptives.mp4",
     "size_bytes": 344587623,
     "duration_seconds": 1650,
     "duration_formatted": "27m 30s",
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/521",
     "uploaded_at": "2026-09-26T13:40:50Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 99,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3266,
+          "title": "99 Only Progesterone Contraceptives"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 576,
+          "title": "99 Only Progesterone Contraceptives"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_522": {
-    "title": "99. Obstetrics & Gynecology Part 100",
-    "filename": "99. Obstetrics & Gynecology Part 100.mp4",
+    "title": "99. IUCDs",
+    "filename": "99. IUCDs.mp4",
     "platform": "marrow",
     "subject_id": "obg",
     "folder_path": "04_Marrow_Edition_6/13_Obstetrics_and_Gynecology",
     "telegram_chat_id": -1003264222864,
     "telegram_message_id": 522,
     "onedrive_item_id": "01UVXU6W4KL7COFYR7SBEZCOK6BTXBWLCK",
-    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/99. Obstetrics & Gynecology Part 100.mp4",
-    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/99.%20Obstetrics%20%26%20Gynecology%20Part%20100.mp4",
+    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/99. IUCDs.mp4",
+    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/99.%20IUCDs.mp4",
     "size_bytes": 576595259,
     "duration_seconds": 3316,
     "duration_formatted": "55m 16s",
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/522",
     "uploaded_at": "2026-09-26T13:45:08Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 100,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3267,
+          "title": "100 IUCDs"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 577,
+          "title": "100 IUCDs"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_523": {
-    "title": "100. Obstetrics & Gynecology Part 101",
-    "filename": "100. Obstetrics & Gynecology Part 101.mp4",
+    "title": "100. Permanent Methods of Contraception",
+    "filename": "100. Permanent Methods of Contraception.mp4",
     "platform": "marrow",
     "subject_id": "obg",
     "folder_path": "04_Marrow_Edition_6/13_Obstetrics_and_Gynecology",
     "telegram_chat_id": -1003264222864,
     "telegram_message_id": 523,
     "onedrive_item_id": "01UVXU6WZW25YFBR2IR5ELR22HJPSILJQJ",
-    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/100. Obstetrics & Gynecology Part 101.mp4",
-    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/100.%20Obstetrics%20%26%20Gynecology%20Part%20101.mp4",
+    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/100. Permanent Methods of Contraception.mp4",
+    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/100.%20Permanent%20Methods%20of%20Contraception.mp4",
     "size_bytes": 704781150,
     "duration_seconds": 3574,
     "duration_formatted": "59m 34s",
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/523",
     "uploaded_at": "2026-09-26T13:50:17Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 101,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3268,
+          "title": "101 Permanent methods of Contraception"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 578,
+          "title": "101 Permanent methods of Contraception"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_524": {
-    "title": "101. Obstetrics & Gynecology Part 102",
-    "filename": "101. Obstetrics & Gynecology Part 102.mp4",
+    "title": "101. Miscellaneous Contraception",
+    "filename": "101. Miscellaneous Contraception.mp4",
     "platform": "marrow",
     "subject_id": "obg",
     "folder_path": "04_Marrow_Edition_6/13_Obstetrics_and_Gynecology",
     "telegram_chat_id": -1003264222864,
     "telegram_message_id": 524,
     "onedrive_item_id": "01UVXU6W6IMTTCWDWFGRF3GM3OMAZD3J4E",
-    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/101. Obstetrics & Gynecology Part 102.mp4",
-    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/101.%20Obstetrics%20%26%20Gynecology%20Part%20102.mp4",
+    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/101. Miscellaneous Contraception.mp4",
+    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/101.%20Miscellaneous%20Contraception.mp4",
     "size_bytes": 339021519,
     "duration_seconds": 1572,
     "duration_formatted": "26m 12s",
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/524",
     "uploaded_at": "2026-09-26T13:52:48Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 102,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3269,
+          "title": "102 Miscellaneous Contraception"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 579,
+          "title": "102 Miscellaneous Contraception"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_525": {
     "title": "102. Endometrial Hyperplasia",
@@ -7093,7 +9113,27 @@
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/525",
     "uploaded_at": "2026-09-26T13:56:15Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 103,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3270,
+          "title": "103 Endometrial Hyperplasia"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 580,
+          "title": "103 Endometrial Hyperplasia"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_526": {
     "title": "103. Endometrial Cancer",
@@ -7112,7 +9152,27 @@
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/526",
     "uploaded_at": "2026-09-26T14:01:42Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 104,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3271,
+          "title": "104 Endometrial Cancer"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 581,
+          "title": "104 Endometrial Cancer"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_527": {
     "title": "104. CIN Part 1",
@@ -7131,7 +9191,27 @@
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/527",
     "uploaded_at": "2026-09-26T14:06:03Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 105,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3272,
+          "title": "105 CIN Part-1"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 582,
+          "title": "105 CIN Part-1"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_528": {
     "title": "105. CIN Part 2",
@@ -7150,7 +9230,27 @@
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/528",
     "uploaded_at": "2026-09-26T14:11:00Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 106,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3273,
+          "title": "106 CIN Part-2"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 583,
+          "title": "106 CIN Part-2"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_529": {
     "title": "106. Cancer Cervix",
@@ -7169,64 +9269,144 @@
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/529",
     "uploaded_at": "2026-09-26T14:14:57Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 107,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3274,
+          "title": "107 Cancer Cervix"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 584,
+          "title": "107 Cancer Cervix"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_530": {
-    "title": "107. Obstetrics & Gynecology Part 108",
-    "filename": "107. Obstetrics & Gynecology Part 108.mp4",
+    "title": "107. Ovarian Cancer Part 1",
+    "filename": "107. Ovarian Cancer Part 1.mp4",
     "platform": "marrow",
     "subject_id": "obg",
     "folder_path": "04_Marrow_Edition_6/13_Obstetrics_and_Gynecology",
     "telegram_chat_id": -1003264222864,
     "telegram_message_id": 530,
     "onedrive_item_id": "01UVXU6W6ZOLPDC64ALZCI6G2TUP6YTPTY",
-    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/107. Obstetrics & Gynecology Part 108.mp4",
-    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/107.%20Obstetrics%20%26%20Gynecology%20Part%20108.mp4",
+    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/107. Ovarian Cancer Part 1.mp4",
+    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/107.%20Ovarian%20Cancer%20Part%201.mp4",
     "size_bytes": 760130261,
     "duration_seconds": 4964,
     "duration_formatted": "1h 22m",
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/530",
     "uploaded_at": "2026-09-26T14:35:46Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 108,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3275,
+          "title": "108 Ovarian Cancer Part-1"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 585,
+          "title": "108 Ovarian Cancer Part-1"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_531": {
-    "title": "108. Obstetrics & Gynecology Part 109",
-    "filename": "108. Obstetrics & Gynecology Part 109.mp4",
+    "title": "108. Ovarian Cancer Part 2",
+    "filename": "108. Ovarian Cancer Part 2.mp4",
     "platform": "marrow",
     "subject_id": "obg",
     "folder_path": "04_Marrow_Edition_6/13_Obstetrics_and_Gynecology",
     "telegram_chat_id": -1003264222864,
     "telegram_message_id": 531,
     "onedrive_item_id": "01UVXU6WZ6IDLONYQ7VFDYNSZT72NEFN64",
-    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/108. Obstetrics & Gynecology Part 109.mp4",
-    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/108.%20Obstetrics%20%26%20Gynecology%20Part%20109.mp4",
+    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/108. Ovarian Cancer Part 2.mp4",
+    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/108.%20Ovarian%20Cancer%20Part%202.mp4",
     "size_bytes": 357844392,
     "duration_seconds": 2157,
     "duration_formatted": "35m 57s",
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/531",
     "uploaded_at": "2026-09-26T14:38:13Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 109,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3276,
+          "title": "109 Ovarian Cancer Part-2"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 586,
+          "title": "109 Ovarian Cancer Part-2"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_532": {
-    "title": "109. Obstetrics & Gynecology Part 110",
-    "filename": "109. Obstetrics & Gynecology Part 110.mp4",
+    "title": "109. Vulvar Cancer",
+    "filename": "109. Vulvar Cancer.mp4",
     "platform": "marrow",
     "subject_id": "obg",
     "folder_path": "04_Marrow_Edition_6/13_Obstetrics_and_Gynecology",
     "telegram_chat_id": -1003264222864,
     "telegram_message_id": 532,
     "onedrive_item_id": "01UVXU6W5W7TLG7M4I6NFIO3F5XPWQECHC",
-    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/109. Obstetrics & Gynecology Part 110.mp4",
-    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/109.%20Obstetrics%20%26%20Gynecology%20Part%20110.mp4",
+    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/109. Vulvar Cancer.mp4",
+    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/109.%20Vulvar%20Cancer.mp4",
     "size_bytes": 423091287,
     "duration_seconds": 2279,
     "duration_formatted": "37m 59s",
     "resolution": "1280x640",
     "thumbnail_url": "/api/thumbnail/-1003264222864/532",
     "uploaded_at": "2026-09-26T14:41:06Z",
-    "status": "completed"
+    "status": "completed",
+    "marrow_lecture_no": 110,
+    "title_verified": {
+      "verified_on": "2026-09-27",
+      "method": "duration fingerprint + caption number across 3 independent Telegram groups",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 3167,
+          "message_id": 3277,
+          "title": "110 Vulvar Cancer"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 587,
+          "title": "110 Vulvar Cancer"
+        }
+      ]
+    }
   },
   "mr_-1003264222864_253": {
     "title": "1. How to Approach Pediatrics Edition 6",
@@ -8595,5 +10775,1237 @@
     "thumbnail_url": "/api/thumbnail/-1003264222864/802",
     "uploaded_at": "2026-09-27T03:31:06Z",
     "status": "completed"
+  },
+  "mr_-1003264222864_311": {
+    "title": "1. Introduction to Dermatology",
+    "filename": "1. Introduction to Dermatology.mp4",
+    "platform": "marrow",
+    "subject_id": "dermatology",
+    "telegram_chat_id": -1003264222864,
+    "telegram_message_id": 311,
+    "marrow_lecture_no": 1,
+    "size_bytes": 138160984,
+    "duration_seconds": 950,
+    "duration_formatted": "15m 50s",
+    "source_channel": "My Marrow topic 310",
+    "source_onedrive_item_id": "01UVXU6WYTLGMQTS3UKVG3O6MFHFWII35F",
+    "source_onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/19_Dermatology/1. Intro to Dermatology.mp4",
+    "source_sp_filename": "1. Intro to Dermatology.mp4",
+    "title_verified": {
+      "verified_on": "2026-09-28",
+      "method": "byte-size match to My Marrow upload + Telegram document id match to a titled group, corroborated by an independently ripped copy",
+      "binding": "telegram_document_id",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 2712,
+          "message_id": 2713,
+          "title": "01: Introduction to Dermatology"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 975,
+          "title": "1 intro to derma Yw.mp4"
+        }
+      ],
+      "source_channel_title": "1. Intro to Dermatology.mp4"
+    },
+    "thumbnail_url": "/api/thumbnail/-1003264222864/311",
+    "folder_path": "04_Marrow_Edition_6/19_Dermatology",
+    "status": "completed",
+    "resolution": "1280x640",
+    "sp_duration_seconds": 950,
+    "openmedq_migrated": false,
+    "openmedq_status": "pending_transfer"
+  },
+  "mr_-1003264222864_312": {
+    "title": "2. Basics of Dermatology Part 1",
+    "filename": "2. Basics of Dermatology Part 1.mp4",
+    "platform": "marrow",
+    "subject_id": "dermatology",
+    "telegram_chat_id": -1003264222864,
+    "telegram_message_id": 312,
+    "marrow_lecture_no": 2,
+    "size_bytes": 352335198,
+    "duration_seconds": 3113,
+    "duration_formatted": "51m 53s",
+    "source_channel": "My Marrow topic 310",
+    "source_onedrive_item_id": "01UVXU6W6CQODAKOYKEFA3FTBZYFSSVCF4",
+    "source_onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/19_Dermatology/2. Basics Dermatology Part 1.mp4",
+    "source_sp_filename": "2. Basics Dermatology Part 1.mp4",
+    "title_verified": {
+      "verified_on": "2026-09-28",
+      "method": "byte-size match to My Marrow upload + Telegram document id match to a titled group, corroborated by an independently ripped copy",
+      "binding": "telegram_document_id",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 2712,
+          "message_id": 2714,
+          "title": "02: Basics of Dermatology - Part 1"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 976,
+          "title": "2 basi dermat part 1 Yw.mp4"
+        }
+      ],
+      "source_channel_title": "2. Basics Dermatology Part 1.mp4"
+    },
+    "thumbnail_url": "/api/thumbnail/-1003264222864/312",
+    "folder_path": "04_Marrow_Edition_6/19_Dermatology",
+    "status": "completed",
+    "resolution": "1280x640",
+    "sp_duration_seconds": 3113,
+    "openmedq_migrated": false,
+    "openmedq_status": "pending_transfer"
+  },
+  "mr_-1003264222864_313": {
+    "title": "3. Basics of Dermatology Part 2",
+    "filename": "3. Basics of Dermatology Part 2.mp4",
+    "platform": "marrow",
+    "subject_id": "dermatology",
+    "telegram_chat_id": -1003264222864,
+    "telegram_message_id": 313,
+    "marrow_lecture_no": 3,
+    "size_bytes": 362583242,
+    "duration_seconds": 3313,
+    "duration_formatted": "55m 13s",
+    "source_channel": "My Marrow topic 310",
+    "source_onedrive_item_id": "01UVXU6W62HXTYVECXLNGIYLGO4YAUMVRL",
+    "source_onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/19_Dermatology/3. Basic of Dermatology.mp4",
+    "source_sp_filename": "3. Basic of Dermatology.mp4",
+    "title_verified": {
+      "verified_on": "2026-09-28",
+      "method": "byte-size match to My Marrow upload + Telegram document id match to a titled group, corroborated by an independently ripped copy",
+      "binding": "telegram_document_id",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 2712,
+          "message_id": 2715,
+          "title": "03: Basics of Dermatology - Part 2"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 977,
+          "title": "3 basic of dermat Yw.mp4"
+        }
+      ],
+      "source_channel_title": "3. Basic of Dermatology.mp4"
+    },
+    "thumbnail_url": "/api/thumbnail/-1003264222864/313",
+    "folder_path": "04_Marrow_Edition_6/19_Dermatology",
+    "status": "completed",
+    "resolution": "1280x640",
+    "sp_duration_seconds": 3313,
+    "openmedq_migrated": false,
+    "openmedq_status": "pending_transfer"
+  },
+  "mr_-1003264222864_314": {
+    "title": "4. Papulosquamous Diseases Part 1",
+    "filename": "4. Papulosquamous Diseases Part 1.mp4",
+    "platform": "marrow",
+    "subject_id": "dermatology",
+    "telegram_chat_id": -1003264222864,
+    "telegram_message_id": 314,
+    "marrow_lecture_no": 4,
+    "size_bytes": 339221613,
+    "duration_seconds": 3013,
+    "duration_formatted": "50m 13s",
+    "source_channel": "My Marrow topic 310",
+    "source_onedrive_item_id": "01UVXU6W7BML2WUZ2VARD2FT3BWBHQBZ7J",
+    "source_onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/19_Dermatology/4. Papulo Squ Disease Part 1.mp4",
+    "source_sp_filename": "4. Papulo Squ Disease Part 1.mp4",
+    "title_verified": {
+      "verified_on": "2026-09-28",
+      "method": "byte-size match to My Marrow upload + Telegram document id match to a titled group, corroborated by an independently ripped copy",
+      "binding": "telegram_document_id",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 2712,
+          "message_id": 2716,
+          "title": "04: Papulosquamous Diseases - Part 1"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 978,
+          "title": "4 papulo squ dsz part 1 Yw.mp4"
+        }
+      ],
+      "source_channel_title": "4. Papulo Squ Disease Part 1.mp4"
+    },
+    "thumbnail_url": "/api/thumbnail/-1003264222864/314",
+    "folder_path": "04_Marrow_Edition_6/19_Dermatology",
+    "status": "completed",
+    "resolution": "1280x640",
+    "sp_duration_seconds": 3013,
+    "openmedq_migrated": false,
+    "openmedq_status": "pending_transfer"
+  },
+  "mr_-1003264222864_315": {
+    "title": "5. Papulosquamous Diseases Part 2",
+    "filename": "5. Papulosquamous Diseases Part 2.mp4",
+    "platform": "marrow",
+    "subject_id": "dermatology",
+    "telegram_chat_id": -1003264222864,
+    "telegram_message_id": 315,
+    "marrow_lecture_no": 5,
+    "size_bytes": 208829460,
+    "duration_seconds": 1855,
+    "duration_formatted": "30m 55s",
+    "source_channel": "My Marrow topic 310",
+    "source_onedrive_item_id": "01UVXU6WZF4H37DPWGHZHLUBK24MLZIJST",
+    "source_onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/19_Dermatology/5. Papulo Squamous Disease.mp4",
+    "source_sp_filename": "5. Papulo Squamous Disease.mp4",
+    "title_verified": {
+      "verified_on": "2026-09-28",
+      "method": "byte-size match to My Marrow upload + Telegram document id match to a titled group, corroborated by an independently ripped copy",
+      "binding": "telegram_document_id",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 2712,
+          "message_id": 2717,
+          "title": "05: Papulosquamous Diseases - Part 2"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 979,
+          "title": "5 pappulo squamous dsz Yw.mp4"
+        }
+      ],
+      "source_channel_title": "5. Papulo Squamous Disease.mp4"
+    },
+    "thumbnail_url": "/api/thumbnail/-1003264222864/315",
+    "folder_path": "04_Marrow_Edition_6/19_Dermatology",
+    "status": "completed",
+    "resolution": "1280x640",
+    "sp_duration_seconds": 1855,
+    "openmedq_migrated": false,
+    "openmedq_status": "pending_transfer"
+  },
+  "mr_-1003264222864_316": {
+    "title": "6. Appendages and Disorders Part 1",
+    "filename": "6. Appendages and Disorders Part 1.mp4",
+    "platform": "marrow",
+    "subject_id": "dermatology",
+    "telegram_chat_id": -1003264222864,
+    "telegram_message_id": 316,
+    "marrow_lecture_no": 6,
+    "size_bytes": 336176081,
+    "duration_seconds": 3001,
+    "duration_formatted": "50m 1s",
+    "source_channel": "My Marrow topic 310",
+    "source_onedrive_item_id": "01UVXU6WZLK2JC6IS37ZG2PFX42BAGFIHP",
+    "source_onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/19_Dermatology/6. Appengdage Disored Part 1.mp4",
+    "source_sp_filename": "6. Appengdage Disored Part 1.mp4",
+    "title_verified": {
+      "verified_on": "2026-09-28",
+      "method": "byte-size match to My Marrow upload + Telegram document id match to a titled group, corroborated by an independently ripped copy",
+      "binding": "telegram_document_id",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 2712,
+          "message_id": 2718,
+          "title": "06: Appendages & Disorders - Part 1"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 980,
+          "title": "6 appengdage disored part 1 Yw.mp4"
+        }
+      ],
+      "source_channel_title": "6. Appengdage Disored Part 1.mp4"
+    },
+    "thumbnail_url": "/api/thumbnail/-1003264222864/316",
+    "folder_path": "04_Marrow_Edition_6/19_Dermatology",
+    "status": "completed",
+    "resolution": "1280x640",
+    "sp_duration_seconds": 3001,
+    "openmedq_migrated": false,
+    "openmedq_status": "pending_transfer"
+  },
+  "mr_-1003264222864_317": {
+    "title": "7. Appendages and Disorders Part 2",
+    "filename": "7. Appendages and Disorders Part 2.mp4",
+    "platform": "marrow",
+    "subject_id": "dermatology",
+    "telegram_chat_id": -1003264222864,
+    "telegram_message_id": 317,
+    "marrow_lecture_no": 7,
+    "size_bytes": 321012594,
+    "duration_seconds": 2347,
+    "duration_formatted": "39m 7s",
+    "source_channel": "My Marrow topic 310",
+    "source_onedrive_item_id": "01UVXU6W5442UU3LR4FRBZU2XYYZ23R4GV",
+    "source_onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/19_Dermatology/7. Appendage Diso 2.mp4",
+    "source_sp_filename": "7. Appendage Diso 2.mp4",
+    "title_verified": {
+      "verified_on": "2026-09-28",
+      "method": "byte-size match to My Marrow upload + Telegram document id match to a titled group, corroborated by an independently ripped copy",
+      "binding": "telegram_document_id",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 2712,
+          "message_id": 2719,
+          "title": "07: Appendages & Disorders - Part 2"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 981,
+          "title": "7 appendage diso 2 Yw.mp4"
+        }
+      ],
+      "source_channel_title": "7. Appendage Diso 2.mp4"
+    },
+    "thumbnail_url": "/api/thumbnail/-1003264222864/317",
+    "folder_path": "04_Marrow_Edition_6/19_Dermatology",
+    "status": "completed",
+    "resolution": "1280x640",
+    "sp_duration_seconds": 2347,
+    "openmedq_migrated": false,
+    "openmedq_status": "pending_transfer"
+  },
+  "mr_-1003264222864_318": {
+    "title": "8. Appendages and Disorders Part 3",
+    "filename": "8. Appendages and Disorders Part 3.mp4",
+    "platform": "marrow",
+    "subject_id": "dermatology",
+    "telegram_chat_id": -1003264222864,
+    "telegram_message_id": 318,
+    "marrow_lecture_no": 8,
+    "size_bytes": 172535793,
+    "duration_seconds": 1292,
+    "duration_formatted": "21m 32s",
+    "source_channel": "My Marrow topic 310",
+    "source_onedrive_item_id": "01UVXU6W24VGP7SJQYZZEZBIOSRTJ6735C",
+    "source_onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/19_Dermatology/8. Appendage and Disorder Part 3.mp4",
+    "source_sp_filename": "8. Appendage and Disorder Part 3.mp4",
+    "title_verified": {
+      "verified_on": "2026-09-28",
+      "method": "byte-size match to My Marrow upload + Telegram document id match to a titled group, corroborated by an independently ripped copy",
+      "binding": "telegram_document_id",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 2712,
+          "message_id": 2720,
+          "title": "08: Appendages & Disorders - Part 3"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 982,
+          "title": "8 appendage and disorder part 3 Yw.mp4"
+        }
+      ],
+      "source_channel_title": "8. Appendage and Disorder Part 3.mp4"
+    },
+    "thumbnail_url": "/api/thumbnail/-1003264222864/318",
+    "folder_path": "04_Marrow_Edition_6/19_Dermatology",
+    "status": "completed",
+    "resolution": "1280x640",
+    "sp_duration_seconds": 1292,
+    "openmedq_migrated": false,
+    "openmedq_status": "pending_transfer"
+  },
+  "mr_-1003264222864_319": {
+    "title": "9. Bullous Disorders Part 1",
+    "filename": "9. Bullous Disorders Part 1.mp4",
+    "platform": "marrow",
+    "subject_id": "dermatology",
+    "telegram_chat_id": -1003264222864,
+    "telegram_message_id": 319,
+    "marrow_lecture_no": 9,
+    "size_bytes": 276234159,
+    "duration_seconds": 2399,
+    "duration_formatted": "39m 59s",
+    "source_channel": "My Marrow topic 310",
+    "source_onedrive_item_id": "01UVXU6WYD5LZJ5QL3ORHK7P44MWMAH3MF",
+    "source_onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/19_Dermatology/9. Bullous Disease Part 1.mp4",
+    "source_sp_filename": "9. Bullous Disease Part 1.mp4",
+    "title_verified": {
+      "verified_on": "2026-09-28",
+      "method": "byte-size match to My Marrow upload + Telegram document id match to a titled group, corroborated by an independently ripped copy",
+      "binding": "telegram_document_id",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 2712,
+          "message_id": 2721,
+          "title": "09: Bulbous Disorders - Part 1"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 983,
+          "title": "9 bullous dsz part 1 Yw.mp4"
+        }
+      ],
+      "source_channel_title": "9. Bullous Disease Part 1.mp4"
+    },
+    "thumbnail_url": "/api/thumbnail/-1003264222864/319",
+    "folder_path": "04_Marrow_Edition_6/19_Dermatology",
+    "status": "completed",
+    "resolution": "1280x640",
+    "sp_duration_seconds": 2399,
+    "openmedq_migrated": false,
+    "openmedq_status": "pending_transfer"
+  },
+  "mr_-1003264222864_320": {
+    "title": "10. Bullous Disorders Part 2",
+    "filename": "10. Bullous Disorders Part 2.mp4",
+    "platform": "marrow",
+    "subject_id": "dermatology",
+    "telegram_chat_id": -1003264222864,
+    "telegram_message_id": 320,
+    "marrow_lecture_no": 10,
+    "size_bytes": 306878458,
+    "duration_seconds": 2857,
+    "duration_formatted": "47m 37s",
+    "source_channel": "My Marrow topic 310",
+    "source_onedrive_item_id": "01UVXU6W6CWVM7E445TJDJ2EHDAEHEVSUX",
+    "source_onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/19_Dermatology/10. Bullous Disease.mp4",
+    "source_sp_filename": "10. Bullous Disease.mp4",
+    "title_verified": {
+      "verified_on": "2026-09-28",
+      "method": "byte-size match to My Marrow upload + Telegram document id match to a titled group, corroborated by an independently ripped copy",
+      "binding": "telegram_document_id",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 2712,
+          "message_id": 2722,
+          "title": "10: Bulbous Disorders - Part 2"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 984,
+          "title": "10 bullous dsz Yw.mp4"
+        }
+      ],
+      "source_channel_title": "10. Bullous Disease.mp4"
+    },
+    "thumbnail_url": "/api/thumbnail/-1003264222864/320",
+    "folder_path": "04_Marrow_Edition_6/19_Dermatology",
+    "status": "completed",
+    "resolution": "1280x640",
+    "sp_duration_seconds": 2857,
+    "openmedq_migrated": false,
+    "openmedq_status": "pending_transfer"
+  },
+  "mr_-1003264222864_321": {
+    "title": "11. Bacterial Infections of the Skin",
+    "filename": "11. Bacterial Infections of the Skin.mp4",
+    "platform": "marrow",
+    "subject_id": "dermatology",
+    "telegram_chat_id": -1003264222864,
+    "telegram_message_id": 321,
+    "marrow_lecture_no": 11,
+    "size_bytes": 358172064,
+    "duration_seconds": 3209,
+    "duration_formatted": "53m 29s",
+    "source_channel": "My Marrow topic 310",
+    "source_onedrive_item_id": "01UVXU6W6ADBMYUW6K2JCYWW22D2ERV5DU",
+    "source_onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/19_Dermatology/11. Bacterial Infection Skin.mp4",
+    "source_sp_filename": "11. Bacterial Infection Skin.mp4",
+    "title_verified": {
+      "verified_on": "2026-09-28",
+      "method": "byte-size match to My Marrow upload + Telegram document id match to a titled group, corroborated by an independently ripped copy",
+      "binding": "telegram_document_id",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 2712,
+          "message_id": 2723,
+          "title": "11: Bacterial Infections of the Skin"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 985,
+          "title": "11 bacterial infection skin Yw.mp4"
+        }
+      ],
+      "source_channel_title": "11. Bacterial Infection Skin.mp4"
+    },
+    "thumbnail_url": "/api/thumbnail/-1003264222864/321",
+    "folder_path": "04_Marrow_Edition_6/19_Dermatology",
+    "status": "completed",
+    "resolution": "1280x640",
+    "sp_duration_seconds": 3209,
+    "openmedq_migrated": false,
+    "openmedq_status": "pending_transfer"
+  },
+  "mr_-1003264222864_322": {
+    "title": "12. Mycobacterial Skin Infections",
+    "filename": "12. Mycobacterial Skin Infections.mp4",
+    "platform": "marrow",
+    "subject_id": "dermatology",
+    "telegram_chat_id": -1003264222864,
+    "telegram_message_id": 322,
+    "marrow_lecture_no": 12,
+    "size_bytes": 207984363,
+    "duration_seconds": 1922,
+    "duration_formatted": "32m 2s",
+    "source_channel": "My Marrow topic 310",
+    "source_onedrive_item_id": "01UVXU6WY36SZDGWP46ZAKF4RYHMXYP22B",
+    "source_onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/19_Dermatology/12. Mycobacterial Infection.mp4",
+    "source_sp_filename": "12. Mycobacterial Infection.mp4",
+    "title_verified": {
+      "verified_on": "2026-09-28",
+      "method": "byte-size match to My Marrow upload + Telegram document id match to a titled group, corroborated by an independently ripped copy",
+      "binding": "telegram_document_id",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 2712,
+          "message_id": 2724,
+          "title": "12: Mycobacterial Skin Infections"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 986,
+          "title": "12 mycobacterial infection Yw.mp4"
+        }
+      ],
+      "source_channel_title": "12. Mycobacterial Infection.mp4"
+    },
+    "thumbnail_url": "/api/thumbnail/-1003264222864/322",
+    "folder_path": "04_Marrow_Edition_6/19_Dermatology",
+    "status": "completed",
+    "resolution": "1280x640",
+    "sp_duration_seconds": 1922,
+    "openmedq_migrated": false,
+    "openmedq_status": "pending_transfer"
+  },
+  "mr_-1003264222864_323": {
+    "title": "13. Viral Infections of the Skin",
+    "filename": "13. Viral Infections of the Skin.mp4",
+    "platform": "marrow",
+    "subject_id": "dermatology",
+    "telegram_chat_id": -1003264222864,
+    "telegram_message_id": 323,
+    "marrow_lecture_no": 13,
+    "size_bytes": 410152208,
+    "duration_seconds": 3709,
+    "duration_formatted": "1h 1m",
+    "source_channel": "My Marrow topic 310",
+    "source_onedrive_item_id": "01UVXU6W54FLYM5VH665DYFLL3LT6AQWS6",
+    "source_onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/19_Dermatology/13. Viral Infection.mp4",
+    "source_sp_filename": "13. Viral Infection.mp4",
+    "title_verified": {
+      "verified_on": "2026-09-28",
+      "method": "byte-size match to My Marrow upload + Telegram document id match to a titled group, corroborated by an independently ripped copy",
+      "binding": "telegram_document_id",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 2712,
+          "message_id": 2725,
+          "title": "13: Viral Infections of the Skin"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 987,
+          "title": "13 viral infection Yw.mp4"
+        }
+      ],
+      "source_channel_title": "13. Viral Infection.mp4"
+    },
+    "thumbnail_url": "/api/thumbnail/-1003264222864/323",
+    "folder_path": "04_Marrow_Edition_6/19_Dermatology",
+    "status": "completed",
+    "resolution": "1280x640",
+    "sp_duration_seconds": 3709,
+    "openmedq_migrated": false,
+    "openmedq_status": "pending_transfer"
+  },
+  "mr_-1003264222864_324": {
+    "title": "14. Fungal Infections",
+    "filename": "14. Fungal Infections.mp4",
+    "platform": "marrow",
+    "subject_id": "dermatology",
+    "telegram_chat_id": -1003264222864,
+    "telegram_message_id": 324,
+    "marrow_lecture_no": 14,
+    "size_bytes": 370043455,
+    "duration_seconds": 3291,
+    "duration_formatted": "54m 51s",
+    "source_channel": "My Marrow topic 310",
+    "source_onedrive_item_id": "01UVXU6WYYENWZWXGSYRDKAVDNYJ6KR2BE",
+    "source_onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/19_Dermatology/14. Fungal Infections.mp4",
+    "source_sp_filename": "14. Fungal Infections.mp4",
+    "title_verified": {
+      "verified_on": "2026-09-28",
+      "method": "byte-size match to My Marrow upload + Telegram document id match to a titled group, corroborated by an independently ripped copy",
+      "binding": "telegram_document_id",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 2712,
+          "message_id": 2726,
+          "title": "14: Fungal Infections"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 988,
+          "title": "14 Yw. Fungal Infections"
+        }
+      ],
+      "source_channel_title": "14. Fungal Infections.mp4"
+    },
+    "thumbnail_url": "/api/thumbnail/-1003264222864/324",
+    "folder_path": "04_Marrow_Edition_6/19_Dermatology",
+    "status": "completed",
+    "resolution": "1280x640",
+    "sp_duration_seconds": 3292,
+    "openmedq_migrated": false,
+    "openmedq_status": "pending_transfer"
+  },
+  "mr_-1003264222864_325": {
+    "title": "15. Parasitic Infections of the Skin",
+    "filename": "15. Parasitic Infections of the Skin.mp4",
+    "platform": "marrow",
+    "subject_id": "dermatology",
+    "telegram_chat_id": -1003264222864,
+    "telegram_message_id": 325,
+    "marrow_lecture_no": 15,
+    "size_bytes": 366975516,
+    "duration_seconds": 2633,
+    "duration_formatted": "43m 53s",
+    "source_channel": "My Marrow topic 310",
+    "source_onedrive_item_id": "01UVXU6WZRVYODJMN3WJBY5VPEZMH35YBS",
+    "source_onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/19_Dermatology/15. Parasitic Inf.mp4",
+    "source_sp_filename": "15. Parasitic Inf.mp4",
+    "title_verified": {
+      "verified_on": "2026-09-28",
+      "method": "byte-size match to My Marrow upload + Telegram document id match to a titled group, corroborated by an independently ripped copy",
+      "binding": "telegram_document_id",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 2712,
+          "message_id": 2727,
+          "title": "15: Parasitic Infections of the Skin"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 989,
+          "title": "15 parasitic inf Yw.mp4"
+        }
+      ],
+      "source_channel_title": "15. Parasitic Inf.mp4"
+    },
+    "thumbnail_url": "/api/thumbnail/-1003264222864/325",
+    "folder_path": "04_Marrow_Edition_6/19_Dermatology",
+    "status": "completed",
+    "resolution": "1280x640",
+    "sp_duration_seconds": 2633,
+    "openmedq_migrated": false,
+    "openmedq_status": "pending_transfer"
+  },
+  "mr_-1003264222864_326": {
+    "title": "16. Hansen's Disease Part 1",
+    "filename": "16. Hansen's Disease Part 1.mp4",
+    "platform": "marrow",
+    "subject_id": "dermatology",
+    "telegram_chat_id": -1003264222864,
+    "telegram_message_id": 326,
+    "marrow_lecture_no": 16,
+    "size_bytes": 263700301,
+    "duration_seconds": 2329,
+    "duration_formatted": "38m 49s",
+    "source_channel": "My Marrow topic 310",
+    "source_onedrive_item_id": "01UVXU6WZALJ5J646LMNFJKGOEMOG7CZKM",
+    "source_onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/19_Dermatology/16. Hansen Disease.mp4",
+    "source_sp_filename": "16. Hansen Disease.mp4",
+    "title_verified": {
+      "verified_on": "2026-09-28",
+      "method": "byte-size match to My Marrow upload + Telegram document id match to a titled group, corroborated by an independently ripped copy",
+      "binding": "telegram_document_id",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 2712,
+          "message_id": 2728,
+          "title": "16: Hansen’s Disease - Part 1"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 990,
+          "title": "16 hansen dsz Yw.mp4"
+        }
+      ],
+      "source_channel_title": "16. Hansen Disease.mp4"
+    },
+    "thumbnail_url": "/api/thumbnail/-1003264222864/326",
+    "folder_path": "04_Marrow_Edition_6/19_Dermatology",
+    "status": "completed",
+    "resolution": "1280x640",
+    "sp_duration_seconds": 2330,
+    "openmedq_migrated": false,
+    "openmedq_status": "pending_transfer"
+  },
+  "mr_-1003264222864_327": {
+    "title": "17. Hansen's Disease Part 2",
+    "filename": "17. Hansen's Disease Part 2.mp4",
+    "platform": "marrow",
+    "subject_id": "dermatology",
+    "telegram_chat_id": -1003264222864,
+    "telegram_message_id": 327,
+    "marrow_lecture_no": 17,
+    "size_bytes": 272272417,
+    "duration_seconds": 2495,
+    "duration_formatted": "41m 35s",
+    "source_channel": "My Marrow topic 310",
+    "source_onedrive_item_id": "01UVXU6WY7RQEPDRJTXBEIVM4QVP444C4O",
+    "source_onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/19_Dermatology/17. Hansen Disease.mp4",
+    "source_sp_filename": "17. Hansen Disease.mp4",
+    "title_verified": {
+      "verified_on": "2026-09-28",
+      "method": "byte-size match to My Marrow upload + Telegram document id match to a titled group, corroborated by an independently ripped copy",
+      "binding": "telegram_document_id",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 2712,
+          "message_id": 2729,
+          "title": "17: Hansen’s Disease - Part 2"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 991,
+          "title": "17 HANSEN DSZ Yw.mp4"
+        }
+      ],
+      "source_channel_title": "17. Hansen Disease.mp4"
+    },
+    "thumbnail_url": "/api/thumbnail/-1003264222864/327",
+    "folder_path": "04_Marrow_Edition_6/19_Dermatology",
+    "status": "completed",
+    "resolution": "1280x640",
+    "sp_duration_seconds": 2496,
+    "openmedq_migrated": false,
+    "openmedq_status": "pending_transfer"
+  },
+  "mr_-1003264222864_328": {
+    "title": "18. Sexually Transmitted Infections Part 1",
+    "filename": "18. Sexually Transmitted Infections Part 1.mp4",
+    "platform": "marrow",
+    "subject_id": "dermatology",
+    "telegram_chat_id": -1003264222864,
+    "telegram_message_id": 328,
+    "marrow_lecture_no": 18,
+    "size_bytes": 331931300,
+    "duration_seconds": 2595,
+    "duration_formatted": "43m 15s",
+    "source_channel": "My Marrow topic 310",
+    "source_onedrive_item_id": "01UVXU6WYZGSYKZKIYFBCYASQ274XHM4EQ",
+    "source_onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/19_Dermatology/18. Std 1.mp4",
+    "source_sp_filename": "18. Std 1.mp4",
+    "title_verified": {
+      "verified_on": "2026-09-28",
+      "method": "byte-size match to My Marrow upload + Telegram document id match to a titled group, corroborated by an independently ripped copy",
+      "binding": "telegram_document_id",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 2712,
+          "message_id": 2730,
+          "title": "18: Sexually Transmitted Infections - Part 1"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 992,
+          "title": "18 STD 1 Yw.mp4"
+        }
+      ],
+      "source_channel_title": "18. Std 1.mp4"
+    },
+    "thumbnail_url": "/api/thumbnail/-1003264222864/328",
+    "folder_path": "04_Marrow_Edition_6/19_Dermatology",
+    "status": "completed",
+    "resolution": "1280x640",
+    "sp_duration_seconds": 2595,
+    "openmedq_migrated": false,
+    "openmedq_status": "pending_transfer"
+  },
+  "mr_-1003264222864_329": {
+    "title": "19. Sexually Transmitted Infections Part 2",
+    "filename": "19. Sexually Transmitted Infections Part 2.mp4",
+    "platform": "marrow",
+    "subject_id": "dermatology",
+    "telegram_chat_id": -1003264222864,
+    "telegram_message_id": 329,
+    "marrow_lecture_no": 19,
+    "size_bytes": 313843471,
+    "duration_seconds": 2293,
+    "duration_formatted": "38m 13s",
+    "source_channel": "My Marrow topic 310",
+    "source_onedrive_item_id": "01UVXU6WZDAUNHCJONJND3VPA3BC3NDSXW",
+    "source_onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/19_Dermatology/19. Std 2.mp4",
+    "source_sp_filename": "19. Std 2.mp4",
+    "title_verified": {
+      "verified_on": "2026-09-28",
+      "method": "byte-size match to My Marrow upload + Telegram document id match to a titled group, corroborated by an independently ripped copy",
+      "binding": "telegram_document_id",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 2712,
+          "message_id": 2731,
+          "title": "19: Sexually Transmitted Infections - Part 2"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 993,
+          "title": "19 STD 2 Yw.mp4"
+        }
+      ],
+      "source_channel_title": "19. Std 2.mp4"
+    },
+    "thumbnail_url": "/api/thumbnail/-1003264222864/329",
+    "folder_path": "04_Marrow_Edition_6/19_Dermatology",
+    "status": "completed",
+    "resolution": "1280x640",
+    "sp_duration_seconds": 2293,
+    "openmedq_migrated": false,
+    "openmedq_status": "pending_transfer"
+  },
+  "mr_-1003264222864_330": {
+    "title": "20. Sexually Transmitted Infections Part 3",
+    "filename": "20. Sexually Transmitted Infections Part 3.mp4",
+    "platform": "marrow",
+    "subject_id": "dermatology",
+    "telegram_chat_id": -1003264222864,
+    "telegram_message_id": 330,
+    "marrow_lecture_no": 20,
+    "size_bytes": 272636439,
+    "duration_seconds": 1986,
+    "duration_formatted": "33m 6s",
+    "source_channel": "My Marrow topic 310",
+    "source_onedrive_item_id": "01UVXU6W664YX2GECPL5BL2VNFX34RWYNU",
+    "source_onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/19_Dermatology/20. Std 3.mp4",
+    "source_sp_filename": "20. Std 3.mp4",
+    "title_verified": {
+      "verified_on": "2026-09-28",
+      "method": "byte-size match to My Marrow upload + Telegram document id match to a titled group, corroborated by an independently ripped copy",
+      "binding": "telegram_document_id",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 2712,
+          "message_id": 2732,
+          "title": "20: Sexually Transmitted Infections - Part 3"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 994,
+          "title": "20 std 3 Yw.mp4"
+        }
+      ],
+      "source_channel_title": "20. Std 3.mp4"
+    },
+    "thumbnail_url": "/api/thumbnail/-1003264222864/330",
+    "folder_path": "04_Marrow_Edition_6/19_Dermatology",
+    "status": "completed",
+    "resolution": "1280x640",
+    "sp_duration_seconds": 1986,
+    "openmedq_migrated": false,
+    "openmedq_status": "pending_transfer"
+  },
+  "mr_-1003264222864_331": {
+    "title": "21. Genodermatoses",
+    "filename": "21. Genodermatoses.mp4",
+    "platform": "marrow",
+    "subject_id": "dermatology",
+    "telegram_chat_id": -1003264222864,
+    "telegram_message_id": 331,
+    "marrow_lecture_no": 21,
+    "size_bytes": 302779467,
+    "duration_seconds": 2730,
+    "duration_formatted": "45m 30s",
+    "source_channel": "My Marrow topic 310",
+    "source_onedrive_item_id": "01UVXU6W33GUAGP2QQRRCJP7HSLQH2LVFC",
+    "source_onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/19_Dermatology/21. Genodermatome.mp4",
+    "source_sp_filename": "21. Genodermatome.mp4",
+    "title_verified": {
+      "verified_on": "2026-09-28",
+      "method": "byte-size match to My Marrow upload + Telegram document id match to a titled group, corroborated by an independently ripped copy",
+      "binding": "telegram_document_id",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 2712,
+          "message_id": 2733,
+          "title": "21: Genodermatoses"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 995,
+          "title": "21 GENODERMATOME Yw.mp4"
+        }
+      ],
+      "source_channel_title": "21. Genodermatome.mp4"
+    },
+    "thumbnail_url": "/api/thumbnail/-1003264222864/331",
+    "folder_path": "04_Marrow_Edition_6/19_Dermatology",
+    "status": "completed",
+    "resolution": "1280x640",
+    "sp_duration_seconds": 2730,
+    "openmedq_migrated": false,
+    "openmedq_status": "pending_transfer"
+  },
+  "mr_-1003264222864_332": {
+    "title": "22. Eczema",
+    "filename": "22. Eczema.mp4",
+    "platform": "marrow",
+    "subject_id": "dermatology",
+    "telegram_chat_id": -1003264222864,
+    "telegram_message_id": 332,
+    "marrow_lecture_no": 22,
+    "size_bytes": 392001485,
+    "duration_seconds": 2771,
+    "duration_formatted": "46m 11s",
+    "source_channel": "My Marrow topic 310",
+    "source_onedrive_item_id": "01UVXU6W4NDUE5CGV4XNGKBOTE7KCQGN23",
+    "source_onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/19_Dermatology/22. Eczema.mp4",
+    "source_sp_filename": "22. Eczema.mp4",
+    "title_verified": {
+      "verified_on": "2026-09-28",
+      "method": "byte-size match to My Marrow upload + Telegram document id match to a titled group, corroborated by an independently ripped copy",
+      "binding": "telegram_document_id",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 2712,
+          "message_id": 2734,
+          "title": "22: Eczema"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 996,
+          "title": "22 ECZEMA Yw.mp4"
+        }
+      ],
+      "source_channel_title": "22. Eczema.mp4"
+    },
+    "thumbnail_url": "/api/thumbnail/-1003264222864/332",
+    "folder_path": "04_Marrow_Edition_6/19_Dermatology",
+    "status": "completed",
+    "resolution": "1280x640",
+    "sp_duration_seconds": 2771,
+    "openmedq_migrated": false,
+    "openmedq_status": "pending_transfer"
+  },
+  "mr_-1003264222864_333": {
+    "title": "23. Histamine Related Diseases",
+    "filename": "23. Histamine Related Diseases.mp4",
+    "platform": "marrow",
+    "subject_id": "dermatology",
+    "telegram_chat_id": -1003264222864,
+    "telegram_message_id": 333,
+    "marrow_lecture_no": 23,
+    "size_bytes": 192373227,
+    "duration_seconds": 1686,
+    "duration_formatted": "28m 6s",
+    "source_channel": "My Marrow topic 310",
+    "source_onedrive_item_id": "01UVXU6WZ4AUCP4JMGJFGITFOAQD4IFTTY",
+    "source_onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/19_Dermatology/23. Histamine Related Disease.mp4",
+    "source_sp_filename": "23. Histamine Related Disease.mp4",
+    "title_verified": {
+      "verified_on": "2026-09-28",
+      "method": "byte-size match to My Marrow upload + Telegram document id match to a titled group, corroborated by an independently ripped copy",
+      "binding": "telegram_document_id",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 2712,
+          "message_id": 2735,
+          "title": "23: Histamine related Diseases"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 997,
+          "title": "23 HISTAMINE RELATED DSZ Yw.mp4"
+        }
+      ],
+      "source_channel_title": "23. Histamine Related Disease.mp4"
+    },
+    "thumbnail_url": "/api/thumbnail/-1003264222864/333",
+    "folder_path": "04_Marrow_Edition_6/19_Dermatology",
+    "status": "completed",
+    "resolution": "1280x640",
+    "sp_duration_seconds": 1686,
+    "openmedq_migrated": false,
+    "openmedq_status": "pending_transfer"
+  },
+  "mr_-1003264222864_334": {
+    "title": "24. Pigmentary Diseases",
+    "filename": "24. Pigmentary Diseases.mp4",
+    "platform": "marrow",
+    "subject_id": "dermatology",
+    "telegram_chat_id": -1003264222864,
+    "telegram_message_id": 334,
+    "marrow_lecture_no": 24,
+    "size_bytes": 336494687,
+    "duration_seconds": 2474,
+    "duration_formatted": "41m 14s",
+    "source_channel": "My Marrow topic 310",
+    "source_onedrive_item_id": "01UVXU6W6ODPH2L3VQVRBK2KWR44LWI3Z7",
+    "source_onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/19_Dermatology/24. Pigmentary Disease.mp4",
+    "source_sp_filename": "24. Pigmentary Disease.mp4",
+    "title_verified": {
+      "verified_on": "2026-09-28",
+      "method": "byte-size match to My Marrow upload + Telegram document id match to a titled group, corroborated by an independently ripped copy",
+      "binding": "telegram_document_id",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 2712,
+          "message_id": 2736,
+          "title": "24: Pigmentary Diseases"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 998,
+          "title": "24 PIGMENTARY DSZ Yw.mp4"
+        }
+      ],
+      "source_channel_title": "24. Pigmentary Disease.mp4"
+    },
+    "thumbnail_url": "/api/thumbnail/-1003264222864/334",
+    "folder_path": "04_Marrow_Edition_6/19_Dermatology",
+    "status": "completed",
+    "resolution": "1280x640",
+    "sp_duration_seconds": 2474,
+    "openmedq_migrated": false,
+    "openmedq_status": "pending_transfer"
+  },
+  "mr_-1003264222864_335": {
+    "title": "25. Cutaneous Drug Reactions",
+    "filename": "25. Cutaneous Drug Reactions.mp4",
+    "platform": "marrow",
+    "subject_id": "dermatology",
+    "telegram_chat_id": -1003264222864,
+    "telegram_message_id": 335,
+    "marrow_lecture_no": 25,
+    "size_bytes": 164903667,
+    "duration_seconds": 1507,
+    "duration_formatted": "25m 7s",
+    "source_channel": "My Marrow topic 310",
+    "source_onedrive_item_id": "01UVXU6W2ENWL5IK4DWNCLLI4PTVH25CBZ",
+    "source_onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/19_Dermatology/25. Cutaneous Drug Rxn.mp4",
+    "source_sp_filename": "25. Cutaneous Drug Rxn.mp4",
+    "title_verified": {
+      "verified_on": "2026-09-28",
+      "method": "byte-size match to My Marrow upload + Telegram document id match to a titled group, corroborated by an independently ripped copy",
+      "binding": "telegram_document_id",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 2712,
+          "message_id": 2737,
+          "title": "25: Cutaneous Drug Reactions"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 999,
+          "title": "25 CUTANEOUS DRUG RXN Yw.mp4"
+        }
+      ],
+      "source_channel_title": "25. Cutaneous Drug Rxn.mp4"
+    },
+    "thumbnail_url": "/api/thumbnail/-1003264222864/335",
+    "folder_path": "04_Marrow_Edition_6/19_Dermatology",
+    "status": "completed",
+    "resolution": "1280x640",
+    "sp_duration_seconds": 1507,
+    "openmedq_migrated": false,
+    "openmedq_status": "pending_transfer"
+  },
+  "mr_-1003264222864_336": {
+    "title": "26. Skin in Rheumatology and Immunology",
+    "filename": "26. Skin in Rheumatology and Immunology.mp4",
+    "platform": "marrow",
+    "subject_id": "dermatology",
+    "telegram_chat_id": -1003264222864,
+    "telegram_message_id": 336,
+    "marrow_lecture_no": 26,
+    "size_bytes": 305698195,
+    "duration_seconds": 2800,
+    "duration_formatted": "46m 40s",
+    "source_channel": "My Marrow topic 310",
+    "source_onedrive_item_id": "01UVXU6W7MF4JUJ2IUXBALOMVQ2KR4P7W2",
+    "source_onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/19_Dermatology/26. Skin in Rheumat.mp4",
+    "source_sp_filename": "26. Skin in Rheumat.mp4",
+    "title_verified": {
+      "verified_on": "2026-09-28",
+      "method": "byte-size match to My Marrow upload + Telegram document id match to a titled group, corroborated by an independently ripped copy",
+      "binding": "telegram_document_id",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 2712,
+          "message_id": 2738,
+          "title": "26: Skin in Rheumatology & Immunology"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 1000,
+          "title": "26 skin in rheumat Yw.mp4"
+        }
+      ],
+      "source_channel_title": "26. Skin in Rheumat.mp4"
+    },
+    "thumbnail_url": "/api/thumbnail/-1003264222864/336",
+    "folder_path": "04_Marrow_Edition_6/19_Dermatology",
+    "status": "completed",
+    "resolution": "1280x640",
+    "sp_duration_seconds": 2800,
+    "openmedq_migrated": false,
+    "openmedq_status": "pending_transfer"
+  },
+  "mr_-1003264222864_337": {
+    "title": "27. Skin and System",
+    "filename": "27. Skin and System.mp4",
+    "platform": "marrow",
+    "subject_id": "dermatology",
+    "telegram_chat_id": -1003264222864,
+    "telegram_message_id": 337,
+    "marrow_lecture_no": 27,
+    "size_bytes": 224442100,
+    "duration_seconds": 2153,
+    "duration_formatted": "35m 53s",
+    "source_channel": "My Marrow topic 310",
+    "source_onedrive_item_id": "01UVXU6W2ECE46BMB555GZOU4D2NXR7YSL",
+    "source_onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/19_Dermatology/27. Skin and System.mp4",
+    "source_sp_filename": "27. Skin and System.mp4",
+    "title_verified": {
+      "verified_on": "2026-09-28",
+      "method": "byte-size match to My Marrow upload + Telegram document id match to a titled group, corroborated by an independently ripped copy",
+      "binding": "duration",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 2712,
+          "message_id": 2739,
+          "title": "27 Skin and System"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 1001,
+          "title": "27 skin aND SYSTEM Yw.mp4"
+        }
+      ],
+      "source_channel_title": "27. Skin and System.mp4"
+    },
+    "thumbnail_url": "/api/thumbnail/-1003264222864/337",
+    "folder_path": "04_Marrow_Edition_6/19_Dermatology",
+    "status": "completed",
+    "resolution": "1280x640",
+    "sp_duration_seconds": 2153,
+    "openmedq_migrated": false,
+    "openmedq_status": "pending_transfer"
+  },
+  "mr_-1003264222864_338": {
+    "title": "28. Short Topics in Dermatology",
+    "filename": "28. Short Topics in Dermatology.mp4",
+    "platform": "marrow",
+    "subject_id": "dermatology",
+    "telegram_chat_id": -1003264222864,
+    "telegram_message_id": 338,
+    "marrow_lecture_no": 28,
+    "size_bytes": 284261404,
+    "duration_seconds": 2049,
+    "duration_formatted": "34m 9s",
+    "source_channel": "My Marrow topic 310",
+    "source_onedrive_item_id": "01UVXU6W75L7Y4WNSVGZFY4MI6XQ74NVHQ",
+    "source_onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/19_Dermatology/28. Short Topic on Derna.mp4",
+    "source_sp_filename": "28. Short Topic on Derna.mp4",
+    "title_verified": {
+      "verified_on": "2026-09-28",
+      "method": "byte-size match to My Marrow upload + Telegram document id match to a titled group, corroborated by an independently ripped copy",
+      "binding": "telegram_document_id",
+      "sources": [
+        {
+          "chat": "Subjectwise Lectures",
+          "chat_id": -1003506593387,
+          "topic_id": 2712,
+          "message_id": 2740,
+          "title": "28: Short topics in Dermatology"
+        },
+        {
+          "chat": "Marrow",
+          "chat_id": -1003659432109,
+          "message_id": 1002,
+          "title": "28 short topic on derna Yw.mp4"
+        }
+      ],
+      "source_channel_title": "28. Short Topic on Derna.mp4"
+    },
+    "thumbnail_url": "/api/thumbnail/-1003264222864/338",
+    "folder_path": "04_Marrow_Edition_6/19_Dermatology",
+    "status": "completed",
+    "resolution": "1280x640",
+    "sp_duration_seconds": 2049,
+    "openmedq_migrated": false,
+    "openmedq_status": "pending_transfer"
   }
 }

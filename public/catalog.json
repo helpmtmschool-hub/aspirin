@@ -1,6 +1,6 @@
 {
   "version": "2.2.0",
-  "updated_at": "2026-09-27T03:31:14.356Z",
+  "updated_at": "2026-09-27T13:20:00.386Z",
   "subjects": [
     {
       "id": "anatomy",
@@ -4715,8 +4715,8 @@
               "id": "topic_-1003264222864_425",
               "subject_id": "obgyn",
               "module": "Marrow Edition 6 - Obstetrics & Gynecology",
-              "title": "2. Obstetrics & Gynecology Part 2",
-              "filename": "2. Obstetrics & Gynecology Part 2.mp4",
+              "title": "2. Gametogenesis",
+              "filename": "2. Gametogenesis.mp4",
               "file_size_bytes": 1119070009,
               "file_size_mb": 1067.23,
               "duration_seconds": 5926,
@@ -4724,7 +4724,7 @@
               "chat_id": -1003264222864,
               "message_id": 425,
               "pearls": [
-                "Key clinical concepts and high-yield examination pearls in 2. Obstetrics & Gynecology Part 2",
+                "Key clinical concepts and high-yield examination pearls in 2. Gametogenesis",
                 "Essential clinical reasoning, diagnostic criteria and management guidelines"
               ],
               "date": "2026-09-25T13:46:57Z",
@@ -4734,8 +4734,8 @@
               "id": "topic_-1003264222864_426",
               "subject_id": "obgyn",
               "module": "Marrow Edition 6 - Obstetrics & Gynecology",
-              "title": "3. Obstetrics & Gynecology Part 3",
-              "filename": "3. Obstetrics & Gynecology Part 3.mp4",
+              "title": "3. Fertilization and Implantation",
+              "filename": "3. Fertilization and Implantation.mp4",
               "file_size_bytes": 758216798,
               "file_size_mb": 723.09,
               "duration_seconds": 5003,
@@ -4743,7 +4743,7 @@
               "chat_id": -1003264222864,
               "message_id": 426,
               "pearls": [
-                "Key clinical concepts and high-yield examination pearls in 3. Obstetrics & Gynecology Part 3",
+                "Key clinical concepts and high-yield examination pearls in 3. Fertilization and Implantation",
                 "Essential clinical reasoning, diagnostic criteria and management guidelines"
               ],
               "date": "2026-09-25T14:02:23Z",
@@ -4848,8 +4848,8 @@
               "id": "topic_-1003264222864_432",
               "subject_id": "obgyn",
               "module": "Marrow Edition 6 - Obstetrics & Gynecology",
-              "title": "9. Obstetrics & Gynecology Part 9",
-              "filename": "9. Obstetrics & Gynecology Part 9.mp4",
+              "title": "9. Cord and Anomalies",
+              "filename": "9. Cord and Anomalies.mp4",
               "file_size_bytes": 841427481,
               "file_size_mb": 802.45,
               "duration_seconds": 5093,
@@ -4857,7 +4857,7 @@
               "chat_id": -1003264222864,
               "message_id": 432,
               "pearls": [
-                "Key clinical concepts and high-yield examination pearls in 9. Obstetrics & Gynecology Part 9",
+                "Key clinical concepts and high-yield examination pearls in 9. Cord and Anomalies",
                 "Essential clinical reasoning, diagnostic criteria and management guidelines"
               ],
               "date": "2026-09-25T15:19:19Z",
@@ -4867,8 +4867,8 @@
               "id": "topic_-1003264222864_433",
               "subject_id": "obgyn",
               "module": "Marrow Edition 6 - Obstetrics & Gynecology",
-              "title": "10. Amniotic Fluid",
-              "filename": "10. Amniotic Fluid.mp4",
+              "title": "10. Amniotic Fluid and Its Disorders Part 1",
+              "filename": "10. Amniotic Fluid and Its Disorders Part 1.mp4",
               "file_size_bytes": 294254759,
               "file_size_mb": 280.62,
               "duration_seconds": 2151,
@@ -4876,7 +4876,7 @@
               "chat_id": -1003264222864,
               "message_id": 433,
               "pearls": [
-                "Key clinical concepts and high-yield examination pearls in 10. Amniotic Fluid",
+                "Key clinical concepts and high-yield examination pearls in 10. Amniotic Fluid and Its Disorders Part 1",
                 "Essential clinical reasoning, diagnostic criteria and management guidelines"
               ],
               "date": "2026-09-25T15:21:11Z",
@@ -4886,8 +4886,8 @@
               "id": "topic_-1003264222864_434",
               "subject_id": "obgyn",
               "module": "Marrow Edition 6 - Obstetrics & Gynecology",
-              "title": "11. Amniotic Fluid",
-              "filename": "11. Amniotic Fluid.mp4",
+              "title": "11. Amniotic Fluid and Its Disorders Part 2",
+              "filename": "11. Amniotic Fluid and Its Disorders Part 2.mp4",
               "file_size_bytes": 576761189,
               "file_size_mb": 550.04,
               "duration_seconds": 3903,
@@ -4895,7 +4895,7 @@
               "chat_id": -1003264222864,
               "message_id": 434,
               "pearls": [
-                "Key clinical concepts and high-yield examination pearls in 11. Amniotic Fluid",
+                "Key clinical concepts and high-yield examination pearls in 11. Amniotic Fluid and Its Disorders Part 2",
                 "Essential clinical reasoning, diagnostic criteria and management guidelines"
               ],
               "date": "2026-09-25T15:24:36Z",
@@ -4905,8 +4905,8 @@
               "id": "topic_-1003264222864_435",
               "subject_id": "obgyn",
               "module": "Marrow Edition 6 - Obstetrics & Gynecology",
-              "title": "12. Obstetrics & Gynecology Part 12",
-              "filename": "12. Obstetrics & Gynecology Part 12.mp4",
+              "title": "12. Antenatal Patient History",
+              "filename": "12. Antenatal Patient History.mp4",
               "file_size_bytes": 985565548,
               "file_size_mb": 939.91,
               "duration_seconds": 4711,
@@ -4914,7 +4914,7 @@
               "chat_id": -1003264222864,
               "message_id": 435,
               "pearls": [
-                "Key clinical concepts and high-yield examination pearls in 12. Obstetrics & Gynecology Part 12",
+                "Key clinical concepts and high-yield examination pearls in 12. Antenatal Patient History",
                 "Essential clinical reasoning, diagnostic criteria and management guidelines"
               ],
               "date": "2026-09-25T15:30:33Z",
@@ -4924,8 +4924,8 @@
               "id": "topic_-1003264222864_436",
               "subject_id": "obgyn",
               "module": "Marrow Edition 6 - Obstetrics & Gynecology",
-              "title": "13. Obstetrics & Gynecology Part 13",
-              "filename": "13. Obstetrics & Gynecology Part 13.mp4",
+              "title": "13. Antenatal Patient Signs, Symptoms and Minor Ailments",
+              "filename": "13. Antenatal Patient Signs, Symptoms and Minor Ailments.mp4",
               "file_size_bytes": 450914266,
               "file_size_mb": 430.03,
               "duration_seconds": 3485,
@@ -4933,7 +4933,7 @@
               "chat_id": -1003264222864,
               "message_id": 436,
               "pearls": [
-                "Key clinical concepts and high-yield examination pearls in 13. Obstetrics & Gynecology Part 13",
+                "Key clinical concepts and high-yield examination pearls in 13. Antenatal Patient Signs, Symptoms and Minor Ailments",
                 "Essential clinical reasoning, diagnostic criteria and management guidelines"
               ],
               "date": "2026-09-25T15:33:28Z",
@@ -4943,8 +4943,8 @@
               "id": "topic_-1003264222864_437",
               "subject_id": "obgyn",
               "module": "Marrow Edition 6 - Obstetrics & Gynecology",
-              "title": "14. Obstetrics & Gynecology Part 14",
-              "filename": "14. Obstetrics & Gynecology Part 14.mp4",
+              "title": "14. Antenatal Patient Investigation and Advice",
+              "filename": "14. Antenatal Patient Investigation and Advice.mp4",
               "file_size_bytes": 490665490,
               "file_size_mb": 467.94,
               "duration_seconds": 2890,
@@ -4952,7 +4952,7 @@
               "chat_id": -1003264222864,
               "message_id": 437,
               "pearls": [
-                "Key clinical concepts and high-yield examination pearls in 14. Obstetrics & Gynecology Part 14",
+                "Key clinical concepts and high-yield examination pearls in 14. Antenatal Patient Investigation and Advice",
                 "Essential clinical reasoning, diagnostic criteria and management guidelines"
               ],
               "date": "2026-09-25T15:36:43Z",
@@ -4962,8 +4962,8 @@
               "id": "topic_-1003264222864_438",
               "subject_id": "obgyn",
               "module": "Marrow Edition 6 - Obstetrics & Gynecology",
-              "title": "15. Aneuploid",
-              "filename": "15. Aneuploid.mp4",
+              "title": "15. Aneuploidy Screening",
+              "filename": "15. Aneuploidy Screening.mp4",
               "file_size_bytes": 592905271,
               "file_size_mb": 565.44,
               "duration_seconds": 3898,
@@ -4971,7 +4971,7 @@
               "chat_id": -1003264222864,
               "message_id": 438,
               "pearls": [
-                "Key clinical concepts and high-yield examination pearls in 15. Aneuploid",
+                "Key clinical concepts and high-yield examination pearls in 15. Aneuploidy Screening",
                 "Essential clinical reasoning, diagnostic criteria and management guidelines"
               ],
               "date": "2026-09-25T15:40:26Z",
@@ -5095,8 +5095,8 @@
               "id": "topic_-1003264222864_445",
               "subject_id": "obgyn",
               "module": "Marrow Edition 6 - Obstetrics & Gynecology",
-              "title": "22. Anemia 1",
-              "filename": "22. Anemia 1.mp4",
+              "title": "22. Anemia in Pregnancy Part 1",
+              "filename": "22. Anemia in Pregnancy Part 1.mp4",
               "file_size_bytes": 952315493,
               "file_size_mb": 908.2,
               "duration_seconds": 3611,
@@ -5104,7 +5104,7 @@
               "chat_id": -1003264222864,
               "message_id": 445,
               "pearls": [
-                "Key clinical concepts and high-yield examination pearls in 22. Anemia 1",
+                "Key clinical concepts and high-yield examination pearls in 22. Anemia in Pregnancy Part 1",
                 "Essential clinical reasoning, diagnostic criteria and management guidelines"
               ],
               "date": "2026-09-25T16:15:28Z",
@@ -5114,8 +5114,8 @@
               "id": "topic_-1003264222864_446",
               "subject_id": "obgyn",
               "module": "Marrow Edition 6 - Obstetrics & Gynecology",
-              "title": "23. Obstetrics & Gynecology Part 23",
-              "filename": "23. Obstetrics & Gynecology Part 23.mp4",
+              "title": "23. Anemia in Pregnancy Part 2",
+              "filename": "23. Anemia in Pregnancy Part 2.mp4",
               "file_size_bytes": 544909742,
               "file_size_mb": 519.67,
               "duration_seconds": 2145,
@@ -5123,7 +5123,7 @@
               "chat_id": -1003264222864,
               "message_id": 446,
               "pearls": [
-                "Key clinical concepts and high-yield examination pearls in 23. Obstetrics & Gynecology Part 23",
+                "Key clinical concepts and high-yield examination pearls in 23. Anemia in Pregnancy Part 2",
                 "Essential clinical reasoning, diagnostic criteria and management guidelines"
               ],
               "date": "2026-09-25T16:18:54Z",
@@ -5133,8 +5133,8 @@
               "id": "topic_-1003264222864_447",
               "subject_id": "obgyn",
               "module": "Marrow Edition 6 - Obstetrics & Gynecology",
-              "title": "24. Obstetrics & Gynecology Part 24",
-              "filename": "24. Obstetrics & Gynecology Part 24.mp4",
+              "title": "24. Diabetes in Pregnancy Part 1",
+              "filename": "24. Diabetes in Pregnancy Part 1.mp4",
               "file_size_bytes": 990924559,
               "file_size_mb": 945.02,
               "duration_seconds": 5954,
@@ -5142,7 +5142,7 @@
               "chat_id": -1003264222864,
               "message_id": 447,
               "pearls": [
-                "Key clinical concepts and high-yield examination pearls in 24. Obstetrics & Gynecology Part 24",
+                "Key clinical concepts and high-yield examination pearls in 24. Diabetes in Pregnancy Part 1",
                 "Essential clinical reasoning, diagnostic criteria and management guidelines"
               ],
               "date": "2026-09-25T16:24:59Z",
@@ -5152,8 +5152,8 @@
               "id": "topic_-1003264222864_448",
               "subject_id": "obgyn",
               "module": "Marrow Edition 6 - Obstetrics & Gynecology",
-              "title": "25. Obstetrics & Gynecology Part 25",
-              "filename": "25. Obstetrics & Gynecology Part 25.mp4",
+              "title": "25. Diabetes in Pregnancy Part 2",
+              "filename": "25. Diabetes in Pregnancy Part 2.mp4",
               "file_size_bytes": 792093675,
               "file_size_mb": 755.4,
               "duration_seconds": 4768,
@@ -5161,7 +5161,7 @@
               "chat_id": -1003264222864,
               "message_id": 448,
               "pearls": [
-                "Key clinical concepts and high-yield examination pearls in 25. Obstetrics & Gynecology Part 25",
+                "Key clinical concepts and high-yield examination pearls in 25. Diabetes in Pregnancy Part 2",
                 "Essential clinical reasoning, diagnostic criteria and management guidelines"
               ],
               "date": "2026-09-25T17:17:42Z",
@@ -5171,8 +5171,8 @@
               "id": "topic_-1003264222864_449",
               "subject_id": "obgyn",
               "module": "Marrow Edition 6 - Obstetrics & Gynecology",
-              "title": "26. Obstetrics & Gynecology Part 26",
-              "filename": "26. Obstetrics & Gynecology Part 26.mp4",
+              "title": "26. HTN in Pregnancy Part 1",
+              "filename": "26. HTN in Pregnancy Part 1.mp4",
               "file_size_bytes": 778078227,
               "file_size_mb": 742.03,
               "duration_seconds": 4635,
@@ -5180,7 +5180,7 @@
               "chat_id": -1003264222864,
               "message_id": 449,
               "pearls": [
-                "Key clinical concepts and high-yield examination pearls in 26. Obstetrics & Gynecology Part 26",
+                "Key clinical concepts and high-yield examination pearls in 26. HTN in Pregnancy Part 1",
                 "Essential clinical reasoning, diagnostic criteria and management guidelines"
               ],
               "date": "2026-09-25T17:22:17Z",
@@ -5190,8 +5190,8 @@
               "id": "topic_-1003264222864_450",
               "subject_id": "obgyn",
               "module": "Marrow Edition 6 - Obstetrics & Gynecology",
-              "title": "27. Obstetrics & Gynecology Part 27",
-              "filename": "27. Obstetrics & Gynecology Part 27.mp4",
+              "title": "27. HTN in Pregnancy Part 2",
+              "filename": "27. HTN in Pregnancy Part 2.mp4",
               "file_size_bytes": 555840843,
               "file_size_mb": 530.09,
               "duration_seconds": 3721,
@@ -5199,7 +5199,7 @@
               "chat_id": -1003264222864,
               "message_id": 450,
               "pearls": [
-                "Key clinical concepts and high-yield examination pearls in 27. Obstetrics & Gynecology Part 27",
+                "Key clinical concepts and high-yield examination pearls in 27. HTN in Pregnancy Part 2",
                 "Essential clinical reasoning, diagnostic criteria and management guidelines"
               ],
               "date": "2026-09-25T17:25:38Z",
@@ -5228,8 +5228,8 @@
               "id": "topic_-1003264222864_452",
               "subject_id": "obgyn",
               "module": "Marrow Edition 6 - Obstetrics & Gynecology",
-              "title": "29. Obstetrics & Gynecology Part 29",
-              "filename": "29. Obstetrics & Gynecology Part 29.mp4",
+              "title": "29. HIV in Pregnancy",
+              "filename": "29. HIV in Pregnancy.mp4",
               "file_size_bytes": 538673241,
               "file_size_mb": 513.72,
               "duration_seconds": 3381,
@@ -5237,7 +5237,7 @@
               "chat_id": -1003264222864,
               "message_id": 452,
               "pearls": [
-                "Key clinical concepts and high-yield examination pearls in 29. Obstetrics & Gynecology Part 29",
+                "Key clinical concepts and high-yield examination pearls in 29. HIV in Pregnancy",
                 "Essential clinical reasoning, diagnostic criteria and management guidelines"
               ],
               "date": "2026-09-25T17:31:43Z",
@@ -5361,8 +5361,8 @@
               "id": "topic_-1003264222864_459",
               "subject_id": "obgyn",
               "module": "Marrow Edition 6 - Obstetrics & Gynecology",
-              "title": "36. Obstetrics & Gynecology Part 36",
-              "filename": "36. Obstetrics & Gynecology Part 36.mp4",
+              "title": "36. Abortion Part 1",
+              "filename": "36. Abortion Part 1.mp4",
               "file_size_bytes": 915162058,
               "file_size_mb": 872.77,
               "duration_seconds": 4645,
@@ -5370,7 +5370,7 @@
               "chat_id": -1003264222864,
               "message_id": 459,
               "pearls": [
-                "Key clinical concepts and high-yield examination pearls in 36. Obstetrics & Gynecology Part 36",
+                "Key clinical concepts and high-yield examination pearls in 36. Abortion Part 1",
                 "Essential clinical reasoning, diagnostic criteria and management guidelines"
               ],
               "date": "2026-09-25T18:13:56Z",
@@ -5380,8 +5380,8 @@
               "id": "topic_-1003264222864_460",
               "subject_id": "obgyn",
               "module": "Marrow Edition 6 - Obstetrics & Gynecology",
-              "title": "37. Obstetrics & Gynecology Part 37",
-              "filename": "37. Obstetrics & Gynecology Part 37.mp4",
+              "title": "37. Abortion Part 2",
+              "filename": "37. Abortion Part 2.mp4",
               "file_size_bytes": 823359831,
               "file_size_mb": 785.22,
               "duration_seconds": 3826,
@@ -5389,7 +5389,7 @@
               "chat_id": -1003264222864,
               "message_id": 460,
               "pearls": [
-                "Key clinical concepts and high-yield examination pearls in 37. Obstetrics & Gynecology Part 37",
+                "Key clinical concepts and high-yield examination pearls in 37. Abortion Part 2",
                 "Essential clinical reasoning, diagnostic criteria and management guidelines"
               ],
               "date": "2026-09-25T18:18:19Z",
@@ -5399,8 +5399,8 @@
               "id": "topic_-1003264222864_461",
               "subject_id": "obgyn",
               "module": "Marrow Edition 6 - Obstetrics & Gynecology",
-              "title": "38. Obstetrics & Gynecology Part 38",
-              "filename": "38. Obstetrics & Gynecology Part 38.mp4",
+              "title": "38. Ectopic Pregnancy Part 1",
+              "filename": "38. Ectopic Pregnancy Part 1.mp4",
               "file_size_bytes": 446315066,
               "file_size_mb": 425.64,
               "duration_seconds": 2842,
@@ -5408,7 +5408,7 @@
               "chat_id": -1003264222864,
               "message_id": 461,
               "pearls": [
-                "Key clinical concepts and high-yield examination pearls in 38. Obstetrics & Gynecology Part 38",
+                "Key clinical concepts and high-yield examination pearls in 38. Ectopic Pregnancy Part 1",
                 "Essential clinical reasoning, diagnostic criteria and management guidelines"
               ],
               "date": "2026-09-25T18:20:54Z",
@@ -5418,8 +5418,8 @@
               "id": "topic_-1003264222864_462",
               "subject_id": "obgyn",
               "module": "Marrow Edition 6 - Obstetrics & Gynecology",
-              "title": "39. Obstetrics & Gynecology Part 39",
-              "filename": "39. Obstetrics & Gynecology Part 39.mp4",
+              "title": "39. Ectopic Pregnancy Part 2",
+              "filename": "39. Ectopic Pregnancy Part 2.mp4",
               "file_size_bytes": 703129602,
               "file_size_mb": 670.56,
               "duration_seconds": 4211,
@@ -5427,7 +5427,7 @@
               "chat_id": -1003264222864,
               "message_id": 462,
               "pearls": [
-                "Key clinical concepts and high-yield examination pearls in 39. Obstetrics & Gynecology Part 39",
+                "Key clinical concepts and high-yield examination pearls in 39. Ectopic Pregnancy Part 2",
                 "Essential clinical reasoning, diagnostic criteria and management guidelines"
               ],
               "date": "2026-09-25T18:24:50Z",
@@ -5437,8 +5437,8 @@
               "id": "topic_-1003264222864_463",
               "subject_id": "obgyn",
               "module": "Marrow Edition 6 - Obstetrics & Gynecology",
-              "title": "40. Obstetrics & Gynecology Part 40",
-              "filename": "40. Obstetrics & Gynecology Part 40.mp4",
+              "title": "40. Gestational Trophoblastic Disease",
+              "filename": "40. Gestational Trophoblastic Disease.mp4",
               "file_size_bytes": 657138322,
               "file_size_mb": 626.7,
               "duration_seconds": 3345,
@@ -5446,7 +5446,7 @@
               "chat_id": -1003264222864,
               "message_id": 463,
               "pearls": [
-                "Key clinical concepts and high-yield examination pearls in 40. Obstetrics & Gynecology Part 40",
+                "Key clinical concepts and high-yield examination pearls in 40. Gestational Trophoblastic Disease",
                 "Essential clinical reasoning, diagnostic criteria and management guidelines"
               ],
               "date": "2026-09-25T18:28:39Z",
@@ -5456,8 +5456,8 @@
               "id": "topic_-1003264222864_464",
               "subject_id": "obgyn",
               "module": "Marrow Edition 6 - Obstetrics & Gynecology",
-              "title": "41. Obstetrics & Gynecology Part 41",
-              "filename": "41. Obstetrics & Gynecology Part 41.mp4",
+              "title": "41. Antepartum Haemorrhage",
+              "filename": "41. Antepartum Haemorrhage.mp4",
               "file_size_bytes": 1190083244,
               "file_size_mb": 1134.95,
               "duration_seconds": 5350,
@@ -5465,7 +5465,7 @@
               "chat_id": -1003264222864,
               "message_id": 464,
               "pearls": [
-                "Key clinical concepts and high-yield examination pearls in 41. Obstetrics & Gynecology Part 41",
+                "Key clinical concepts and high-yield examination pearls in 41. Antepartum Haemorrhage",
                 "Essential clinical reasoning, diagnostic criteria and management guidelines"
               ],
               "date": "2026-09-25T18:35:02Z",
@@ -5475,8 +5475,8 @@
               "id": "topic_-1003264222864_465",
               "subject_id": "obgyn",
               "module": "Marrow Edition 6 - Obstetrics & Gynecology",
-              "title": "42. Obstetrics & Gynecology Part 42",
-              "filename": "42. Obstetrics & Gynecology Part 42.mp4",
+              "title": "42. Placenta Accreta Spectrum",
+              "filename": "42. Placenta Accreta Spectrum.mp4",
               "file_size_bytes": 173462863,
               "file_size_mb": 165.43,
               "duration_seconds": 1125,
@@ -5484,7 +5484,7 @@
               "chat_id": -1003264222864,
               "message_id": 465,
               "pearls": [
-                "Key clinical concepts and high-yield examination pearls in 42. Obstetrics & Gynecology Part 42",
+                "Key clinical concepts and high-yield examination pearls in 42. Placenta Accreta Spectrum",
                 "Essential clinical reasoning, diagnostic criteria and management guidelines"
               ],
               "date": "2026-09-25T18:36:06Z",
@@ -5494,8 +5494,8 @@
               "id": "topic_-1003264222864_466",
               "subject_id": "obgyn",
               "module": "Marrow Edition 6 - Obstetrics & Gynecology",
-              "title": "43. Obstetrics & Gynecology Part 43",
-              "filename": "43. Obstetrics & Gynecology Part 43.mp4",
+              "title": "43. Maternal Pelvis",
+              "filename": "43. Maternal Pelvis.mp4",
               "file_size_bytes": 901457207,
               "file_size_mb": 859.7,
               "duration_seconds": 3856,
@@ -5503,7 +5503,7 @@
               "chat_id": -1003264222864,
               "message_id": 466,
               "pearls": [
-                "Key clinical concepts and high-yield examination pearls in 43. Obstetrics & Gynecology Part 43",
+                "Key clinical concepts and high-yield examination pearls in 43. Maternal Pelvis",
                 "Essential clinical reasoning, diagnostic criteria and management guidelines"
               ],
               "date": "2026-09-25T18:41:12Z",
@@ -5513,8 +5513,8 @@
               "id": "topic_-1003264222864_467",
               "subject_id": "obgyn",
               "module": "Marrow Edition 6 - Obstetrics & Gynecology",
-              "title": "44. Obstetrics & Gynecology Part 44",
-              "filename": "44. Obstetrics & Gynecology Part 44.mp4",
+              "title": "44. Fetal Skull",
+              "filename": "44. Fetal Skull.mp4",
               "file_size_bytes": 572425071,
               "file_size_mb": 545.91,
               "duration_seconds": 2518,
@@ -5522,7 +5522,7 @@
               "chat_id": -1003264222864,
               "message_id": 467,
               "pearls": [
-                "Key clinical concepts and high-yield examination pearls in 44. Obstetrics & Gynecology Part 44",
+                "Key clinical concepts and high-yield examination pearls in 44. Fetal Skull",
                 "Essential clinical reasoning, diagnostic criteria and management guidelines"
               ],
               "date": "2026-09-25T18:44:32Z",
@@ -5532,8 +5532,8 @@
               "id": "topic_-1003264222864_468",
               "subject_id": "obgyn",
               "module": "Marrow Edition 6 - Obstetrics & Gynecology",
-              "title": "45. Obstetrics & Gynecology Part 45",
-              "filename": "45. Obstetrics & Gynecology Part 45.mp4",
+              "title": "45. Terminology Related to Labor",
+              "filename": "45. Terminology Related to Labor.mp4",
               "file_size_bytes": 840780911,
               "file_size_mb": 801.83,
               "duration_seconds": 3125,
@@ -5541,7 +5541,7 @@
               "chat_id": -1003264222864,
               "message_id": 468,
               "pearls": [
-                "Key clinical concepts and high-yield examination pearls in 45. Obstetrics & Gynecology Part 45",
+                "Key clinical concepts and high-yield examination pearls in 45. Terminology Related to Labor",
                 "Essential clinical reasoning, diagnostic criteria and management guidelines"
               ],
               "date": "2026-09-25T18:49:22Z",
@@ -5589,8 +5589,8 @@
               "id": "topic_-1003264222864_471",
               "subject_id": "obgyn",
               "module": "Marrow Edition 6 - Obstetrics & Gynecology",
-              "title": "48. Obstetrics & Gynecology Part 48",
-              "filename": "48. Obstetrics & Gynecology Part 48.mp4",
+              "title": "48. Normal Labor",
+              "filename": "48. Normal Labor.mp4",
               "file_size_bytes": 1026141460,
               "file_size_mb": 978.6,
               "duration_seconds": 4468,
@@ -5598,7 +5598,7 @@
               "chat_id": -1003264222864,
               "message_id": 471,
               "pearls": [
-                "Key clinical concepts and high-yield examination pearls in 48. Obstetrics & Gynecology Part 48",
+                "Key clinical concepts and high-yield examination pearls in 48. Normal Labor",
                 "Essential clinical reasoning, diagnostic criteria and management guidelines"
               ],
               "date": "2026-09-25T19:09:13Z",
@@ -5627,8 +5627,8 @@
               "id": "topic_-1003264222864_473",
               "subject_id": "obgyn",
               "module": "Marrow Edition 6 - Obstetrics & Gynecology",
-              "title": "50. Stages of Labor, Abnormal Labor, Partogram Part 1",
-              "filename": "50. Stages of Labor, Abnormal Labor, Partogram Part 1.mp4",
+              "title": "50. Stages of Labor, Abnormal Labor and Partogram Part 1",
+              "filename": "50. Stages of Labor, Abnormal Labor and Partogram Part 1.mp4",
               "file_size_bytes": 1049546218,
               "file_size_mb": 1000.93,
               "duration_seconds": 6595,
@@ -5636,7 +5636,7 @@
               "chat_id": -1003264222864,
               "message_id": 473,
               "pearls": [
-                "Key clinical concepts and high-yield examination pearls in 50. Stages of Labor, Abnormal Labor, Partogram Part 1",
+                "Key clinical concepts and high-yield examination pearls in 50. Stages of Labor, Abnormal Labor and Partogram Part 1",
                 "Essential clinical reasoning, diagnostic criteria and management guidelines"
               ],
               "date": "2026-09-25T19:20:16Z",
@@ -5646,8 +5646,8 @@
               "id": "topic_-1003264222864_474",
               "subject_id": "obgyn",
               "module": "Marrow Edition 6 - Obstetrics & Gynecology",
-              "title": "51. Obstetrics & Gynecology Part 51",
-              "filename": "51. Obstetrics & Gynecology Part 51.mp4",
+              "title": "51. Stages of Labor, Abnormal Labor and Partogram Part 2",
+              "filename": "51. Stages of Labor, Abnormal Labor and Partogram Part 2.mp4",
               "file_size_bytes": 630840975,
               "file_size_mb": 601.62,
               "duration_seconds": 3998,
@@ -5655,7 +5655,7 @@
               "chat_id": -1003264222864,
               "message_id": 474,
               "pearls": [
-                "Key clinical concepts and high-yield examination pearls in 51. Obstetrics & Gynecology Part 51",
+                "Key clinical concepts and high-yield examination pearls in 51. Stages of Labor, Abnormal Labor and Partogram Part 2",
                 "Essential clinical reasoning, diagnostic criteria and management guidelines"
               ],
               "date": "2026-09-25T19:40:29Z",
@@ -5665,8 +5665,8 @@
               "id": "topic_-1003264222864_475",
               "subject_id": "obgyn",
               "module": "Marrow Edition 6 - Obstetrics & Gynecology",
-              "title": "52. Obstetrics & Gynecology Part 52",
-              "filename": "52. Obstetrics & Gynecology Part 52.mp4",
+              "title": "52. Complications of 3rd Stage of Labor - PPH",
+              "filename": "52. Complications of 3rd Stage of Labor - PPH.mp4",
               "file_size_bytes": 291609729,
               "file_size_mb": 278.1,
               "duration_seconds": 1931,
@@ -5674,7 +5674,7 @@
               "chat_id": -1003264222864,
               "message_id": 475,
               "pearls": [
-                "Key clinical concepts and high-yield examination pearls in 52. Obstetrics & Gynecology Part 52",
+                "Key clinical concepts and high-yield examination pearls in 52. Complications of 3rd Stage of Labor - PPH",
                 "Essential clinical reasoning, diagnostic criteria and management guidelines"
               ],
               "date": "2026-09-25T19:42:14Z",
@@ -5741,8 +5741,8 @@
               "id": "topic_-1003264222864_479",
               "subject_id": "obgyn",
               "module": "Marrow Edition 6 - Obstetrics & Gynecology",
-              "title": "56. Obstetrics & Gynecology Part 57",
-              "filename": "56. Obstetrics & Gynecology Part 57.mp4",
+              "title": "56. Cesarean Section",
+              "filename": "56. Cesarean Section.mp4",
               "file_size_bytes": 1541006675,
               "file_size_mb": 1469.62,
               "duration_seconds": 6040,
@@ -5750,7 +5750,7 @@
               "chat_id": -1003264222864,
               "message_id": 479,
               "pearls": [
-                "Key clinical concepts and high-yield examination pearls in 56. Obstetrics & Gynecology Part 57",
+                "Key clinical concepts and high-yield examination pearls in 56. Cesarean Section",
                 "Essential clinical reasoning, diagnostic criteria and management guidelines"
               ],
               "date": "2026-09-25T21:20:27Z",
@@ -6121,8 +6121,8 @@
               "id": "topic_-1003264222864_499",
               "subject_id": "obgyn",
               "module": "Marrow Edition 6 - Obstetrics & Gynecology",
-              "title": "76. Endometrosis",
-              "filename": "76. Endometrosis.mp4",
+              "title": "76. Endometriosis",
+              "filename": "76. Endometriosis.mp4",
               "file_size_bytes": 1056417420,
               "file_size_mb": 1007.48,
               "duration_seconds": 5618,
@@ -6130,7 +6130,7 @@
               "chat_id": -1003264222864,
               "message_id": 499,
               "pearls": [
-                "Key clinical concepts and high-yield examination pearls in 76. Endometrosis",
+                "Key clinical concepts and high-yield examination pearls in 76. Endometriosis",
                 "Essential clinical reasoning, diagnostic criteria and management guidelines"
               ],
               "date": "2026-09-26T10:25:09Z",
@@ -6520,8 +6520,8 @@
               "id": "topic_-1003264222864_520",
               "subject_id": "obgyn",
               "module": "Marrow Edition 6 - Obstetrics & Gynecology",
-              "title": "97. Obstetrics & Gynecology Part 98",
-              "filename": "97. Obstetrics & Gynecology Part 98.mp4",
+              "title": "97. Estrogen and Progesterone Contraceptives",
+              "filename": "97. Estrogen and Progesterone Contraceptives.mp4",
               "file_size_bytes": 523692766,
               "file_size_mb": 499.43,
               "duration_seconds": 2960,
@@ -6529,7 +6529,7 @@
               "chat_id": -1003264222864,
               "message_id": 520,
               "pearls": [
-                "Key clinical concepts and high-yield examination pearls in 97. Obstetrics & Gynecology Part 98",
+                "Key clinical concepts and high-yield examination pearls in 97. Estrogen and Progesterone Contraceptives",
                 "Essential clinical reasoning, diagnostic criteria and management guidelines"
               ],
               "date": "2026-09-26T13:38:21Z",
@@ -6539,8 +6539,8 @@
               "id": "topic_-1003264222864_521",
               "subject_id": "obgyn",
               "module": "Marrow Edition 6 - Obstetrics & Gynecology",
-              "title": "98. Obstetrics & Gynecology Part 99",
-              "filename": "98. Obstetrics & Gynecology Part 99.mp4",
+              "title": "98. Only Progesterone Contraceptives",
+              "filename": "98. Only Progesterone Contraceptives.mp4",
               "file_size_bytes": 344587623,
               "file_size_mb": 328.62,
               "duration_seconds": 1650,
@@ -6548,7 +6548,7 @@
               "chat_id": -1003264222864,
               "message_id": 521,
               "pearls": [
-                "Key clinical concepts and high-yield examination pearls in 98. Obstetrics & Gynecology Part 99",
+                "Key clinical concepts and high-yield examination pearls in 98. Only Progesterone Contraceptives",
                 "Essential clinical reasoning, diagnostic criteria and management guidelines"
               ],
               "date": "2026-09-26T13:40:50Z",
@@ -6558,8 +6558,8 @@
               "id": "topic_-1003264222864_522",
               "subject_id": "obgyn",
               "module": "Marrow Edition 6 - Obstetrics & Gynecology",
-              "title": "99. Obstetrics & Gynecology Part 100",
-              "filename": "99. Obstetrics & Gynecology Part 100.mp4",
+              "title": "99. IUCDs",
+              "filename": "99. IUCDs.mp4",
               "file_size_bytes": 576595259,
               "file_size_mb": 549.88,
               "duration_seconds": 3316,
@@ -6567,7 +6567,7 @@
               "chat_id": -1003264222864,
               "message_id": 522,
               "pearls": [
-                "Key clinical concepts and high-yield examination pearls in 99. Obstetrics & Gynecology Part 100",
+                "Key clinical concepts and high-yield examination pearls in 99. IUCDs",
                 "Essential clinical reasoning, diagnostic criteria and management guidelines"
               ],
               "date": "2026-09-26T13:45:08Z",
@@ -6577,8 +6577,8 @@
               "id": "topic_-1003264222864_523",
               "subject_id": "obgyn",
               "module": "Marrow Edition 6 - Obstetrics & Gynecology",
-              "title": "100. Obstetrics & Gynecology Part 101",
-              "filename": "100. Obstetrics & Gynecology Part 101.mp4",
+              "title": "100. Permanent Methods of Contraception",
+              "filename": "100. Permanent Methods of Contraception.mp4",
               "file_size_bytes": 704781150,
               "file_size_mb": 672.13,
               "duration_seconds": 3574,
@@ -6586,7 +6586,7 @@
               "chat_id": -1003264222864,
               "message_id": 523,
               "pearls": [
-                "Key clinical concepts and high-yield examination pearls in 100. Obstetrics & Gynecology Part 101",
+                "Key clinical concepts and high-yield examination pearls in 100. Permanent Methods of Contraception",
                 "Essential clinical reasoning, diagnostic criteria and management guidelines"
               ],
               "date": "2026-09-26T13:50:17Z",
@@ -6596,8 +6596,8 @@
               "id": "topic_-1003264222864_524",
               "subject_id": "obgyn",
               "module": "Marrow Edition 6 - Obstetrics & Gynecology",
-              "title": "101. Obstetrics & Gynecology Part 102",
-              "filename": "101. Obstetrics & Gynecology Part 102.mp4",
+              "title": "101. Miscellaneous Contraception",
+              "filename": "101. Miscellaneous Contraception.mp4",
               "file_size_bytes": 339021519,
               "file_size_mb": 323.32,
               "duration_seconds": 1572,
@@ -6605,7 +6605,7 @@
               "chat_id": -1003264222864,
               "message_id": 524,
               "pearls": [
-                "Key clinical concepts and high-yield examination pearls in 101. Obstetrics & Gynecology Part 102",
+                "Key clinical concepts and high-yield examination pearls in 101. Miscellaneous Contraception",
                 "Essential clinical reasoning, diagnostic criteria and management guidelines"
               ],
               "date": "2026-09-26T13:52:48Z",
@@ -6710,8 +6710,8 @@
               "id": "topic_-1003264222864_530",
               "subject_id": "obgyn",
               "module": "Marrow Edition 6 - Obstetrics & Gynecology",
-              "title": "107. Obstetrics & Gynecology Part 108",
-              "filename": "107. Obstetrics & Gynecology Part 108.mp4",
+              "title": "107. Ovarian Cancer Part 1",
+              "filename": "107. Ovarian Cancer Part 1.mp4",
               "file_size_bytes": 760130261,
               "file_size_mb": 724.92,
               "duration_seconds": 4964,
@@ -6719,7 +6719,7 @@
               "chat_id": -1003264222864,
               "message_id": 530,
               "pearls": [
-                "Key clinical concepts and high-yield examination pearls in 107. Obstetrics & Gynecology Part 108",
+                "Key clinical concepts and high-yield examination pearls in 107. Ovarian Cancer Part 1",
                 "Essential clinical reasoning, diagnostic criteria and management guidelines"
               ],
               "date": "2026-09-26T14:35:46Z",
@@ -6729,8 +6729,8 @@
               "id": "topic_-1003264222864_531",
               "subject_id": "obgyn",
               "module": "Marrow Edition 6 - Obstetrics & Gynecology",
-              "title": "108. Obstetrics & Gynecology Part 109",
-              "filename": "108. Obstetrics & Gynecology Part 109.mp4",
+              "title": "108. Ovarian Cancer Part 2",
+              "filename": "108. Ovarian Cancer Part 2.mp4",
               "file_size_bytes": 357844392,
               "file_size_mb": 341.27,
               "duration_seconds": 2157,
@@ -6738,7 +6738,7 @@
               "chat_id": -1003264222864,
               "message_id": 531,
               "pearls": [
-                "Key clinical concepts and high-yield examination pearls in 108. Obstetrics & Gynecology Part 109",
+                "Key clinical concepts and high-yield examination pearls in 108. Ovarian Cancer Part 2",
                 "Essential clinical reasoning, diagnostic criteria and management guidelines"
               ],
               "date": "2026-09-26T14:38:13Z",
@@ -6748,8 +6748,8 @@
               "id": "topic_-1003264222864_532",
               "subject_id": "obgyn",
               "module": "Marrow Edition 6 - Obstetrics & Gynecology",
-              "title": "109. Obstetrics & Gynecology Part 110",
-              "filename": "109. Obstetrics & Gynecology Part 110.mp4",
+              "title": "109. Vulvar Cancer",
+              "filename": "109. Vulvar Cancer.mp4",
               "file_size_bytes": 423091287,
               "file_size_mb": 403.49,
               "duration_seconds": 2279,
@@ -6757,7 +6757,7 @@
               "chat_id": -1003264222864,
               "message_id": 532,
               "pearls": [
-                "Key clinical concepts and high-yield examination pearls in 109. Obstetrics & Gynecology Part 110",
+                "Key clinical concepts and high-yield examination pearls in 109. Vulvar Cancer",
                 "Essential clinical reasoning, diagnostic criteria and management guidelines"
               ],
               "date": "2026-09-26T14:41:06Z",

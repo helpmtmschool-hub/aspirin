@@ -135,7 +135,7 @@ Aspirin_LMS/
 * **Focus Scope:** Final-Year MBBS & NEET-PG Clinical Subjects (High-Yield Clinical Videos Only).
 * **Final Year Distribution (504 verified high-bitrate lectures, 0 dummy clips):**
   1. Surgery: **82 lectures** (Msgs 340–418)
-  2. Obstetrics & Gynecology (OBG): **109 lectures** (Msgs 476–585)
+  2. Obstetrics & Gynecology (OBG): **109 lectures** (Topic 423 "Gyn & obs", Msgs 424–532)
   3. Pediatrics: **57 lectures** (Msgs 419–475)
   4. Orthopedics: **29 lectures** (Msgs 252–280)
   5. Dermatology: **28 lectures** (Msgs 281–308)
@@ -192,8 +192,8 @@ The streaming endpoint `GET /api/stream/:chat/:msg`:
   - `src/components/SubjectGrid.tsx`: Grid of 19 MBBS subjects grouped by MBBS Prof:
     - `1st Prof`: Anatomy, Physiology, Biochemistry
     - `2nd Prof`: Pathology, Pharmacology, Microbiology
-    - `3rd Prof Part 1`: Ophthalmology, ENT, Community Medicine (PSM), Forensic Medicine (FMT)
-    - `Final Prof Part 2`: General Medicine, General Surgery, OBG, Pediatrics, Orthopedics, Dermatology, Psychiatry, Radiology, Anesthesiology
+    - `3rd Prof Part 1`: Community Medicine (PSM), Forensic Medicine (FMT)
+    - `Final Prof Part 2`: Ophthalmology, ENT, General Medicine, General Surgery, OBG, Pediatrics, Orthopedics, Dermatology, Psychiatry, Radiology, Anesthesiology
   - `src/components/ModuleView.tsx`: Displays subject syllabus, lecture modules, duration, and completion checkboxes.
   - `src/components/VideoPlayer.tsx`: Feature-complete video player:
     - Speed presets: 0.75x, 1.0x, 1.25x, 1.5x, 1.75x, 2.0x, 2.5x
@@ -303,11 +303,34 @@ Four subjects contained human uploader errors that were diagnosed and normalized
   * *Uploader Anomaly:* Both Msg 417 and Msg 418 shared the exact same document ID (`6161212714476637060`, 83.3 MB) and both carried the caption `78. How to Read Surgery`.
   * *Correction:* Dropped Msg 418 as a duplicate, leaving a single entry for Lecture 78. Result: A perfectly contiguous sequence of **1..82 lectures**.
 
-* **Obstetrics & Gynecology (OBG) (Msgs 476–585 | 109 Clean Lectures):**
+* **Obstetrics & Gynecology (OBG) (Msgs 424–532 in Topic 423 | 109 Clean Lectures):**
   * *Uploader Anomaly:* The uploader skipped number 53 in their captions:
-    * Msg 528 caption: `52. Physiological Changes of Pregnancy - 2`
-    * Msg 529 caption: `54. Minor Ailments of Pregnancy` (Skipped 53!)
-  * *Correction:* Renumbered all subsequent 57 messages (Msgs 476..532) down by 1 (54..110 $\rightarrow$ 53..109). Result: A perfectly contiguous sequence of **1..109 lectures**.
+    * Msg 475 caption: `52` (`52. Complications of 3rd Stage of Labor - PPH`)
+    * Msg 476 caption: `54. Malpresentation part 1` (Skipped 53!)
+  * *Correction:* Renumbered Msgs 476..532 down by 1 (54..110 → 53..109). Result: A perfectly contiguous sequence of **1..109 lectures**.
+  * *Important:* Marrow's official lecture 53 ("Other Complications of 3rd Stage of Labor") was **never posted to this channel**, so it is genuinely absent rather than mis-titled. Each manifest entry carries `marrow_lecture_no` to map the compacted 1..109 number back to Marrow's own 1..110. See §10.B.3 for the placeholder-title defect that affected 34 of these lectures.
+
+#### 3. The Marrow OBG Placeholder-Title Defect (found & repaired 2026-09-27)
+* **Symptom:** 34 of the 109 OBG lectures were indexed, named on SharePoint and rendered in the app as `N. Obstetrics & Gynecology Part N` (e.g. `2. Obstetrics & Gynecology Part 2`).
+* **Root Cause:** Those 34 messages were posted with a **bare-number caption** (`2`, `23`, `110`) plus a numeric filename (`23.mp4`) or no filename at all. `normalize_lecture_title()` (`engine/telegram_to_onedrive.py`) and `formatLectureTitle()` (`engine/sync_catalog.cjs`) both fall back to `f"{subject_name} Part {num}"` when a caption carries no title text, so a *missing* title was silently rendered as a *plausible* one and propagated into `marrow_sections.json`, `transfer_manifest.json`, `catalog.json` and the SharePoint filenames themselves.
+* **Recovery:** Titles were cross-verified from three independent Telegram groups rather than guessed:
+  1. **`Subjectwise Lectures` (`-1003506593387`), topic 3167 "OBGY (Marrow)"** - 110 uploads titled `N Yw. <Topic>`, the primary authority for lecture text and numbering.
+  2. **`Marrow` channel (`-1003659432109`)** - an independently ripped copy carrying the same 110 titled lectures, used to corroborate the text of source 1.
+  3. **`My Marrow` topic 423** itself - the MTProto duration of each transferred file, the fingerprint that binds a verified title to the exact video on SharePoint.
+  All 109 lectures matched sources 1 and 2 on title text and matched on duration within ±1s. (`Folderwise Free Group` topic 42133 and `Swaghat` topic 1970 carry the *same* bare-number uploads as `My Marrow` with identical Telegram document IDs, so they are copies rather than evidence.)
+* **Remediation Applied:** `engine/fix_marrow_obg_titles.py` renamed 40 files on SharePoint in place via Graph `PATCH /drive/items/{id}` (the 34 placeholders plus 6 corrections: `Endometrosis` → `Endometriosis`, `15. Aneuploid` → `15. Aneuploidy Screening`, `22. Anemia 1` → `22. Anemia in Pregnancy Part 1`, the duplicated `10./11. Amniotic Fluid` pair, `Anat` → `Anatomy`, and the `Partogram` comma) and rewrote `marrow_sections.json` (which feeds the pipeline's `preferred_title`), both manifest copies and `catalog.json`. Only names changed; no media was re-uploaded.
+* **Artifacts:** `engine/marrow_obg_true_titles.json` records per-lecture provenance (previous title, previous SharePoint filename, Marrow lecture number). Manifest entries additionally carry `marrow_lecture_no` and a `title_verified` block naming the two corroborating Telegram messages.
+* **Spelling Guard Added:** `HTN`, `PPH` and `IUCD`/`IUCDS` were missing from the `ACRONYMS` sets, so the title-casers flattened `HTN`→`Htn`, `PPH`→`Pph`, `IUCDs`→`Iucds`. Both lists now include them and `ACRONYM_DISPLAY` preserves the mixed-case plural `IUCDs`.
+* **Rule For Future Transfers:** a caption that is only a number means **title unknown**, not "`<Subject> Part N`". Resolve it against a titled group before writing it into the catalog.
+
+#### 4. The Marrow Dermatology Abbreviated-Caption Defect (found & repaired 2026-09-28)
+* **Symptom:** All 28 lectures of `My Marrow` topic 310 (Msgs 311–338) carry uploader shorthand instead of lecture titles - `2 basi dermat part 1.mp4`, `6 appengdage disored part 1.mp4`, `15 parasitic inf.mp4`, `18 STD 1.mp4`, `21 GENODERMATOME.mp4`, `25 CUTANEOUS DRUG RXN.mp4`, `28 short topic on derna.mp4`. The numbering itself was clean 1..28, so no renumbering was needed - only the title text.
+* **Second defect:** the 28 transferred videos had **no dermatology records at all** in `transfer_manifest.json` (the folder existed on the legacy SharePoint from an earlier run whose manifest was later overwritten). Without a record the scheduled pipeline treats the subject as un-transferred and would re-download all 28 files from Telegram.
+* **Recovery:** `engine/verify_marrow_derm_titles.py` binds each SharePoint file to its `My Marrow` message by **exact byte size**, then to the titled copy in **`Subjectwise Lectures` (`-1003506593387`) topic 2712 "Dermatology (Marrow)"** by **Telegram document id** (27 of 28; lecture 27 binds on duration because that group re-encoded it at 747 MB vs the 224 MB we hold). Every one of the 28 is additionally corroborated by the **`Marrow` channel (`-1003659432109`)**, an independent rip whose document ids differ but whose byte sizes match exactly. SharePoint-reported durations agree with Telegram on all 28.
+* **Not evidence:** `Marrow Dermatology` (`-1002959326572`) and `Swaghat` topic 1970 mirror the Subjectwise titles but reuse identical document ids - copies, not corroboration. `D@M& 2025-26` topic 539 ("… atf") and `Folderwise Free Group` dermatology topics are a different faculty and do not describe these videos.
+* **Applied corrections (recorded, not silent):** `Bulbous Disorders` → **`Bullous Disorders`** (L9/L10; the independent rip and the source channel both spell it *bullous*, which is the dermatological term); `&` → `and` and ` - Part N` → ` Part N` to match the Marrow surgery/OBG naming standard; U+2019 in `Hansen’s` normalized to an ASCII apostrophe.
+* **Artifacts:** `engine/marrow_derm_true_titles.json` (per-lecture provenance: previous filename, binding method, both corroborating messages). Manifest records carry `marrow_lecture_no`, `title_verified`, `source_onedrive_item_id`/`source_onedrive_path` (legacy tenant) and `openmedq_migrated`.
+* **Migration:** `engine/migrate_marrow_dermatology.py` + `.github/workflows/migrate_dermatology.yml` stream the 7.62 GiB cloud-to-cloud into `/Aspirin_LMS/Marrow_E6/Dermatology/{N}. {Verified Title}.mp4` on openmedQ. Records are written with `status: completed` **but no `onedrive_item_id`** until the transfer lands: that keeps the Telegram pipeline from re-downloading them while keeping them out of `catalog.json` (which requires a destination id) so no unstreamable entry is ever advertised.
 
 * **Ophthalmology (Msgs 211–251 | 40 Clean Lectures):**
   * *Uploader Anomaly:* The uploader skipped number 18 in their captions:
