@@ -1,6 +1,6 @@
 {
   "version": "2.2.0",
-  "updated_at": "2026-09-27T22:26:59.008Z",
+  "updated_at": "2026-09-28T06:19:21.566Z",
   "subjects": [
     {
       "id": "anatomy",
@@ -9897,7 +9897,7 @@
       "category": "Clinical",
       "icon": "Wind",
       "color": "#475569",
-      "total_topics": 7,
+      "total_topics": 8,
       "total_notes": 5,
       "modules": [
         {
@@ -10036,6 +10036,25 @@
               ],
               "date": "2026-09-27T22:26:52Z",
               "thumbnail_url": "/api/thumbnail/-1003264222864/770"
+            },
+            {
+              "id": "topic_-1003264222864_777",
+              "subject_id": "anesthesiology",
+              "module": "Marrow Edition 6 - Anesthesiology",
+              "title": "22. Anaesthesia for Coexisting Diseases",
+              "filename": "22. Anaesthesia for Coexisting Diseases.mp4",
+              "file_size_bytes": 477272645,
+              "file_size_mb": 455.16,
+              "duration_seconds": 0,
+              "duration_formatted": "0m",
+              "chat_id": -1003264222864,
+              "message_id": 777,
+              "pearls": [
+                "Key clinical concepts and high-yield examination pearls in 22. Anaesthesia for Coexisting Diseases",
+                "Essential clinical reasoning, diagnostic criteria and management guidelines"
+              ],
+              "date": "2026-09-28T06:19:17Z",
+              "thumbnail_url": "/api/thumbnail/-1003264222864/777"
             }
           ]
         }

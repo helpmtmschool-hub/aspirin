@@ -10381,5 +10381,24 @@
     "thumbnail_url": "/api/thumbnail/-1003264222864/770",
     "uploaded_at": "2026-09-27T22:26:52Z",
     "status": "completed"
+  },
+  "mr_-1003264222864_777": {
+    "title": "22. Anaesthesia for Coexisting Diseases",
+    "filename": "22. Anaesthesia for Coexisting Diseases.mp4",
+    "platform": "marrow",
+    "subject_id": "anesthesia",
+    "folder_path": "04_Marrow_Edition_6/17_Anesthesiology",
+    "telegram_chat_id": -1003264222864,
+    "telegram_message_id": 777,
+    "onedrive_item_id": "01UVXU6W6JEUSMJH7ZQVGL2MJ7DCPYAGOV",
+    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/17_Anesthesiology/22. Anaesthesia for Coexisting Diseases.mp4",
+    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/17_Anesthesiology/22.%20Anaesthesia%20for%20Coexisting%20Diseases.mp4",
+    "size_bytes": 477272645,
+    "duration_seconds": null,
+    "duration_formatted": null,
+    "resolution": null,
+    "thumbnail_url": "/api/thumbnail/-1003264222864/777",
+    "uploaded_at": "2026-09-28T06:19:17Z",
+    "status": "completed"
   }
 }
