@@ -249,7 +249,7 @@ def migrate(new: TokenManager, old: TokenManager, subjects: List[str],
 
     moved = adopted = failed = 0
     for i, (key, item, old_item_id) in enumerate(records, 1):
-        if limit and moved >= limit:
+        if limit and (moved + adopted >= limit or (dry_run and i > limit)):
             print(f"Limit of {limit} files reached.")
             break
 
