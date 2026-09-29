@@ -1,6 +1,6 @@
 {
   "version": "2.2.0",
-  "updated_at": "2026-09-29T09:52:21.927Z",
+  "updated_at": "2026-09-29T10:57:09.075Z",
   "subjects": [
     {
       "id": "anatomy",
@@ -10008,8 +10008,8 @@
               "filename": "23. Anaesthesia for Coexisting.mp4",
               "file_size_bytes": 471686015,
               "file_size_mb": 449.83,
-              "duration_seconds": 0,
-              "duration_formatted": "0m",
+              "duration_seconds": 3819,
+              "duration_formatted": "1h 3m",
               "chat_id": -1003264222864,
               "message_id": 778,
               "pearls": [
