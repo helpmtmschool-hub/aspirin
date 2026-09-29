@@ -34,6 +34,11 @@ on:
         required: false
         default: false
         type: boolean
+      max_runtime_hours:
+        description: "Max runtime in hours before graceful exit (default: 5.5, 0 = unlimited)"
+        required: false
+        default: "5.5"
+        type: string
 
 concurrency:
   group: sharepoint-migration-pipeline
@@ -84,6 +89,9 @@ jobs:
           fi
           if [ "${{ github.event.inputs.verify_only }}" = "true" ]; then
             ARGS="$ARGS --verify-only"
+          fi
+          if [ -n "${{ github.event.inputs.max_runtime_hours }}" ]; then
+            ARGS="$ARGS --max-runtime-hours ${{ github.event.inputs.max_runtime_hours }}"
           fi
 
           echo "==========================================================="

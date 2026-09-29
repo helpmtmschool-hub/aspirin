@@ -238,19 +238,30 @@ def collect_records(subjects: List[str]) -> List[tuple]:
 
 
 def migrate(new: TokenManager, old: TokenManager, subjects: List[str],
-            limit: Optional[int], dry_run: bool, cooldown: float, verify_only: bool) -> int:
+            limit: Optional[int], dry_run: bool, cooldown: float, verify_only: bool,
+            max_runtime_hours: Optional[float] = 5.5) -> int:
     records = collect_records(subjects)
     total_bytes = sum(item.get("size_bytes", 0) for _, item, _ in records)
     manifest = load_manifest()
+    start_time = time.time()
+    max_runtime_seconds = (max_runtime_hours * 3600) if (max_runtime_hours and max_runtime_hours > 0) else None
 
     print(f"Records to migrate: {len(records)}   payload: {total_bytes / (1024 ** 3):.2f} GiB")
     print(f"Subjects: {', '.join(sorted(set(r[1]['subject_id'] for r in records)))}")
+    if max_runtime_seconds:
+        print(f"Max runtime: {max_runtime_hours:.2f} hours (graceful exit before 6h timeout)")
     print()
 
     moved = adopted = failed = 0
     for i, (key, item, old_item_id) in enumerate(records, 1):
         if limit and (moved + adopted >= limit or (dry_run and i > limit)):
             print(f"Limit of {limit} files reached.")
+            break
+
+        if max_runtime_seconds and (time.time() - start_time) >= max_runtime_seconds:
+            elapsed_h = (time.time() - start_time) / 3600
+            print(f"\n[GRACEFUL CUTOFF] Reached max runtime limit ({elapsed_h:.2f}h / {max_runtime_hours}h).")
+            print("Stopping cleanly before GitHub Actions 6-hour timeout to allow catalog sync and manifest commit.")
             break
 
         subj = item["subject_id"]
@@ -362,6 +373,8 @@ def main():
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--cooldown", type=float, default=1.5, help="Seconds between files")
     ap.add_argument("--verify-only", action="store_true", help="Report destination coverage without uploading")
+    ap.add_argument("--max-runtime-hours", type=float, default=5.5,
+                    help="Max runtime in hours before graceful exit (default: 5.5, 0=unlimited)")
     args = ap.parse_args()
 
     # Normalize and validate subjects
@@ -386,7 +399,7 @@ def main():
     print("=" * 70)
     print()
 
-    failed = migrate(new, old, args.subjects, args.limit, args.dry_run, args.cooldown, args.verify_only)
+    failed = migrate(new, old, args.subjects, args.limit, args.dry_run, args.cooldown, args.verify_only, args.max_runtime_hours)
     sys.exit(1 if failed else 0)
 
 
