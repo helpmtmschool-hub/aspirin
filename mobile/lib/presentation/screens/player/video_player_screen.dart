@@ -318,6 +318,8 @@ class _VideoPlayerScreenState extends ConsumerState<VideoPlayerScreen> {
                     ],
                   ),
                 ),
+              ),
+
             // Brightness / Volume Gesture HUD Indicator
             if (_gestureOverlayText != null && _gestureOverlayIcon != null)
               Center(

@@ -88,3 +88,26 @@ class AspirinCipherEngine {
     return counter;
   }
 }
+
+/// Convenience engine subclass exposing chunk decryption by byte offset
+class CipherEngine extends AspirinCipherEngine {
+  CipherEngine({Uint8List? masterKey})
+      : super(masterKey: masterKey ?? Uint8List(32));
+
+  Uint8List decryptBytesAtOffset({
+    required Uint8List key,
+    required Uint8List iv,
+    required int byteOffset,
+    required Uint8List ciphertext,
+  }) {
+    final int startBlock = byteOffset ~/ 16;
+    final effectiveIv = _incrementCounter(iv, startBlock);
+
+    final cipher = CTRStreamCipher(AESEngine())
+      ..init(false, ParametersWithIV(KeyParameter(key), effectiveIv));
+
+    final decrypted = Uint8List(ciphertext.length);
+    cipher.processBytes(ciphertext, 0, ciphertext.length, decrypted, 0);
+    return decrypted;
+  }
+}

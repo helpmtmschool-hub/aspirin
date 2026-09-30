@@ -9,6 +9,7 @@ import '../../../core/security/cipher_engine.dart';
 import '../../../core/security/secure_vault.dart';
 import '../../../domain/entities/note.dart';
 import '../../state/download_state.dart';
+import '../../state/subjects_state.dart';
 
 class NotesReaderScreen extends ConsumerStatefulWidget {
   final NoteItem note;

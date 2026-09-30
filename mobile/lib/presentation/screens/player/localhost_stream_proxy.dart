@@ -73,7 +73,7 @@ class LocalhostStreamProxy {
         }
 
         if (start >= cipherLength) {
-          request.response.statusCode = HttpStatus.rangeNotSatisfiable;
+          request.response.statusCode = HttpStatus.requestedRangeNotSatisfiable;
           request.response.headers.set(HttpHeaders.contentRangeHeader, 'bytes */$cipherLength');
           await request.response.close();
           await randomAccess.close();

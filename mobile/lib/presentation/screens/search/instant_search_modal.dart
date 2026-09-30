@@ -3,7 +3,6 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 import 'package:lucide_icons/lucide_icons.dart';
 import '../../../app/theme/app_colors.dart';
-import '../../../domain/entities/subject.dart';
 import '../../common/empty_state_view.dart';
 import '../../common/prominent_search_bar.dart';
 import '../../state/subjects_state.dart';

@@ -4,6 +4,8 @@ enum MBBSProf {
   prof3Part1('3rd Prof Part 1', 'Minor Clinical'),
   profFinalPart2('Final Prof Part 2', 'Major Clinical');
 
+  static const MBBSProf prof3Part2 = MBBSProf.profFinalPart2;
+
   final String label;
   final String category;
   const MBBSProf(this.label, this.category);
@@ -28,6 +30,8 @@ enum PlatformId {
   prepxHi('prepx_hi', 'PrepLadder (HI)', '🇮🇳'),
   marrow('marrow', 'Marrow E6', '🩺'),
   cerebellum('cerebellum', 'Cerebellum', '🎓');
+
+  static const PlatformId marrowE6 = PlatformId.marrow;
 
   final String code;
   final String label;
@@ -86,4 +90,7 @@ class Subject {
     ],
     this.leadFaculty,
   });
+
+  double get progressRatio =>
+      totalTopics > 0 ? (completedTopics / totalTopics).clamp(0.0, 1.0) : 0.0;
 }

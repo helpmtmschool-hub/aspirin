@@ -34,6 +34,9 @@ class DurationFormatter {
     return '${minutes} mins';
   }
 
+  /// Alias for formatHuman
+  static String formatMinutes(int seconds) => formatHuman(seconds);
+
   /// Formats remaining time (e.g. "18m remaining")
   static String formatRemaining(double watchedSecs, double totalSecs) {
     final remaining = (totalSecs - watchedSecs).toInt();

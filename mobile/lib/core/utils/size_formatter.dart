@@ -15,4 +15,7 @@ class SizeFormatter {
     if (i == 0) return '$bytes B';
     return '${count.toStringAsFixed(1)} ${suffixes[i]}';
   }
+
+  /// Alias for format
+  static String formatBytes(int bytes) => format(bytes);
 }

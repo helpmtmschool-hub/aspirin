@@ -66,6 +66,8 @@ class AuthNotifier extends StateNotifier<AuthState> {
     _checkInitialAuth();
   }
 
+  ApiClient get apiClient => _apiClient;
+
   Future<void> _checkInitialAuth() async {
     try {
       final token = await _storage.read(key: 'clerk_session_token');

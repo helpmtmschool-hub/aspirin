@@ -19,15 +19,15 @@ class Topic {
 
   const Topic({
     required this.id,
-    required this.subjectId,
-    required this.moduleId,
+    this.subjectId = '',
+    this.moduleId = '',
     required this.title,
-    required this.filename,
-    required this.fileSizeBytes,
+    this.filename = '',
+    this.fileSizeBytes = 0,
     required this.durationSeconds,
-    required this.durationFormatted,
-    required this.telegramChatId,
-    required this.telegramMessageId,
+    this.durationFormatted = '',
+    this.telegramChatId = 0,
+    this.telegramMessageId = 0,
     this.pearls = const [],
     this.watchedSeconds = 0.0,
     this.isCompleted = false,
@@ -35,7 +35,12 @@ class Topic {
     this.faculty,
     this.directStreamUrl,
     this.isDownloaded = false,
+    bool? isWatched,
+    String? videoUrl,
   });
+
+  bool get isWatched => isCompleted || watchedSeconds > 0;
+  String get videoUrl => directStreamUrl ?? '';
 
   /// Percentage completed (0.0 to 1.0)
   double get progressFraction {
