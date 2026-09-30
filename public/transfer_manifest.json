@@ -5382,12 +5382,12 @@
     "filename": "6. Placenta.mp4",
     "platform": "marrow",
     "subject_id": "obg",
-    "folder_path": "04_Marrow_Edition_6/13_Obstetrics_and_Gynecology",
+    "folder_path": "Marrow_E6/OBG",
     "telegram_chat_id": -1003264222864,
     "telegram_message_id": 429,
-    "onedrive_item_id": "01UVXU6W46WL7KOSASGJAKSVEOJYETXWPH",
-    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/6. Placenta.mp4",
-    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/6.%20Placenta.mp4",
+    "onedrive_item_id": "012RONM2WDYU25AN37YVG2GE53FZYGDYGM",
+    "onedrive_path": "/Aspirin_LMS/Marrow_E6/OBG/6. Placenta.mp4",
+    "web_url": "https://openmedq.sharepoint.com/Shared%20Documents/Aspirin_LMS/Marrow_E6/OBG/6.%20Placenta.mp4",
     "size_bytes": 585517349,
     "duration_seconds": 3030,
     "duration_formatted": "50m 30s",
@@ -5414,19 +5414,24 @@
           "title": "6 Placenta"
         }
       ]
-    }
+    },
+    "source_onedrive_item_id": "01UVXU6W46WL7KOSASGJAKSVEOJYETXWPH",
+    "source_onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/6. Placenta.mp4",
+    "source_sp_filename": "6. Placenta.mp4",
+    "openmedq_migrated": true,
+    "migrated_to_openmedq_at": "2026-09-30T07:32:08Z"
   },
   "mr_-1003264222864_430": {
     "title": "7. Placental Functions",
     "filename": "7. Placental Functions.mp4",
     "platform": "marrow",
     "subject_id": "obg",
-    "folder_path": "04_Marrow_Edition_6/13_Obstetrics_and_Gynecology",
+    "folder_path": "Marrow_E6/OBG",
     "telegram_chat_id": -1003264222864,
     "telegram_message_id": 430,
-    "onedrive_item_id": "01UVXU6W5H4Y4XNP32LFB3ZQ5WWYTSEIMB",
-    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/7. Placental Functions.mp4",
-    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/7.%20Placental%20Functions.mp4",
+    "onedrive_item_id": "012RONM2TU6LZ4CZO5PZBI25HPU75UOQDL",
+    "onedrive_path": "/Aspirin_LMS/Marrow_E6/OBG/7. Placental Functions.mp4",
+    "web_url": "https://openmedq.sharepoint.com/Shared%20Documents/Aspirin_LMS/Marrow_E6/OBG/7.%20Placental%20Functions.mp4",
     "size_bytes": 988627685,
     "duration_seconds": 4671,
     "duration_formatted": "1h 17m",
@@ -5453,19 +5458,24 @@
           "title": "7 Placental Functions"
         }
       ]
-    }
+    },
+    "source_onedrive_item_id": "01UVXU6W5H4Y4XNP32LFB3ZQ5WWYTSEIMB",
+    "source_onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/7. Placental Functions.mp4",
+    "source_sp_filename": "7. Placental Functions.mp4",
+    "openmedq_migrated": true,
+    "migrated_to_openmedq_at": "2026-09-30T08:33:45Z"
   },
   "mr_-1003264222864_431": {
     "title": "8. Placental Anomalies",
     "filename": "8. Placental Anomalies.mp4",
     "platform": "marrow",
     "subject_id": "obg",
-    "folder_path": "04_Marrow_Edition_6/13_Obstetrics_and_Gynecology",
+    "folder_path": "Marrow_E6/OBG",
     "telegram_chat_id": -1003264222864,
     "telegram_message_id": 431,
-    "onedrive_item_id": "01UVXU6W6KEXMV5ICBLBHLDLNGUZCRTDKG",
-    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/8. Placental Anomalies.mp4",
-    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/8.%20Placental%20Anomalies.mp4",
+    "onedrive_item_id": "012RONM2QIMC25A7DOGNAKQPUAFLSUJCH7",
+    "onedrive_path": "/Aspirin_LMS/Marrow_E6/OBG/8. Placental Anomalies.mp4",
+    "web_url": "https://openmedq.sharepoint.com/Shared%20Documents/Aspirin_LMS/Marrow_E6/OBG/8.%20Placental%20Anomalies.mp4",
     "size_bytes": 293774483,
     "duration_seconds": 1569,
     "duration_formatted": "26m 9s",
@@ -5492,19 +5502,24 @@
           "title": "8 Placental Anomalies"
         }
       ]
-    }
+    },
+    "source_onedrive_item_id": "01UVXU6W6KEXMV5ICBLBHLDLNGUZCRTDKG",
+    "source_onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/8. Placental Anomalies.mp4",
+    "source_sp_filename": "8. Placental Anomalies.mp4",
+    "openmedq_migrated": true,
+    "migrated_to_openmedq_at": "2026-09-30T09:53:03Z"
   },
   "mr_-1003264222864_432": {
     "title": "9. Cord and Anomalies",
     "filename": "9. Cord and Anomalies.mp4",
     "platform": "marrow",
     "subject_id": "obg",
-    "folder_path": "04_Marrow_Edition_6/13_Obstetrics_and_Gynecology",
+    "folder_path": "Marrow_E6/OBG",
     "telegram_chat_id": -1003264222864,
     "telegram_message_id": 432,
-    "onedrive_item_id": "01UVXU6W3ZBUU7WSVVMVCIURHOUNOPBMSC",
-    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/9. Cord and Anomalies.mp4",
-    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/9.%20Cord%20and%20Anomalies.mp4",
+    "onedrive_item_id": "012RONM2QYJKR7KSWJ7ZCJF5KNDBBVTJNX",
+    "onedrive_path": "/Aspirin_LMS/Marrow_E6/OBG/9. Cord and Anomalies.mp4",
+    "web_url": "https://openmedq.sharepoint.com/Shared%20Documents/Aspirin_LMS/Marrow_E6/OBG/9.%20Cord%20and%20Anomalies.mp4",
     "size_bytes": 841427481,
     "duration_seconds": 5093,
     "duration_formatted": "1h 24m",
@@ -5531,7 +5546,12 @@
           "title": "9 Cord & Anomalies"
         }
       ]
-    }
+    },
+    "source_onedrive_item_id": "01UVXU6W3ZBUU7WSVVMVCIURHOUNOPBMSC",
+    "source_onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/9. Cord and Anomalies.mp4",
+    "source_sp_filename": "9. Cord and Anomalies.mp4",
+    "openmedq_migrated": true,
+    "migrated_to_openmedq_at": "2026-09-30T10:46:30Z"
   },
   "mr_-1003264222864_433": {
     "title": "10. Amniotic Fluid and Its Disorders Part 1",
@@ -7518,12 +7538,12 @@
     "filename": "55. Instrumental Delivery.mp4",
     "platform": "marrow",
     "subject_id": "obg",
-    "folder_path": "04_Marrow_Edition_6/13_Obstetrics_and_Gynecology",
+    "folder_path": "Marrow_E6/OBG",
     "telegram_chat_id": -1003264222864,
     "telegram_message_id": 478,
-    "onedrive_item_id": "01UVXU6WZXYBTJ634WMVHJSXZIQUO4OLY7",
-    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/55. Instrumental Delivery.mp4",
-    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/55.%20Instrumental%20Delivery.mp4",
+    "onedrive_item_id": "012RONM2XCHEJVPGJFHJELUGCXYHEAISYE",
+    "onedrive_path": "/Aspirin_LMS/Marrow_E6/OBG/55. Instrumental Delivery.mp4",
+    "web_url": "https://openmedq.sharepoint.com/Shared%20Documents/Aspirin_LMS/Marrow_E6/OBG/55.%20Instrumental%20Delivery.mp4",
     "size_bytes": 990918251,
     "duration_seconds": 4414,
     "duration_formatted": "1h 13m",
@@ -7550,19 +7570,24 @@
           "title": "56 Instrumental Delivery"
         }
       ]
-    }
+    },
+    "source_onedrive_item_id": "01UVXU6WZXYBTJ634WMVHJSXZIQUO4OLY7",
+    "source_onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/55. Instrumental Delivery.mp4",
+    "source_sp_filename": "55. Instrumental Delivery.mp4",
+    "openmedq_migrated": true,
+    "migrated_to_openmedq_at": "2026-09-30T06:58:11Z"
   },
   "mr_-1003264222864_479": {
     "title": "56. Cesarean Section",
     "filename": "56. Cesarean Section.mp4",
     "platform": "marrow",
     "subject_id": "obg",
-    "folder_path": "04_Marrow_Edition_6/13_Obstetrics_and_Gynecology",
+    "folder_path": "Marrow_E6/OBG",
     "telegram_chat_id": -1003264222864,
     "telegram_message_id": 479,
-    "onedrive_item_id": "01UVXU6W3VE67KB3F3HNCZWW4JEX4OTY6R",
-    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/56. Cesarean Section.mp4",
-    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/56.%20Cesarean%20Section.mp4",
+    "onedrive_item_id": "012RONM2Q57I7IR4STGJFYSMQFWKAFDQHK",
+    "onedrive_path": "/Aspirin_LMS/Marrow_E6/OBG/56. Cesarean Section.mp4",
+    "web_url": "https://openmedq.sharepoint.com/Shared%20Documents/Aspirin_LMS/Marrow_E6/OBG/56.%20Cesarean%20Section.mp4",
     "size_bytes": 1541006675,
     "duration_seconds": 6040,
     "duration_formatted": "1h 40m",
@@ -7589,19 +7614,24 @@
           "title": "57 Cesarean Section"
         }
       ]
-    }
+    },
+    "source_onedrive_item_id": "01UVXU6W3VE67KB3F3HNCZWW4JEX4OTY6R",
+    "source_onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/56. Cesarean Section.mp4",
+    "source_sp_filename": "56. Cesarean Section.mp4",
+    "openmedq_migrated": true,
+    "migrated_to_openmedq_at": "2026-09-30T07:10:44Z"
   },
   "mr_-1003264222864_480": {
     "title": "57. Puerperium",
     "filename": "57. Puerperium.mp4",
     "platform": "marrow",
     "subject_id": "obg",
-    "folder_path": "04_Marrow_Edition_6/13_Obstetrics_and_Gynecology",
+    "folder_path": "Marrow_E6/OBG",
     "telegram_chat_id": -1003264222864,
     "telegram_message_id": 480,
-    "onedrive_item_id": "01UVXU6WZE3DMW7ZSEK5FLHIAZILNAZVCD",
-    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/57. Puerperium.mp4",
-    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/57.%20Puerperium.mp4",
+    "onedrive_item_id": "012RONM2TCSM77S3DW4ZA3KAC2ZBKNX5K5",
+    "onedrive_path": "/Aspirin_LMS/Marrow_E6/OBG/57. Puerperium.mp4",
+    "web_url": "https://openmedq.sharepoint.com/Shared%20Documents/Aspirin_LMS/Marrow_E6/OBG/57.%20Puerperium.mp4",
     "size_bytes": 236511863,
     "duration_seconds": 1566,
     "duration_formatted": "26m 6s",
@@ -7628,19 +7658,24 @@
           "title": "58 Puerperium"
         }
       ]
-    }
+    },
+    "source_onedrive_item_id": "01UVXU6WZE3DMW7ZSEK5FLHIAZILNAZVCD",
+    "source_onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/57. Puerperium.mp4",
+    "source_sp_filename": "57. Puerperium.mp4",
+    "openmedq_migrated": true,
+    "migrated_to_openmedq_at": "2026-09-30T07:12:49Z"
   },
   "mr_-1003264222864_481": {
     "title": "58. Menstrual Cycle",
     "filename": "58. Menstrual Cycle.mp4",
     "platform": "marrow",
     "subject_id": "obg",
-    "folder_path": "04_Marrow_Edition_6/13_Obstetrics_and_Gynecology",
+    "folder_path": "Marrow_E6/OBG",
     "telegram_chat_id": -1003264222864,
     "telegram_message_id": 481,
-    "onedrive_item_id": "01UVXU6W5D7XE34GBDERA3T4CIEUHSM7F7",
-    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/58. Menstrual Cycle.mp4",
-    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/58.%20Menstrual%20Cycle.mp4",
+    "onedrive_item_id": "012RONM2TFAB2C6XBLXZFLCTDTJ3THYDFX",
+    "onedrive_path": "/Aspirin_LMS/Marrow_E6/OBG/58. Menstrual Cycle.mp4",
+    "web_url": "https://openmedq.sharepoint.com/Shared%20Documents/Aspirin_LMS/Marrow_E6/OBG/58.%20Menstrual%20Cycle.mp4",
     "size_bytes": 1033217288,
     "duration_seconds": 6727,
     "duration_formatted": "1h 52m",
@@ -7667,19 +7702,24 @@
           "title": "59 Menstrual Cycle"
         }
       ]
-    }
+    },
+    "source_onedrive_item_id": "01UVXU6W5D7XE34GBDERA3T4CIEUHSM7F7",
+    "source_onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/58. Menstrual Cycle.mp4",
+    "source_sp_filename": "58. Menstrual Cycle.mp4",
+    "openmedq_migrated": true,
+    "migrated_to_openmedq_at": "2026-09-30T07:21:09Z"
   },
   "mr_-1003264222864_482": {
     "title": "59. Atypical Uterine Bleeding Part 1",
     "filename": "59. Atypical Uterine Bleeding Part 1.mp4",
     "platform": "marrow",
     "subject_id": "obg",
-    "folder_path": "04_Marrow_Edition_6/13_Obstetrics_and_Gynecology",
+    "folder_path": "Marrow_E6/OBG",
     "telegram_chat_id": -1003264222864,
     "telegram_message_id": 482,
-    "onedrive_item_id": "01UVXU6W6XQIS3O7DKBZBYPWBJ6Y725AY5",
-    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/59. Atypical Uterine Bleeding Part 1.mp4",
-    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/59.%20Atypical%20Uterine%20Bleeding%20Part%201.mp4",
+    "onedrive_item_id": "012RONM2VU3IXFWM3TM5CL7TIIQZOMB6OG",
+    "onedrive_path": "/Aspirin_LMS/Marrow_E6/OBG/59. Atypical Uterine Bleeding Part 1.mp4",
+    "web_url": "https://openmedq.sharepoint.com/Shared%20Documents/Aspirin_LMS/Marrow_E6/OBG/59.%20Atypical%20Uterine%20Bleeding%20Part%201.mp4",
     "size_bytes": 822557592,
     "duration_seconds": 4642,
     "duration_formatted": "1h 17m",
@@ -7706,19 +7746,24 @@
           "title": "60 Atypical Uterine Bleeding Part 1"
         }
       ]
-    }
+    },
+    "source_onedrive_item_id": "01UVXU6W6XQIS3O7DKBZBYPWBJ6Y725AY5",
+    "source_onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/59. Atypical Uterine Bleeding Part 1.mp4",
+    "source_sp_filename": "59. Atypical Uterine Bleeding Part 1.mp4",
+    "openmedq_migrated": true,
+    "migrated_to_openmedq_at": "2026-09-30T07:27:37Z"
   },
   "mr_-1003264222864_483": {
     "title": "60. Atypical Uterine Bleeding Part 2",
     "filename": "60. Atypical Uterine Bleeding Part 2.mp4",
     "platform": "marrow",
     "subject_id": "obg",
-    "folder_path": "04_Marrow_Edition_6/13_Obstetrics_and_Gynecology",
+    "folder_path": "Marrow_E6/OBG",
     "telegram_chat_id": -1003264222864,
     "telegram_message_id": 483,
-    "onedrive_item_id": "01UVXU6W353BBC5HSS4FEZ3LGEIHVC5CMB",
-    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/60. Atypical Uterine Bleeding Part 2.mp4",
-    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/60.%20Atypical%20Uterine%20Bleeding%20Part%202.mp4",
+    "onedrive_item_id": "012RONM2UL5YL6IOE7MZAI5SS4GHGIXEJ2",
+    "onedrive_path": "/Aspirin_LMS/Marrow_E6/OBG/60. Atypical Uterine Bleeding Part 2.mp4",
+    "web_url": "https://openmedq.sharepoint.com/Shared%20Documents/Aspirin_LMS/Marrow_E6/OBG/60.%20Atypical%20Uterine%20Bleeding%20Part%202.mp4",
     "size_bytes": 705695565,
     "duration_seconds": 3909,
     "duration_formatted": "1h 5m",
@@ -7745,19 +7790,24 @@
           "title": "61 Atypical Uterine Bleeding Part-2"
         }
       ]
-    }
+    },
+    "source_onedrive_item_id": "01UVXU6W353BBC5HSS4FEZ3LGEIHVC5CMB",
+    "source_onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/60. Atypical Uterine Bleeding Part 2.mp4",
+    "source_sp_filename": "60. Atypical Uterine Bleeding Part 2.mp4",
+    "openmedq_migrated": true,
+    "migrated_to_openmedq_at": "2026-09-30T07:38:53Z"
   },
   "mr_-1003264222864_484": {
     "title": "61. Dysmenorrhea",
     "filename": "61. Dysmenorrhea.mp4",
     "platform": "marrow",
     "subject_id": "obg",
-    "folder_path": "04_Marrow_Edition_6/13_Obstetrics_and_Gynecology",
+    "folder_path": "Marrow_E6/OBG",
     "telegram_chat_id": -1003264222864,
     "telegram_message_id": 484,
-    "onedrive_item_id": "01UVXU6WZMG3272JQIPNB3M7XZOC4YJ64U",
-    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/61. Dysmenorrhea.mp4",
-    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/61.%20Dysmenorrhea.mp4",
+    "onedrive_item_id": "012RONM2VHZKWARPMPTRFI5JA3YQMWGDLB",
+    "onedrive_path": "/Aspirin_LMS/Marrow_E6/OBG/61. Dysmenorrhea.mp4",
+    "web_url": "https://openmedq.sharepoint.com/Shared%20Documents/Aspirin_LMS/Marrow_E6/OBG/61.%20Dysmenorrhea.mp4",
     "size_bytes": 143088883,
     "duration_seconds": 901,
     "duration_formatted": "15m 1s",
@@ -7784,19 +7834,24 @@
           "title": "62 Dysmennorhea"
         }
       ]
-    }
+    },
+    "source_onedrive_item_id": "01UVXU6WZMG3272JQIPNB3M7XZOC4YJ64U",
+    "source_onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/61. Dysmenorrhea.mp4",
+    "source_sp_filename": "61. Dysmenorrhea.mp4",
+    "openmedq_migrated": true,
+    "migrated_to_openmedq_at": "2026-09-30T07:40:10Z"
   },
   "mr_-1003264222864_485": {
     "title": "62. Gynecology Anatomy Integration Part 1",
     "filename": "62. Gynecology Anatomy Integration Part 1.mp4",
     "platform": "marrow",
     "subject_id": "obg",
-    "folder_path": "04_Marrow_Edition_6/13_Obstetrics_and_Gynecology",
+    "folder_path": "Marrow_E6/OBG",
     "telegram_chat_id": -1003264222864,
     "telegram_message_id": 485,
-    "onedrive_item_id": "01UVXU6W2OM4F6IEEG4VHJHHNIENCC2SS4",
-    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/62. Gynecology Anatomy Integration Part 1.mp4",
-    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/62.%20Gynecology%20Anatomy%20Integration%20Part%201.mp4",
+    "onedrive_item_id": "012RONM2T76WCJVRWPL5BL7T47RHNETSYZ",
+    "onedrive_path": "/Aspirin_LMS/Marrow_E6/OBG/62. Gynecology Anatomy Integration Part 1.mp4",
+    "web_url": "https://openmedq.sharepoint.com/Shared%20Documents/Aspirin_LMS/Marrow_E6/OBG/62.%20Gynecology%20Anatomy%20Integration%20Part%201.mp4",
     "size_bytes": 512129194,
     "duration_seconds": 2878,
     "duration_formatted": "47m 58s",
@@ -7823,19 +7878,24 @@
           "title": "63 Gynecology Anatomy Integration Part-1"
         }
       ]
-    }
+    },
+    "source_onedrive_item_id": "01UVXU6W2OM4F6IEEG4VHJHHNIENCC2SS4",
+    "source_onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/62. Gynecology Anatomy Integration Part 1.mp4",
+    "source_sp_filename": "62. Gynecology Anatomy Integration Part 1.mp4",
+    "openmedq_migrated": true,
+    "migrated_to_openmedq_at": "2026-09-30T07:44:08Z"
   },
   "mr_-1003264222864_486": {
     "title": "63. Gynecology Anatomy Integration Part 2",
     "filename": "63. Gynecology Anatomy Integration Part 2.mp4",
     "platform": "marrow",
     "subject_id": "obg",
-    "folder_path": "04_Marrow_Edition_6/13_Obstetrics_and_Gynecology",
+    "folder_path": "Marrow_E6/OBG",
     "telegram_chat_id": -1003264222864,
     "telegram_message_id": 486,
-    "onedrive_item_id": "01UVXU6W3CUWXRLQ7WMZGYDSXTMV2CDBJE",
-    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/63. Gynecology Anatomy Integration Part 2.mp4",
-    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/63.%20Gynecology%20Anatomy%20Integration%20Part%202.mp4",
+    "onedrive_item_id": "012RONM2SMEG76Z7ZMQJEIZDUSSPFFV4NE",
+    "onedrive_path": "/Aspirin_LMS/Marrow_E6/OBG/63. Gynecology Anatomy Integration Part 2.mp4",
+    "web_url": "https://openmedq.sharepoint.com/Shared%20Documents/Aspirin_LMS/Marrow_E6/OBG/63.%20Gynecology%20Anatomy%20Integration%20Part%202.mp4",
     "size_bytes": 703975818,
     "duration_seconds": 3294,
     "duration_formatted": "54m 54s",
@@ -7862,19 +7922,24 @@
           "title": "64 Gynecology Anatomy Integration Part-2"
         }
       ]
-    }
+    },
+    "source_onedrive_item_id": "01UVXU6W3CUWXRLQ7WMZGYDSXTMV2CDBJE",
+    "source_onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/63. Gynecology Anatomy Integration Part 2.mp4",
+    "source_sp_filename": "63. Gynecology Anatomy Integration Part 2.mp4",
+    "openmedq_migrated": true,
+    "migrated_to_openmedq_at": "2026-09-30T07:49:38Z"
   },
   "mr_-1003264222864_487": {
     "title": "64. Gynecology Anatomy Integration Part 3",
     "filename": "64. Gynecology Anatomy Integration Part 3.mp4",
     "platform": "marrow",
     "subject_id": "obg",
-    "folder_path": "04_Marrow_Edition_6/13_Obstetrics_and_Gynecology",
+    "folder_path": "Marrow_E6/OBG",
     "telegram_chat_id": -1003264222864,
     "telegram_message_id": 487,
-    "onedrive_item_id": "01UVXU6W3BELW2DGFAINGL577SW6XDNXW3",
-    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/64. Gynecology Anatomy Integration Part 3.mp4",
-    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/64.%20Gynecology%20Anatomy%20Integration%20Part%203.mp4",
+    "onedrive_item_id": "012RONM2QDOIKPZ4PGX5BLSOJ3HSI2YG3B",
+    "onedrive_path": "/Aspirin_LMS/Marrow_E6/OBG/64. Gynecology Anatomy Integration Part 3.mp4",
+    "web_url": "https://openmedq.sharepoint.com/Shared%20Documents/Aspirin_LMS/Marrow_E6/OBG/64.%20Gynecology%20Anatomy%20Integration%20Part%203.mp4",
     "size_bytes": 928202102,
     "duration_seconds": 5610,
     "duration_formatted": "1h 33m",
@@ -7901,19 +7966,24 @@
           "title": "65 Gynecology Anat Integration Part-3"
         }
       ]
-    }
+    },
+    "source_onedrive_item_id": "01UVXU6W3BELW2DGFAINGL577SW6XDNXW3",
+    "source_onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/64. Gynecology Anatomy Integration Part 3.mp4",
+    "source_sp_filename": "64. Gynecology Anatomy Integration Part 3.mp4",
+    "openmedq_migrated": true,
+    "migrated_to_openmedq_at": "2026-09-30T07:56:54Z"
   },
   "mr_-1003264222864_488": {
     "title": "65. Gynecology Anatomy Integration Part 4",
     "filename": "65. Gynecology Anatomy Integration Part 4.mp4",
     "platform": "marrow",
     "subject_id": "obg",
-    "folder_path": "04_Marrow_Edition_6/13_Obstetrics_and_Gynecology",
+    "folder_path": "Marrow_E6/OBG",
     "telegram_chat_id": -1003264222864,
     "telegram_message_id": 488,
-    "onedrive_item_id": "01UVXU6W2KG7NSPE2BSRHKWZ5V74NYEESF",
-    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/65. Gynecology Anatomy Integration Part 4.mp4",
-    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/65.%20Gynecology%20Anatomy%20Integration%20Part%204.mp4",
+    "onedrive_item_id": "012RONM2XDEUNZXJNHKJH2ZJLDG7R2GUWF",
+    "onedrive_path": "/Aspirin_LMS/Marrow_E6/OBG/65. Gynecology Anatomy Integration Part 4.mp4",
+    "web_url": "https://openmedq.sharepoint.com/Shared%20Documents/Aspirin_LMS/Marrow_E6/OBG/65.%20Gynecology%20Anatomy%20Integration%20Part%204.mp4",
     "size_bytes": 400516514,
     "duration_seconds": 2683,
     "duration_formatted": "44m 43s",
@@ -7940,19 +8010,24 @@
           "title": "66 Gynaecology Anat Integration Part-4"
         }
       ]
-    }
+    },
+    "source_onedrive_item_id": "01UVXU6W2KG7NSPE2BSRHKWZ5V74NYEESF",
+    "source_onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/65. Gynecology Anatomy Integration Part 4.mp4",
+    "source_sp_filename": "65. Gynecology Anatomy Integration Part 4.mp4",
+    "openmedq_migrated": true,
+    "migrated_to_openmedq_at": "2026-09-30T08:00:13Z"
   },
   "mr_-1003264222864_489": {
     "title": "66. Gynecology Physiology Integration Part 1",
     "filename": "66. Gynecology Physiology Integration Part 1.mp4",
     "platform": "marrow",
     "subject_id": "obg",
-    "folder_path": "04_Marrow_Edition_6/13_Obstetrics_and_Gynecology",
+    "folder_path": "Marrow_E6/OBG",
     "telegram_chat_id": -1003264222864,
     "telegram_message_id": 489,
-    "onedrive_item_id": "01UVXU6W5WZR2UYL6DUJH3WU7BWIJ65ES5",
-    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/66. Gynecology Physiology Integration Part 1.mp4",
-    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/66.%20Gynecology%20Physiology%20Integration%20Part%201.mp4",
+    "onedrive_item_id": "012RONM2TJSTIA3KZ3KZAIY2AX6BA4TW6U",
+    "onedrive_path": "/Aspirin_LMS/Marrow_E6/OBG/66. Gynecology Physiology Integration Part 1.mp4",
+    "web_url": "https://openmedq.sharepoint.com/Shared%20Documents/Aspirin_LMS/Marrow_E6/OBG/66.%20Gynecology%20Physiology%20Integration%20Part%201.mp4",
     "size_bytes": 755434211,
     "duration_seconds": 3474,
     "duration_formatted": "57m 54s",
@@ -7979,19 +8054,24 @@
           "title": "67 Gyanecology Physiology Integration Part-1"
         }
       ]
-    }
+    },
+    "source_onedrive_item_id": "01UVXU6W5WZR2UYL6DUJH3WU7BWIJ65ES5",
+    "source_onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/66. Gynecology Physiology Integration Part 1.mp4",
+    "source_sp_filename": "66. Gynecology Physiology Integration Part 1.mp4",
+    "openmedq_migrated": true,
+    "migrated_to_openmedq_at": "2026-09-30T08:06:03Z"
   },
   "mr_-1003264222864_490": {
     "title": "67. Gynecology Physiology Integration Part 2",
     "filename": "67. Gynecology Physiology Integration Part 2.mp4",
     "platform": "marrow",
     "subject_id": "obg",
-    "folder_path": "04_Marrow_Edition_6/13_Obstetrics_and_Gynecology",
+    "folder_path": "Marrow_E6/OBG",
     "telegram_chat_id": -1003264222864,
     "telegram_message_id": 490,
-    "onedrive_item_id": "01UVXU6W7RPN75SZIOSREZ4NP52AA57W5A",
-    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/67. Gynecology Physiology Integration Part 2.mp4",
-    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/67.%20Gynecology%20Physiology%20Integration%20Part%202.mp4",
+    "onedrive_item_id": "012RONM2SC2GBLE6F7Z5FLMWXWFV2DSGAX",
+    "onedrive_path": "/Aspirin_LMS/Marrow_E6/OBG/67. Gynecology Physiology Integration Part 2.mp4",
+    "web_url": "https://openmedq.sharepoint.com/Shared%20Documents/Aspirin_LMS/Marrow_E6/OBG/67.%20Gynecology%20Physiology%20Integration%20Part%202.mp4",
     "size_bytes": 567847557,
     "duration_seconds": 2875,
     "duration_formatted": "47m 55s",
@@ -8018,19 +8098,24 @@
           "title": "68 Gyanecology Physiology Integration Part-2"
         }
       ]
-    }
+    },
+    "source_onedrive_item_id": "01UVXU6W7RPN75SZIOSREZ4NP52AA57W5A",
+    "source_onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/67. Gynecology Physiology Integration Part 2.mp4",
+    "source_sp_filename": "67. Gynecology Physiology Integration Part 2.mp4",
+    "openmedq_migrated": true,
+    "migrated_to_openmedq_at": "2026-09-30T08:10:30Z"
   },
   "mr_-1003264222864_491": {
     "title": "68. Gynecology Pharmacology Integration Part 1",
     "filename": "68. Gynecology Pharmacology Integration Part 1.mp4",
     "platform": "marrow",
     "subject_id": "obg",
-    "folder_path": "04_Marrow_Edition_6/13_Obstetrics_and_Gynecology",
+    "folder_path": "Marrow_E6/OBG",
     "telegram_chat_id": -1003264222864,
     "telegram_message_id": 491,
-    "onedrive_item_id": "01UVXU6W2GPEAM3JI6VRFLH4DBVKHYZ2J4",
-    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/68. Gynecology Pharmacology Integration Part 1.mp4",
-    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/68.%20Gynecology%20Pharmacology%20Integration%20Part%201.mp4",
+    "onedrive_item_id": "012RONM2QRNPVSXYHJ7JBY53SFVB2NSWMG",
+    "onedrive_path": "/Aspirin_LMS/Marrow_E6/OBG/68. Gynecology Pharmacology Integration Part 1.mp4",
+    "web_url": "https://openmedq.sharepoint.com/Shared%20Documents/Aspirin_LMS/Marrow_E6/OBG/68.%20Gynecology%20Pharmacology%20Integration%20Part%201.mp4",
     "size_bytes": 802619710,
     "duration_seconds": 2869,
     "duration_formatted": "47m 49s",
@@ -8057,19 +8142,24 @@
           "title": "69 Gyanecology Pharmacology Integration Part-1"
         }
       ]
-    }
+    },
+    "source_onedrive_item_id": "01UVXU6W2GPEAM3JI6VRFLH4DBVKHYZ2J4",
+    "source_onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/68. Gynecology Pharmacology Integration Part 1.mp4",
+    "source_sp_filename": "68. Gynecology Pharmacology Integration Part 1.mp4",
+    "openmedq_migrated": true,
+    "migrated_to_openmedq_at": "2026-09-30T08:16:48Z"
   },
   "mr_-1003264222864_492": {
     "title": "69. Gynecology Pharmacology Integration Part 2",
     "filename": "69. Gynecology Pharmacology Integration Part 2.mp4",
     "platform": "marrow",
     "subject_id": "obg",
-    "folder_path": "04_Marrow_Edition_6/13_Obstetrics_and_Gynecology",
+    "folder_path": "Marrow_E6/OBG",
     "telegram_chat_id": -1003264222864,
     "telegram_message_id": 492,
-    "onedrive_item_id": "01UVXU6W6OUFWAW5JBEFALD7OSUZWRCZYP",
-    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/69. Gynecology Pharmacology Integration Part 2.mp4",
-    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/69.%20Gynecology%20Pharmacology%20Integration%20Part%202.mp4",
+    "onedrive_item_id": "012RONM2QTCENPQUOYUVAKA6R7U3XQWMFV",
+    "onedrive_path": "/Aspirin_LMS/Marrow_E6/OBG/69. Gynecology Pharmacology Integration Part 2.mp4",
+    "web_url": "https://openmedq.sharepoint.com/Shared%20Documents/Aspirin_LMS/Marrow_E6/OBG/69.%20Gynecology%20Pharmacology%20Integration%20Part%202.mp4",
     "size_bytes": 1124437089,
     "duration_seconds": 4088,
     "duration_formatted": "1h 8m",
@@ -8096,19 +8186,24 @@
           "title": "70 Gyanecology Pharmacology Integration Part-2"
         }
       ]
-    }
+    },
+    "source_onedrive_item_id": "01UVXU6W6OUFWAW5JBEFALD7OSUZWRCZYP",
+    "source_onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/69. Gynecology Pharmacology Integration Part 2.mp4",
+    "source_sp_filename": "69. Gynecology Pharmacology Integration Part 2.mp4",
+    "openmedq_migrated": true,
+    "migrated_to_openmedq_at": "2026-09-30T08:25:48Z"
   },
   "mr_-1003264222864_493": {
     "title": "70. Gynecology Pharmacology Integration Part 3",
     "filename": "70. Gynecology Pharmacology Integration Part 3.mp4",
     "platform": "marrow",
     "subject_id": "obg",
-    "folder_path": "04_Marrow_Edition_6/13_Obstetrics_and_Gynecology",
+    "folder_path": "Marrow_E6/OBG",
     "telegram_chat_id": -1003264222864,
     "telegram_message_id": 493,
-    "onedrive_item_id": "01UVXU6W4OE5PUOIP6BNFY6SYWCA4NPUWK",
-    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/70. Gynecology Pharmacology Integration Part 3.mp4",
-    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/70.%20Gynecology%20Pharmacology%20Integration%20Part%203.mp4",
+    "onedrive_item_id": "012RONM2U7BYOUAKUCKRG3SMQUX5JNP6VV",
+    "onedrive_path": "/Aspirin_LMS/Marrow_E6/OBG/70. Gynecology Pharmacology Integration Part 3.mp4",
+    "web_url": "https://openmedq.sharepoint.com/Shared%20Documents/Aspirin_LMS/Marrow_E6/OBG/70.%20Gynecology%20Pharmacology%20Integration%20Part%203.mp4",
     "size_bytes": 798380901,
     "duration_seconds": 2889,
     "duration_formatted": "48m 9s",
@@ -8135,19 +8230,24 @@
           "title": "71 Gyaencology Pharmacology Integration Part-3"
         }
       ]
-    }
+    },
+    "source_onedrive_item_id": "01UVXU6W4OE5PUOIP6BNFY6SYWCA4NPUWK",
+    "source_onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/70. Gynecology Pharmacology Integration Part 3.mp4",
+    "source_sp_filename": "70. Gynecology Pharmacology Integration Part 3.mp4",
+    "openmedq_migrated": true,
+    "migrated_to_openmedq_at": "2026-09-30T08:40:15Z"
   },
   "mr_-1003264222864_494": {
     "title": "71. Gynecology Pathology Integration Part 1",
     "filename": "71. Gynecology Pathology Integration Part 1.mp4",
     "platform": "marrow",
     "subject_id": "obg",
-    "folder_path": "04_Marrow_Edition_6/13_Obstetrics_and_Gynecology",
+    "folder_path": "Marrow_E6/OBG",
     "telegram_chat_id": -1003264222864,
     "telegram_message_id": 494,
-    "onedrive_item_id": "01UVXU6W4YNNI2SLX6EFBIMQPSDMG3VFT2",
-    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/71. Gynecology Pathology Integration Part 1.mp4",
-    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/71.%20Gynecology%20Pathology%20Integration%20Part%201.mp4",
+    "onedrive_item_id": "012RONM2QCRP5NY5EMAVELJC3XEZTVA3WL",
+    "onedrive_path": "/Aspirin_LMS/Marrow_E6/OBG/71. Gynecology Pathology Integration Part 1.mp4",
+    "web_url": "https://openmedq.sharepoint.com/Shared%20Documents/Aspirin_LMS/Marrow_E6/OBG/71.%20Gynecology%20Pathology%20Integration%20Part%201.mp4",
     "size_bytes": 812074315,
     "duration_seconds": 3322,
     "duration_formatted": "55m 22s",
@@ -8174,19 +8274,24 @@
           "title": "72 Gyanecology Pathology Integration Part-1"
         }
       ]
-    }
+    },
+    "source_onedrive_item_id": "01UVXU6W4YNNI2SLX6EFBIMQPSDMG3VFT2",
+    "source_onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/71. Gynecology Pathology Integration Part 1.mp4",
+    "source_sp_filename": "71. Gynecology Pathology Integration Part 1.mp4",
+    "openmedq_migrated": true,
+    "migrated_to_openmedq_at": "2026-09-30T08:46:43Z"
   },
   "mr_-1003264222864_495": {
     "title": "72. Gynecology Pathology Integration Part 2",
     "filename": "72. Gynecology Pathology Integration Part 2.mp4",
     "platform": "marrow",
     "subject_id": "obg",
-    "folder_path": "04_Marrow_Edition_6/13_Obstetrics_and_Gynecology",
+    "folder_path": "Marrow_E6/OBG",
     "telegram_chat_id": -1003264222864,
     "telegram_message_id": 495,
-    "onedrive_item_id": "01UVXU6WZ4RYXZOHTQC5GJEX2ATBHDHEXS",
-    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/72. Gynecology Pathology Integration Part 2.mp4",
-    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/72.%20Gynecology%20Pathology%20Integration%20Part%202.mp4",
+    "onedrive_item_id": "012RONM2VDL2DPRSJ4IJHKIX2XYVHMMXVY",
+    "onedrive_path": "/Aspirin_LMS/Marrow_E6/OBG/72. Gynecology Pathology Integration Part 2.mp4",
+    "web_url": "https://openmedq.sharepoint.com/Shared%20Documents/Aspirin_LMS/Marrow_E6/OBG/72.%20Gynecology%20Pathology%20Integration%20Part%202.mp4",
     "size_bytes": 786018854,
     "duration_seconds": 3167,
     "duration_formatted": "52m 47s",
@@ -8213,19 +8318,24 @@
           "title": "73 Gyanecology Pathology Integration Part-2"
         }
       ]
-    }
+    },
+    "source_onedrive_item_id": "01UVXU6WZ4RYXZOHTQC5GJEX2ATBHDHEXS",
+    "source_onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/72. Gynecology Pathology Integration Part 2.mp4",
+    "source_sp_filename": "72. Gynecology Pathology Integration Part 2.mp4",
+    "openmedq_migrated": true,
+    "migrated_to_openmedq_at": "2026-09-30T08:53:19Z"
   },
   "mr_-1003264222864_496": {
     "title": "73. Menopause",
     "filename": "73. Menopause.mp4",
     "platform": "marrow",
     "subject_id": "obg",
-    "folder_path": "04_Marrow_Edition_6/13_Obstetrics_and_Gynecology",
+    "folder_path": "Marrow_E6/OBG",
     "telegram_chat_id": -1003264222864,
     "telegram_message_id": 496,
-    "onedrive_item_id": "01UVXU6W3J6YSSX4NMMZDLHAO2DUSWGA66",
-    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/73. Menopause.mp4",
-    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/73.%20Menopause.mp4",
+    "onedrive_item_id": "012RONM2TQFHA2JGC7JJFZB64DB6XBGPZU",
+    "onedrive_path": "/Aspirin_LMS/Marrow_E6/OBG/73. Menopause.mp4",
+    "web_url": "https://openmedq.sharepoint.com/Shared%20Documents/Aspirin_LMS/Marrow_E6/OBG/73.%20Menopause.mp4",
     "size_bytes": 987557332,
     "duration_seconds": 4636,
     "duration_formatted": "1h 17m",
@@ -8252,19 +8362,24 @@
           "title": "74 Menopause"
         }
       ]
-    }
+    },
+    "source_onedrive_item_id": "01UVXU6W3J6YSSX4NMMZDLHAO2DUSWGA66",
+    "source_onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/73. Menopause.mp4",
+    "source_sp_filename": "73. Menopause.mp4",
+    "openmedq_migrated": true,
+    "migrated_to_openmedq_at": "2026-09-30T09:00:53Z"
   },
   "mr_-1003264222864_497": {
     "title": "74. PCOS Part 1",
     "filename": "74. PCOS Part 1.mp4",
     "platform": "marrow",
     "subject_id": "obg",
-    "folder_path": "04_Marrow_Edition_6/13_Obstetrics_and_Gynecology",
+    "folder_path": "Marrow_E6/OBG",
     "telegram_chat_id": -1003264222864,
     "telegram_message_id": 497,
-    "onedrive_item_id": "01UVXU6WYZJKVEZSESEVGZ3UPQP4GTGSLT",
-    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/74. PCOS Part 1.mp4",
-    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/74.%20PCOS%20Part%201.mp4",
+    "onedrive_item_id": "012RONM2QFQOKD2R3LNBAYVVTFLHJICYRR",
+    "onedrive_path": "/Aspirin_LMS/Marrow_E6/OBG/74. PCOS Part 1.mp4",
+    "web_url": "https://openmedq.sharepoint.com/Shared%20Documents/Aspirin_LMS/Marrow_E6/OBG/74.%20PCOS%20Part%201.mp4",
     "size_bytes": 1057925298,
     "duration_seconds": 4232,
     "duration_formatted": "1h 10m",
@@ -8291,19 +8406,24 @@
           "title": "75 PCOS pt1"
         }
       ]
-    }
+    },
+    "source_onedrive_item_id": "01UVXU6WYZJKVEZSESEVGZ3UPQP4GTGSLT",
+    "source_onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/74. PCOS Part 1.mp4",
+    "source_sp_filename": "74. PCOS Part 1.mp4",
+    "openmedq_migrated": true,
+    "migrated_to_openmedq_at": "2026-09-30T09:09:43Z"
   },
   "mr_-1003264222864_498": {
     "title": "75. PCOS Part 2",
     "filename": "75. PCOS Part 2.mp4",
     "platform": "marrow",
     "subject_id": "obg",
-    "folder_path": "04_Marrow_Edition_6/13_Obstetrics_and_Gynecology",
+    "folder_path": "Marrow_E6/OBG",
     "telegram_chat_id": -1003264222864,
     "telegram_message_id": 498,
-    "onedrive_item_id": "01UVXU6W4KOVMZUM6ZI5HZHKFCE2FY66UU",
-    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/75. PCOS Part 2.mp4",
-    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/75.%20PCOS%20Part%202.mp4",
+    "onedrive_item_id": "012RONM2RMZ7MWSCBWQVG2PQ5F73WD4SVM",
+    "onedrive_path": "/Aspirin_LMS/Marrow_E6/OBG/75. PCOS Part 2.mp4",
+    "web_url": "https://openmedq.sharepoint.com/Shared%20Documents/Aspirin_LMS/Marrow_E6/OBG/75.%20PCOS%20Part%202.mp4",
     "size_bytes": 1002739510,
     "duration_seconds": 5670,
     "duration_formatted": "1h 34m",
@@ -8330,19 +8450,24 @@
           "title": "76 PCOS Part-2"
         }
       ]
-    }
+    },
+    "source_onedrive_item_id": "01UVXU6W4KOVMZUM6ZI5HZHKFCE2FY66UU",
+    "source_onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/75. PCOS Part 2.mp4",
+    "source_sp_filename": "75. PCOS Part 2.mp4",
+    "openmedq_migrated": true,
+    "migrated_to_openmedq_at": "2026-09-30T09:17:29Z"
   },
   "mr_-1003264222864_499": {
     "title": "76. Endometriosis",
     "filename": "76. Endometriosis.mp4",
     "platform": "marrow",
     "subject_id": "obg",
-    "folder_path": "04_Marrow_Edition_6/13_Obstetrics_and_Gynecology",
+    "folder_path": "Marrow_E6/OBG",
     "telegram_chat_id": -1003264222864,
     "telegram_message_id": 499,
-    "onedrive_item_id": "01UVXU6W4MTR7PRE3DIJFJJL2YDQXR6BCY",
-    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/76. Endometriosis.mp4",
-    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/76.%20Endometriosis.mp4",
+    "onedrive_item_id": "012RONM2XKNK5SJDDOOFHYJOH7U3NELCKM",
+    "onedrive_path": "/Aspirin_LMS/Marrow_E6/OBG/76. Endometriosis.mp4",
+    "web_url": "https://openmedq.sharepoint.com/Shared%20Documents/Aspirin_LMS/Marrow_E6/OBG/76.%20Endometriosis.mp4",
     "size_bytes": 1056417420,
     "duration_seconds": 5618,
     "duration_formatted": "1h 33m",
@@ -8369,19 +8494,24 @@
           "title": "77 Endometriosis"
         }
       ]
-    }
+    },
+    "source_onedrive_item_id": "01UVXU6W4MTR7PRE3DIJFJJL2YDQXR6BCY",
+    "source_onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/76. Endometriosis.mp4",
+    "source_sp_filename": "76. Endometriosis.mp4",
+    "openmedq_migrated": true,
+    "migrated_to_openmedq_at": "2026-09-30T09:26:20Z"
   },
   "mr_-1003264222864_500": {
     "title": "77. Fibroid Part 1",
     "filename": "77. Fibroid Part 1.mp4",
     "platform": "marrow",
     "subject_id": "obg",
-    "folder_path": "04_Marrow_Edition_6/13_Obstetrics_and_Gynecology",
+    "folder_path": "Marrow_E6/OBG",
     "telegram_chat_id": -1003264222864,
     "telegram_message_id": 500,
-    "onedrive_item_id": "01UVXU6WZ3AD37M2OQFRGLZNXDUSVCQS7I",
-    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/77. Fibroid Part 1.mp4",
-    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/77.%20Fibroid%20Part%201.mp4",
+    "onedrive_item_id": "012RONM2QX5SVVS2JLLNAJQXHR3MADL5ML",
+    "onedrive_path": "/Aspirin_LMS/Marrow_E6/OBG/77. Fibroid Part 1.mp4",
+    "web_url": "https://openmedq.sharepoint.com/Shared%20Documents/Aspirin_LMS/Marrow_E6/OBG/77.%20Fibroid%20Part%201.mp4",
     "size_bytes": 479778933,
     "duration_seconds": 2334,
     "duration_formatted": "38m 54s",
@@ -8408,19 +8538,24 @@
           "title": "78 Fibroid Part-1"
         }
       ]
-    }
+    },
+    "source_onedrive_item_id": "01UVXU6WZ3AD37M2OQFRGLZNXDUSVCQS7I",
+    "source_onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/77. Fibroid Part 1.mp4",
+    "source_sp_filename": "77. Fibroid Part 1.mp4",
+    "openmedq_migrated": true,
+    "migrated_to_openmedq_at": "2026-09-30T09:30:09Z"
   },
   "mr_-1003264222864_501": {
     "title": "78. Fibroid Part 2",
     "filename": "78. Fibroid Part 2.mp4",
     "platform": "marrow",
     "subject_id": "obg",
-    "folder_path": "04_Marrow_Edition_6/13_Obstetrics_and_Gynecology",
+    "folder_path": "Marrow_E6/OBG",
     "telegram_chat_id": -1003264222864,
     "telegram_message_id": 501,
-    "onedrive_item_id": "01UVXU6W7GVFMMP4UHCZHJPMFQWFISDKOW",
-    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/78. Fibroid Part 2.mp4",
-    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/78.%20Fibroid%20Part%202.mp4",
+    "onedrive_item_id": "012RONM2S75PNWDL7GSFHLVXTCHW2OYV6N",
+    "onedrive_path": "/Aspirin_LMS/Marrow_E6/OBG/78. Fibroid Part 2.mp4",
+    "web_url": "https://openmedq.sharepoint.com/Shared%20Documents/Aspirin_LMS/Marrow_E6/OBG/78.%20Fibroid%20Part%202.mp4",
     "size_bytes": 1762627002,
     "duration_seconds": 7799,
     "duration_formatted": "2h 9m",
@@ -8447,19 +8582,24 @@
           "title": "79 Fibroid Part-2"
         }
       ]
-    }
+    },
+    "source_onedrive_item_id": "01UVXU6W7GVFMMP4UHCZHJPMFQWFISDKOW",
+    "source_onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/78. Fibroid Part 2.mp4",
+    "source_sp_filename": "78. Fibroid Part 2.mp4",
+    "openmedq_migrated": true,
+    "migrated_to_openmedq_at": "2026-09-30T09:44:14Z"
   },
   "mr_-1003264222864_502": {
     "title": "79. Polyp and Adenomyosis",
     "filename": "79. Polyp and Adenomyosis.mp4",
     "platform": "marrow",
     "subject_id": "obg",
-    "folder_path": "04_Marrow_Edition_6/13_Obstetrics_and_Gynecology",
+    "folder_path": "Marrow_E6/OBG",
     "telegram_chat_id": -1003264222864,
     "telegram_message_id": 502,
-    "onedrive_item_id": "01UVXU6W2F3TVHV6HUFFGLLDB35VMNPRLQ",
-    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/79. Polyp and Adenomyosis.mp4",
-    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/79.%20Polyp%20and%20Adenomyosis.mp4",
+    "onedrive_item_id": "012RONM2XAMJ5DINZPPFEZ7VBF4SIAZ33Y",
+    "onedrive_path": "/Aspirin_LMS/Marrow_E6/OBG/79. Polyp and Adenomyosis.mp4",
+    "web_url": "https://openmedq.sharepoint.com/Shared%20Documents/Aspirin_LMS/Marrow_E6/OBG/79.%20Polyp%20and%20Adenomyosis.mp4",
     "size_bytes": 782379820,
     "duration_seconds": 3775,
     "duration_formatted": "1h 2m",
@@ -8486,19 +8626,24 @@
           "title": "80 Polyp and Adenomyosis"
         }
       ]
-    }
+    },
+    "source_onedrive_item_id": "01UVXU6W2F3TVHV6HUFFGLLDB35VMNPRLQ",
+    "source_onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/79. Polyp and Adenomyosis.mp4",
+    "source_sp_filename": "79. Polyp and Adenomyosis.mp4",
+    "openmedq_migrated": true,
+    "migrated_to_openmedq_at": "2026-09-30T09:50:29Z"
   },
   "mr_-1003264222864_503": {
     "title": "80. Congenital Malformations of Uterus",
     "filename": "80. Congenital Malformations of Uterus.mp4",
     "platform": "marrow",
     "subject_id": "obg",
-    "folder_path": "04_Marrow_Edition_6/13_Obstetrics_and_Gynecology",
+    "folder_path": "Marrow_E6/OBG",
     "telegram_chat_id": -1003264222864,
     "telegram_message_id": 503,
-    "onedrive_item_id": "01UVXU6WYGTQMQXWOT7RD2V2DHRDYNVRBU",
-    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/80. Congenital Malformations of Uterus.mp4",
-    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/80.%20Congenital%20Malformations%20of%20Uterus.mp4",
+    "onedrive_item_id": "012RONM2RRWIHCNCVPIFBJ4LOY7NTKFJ6J",
+    "onedrive_path": "/Aspirin_LMS/Marrow_E6/OBG/80. Congenital Malformations of Uterus.mp4",
+    "web_url": "https://openmedq.sharepoint.com/Shared%20Documents/Aspirin_LMS/Marrow_E6/OBG/80.%20Congenital%20Malformations%20of%20Uterus.mp4",
     "size_bytes": 499974434,
     "duration_seconds": 2803,
     "duration_formatted": "46m 43s",
@@ -8525,19 +8670,24 @@
           "title": "81 Congenital malformation of uterus"
         }
       ]
-    }
+    },
+    "source_onedrive_item_id": "01UVXU6WYGTQMQXWOT7RD2V2DHRDYNVRBU",
+    "source_onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/80. Congenital Malformations of Uterus.mp4",
+    "source_sp_filename": "80. Congenital Malformations of Uterus.mp4",
+    "openmedq_migrated": true,
+    "migrated_to_openmedq_at": "2026-09-30T09:56:59Z"
   },
   "mr_-1003264222864_504": {
     "title": "81. Prolapse",
     "filename": "81. Prolapse.mp4",
     "platform": "marrow",
     "subject_id": "obg",
-    "folder_path": "04_Marrow_Edition_6/13_Obstetrics_and_Gynecology",
+    "folder_path": "Marrow_E6/OBG",
     "telegram_chat_id": -1003264222864,
     "telegram_message_id": 504,
-    "onedrive_item_id": "01UVXU6W47ZTX25O3EPVBLXZYZKSCTCOEJ",
-    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/81. Prolapse.mp4",
-    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/81.%20Prolapse.mp4",
+    "onedrive_item_id": "012RONM2TEW27KDE3Z2FFKWLHVK7RVUAR3",
+    "onedrive_path": "/Aspirin_LMS/Marrow_E6/OBG/81. Prolapse.mp4",
+    "web_url": "https://openmedq.sharepoint.com/Shared%20Documents/Aspirin_LMS/Marrow_E6/OBG/81.%20Prolapse.mp4",
     "size_bytes": 1087176275,
     "duration_seconds": 5867,
     "duration_formatted": "1h 37m",
@@ -8564,19 +8714,24 @@
           "title": "82 Prolapse"
         }
       ]
-    }
+    },
+    "source_onedrive_item_id": "01UVXU6W47ZTX25O3EPVBLXZYZKSCTCOEJ",
+    "source_onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/81. Prolapse.mp4",
+    "source_sp_filename": "81. Prolapse.mp4",
+    "openmedq_migrated": true,
+    "migrated_to_openmedq_at": "2026-09-30T10:05:39Z"
   },
   "mr_-1003264222864_505": {
     "title": "82. Stress Urinary Incontinence",
     "filename": "82. Stress Urinary Incontinence.mp4",
     "platform": "marrow",
     "subject_id": "obg",
-    "folder_path": "04_Marrow_Edition_6/13_Obstetrics_and_Gynecology",
+    "folder_path": "Marrow_E6/OBG",
     "telegram_chat_id": -1003264222864,
     "telegram_message_id": 505,
-    "onedrive_item_id": "01UVXU6WY2DMZGHPCZKBCZS4IXGDLSQUX2",
-    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/82. Stress Urinary Incontinence.mp4",
-    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/82.%20Stress%20Urinary%20Incontinence.mp4",
+    "onedrive_item_id": "012RONM2UKDFACSM3UDJH3YWITGDEB27NG",
+    "onedrive_path": "/Aspirin_LMS/Marrow_E6/OBG/82. Stress Urinary Incontinence.mp4",
+    "web_url": "https://openmedq.sharepoint.com/Shared%20Documents/Aspirin_LMS/Marrow_E6/OBG/82.%20Stress%20Urinary%20Incontinence.mp4",
     "size_bytes": 145550040,
     "duration_seconds": 882,
     "duration_formatted": "14m 42s",
@@ -8603,19 +8758,24 @@
           "title": "83 Stress urinary incontinence"
         }
       ]
-    }
+    },
+    "source_onedrive_item_id": "01UVXU6WY2DMZGHPCZKBCZS4IXGDLSQUX2",
+    "source_onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/82. Stress Urinary Incontinence.mp4",
+    "source_sp_filename": "82. Stress Urinary Incontinence.mp4",
+    "openmedq_migrated": true,
+    "migrated_to_openmedq_at": "2026-09-30T10:06:53Z"
   },
   "mr_-1003264222864_506": {
     "title": "83. Urinary Fistulas",
     "filename": "83. Urinary Fistulas.mp4",
     "platform": "marrow",
     "subject_id": "obg",
-    "folder_path": "04_Marrow_Edition_6/13_Obstetrics_and_Gynecology",
+    "folder_path": "Marrow_E6/OBG",
     "telegram_chat_id": -1003264222864,
     "telegram_message_id": 506,
-    "onedrive_item_id": "01UVXU6W2ILA3GSHYLVNCZXJ6UCEQGHE3I",
-    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/83. Urinary Fistulas.mp4",
-    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/83.%20Urinary%20Fistulas.mp4",
+    "onedrive_item_id": "012RONM2SLIODVAH7C2VCIRGEFUMVOYNKB",
+    "onedrive_path": "/Aspirin_LMS/Marrow_E6/OBG/83. Urinary Fistulas.mp4",
+    "web_url": "https://openmedq.sharepoint.com/Shared%20Documents/Aspirin_LMS/Marrow_E6/OBG/83.%20Urinary%20Fistulas.mp4",
     "size_bytes": 176183359,
     "duration_seconds": 1647,
     "duration_formatted": "27m 27s",
@@ -8642,19 +8802,24 @@
           "title": "84 Urinary Fistulas"
         }
       ]
-    }
+    },
+    "source_onedrive_item_id": "01UVXU6W2ILA3GSHYLVNCZXJ6UCEQGHE3I",
+    "source_onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/83. Urinary Fistulas.mp4",
+    "source_sp_filename": "83. Urinary Fistulas.mp4",
+    "openmedq_migrated": true,
+    "migrated_to_openmedq_at": "2026-09-30T10:08:26Z"
   },
   "mr_-1003264222864_507": {
     "title": "84. Normal Sexual Development",
     "filename": "84. Normal Sexual Development.mp4",
     "platform": "marrow",
     "subject_id": "obg",
-    "folder_path": "04_Marrow_Edition_6/13_Obstetrics_and_Gynecology",
+    "folder_path": "Marrow_E6/OBG",
     "telegram_chat_id": -1003264222864,
     "telegram_message_id": 507,
-    "onedrive_item_id": "01UVXU6W5SECSHWGKDDFCK3E67T7MQHU3S",
-    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/84. Normal Sexual Development.mp4",
-    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/84.%20Normal%20Sexual%20Development.mp4",
+    "onedrive_item_id": "012RONM2TX2FT72UIE5FBJM4X27GSQZSUD",
+    "onedrive_path": "/Aspirin_LMS/Marrow_E6/OBG/84. Normal Sexual Development.mp4",
+    "web_url": "https://openmedq.sharepoint.com/Shared%20Documents/Aspirin_LMS/Marrow_E6/OBG/84.%20Normal%20Sexual%20Development.mp4",
     "size_bytes": 910499485,
     "duration_seconds": 4834,
     "duration_formatted": "1h 20m",
@@ -8681,19 +8846,24 @@
           "title": "85 Normal Sexual Development"
         }
       ]
-    }
+    },
+    "source_onedrive_item_id": "01UVXU6W5SECSHWGKDDFCK3E67T7MQHU3S",
+    "source_onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/84. Normal Sexual Development.mp4",
+    "source_sp_filename": "84. Normal Sexual Development.mp4",
+    "openmedq_migrated": true,
+    "migrated_to_openmedq_at": "2026-09-30T10:15:49Z"
   },
   "mr_-1003264222864_508": {
     "title": "85. Puberty",
     "filename": "85. Puberty.mp4",
     "platform": "marrow",
     "subject_id": "obg",
-    "folder_path": "04_Marrow_Edition_6/13_Obstetrics_and_Gynecology",
+    "folder_path": "Marrow_E6/OBG",
     "telegram_chat_id": -1003264222864,
     "telegram_message_id": 508,
-    "onedrive_item_id": "01UVXU6W6MGDCTUL64OJEYGNQQYIFU6NM3",
-    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/85. Puberty.mp4",
-    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/85.%20Puberty.mp4",
+    "onedrive_item_id": "012RONM2SHJMFZKAOJSVDZW6U4VVBE6YOK",
+    "onedrive_path": "/Aspirin_LMS/Marrow_E6/OBG/85. Puberty.mp4",
+    "web_url": "https://openmedq.sharepoint.com/Shared%20Documents/Aspirin_LMS/Marrow_E6/OBG/85.%20Puberty.mp4",
     "size_bytes": 255050311,
     "duration_seconds": 1557,
     "duration_formatted": "25m 57s",
@@ -8720,19 +8890,24 @@
           "title": "86 Puberty"
         }
       ]
-    }
+    },
+    "source_onedrive_item_id": "01UVXU6W6MGDCTUL64OJEYGNQQYIFU6NM3",
+    "source_onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/85. Puberty.mp4",
+    "source_sp_filename": "85. Puberty.mp4",
+    "openmedq_migrated": true,
+    "migrated_to_openmedq_at": "2026-09-30T10:17:54Z"
   },
   "mr_-1003264222864_509": {
     "title": "86. Disorders of Sexual Development Part 1",
     "filename": "86. Disorders of Sexual Development Part 1.mp4",
     "platform": "marrow",
     "subject_id": "obg",
-    "folder_path": "04_Marrow_Edition_6/13_Obstetrics_and_Gynecology",
+    "folder_path": "Marrow_E6/OBG",
     "telegram_chat_id": -1003264222864,
     "telegram_message_id": 509,
-    "onedrive_item_id": "01UVXU6W6BCXMVOPE77RBJEJD7NXRKSNID",
-    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/86. Disorders of Sexual Development Part 1.mp4",
-    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/86.%20Disorders%20of%20Sexual%20Development%20Part%201.mp4",
+    "onedrive_item_id": "012RONM2WZR33JMCY3IZAIMFG64ENBOMFU",
+    "onedrive_path": "/Aspirin_LMS/Marrow_E6/OBG/86. Disorders of Sexual Development Part 1.mp4",
+    "web_url": "https://openmedq.sharepoint.com/Shared%20Documents/Aspirin_LMS/Marrow_E6/OBG/86.%20Disorders%20of%20Sexual%20Development%20Part%201.mp4",
     "size_bytes": 598055620,
     "duration_seconds": 4104,
     "duration_formatted": "1h 8m",
@@ -8759,19 +8934,24 @@
           "title": "87 Disrders of Sexual deveolpment Part-1"
         }
       ]
-    }
+    },
+    "source_onedrive_item_id": "01UVXU6W6BCXMVOPE77RBJEJD7NXRKSNID",
+    "source_onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/86. Disorders of Sexual Development Part 1.mp4",
+    "source_sp_filename": "86. Disorders of Sexual Development Part 1.mp4",
+    "openmedq_migrated": true,
+    "migrated_to_openmedq_at": "2026-09-30T10:22:37Z"
   },
   "mr_-1003264222864_510": {
     "title": "87. Disorders of Sexual Development Part 2",
     "filename": "87. Disorders of Sexual Development Part 2.mp4",
     "platform": "marrow",
     "subject_id": "obg",
-    "folder_path": "04_Marrow_Edition_6/13_Obstetrics_and_Gynecology",
+    "folder_path": "Marrow_E6/OBG",
     "telegram_chat_id": -1003264222864,
     "telegram_message_id": 510,
-    "onedrive_item_id": "01UVXU6W6VMIA3PFV3IZAZUCR4L4DCQVD7",
-    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/87. Disorders of Sexual Development Part 2.mp4",
-    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/87.%20Disorders%20of%20Sexual%20Development%20Part%202.mp4",
+    "onedrive_item_id": "012RONM2TQSC3PTW2ADRBJ3KJBIL5GY3QA",
+    "onedrive_path": "/Aspirin_LMS/Marrow_E6/OBG/87. Disorders of Sexual Development Part 2.mp4",
+    "web_url": "https://openmedq.sharepoint.com/Shared%20Documents/Aspirin_LMS/Marrow_E6/OBG/87.%20Disorders%20of%20Sexual%20Development%20Part%202.mp4",
     "size_bytes": 486546992,
     "duration_seconds": 3421,
     "duration_formatted": "57m 1s",
@@ -8798,19 +8978,24 @@
           "title": "88 Disrders of Sexual deveolpment Part-2"
         }
       ]
-    }
+    },
+    "source_onedrive_item_id": "01UVXU6W6VMIA3PFV3IZAZUCR4L4DCQVD7",
+    "source_onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/87. Disorders of Sexual Development Part 2.mp4",
+    "source_sp_filename": "87. Disorders of Sexual Development Part 2.mp4",
+    "openmedq_migrated": true,
+    "migrated_to_openmedq_at": "2026-09-30T10:26:28Z"
   },
   "mr_-1003264222864_511": {
     "title": "88. Primary Amenorrhea",
     "filename": "88. Primary Amenorrhea.mp4",
     "platform": "marrow",
     "subject_id": "obg",
-    "folder_path": "04_Marrow_Edition_6/13_Obstetrics_and_Gynecology",
+    "folder_path": "Marrow_E6/OBG",
     "telegram_chat_id": -1003264222864,
     "telegram_message_id": 511,
-    "onedrive_item_id": "01UVXU6W6VOKQ2UOA7DNCJBSJDPMSTQOGG",
-    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/88. Primary Amenorrhea.mp4",
-    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/88.%20Primary%20Amenorrhea.mp4",
+    "onedrive_item_id": "012RONM2UQQETQWSZXVBHKZE6AWFZAUW4R",
+    "onedrive_path": "/Aspirin_LMS/Marrow_E6/OBG/88. Primary Amenorrhea.mp4",
+    "web_url": "https://openmedq.sharepoint.com/Shared%20Documents/Aspirin_LMS/Marrow_E6/OBG/88.%20Primary%20Amenorrhea.mp4",
     "size_bytes": 470509554,
     "duration_seconds": 3570,
     "duration_formatted": "59m 30s",
@@ -8837,19 +9022,24 @@
           "title": "89 Primary Amenorrhea"
         }
       ]
-    }
+    },
+    "source_onedrive_item_id": "01UVXU6W6VOKQ2UOA7DNCJBSJDPMSTQOGG",
+    "source_onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/88. Primary Amenorrhea.mp4",
+    "source_sp_filename": "88. Primary Amenorrhea.mp4",
+    "openmedq_migrated": true,
+    "migrated_to_openmedq_at": "2026-09-30T10:30:15Z"
   },
   "mr_-1003264222864_512": {
     "title": "89. Secondary Amenorrhea",
     "filename": "89. Secondary Amenorrhea.mp4",
     "platform": "marrow",
     "subject_id": "obg",
-    "folder_path": "04_Marrow_Edition_6/13_Obstetrics_and_Gynecology",
+    "folder_path": "Marrow_E6/OBG",
     "telegram_chat_id": -1003264222864,
     "telegram_message_id": 512,
-    "onedrive_item_id": "01UVXU6W4HTOIL4DKCVJBK3WYVQGF7WOI3",
-    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/89. Secondary Amenorrhea.mp4",
-    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/89.%20Secondary%20Amenorrhea.mp4",
+    "onedrive_item_id": "012RONM2VE2JRQRZ44KZD2XAK3EQUBRVFB",
+    "onedrive_path": "/Aspirin_LMS/Marrow_E6/OBG/89. Secondary Amenorrhea.mp4",
+    "web_url": "https://openmedq.sharepoint.com/Shared%20Documents/Aspirin_LMS/Marrow_E6/OBG/89.%20Secondary%20Amenorrhea.mp4",
     "size_bytes": 1253939910,
     "duration_seconds": 5594,
     "duration_formatted": "1h 33m",
@@ -8876,19 +9066,24 @@
           "title": "90 Secondary Amenorrhea"
         }
       ]
-    }
+    },
+    "source_onedrive_item_id": "01UVXU6W4HTOIL4DKCVJBK3WYVQGF7WOI3",
+    "source_onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/89. Secondary Amenorrhea.mp4",
+    "source_sp_filename": "89. Secondary Amenorrhea.mp4",
+    "openmedq_migrated": true,
+    "migrated_to_openmedq_at": "2026-09-30T10:39:59Z"
   },
   "mr_-1003264222864_513": {
     "title": "90. Vaginitis",
     "filename": "90. Vaginitis.mp4",
     "platform": "marrow",
     "subject_id": "obg",
-    "folder_path": "04_Marrow_Edition_6/13_Obstetrics_and_Gynecology",
+    "folder_path": "Marrow_E6/OBG",
     "telegram_chat_id": -1003264222864,
     "telegram_message_id": 513,
-    "onedrive_item_id": "01UVXU6W2P2OIQROKUKBFJMBQCLPS5BR3S",
-    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/90. Vaginitis.mp4",
-    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/90.%20Vaginitis.mp4",
+    "onedrive_item_id": "012RONM2W7VHFIRY4SFJGYK5UBVODB54PO",
+    "onedrive_path": "/Aspirin_LMS/Marrow_E6/OBG/90. Vaginitis.mp4",
+    "web_url": "https://openmedq.sharepoint.com/Shared%20Documents/Aspirin_LMS/Marrow_E6/OBG/90.%20Vaginitis.mp4",
     "size_bytes": 175894330,
     "duration_seconds": 1029,
     "duration_formatted": "17m 9s",
@@ -8915,19 +9110,24 @@
           "title": "91 Vaginits"
         }
       ]
-    }
+    },
+    "source_onedrive_item_id": "01UVXU6W2P2OIQROKUKBFJMBQCLPS5BR3S",
+    "source_onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/90. Vaginitis.mp4",
+    "source_sp_filename": "90. Vaginitis.mp4",
+    "openmedq_migrated": true,
+    "migrated_to_openmedq_at": "2026-09-30T10:48:03Z"
   },
   "mr_-1003264222864_514": {
     "title": "91. PID",
     "filename": "91. PID.mp4",
     "platform": "marrow",
     "subject_id": "obg",
-    "folder_path": "04_Marrow_Edition_6/13_Obstetrics_and_Gynecology",
+    "folder_path": "Marrow_E6/OBG",
     "telegram_chat_id": -1003264222864,
     "telegram_message_id": 514,
-    "onedrive_item_id": "01UVXU6W3OP7DBU53WEVGZA4WY2O7WOKN5",
-    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/91. PID.mp4",
-    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/91.%20PID.mp4",
+    "onedrive_item_id": "012RONM2RXDXQ5JRPJYZDZ5S6RKKJ6P22Y",
+    "onedrive_path": "/Aspirin_LMS/Marrow_E6/OBG/91. PID.mp4",
+    "web_url": "https://openmedq.sharepoint.com/Shared%20Documents/Aspirin_LMS/Marrow_E6/OBG/91.%20PID.mp4",
     "size_bytes": 291273048,
     "duration_seconds": 1470,
     "duration_formatted": "24m 30s",
@@ -8954,19 +9154,24 @@
           "title": "92 PID"
         }
       ]
-    }
+    },
+    "source_onedrive_item_id": "01UVXU6W3OP7DBU53WEVGZA4WY2O7WOKN5",
+    "source_onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/91. PID.mp4",
+    "source_sp_filename": "91. PID.mp4",
+    "openmedq_migrated": true,
+    "migrated_to_openmedq_at": "2026-09-30T10:50:34Z"
   },
   "mr_-1003264222864_515": {
     "title": "92. Genital TB",
     "filename": "92. Genital TB.mp4",
     "platform": "marrow",
     "subject_id": "obg",
-    "folder_path": "04_Marrow_Edition_6/13_Obstetrics_and_Gynecology",
+    "folder_path": "Marrow_E6/OBG",
     "telegram_chat_id": -1003264222864,
     "telegram_message_id": 515,
-    "onedrive_item_id": "01UVXU6W6DFRYPT7HTVNFKRUQSRT5Y3PWJ",
-    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/92. Genital TB.mp4",
-    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/92.%20Genital%20TB.mp4",
+    "onedrive_item_id": "012RONM2S3NFKJEJWWLVHZAC7XQGHNYNTB",
+    "onedrive_path": "/Aspirin_LMS/Marrow_E6/OBG/92. Genital TB.mp4",
+    "web_url": "https://openmedq.sharepoint.com/Shared%20Documents/Aspirin_LMS/Marrow_E6/OBG/92.%20Genital%20TB.mp4",
     "size_bytes": 194382156,
     "duration_seconds": 1152,
     "duration_formatted": "19m 12s",
@@ -8993,19 +9198,24 @@
           "title": "93 Genital TB"
         }
       ]
-    }
+    },
+    "source_onedrive_item_id": "01UVXU6W6DFRYPT7HTVNFKRUQSRT5Y3PWJ",
+    "source_onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/92. Genital TB.mp4",
+    "source_sp_filename": "92. Genital TB.mp4",
+    "openmedq_migrated": true,
+    "migrated_to_openmedq_at": "2026-09-30T10:52:19Z"
   },
   "mr_-1003264222864_516": {
     "title": "93. Female Infertility",
     "filename": "93. Female Infertility.mp4",
     "platform": "marrow",
     "subject_id": "obg",
-    "folder_path": "04_Marrow_Edition_6/13_Obstetrics_and_Gynecology",
+    "folder_path": "Marrow_E6/OBG",
     "telegram_chat_id": -1003264222864,
     "telegram_message_id": 516,
-    "onedrive_item_id": "01UVXU6WYWRETWHRQOHZGKFDV73LJE5M6N",
-    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/93. Female Infertility.mp4",
-    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/93.%20Female%20Infertility.mp4",
+    "onedrive_item_id": "012RONM2UEH7X4IQW3WVBZHKA3ZJSOBHJW",
+    "onedrive_path": "/Aspirin_LMS/Marrow_E6/OBG/93. Female Infertility.mp4",
+    "web_url": "https://openmedq.sharepoint.com/Shared%20Documents/Aspirin_LMS/Marrow_E6/OBG/93.%20Female%20Infertility.mp4",
     "size_bytes": 1165709920,
     "duration_seconds": 5237,
     "duration_formatted": "1h 27m",
@@ -9032,19 +9242,24 @@
           "title": "94 Female Infertility"
         }
       ]
-    }
+    },
+    "source_onedrive_item_id": "01UVXU6WYWRETWHRQOHZGKFDV73LJE5M6N",
+    "source_onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/93. Female Infertility.mp4",
+    "source_sp_filename": "93. Female Infertility.mp4",
+    "openmedq_migrated": true,
+    "migrated_to_openmedq_at": "2026-09-30T11:08:01Z"
   },
   "mr_-1003264222864_517": {
     "title": "94. Male Infertility",
     "filename": "94. Male Infertility.mp4",
     "platform": "marrow",
     "subject_id": "obg",
-    "folder_path": "04_Marrow_Edition_6/13_Obstetrics_and_Gynecology",
+    "folder_path": "Marrow_E6/OBG",
     "telegram_chat_id": -1003264222864,
     "telegram_message_id": 517,
-    "onedrive_item_id": "01UVXU6WZOKWR454EANJEJHPQYYPCKOAJE",
-    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/94. Male Infertility.mp4",
-    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/94.%20Male%20Infertility.mp4",
+    "onedrive_item_id": "012RONM2XNDB4NAYZYRFCK6MG4CJRNRYYG",
+    "onedrive_path": "/Aspirin_LMS/Marrow_E6/OBG/94. Male Infertility.mp4",
+    "web_url": "https://openmedq.sharepoint.com/Shared%20Documents/Aspirin_LMS/Marrow_E6/OBG/94.%20Male%20Infertility.mp4",
     "size_bytes": 734971080,
     "duration_seconds": 4658,
     "duration_formatted": "1h 17m",
@@ -9071,19 +9286,24 @@
           "title": "95 Male Infertility"
         }
       ]
-    }
+    },
+    "source_onedrive_item_id": "01UVXU6WZOKWR454EANJEJHPQYYPCKOAJE",
+    "source_onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/94. Male Infertility.mp4",
+    "source_sp_filename": "94. Male Infertility.mp4",
+    "openmedq_migrated": true,
+    "migrated_to_openmedq_at": "2026-09-30T11:14:15Z"
   },
   "mr_-1003264222864_518": {
     "title": "95. Natural Methods of Contraception",
     "filename": "95. Natural Methods of Contraception.mp4",
     "platform": "marrow",
     "subject_id": "obg",
-    "folder_path": "04_Marrow_Edition_6/13_Obstetrics_and_Gynecology",
+    "folder_path": "Marrow_E6/OBG",
     "telegram_chat_id": -1003264222864,
     "telegram_message_id": 518,
-    "onedrive_item_id": "01UVXU6W6Z4JKSICDNG5CYJYRJN6UCY6NB",
-    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/95. Natural Methods of Contraception.mp4",
-    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/95.%20Natural%20Methods%20of%20Contraception.mp4",
+    "onedrive_item_id": "012RONM2VUXRAR4AZGL5EZEEJHLQRSZ2QK",
+    "onedrive_path": "/Aspirin_LMS/Marrow_E6/OBG/95. Natural Methods of Contraception.mp4",
+    "web_url": "https://openmedq.sharepoint.com/Shared%20Documents/Aspirin_LMS/Marrow_E6/OBG/95.%20Natural%20Methods%20of%20Contraception.mp4",
     "size_bytes": 395620345,
     "duration_seconds": 1962,
     "duration_formatted": "32m 42s",
@@ -9110,19 +9330,24 @@
           "title": "96 Natural methods of Contraception"
         }
       ]
-    }
+    },
+    "source_onedrive_item_id": "01UVXU6W6Z4JKSICDNG5CYJYRJN6UCY6NB",
+    "source_onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/95. Natural Methods of Contraception.mp4",
+    "source_sp_filename": "95. Natural Methods of Contraception.mp4",
+    "openmedq_migrated": true,
+    "migrated_to_openmedq_at": "2026-09-30T11:18:34Z"
   },
   "mr_-1003264222864_519": {
     "title": "96. Barrier Methods of Contraception",
     "filename": "96. Barrier Methods of Contraception.mp4",
     "platform": "marrow",
     "subject_id": "obg",
-    "folder_path": "04_Marrow_Edition_6/13_Obstetrics_and_Gynecology",
+    "folder_path": "Marrow_E6/OBG",
     "telegram_chat_id": -1003264222864,
     "telegram_message_id": 519,
-    "onedrive_item_id": "01UVXU6W24627KFTZYE5ELECBAAUJRXUNE",
-    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/96. Barrier Methods of Contraception.mp4",
-    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/96.%20Barrier%20Methods%20of%20Contraception.mp4",
+    "onedrive_item_id": "012RONM2R7WBE2GSXRLNGZSP2TZETHNXHN",
+    "onedrive_path": "/Aspirin_LMS/Marrow_E6/OBG/96. Barrier Methods of Contraception.mp4",
+    "web_url": "https://openmedq.sharepoint.com/Shared%20Documents/Aspirin_LMS/Marrow_E6/OBG/96.%20Barrier%20Methods%20of%20Contraception.mp4",
     "size_bytes": 307615332,
     "duration_seconds": 1358,
     "duration_formatted": "22m 38s",
@@ -9149,19 +9374,24 @@
           "title": "97 Barrier methods of contraception"
         }
       ]
-    }
+    },
+    "source_onedrive_item_id": "01UVXU6W24627KFTZYE5ELECBAAUJRXUNE",
+    "source_onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/96. Barrier Methods of Contraception.mp4",
+    "source_sp_filename": "96. Barrier Methods of Contraception.mp4",
+    "openmedq_migrated": true,
+    "migrated_to_openmedq_at": "2026-09-30T11:21:41Z"
   },
   "mr_-1003264222864_520": {
     "title": "97. Estrogen and Progesterone Contraceptives",
     "filename": "97. Estrogen and Progesterone Contraceptives.mp4",
     "platform": "marrow",
     "subject_id": "obg",
-    "folder_path": "04_Marrow_Edition_6/13_Obstetrics_and_Gynecology",
+    "folder_path": "Marrow_E6/OBG",
     "telegram_chat_id": -1003264222864,
     "telegram_message_id": 520,
-    "onedrive_item_id": "01UVXU6W5TCQ2WFLI2Z5GJ5NTHLHVRQ3BA",
-    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/97. Estrogen and Progesterone Contraceptives.mp4",
-    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/97.%20Estrogen%20and%20Progesterone%20Contraceptives.mp4",
+    "onedrive_item_id": "012RONM2UV6RJCIWBKUFC2QMN2UZHV7OZN",
+    "onedrive_path": "/Aspirin_LMS/Marrow_E6/OBG/97. Estrogen and Progesterone Contraceptives.mp4",
+    "web_url": "https://openmedq.sharepoint.com/Shared%20Documents/Aspirin_LMS/Marrow_E6/OBG/97.%20Estrogen%20and%20Progesterone%20Contraceptives.mp4",
     "size_bytes": 523692766,
     "duration_seconds": 2960,
     "duration_formatted": "49m 20s",
@@ -9188,19 +9418,24 @@
           "title": "98 Estrogen & Progesterone Contraceptives"
         }
       ]
-    }
+    },
+    "source_onedrive_item_id": "01UVXU6W5TCQ2WFLI2Z5GJ5NTHLHVRQ3BA",
+    "source_onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/97. Estrogen and Progesterone Contraceptives.mp4",
+    "source_sp_filename": "97. Estrogen and Progesterone Contraceptives.mp4",
+    "openmedq_migrated": true,
+    "migrated_to_openmedq_at": "2026-09-30T11:25:43Z"
   },
   "mr_-1003264222864_521": {
     "title": "98. Only Progesterone Contraceptives",
     "filename": "98. Only Progesterone Contraceptives.mp4",
     "platform": "marrow",
     "subject_id": "obg",
-    "folder_path": "04_Marrow_Edition_6/13_Obstetrics_and_Gynecology",
+    "folder_path": "Marrow_E6/OBG",
     "telegram_chat_id": -1003264222864,
     "telegram_message_id": 521,
-    "onedrive_item_id": "01UVXU6W42KMSHGVPDQFDYNPI66KCA73AC",
-    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/98. Only Progesterone Contraceptives.mp4",
-    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/98.%20Only%20Progesterone%20Contraceptives.mp4",
+    "onedrive_item_id": "012RONM2TFARSP636O4VFYI6MBSAOATS72",
+    "onedrive_path": "/Aspirin_LMS/Marrow_E6/OBG/98. Only Progesterone Contraceptives.mp4",
+    "web_url": "https://openmedq.sharepoint.com/Shared%20Documents/Aspirin_LMS/Marrow_E6/OBG/98.%20Only%20Progesterone%20Contraceptives.mp4",
     "size_bytes": 344587623,
     "duration_seconds": 1650,
     "duration_formatted": "27m 30s",
@@ -9227,19 +9462,24 @@
           "title": "99 Only Progesterone Contraceptives"
         }
       ]
-    }
+    },
+    "source_onedrive_item_id": "01UVXU6W42KMSHGVPDQFDYNPI66KCA73AC",
+    "source_onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/98. Only Progesterone Contraceptives.mp4",
+    "source_sp_filename": "98. Only Progesterone Contraceptives.mp4",
+    "openmedq_migrated": true,
+    "migrated_to_openmedq_at": "2026-09-30T11:28:38Z"
   },
   "mr_-1003264222864_522": {
     "title": "99. IUCDs",
     "filename": "99. IUCDs.mp4",
     "platform": "marrow",
     "subject_id": "obg",
-    "folder_path": "04_Marrow_Edition_6/13_Obstetrics_and_Gynecology",
+    "folder_path": "Marrow_E6/OBG",
     "telegram_chat_id": -1003264222864,
     "telegram_message_id": 522,
-    "onedrive_item_id": "01UVXU6W4KL7COFYR7SBEZCOK6BTXBWLCK",
-    "onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/99. IUCDs.mp4",
-    "web_url": "https://5ncjwt.sharepoint.com/Shared%20Documents/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/99.%20IUCDs.mp4",
+    "onedrive_item_id": "012RONM2RDWP5O4TBJZRCKJPMR4N2ISWYY",
+    "onedrive_path": "/Aspirin_LMS/Marrow_E6/OBG/99. IUCDs.mp4",
+    "web_url": "https://openmedq.sharepoint.com/Shared%20Documents/Aspirin_LMS/Marrow_E6/OBG/99.%20IUCDs.mp4",
     "size_bytes": 576595259,
     "duration_seconds": 3316,
     "duration_formatted": "55m 16s",
@@ -9266,7 +9506,12 @@
           "title": "100 IUCDs"
         }
       ]
-    }
+    },
+    "source_onedrive_item_id": "01UVXU6W4KL7COFYR7SBEZCOK6BTXBWLCK",
+    "source_onedrive_path": "/Aspirin_LMS/04_Marrow_Edition_6/13_Obstetrics_and_Gynecology/99. IUCDs.mp4",
+    "source_sp_filename": "99. IUCDs.mp4",
+    "openmedq_migrated": true,
+    "migrated_to_openmedq_at": "2026-09-30T11:34:02Z"
   },
   "mr_-1003264222864_523": {
     "title": "100. Permanent Methods of Contraception",
