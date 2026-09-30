@@ -5,6 +5,7 @@ import {
   StyleSheet,
   ScrollView,
   TouchableOpacity,
+  Image,
 } from 'react-native';
 import { Play, Clock, Sparkles } from 'lucide-react-native';
 import { Topic } from '../../types/lms';
@@ -63,6 +64,14 @@ export const MobileMediaShelf: React.FC<MobileMediaShelfProps> = ({
             >
               {/* 16:9 Thumbnail Area */}
               <View style={[styles.thumbnail, { backgroundColor: theme.bg }]}>
+                {topic.thumbnail_url ? (
+                  <Image
+                    source={{ uri: topic.thumbnail_url }}
+                    style={StyleSheet.absoluteFill}
+                    resizeMode="cover"
+                  />
+                ) : null}
+
                 {/* Dark gradient overlay */}
                 <View style={styles.thumbnailOverlay}>
                   {/* Play Button Icon */}

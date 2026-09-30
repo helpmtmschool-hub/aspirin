@@ -1,7 +1,7 @@
 import { Subject, Topic, NoteItem, MBBSProf, PlatformId, Module } from '../types/lms';
 
-// Default edge API base
-export const DEFAULT_API_BASE = 'https://aspirin-edge.aspirin-hub.workers.dev';
+// Live production website domain on Cloudflare Pages
+export const DEFAULT_API_BASE = 'https://aspirin-lms.pages.dev';
 
 export interface SubjectClayTheme {
   bg: string;
@@ -55,9 +55,16 @@ export function getSubjectClayTheme(subjectId: string): SubjectClayTheme {
   }
 }
 
+// Natural numerical order extractor for topic titles (e.g. "01. Heart Failure" -> 1)
+function extractLectureNumber(title: string): number {
+  const match = (title || '').match(/^(\d+)/);
+  return match ? parseInt(match[1], 10) : 9999;
+}
+
 export class MobileLmsApi {
   private static apiBase: string = DEFAULT_API_BASE;
   private static catalogCache: Subject[] | null = null;
+  private static directUrlCache: Map<string, { url: string; timestamp: number }> = new Map();
 
   public static setApiBase(url: string) {
     this.apiBase = url.replace(/\/$/, '');
@@ -67,22 +74,107 @@ export class MobileLmsApi {
     return this.apiBase;
   }
 
+  // Detect platform based on message_id or filename exactly like web app
+  public static detectPlatform(item: { chat_id?: number; message_id?: number; filename?: string; title?: string }): PlatformId {
+    const fn = (item.filename || item.title || '').toLowerCase();
+    const msgId = item.message_id || 0;
+    const chatId = item.chat_id || 0;
+
+    if (chatId === -1003264222864 || fn.includes('marrow') || (item.title && item.title.toLowerCase().includes('marrow'))) {
+      return 'marrow';
+    }
+    if (fn.includes('cerebellu') || fn.includes('dr.') || fn.includes('dr ') || msgId >= 2382) {
+      return 'cerebellum';
+    }
+    if (fn.includes('hinglish') || (msgId >= 1217 && msgId < 2382)) {
+      return 'prepx_hi';
+    }
+    return 'prepx_en';
+  }
+
   /**
-   * Constructs direct video streaming URL with HTTP range-request support
+   * Constructs video streaming URL pointing to the live website's edge stream endpoint
    */
   public static getStreamUrl(topic: Topic): string {
+    const cId = topic.chat_id || topic.telegram_chat_id;
+    const mId = topic.message_id || topic.telegram_message_id;
+
+    if (cId && mId) {
+      return `${this.apiBase}/api/stream/${cId}/${mId}`;
+    }
     if (topic.stream_url) {
       if (topic.stream_url.startsWith('http')) return topic.stream_url;
       return `${this.apiBase}${topic.stream_url}`;
-    }
-    if (topic.chat_id && topic.message_id) {
-      return `${this.apiBase}/api/stream/${topic.chat_id}/${topic.message_id}`;
     }
     return '';
   }
 
   /**
-   * Fetches the 19 MBBS subjects catalog
+   * Probes the live edge endpoint to resolve the direct 302 SharePoint / Azure CDN download URL
+   * enabling zero-redirect, zero-buffering native playback
+   */
+  public static async resolveDirectStreamUrl(streamUrl: string): Promise<string> {
+    if (!streamUrl || !streamUrl.includes('/api/stream/')) {
+      return streamUrl;
+    }
+
+    const cached = this.directUrlCache.get(streamUrl);
+    // SharePoint temporary tokens are valid for ~45 minutes; cache for 30 minutes
+    if (cached && Date.now() - cached.timestamp < 30 * 60 * 1000) {
+      return cached.url;
+    }
+
+    try {
+      const controller = new AbortController();
+      const timeoutId = setTimeout(() => controller.abort(), 3500);
+
+      const response = await fetch(streamUrl, {
+        method: 'GET',
+        redirect: 'manual',
+        signal: controller.signal,
+      });
+      clearTimeout(timeoutId);
+
+      const location = response.headers.get('location');
+      if (location && location.startsWith('http')) {
+        this.directUrlCache.set(streamUrl, { url: location, timestamp: Date.now() });
+        return location;
+      }
+    } catch {
+      // If probe times out or network restricts HEAD/manual redirect, fall back gracefully to the original URL
+    }
+
+    return streamUrl;
+  }
+
+  /**
+   * Constructs thumbnail URL pointing to the live website's Azure CDN thumbnail endpoint
+   */
+  public static getThumbnailUrl(topic: Topic): string {
+    const cId = topic.chat_id || topic.telegram_chat_id;
+    const mId = topic.message_id || topic.telegram_message_id;
+
+    if (cId && mId) {
+      return `${this.apiBase}/api/thumbnail/${cId}/${mId}`;
+    }
+    return topic.thumbnail_url || '';
+  }
+
+  /**
+   * Constructs notes streaming URL pointing to the live website's notes endpoint
+   */
+  public static getNoteUrl(note: NoteItem): string {
+    const cId = note.telegram_chat_id;
+    const mId = note.telegram_message_id;
+    if (cId && mId) {
+      return `${this.apiBase}/api/notes/${cId}/${mId}`;
+    }
+    return note.download_url || '';
+  }
+
+  /**
+   * Fetches the full master catalog from the live website (catalog.json)
+   * exactly matching the web app's LMSApiService.getSubjects()
    */
   public static async getSubjects(): Promise<Subject[]> {
     if (this.catalogCache && this.catalogCache.length > 0) {
@@ -90,16 +182,92 @@ export class MobileLmsApi {
     }
 
     try {
-      const response = await fetch(`${this.apiBase}/api/subjects`);
+      const response = await fetch(`${this.apiBase}/catalog.json`, {
+        headers: { 'Accept': 'application/json' },
+      });
       if (response.ok) {
-        const data = await response.json();
-        if (data.subjects && Array.isArray(data.subjects)) {
-          this.catalogCache = data.subjects;
-          return data.subjects;
+        const catalog = await response.json();
+        if (catalog.subjects && Array.isArray(catalog.subjects)) {
+          const processedSubjects: Subject[] = catalog.subjects.map((sub: any) => {
+            const rawModules = sub.modules || [];
+            let totalTopicsCount = 0;
+
+            const enrichedModules: Module[] = rawModules.map((m: any) => {
+              const rawTopics = m.topics || [];
+              totalTopicsCount += rawTopics.length;
+
+              const enrichedTopics: Topic[] = rawTopics.map((t: any) => {
+                const cId = t.chat_id;
+                const mId = t.message_id;
+                const platform = this.detectPlatform(t);
+
+                return {
+                  id: t.id || `${sub.id}_top_${mId || Math.random()}`,
+                  subject_id: sub.id,
+                  module: m.name,
+                  platform_id: platform,
+                  title: t.title || 'Untitled Lecture',
+                  filename: t.filename || '',
+                  file_size_bytes: t.file_size_bytes || 0,
+                  file_size_mb: t.file_size_mb || 0,
+                  duration_seconds: t.duration_seconds || 1800,
+                  duration_formatted: t.duration_formatted || '30 mins',
+                  chat_id: cId,
+                  message_id: mId,
+                  telegram_chat_id: cId,
+                  telegram_message_id: mId,
+                  thumbnail_url: `${this.apiBase}/api/thumbnail/${cId}/${mId}`,
+                  stream_url: `${this.apiBase}/api/stream/${cId}/${mId}`,
+                  pearls: t.pearls || [],
+                  is_completed: false,
+                };
+              });
+
+              // Sort lectures in numerical order
+              enrichedTopics.sort((a, b) => extractLectureNumber(a.title) - extractLectureNumber(b.title));
+
+              return {
+                id: m.id || `${sub.id}_mod_${m.name}`,
+                name: m.name,
+                subject_id: sub.id,
+                topics: enrichedTopics,
+              };
+            });
+
+            const enrichedNotes: NoteItem[] = (sub.notes || []).map((n: any) => ({
+              id: n.id || `${sub.id}_note_${n.message_id || Math.random()}`,
+              title: n.title,
+              subject_id: sub.id,
+              file_size_mb: n.file_size_mb,
+              file_size_bytes: n.file_size_bytes,
+              telegram_chat_id: n.chat_id,
+              telegram_message_id: n.message_id,
+              download_url: `${this.apiBase}/api/notes/${n.chat_id}/${n.message_id}`,
+              pages_count: n.pages_count || 50,
+            }));
+
+            return {
+              id: sub.id,
+              name: sub.name,
+              code: sub.code || sub.id.toUpperCase().slice(0, 4),
+              prof: sub.prof || '1st Prof',
+              category: sub.category || 'Clinical',
+              icon: sub.icon || 'book-open',
+              color: sub.color || getSubjectClayTheme(sub.id).bg,
+              total_topics: totalTopicsCount,
+              total_notes: enrichedNotes.length,
+              progress_percentage: sub.progress_percentage || 0,
+              modules: enrichedModules,
+              notes: enrichedNotes,
+            };
+          });
+
+          this.catalogCache = processedSubjects;
+          return processedSubjects;
         }
       }
-    } catch {
-      // Fallback
+    } catch (e) {
+      console.warn('[MobileLmsApi] Failed to fetch live catalog from edge, falling back to local dataset:', e);
     }
 
     const fallbacks = this.getFallbackSubjects();

@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 import {
   View,
   Text,
@@ -102,19 +102,41 @@ export const MobilePlatformClassroom: React.FC<MobilePlatformClassroomProps> = (
     }));
   };
 
+  const availablePlatforms = useMemo(() => {
+    const set = new Set<PlatformId>();
+    modules.forEach((m) => {
+      m.topics.forEach((t) => {
+        if (t.platform_id) set.add(t.platform_id);
+      });
+    });
+    if (set.size === 0) set.add('prepx_en');
+    return set;
+  }, [modules]);
+
+  // Ensure currentPlatform is set to an available platform if current one is empty
+  useEffect(() => {
+    if (!availablePlatforms.has(currentPlatform) && availablePlatforms.size > 0) {
+      const first = Array.from(availablePlatforms)[0];
+      setCurrentPlatform(first);
+    }
+  }, [availablePlatforms]);
+
   const filteredModules = useMemo(() => {
-    if (!searchFilter.trim()) return modules;
     return modules
       .map((mod) => ({
         ...mod,
-        topics: mod.topics.filter(
-          (t) =>
+        topics: mod.topics.filter((t) => {
+          const matchesPlatform = availablePlatforms.size <= 1 || !t.platform_id || t.platform_id === currentPlatform;
+          if (!matchesPlatform) return false;
+          if (!searchFilter.trim()) return true;
+          return (
             t.title.toLowerCase().includes(searchFilter.toLowerCase()) ||
             (t.module && t.module.toLowerCase().includes(searchFilter.toLowerCase()))
-        ),
+          );
+        }),
       }))
       .filter((mod) => mod.topics.length > 0);
-  }, [modules, searchFilter]);
+  }, [modules, currentPlatform, searchFilter, availablePlatforms]);
 
   const allTopicsInView = useMemo(() => {
     return filteredModules.flatMap((m) => m.topics);

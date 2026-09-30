@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import {
   View,
   Text,
@@ -35,14 +35,54 @@ export const PlayerScreen: React.FC<PlayerScreenProps> = ({ route, navigation })
   const { theme } = useAppTheme();
   const [currentSpeed, setCurrentSpeed] = useState<number>(1.0);
   const [activeTab, setActiveTab] = useState<'pearls' | 'notes' | 'playlist'>('pearls');
+  
+  const rawStreamUrl = MobileLmsApi.getStreamUrl(topic);
+  const [streamUrl, setStreamUrl] = useState<string>(rawStreamUrl);
+  const [playbackError, setPlaybackError] = useState<string | null>(null);
 
-  const streamUrl = MobileLmsApi.getStreamUrl(topic);
+  useEffect(() => {
+    let isMounted = true;
+    const initialUrl = MobileLmsApi.getStreamUrl(topic);
+    setStreamUrl(initialUrl);
+    setPlaybackError(null);
 
-  // Initialize expo-video player backed by AndroidX Media3
-  const player = useVideoPlayer(streamUrl, (p: any) => {
-    p.playbackRate = 1.0;
-    p.play();
-  });
+    // Fast asynchronous probe to resolve the direct 302 SharePoint Azure CDN link
+    MobileLmsApi.resolveDirectStreamUrl(initialUrl).then((resolved) => {
+      if (isMounted && resolved && resolved !== initialUrl) {
+        setStreamUrl(resolved);
+      }
+    });
+
+    return () => {
+      isMounted = false;
+    };
+  }, [topic]);
+
+  // Initialize expo-video player backed by AndroidX Media3 / AVPlayer
+  const player = useVideoPlayer(
+    streamUrl ? { uri: streamUrl, contentType: 'progressive' } : null,
+    (p: any) => {
+      p.playbackRate = currentSpeed;
+      p.play();
+    }
+  );
+
+  useEffect(() => {
+    if (!player) return;
+
+    const sub = player.addListener('statusChange', (event: any) => {
+      if (event.status === 'error') {
+        console.warn('[PlayerScreen] Playback error:', event.error);
+        setPlaybackError(event.error?.message || 'Unable to load video stream');
+      } else if (event.status === 'readyToPlay') {
+        setPlaybackError(null);
+      }
+    });
+
+    return () => {
+      sub.remove();
+    };
+  }, [player]);
 
   const handleSpeedChange = (speed: number) => {
     setCurrentSpeed(speed);
@@ -81,7 +121,28 @@ export const PlayerScreen: React.FC<PlayerScreenProps> = ({ route, navigation })
 
       {/* Video View */}
       <View style={styles.videoContainer}>
-        {streamUrl ? (
+        {playbackError ? (
+          <View style={styles.noStreamContainer}>
+            <Text style={styles.noStreamText}>{playbackError}</Text>
+            <TouchableOpacity
+              style={{
+                marginTop: 12,
+                paddingHorizontal: 16,
+                paddingVertical: 8,
+                backgroundColor: theme.primary,
+                borderRadius: 20,
+              }}
+              onPress={() => {
+                setPlaybackError(null);
+                if (player) {
+                  player.play();
+                }
+              }}
+            >
+              <Text style={{ color: '#FFFFFF', fontWeight: '600', fontSize: 13 }}>Retry Stream</Text>
+            </TouchableOpacity>
+          </View>
+        ) : streamUrl ? (
           <VideoView
             style={styles.video}
             player={player}
