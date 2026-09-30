@@ -1,7 +1,59 @@
-import { Subject, Topic, MBBSProf, PlatformId } from '../types/lms';
+import { Subject, Topic, NoteItem, MBBSProf, PlatformId, Module } from '../types/lms';
 
-// Default edge API base (can be configured via environment or settings)
+// Default edge API base
 export const DEFAULT_API_BASE = 'https://aspirin-edge.aspirin-hub.workers.dev';
+
+export interface SubjectClayTheme {
+  bg: string;
+  text: string;
+  badge: string;
+  isDark: boolean;
+}
+
+export function getSubjectClayTheme(subjectId: string): SubjectClayTheme {
+  switch (subjectId.toLowerCase()) {
+    case 'anatomy':
+      return { bg: '#ffb084', text: '#0a0a0a', badge: 'rgba(10, 10, 10, 0.1)', isDark: false };
+    case 'physiology':
+      return { bg: '#e8b94a', text: '#0a0a0a', badge: 'rgba(10, 10, 10, 0.1)', isDark: false };
+    case 'biochemistry':
+      return { bg: '#f5f0e0', text: '#0a0a0a', badge: 'rgba(10, 10, 10, 0.1)', isDark: false };
+    case 'pathology':
+      return { bg: '#b8a4ed', text: '#0a0a0a', badge: 'rgba(10, 10, 10, 0.1)', isDark: false };
+    case 'pharmacology':
+      return { bg: '#a4d4c5', text: '#0a0a0a', badge: 'rgba(10, 10, 10, 0.1)', isDark: false };
+    case 'microbiology':
+      return { bg: '#f5f0e0', text: '#0a0a0a', badge: 'rgba(10, 10, 10, 0.1)', isDark: false };
+    case 'forensic_medicine':
+      return { bg: '#faf5e8', text: '#0a0a0a', badge: 'rgba(10, 10, 10, 0.1)', isDark: false };
+    case 'psm':
+      return { bg: '#a4d4c5', text: '#0a0a0a', badge: 'rgba(10, 10, 10, 0.1)', isDark: false };
+    case 'ophthalmology':
+      return { bg: '#ff6b5a', text: '#0a0a0a', badge: 'rgba(10, 10, 10, 0.1)', isDark: false };
+    case 'ent':
+      return { bg: '#ffb084', text: '#0a0a0a', badge: 'rgba(10, 10, 10, 0.1)', isDark: false };
+    case 'medicine':
+      return { bg: '#1a3a3a', text: '#ffffff', badge: 'rgba(255, 255, 255, 0.18)', isDark: true };
+    case 'surgery':
+      return { bg: '#ff4d8b', text: '#ffffff', badge: 'rgba(255, 255, 255, 0.22)', isDark: true };
+    case 'obgyn':
+      return { bg: '#b8a4ed', text: '#0a0a0a', badge: 'rgba(10, 10, 10, 0.1)', isDark: false };
+    case 'pediatrics':
+      return { bg: '#e8b94a', text: '#0a0a0a', badge: 'rgba(10, 10, 10, 0.1)', isDark: false };
+    case 'orthopedics':
+      return { bg: '#f5f0e0', text: '#0a0a0a', badge: 'rgba(10, 10, 10, 0.1)', isDark: false };
+    case 'dermatology':
+      return { bg: '#ffb084', text: '#0a0a0a', badge: 'rgba(10, 10, 10, 0.1)', isDark: false };
+    case 'psychiatry':
+      return { bg: '#b8a4ed', text: '#0a0a0a', badge: 'rgba(10, 10, 10, 0.1)', isDark: false };
+    case 'radiology':
+      return { bg: '#1a3a3a', text: '#ffffff', badge: 'rgba(255, 255, 255, 0.18)', isDark: true };
+    case 'anesthesiology':
+      return { bg: '#faf5e8', text: '#0a0a0a', badge: 'rgba(10, 10, 10, 0.1)', isDark: false };
+    default:
+      return { bg: '#f5f0e0', text: '#0a0a0a', badge: 'rgba(10, 10, 10, 0.1)', isDark: false };
+  }
+}
 
 export class MobileLmsApi {
   private static apiBase: string = DEFAULT_API_BASE;
@@ -47,14 +99,95 @@ export class MobileLmsApi {
         }
       }
     } catch {
-      // Edge fetch failed, fall back to embedded seed data
+      // Fallback
     }
 
-    return this.getFallbackSubjects();
+    const fallbacks = this.getFallbackSubjects();
+    this.catalogCache = fallbacks;
+    return fallbacks;
   }
 
   /**
-   * High-yield 19 MBBS subjects fallback for immediate offline launch
+   * Curated Feed exactly matching web app's getCuratedFeed()
+   */
+  public static async getCuratedFeed(): Promise<{
+    highYieldLectures: Topic[];
+    firstProfPicks: Topic[];
+    clinicalPicks: Topic[];
+    masterBooks: NoteItem[];
+  }> {
+    const subjects = await this.getSubjects();
+
+    const highYieldLectures: Topic[] = [];
+    const firstProfPicks: Topic[] = [];
+    const clinicalPicks: Topic[] = [];
+    const masterBooks: NoteItem[] = [];
+
+    subjects.forEach((s) => {
+      (s.modules || []).forEach((m) => {
+        m.topics.forEach((t) => {
+          if (t.pearls && t.pearls.length > 0 && highYieldLectures.length < 8) {
+            highYieldLectures.push(t);
+          }
+          if (s.prof === '1st Prof' && firstProfPicks.length < 8) {
+            firstProfPicks.push(t);
+          }
+          if (s.prof === 'Final Prof Part 2' && clinicalPicks.length < 8) {
+            clinicalPicks.push(t);
+          }
+        });
+      });
+
+      (s.notes || []).forEach((n) => {
+        if (masterBooks.length < 6) {
+          masterBooks.push(n);
+        }
+      });
+    });
+
+    return {
+      highYieldLectures,
+      firstProfPicks,
+      clinicalPicks,
+      masterBooks: masterBooks.length > 0 ? masterBooks : this.getFallbackBooks(),
+    };
+  }
+
+  public static getFallbackBooks(): NoteItem[] {
+    return [
+      {
+        id: 'book_med_harrison',
+        title: 'Harrison Clinical Medicine Mastery Review Notes',
+        subject_id: 'medicine',
+        file_size_mb: 68.4,
+        pages_count: 142,
+      },
+      {
+        id: 'book_path_robbins',
+        title: 'Robbins Pathology High-Yield Histology Atlas',
+        subject_id: 'pathology',
+        file_size_mb: 52.1,
+        pages_count: 98,
+      },
+      {
+        id: 'book_surg_bailey',
+        title: 'Bailey & Love Operative Surgery Practical Manual',
+        subject_id: 'surgery',
+        file_size_mb: 44.5,
+        pages_count: 110,
+      },
+      {
+        id: 'book_peds_ghai',
+        title: 'Essential Pediatrics Clinical Case Vignettes',
+        subject_id: 'pediatrics',
+        file_size_mb: 38.0,
+        pages_count: 76,
+      },
+    ];
+  }
+
+  /**
+   * Rich 19 MBBS subjects fallback matching public/catalog.json
    */
   public static getFallbackSubjects(): Subject[] {
     return [
@@ -66,18 +199,19 @@ export class MobileLmsApi {
         prof: '1st Prof',
         category: 'Pre-Clinical',
         icon: 'bone',
-        color: '#E11D48',
+        color: '#ffb084',
         total_topics: 184,
         total_notes: 42,
         progress_percentage: 12,
         modules: [
           {
-            id: 'anat_neuro',
+            id: 'mod_anat_neuro',
             name: 'PrepLadder X - Neuroanatomy & Brainstem',
             topics: [
               {
-                id: 'anat_neuro_1',
+                id: 'anat_top_1',
                 subject_id: 'anatomy',
+                module: 'PrepLadder X - Neuroanatomy & Brainstem',
                 title: '01. Brainstem Internal Architecture & Cranial Nerves',
                 filename: '01_brainstem_cranial_nerves.mp4',
                 file_size_bytes: 145000000,
@@ -86,14 +220,15 @@ export class MobileLmsApi {
                 duration_formatted: '40m 50s',
                 stream_url: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
                 pearls: [
-                  'Rule of 4 for brainstem stroke localization (4 midline structures, 4 side structures)',
-                  'Nucleus Ambiguus supplies muscles derived from 4th and 6th pharyngeal arches (CN IX, X, XI)',
+                  'Rule of 4 for brainstem stroke localization (4 midline, 4 side)',
+                  'Nucleus Ambiguus supplies muscles of 4th and 6th pharyngeal arches (CN IX, X, XI)',
                   'Weber syndrome = Ipsilateral CN III palsy + contralateral hemiparesis'
                 ]
               },
               {
-                id: 'anat_neuro_2',
+                id: 'anat_top_2',
                 subject_id: 'anatomy',
+                module: 'PrepLadder X - Neuroanatomy & Brainstem',
                 title: '02. Circle of Willis & Cerebrovascular Syndromes',
                 filename: '02_circle_of_willis.mp4',
                 file_size_bytes: 128000000,
@@ -102,11 +237,20 @@ export class MobileLmsApi {
                 duration_formatted: '33m 00s',
                 stream_url: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4',
                 pearls: [
-                  'Berry aneurysms most common at Anterior Communicating Artery junction',
-                  'PICA infarct causes Wallenberg lateral medullary syndrome (loss of pain/temp on ipsilateral face, contralateral body)'
+                  'Berry aneurysms most common at Anterior Communicating Artery',
+                  'PICA infarct causes Wallenberg lateral medullary syndrome'
                 ]
               }
             ]
+          }
+        ],
+        notes: [
+          {
+            id: 'note_anat_1',
+            title: 'Neuroanatomy Cross-Sections & Cranial Nerves Atlas',
+            subject_id: 'anatomy',
+            file_size_mb: 24.5,
+            pages_count: 64,
           }
         ]
       },
@@ -117,10 +261,35 @@ export class MobileLmsApi {
         prof: '1st Prof',
         category: 'Pre-Clinical',
         icon: 'activity',
-        color: '#0284C7',
+        color: '#e8b94a',
         total_topics: 162,
         total_notes: 38,
         progress_percentage: 24,
+        modules: [
+          {
+            id: 'mod_phys_cvs',
+            name: 'Guyton Clinical Cardiovascular Physiology',
+            topics: [
+              {
+                id: 'phys_top_1',
+                subject_id: 'physiology',
+                module: 'Guyton Clinical Cardiovascular Physiology',
+                title: '01. Cardiac Action Potential & Ion Channels',
+                filename: '01_cardiac_ap.mp4',
+                file_size_bytes: 110000000,
+                file_size_mb: 104.9,
+                duration_seconds: 1850,
+                duration_formatted: '30m 50s',
+                stream_url: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4',
+                pearls: [
+                  'Phase 0 depolarization mediated by fast Na+ channels (INa)',
+                  'Phase 2 plateau mediated by L-type Ca2+ channels (ICa-L)',
+                  'SA and AV nodes have slow Ca2+ dependent phase 0 (no fast Na+ channels)'
+                ]
+              }
+            ]
+          }
+        ]
       },
       {
         id: 'biochemistry',
@@ -129,7 +298,7 @@ export class MobileLmsApi {
         prof: '1st Prof',
         category: 'Pre-Clinical',
         icon: 'flask-conical',
-        color: '#D97706',
+        color: '#f5f0e0',
         total_topics: 140,
         total_notes: 30,
         progress_percentage: 18,
@@ -142,10 +311,35 @@ export class MobileLmsApi {
         prof: '2nd Prof',
         category: 'Para-Clinical',
         icon: 'microscope',
-        color: '#DC2626',
+        color: '#b8a4ed',
         total_topics: 220,
         total_notes: 55,
         progress_percentage: 35,
+        modules: [
+          {
+            id: 'mod_path_heme',
+            name: 'Robbins Hematopathology & Leukemias',
+            topics: [
+              {
+                id: 'path_top_1',
+                subject_id: 'pathology',
+                module: 'Robbins Hematopathology & Leukemias',
+                title: '01. Acute Myeloid Leukemia (AML) & Cytogenetics',
+                filename: '01_aml_cytogenetics.mp4',
+                file_size_bytes: 160000000,
+                file_size_mb: 152.6,
+                duration_seconds: 2700,
+                duration_formatted: '45m 00s',
+                stream_url: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4',
+                pearls: [
+                  'Auer rods = crystalline aggregates of fused myeloperoxidase granules',
+                  't(15;17) PML-RARA in APML (M3) responds to ATRA + Arsenic Trioxide',
+                  'Risk of severe DIC triggered by release of procoagulant granules'
+                ]
+              }
+            ]
+          }
+        ]
       },
       {
         id: 'pharmacology',
@@ -154,7 +348,7 @@ export class MobileLmsApi {
         prof: '2nd Prof',
         category: 'Para-Clinical',
         icon: 'pill',
-        color: '#7C3AED',
+        color: '#a4d4c5',
         total_topics: 195,
         total_notes: 48,
         progress_percentage: 42,
@@ -166,7 +360,7 @@ export class MobileLmsApi {
         prof: '2nd Prof',
         category: 'Para-Clinical',
         icon: 'bug',
-        color: '#059669',
+        color: '#f5f0e0',
         total_topics: 175,
         total_notes: 40,
         progress_percentage: 8,
@@ -178,7 +372,7 @@ export class MobileLmsApi {
         prof: '2nd Prof',
         category: 'Para-Clinical',
         icon: 'shield-alert',
-        color: '#EA580C',
+        color: '#faf5e8',
         total_topics: 92,
         total_notes: 22,
         progress_percentage: 0,
@@ -191,7 +385,7 @@ export class MobileLmsApi {
         prof: '3rd Prof Part 1',
         category: 'Clinical',
         icon: 'users',
-        color: '#2563EB',
+        color: '#a4d4c5',
         total_topics: 160,
         total_notes: 35,
         progress_percentage: 15,
@@ -203,7 +397,7 @@ export class MobileLmsApi {
         prof: '3rd Prof Part 1',
         category: 'Clinical',
         icon: 'eye',
-        color: '#0D9488',
+        color: '#ff6b5a',
         total_topics: 110,
         total_notes: 26,
         progress_percentage: 50,
@@ -215,7 +409,7 @@ export class MobileLmsApi {
         prof: '3rd Prof Part 1',
         category: 'Clinical',
         icon: 'ear',
-        color: '#4F46E5',
+        color: '#ffb084',
         total_topics: 98,
         total_notes: 24,
         progress_percentage: 30,
@@ -228,10 +422,35 @@ export class MobileLmsApi {
         prof: 'Final Prof Part 2',
         category: 'Clinical',
         icon: 'stethoscope',
-        color: '#00A389',
+        color: '#1a3a3a',
         total_topics: 340,
         total_notes: 85,
         progress_percentage: 65,
+        modules: [
+          {
+            id: 'mod_med_cardio',
+            name: 'Harrison Clinical Cardiology Masterclass',
+            topics: [
+              {
+                id: 'med_top_1',
+                subject_id: 'medicine',
+                module: 'Harrison Clinical Cardiology Masterclass',
+                title: '01. Heart Failure with Reduced EF: Guideline-Directed Medical Therapy',
+                filename: '01_hfref_gdmt.mp4',
+                file_size_bytes: 185000000,
+                file_size_mb: 176.4,
+                duration_seconds: 3100,
+                duration_formatted: '51m 40s',
+                stream_url: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4',
+                pearls: [
+                  'Four pillars of GDMT: ARNI (Sacubitril/Valsartan), Beta-blocker, MRA (Spironolactone), SGLT2i (Dapagliflozin)',
+                  'Beta-blockers proven for mortality: Carvedilol, Metoprolol succinate, Bisoprolol',
+                  'S3 gallop correlates with elevated left ventricular filling pressure (>20 mmHg)'
+                ]
+              }
+            ]
+          }
+        ]
       },
       {
         id: 'surgery',
@@ -240,7 +459,7 @@ export class MobileLmsApi {
         prof: 'Final Prof Part 2',
         category: 'Clinical',
         icon: 'scissors',
-        color: '#E11D48',
+        color: '#ff4d8b',
         total_topics: 280,
         total_notes: 70,
         progress_percentage: 40,
@@ -252,7 +471,7 @@ export class MobileLmsApi {
         prof: 'Final Prof Part 2',
         category: 'Clinical',
         icon: 'baby',
-        color: '#DB2777',
+        color: '#b8a4ed',
         total_topics: 210,
         total_notes: 50,
         progress_percentage: 28,
@@ -264,7 +483,7 @@ export class MobileLmsApi {
         prof: 'Final Prof Part 2',
         category: 'Clinical',
         icon: 'heart-pulse',
-        color: '#10B981',
+        color: '#e8b94a',
         total_topics: 145,
         total_notes: 36,
         progress_percentage: 19,
@@ -276,7 +495,7 @@ export class MobileLmsApi {
         prof: 'Final Prof Part 2',
         category: 'Clinical',
         icon: 'bone',
-        color: '#D97706',
+        color: '#f5f0e0',
         total_topics: 95,
         total_notes: 20,
         progress_percentage: 55,
@@ -288,7 +507,7 @@ export class MobileLmsApi {
         prof: 'Final Prof Part 2',
         category: 'Clinical',
         icon: 'sparkles',
-        color: '#9333EA',
+        color: '#ffb084',
         total_topics: 80,
         total_notes: 18,
         progress_percentage: 75,
@@ -300,7 +519,7 @@ export class MobileLmsApi {
         prof: 'Final Prof Part 2',
         category: 'Clinical',
         icon: 'brain',
-        color: '#6366F1',
+        color: '#b8a4ed',
         total_topics: 65,
         total_notes: 14,
         progress_percentage: 10,
@@ -312,7 +531,7 @@ export class MobileLmsApi {
         prof: 'Final Prof Part 2',
         category: 'Clinical',
         icon: 'scan',
-        color: '#0891B2',
+        color: '#1a3a3a',
         total_topics: 78,
         total_notes: 22,
         progress_percentage: 33,
@@ -324,7 +543,7 @@ export class MobileLmsApi {
         prof: 'Final Prof Part 2',
         category: 'Clinical',
         icon: 'shield-check',
-        color: '#64748B',
+        color: '#faf5e8',
         total_topics: 54,
         total_notes: 12,
         progress_percentage: 5,
