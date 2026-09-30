@@ -14,6 +14,7 @@ build/
 *.local
 *.apk
 build-output/
+.expo/
 
 # Cloudflare & Wrangler Local Runtime State
 .wrangler/

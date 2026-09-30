@@ -7,15 +7,21 @@ import {
   TextInput,
   ActivityIndicator,
   StatusBar,
+  ScrollView,
+  TouchableOpacity,
 } from 'react-native';
 import { Header } from '../components/Header';
 import { ProfFilterTabs, FilterOption } from '../components/ProfFilterTabs';
-import { SubjectCard } from '../components/SubjectCard';
+import { ClaySubjectCard } from '../components/ClaySubjectCard';
+import { LiquidGlassTabBar, MainTabType } from '../components/LiquidGlassTabBar';
+import { HighYieldFeed } from '../components/HighYieldFeed';
+import { NotesAtlasFeed } from '../components/NotesAtlasFeed';
+import { BookmarksFeed } from '../components/BookmarksFeed';
 import { MobileLmsApi } from '../services/api';
 import { Subject } from '../types/lms';
-import { COMMON_COLORS } from '../theme/colors';
+import { CLAY_COLORS, CLAY_ROUNDED } from '../theme/clay';
 import { useAppTheme } from '../context/ThemeContext';
-import { Search, Flame, Award } from 'lucide-react-native';
+import { Search, Flame, Award, Sparkles } from 'lucide-react-native';
 import type { NativeStackScreenProps } from '@react-navigation/native-stack';
 import type { RootStackParamList } from '../navigation/RootNavigator';
 
@@ -23,6 +29,7 @@ type HomeScreenProps = NativeStackScreenProps<RootStackParamList, 'Home'>;
 
 export const HomeScreen: React.FC<HomeScreenProps> = ({ navigation }) => {
   const { theme } = useAppTheme();
+  const [currentTab, setCurrentTab] = useState<MainTabType>('curriculum');
   const [subjects, setSubjects] = useState<Subject[]>([]);
   const [loading, setLoading] = useState<boolean>(true);
   const [selectedFilter, setSelectedFilter] = useState<FilterOption>('All');
@@ -56,30 +63,49 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({ navigation }) => {
     });
   }, [subjects, selectedFilter, searchQuery]);
 
-  const renderHeader = () => (
+  const renderCurriculumHeader = () => (
     <View style={styles.headerContent}>
-      {/* High-Yield Study Banner */}
-      <View style={[styles.studyBanner, { borderColor: theme.border }]}>
-        <View style={styles.bannerLeft}>
-          <View style={styles.bannerTagRow}>
-            <Flame size={14} color={COMMON_COLORS.gold} />
-            <Text style={styles.bannerTagText}>NEET-PG & INI-CET CURRICULUM</Text>
+      {/* Clay Hero Feature Band from DESIGN.md */}
+      <View
+        style={[
+          styles.heroFeatureBand,
+          {
+            backgroundColor: CLAY_COLORS.surfaceDarkElevated,
+            borderColor: CLAY_COLORS.surfaceDarkBorder,
+          },
+        ]}
+      >
+        <View style={styles.heroLeft}>
+          <View style={styles.tagBadge}>
+            <Sparkles size={12} color={CLAY_COLORS.brandPink} />
+            <Text style={styles.tagBadgeText}>NEET-PG & INI-CET CLINICAL</Text>
           </View>
-          <Text style={styles.bannerTitle}>19 MBBS Subjects</Text>
-          <Text style={styles.bannerSubtitle}>High-Yield Lectures & Clinical Notes</Text>
+          <Text style={styles.heroTitle}>19 MBBS Subjects</Text>
+          <Text style={styles.heroSubtitle}>
+            High-Yield Video Lectures & Digital Atlas
+          </Text>
         </View>
-        <View style={[styles.bannerIconCircle, { backgroundColor: theme.badgeBg }]}>
-          <Award size={24} color={theme.accent} />
+
+        <View style={[styles.heroIconBadge, { backgroundColor: 'rgba(255, 77, 139, 0.15)' }]}>
+          <Award size={26} color={CLAY_COLORS.brandPink} />
         </View>
       </View>
 
-      {/* Search Bar */}
-      <View style={styles.searchBar}>
-        <Search size={16} color={COMMON_COLORS.textMuted} />
+      {/* Clay Search Input Bar */}
+      <View
+        style={[
+          styles.searchBar,
+          {
+            backgroundColor: CLAY_COLORS.surfaceDarkCard,
+            borderColor: CLAY_COLORS.surfaceDarkBorder,
+          },
+        ]}
+      >
+        <Search size={16} color={CLAY_COLORS.mutedSoft} />
         <TextInput
           style={styles.searchInput}
           placeholder="Search subjects, codes (e.g. ANAT, MED)..."
-          placeholderTextColor={COMMON_COLORS.textMuted}
+          placeholderTextColor={CLAY_COLORS.mutedSoft}
           value={searchQuery}
           onChangeText={setSearchQuery}
         />
@@ -92,34 +118,73 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({ navigation }) => {
 
   return (
     <View style={styles.container}>
-      <StatusBar barStyle="light-content" backgroundColor={COMMON_COLORS.bgDark} />
+      <StatusBar barStyle="light-content" backgroundColor={CLAY_COLORS.surfaceDark} />
       <Header />
 
+      {/* Main Body per Active Tab */}
       {loading ? (
         <View style={styles.loadingContainer}>
           <ActivityIndicator size="large" color={theme.primary} />
-          <Text style={styles.loadingText}>Loading 19 Subjects Catalog...</Text>
+          <Text style={styles.loadingText}>Loading 19 Subjects...</Text>
         </View>
       ) : (
-        <FlatList
-          data={filteredSubjects}
-          keyExtractor={(item) => item.id}
-          renderItem={({ item }) => (
-            <SubjectCard
-              subject={item}
-              onPress={() => navigation.navigate('SubjectDetail', { subject: item })}
+        <View style={styles.tabBody}>
+          {currentTab === 'curriculum' && (
+            <FlatList
+              data={filteredSubjects}
+              keyExtractor={(item) => item.id}
+              renderItem={({ item, index }) => (
+                <ClaySubjectCard
+                  subject={item}
+                  index={index}
+                  onPress={() => navigation.navigate('SubjectDetail', { subject: item })}
+                />
+              )}
+              ListHeaderComponent={renderCurriculumHeader}
+              contentContainerStyle={styles.listContent}
+              showsVerticalScrollIndicator={false}
+              ListEmptyComponent={
+                <View style={styles.emptyContainer}>
+                  <Text style={styles.emptyText}>No subjects matched your filter.</Text>
+                </View>
+              }
             />
           )}
-          ListHeaderComponent={renderHeader}
-          contentContainerStyle={styles.listContent}
-          showsVerticalScrollIndicator={false}
-          ListEmptyComponent={
-            <View style={styles.emptyContainer}>
-              <Text style={styles.emptyText}>No subjects matched your search.</Text>
-            </View>
-          }
-        />
+
+          {currentTab === 'highYield' && (
+            <ScrollView
+              contentContainerStyle={styles.listContent}
+              showsVerticalScrollIndicator={false}
+            >
+              <HighYieldFeed />
+            </ScrollView>
+          )}
+
+          {currentTab === 'notes' && (
+            <ScrollView
+              contentContainerStyle={styles.listContent}
+              showsVerticalScrollIndicator={false}
+            >
+              <NotesAtlasFeed />
+            </ScrollView>
+          )}
+
+          {currentTab === 'bookmarks' && (
+            <ScrollView
+              contentContainerStyle={styles.listContent}
+              showsVerticalScrollIndicator={false}
+            >
+              <BookmarksFeed />
+            </ScrollView>
+          )}
+        </View>
       )}
+
+      {/* Liquid Glass Floating Bottom Navigation Bar */}
+      <LiquidGlassTabBar
+        currentTab={currentTab}
+        onTabChange={(tab) => setCurrentTab(tab)}
+      />
     </View>
   );
 };
@@ -127,7 +192,10 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({ navigation }) => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: COMMON_COLORS.bgDark,
+    backgroundColor: CLAY_COLORS.surfaceDark,
+  },
+  tabBody: {
+    flex: 1,
   },
   loadingContainer: {
     flex: 1,
@@ -137,56 +205,62 @@ const styles = StyleSheet.create({
   },
   loadingText: {
     fontSize: 14,
-    color: COMMON_COLORS.textSecondary,
+    color: CLAY_COLORS.mutedSoft,
     fontWeight: '500',
   },
   listContent: {
     paddingHorizontal: 20,
-    paddingBottom: 40,
+    paddingTop: 8,
+    paddingBottom: 110, // Extra padding so floating glass bar doesn't obscure content
   },
   headerContent: {
     marginBottom: 16,
   },
-  studyBanner: {
+  heroFeatureBand: {
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
-    backgroundColor: COMMON_COLORS.cardDark,
-    borderRadius: 16,
+    borderRadius: CLAY_ROUNDED.xl, // 24px from DESIGN.md
     borderWidth: 1,
-    padding: 16,
+    padding: 20,
     marginBottom: 16,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 6 },
+    shadowOpacity: 0.3,
+    shadowRadius: 14,
+    elevation: 4,
   },
-  bannerLeft: {
+  heroLeft: {
     flex: 1,
   },
-  bannerTagRow: {
+  tagBadge: {
     flexDirection: 'row',
     alignItems: 'center',
-    gap: 6,
-    marginBottom: 4,
+    gap: 5,
+    marginBottom: 6,
   },
-  bannerTagText: {
+  tagBadgeText: {
     fontSize: 10,
     fontWeight: '800',
-    color: COMMON_COLORS.gold,
+    color: CLAY_COLORS.brandPink,
     letterSpacing: 0.5,
   },
-  bannerTitle: {
-    fontSize: 18,
+  heroTitle: {
+    fontSize: 22,
     fontWeight: '800',
-    color: COMMON_COLORS.textPrimary,
-    marginBottom: 2,
+    color: '#FFFFFF',
+    letterSpacing: -0.5,
+    marginBottom: 4,
   },
-  bannerSubtitle: {
+  heroSubtitle: {
     fontSize: 12,
-    color: COMMON_COLORS.textMuted,
+    color: CLAY_COLORS.mutedSoft,
     fontWeight: '500',
   },
-  bannerIconCircle: {
-    width: 44,
-    height: 44,
-    borderRadius: 22,
+  heroIconBadge: {
+    width: 48,
+    height: 48,
+    borderRadius: 24,
     alignItems: 'center',
     justifyContent: 'center',
     marginLeft: 12,
@@ -194,18 +268,16 @@ const styles = StyleSheet.create({
   searchBar: {
     flexDirection: 'row',
     alignItems: 'center',
-    backgroundColor: COMMON_COLORS.cardDark,
-    borderRadius: 12,
+    borderRadius: CLAY_ROUNDED.pill,
     borderWidth: 1,
-    borderColor: COMMON_COLORS.cardBorder,
-    paddingHorizontal: 14,
-    height: 46,
-    marginBottom: 8,
+    paddingHorizontal: 16,
+    height: 48,
+    marginBottom: 12,
   },
   searchInput: {
     flex: 1,
     marginLeft: 10,
-    color: COMMON_COLORS.textPrimary,
+    color: '#FFFFFF',
     fontSize: 14,
   },
   emptyContainer: {
@@ -214,6 +286,6 @@ const styles = StyleSheet.create({
   },
   emptyText: {
     fontSize: 14,
-    color: COMMON_COLORS.textMuted,
+    color: CLAY_COLORS.mutedSoft,
   },
 });
