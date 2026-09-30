@@ -85,7 +85,7 @@ export const PlayerScreen: React.FC<PlayerScreenProps> = ({ route, navigation })
           <VideoView
             style={styles.video}
             player={player}
-            allowsFullscreen
+            fullscreenOptions={{ enable: true }}
             allowsPictureInPicture
             startsPictureInPictureAutomatically
             nativeControls
