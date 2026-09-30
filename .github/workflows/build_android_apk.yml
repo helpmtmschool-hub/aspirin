@@ -1,0 +1,101 @@
+name: 📱 Build Aspirin LMS Android APK
+
+on:
+  workflow_dispatch:
+    inputs:
+      build_type:
+        description: 'Build Type (release or debug)'
+        required: true
+        default: 'release'
+        type: choice
+        options:
+          - release
+          - debug
+      split_per_abi:
+        description: 'Split per ABI (arm64-v8a, armeabi-v7a, x86_64)'
+        required: true
+        default: true
+        type: boolean
+  push:
+    branches:
+      - main
+      - master
+    paths:
+      - 'mobile/**'
+      - '.github/workflows/build_android_apk.yml'
+  pull_request:
+    paths:
+      - 'mobile/**'
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build-apk:
+    name: 🏗️ Compile Android APK
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+
+    steps:
+      - name: 📥 Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: ☕ Setup Java 17 (Temurin)
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+          cache: 'gradle'
+
+      - name: 🐦 Setup Flutter Environment
+        uses: subosito/flutter-action@v2
+        with:
+          channel: 'stable'
+          cache: true
+          cache-key: 'flutter-:os:-:channel:-:version:-:arch:'
+
+      - name: 🩺 Flutter Doctor & Diagnostics
+        run: |
+          flutter --version
+          flutter doctor -v
+
+      - name: 📦 Install Flutter Dependencies
+        working-directory: mobile
+        run: flutter pub get
+
+      - name: 🔍 Static Code Analysis
+        working-directory: mobile
+        run: flutter analyze --no-fatal-infos
+
+      - name: 🔨 Build Universal Release APK
+        working-directory: mobile
+        run: flutter build apk --release
+
+      - name: 🚀 Build ABI-Optimized APKs (arm64-v8a, armeabi-v7a)
+        if: ${{ github.event_name != 'workflow_dispatch' || inputs.split_per_abi == true }}
+        working-directory: mobile
+        run: flutter build apk --release --split-per-abi
+
+      - name: 📊 Generate Build Summary
+        run: |
+          echo "### 📱 Aspirin LMS Android APK Build Artifacts" >> $GITHUB_STEP_SUMMARY
+          echo "| Artifact Name | Size | SHA-256 Digest |" >> $GITHUB_STEP_SUMMARY
+          echo "| :--- | :--- | :--- |" >> $GITHUB_STEP_SUMMARY
+          
+          cd mobile/build/app/outputs/flutter-apk
+          for apk in *.apk; do
+            if [ -f "$apk" ]; then
+              size=$(ls -lh "$apk" | awk '{print $5}')
+              hash=$(sha256sum "$apk" | awk '{print $1}' | cut -c1-16)...
+              echo "| \`$apk\` | **$size** | \`$hash\` |" >> $GITHUB_STEP_SUMMARY
+            fi
+          done
+
+      - name: 📤 Upload APK Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: aspirin-lms-android-apks
+          path: mobile/build/app/outputs/flutter-apk/*.apk
+          if-no-files-found: error
+          retention-days: 14

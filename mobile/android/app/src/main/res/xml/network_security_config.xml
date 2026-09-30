@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- Allow cleartext traffic ONLY to localhost/127.0.0.1 for the internal video decryption loopback proxy -->
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="false">localhost</domain>
+        <domain includeSubdomains="false">127.0.0.1</domain>
+    </domain-config>
+    <!-- Force HTTPS/TLS for all external network endpoints (Cloudflare, Azure CDN, Clerk) -->
+    <base-config cleartextTrafficPermitted="false" />
+</network-security-config>

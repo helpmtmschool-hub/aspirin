@@ -33,12 +33,13 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+# Python, Virtual Environments & Caches
 develop-eggs/
 downloads/
 eggs/
 .eggs/
-lib/
-lib64/
+/lib/
+/lib64/
 parts/
 sdist/
 var/
@@ -46,6 +47,18 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+
+# Flutter Mobile App
+mobile/.dart_tool/
+mobile/.flutter-plugins
+mobile/.flutter-plugins-dependencies
+mobile/.packages
+mobile/build/
+mobile/android/.gradle/
+mobile/android/local.properties
+mobile/android/app/build/
+!mobile/lib/
+!mobile/lib/**
 
 # Telegram, OneDrive, Ingestion & Agent Local State (SENSITIVE)
 .stream_cache/
