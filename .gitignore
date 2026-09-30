@@ -12,6 +12,8 @@ dist/
 dist-ssr/
 build/
 *.local
+*.apk
+build-output/
 
 # Cloudflare & Wrangler Local Runtime State
 .wrangler/
