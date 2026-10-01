@@ -24,7 +24,7 @@ if (flutterVersionName == null) {
 
 android {
     namespace "com.aspirin.lms"
-    compileSdk 35
+    compileSdk 36
     ndkVersion flutter.ndkVersion
 
     compileOptions {
@@ -40,7 +40,7 @@ android {
     defaultConfig {
         applicationId "com.aspirin.lms"
         minSdk 26
-        targetSdk 35
+        targetSdk 36
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
         multiDexEnabled true
