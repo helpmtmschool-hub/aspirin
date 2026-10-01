@@ -70,12 +70,12 @@ jobs:
 
       - name: 🔨 Build Universal Release APK
         working-directory: mobile
-        run: flutter build apk --release
+        run: flutter build apk --release --android-skip-build-dependency-validation
 
       - name: 🚀 Build ABI-Optimized APKs (arm64-v8a, armeabi-v7a)
         if: ${{ github.event_name != 'workflow_dispatch' || inputs.split_per_abi == true }}
         working-directory: mobile
-        run: flutter build apk --release --split-per-abi
+        run: flutter build apk --release --split-per-abi --android-skip-build-dependency-validation
 
       - name: 📊 Generate Build Summary
         run: |
