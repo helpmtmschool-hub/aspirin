@@ -214,8 +214,7 @@ class DownloadsScreen extends ConsumerWidget {
                 title: item.title,
                 durationSeconds: 2400,
                 fileSizeBytes: item.totalBytes,
-                videoUrl: '',
-                isWatched: false,
+                directStreamUrl: '',
               );
               context.push('/player', extra: topic);
             }
