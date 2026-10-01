@@ -132,7 +132,7 @@ class DownloadsScreen extends ConsumerWidget {
                                 : AppColors.lightTextTertiary,
                           ),
                         ),
-                        Text(
+                        const Text(
                           'AES-256 Encrypted',
                           style: TextStyle(
                             fontSize: 11,

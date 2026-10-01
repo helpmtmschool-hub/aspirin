@@ -195,10 +195,10 @@ class SettingsScreen extends ConsumerWidget {
                     onChanged: (val) {},
                   ),
                   Divider(height: 1, color: isDark ? AppColors.darkBorder : AppColors.lightBorder),
-                  ListTile(
+                  const ListTile(
                     leading: Icon(LucideIcons.shieldCheck, color: AppColors.emerald),
-                    title: const Text('Vault Encryption Status', style: TextStyle(fontSize: 14, fontWeight: FontWeight.w600)),
-                    subtitle: const Text('AES-256-CTR Device KeyStore Active', style: TextStyle(fontSize: 12)),
+                    title: Text('Vault Encryption Status', style: TextStyle(fontSize: 14, fontWeight: FontWeight.w600)),
+                    subtitle: Text('AES-256-CTR Device KeyStore Active', style: TextStyle(fontSize: 12)),
                     trailing: Text(
                       'ACTIVE',
                       style: TextStyle(

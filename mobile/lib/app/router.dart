@@ -54,13 +54,12 @@ final routerProvider = Provider<GoRouter>((ref) {
         parentNavigatorKey: _rootNavigatorKey,
         builder: (context, state) {
           final topic = state.extra as Topic? ??
-              Topic(
+              const Topic(
                 id: 'demo_topic',
                 title: 'Acute Coronary Syndrome & MI Management',
                 durationSeconds: 2840,
                 fileSizeBytes: 240 * 1024 * 1024,
-                videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
-                isWatched: false,
+                directStreamUrl: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
               );
           return VideoPlayerScreen(topic: topic);
         },
@@ -72,7 +71,7 @@ final routerProvider = Provider<GoRouter>((ref) {
         parentNavigatorKey: _rootNavigatorKey,
         builder: (context, state) {
           final note = state.extra as NoteItem? ??
-              NoteItem(
+              const NoteItem(
                 id: 'demo_note',
                 subjectCode: 'MED',
                 title: 'High-Yield Clinical Medicine Review',

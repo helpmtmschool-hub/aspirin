@@ -357,7 +357,7 @@ class _SubjectDetailScreenState extends ConsumerState<SubjectDetailScreen>
                           ),
                           if (isWatched) ...[
                             const SizedBox(width: 8),
-                            Text(
+                            const Text(
                               'Completed',
                               style: TextStyle(
                                 fontSize: 11,

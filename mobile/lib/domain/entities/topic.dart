@@ -35,8 +35,6 @@ class Topic {
     this.faculty,
     this.directStreamUrl,
     this.isDownloaded = false,
-    bool? isWatched,
-    String? videoUrl,
   });
 
   bool get isWatched => isCompleted || watchedSeconds > 0;

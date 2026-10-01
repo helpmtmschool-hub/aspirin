@@ -29,9 +29,9 @@ class DurationFormatter {
       if (minutes > 0) {
         return '${hours}h ${minutes}m';
       }
-      return '${hours} hrs';
+      return '$hours hrs';
     }
-    return '${minutes} mins';
+    return '$minutes mins';
   }
 
   /// Alias for formatHuman

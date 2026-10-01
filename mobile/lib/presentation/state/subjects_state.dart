@@ -2,7 +2,6 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../../core/network/api_client.dart';
 import '../../core/security/secure_vault.dart';
 import '../../data/repositories/subject_repository.dart';
-import '../../domain/entities/subject.dart';
 import '../../domain/entities/module.dart';
 import '../../domain/entities/topic.dart';
 import '../../domain/entities/note.dart';

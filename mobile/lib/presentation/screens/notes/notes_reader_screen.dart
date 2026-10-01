@@ -5,8 +5,6 @@ import 'package:go_router/go_router.dart';
 import 'package:lucide_icons/lucide_icons.dart';
 import 'package:pdfrx/pdfrx.dart';
 import '../../../app/theme/app_colors.dart';
-import '../../../core/security/cipher_engine.dart';
-import '../../../core/security/secure_vault.dart';
 import '../../../domain/entities/note.dart';
 import '../../state/download_state.dart';
 import '../../state/subjects_state.dart';
@@ -146,7 +144,6 @@ class _NotesReaderScreenState extends ConsumerState<NotesReaderScreen> {
   @override
   Widget build(BuildContext context) {
     final isDark = Theme.of(context).brightness == Brightness.dark;
-    final primaryColor = Theme.of(context).colorScheme.primary;
 
     final downloadMap = ref.watch(downloadProvider);
     final downloadItem = downloadMap[widget.note.id];

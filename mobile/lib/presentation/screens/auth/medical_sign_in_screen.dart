@@ -134,7 +134,8 @@ class _MedicalSignInScreenState extends ConsumerState<MedicalSignInScreen> {
                                   email: _emailController.text,
                                   otp: _otpController.text,
                                 );
-                            if (mounted && ref.read(authProvider).isAuthenticated) {
+                            if (!context.mounted) return;
+                            if (ref.read(authProvider).isAuthenticated) {
                               context.go('/home');
                             }
                           },
