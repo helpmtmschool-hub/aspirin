@@ -39,3 +39,7 @@
 -keepattributes Signature
 -keepattributes EnclosingMethod
 -keepattributes InnerClasses
+
+# Google Play Core & Flutter Deferred Components
+-dontwarn com.google.android.play.core.**
+-dontwarn io.flutter.embedding.engine.deferredcomponents.**
