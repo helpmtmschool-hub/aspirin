@@ -68,7 +68,7 @@ jobs:
       - name: Set up Node
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "22"
 
       - name: Install Python Dependencies
         run: |
@@ -135,7 +135,7 @@ jobs:
           PYTHONUNBUFFERED: "1"
 
       - name: Reconcile Manifest and Sync Catalog
-        if: ${{ success() && github.event.inputs.dry_run != 'true' && github.event.inputs.verify_only != 'true' }}
+        if: ${{ always() && github.event.inputs.dry_run != 'true' && github.event.inputs.verify_only != 'true' }}
         run: |
           git fetch origin main || true
           python engine/merge_manifests.py

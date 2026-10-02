@@ -27,8 +27,29 @@ def merge_manifests():
     except Exception:
         pass
 
-    # Union merge: remote keys preserved, local newly completed keys merged on top
-    merged = {**remote_data, **local_data}
+    # Intelligent union merge: preserve completed and migrated states from both branches
+    merged = dict(remote_data)
+    for k, local_val in local_data.items():
+        if k not in merged:
+            merged[k] = local_val
+        else:
+            remote_val = merged[k]
+            if isinstance(local_val, dict) and isinstance(remote_val, dict):
+                # If either side migrated to openmedQ, keep the migrated state
+                if local_val.get("openmedq_migrated") and not remote_val.get("openmedq_migrated"):
+                    merged[k] = local_val
+                elif remote_val.get("openmedq_migrated") and not local_val.get("openmedq_migrated"):
+                    merged[k] = remote_val
+                # If either side marked item completed, keep completed state
+                elif local_val.get("status") == "completed" and remote_val.get("status") != "completed":
+                    merged[k] = local_val
+                elif remote_val.get("status") == "completed" and local_val.get("status") != "completed":
+                    merged[k] = remote_val
+                else:
+                    # Both have same progress: merge with local updates taking precedence
+                    merged[k] = {**remote_val, **local_val}
+            else:
+                merged[k] = local_val
 
     print(f"Manifest merge complete: {len(remote_data)} remote + {len(local_data)} local -> {len(merged)} total items.")
 
