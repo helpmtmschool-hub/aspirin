@@ -220,6 +220,9 @@ The streaming endpoint `GET /api/stream/:chat/:msg`:
 | `TELEGRAM_API_ID` | Telegram API App ID (`21798363`) | GitHub Secrets & local `credentials_telegram.json` |
 | `TELEGRAM_API_HASH` | Telegram API Hash (`c1a3ebc54a9d701a2386cb6c2c9d1df5`) | GitHub Secrets & local `credentials_telegram.json` |
 | `TELEGRAM_SESSION_STRING` | Telethon Authenticated User String | GitHub Secrets & local `telegram_session.session` |
+| `CLERK_PUBLISHABLE_KEY` | Clerk Frontend Public Key (`pk_test_Y2VudHJhbC1mb3gtMjExNy5jbGVyay5hY2NvdW50cy5kZXYk`) | `.env` (`VITE_CLERK_PUBLISHABLE_KEY`) & Flutter App |
+| `CLERK_SECRET_KEY` | Clerk Backend Secret Key (`sk_test_rDQvd5iXCs43605n1dFfW1U2EKs0gCe9of6IcL7m3F`) | `.dev.vars`, `.env` & Cloudflare Worker Secrets |
+| `CLERK_JWT_KEY` | Clerk Public RSA Key for Networkless Edge JWT Verification | `.dev.vars`, `.env` & Cloudflare Worker Secrets |
 
 ---
 
@@ -332,20 +335,15 @@ Four subjects contained human uploader errors that were diagnosed and normalized
 * **Artifacts:** `engine/marrow_derm_true_titles.json` (per-lecture provenance: previous filename, binding method, both corroborating messages). Manifest records carry `marrow_lecture_no`, `title_verified`, `source_onedrive_item_id`/`source_onedrive_path` (legacy tenant) and `openmedq_migrated`.
 * **Migration:** `engine/migrate_marrow_dermatology.py` + `.github/workflows/migrate_dermatology.yml` stream the 7.62 GiB cloud-to-cloud into `/Aspirin_LMS/Marrow_E6/Dermatology/{N}. {Verified Title}.mp4` on openmedQ. Records are written with `status: completed` **but no `onedrive_item_id`** until the transfer lands: that keeps the Telegram pipeline from re-downloading them while keeping them out of `catalog.json` (which requires a destination id) so no unstreamable entry is ever advertised.
 
-* **Ophthalmology (Msgs 211–251 | 40 Clean Lectures):**
-  * *Uploader Anomaly:* The uploader skipped number 18 in their captions:
-    * Msg 227 caption: `17. Orbital and Lacrimal Diseases part 3`
-    * Msg 228 file: `17. Orbital and Lacrimal Diseases part 3.mp4` (Title fix required)
-    * Msg 229 caption: `19. Orbit Part 1` (Skipped 18!)
-  * *Correction:* Fixed Msg 228 to `17. Orbital and Lacrimal Apparatus Part 3` and renumbered Msgs 229..251 down by 1 (19..41 $\rightarrow$ 18..40). Result: A perfectly contiguous sequence of **1..40 lectures**.
+* **Ophthalmology (40 Verified Lectures | Msgs 212–251 in My Marrow | Corroborated with Subjectwise & Marrow Flat):**
+  * *Uploader Anomaly in My Marrow:* The uploader skipped number 18 in their captions (Msg 228 is Lecture 17, and Msg 229 was captioned `19. Glaucoma Investigations`), which caused subsequent lectures to be numbered up to 41.
+  * *Subjectwise Duplicate:* In `Subjectwise Lectures` (topic 2741), the uploader noticed number 18 was missing and uploaded the same video (`19_watermarked.mp4`, doc_id `5852947187767448962`) twice (Msgs 2759 and 2760).
+  * *Ground Truth:* Cross-verification against `Marrow Flat Channel` (Msgs 294–333) and duration matching proves there are **exactly 40 distinct lectures**. Canonical titles, durations, and doc IDs are codified in `engine/marrow_ophthalmology_verified.json`.
 
-* **ENT (Ear, Nose, Throat) (Msgs 148–210 | 63 Clean Lectures):**
-  * *Uploader Anomalies:*
-    1. Msg 210 (850 MB) was an errant duplicate of Ophthalmology Lecture 5 (`05. Diseases of Cornea and Sclera Part 2`) mistakenly posted at the tail end of the ENT section.
-    2. The uploader skipped number 52 in their captions:
-       * Msg 198 caption: `51. Retropharyngeal Abscess`
-       * Msg 199 caption: `53. Physiology and Clinical Evaluation of Larynx` (Skipped 52!)
-  * *Correction:* Dropped Msg 210 completely. Renumbered Msgs 198..209 down by 1 (53..64 $\rightarrow$ 52..63). Result: A perfectly contiguous sequence of **1..63 lectures**.
+* **ENT (Ear, Nose, Throat) (64 Verified Lectures | Complete Syllabus Restored):**
+  * *The Missing Lecture 52 Defect:* In `My Marrow` topic 146 (Msgs 147–209), the uploader completely missed **Lecture 52: Adenoid Hypertrophy** (814.7 MB, 3,908s duration). The captions jumped directly from `51. Pharynx Anatomy 4` (Msg 197) to `53. Angiofibroma` (Msg 198), leaving only 63 files.
+  * *Recovery:* Lecture 52 was recovered with full integrity from `Subjectwise Lectures` (topic 3102, Msg 3154 / topic 2647, Msg 2700) and corroborated with `Marrow Flat Channel` (Msg 280, `52. Adenoid Hypertrophy Yw.mp4`, duration match 3,908s).
+  * *Pipeline Bridge:* `engine/telegram_to_onedrive.py` now supports per-item `chat_id` overrides. Lecture 52 is sourced directly from `Subjectwise Lectures` (`-1003506593387`) while all other 63 lectures are pulled from `My Marrow` (`-1003264222864`), producing the complete, contiguous **1..64 lecture sequence**. Canonical titles, durations, and doc IDs are codified in `engine/marrow_ent_verified.json`.
 
 ---
 

@@ -9,6 +9,10 @@ type Bindings = {
   ONEDRIVE_TENANT_ID?: string;
   ONEDRIVE_REFRESH_TOKEN?: string;
   ONEDRIVE_DRIVE_TARGET?: string;
+  NEW_ONEDRIVE_CLIENT_ID?: string;
+  NEW_ONEDRIVE_TENANT_ID?: string;
+  NEW_ONEDRIVE_REFRESH_TOKEN?: string;
+  NEW_ONEDRIVE_DRIVE_TARGET?: string;
   CLERK_SECRET_KEY?: string;
   CLERK_JWT_KEY?: string;
 };
@@ -22,63 +26,171 @@ interface TokenCache {
   accessToken: string;
   expiresAt: number;
 }
-let tokenCache: TokenCache | null = null;
+const tokenCacheByTenant = new Map<string, TokenCache>();
+const refreshFailures = new Map<string, number>();
 const downloadUrlCache = new Map<string, { url: string; expiresAt: number }>();
 let cachedManifest: Record<string, any> = {};
 let lastManifestFetch = 0;
 
-async function getGraphAccessToken(env: Bindings): Promise<string | null> {
-  const refreshToken = env.ONEDRIVE_REFRESH_TOKEN;
-  if (!refreshToken) return null;
+// Lectures sit on two SharePoint tenants while content moves from 5ncjwt to openmedQ, and a Graph
+// item id only resolves inside the tenant that issued it, so every request picks a tenant per item.
+const LEGACY_TENANT_ID = '938a1924-0af0-4599-819b-177a1dcf8fd6';
+const LEGACY_CLIENT_ID = 'ba92c830-fac7-4d60-a0ff-8bf0b581a4c4';
+const NEW_TENANT_ID = '9903c5d7-b085-4596-9ee6-98f39ddba128';
+const NEW_CLIENT_ID = '054e8da3-e1e0-4274-b8a9-2bb6f71ef8f8';
 
-  const now = Date.now();
-  if (tokenCache && tokenCache.expiresAt > now + 60000) {
-    return tokenCache.accessToken;
+interface GraphTenant {
+  tenantId: string;
+  clientId: string;
+  refreshToken: string;
+  driveTarget: string;
+}
+
+interface GraphAttempt {
+  tenant: GraphTenant;
+  itemId: string;
+}
+
+function configuredTenants(env: Bindings): GraphTenant[] {
+  const candidates: GraphTenant[] = [
+    {
+      tenantId: env.ONEDRIVE_TENANT_ID || LEGACY_TENANT_ID,
+      clientId: env.ONEDRIVE_CLIENT_ID || LEGACY_CLIENT_ID,
+      refreshToken: env.ONEDRIVE_REFRESH_TOKEN || '',
+      driveTarget: env.ONEDRIVE_DRIVE_TARGET || 'sites/root/drive',
+    },
+    {
+      tenantId: env.NEW_ONEDRIVE_TENANT_ID || NEW_TENANT_ID,
+      clientId: env.NEW_ONEDRIVE_CLIENT_ID || NEW_CLIENT_ID,
+      refreshToken: env.NEW_ONEDRIVE_REFRESH_TOKEN || '',
+      driveTarget: env.NEW_ONEDRIVE_DRIVE_TARGET || 'sites/root/drive',
+    },
+  ].filter((t) => !!t.refreshToken);
+
+  const unique = new Map<string, GraphTenant>();
+  for (const tenant of candidates) {
+    if (!unique.has(tenant.tenantId)) unique.set(tenant.tenantId, tenant);
   }
+  return [...unique.values()];
+}
 
-  const clientId = env.ONEDRIVE_CLIENT_ID || 'ba92c830-fac7-4d60-a0ff-8bf0b581a4c4';
-  const tenantId = env.ONEDRIVE_TENANT_ID || '938a1924-0af0-4599-819b-177a1dcf8fd6';
+function tenantIdForItem(item: any): string | undefined {
+  const url = String(item?.web_url || '').toLowerCase();
+  if (url.includes('openmedq')) return NEW_TENANT_ID;
+  if (url.includes('5ncjwt')) return LEGACY_TENANT_ID;
+  const path = String(item?.onedrive_path || '');
+  // Uploads and cloud-to-cloud migrations write into these program folders on openmedQ; the legacy
+  // tenant keeps the numeric-prefixed names (01_PrepLadder_X_English/, 04_Marrow_Edition_6/).
+  return /^\/Aspirin_LMS\/(PrepLadder_X|PrepLadder_X_Hinglish|Marrow_E6|Cerebellum|Legacy_Catalog)\//.test(path)
+    ? NEW_TENANT_ID
+    : undefined;
+}
+
+function graphAttempts(env: Bindings, item: any): GraphAttempt[] {
+  const tenants = configuredTenants(env);
+  if (tenants.length === 0) return [];
+  const hint = tenantIdForItem(item);
+  const rest = tenants.filter((t) => t.tenantId !== hint);
+  const preferred = hint ? tenants.filter((t) => t.tenantId === hint) : [];
+  const primary = String(item.onedrive_item_id);
+  // Migrated rows keep the id of the copy still held on the other tenant as an escape hatch.
+  const twin = item.source_onedrive_item_id ? String(item.source_onedrive_item_id) : '';
+  const targets =
+    twin && twin !== primary
+      ? [
+          { itemId: primary, order: [...preferred, ...rest] },
+          { itemId: twin, order: [...rest, ...preferred] },
+        ]
+      : [{ itemId: primary, order: [...preferred, ...rest] }];
+
+  const attempts: GraphAttempt[] = [];
+  for (const target of targets) {
+    for (const tenant of target.order) {
+      if (!attempts.some((a) => a.tenant.tenantId === tenant.tenantId && a.itemId === target.itemId)) {
+        attempts.push({ tenant, itemId: target.itemId });
+      }
+    }
+  }
+  return attempts;
+}
+
+async function getGraphAccessToken(tenant: GraphTenant): Promise<string | null> {
+  const now = Date.now();
+  const cached = tokenCacheByTenant.get(tenant.tenantId);
+  if (cached && cached.expiresAt > now + 60000) {
+    return cached.accessToken;
+  }
+  // Back off after a failed refresh instead of re-hammering the IdP on every range request.
+  const failedAt = refreshFailures.get(tenant.tenantId);
+  if (failedAt && now - failedAt < 60000) return null;
 
   try {
-    const res = await fetch(`https://login.microsoftonline.com/${tenantId}/oauth2/v2.0/token`, {
+    const res = await fetch(`https://login.microsoftonline.com/${tenant.tenantId}/oauth2/v2.0/token`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
       body: new URLSearchParams({
-        client_id: clientId,
+        client_id: tenant.clientId,
         grant_type: 'refresh_token',
-        refresh_token: refreshToken,
+        refresh_token: tenant.refreshToken,
       }),
     });
     if (!res.ok) {
+      refreshFailures.set(tenant.tenantId, now);
       return null;
     }
     const data: any = await res.json();
-    tokenCache = {
+    const token: TokenCache = {
       accessToken: data.access_token,
       expiresAt: now + (data.expires_in || 3600) * 1000,
     };
-    return tokenCache.accessToken;
+    tokenCacheByTenant.set(tenant.tenantId, token);
+    refreshFailures.delete(tenant.tenantId);
+    return token.accessToken;
   } catch (e) {
+    refreshFailures.set(tenant.tenantId, now);
     return null;
   }
 }
 
-async function getOneDriveDownloadUrl(env: Bindings, itemId: string): Promise<string | null> {
+async function graphFetch(
+  env: Bindings,
+  item: any,
+  buildPath: (attempt: GraphAttempt) => string,
+  init?: RequestInit,
+  isAcceptable: (status: number) => boolean = (s) => s >= 200 && s < 300
+): Promise<Response | null> {
+  for (const attempt of graphAttempts(env, item)) {
+    const token = await getGraphAccessToken(attempt.tenant);
+    if (!token) continue;
+    try {
+      const res = await fetch(`https://graph.microsoft.com/v1.0/${buildPath(attempt)}`, {
+        ...init,
+        headers: { ...(init?.headers || {}), Authorization: `Bearer ${token}` },
+      });
+      if (isAcceptable(res.status)) return res;
+    } catch (e) {
+      // Try the remaining tenant / stored copy for this item
+    }
+  }
+  return null;
+}
+
+async function getOneDriveDownloadUrl(env: Bindings, item: any): Promise<string | null> {
+  const itemId = String(item.onedrive_item_id);
   const now = Date.now();
   const cached = downloadUrlCache.get(itemId);
   if (cached && cached.expiresAt > now) {
     return cached.url;
   }
 
-  const token = await getGraphAccessToken(env);
-  if (!token) return null;
+  const res = await graphFetch(
+    env,
+    item,
+    (attempt) => `${attempt.tenant.driveTarget}/items/${attempt.itemId}?$select=@microsoft.graph.downloadUrl`
+  );
+  if (!res) return null;
 
   try {
-    const driveTarget = env.ONEDRIVE_DRIVE_TARGET || 'sites/root/drive';
-    const res = await fetch(`https://graph.microsoft.com/v1.0/${driveTarget}/items/${itemId}?$select=@microsoft.graph.downloadUrl`, {
-      headers: { Authorization: `Bearer ${token}` },
-    });
-    if (!res.ok) return null;
     const data: any = await res.json();
     const downloadUrl = data['@microsoft.graph.downloadUrl'];
     if (downloadUrl) {
@@ -86,14 +198,15 @@ async function getOneDriveDownloadUrl(env: Bindings, itemId: string): Promise<st
       return downloadUrl;
     }
   } catch (e) {
-    // Silent fallback
+    // Malformed Graph payload
   }
   return null;
 }
 
 const thumbnailUrlCache = new Map<string, { url: string; expiresAt: number }>();
 
-async function getOneDriveThumbnailUrl(env: Bindings, itemId: string, size: string = 'c640x360'): Promise<string | null> {
+async function getOneDriveThumbnailUrl(env: Bindings, item: any, size: string = 'c640x360'): Promise<string | null> {
+  const itemId = String(item.onedrive_item_id);
   const cacheKey = `${itemId}_${size}`;
   const now = Date.now();
   const cached = thumbnailUrlCache.get(cacheKey);
@@ -101,62 +214,154 @@ async function getOneDriveThumbnailUrl(env: Bindings, itemId: string, size: stri
     return cached.url;
   }
 
-  const token = await getGraphAccessToken(env);
-  if (!token) return null;
-
-  try {
-    const driveTarget = env.ONEDRIVE_DRIVE_TARGET || 'sites/root/drive';
-    const res = await fetch(
-      `https://graph.microsoft.com/v1.0/${driveTarget}/items/${itemId}/thumbnails/0/${size}/content`,
-      {
-        headers: { Authorization: `Bearer ${token}` },
-        redirect: 'manual',
-      }
-    );
-    if (res.status === 302) {
-      const location = res.headers.get('location');
-      if (location) {
-        thumbnailUrlCache.set(cacheKey, { url: location, expiresAt: now + 2 * 60 * 60 * 1000 });
-        return location;
-      }
+  const contentRes = await graphFetch(
+    env,
+    item,
+    (attempt) => `${attempt.tenant.driveTarget}/items/${attempt.itemId}/thumbnails/0/${size}/content`,
+    { redirect: 'manual' },
+    (s) => s === 200 || s === 302
+  );
+  if (contentRes && contentRes.status === 302) {
+    const location = contentRes.headers.get('location');
+    if (location) {
+      thumbnailUrlCache.set(cacheKey, { url: location, expiresAt: now + 2 * 60 * 60 * 1000 });
+      return location;
     }
+  }
 
-    const listRes = await fetch(
-      `https://graph.microsoft.com/v1.0/${driveTarget}/items/${itemId}/thumbnails`,
-      {
-        headers: { Authorization: `Bearer ${token}` },
-      }
-    );
-    if (listRes.ok) {
+  const listRes = await graphFetch(
+    env,
+    item,
+    (attempt) => `${attempt.tenant.driveTarget}/items/${attempt.itemId}/thumbnails`
+  );
+  if (listRes) {
+    try {
       const data: any = await listRes.json();
       const directUrl = data.value?.[0]?.large?.url || data.value?.[0]?.medium?.url;
       if (directUrl) {
         thumbnailUrlCache.set(cacheKey, { url: directUrl, expiresAt: now + 2 * 60 * 60 * 1000 });
         return directUrl;
       }
+    } catch (e) {
+      // Malformed Graph payload
     }
-  } catch (e) {
-    // Silent fallback
   }
   return null;
 }
 
-async function getManifest(): Promise<Record<string, any>> {
-  const now = Date.now();
-  if (Object.keys(cachedManifest).length > 0 && (now - lastManifestFetch < 60000)) {
-    return cachedManifest;
-  }
+const GITHUB_MANIFEST_URL = 'https://raw.githubusercontent.com/helpmtmschool-hub/aspirin/main/engine/transfer_manifest.json';
+const MANIFEST_TTL_MS = 60000;
+// raw.githubusercontent.com is the slowest hop in this Worker (measured 1.7-2.7s to first byte on a cold
+// isolate). The deployment ships the same file as a compressed edge asset, so a cold isolate serves that
+// within a short budget and adopts the GitHub copy as soon as it lands.
+const MANIFEST_COLD_BUDGET_MS = 400;
+
+async function readManifestJson(url: string, ctx: WaitUntilContext): Promise<Record<string, any> | null> {
+  // The Workers edge cache keeps raw.githubusercontent.com off the cold-isolate path without new storage.
   try {
-    const res = await fetch('https://raw.githubusercontent.com/helpmtmschool-hub/aspirin/main/engine/transfer_manifest.json');
-    if (res.ok) {
-      const data: any = await res.json();
-      cachedManifest = data || {};
-      lastManifestFetch = now;
-      return cachedManifest;
+    const hit = await caches.default.match(url);
+    if (hit && hit.ok) {
+      const hitData: any = await hit.json();
+      if (hitData && Object.keys(hitData).length > 0) return hitData;
     }
   } catch (e) {
-    // Fallback
+    // Cache API unavailable for this request; go to origin
   }
+  try {
+    const res = await fetch(url);
+    if (!res.ok) return null;
+    const text = await res.text();
+    const data: any = text ? JSON.parse(text) : null;
+    if (data && Object.keys(data).length > 0) {
+      ctx.waitUntil(
+        caches.default.put(
+          url,
+          new Response(text, { headers: { 'Content-Type': 'application/json', 'Cache-Control': 'public, max-age=60' } })
+        )
+      );
+    }
+    return data;
+  } catch (e) {
+    return null;
+  }
+}
+
+async function refreshManifestFromGitHub(ctx: WaitUntilContext): Promise<void> {
+  const data = await readManifestJson(GITHUB_MANIFEST_URL, ctx);
+  if (data) {
+    cachedManifest = data;
+    lastManifestFetch = Date.now();
+  }
+}
+
+const PROXY_FIRST_CHUNK_BYTES = 16 * 1024 * 1024;
+
+function isDocumentItem(item: any): boolean {
+  return /\.(pdf|epub)$/i.test(String(item?.filename || ''));
+}
+
+// An open-ended range would pull the entire lecture through the Worker; bound the first chunk and let the
+// player continue with explicit ranges.
+function boundOpenRange(range: string | undefined): string | undefined {
+  if (!range) return undefined;
+  const open = /^bytes=(\d+)-$/i.exec(range.trim());
+  if (!open) return range;
+  const start = Number(open[1]);
+  return `bytes=${start}-${start + PROXY_FIRST_CHUNK_BYTES - 1}`;
+}
+
+async function serveCloudFile(c: any, item: any, allowRedirect: boolean): Promise<Response | null> {
+  const directUrl = await getOneDriveDownloadUrl(c.env, item);
+  if (!directUrl) return null;
+
+  // Videos leave Cloudflare out of the data path: the browser ranges against SharePoint directly, which
+  // is what low-end tablets need (proxying collapsed to 0.25 MiB/s under their parallel range pattern).
+  if (allowRedirect && c.req.query('proxy') !== '1') {
+    c.header('Cache-Control', 'private, no-store');
+    return c.redirect(directUrl, 302);
+  }
+
+  const upstreamHeaders: Record<string, string> = {};
+  const range = boundOpenRange(c.req.header('range'));
+  if (range) upstreamHeaders['Range'] = range;
+
+  const upstreamRes = await fetch(directUrl, { headers: upstreamHeaders });
+  const headers = new Headers();
+  headers.set('Content-Type', upstreamRes.headers.get('content-type') || (isDocumentItem(item) ? 'application/pdf' : 'video/mp4'));
+  headers.set('Accept-Ranges', 'bytes');
+  if (upstreamRes.headers.get('content-range')) headers.set('Content-Range', upstreamRes.headers.get('content-range')!);
+  if (upstreamRes.headers.get('content-length')) headers.set('Content-Length', upstreamRes.headers.get('content-length')!);
+  headers.set('Access-Control-Allow-Origin', '*');
+  headers.set('Access-Control-Expose-Headers', 'Content-Range, Content-Length, Accept-Ranges');
+  // A signed URL expires and partial bodies must never be shared from a cache.
+  headers.set('Cache-Control', 'private, no-store');
+
+  return new Response(upstreamRes.body, { status: upstreamRes.status, headers });
+}
+
+// Structural type: Hono's ExecutionContext and @cloudflare/workers-types disagree on field names.
+interface WaitUntilContext {
+  waitUntil(promise: Promise<any>): void;
+}
+
+async function getManifest(assetOrigin: string, ctx: WaitUntilContext): Promise<Record<string, any>> {
+  const now = Date.now();
+  if (Object.keys(cachedManifest).length > 0) {
+    if (now - lastManifestFetch > MANIFEST_TTL_MS) ctx.waitUntil(refreshManifestFromGitHub(ctx));
+    return cachedManifest;
+  }
+  // Cold isolate: answer from the deployment's own copy if GitHub is slower than the budget, then adopt the
+  // GitHub copy in the background so freshly migrated lectures still appear without a redeploy.
+  const pendingGitHub = refreshManifestFromGitHub(ctx);
+  const fromAssets = new Promise<Record<string, any> | null>((resolve) => {
+    setTimeout(async () => resolve(await readManifestJson(`${assetOrigin}/transfer_manifest.json`, ctx)), MANIFEST_COLD_BUDGET_MS);
+  });
+  const winner = await Promise.race([pendingGitHub, fromAssets]);
+  if (winner) {
+    cachedManifest = winner;
+    lastManifestFetch = Date.now();
+  }
+  ctx.waitUntil(pendingGitHub);
   return cachedManifest;
 }
 
@@ -377,40 +582,17 @@ app.get('/topics/:id', async (c) => {
   }
 });
 
-// 4. GET /api/stream/:chatId/:messageId - Cloud-native streaming via Microsoft SharePoint Azure CDN (HTTP 206 Stream Proxy)
+// 4. GET /api/stream/:chatId/:messageId - lectures redirect the browser to the SharePoint CDN; documents proxy
 app.get('/stream/:chatId/:messageId', async (c) => {
   const { chatId, messageId } = c.req.param();
 
   try {
-    const manifest = await getManifest();
+    const manifest = await getManifest(new URL(c.req.url).origin, c.executionCtx);
     const item = resolveManifestItem(manifest, chatId, messageId);
 
     if (item && item.onedrive_item_id && item.status === 'completed') {
-      const directUrl = await getOneDriveDownloadUrl(c.env, item.onedrive_item_id);
-      if (directUrl) {
-        const range = c.req.header('range');
-        const upstreamHeaders: Record<string, string> = {};
-        if (range) upstreamHeaders['Range'] = range;
-
-        const upstreamRes = await fetch(directUrl, { headers: upstreamHeaders });
-        const headers = new Headers();
-        headers.set('Content-Type', upstreamRes.headers.get('content-type') || 'video/mp4');
-        headers.set('Accept-Ranges', 'bytes');
-        if (upstreamRes.headers.get('content-range')) {
-          headers.set('Content-Range', upstreamRes.headers.get('content-range')!);
-        }
-        if (upstreamRes.headers.get('content-length')) {
-          headers.set('Content-Length', upstreamRes.headers.get('content-length')!);
-        }
-        headers.set('Access-Control-Allow-Origin', '*');
-        headers.set('Access-Control-Expose-Headers', 'Content-Range, Content-Length, Accept-Ranges');
-        headers.set('Cache-Control', 'public, max-age=3600');
-
-        return new Response(upstreamRes.body, {
-          status: upstreamRes.status,
-          headers,
-        });
-      }
+      const served = await serveCloudFile(c, item, !isDocumentItem(item));
+      if (served) return served;
     }
   } catch (e) {
     // Manifest or graph error handled below
@@ -428,39 +610,19 @@ app.get('/stream/:chatId/:messageId', async (c) => {
 });
 
 // 5. GET /api/notes/:chatId/:messageId - Cloud-native Clinical Notes streaming via Microsoft SharePoint
+// 5. GET /api/notes/:chatId/:messageId - Clinical notes and PDF textbooks (proxied so iframes render inline)
 app.get('/notes/:chatId/:messageId', async (c) => {
   const { chatId, messageId } = c.req.param();
 
   try {
-    const manifest = await getManifest();
+    const manifest = await getManifest(new URL(c.req.url).origin, c.executionCtx);
     const item = resolveManifestItem(manifest, chatId, messageId);
 
     if (item && item.onedrive_item_id && item.status === 'completed') {
-      const directUrl = await getOneDriveDownloadUrl(c.env, item.onedrive_item_id);
-      if (directUrl) {
-        const range = c.req.header('range');
-        const upstreamHeaders: Record<string, string> = {};
-        if (range) upstreamHeaders['Range'] = range;
-
-        const upstreamRes = await fetch(directUrl, { headers: upstreamHeaders });
-        const headers = new Headers();
-        headers.set('Content-Type', upstreamRes.headers.get('content-type') || 'application/pdf');
-        headers.set('Accept-Ranges', 'bytes');
-        if (upstreamRes.headers.get('content-range')) {
-          headers.set('Content-Range', upstreamRes.headers.get('content-range')!);
-        }
-        if (upstreamRes.headers.get('content-length')) {
-          headers.set('Content-Length', upstreamRes.headers.get('content-length')!);
-        }
-        headers.set('Access-Control-Allow-Origin', '*');
-        headers.set('Access-Control-Expose-Headers', 'Content-Range, Content-Length, Accept-Ranges');
-        headers.set('Cache-Control', 'public, max-age=3600');
-
-        return new Response(upstreamRes.body, {
-          status: upstreamRes.status,
-          headers,
-        });
-      }
+      // SharePoint answers download URLs with `Content-Disposition: attachment`, which would make an iframe
+      // offer a file download instead of rendering the PDF, so documents keep streaming through the Worker.
+      const served = await serveCloudFile(c, item, false);
+      if (served) return served;
     }
   } catch (e) {
     // Error handled below
@@ -482,11 +644,11 @@ app.get('/thumbnail/:chatId/:messageId', async (c) => {
   const { chatId, messageId } = c.req.param();
 
   try {
-    const manifest = await getManifest();
+    const manifest = await getManifest(new URL(c.req.url).origin, c.executionCtx);
     const item = resolveManifestItem(manifest, chatId, messageId);
 
     if (item && item.onedrive_item_id && item.status === 'completed') {
-      const directUrl = await getOneDriveThumbnailUrl(c.env, item.onedrive_item_id);
+      const directUrl = await getOneDriveThumbnailUrl(c.env, item);
       if (directUrl) {
         c.header('Cache-Control', 'public, max-age=7200');
         return c.redirect(directUrl, 302);
@@ -512,7 +674,7 @@ app.get('/subtitles/:chatId/:messageId', async (c) => {
   const { chatId, messageId } = c.req.param();
 
   try {
-    const manifest = await getManifest();
+    const manifest = await getManifest(new URL(c.req.url).origin, c.executionCtx);
     const item = resolveManifestItem(manifest, chatId, messageId);
 
     if (item && item.subtitles_url) {

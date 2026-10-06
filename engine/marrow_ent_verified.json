@@ -1,0 +1,2562 @@
+[
+  {
+    "lecture_no": 1,
+    "title": "1. How to Prepare ENT Using Edition 6",
+    "duration_seconds": 1717,
+    "duration_formatted": "28m 37s",
+    "file_size": 432033493,
+    "document_id": "6143377321614118045",
+    "missing_in_my_marrow": false,
+    "primary_source": {
+      "chat_id": -1003264222864,
+      "message_id": 147,
+      "caption": "1. How to read ent",
+      "filename": null
+    },
+    "corroboration": [
+      {
+        "channel_name": "Subjectwise Lectures Topic 3102",
+        "chat_id": -1003506593387,
+        "topic_id": 3102,
+        "message_id": 3103,
+        "caption": "1. How to read ent",
+        "filename": null
+      },
+      {
+        "channel_name": "Subjectwise Lectures Topic 2647",
+        "chat_id": -1003506593387,
+        "topic_id": 2647,
+        "message_id": 2648,
+        "caption": "1. How to read ent",
+        "filename": null
+      },
+      {
+        "channel_name": "Marrow Channel",
+        "chat_id": -1003659432109,
+        "message_id": 229,
+        "caption": "1. How to prepare ENT using Ed6.mp4",
+        "filename": "1. How to prepare ENT using Ed6.mp4"
+      }
+    ]
+  },
+  {
+    "lecture_no": 2,
+    "title": "2. Basics of Ear",
+    "duration_seconds": 2533,
+    "duration_formatted": "42m 13s",
+    "file_size": 484936089,
+    "document_id": "6143377321614118046",
+    "missing_in_my_marrow": false,
+    "primary_source": {
+      "chat_id": -1003264222864,
+      "message_id": 148,
+      "caption": "2. Basic of ear",
+      "filename": null
+    },
+    "corroboration": [
+      {
+        "channel_name": "Subjectwise Lectures Topic 3102",
+        "chat_id": -1003506593387,
+        "topic_id": 3102,
+        "message_id": 3104,
+        "caption": "2. Basic of ear",
+        "filename": null
+      },
+      {
+        "channel_name": "Subjectwise Lectures Topic 2647",
+        "chat_id": -1003506593387,
+        "topic_id": 2647,
+        "message_id": 2649,
+        "caption": "2. Basic of ear",
+        "filename": null
+      },
+      {
+        "channel_name": "Marrow Channel",
+        "chat_id": -1003659432109,
+        "message_id": 230,
+        "caption": "2. Basics of Ear yw.mp4",
+        "filename": "2. Basics of Ear yw.mp4"
+      }
+    ]
+  },
+  {
+    "lecture_no": 3,
+    "title": "3. Clinical Embryology of Inner Ear",
+    "duration_seconds": 4321,
+    "duration_formatted": "1h 12m 01s",
+    "file_size": 697187915,
+    "document_id": "6145629121427802903",
+    "missing_in_my_marrow": false,
+    "primary_source": {
+      "chat_id": -1003264222864,
+      "message_id": 149,
+      "caption": "3. clinical embryology of inner ear",
+      "filename": null
+    },
+    "corroboration": [
+      {
+        "channel_name": "Subjectwise Lectures Topic 3102",
+        "chat_id": -1003506593387,
+        "topic_id": 3102,
+        "message_id": 3105,
+        "caption": "3. clinical embryology of inner ear",
+        "filename": null
+      },
+      {
+        "channel_name": "Subjectwise Lectures Topic 2647",
+        "chat_id": -1003506593387,
+        "topic_id": 2647,
+        "message_id": 2650,
+        "caption": "3. clinical embryology of inner ear",
+        "filename": null
+      },
+      {
+        "channel_name": "Marrow Channel",
+        "chat_id": -1003659432109,
+        "message_id": 231,
+        "caption": "3. Clinical Embryology of Inner Ear yw .mp4",
+        "filename": "3. Clinical Embryology of Inner Ear yw .mp4"
+      }
+    ]
+  },
+  {
+    "lecture_no": 4,
+    "title": "4. Anatomy of Middle Ear",
+    "duration_seconds": 2291,
+    "duration_formatted": "38m 11s",
+    "file_size": 388932339,
+    "document_id": "6154212033748274192",
+    "missing_in_my_marrow": false,
+    "primary_source": {
+      "chat_id": -1003264222864,
+      "message_id": 150,
+      "caption": "4. EMBRYO EXTERNAL EAR AND MIDDLE EAR",
+      "filename": "CLINICAL EMBRYO EXTERNAL AND MIDDLE BEAR.mp4"
+    },
+    "corroboration": [
+      {
+        "channel_name": "Subjectwise Lectures Topic 3102",
+        "chat_id": -1003506593387,
+        "topic_id": 3102,
+        "message_id": 3106,
+        "caption": "4. EMBRYO EXTERNAL EAR AND MIDDLE EAR",
+        "filename": "CLINICAL EMBRYO EXTERNAL AND MIDDLE BEAR.mp4"
+      },
+      {
+        "channel_name": "Subjectwise Lectures Topic 2647",
+        "chat_id": -1003506593387,
+        "topic_id": 2647,
+        "message_id": 2651,
+        "caption": "4. EMBRYO EXTERNAL EAR AND MIDDLE EAR",
+        "filename": "CLINICAL EMBRYO EXTERNAL AND MIDDLE BEAR.mp4"
+      },
+      {
+        "channel_name": "Marrow Channel",
+        "chat_id": -1003659432109,
+        "message_id": 232,
+        "caption": "4. Clinical Embryology of External and Middle Ear yw.mp4",
+        "filename": "4. Clinical Embryology of External and Middle Ear yw.mp4"
+      }
+    ]
+  },
+  {
+    "lecture_no": 5,
+    "title": "5. Clinical Anatomy of External Ear",
+    "duration_seconds": 3147,
+    "duration_formatted": "52m 27s",
+    "file_size": 655847407,
+    "document_id": "6271623752287525236",
+    "missing_in_my_marrow": false,
+    "primary_source": {
+      "chat_id": -1003264222864,
+      "message_id": 151,
+      "caption": "5. Clinical anatomy of external ear",
+      "filename": null
+    },
+    "corroboration": [
+      {
+        "channel_name": "Subjectwise Lectures Topic 3102",
+        "chat_id": -1003506593387,
+        "topic_id": 3102,
+        "message_id": 3107,
+        "caption": "5. Clinical Anatomy of External ear",
+        "filename": "IMG_7674.MP4"
+      },
+      {
+        "channel_name": "Subjectwise Lectures Topic 2647",
+        "chat_id": -1003506593387,
+        "topic_id": 2647,
+        "message_id": 2652,
+        "caption": "5. Clinical Anatomy of External ear",
+        "filename": "IMG_7674.MP4"
+      },
+      {
+        "channel_name": "Marrow Channel",
+        "chat_id": -1003659432109,
+        "message_id": 233,
+        "caption": "5. Clinical Anatomy of External Ear yw.mp4",
+        "filename": "5. Clinical Anatomy of External Ear yw.mp4"
+      }
+    ]
+  },
+  {
+    "lecture_no": 6,
+    "title": "6. Physiology of Hearing",
+    "duration_seconds": 3947,
+    "duration_formatted": "1h 05m 47s",
+    "file_size": 712185658,
+    "document_id": "6145629121427802906",
+    "missing_in_my_marrow": false,
+    "primary_source": {
+      "chat_id": -1003264222864,
+      "message_id": 152,
+      "caption": "6. Clinical anatomy of middle ear 1",
+      "filename": null
+    },
+    "corroboration": [
+      {
+        "channel_name": "Subjectwise Lectures Topic 3102",
+        "chat_id": -1003506593387,
+        "topic_id": 3102,
+        "message_id": 3108,
+        "caption": "6. Clinical anatomy of middle ear 1",
+        "filename": null
+      },
+      {
+        "channel_name": "Subjectwise Lectures Topic 2647",
+        "chat_id": -1003506593387,
+        "topic_id": 2647,
+        "message_id": 2653,
+        "caption": "6. Clinical anatomy of middle ear 1",
+        "filename": null
+      },
+      {
+        "channel_name": "Marrow Channel",
+        "chat_id": -1003659432109,
+        "message_id": 234,
+        "caption": "6. Clinical Anatomy of Middle Ear 1 Yw.mp4",
+        "filename": "6. Clinical Anatomy of Middle Ear 1 Yw.mp4"
+      }
+    ]
+  },
+  {
+    "lecture_no": 7,
+    "title": "7. Clinical Anatomy of Inner Ear Part 1",
+    "duration_seconds": 4251,
+    "duration_formatted": "1h 10m 51s",
+    "file_size": 716455241,
+    "document_id": "6145629121427802975",
+    "missing_in_my_marrow": false,
+    "primary_source": {
+      "chat_id": -1003264222864,
+      "message_id": 153,
+      "caption": "7. clinical anatomy of middle ear 2",
+      "filename": "clinical anatomy of middle ear 2.mp4"
+    },
+    "corroboration": [
+      {
+        "channel_name": "Subjectwise Lectures Topic 3102",
+        "chat_id": -1003506593387,
+        "topic_id": 3102,
+        "message_id": 3109,
+        "caption": "7. clinical anatomy of middle ear 2",
+        "filename": "clinical anatomy of middle ear 2.mp4"
+      },
+      {
+        "channel_name": "Subjectwise Lectures Topic 2647",
+        "chat_id": -1003506593387,
+        "topic_id": 2647,
+        "message_id": 2654,
+        "caption": "7. clinical anatomy of middle ear 2",
+        "filename": "clinical anatomy of middle ear 2.mp4"
+      },
+      {
+        "channel_name": "Marrow Channel",
+        "chat_id": -1003659432109,
+        "message_id": 235,
+        "caption": "7. Clinical anatomy of Middle Ear 2 Yw.mp4",
+        "filename": "7. Clinical anatomy of Middle Ear 2 Yw.mp4"
+      }
+    ]
+  },
+  {
+    "lecture_no": 8,
+    "title": "8. Clinical Anatomy of Inner Ear Part 2",
+    "duration_seconds": 2791,
+    "duration_formatted": "46m 31s",
+    "file_size": 419401300,
+    "document_id": "6145629121427802970",
+    "missing_in_my_marrow": false,
+    "primary_source": {
+      "chat_id": -1003264222864,
+      "message_id": 154,
+      "caption": "8. clinical antomy of inner ear",
+      "filename": "clinical aNatomy of inner ear.mp4"
+    },
+    "corroboration": [
+      {
+        "channel_name": "Subjectwise Lectures Topic 3102",
+        "chat_id": -1003506593387,
+        "topic_id": 3102,
+        "message_id": 3110,
+        "caption": "8. clinical antomy of inner ear",
+        "filename": "clinical aNatomy of inner ear.mp4"
+      },
+      {
+        "channel_name": "Subjectwise Lectures Topic 2647",
+        "chat_id": -1003506593387,
+        "topic_id": 2647,
+        "message_id": 2655,
+        "caption": "8. clinical antomy of inner ear",
+        "filename": "clinical aNatomy of inner ear.mp4"
+      },
+      {
+        "channel_name": "Marrow Channel",
+        "chat_id": -1003659432109,
+        "message_id": 236,
+        "caption": "8. Clinical Anatomy of Inner Ear Yw.mp4",
+        "filename": "8. Clinical Anatomy of Inner Ear Yw.mp4"
+      }
+    ]
+  },
+  {
+    "lecture_no": 9,
+    "title": "9. Nerve Supply of Ear",
+    "duration_seconds": 1924,
+    "duration_formatted": "32m 04s",
+    "file_size": 357247469,
+    "document_id": "6145629121427802972",
+    "missing_in_my_marrow": false,
+    "primary_source": {
+      "chat_id": -1003264222864,
+      "message_id": 155,
+      "caption": "9. nerve supply of ear",
+      "filename": "nerve supply of ear.mp4"
+    },
+    "corroboration": [
+      {
+        "channel_name": "Subjectwise Lectures Topic 3102",
+        "chat_id": -1003506593387,
+        "topic_id": 3102,
+        "message_id": 3111,
+        "caption": "9. nerve supply of ear",
+        "filename": "nerve supply of ear.mp4"
+      },
+      {
+        "channel_name": "Subjectwise Lectures Topic 2647",
+        "chat_id": -1003506593387,
+        "topic_id": 2647,
+        "message_id": 2656,
+        "caption": "9. nerve supply of ear",
+        "filename": "nerve supply of ear.mp4"
+      },
+      {
+        "channel_name": "Marrow Channel",
+        "chat_id": -1003659432109,
+        "message_id": 237,
+        "caption": "9. Nerve Supply of Ear Yw.mp4",
+        "filename": "9. Nerve Supply of Ear Yw.mp4"
+      }
+    ]
+  },
+  {
+    "lecture_no": 10,
+    "title": "10. Tuning Fork Tests",
+    "duration_seconds": 4580,
+    "duration_formatted": "1h 16m 20s",
+    "file_size": 702704635,
+    "document_id": "6138453240393502386",
+    "missing_in_my_marrow": false,
+    "primary_source": {
+      "chat_id": -1003264222864,
+      "message_id": 156,
+      "caption": "10. tuning fork.mp4",
+      "filename": "tuning fork.mp4"
+    },
+    "corroboration": [
+      {
+        "channel_name": "Subjectwise Lectures Topic 3102",
+        "chat_id": -1003506593387,
+        "topic_id": 3102,
+        "message_id": 3112,
+        "caption": "10. tuning fork.mp4",
+        "filename": "tuning fork.mp4"
+      },
+      {
+        "channel_name": "Subjectwise Lectures Topic 2647",
+        "chat_id": -1003506593387,
+        "topic_id": 2647,
+        "message_id": 2657,
+        "caption": "10. tuning fork.mp4",
+        "filename": "tuning fork.mp4"
+      },
+      {
+        "channel_name": "Marrow Channel",
+        "chat_id": -1003659432109,
+        "message_id": 238,
+        "caption": "10. Audiology and Evaluation Tuning Fork Tests Yw.mp4",
+        "filename": "10. Audiology and Evaluation Tuning Fork Tests Yw.mp4"
+      }
+    ]
+  },
+  {
+    "lecture_no": 11,
+    "title": "11. Pure Tone Audiometry (PTA)",
+    "duration_seconds": 4443,
+    "duration_formatted": "1h 14m 03s",
+    "file_size": 638629111,
+    "document_id": "6138453240393502388",
+    "missing_in_my_marrow": false,
+    "primary_source": {
+      "chat_id": -1003264222864,
+      "message_id": 157,
+      "caption": "11. pta.mp4",
+      "filename": "pta.mp4"
+    },
+    "corroboration": [
+      {
+        "channel_name": "Subjectwise Lectures Topic 3102",
+        "chat_id": -1003506593387,
+        "topic_id": 3102,
+        "message_id": 3113,
+        "caption": "11. pta.mp4",
+        "filename": "pta.mp4"
+      },
+      {
+        "channel_name": "Subjectwise Lectures Topic 2647",
+        "chat_id": -1003506593387,
+        "topic_id": 2647,
+        "message_id": 2658,
+        "caption": "11. pta.mp4",
+        "filename": "pta.mp4"
+      },
+      {
+        "channel_name": "Marrow Channel",
+        "chat_id": -1003659432109,
+        "message_id": 239,
+        "caption": "11. Audiology and Evaluation Audiogram (PTA) Yw.mp4",
+        "filename": "11. Audiology and Evaluation Audiogram (PTA) Yw.mp4"
+      }
+    ]
+  },
+  {
+    "lecture_no": 12,
+    "title": "12. Audiology Part 3 (Impedance Audiometry and OAE)",
+    "duration_seconds": 3418,
+    "duration_formatted": "56m 58s",
+    "file_size": 620114268,
+    "document_id": "6138453240393502387",
+    "missing_in_my_marrow": false,
+    "primary_source": {
+      "chat_id": -1003264222864,
+      "message_id": 158,
+      "caption": "12. audiology part 3.mp4",
+      "filename": "audiology part 3.mp4"
+    },
+    "corroboration": [
+      {
+        "channel_name": "Subjectwise Lectures Topic 3102",
+        "chat_id": -1003506593387,
+        "topic_id": 3102,
+        "message_id": 3114,
+        "caption": "12. audiology part 3.mp4",
+        "filename": "audiology part 3.mp4"
+      },
+      {
+        "channel_name": "Subjectwise Lectures Topic 2647",
+        "chat_id": -1003506593387,
+        "topic_id": 2647,
+        "message_id": 2659,
+        "caption": "12. audiology part 3.mp4",
+        "filename": "audiology part 3.mp4"
+      },
+      {
+        "channel_name": "Marrow Channel",
+        "chat_id": -1003659432109,
+        "message_id": 240,
+        "caption": "12. Audiology Part 3  Yw.mp4",
+        "filename": "12. Audiology Part 3  Yw.mp4"
+      }
+    ]
+  },
+  {
+    "lecture_no": 13,
+    "title": "13. Audiology Part 4: BERA and ASSR",
+    "duration_seconds": 3584,
+    "duration_formatted": "59m 44s",
+    "file_size": 686149790,
+    "document_id": "6138453240393502385",
+    "missing_in_my_marrow": false,
+    "primary_source": {
+      "chat_id": -1003264222864,
+      "message_id": 159,
+      "caption": "13. part 4 audiology bera.mp4",
+      "filename": "part 4 audiology bera.mp4"
+    },
+    "corroboration": [
+      {
+        "channel_name": "Subjectwise Lectures Topic 3102",
+        "chat_id": -1003506593387,
+        "topic_id": 3102,
+        "message_id": 3115,
+        "caption": "13. part 4 audiology bera.mp4",
+        "filename": "part 4 audiology bera.mp4"
+      },
+      {
+        "channel_name": "Subjectwise Lectures Topic 2647",
+        "chat_id": -1003506593387,
+        "topic_id": 2647,
+        "message_id": 2660,
+        "caption": "13. part 4 audiology bera.mp4",
+        "filename": "part 4 audiology bera.mp4"
+      },
+      {
+        "channel_name": "Marrow Channel",
+        "chat_id": -1003659432109,
+        "message_id": 241,
+        "caption": "13. Audiology Part 4 Yw.mp4",
+        "filename": "13. Audiology Part 4 Yw.mp4"
+      }
+    ]
+  },
+  {
+    "lecture_no": 14,
+    "title": "14. Vestibular Physiology",
+    "duration_seconds": 2662,
+    "duration_formatted": "44m 22s",
+    "file_size": 522908906,
+    "document_id": "6138453240393502384",
+    "missing_in_my_marrow": false,
+    "primary_source": {
+      "chat_id": -1003264222864,
+      "message_id": 160,
+      "caption": "14. vestibular physiology.mp4",
+      "filename": "vestibular physiology.mp4"
+    },
+    "corroboration": [
+      {
+        "channel_name": "Subjectwise Lectures Topic 3102",
+        "chat_id": -1003506593387,
+        "topic_id": 3102,
+        "message_id": 3116,
+        "caption": "14. vestibular physiology.mp4",
+        "filename": "vestibular physiology.mp4"
+      },
+      {
+        "channel_name": "Subjectwise Lectures Topic 2647",
+        "chat_id": -1003506593387,
+        "topic_id": 2647,
+        "message_id": 2661,
+        "caption": "14. vestibular physiology.mp4",
+        "filename": "vestibular physiology.mp4"
+      },
+      {
+        "channel_name": "Marrow Channel",
+        "chat_id": -1003659432109,
+        "message_id": 242,
+        "caption": "14. Vestibular Physiology  Yw.mp4",
+        "filename": "14. Vestibular Physiology  Yw.mp4"
+      }
+    ]
+  },
+  {
+    "lecture_no": 15,
+    "title": "15. Vertigo and Vestibular Function Tests",
+    "duration_seconds": 5941,
+    "duration_formatted": "1h 39m 01s",
+    "file_size": 1040320064,
+    "document_id": "6138453240393502380",
+    "missing_in_my_marrow": false,
+    "primary_source": {
+      "chat_id": -1003264222864,
+      "message_id": 161,
+      "caption": "15. vertigo and vestibualr function.mp4",
+      "filename": "vertigo and vestibualr function.mp4"
+    },
+    "corroboration": [
+      {
+        "channel_name": "Subjectwise Lectures Topic 3102",
+        "chat_id": -1003506593387,
+        "topic_id": 3102,
+        "message_id": 3117,
+        "caption": "15. vertigo and vestibualr function.mp4",
+        "filename": "vertigo and vestibualr function.mp4"
+      },
+      {
+        "channel_name": "Subjectwise Lectures Topic 2647",
+        "chat_id": -1003506593387,
+        "topic_id": 2647,
+        "message_id": 2662,
+        "caption": "15. vertigo and vestibualr function.mp4",
+        "filename": "vertigo and vestibualr function.mp4"
+      },
+      {
+        "channel_name": "Marrow Channel",
+        "chat_id": -1003659432109,
+        "message_id": 243,
+        "caption": "15. Approach to vertigo and Vestibular function test  Yw.mp4",
+        "filename": "15. Approach to vertigo and Vestibular function test  Yw.mp4"
+      }
+    ]
+  },
+  {
+    "lecture_no": 16,
+    "title": "16. Diseases of Pinna",
+    "duration_seconds": 1478,
+    "duration_formatted": "24m 38s",
+    "file_size": 211197725,
+    "document_id": "6138453240393502383",
+    "missing_in_my_marrow": false,
+    "primary_source": {
+      "chat_id": -1003264222864,
+      "message_id": 162,
+      "caption": "16. disease of pinna.mp4",
+      "filename": "disease of pinna.mp4"
+    },
+    "corroboration": [
+      {
+        "channel_name": "Subjectwise Lectures Topic 3102",
+        "chat_id": -1003506593387,
+        "topic_id": 3102,
+        "message_id": 3118,
+        "caption": "16. disease of pinna.mp4",
+        "filename": "disease of pinna.mp4"
+      },
+      {
+        "channel_name": "Subjectwise Lectures Topic 2647",
+        "chat_id": -1003506593387,
+        "topic_id": 2647,
+        "message_id": 2663,
+        "caption": "16. disease of pinna.mp4",
+        "filename": "disease of pinna.mp4"
+      },
+      {
+        "channel_name": "Marrow Channel",
+        "chat_id": -1003659432109,
+        "message_id": 244,
+        "caption": "16. Diseases of Pinna Yw.mp4",
+        "filename": "16. Diseases of Pinna Yw.mp4"
+      }
+    ]
+  },
+  {
+    "lecture_no": 17,
+    "title": "17. Diseases of External Auditory Canal (EAC)",
+    "duration_seconds": 2563,
+    "duration_formatted": "42m 43s",
+    "file_size": 414162605,
+    "document_id": "6138453240393502378",
+    "missing_in_my_marrow": false,
+    "primary_source": {
+      "chat_id": -1003264222864,
+      "message_id": 163,
+      "caption": "17. disease of eac.mp4",
+      "filename": "disease of eac.mp4"
+    },
+    "corroboration": [
+      {
+        "channel_name": "Subjectwise Lectures Topic 3102",
+        "chat_id": -1003506593387,
+        "topic_id": 3102,
+        "message_id": 3119,
+        "caption": "17. disease of eac.mp4",
+        "filename": "disease of eac.mp4"
+      },
+      {
+        "channel_name": "Subjectwise Lectures Topic 2647",
+        "chat_id": -1003506593387,
+        "topic_id": 2647,
+        "message_id": 2664,
+        "caption": "17. disease of eac.mp4",
+        "filename": "disease of eac.mp4"
+      },
+      {
+        "channel_name": "Marrow Channel",
+        "chat_id": -1003659432109,
+        "message_id": 245,
+        "caption": "17. Diseases of External Auditory Canal  Yw.mp4",
+        "filename": "17. Diseases of External Auditory Canal  Yw.mp4"
+      }
+    ]
+  },
+  {
+    "lecture_no": 18,
+    "title": "18. Conditions of Tympanic Membrane",
+    "duration_seconds": 1666,
+    "duration_formatted": "27m 46s",
+    "file_size": 222208660,
+    "document_id": "6138453240393502377",
+    "missing_in_my_marrow": false,
+    "primary_source": {
+      "chat_id": -1003264222864,
+      "message_id": 164,
+      "caption": "18. condition of tm.mp4",
+      "filename": "condition of tm.mp4"
+    },
+    "corroboration": [
+      {
+        "channel_name": "Subjectwise Lectures Topic 3102",
+        "chat_id": -1003506593387,
+        "topic_id": 3102,
+        "message_id": 3120,
+        "caption": "18. condition of tm.mp4",
+        "filename": "condition of tm.mp4"
+      },
+      {
+        "channel_name": "Subjectwise Lectures Topic 2647",
+        "chat_id": -1003506593387,
+        "topic_id": 2647,
+        "message_id": 2665,
+        "caption": "18. condition of tm.mp4",
+        "filename": "condition of tm.mp4"
+      },
+      {
+        "channel_name": "Marrow Channel",
+        "chat_id": -1003659432109,
+        "message_id": 246,
+        "caption": "18. Conditions of Tympanic Membrane  Yw.mp4",
+        "filename": "18. Conditions of Tympanic Membrane  Yw.mp4"
+      }
+    ]
+  },
+  {
+    "lecture_no": 19,
+    "title": "19. Acute Otitis Media (AOM)",
+    "duration_seconds": 2010,
+    "duration_formatted": "33m 30s",
+    "file_size": 290605226,
+    "document_id": "6138453240393502376",
+    "missing_in_my_marrow": false,
+    "primary_source": {
+      "chat_id": -1003264222864,
+      "message_id": 165,
+      "caption": "19. AOM.mp4",
+      "filename": "AOM.mp4"
+    },
+    "corroboration": [
+      {
+        "channel_name": "Subjectwise Lectures Topic 3102",
+        "chat_id": -1003506593387,
+        "topic_id": 3102,
+        "message_id": 3121,
+        "caption": "19. AOM.mp4",
+        "filename": "AOM.mp4"
+      },
+      {
+        "channel_name": "Subjectwise Lectures Topic 2647",
+        "chat_id": -1003506593387,
+        "topic_id": 2647,
+        "message_id": 2666,
+        "caption": "19. AOM.mp4",
+        "filename": "AOM.mp4"
+      },
+      {
+        "channel_name": "Marrow Channel",
+        "chat_id": -1003659432109,
+        "message_id": 247,
+        "caption": "19. Acute otitis Media Yw.mp4",
+        "filename": "19. Acute otitis Media Yw.mp4"
+      }
+    ]
+  },
+  {
+    "lecture_no": 20,
+    "title": "20. Serous Otitis Media (OME / Glue Ear)",
+    "duration_seconds": 3814,
+    "duration_formatted": "1h 03m 34s",
+    "file_size": 663173915,
+    "document_id": "6138453240393502373",
+    "missing_in_my_marrow": false,
+    "primary_source": {
+      "chat_id": -1003264222864,
+      "message_id": 166,
+      "caption": "20. serous otitis media.mp4",
+      "filename": "serous otitis media.mp4"
+    },
+    "corroboration": [
+      {
+        "channel_name": "Subjectwise Lectures Topic 3102",
+        "chat_id": -1003506593387,
+        "topic_id": 3102,
+        "message_id": 3122,
+        "caption": "20. serous otitis media.mp4",
+        "filename": "serous otitis media.mp4"
+      },
+      {
+        "channel_name": "Subjectwise Lectures Topic 2647",
+        "chat_id": -1003506593387,
+        "topic_id": 2647,
+        "message_id": 2667,
+        "caption": "20. serous otitis media.mp4",
+        "filename": "serous otitis media.mp4"
+      },
+      {
+        "channel_name": "Marrow Channel",
+        "chat_id": -1003659432109,
+        "message_id": 248,
+        "caption": "20. Serous otitis Media  Yw.mp4",
+        "filename": "20. Serous otitis Media  Yw.mp4"
+      }
+    ]
+  },
+  {
+    "lecture_no": 21,
+    "title": "21. Chronic Mucosal Otitis Media (CMOM)",
+    "duration_seconds": 3943,
+    "duration_formatted": "1h 05m 43s",
+    "file_size": 593678605,
+    "document_id": "6138453240393502370",
+    "missing_in_my_marrow": false,
+    "primary_source": {
+      "chat_id": -1003264222864,
+      "message_id": 167,
+      "caption": "21. cmom.mp4",
+      "filename": "cmos.mp4"
+    },
+    "corroboration": [
+      {
+        "channel_name": "Subjectwise Lectures Topic 3102",
+        "chat_id": -1003506593387,
+        "topic_id": 3102,
+        "message_id": 3123,
+        "caption": "21. cmom.mp4",
+        "filename": "cmos.mp4"
+      },
+      {
+        "channel_name": "Subjectwise Lectures Topic 2647",
+        "chat_id": -1003506593387,
+        "topic_id": 2647,
+        "message_id": 2668,
+        "caption": "21. cmom.mp4",
+        "filename": "cmos.mp4"
+      },
+      {
+        "channel_name": "Marrow Channel",
+        "chat_id": -1003659432109,
+        "message_id": 249,
+        "caption": "21. cmom Yw.mp4",
+        "filename": "21. cmom Yw.mp4"
+      }
+    ]
+  },
+  {
+    "lecture_no": 22,
+    "title": "22. Chronic Suppurative Otitis Media (CSOM) and Cholesteatoma",
+    "duration_seconds": 6308,
+    "duration_formatted": "1h 45m 08s",
+    "file_size": 1394771471,
+    "document_id": "6138453240393502367",
+    "missing_in_my_marrow": false,
+    "primary_source": {
+      "chat_id": -1003264222864,
+      "message_id": 168,
+      "caption": "22. CSOM.mp4",
+      "filename": "CSOM.mp4"
+    },
+    "corroboration": [
+      {
+        "channel_name": "Subjectwise Lectures Topic 3102",
+        "chat_id": -1003506593387,
+        "topic_id": 3102,
+        "message_id": 3124,
+        "caption": "22. CSOM.mp4",
+        "filename": "CSOM.mp4"
+      },
+      {
+        "channel_name": "Subjectwise Lectures Topic 2647",
+        "chat_id": -1003506593387,
+        "topic_id": 2647,
+        "message_id": 2669,
+        "caption": "22. CSOM.mp4",
+        "filename": "CSOM.mp4"
+      },
+      {
+        "channel_name": "Marrow Channel",
+        "chat_id": -1003659432109,
+        "message_id": 250,
+        "caption": "22. Chronic squamous otitis Media  Yw.mp4",
+        "filename": "22. Chronic squamous otitis Media  Yw.mp4"
+      }
+    ]
+  },
+  {
+    "lecture_no": 23,
+    "title": "23. Complications of Otitis Media",
+    "duration_seconds": 3472,
+    "duration_formatted": "57m 52s",
+    "file_size": 730060907,
+    "document_id": "6138453240393502363",
+    "missing_in_my_marrow": false,
+    "primary_source": {
+      "chat_id": -1003264222864,
+      "message_id": 169,
+      "caption": "23. complication of om.mp4",
+      "filename": "complication of com.mp4"
+    },
+    "corroboration": [
+      {
+        "channel_name": "Subjectwise Lectures Topic 3102",
+        "chat_id": -1003506593387,
+        "topic_id": 3102,
+        "message_id": 3125,
+        "caption": "23. complication of om.mp4",
+        "filename": "complication of com.mp4"
+      },
+      {
+        "channel_name": "Subjectwise Lectures Topic 2647",
+        "chat_id": -1003506593387,
+        "topic_id": 2647,
+        "message_id": 2670,
+        "caption": "23. complication of om.mp4",
+        "filename": "complication of com.mp4"
+      },
+      {
+        "channel_name": "Marrow Channel",
+        "chat_id": -1003659432109,
+        "message_id": 251,
+        "caption": "23. Complications of otitis Media  Yw.mp4",
+        "filename": "23. Complications of otitis Media  Yw.mp4"
+      }
+    ]
+  },
+  {
+    "lecture_no": 24,
+    "title": "24. Otosclerosis",
+    "duration_seconds": 3647,
+    "duration_formatted": "1h 00m 47s",
+    "file_size": 746530197,
+    "document_id": "6138453240393502360",
+    "missing_in_my_marrow": false,
+    "primary_source": {
+      "chat_id": -1003264222864,
+      "message_id": 170,
+      "caption": "24. otosclerosis.mp4",
+      "filename": "otosclerosis.mp4"
+    },
+    "corroboration": [
+      {
+        "channel_name": "Subjectwise Lectures Topic 3102",
+        "chat_id": -1003506593387,
+        "topic_id": 3102,
+        "message_id": 3126,
+        "caption": "24. otosclerosis.mp4",
+        "filename": "otosclerosis.mp4"
+      },
+      {
+        "channel_name": "Subjectwise Lectures Topic 2647",
+        "chat_id": -1003506593387,
+        "topic_id": 2647,
+        "message_id": 2671,
+        "caption": "24. otosclerosis.mp4",
+        "filename": "otosclerosis.mp4"
+      },
+      {
+        "channel_name": "Marrow Channel",
+        "chat_id": -1003659432109,
+        "message_id": 252,
+        "caption": "24. Otosclerosis Yw.mp4",
+        "filename": "24. Otosclerosis Yw.mp4"
+      }
+    ]
+  },
+  {
+    "lecture_no": 25,
+    "title": "25. Meniere's Disease",
+    "duration_seconds": 3716,
+    "duration_formatted": "1h 01m 56s",
+    "file_size": 551062256,
+    "document_id": "6138453240393502357",
+    "missing_in_my_marrow": false,
+    "primary_source": {
+      "chat_id": -1003264222864,
+      "message_id": 171,
+      "caption": "25. meiner's disease.mp4",
+      "filename": "meiner's disease.mp4"
+    },
+    "corroboration": [
+      {
+        "channel_name": "Subjectwise Lectures Topic 3102",
+        "chat_id": -1003506593387,
+        "topic_id": 3102,
+        "message_id": 3127,
+        "caption": "25. meiner's disease.mp4",
+        "filename": "meiner's disease.mp4"
+      },
+      {
+        "channel_name": "Subjectwise Lectures Topic 2647",
+        "chat_id": -1003506593387,
+        "topic_id": 2647,
+        "message_id": 2672,
+        "caption": "25. meiner's disease.mp4",
+        "filename": "meiner's disease.mp4"
+      },
+      {
+        "channel_name": "Marrow Channel",
+        "chat_id": -1003659432109,
+        "message_id": 253,
+        "caption": "25. Menier's Disease Yw.mp4",
+        "filename": "25. Menier's Disease Yw.mp4"
+      }
+    ]
+  },
+  {
+    "lecture_no": 26,
+    "title": "26. Superior Semicircular Canal Dehiscence",
+    "duration_seconds": 2398,
+    "duration_formatted": "39m 58s",
+    "file_size": 499845329,
+    "document_id": "6271623752287525245",
+    "missing_in_my_marrow": false,
+    "primary_source": {
+      "chat_id": -1003264222864,
+      "message_id": 172,
+      "caption": "26. scc dehiscence.mp4",
+      "filename": "scc dehiscence.mp4"
+    },
+    "corroboration": [
+      {
+        "channel_name": "Subjectwise Lectures Topic 3102",
+        "chat_id": -1003506593387,
+        "topic_id": 3102,
+        "message_id": 3128,
+        "caption": "26. Superior semicircular canal dehiscence",
+        "filename": "IMG_7675.MP4"
+      },
+      {
+        "channel_name": "Subjectwise Lectures Topic 2647",
+        "chat_id": -1003506593387,
+        "topic_id": 2647,
+        "message_id": 2673,
+        "caption": "26. Superior semicircular canal dehiscence",
+        "filename": "IMG_7675.MP4"
+      },
+      {
+        "channel_name": "Marrow Channel",
+        "chat_id": -1003659432109,
+        "message_id": 254,
+        "caption": "26. Superior Semicircular Canal Dehiscence  Yw.mp4",
+        "filename": "26. Superior Semicircular Canal Dehiscence  Yw.mp4"
+      }
+    ]
+  },
+  {
+    "lecture_no": 27,
+    "title": "27. Benign Paroxysmal Positional Vertigo (BPPV)",
+    "duration_seconds": 1630,
+    "duration_formatted": "27m 10s",
+    "file_size": 290080206,
+    "document_id": "6138453240393502394",
+    "missing_in_my_marrow": false,
+    "primary_source": {
+      "chat_id": -1003264222864,
+      "message_id": 173,
+      "caption": "27. BPPV.mp4",
+      "filename": "BPPV.mp4"
+    },
+    "corroboration": [
+      {
+        "channel_name": "Subjectwise Lectures Topic 3102",
+        "chat_id": -1003506593387,
+        "topic_id": 3102,
+        "message_id": 3129,
+        "caption": "27. BPPV.mp4",
+        "filename": "BPPV.mp4"
+      },
+      {
+        "channel_name": "Subjectwise Lectures Topic 2647",
+        "chat_id": -1003506593387,
+        "topic_id": 2647,
+        "message_id": 2674,
+        "caption": "27. BPPV.mp4",
+        "filename": "BPPV.mp4"
+      },
+      {
+        "channel_name": "Marrow Channel",
+        "chat_id": -1003659432109,
+        "message_id": 255,
+        "caption": "27. BPPV Yw.mp4",
+        "filename": "27. BPPV Yw.mp4"
+      }
+    ]
+  },
+  {
+    "lecture_no": 28,
+    "title": "28. Vestibular Neuritis",
+    "duration_seconds": 1233,
+    "duration_formatted": "20m 33s",
+    "file_size": 215659359,
+    "document_id": "6138453240393502353",
+    "missing_in_my_marrow": false,
+    "primary_source": {
+      "chat_id": -1003264222864,
+      "message_id": 174,
+      "caption": "28. vestibular neruitis.mp4",
+      "filename": "vestibular neruitis.mp4"
+    },
+    "corroboration": [
+      {
+        "channel_name": "Subjectwise Lectures Topic 3102",
+        "chat_id": -1003506593387,
+        "topic_id": 3102,
+        "message_id": 3130,
+        "caption": "28. vestibular neruitis.mp4",
+        "filename": "vestibular neruitis.mp4"
+      },
+      {
+        "channel_name": "Subjectwise Lectures Topic 2647",
+        "chat_id": -1003506593387,
+        "topic_id": 2647,
+        "message_id": 2675,
+        "caption": "28. vestibular neruitis.mp4",
+        "filename": "vestibular neruitis.mp4"
+      },
+      {
+        "channel_name": "Marrow Channel",
+        "chat_id": -1003659432109,
+        "message_id": 256,
+        "caption": "28. Vestibular Neuritis .mp4",
+        "filename": "28. Vestibular Neuritis .mp4"
+      }
+    ]
+  },
+  {
+    "lecture_no": 29,
+    "title": "29. Sudden Sensorineural Hearing Loss (SNHL) and Other Conditions",
+    "duration_seconds": 4027,
+    "duration_formatted": "1h 07m 07s",
+    "file_size": 616366038,
+    "document_id": "6138453240393502392",
+    "missing_in_my_marrow": false,
+    "primary_source": {
+      "chat_id": -1003264222864,
+      "message_id": 175,
+      "caption": "29. snhl and other.mp4",
+      "filename": "snhl and other.mp4"
+    },
+    "corroboration": [
+      {
+        "channel_name": "Subjectwise Lectures Topic 3102",
+        "chat_id": -1003506593387,
+        "topic_id": 3102,
+        "message_id": 3131,
+        "caption": "29. snhl and other.mp4",
+        "filename": "snhl and other.mp4"
+      },
+      {
+        "channel_name": "Subjectwise Lectures Topic 2647",
+        "chat_id": -1003506593387,
+        "topic_id": 2647,
+        "message_id": 2676,
+        "caption": "29. snhl and other.mp4",
+        "filename": "snhl and other.mp4"
+      },
+      {
+        "channel_name": "Marrow Channel",
+        "chat_id": -1003659432109,
+        "message_id": 257,
+        "caption": "29. Sudden SNHL.mp4",
+        "filename": "29. Sudden SNHL.mp4"
+      }
+    ]
+  },
+  {
+    "lecture_no": 30,
+    "title": "30. Tumors of External and Middle Ear (Glomus Tumor)",
+    "duration_seconds": 2678,
+    "duration_formatted": "44m 38s",
+    "file_size": 397598940,
+    "document_id": "6138453240393502393",
+    "missing_in_my_marrow": false,
+    "primary_source": {
+      "chat_id": -1003264222864,
+      "message_id": 176,
+      "caption": "30. tumor of middle ear.mp4",
+      "filename": "tumor of middle ear.mp4"
+    },
+    "corroboration": [
+      {
+        "channel_name": "Subjectwise Lectures Topic 3102",
+        "chat_id": -1003506593387,
+        "topic_id": 3102,
+        "message_id": 3132,
+        "caption": "30. tumor of middle ear.mp4",
+        "filename": "tumor of middle ear.mp4"
+      },
+      {
+        "channel_name": "Subjectwise Lectures Topic 2647",
+        "chat_id": -1003506593387,
+        "topic_id": 2647,
+        "message_id": 2677,
+        "caption": "30. tumor of middle ear.mp4",
+        "filename": "tumor of middle ear.mp4"
+      },
+      {
+        "channel_name": "Marrow Channel",
+        "chat_id": -1003659432109,
+        "message_id": 258,
+        "caption": "30. Tumors of External and Middle Ear .mp4",
+        "filename": "30. Tumors of External and Middle Ear .mp4"
+      }
+    ]
+  },
+  {
+    "lecture_no": 31,
+    "title": "31. Acoustic Neuroma (Vestibular Schwannoma)",
+    "duration_seconds": 2891,
+    "duration_formatted": "48m 11s",
+    "file_size": 430418602,
+    "document_id": "6138453240393502351",
+    "missing_in_my_marrow": false,
+    "primary_source": {
+      "chat_id": -1003264222864,
+      "message_id": 177,
+      "caption": "31. acoustic neuroma.mp4",
+      "filename": "acoustic neuroma.mp4"
+    },
+    "corroboration": [
+      {
+        "channel_name": "Subjectwise Lectures Topic 3102",
+        "chat_id": -1003506593387,
+        "topic_id": 3102,
+        "message_id": 3133,
+        "caption": "31. acoustic neuroma.mp4",
+        "filename": "acoustic neuroma.mp4"
+      },
+      {
+        "channel_name": "Subjectwise Lectures Topic 2647",
+        "chat_id": -1003506593387,
+        "topic_id": 2647,
+        "message_id": 2678,
+        "caption": "31. acoustic neuroma.mp4",
+        "filename": "acoustic neuroma.mp4"
+      },
+      {
+        "channel_name": "Marrow Channel",
+        "chat_id": -1003659432109,
+        "message_id": 259,
+        "caption": "31. Acoustic Neuroma.mp4",
+        "filename": "31. Acoustic Neuroma.mp4"
+      }
+    ]
+  },
+  {
+    "lecture_no": 32,
+    "title": "32. Facial Nerve Anatomy and Electrodiagnostic Tests Part 1",
+    "duration_seconds": 3075,
+    "duration_formatted": "51m 15s",
+    "file_size": 430022875,
+    "document_id": "6138453240393502354",
+    "missing_in_my_marrow": false,
+    "primary_source": {
+      "chat_id": -1003264222864,
+      "message_id": 178,
+      "caption": "32. facial nerve 1.mp4",
+      "filename": "facial nerve 1.mp4"
+    },
+    "corroboration": [
+      {
+        "channel_name": "Subjectwise Lectures Topic 3102",
+        "chat_id": -1003506593387,
+        "topic_id": 3102,
+        "message_id": 3134,
+        "caption": "32. facial nerve 1.mp4",
+        "filename": "facial nerve 1.mp4"
+      },
+      {
+        "channel_name": "Subjectwise Lectures Topic 2647",
+        "chat_id": -1003506593387,
+        "topic_id": 2647,
+        "message_id": 2679,
+        "caption": "32. facial nerve 1.mp4",
+        "filename": "facial nerve 1.mp4"
+      },
+      {
+        "channel_name": "Marrow Channel",
+        "chat_id": -1003659432109,
+        "message_id": 260,
+        "caption": "32. Facial Nerve 1.mp4",
+        "filename": "32. Facial Nerve 1.mp4"
+      }
+    ]
+  },
+  {
+    "lecture_no": 33,
+    "title": "33. Facial Nerve Part 2: Bell's Palsy and Other Disorders",
+    "duration_seconds": 2818,
+    "duration_formatted": "46m 58s",
+    "file_size": 425908108,
+    "document_id": "6138453240393502356",
+    "missing_in_my_marrow": false,
+    "primary_source": {
+      "chat_id": -1003264222864,
+      "message_id": 179,
+      "caption": "33. facial nerve part 2.mp4",
+      "filename": "facial nerve part 2.mp4"
+    },
+    "corroboration": [
+      {
+        "channel_name": "Subjectwise Lectures Topic 3102",
+        "chat_id": -1003506593387,
+        "topic_id": 3102,
+        "message_id": 3135,
+        "caption": "33. facial nerve part 2.mp4",
+        "filename": "facial nerve part 2.mp4"
+      },
+      {
+        "channel_name": "Subjectwise Lectures Topic 2647",
+        "chat_id": -1003506593387,
+        "topic_id": 2647,
+        "message_id": 2680,
+        "caption": "33. facial nerve part 2.mp4",
+        "filename": "facial nerve part 2.mp4"
+      },
+      {
+        "channel_name": "Marrow Channel",
+        "chat_id": -1003659432109,
+        "message_id": 261,
+        "caption": "33. Facial Nerve 2.mp4",
+        "filename": "33. Facial Nerve 2.mp4"
+      }
+    ]
+  },
+  {
+    "lecture_no": 34,
+    "title": "34. Hearing Rehabilitation: Hearing Aids and Cochlear Implants",
+    "duration_seconds": 2784,
+    "duration_formatted": "46m 24s",
+    "file_size": 584753611,
+    "document_id": "6138453240393502362",
+    "missing_in_my_marrow": false,
+    "primary_source": {
+      "chat_id": -1003264222864,
+      "message_id": 180,
+      "caption": "34. hearing rehabilitation.mp4",
+      "filename": "hearing rehabilitation.mp4"
+    },
+    "corroboration": [
+      {
+        "channel_name": "Subjectwise Lectures Topic 3102",
+        "chat_id": -1003506593387,
+        "topic_id": 3102,
+        "message_id": 3136,
+        "caption": "34. hearing rehabilitation.mp4",
+        "filename": "hearing rehabilitation.mp4"
+      },
+      {
+        "channel_name": "Subjectwise Lectures Topic 2647",
+        "chat_id": -1003506593387,
+        "topic_id": 2647,
+        "message_id": 2681,
+        "caption": "34. hearing rehabilitation.mp4",
+        "filename": "hearing rehabilitation.mp4"
+      },
+      {
+        "channel_name": "Marrow Channel",
+        "chat_id": -1003659432109,
+        "message_id": 262,
+        "caption": "34. Hearing Rehabilitation.mp4",
+        "filename": "34. Hearing Rehabilitation.mp4"
+      }
+    ]
+  },
+  {
+    "lecture_no": 35,
+    "title": "35. Clinical Diseases of External Nose and Choanal Atresia",
+    "duration_seconds": 2548,
+    "duration_formatted": "42m 28s",
+    "file_size": 368614346,
+    "document_id": "6138453240393502364",
+    "missing_in_my_marrow": false,
+    "primary_source": {
+      "chat_id": -1003264222864,
+      "message_id": 181,
+      "caption": "35. clinical dsz of external nose and choanal atresia.mp4",
+      "filename": "clinical dsz of external nose and choanal atresia.mp4"
+    },
+    "corroboration": [
+      {
+        "channel_name": "Subjectwise Lectures Topic 3102",
+        "chat_id": -1003506593387,
+        "topic_id": 3102,
+        "message_id": 3137,
+        "caption": "35. clinical dsz of external nose and choanal atresia.mp4",
+        "filename": "clinical dsz of external nose and choanal atresia.mp4"
+      },
+      {
+        "channel_name": "Subjectwise Lectures Topic 2647",
+        "chat_id": -1003506593387,
+        "topic_id": 2647,
+        "message_id": 2682,
+        "caption": "35. clinical dsz of external nose and choanal atresia.mp4",
+        "filename": "clinical dsz of external nose and choanal atresia.mp4"
+      },
+      {
+        "channel_name": "Marrow Channel",
+        "chat_id": -1003659432109,
+        "message_id": 263,
+        "caption": "35. Clinical Anatomy of External Nose and Choanal atresia.mp4",
+        "filename": "35. Clinical Anatomy of External Nose and Choanal atresia.mp4"
+      }
+    ]
+  },
+  {
+    "lecture_no": 36,
+    "title": "36. Clinical Anatomy of Lateral Wall of Nose",
+    "duration_seconds": 5770,
+    "duration_formatted": "1h 36m 10s",
+    "file_size": 860222157,
+    "document_id": "6138453240393502358",
+    "missing_in_my_marrow": false,
+    "primary_source": {
+      "chat_id": -1003264222864,
+      "message_id": 182,
+      "caption": "36. lateral wall of nose.mp4",
+      "filename": "lateral wall of nose.mp4"
+    },
+    "corroboration": [
+      {
+        "channel_name": "Subjectwise Lectures Topic 3102",
+        "chat_id": -1003506593387,
+        "topic_id": 3102,
+        "message_id": 3138,
+        "caption": "36. lateral wall of nose.mp4",
+        "filename": "lateral wall of nose.mp4"
+      },
+      {
+        "channel_name": "Subjectwise Lectures Topic 2647",
+        "chat_id": -1003506593387,
+        "topic_id": 2647,
+        "message_id": 2683,
+        "caption": "36. lateral wall of nose.mp4",
+        "filename": "lateral wall of nose.mp4"
+      },
+      {
+        "channel_name": "Marrow Channel",
+        "chat_id": -1003659432109,
+        "message_id": 264,
+        "caption": "36. Clinical anatomy of Lateral wall of Nose.mp4",
+        "filename": "36. Clinical anatomy of Lateral wall of Nose.mp4"
+      }
+    ]
+  },
+  {
+    "lecture_no": 37,
+    "title": "37. Clinical Anatomy and Diseases of Nasal Septum",
+    "duration_seconds": 4429,
+    "duration_formatted": "1h 13m 49s",
+    "file_size": 700507688,
+    "document_id": "6138453240393502369",
+    "missing_in_my_marrow": false,
+    "primary_source": {
+      "chat_id": -1003264222864,
+      "message_id": 183,
+      "caption": "37. septum.mp4",
+      "filename": "septum.mp4"
+    },
+    "corroboration": [
+      {
+        "channel_name": "Subjectwise Lectures Topic 3102",
+        "chat_id": -1003506593387,
+        "topic_id": 3102,
+        "message_id": 3139,
+        "caption": "37. septum.mp4",
+        "filename": "septum.mp4"
+      },
+      {
+        "channel_name": "Subjectwise Lectures Topic 2647",
+        "chat_id": -1003506593387,
+        "topic_id": 2647,
+        "message_id": 2684,
+        "caption": "37. septum.mp4",
+        "filename": "septum.mp4"
+      },
+      {
+        "channel_name": "Marrow Channel",
+        "chat_id": -1003659432109,
+        "message_id": 265,
+        "caption": "37. Clinical Anatomy and diseases of septum.mp4",
+        "filename": "37. Clinical Anatomy and diseases of septum.mp4"
+      }
+    ]
+  },
+  {
+    "lecture_no": 38,
+    "title": "38. Nerve Supply of Nose and Related Disorders Part 1",
+    "duration_seconds": 3586,
+    "duration_formatted": "59m 46s",
+    "file_size": 910739014,
+    "document_id": "6138453240393502371",
+    "missing_in_my_marrow": false,
+    "primary_source": {
+      "chat_id": -1003264222864,
+      "message_id": 184,
+      "caption": "38. nerve supply nose 1.mp4",
+      "filename": "nerve supply nose 1.mp4"
+    },
+    "corroboration": [
+      {
+        "channel_name": "Subjectwise Lectures Topic 3102",
+        "chat_id": -1003506593387,
+        "topic_id": 3102,
+        "message_id": 3140,
+        "caption": "38. nerve supply nose 1.mp4",
+        "filename": "nerve supply nose 1.mp4"
+      },
+      {
+        "channel_name": "Subjectwise Lectures Topic 2647",
+        "chat_id": -1003506593387,
+        "topic_id": 2647,
+        "message_id": 2685,
+        "caption": "38. nerve supply nose 1.mp4",
+        "filename": "nerve supply nose 1.mp4"
+      },
+      {
+        "channel_name": "Marrow Channel",
+        "chat_id": -1003659432109,
+        "message_id": 266,
+        "caption": "38.Nerve Supply of Nose and its diseases 1.mp4",
+        "filename": "38.Nerve Supply of Nose and its diseases 1.mp4"
+      }
+    ]
+  },
+  {
+    "lecture_no": 39,
+    "title": "39. Nerve Supply of Nose and Related Disorders Part 2",
+    "duration_seconds": 3783,
+    "duration_formatted": "1h 03m 03s",
+    "file_size": 875391467,
+    "document_id": "6138453240393502375",
+    "missing_in_my_marrow": false,
+    "primary_source": {
+      "chat_id": -1003264222864,
+      "message_id": 185,
+      "caption": "39. nerve supply of nose and diseases 2.mp4",
+      "filename": "nerve supply of nose and diseases 2.mp4"
+    },
+    "corroboration": [
+      {
+        "channel_name": "Subjectwise Lectures Topic 3102",
+        "chat_id": -1003506593387,
+        "topic_id": 3102,
+        "message_id": 3141,
+        "caption": "39. nerve supply of nose and diseases 2.mp4",
+        "filename": "nerve supply of nose and diseases 2.mp4"
+      },
+      {
+        "channel_name": "Subjectwise Lectures Topic 2647",
+        "chat_id": -1003506593387,
+        "topic_id": 2647,
+        "message_id": 2686,
+        "caption": "39. nerve supply of nose and diseases 2.mp4",
+        "filename": "nerve supply of nose and diseases 2.mp4"
+      },
+      {
+        "channel_name": "Marrow Channel",
+        "chat_id": -1003659432109,
+        "message_id": 267,
+        "caption": "39. Nerve Supply of Nose and its diseases 2.mp4",
+        "filename": "39. Nerve Supply of Nose and its diseases 2.mp4"
+      }
+    ]
+  },
+  {
+    "lecture_no": 40,
+    "title": "40. Arterial Supply of Nose and Epistaxis",
+    "duration_seconds": 4509,
+    "duration_formatted": "1h 15m 09s",
+    "file_size": 940232463,
+    "document_id": "6271623752287525268",
+    "missing_in_my_marrow": false,
+    "primary_source": {
+      "chat_id": -1003264222864,
+      "message_id": 186,
+      "caption": "40",
+      "filename": "40_watermarked.mp4"
+    },
+    "corroboration": [
+      {
+        "channel_name": "Subjectwise Lectures Topic 3102",
+        "chat_id": -1003506593387,
+        "topic_id": 3102,
+        "message_id": 3142,
+        "caption": "40. Arterial Supply Of Nose and Epistaxis",
+        "filename": "IMG_7676.MP4"
+      },
+      {
+        "channel_name": "Subjectwise Lectures Topic 2647",
+        "chat_id": -1003506593387,
+        "topic_id": 2647,
+        "message_id": 2687,
+        "caption": "40. Arterial Supply Of Nose and Epistaxis",
+        "filename": "IMG_7676.MP4"
+      },
+      {
+        "channel_name": "Marrow Channel",
+        "chat_id": -1003659432109,
+        "message_id": 268,
+        "caption": "40. Arterial supply of Nose and Epistaxis.mp4",
+        "filename": "40. Arterial supply of Nose and Epistaxis.mp4"
+      }
+    ]
+  },
+  {
+    "lecture_no": 41,
+    "title": "41. Clinical Anatomy of PNS and Rhinosinusitis",
+    "duration_seconds": 5707,
+    "duration_formatted": "1h 35m 07s",
+    "file_size": 787754195,
+    "document_id": "6161431208052920107",
+    "missing_in_my_marrow": false,
+    "primary_source": {
+      "chat_id": -1003264222864,
+      "message_id": 187,
+      "caption": "41. pns.mp4",
+      "filename": "pns.mp4"
+    },
+    "corroboration": [
+      {
+        "channel_name": "Subjectwise Lectures Topic 3102",
+        "chat_id": -1003506593387,
+        "topic_id": 3102,
+        "message_id": 3143,
+        "caption": "41. pns.mp4",
+        "filename": "pns.mp4"
+      },
+      {
+        "channel_name": "Subjectwise Lectures Topic 2647",
+        "chat_id": -1003506593387,
+        "topic_id": 2647,
+        "message_id": 2688,
+        "caption": "41. pns.mp4",
+        "filename": "pns.mp4"
+      },
+      {
+        "channel_name": "Marrow Channel",
+        "chat_id": -1003659432109,
+        "message_id": 269,
+        "caption": "41. Clinical Anatomy of PNS and Rhinosinusitis Yw.mp4",
+        "filename": "41. Clinical Anatomy of PNS and Rhinosinusitis Yw.mp4"
+      }
+    ]
+  },
+  {
+    "lecture_no": 42,
+    "title": "42. Complications of Sinusitis",
+    "duration_seconds": 1841,
+    "duration_formatted": "30m 41s",
+    "file_size": 244239310,
+    "document_id": "6161431208052920108",
+    "missing_in_my_marrow": false,
+    "primary_source": {
+      "chat_id": -1003264222864,
+      "message_id": 188,
+      "caption": "42. COMPLICATION OF SINUSITIS.mp4",
+      "filename": "COMPLICATION OF SINUSITIS.mp4"
+    },
+    "corroboration": [
+      {
+        "channel_name": "Subjectwise Lectures Topic 3102",
+        "chat_id": -1003506593387,
+        "topic_id": 3102,
+        "message_id": 3144,
+        "caption": "42. COMPLICATION OF SINUSITIS.mp4",
+        "filename": "COMPLICATION OF SINUSITIS.mp4"
+      },
+      {
+        "channel_name": "Subjectwise Lectures Topic 2647",
+        "chat_id": -1003506593387,
+        "topic_id": 2647,
+        "message_id": 2689,
+        "caption": "42. COMPLICATION OF SINUSITIS.mp4",
+        "filename": "COMPLICATION OF SINUSITIS.mp4"
+      },
+      {
+        "channel_name": "Marrow Channel",
+        "chat_id": -1003659432109,
+        "message_id": 270,
+        "caption": "42. Complications of Sinusitis Yw.mp4",
+        "filename": "42. Complications of Sinusitis Yw.mp4"
+      }
+    ]
+  },
+  {
+    "lecture_no": 43,
+    "title": "43. Nasal Polyps (Antrochoanal and Ethmoidal)",
+    "duration_seconds": 4394,
+    "duration_formatted": "1h 13m 14s",
+    "file_size": 583294152,
+    "document_id": "6161431208052920402",
+    "missing_in_my_marrow": false,
+    "primary_source": {
+      "chat_id": -1003264222864,
+      "message_id": 189,
+      "caption": "43. NASAL POLYP.mp4",
+      "filename": "NASAL POLYP.mp4"
+    },
+    "corroboration": [
+      {
+        "channel_name": "Subjectwise Lectures Topic 3102",
+        "chat_id": -1003506593387,
+        "topic_id": 3102,
+        "message_id": 3145,
+        "caption": "43. NASAL POLYP.mp4",
+        "filename": "NASAL POLYP.mp4"
+      },
+      {
+        "channel_name": "Subjectwise Lectures Topic 2647",
+        "chat_id": -1003506593387,
+        "topic_id": 2647,
+        "message_id": 2690,
+        "caption": "43. NASAL POLYP.mp4",
+        "filename": "NASAL POLYP.mp4"
+      },
+      {
+        "channel_name": "Marrow Channel",
+        "chat_id": -1003659432109,
+        "message_id": 271,
+        "caption": "43. Nasal Polyps Yw.mp4",
+        "filename": "43. Nasal Polyps Yw.mp4"
+      }
+    ]
+  },
+  {
+    "lecture_no": 44,
+    "title": "44. Fungal Sinusitis",
+    "duration_seconds": 2861,
+    "duration_formatted": "47m 41s",
+    "file_size": 378533887,
+    "document_id": "6161431208052920401",
+    "missing_in_my_marrow": false,
+    "primary_source": {
+      "chat_id": -1003264222864,
+      "message_id": 190,
+      "caption": "44. FUNGAL SIUSITIS.mp4",
+      "filename": "FUNGAL SIUSITIS.mp4"
+    },
+    "corroboration": [
+      {
+        "channel_name": "Subjectwise Lectures Topic 3102",
+        "chat_id": -1003506593387,
+        "topic_id": 3102,
+        "message_id": 3146,
+        "caption": "44. FUNGAL SIUSITIS.mp4",
+        "filename": "FUNGAL SIUSITIS.mp4"
+      },
+      {
+        "channel_name": "Subjectwise Lectures Topic 2647",
+        "chat_id": -1003506593387,
+        "topic_id": 2647,
+        "message_id": 2691,
+        "caption": "44. FUNGAL SIUSITIS.mp4",
+        "filename": "FUNGAL SIUSITIS.mp4"
+      },
+      {
+        "channel_name": "Marrow Channel",
+        "chat_id": -1003659432109,
+        "message_id": 272,
+        "caption": "44. Fungal Sinusitis Yw.mp4",
+        "filename": "44. Fungal Sinusitis Yw.mp4"
+      }
+    ]
+  },
+  {
+    "lecture_no": 45,
+    "title": "45. Atrophic Rhinitis and Granulomatous Conditions of Nose",
+    "duration_seconds": 3424,
+    "duration_formatted": "57m 04s",
+    "file_size": 736451690,
+    "document_id": "6161431208052920396",
+    "missing_in_my_marrow": false,
+    "primary_source": {
+      "chat_id": -1003264222864,
+      "message_id": 191,
+      "caption": "45. ATHROPIC RHINITIS AND GRANULOMATOUS CONDITION OF NOSE.mp4",
+      "filename": "ATHROPIC RHINITIS AND GRANULOMATOUS CONDITION OF NOSE.mp4"
+    },
+    "corroboration": [
+      {
+        "channel_name": "Subjectwise Lectures Topic 3102",
+        "chat_id": -1003506593387,
+        "topic_id": 3102,
+        "message_id": 3147,
+        "caption": "45. ATHROPIC RHINITIS AND GRANULOMATOUS CONDITION OF NOSE.mp4",
+        "filename": "ATHROPIC RHINITIS AND GRANULOMATOUS CONDITION OF NOSE.mp4"
+      },
+      {
+        "channel_name": "Subjectwise Lectures Topic 2647",
+        "chat_id": -1003506593387,
+        "topic_id": 2647,
+        "message_id": 2692,
+        "caption": "45. ATHROPIC RHINITIS AND GRANULOMATOUS CONDITION OF NOSE.mp4",
+        "filename": "ATHROPIC RHINITIS AND GRANULOMATOUS CONDITION OF NOSE.mp4"
+      },
+      {
+        "channel_name": "Marrow Channel",
+        "chat_id": -1003659432109,
+        "message_id": 273,
+        "caption": "45. Atrophic Rhinitis and Granulomatous Conditions of Nose Yw.mp4",
+        "filename": "45_Atrophic_Rhinitis_and_Granulomatous_Conditions_of_Nose_Yw.mp4"
+      }
+    ]
+  },
+  {
+    "lecture_no": 46,
+    "title": "46. Fractures of Face and CSF Rhinorrhea",
+    "duration_seconds": 3271,
+    "duration_formatted": "54m 31s",
+    "file_size": 479372919,
+    "document_id": "6161431208052920399",
+    "missing_in_my_marrow": false,
+    "primary_source": {
+      "chat_id": -1003264222864,
+      "message_id": 192,
+      "caption": "46. FRACTURE OF NOSE AND CSF RHINORRHOEA.mp4",
+      "filename": "FRACTURE OF NOSE AND CSF RHINORRHOEA.mp4"
+    },
+    "corroboration": [
+      {
+        "channel_name": "Subjectwise Lectures Topic 3102",
+        "chat_id": -1003506593387,
+        "topic_id": 3102,
+        "message_id": 3148,
+        "caption": "46. FRACTURE OF NOSE AND CSF RHINORRHOEA.mp4",
+        "filename": "FRACTURE OF NOSE AND CSF RHINORRHOEA.mp4"
+      },
+      {
+        "channel_name": "Subjectwise Lectures Topic 2647",
+        "chat_id": -1003506593387,
+        "topic_id": 2647,
+        "message_id": 2693,
+        "caption": "46. FRACTURE OF NOSE AND CSF RHINORRHOEA.mp4",
+        "filename": "FRACTURE OF NOSE AND CSF RHINORRHOEA.mp4"
+      },
+      {
+        "channel_name": "Marrow Channel",
+        "chat_id": -1003659432109,
+        "message_id": 274,
+        "caption": "46. Fracture of Face and CSF Rhinorrhea Yw.mp4",
+        "filename": "46. Fracture of Face and CSF Rhinorrhea Yw.mp4"
+      }
+    ]
+  },
+  {
+    "lecture_no": 47,
+    "title": "47. Tumors of Nose and Paranasal Sinuses",
+    "duration_seconds": 3412,
+    "duration_formatted": "56m 52s",
+    "file_size": 818884860,
+    "document_id": "6161431208052920395",
+    "missing_in_my_marrow": false,
+    "primary_source": {
+      "chat_id": -1003264222864,
+      "message_id": 193,
+      "caption": "47. TUMOR OF NOSE AND PNS.mp4",
+      "filename": "TUMOR OF NOSE AND PNS.mp4"
+    },
+    "corroboration": [
+      {
+        "channel_name": "Subjectwise Lectures Topic 3102",
+        "chat_id": -1003506593387,
+        "topic_id": 3102,
+        "message_id": 3149,
+        "caption": "47. TUMOR OF NOSE AND PNS.mp4",
+        "filename": "TUMOR OF NOSE AND PNS.mp4"
+      },
+      {
+        "channel_name": "Subjectwise Lectures Topic 2647",
+        "chat_id": -1003506593387,
+        "topic_id": 2647,
+        "message_id": 2694,
+        "caption": "47. TUMOR OF NOSE AND PNS.mp4",
+        "filename": "TUMOR OF NOSE AND PNS.mp4"
+      },
+      {
+        "channel_name": "Marrow Channel",
+        "chat_id": -1003659432109,
+        "message_id": 275,
+        "caption": "47. Tumors of Nose and PNS  Yw.mp4",
+        "filename": "47. Tumors of Nose and PNS  Yw.mp4"
+      }
+    ]
+  },
+  {
+    "lecture_no": 48,
+    "title": "48. Clinical Anatomy of Pharynx Part 1",
+    "duration_seconds": 2234,
+    "duration_formatted": "37m 14s",
+    "file_size": 527010598,
+    "document_id": "6161431208052920397",
+    "missing_in_my_marrow": false,
+    "primary_source": {
+      "chat_id": -1003264222864,
+      "message_id": 194,
+      "caption": "48. CLINICAL ANATOMY OF PHARYNX 1.mp4",
+      "filename": "CLINICAL ANATOMY OF PHARYNX 1.mp4"
+    },
+    "corroboration": [
+      {
+        "channel_name": "Subjectwise Lectures Topic 3102",
+        "chat_id": -1003506593387,
+        "topic_id": 3102,
+        "message_id": 3150,
+        "caption": "48. CLINICAL ANATOMY OF PHARYNX 1.mp4",
+        "filename": "CLINICAL ANATOMY OF PHARYNX 1.mp4"
+      },
+      {
+        "channel_name": "Subjectwise Lectures Topic 2647",
+        "chat_id": -1003506593387,
+        "topic_id": 2647,
+        "message_id": 2695,
+        "caption": "48. CLINICAL ANATOMY OF PHARYNX 1.mp4",
+        "filename": "CLINICAL ANATOMY OF PHARYNX 1.mp4"
+      },
+      {
+        "channel_name": "Marrow Channel",
+        "chat_id": -1003659432109,
+        "message_id": 276,
+        "caption": "48. Clinical Anatomy of Pharynx 1 Yw.mp4",
+        "filename": "48. Clinical Anatomy of Pharynx 1 Yw.mp4"
+      }
+    ]
+  },
+  {
+    "lecture_no": 49,
+    "title": "49. Clinical Anatomy of Pharynx Part 2",
+    "duration_seconds": 4616,
+    "duration_formatted": "1h 16m 56s",
+    "file_size": 1070873581,
+    "document_id": "6161431208052920389",
+    "missing_in_my_marrow": false,
+    "primary_source": {
+      "chat_id": -1003264222864,
+      "message_id": 195,
+      "caption": "49. PHARYNX 2.mp4",
+      "filename": "PHARYNX 2.mp4"
+    },
+    "corroboration": [
+      {
+        "channel_name": "Subjectwise Lectures Topic 3102",
+        "chat_id": -1003506593387,
+        "topic_id": 3102,
+        "message_id": 3151,
+        "caption": "49. PHARYNX 2.mp4",
+        "filename": "PHARYNX 2.mp4"
+      },
+      {
+        "channel_name": "Subjectwise Lectures Topic 2647",
+        "chat_id": -1003506593387,
+        "topic_id": 2647,
+        "message_id": 2696,
+        "caption": "49. PHARYNX 2.mp4",
+        "filename": "PHARYNX 2.mp4"
+      },
+      {
+        "channel_name": "Marrow Channel",
+        "chat_id": -1003659432109,
+        "message_id": 277,
+        "caption": "49. Clinical Anatomy of Pharynx 2 Yw.mp4",
+        "filename": "49. Clinical Anatomy of Pharynx 2 Yw.mp4"
+      }
+    ]
+  },
+  {
+    "lecture_no": 50,
+    "title": "50. Clinical Anatomy of Pharynx Part 3",
+    "duration_seconds": 6811,
+    "duration_formatted": "1h 53m 31s",
+    "file_size": 1635672305,
+    "document_id": "6161431208052920390",
+    "missing_in_my_marrow": false,
+    "primary_source": {
+      "chat_id": -1003264222864,
+      "message_id": 196,
+      "caption": "50. CLINICAL ANATOMY OF PHARYNX PART 3.mp4",
+      "filename": "CLINICAL ANATOMY OF PHARYNX PART 3.mp4"
+    },
+    "corroboration": [
+      {
+        "channel_name": "Subjectwise Lectures Topic 3102",
+        "chat_id": -1003506593387,
+        "topic_id": 3102,
+        "message_id": 3152,
+        "caption": "50. CLINICAL ANATOMY OF PHARYNX PART 3.mp4",
+        "filename": "CLINICAL ANATOMY OF PHARYNX PART 3.mp4"
+      },
+      {
+        "channel_name": "Subjectwise Lectures Topic 2647",
+        "chat_id": -1003506593387,
+        "topic_id": 2647,
+        "message_id": 2697,
+        "caption": "50. CLINICAL ANATOMY OF PHARYNX PART 3.mp4",
+        "filename": "CLINICAL ANATOMY OF PHARYNX PART 3.mp4"
+      },
+      {
+        "channel_name": "Marrow Channel",
+        "chat_id": -1003659432109,
+        "message_id": 278,
+        "caption": "50. Clinical Anatomy of Pharynx 3 Yw.mp4",
+        "filename": "50. Clinical Anatomy of Pharynx 3 Yw.mp4"
+      }
+    ]
+  },
+  {
+    "lecture_no": 51,
+    "title": "51. Clinical Anatomy of Pharynx Part 4: Retropharyngeal Abscess",
+    "duration_seconds": 4621,
+    "duration_formatted": "1h 17m 01s",
+    "file_size": 1133324537,
+    "document_id": "6161431208052920388",
+    "missing_in_my_marrow": false,
+    "primary_source": {
+      "chat_id": -1003264222864,
+      "message_id": 197,
+      "caption": "51. PHARYNX ANATOMY 4.mp4",
+      "filename": "PHARYNX ANATOMY 4.mp4"
+    },
+    "corroboration": [
+      {
+        "channel_name": "Subjectwise Lectures Topic 3102",
+        "chat_id": -1003506593387,
+        "topic_id": 3102,
+        "message_id": 3153,
+        "caption": "51. PHARYNX ANATOMY 4.mp4",
+        "filename": "PHARYNX ANATOMY 4.mp4"
+      },
+      {
+        "channel_name": "Subjectwise Lectures Topic 2647",
+        "chat_id": -1003506593387,
+        "topic_id": 2647,
+        "message_id": 2698,
+        "caption": "51. PHARYNX ANATOMY 4.mp4",
+        "filename": "PHARYNX ANATOMY 4.mp4"
+      },
+      {
+        "channel_name": "Marrow Channel",
+        "chat_id": -1003659432109,
+        "message_id": 279,
+        "caption": "51. Clinical Anatomy of Pharynx 4 Yw.mp4",
+        "filename": "51. Clinical Anatomy of Pharynx 4 Yw.mp4"
+      }
+    ]
+  },
+  {
+    "lecture_no": 52,
+    "title": "52. Adenoid Hypertrophy",
+    "duration_seconds": 3908,
+    "duration_formatted": "1h 05m 08s",
+    "file_size": 814683703,
+    "document_id": "6271623752287525271",
+    "missing_in_my_marrow": true,
+    "primary_source": {
+      "chat_id": -1003506593387,
+      "message_id": 3154,
+      "caption": "52. Adenoid hypertrophy",
+      "filename": "IMG_7677.MP4"
+    },
+    "corroboration": [
+      {
+        "channel_name": "Subjectwise Lectures Topic 3102",
+        "chat_id": -1003506593387,
+        "topic_id": 3102,
+        "message_id": 3154,
+        "caption": "52. Adenoid hypertrophy",
+        "filename": "IMG_7677.MP4"
+      },
+      {
+        "channel_name": "Subjectwise Lectures Topic 2647",
+        "chat_id": -1003506593387,
+        "topic_id": 2647,
+        "message_id": 2699,
+        "caption": "52. Adenoid hypertrophy",
+        "filename": "IMG_7677.MP4"
+      },
+      {
+        "channel_name": "Marrow Channel",
+        "chat_id": -1003659432109,
+        "message_id": 280,
+        "caption": "52. Adenoid Hypertrophy Yw.mp4",
+        "filename": "52. Adenoid Hypertrophy Yw.mp4"
+      }
+    ]
+  },
+  {
+    "lecture_no": 53,
+    "title": "53. Juvenile Nasopharyngeal Angiofibroma (JNA)",
+    "duration_seconds": 2166,
+    "duration_formatted": "36m 06s",
+    "file_size": 416904679,
+    "document_id": "6161431208052920385",
+    "missing_in_my_marrow": false,
+    "primary_source": {
+      "chat_id": -1003264222864,
+      "message_id": 198,
+      "caption": "53. ANGIOFIBROMA.mp4",
+      "filename": "ANGIOFIBROMA.mp4"
+    },
+    "corroboration": [
+      {
+        "channel_name": "Subjectwise Lectures Topic 3102",
+        "chat_id": -1003506593387,
+        "topic_id": 3102,
+        "message_id": 3155,
+        "caption": "53. ANGIOFIBROMA.mp4",
+        "filename": "ANGIOFIBROMA.mp4"
+      },
+      {
+        "channel_name": "Subjectwise Lectures Topic 2647",
+        "chat_id": -1003506593387,
+        "topic_id": 2647,
+        "message_id": 2700,
+        "caption": "53. ANGIOFIBROMA.mp4",
+        "filename": "ANGIOFIBROMA.mp4"
+      },
+      {
+        "channel_name": "Marrow Channel",
+        "chat_id": -1003659432109,
+        "message_id": 281,
+        "caption": "53. Angiofibroma Yw.mp4",
+        "filename": "53. Angiofibroma Yw.mp4"
+      }
+    ]
+  },
+  {
+    "lecture_no": 54,
+    "title": "54. Nasopharyngeal Carcinoma",
+    "duration_seconds": 1628,
+    "duration_formatted": "27m 08s",
+    "file_size": 300835367,
+    "document_id": "6161431208052920383",
+    "missing_in_my_marrow": false,
+    "primary_source": {
+      "chat_id": -1003264222864,
+      "message_id": 199,
+      "caption": "54. NASOPHARYNGEAL CARCINOMA.mp4",
+      "filename": "NASOPHARYNGEAL CARCINOMA.mp4"
+    },
+    "corroboration": [
+      {
+        "channel_name": "Subjectwise Lectures Topic 3102",
+        "chat_id": -1003506593387,
+        "topic_id": 3102,
+        "message_id": 3156,
+        "caption": "54. NASOPHARYNGEAL CARCINOMA.mp4",
+        "filename": "NASOPHARYNGEAL CARCINOMA.mp4"
+      },
+      {
+        "channel_name": "Subjectwise Lectures Topic 2647",
+        "chat_id": -1003506593387,
+        "topic_id": 2647,
+        "message_id": 2701,
+        "caption": "54. NASOPHARYNGEAL CARCINOMA.mp4",
+        "filename": "NASOPHARYNGEAL CARCINOMA.mp4"
+      },
+      {
+        "channel_name": "Marrow Channel",
+        "chat_id": -1003659432109,
+        "message_id": 282,
+        "caption": "54. NASOPHARYNGEAL CARCINOMA Yw.mp4",
+        "filename": "54. NASOPHARYNGEAL CARCINOMA Yw.mp4"
+      }
+    ]
+  },
+  {
+    "lecture_no": 55,
+    "title": "55. Conditions of Tonsil and Tonsillectomy Part 1",
+    "duration_seconds": 4181,
+    "duration_formatted": "1h 09m 41s",
+    "file_size": 755768252,
+    "document_id": "6161431208052920368",
+    "missing_in_my_marrow": false,
+    "primary_source": {
+      "chat_id": -1003264222864,
+      "message_id": 200,
+      "caption": "55. CONDITION OF TONSIL AND TONSILLECTOMY.mp4",
+      "filename": "CONDITION OF TONSIL AND TONSILLECTOMY.mp4"
+    },
+    "corroboration": [
+      {
+        "channel_name": "Subjectwise Lectures Topic 3102",
+        "chat_id": -1003506593387,
+        "topic_id": 3102,
+        "message_id": 3157,
+        "caption": "55. CONDITION OF TONSIL AND TONSILLECTOMY.mp4",
+        "filename": "CONDITION OF TONSIL AND TONSILLECTOMY.mp4"
+      },
+      {
+        "channel_name": "Subjectwise Lectures Topic 2647",
+        "chat_id": -1003506593387,
+        "topic_id": 2647,
+        "message_id": 2702,
+        "caption": "55. CONDITION OF TONSIL AND TONSILLECTOMY.mp4",
+        "filename": "CONDITION OF TONSIL AND TONSILLECTOMY.mp4"
+      },
+      {
+        "channel_name": "Marrow Channel",
+        "chat_id": -1003659432109,
+        "message_id": 283,
+        "caption": "55. CONDITION OF TONSIL AND TONSILLECTOMY Yw.mp4",
+        "filename": "55. CONDITION OF TONSIL AND TONSILLECTOMY Yw.mp4"
+      }
+    ]
+  },
+  {
+    "lecture_no": 56,
+    "title": "56. Conditions of Tonsil Part 2",
+    "duration_seconds": 3319,
+    "duration_formatted": "55m 19s",
+    "file_size": 591139034,
+    "document_id": "6161431208052920365",
+    "missing_in_my_marrow": false,
+    "primary_source": {
+      "chat_id": -1003264222864,
+      "message_id": 201,
+      "caption": "56. CONDITION OF TONSIL PART 2.mp4",
+      "filename": "CONDITION OF TONSIL PART 2.mp4"
+    },
+    "corroboration": [
+      {
+        "channel_name": "Subjectwise Lectures Topic 3102",
+        "chat_id": -1003506593387,
+        "topic_id": 3102,
+        "message_id": 3158,
+        "caption": "56. CONDITION OF TONSIL PART 2.mp4",
+        "filename": "CONDITION OF TONSIL PART 2.mp4"
+      },
+      {
+        "channel_name": "Subjectwise Lectures Topic 2647",
+        "chat_id": -1003506593387,
+        "topic_id": 2647,
+        "message_id": 2703,
+        "caption": "56. CONDITION OF TONSIL PART 2.mp4",
+        "filename": "CONDITION OF TONSIL PART 2.mp4"
+      },
+      {
+        "channel_name": "Marrow Channel",
+        "chat_id": -1003659432109,
+        "message_id": 284,
+        "caption": "56. CONDITION OF TONSIL PART 2 Yw.mp4",
+        "filename": "56. CONDITION OF TONSIL PART 2 Yw.mp4"
+      }
+    ]
+  },
+  {
+    "lecture_no": 57,
+    "title": "57. Clinical Anatomy of Larynx Part 1",
+    "duration_seconds": 4514,
+    "duration_formatted": "1h 15m 14s",
+    "file_size": 825953963,
+    "document_id": "6161431208052920363",
+    "missing_in_my_marrow": false,
+    "primary_source": {
+      "chat_id": -1003264222864,
+      "message_id": 202,
+      "caption": "57. CLINICAL ANATOMY LARYGNX PART 1.mp4",
+      "filename": "CLINICAL ANATOMY LARYGNX PART 1.mp4"
+    },
+    "corroboration": [
+      {
+        "channel_name": "Subjectwise Lectures Topic 3102",
+        "chat_id": -1003506593387,
+        "topic_id": 3102,
+        "message_id": 3159,
+        "caption": "57. CLINICAL ANATOMY LARYGNX PART 1.mp4",
+        "filename": "CLINICAL ANATOMY LARYGNX PART 1.mp4"
+      },
+      {
+        "channel_name": "Subjectwise Lectures Topic 2647",
+        "chat_id": -1003506593387,
+        "topic_id": 2647,
+        "message_id": 2704,
+        "caption": "57. CLINICAL ANATOMY LARYGNX PART 1.mp4",
+        "filename": "CLINICAL ANATOMY LARYGNX PART 1.mp4"
+      },
+      {
+        "channel_name": "Marrow Channel",
+        "chat_id": -1003659432109,
+        "message_id": 285,
+        "caption": "57. CLINICAL ANATOMY LARYGNX PART 1 Yw.mp4",
+        "filename": "57. CLINICAL ANATOMY LARYGNX PART 1 Yw.mp4"
+      }
+    ]
+  },
+  {
+    "lecture_no": 58,
+    "title": "58. Clinical Anatomy of Larynx Part 2",
+    "duration_seconds": 3942,
+    "duration_formatted": "1h 05m 42s",
+    "file_size": 642270601,
+    "document_id": "6161431208052920364",
+    "missing_in_my_marrow": false,
+    "primary_source": {
+      "chat_id": -1003264222864,
+      "message_id": 203,
+      "caption": "58. CLINICAL ANATOMY LARNY PART 2.mp4",
+      "filename": "CLINICAL ANATOMY LARNY PART 2.mp4"
+    },
+    "corroboration": [
+      {
+        "channel_name": "Subjectwise Lectures Topic 3102",
+        "chat_id": -1003506593387,
+        "topic_id": 3102,
+        "message_id": 3160,
+        "caption": "58. CLINICAL ANATOMY LARNY PART 2.mp4",
+        "filename": "CLINICAL ANATOMY LARNY PART 2.mp4"
+      },
+      {
+        "channel_name": "Subjectwise Lectures Topic 2647",
+        "chat_id": -1003506593387,
+        "topic_id": 2647,
+        "message_id": 2705,
+        "caption": "58. CLINICAL ANATOMY LARNY PART 2.mp4",
+        "filename": "CLINICAL ANATOMY LARNY PART 2.mp4"
+      },
+      {
+        "channel_name": "Marrow Channel",
+        "chat_id": -1003659432109,
+        "message_id": 286,
+        "caption": "58. CLINICAL ANATOMY LARNY PART 2 Yw.mp4",
+        "filename": "58. CLINICAL ANATOMY LARNY PART 2 Yw.mp4"
+      }
+    ]
+  },
+  {
+    "lecture_no": 59,
+    "title": "59. Larynx Infections (Acute and Chronic Laryngitis)",
+    "duration_seconds": 2838,
+    "duration_formatted": "47m 18s",
+    "file_size": 608586248,
+    "document_id": "6161431208052920327",
+    "missing_in_my_marrow": false,
+    "primary_source": {
+      "chat_id": -1003264222864,
+      "message_id": 204,
+      "caption": "59. LARYNX INFECTION.mp4",
+      "filename": null
+    },
+    "corroboration": [
+      {
+        "channel_name": "Subjectwise Lectures Topic 3102",
+        "chat_id": -1003506593387,
+        "topic_id": 3102,
+        "message_id": 3161,
+        "caption": "59. LARYNX INFECTION.mp4",
+        "filename": "LARYNX INFECTION.mp4"
+      },
+      {
+        "channel_name": "Subjectwise Lectures Topic 2647",
+        "chat_id": -1003506593387,
+        "topic_id": 2647,
+        "message_id": 2706,
+        "caption": "59. LARYNX INFECTION.mp4",
+        "filename": "LARYNX INFECTION.mp4"
+      },
+      {
+        "channel_name": "Marrow Channel",
+        "chat_id": -1003659432109,
+        "message_id": 287,
+        "caption": "59. LARYNX INFECTION Yw.mp4",
+        "filename": "59. LARYNX INFECTION Yw.mp4"
+      }
+    ]
+  },
+  {
+    "lecture_no": 60,
+    "title": "60. Congenital Anomalies of Larynx (Laryngomalacia)",
+    "duration_seconds": 2675,
+    "duration_formatted": "44m 35s",
+    "file_size": 480269960,
+    "document_id": "6161431208052920416",
+    "missing_in_my_marrow": false,
+    "primary_source": {
+      "chat_id": -1003264222864,
+      "message_id": 205,
+      "caption": "60. congenital larynx",
+      "filename": "CONGENITAL LARYNX.mp4"
+    },
+    "corroboration": [
+      {
+        "channel_name": "Subjectwise Lectures Topic 3102",
+        "chat_id": -1003506593387,
+        "topic_id": 3102,
+        "message_id": 3162,
+        "caption": "60. congenital larynx",
+        "filename": "CONGENITAL LARYNX.mp4"
+      },
+      {
+        "channel_name": "Subjectwise Lectures Topic 2647",
+        "chat_id": -1003506593387,
+        "topic_id": 2647,
+        "message_id": 2707,
+        "caption": "60. congenital larynx",
+        "filename": "CONGENITAL LARYNX.mp4"
+      },
+      {
+        "channel_name": "Marrow Channel",
+        "chat_id": -1003659432109,
+        "message_id": 288,
+        "caption": "60 Yw. congenital larynx",
+        "filename": "60 Yw. congenital larynx"
+      }
+    ]
+  },
+  {
+    "lecture_no": 61,
+    "title": "61. Voice Disorders and Benign Lesions of Vocal Cords",
+    "duration_seconds": 3623,
+    "duration_formatted": "1h 00m 23s",
+    "file_size": 637860253,
+    "document_id": "6161431208052920118",
+    "missing_in_my_marrow": false,
+    "primary_source": {
+      "chat_id": -1003264222864,
+      "message_id": 206,
+      "caption": "61. VOICE DISORDER.mp4",
+      "filename": "VOICE DISORDER.mp4"
+    },
+    "corroboration": [
+      {
+        "channel_name": "Subjectwise Lectures Topic 3102",
+        "chat_id": -1003506593387,
+        "topic_id": 3102,
+        "message_id": 3163,
+        "caption": "61. VOICE DISORDER.mp4",
+        "filename": "VOICE DISORDER.mp4"
+      },
+      {
+        "channel_name": "Subjectwise Lectures Topic 2647",
+        "chat_id": -1003506593387,
+        "topic_id": 2647,
+        "message_id": 2708,
+        "caption": "61. VOICE DISORDER.mp4",
+        "filename": "VOICE DISORDER.mp4"
+      },
+      {
+        "channel_name": "Marrow Channel",
+        "chat_id": -1003659432109,
+        "message_id": 289,
+        "caption": "61. VOICE DISORDER Yw.mp4",
+        "filename": "61. VOICE DISORDER Yw.mp4"
+      }
+    ]
+  },
+  {
+    "lecture_no": 62,
+    "title": "62. Nerve Supply of Vocal Cords and Vocal Cord Palsy",
+    "duration_seconds": 3652,
+    "duration_formatted": "1h 00m 52s",
+    "file_size": 724633773,
+    "document_id": "6161431208052920117",
+    "missing_in_my_marrow": false,
+    "primary_source": {
+      "chat_id": -1003264222864,
+      "message_id": 207,
+      "caption": "62. NERVE SUPPLY VOCAL CPRD AND PALSY.mp4",
+      "filename": "NERVE SUPPLY VOCAL CPRD AND PALSY.mp4"
+    },
+    "corroboration": [
+      {
+        "channel_name": "Subjectwise Lectures Topic 3102",
+        "chat_id": -1003506593387,
+        "topic_id": 3102,
+        "message_id": 3164,
+        "caption": "62. NERVE SUPPLY VOCAL CPRD AND PALSY.mp4",
+        "filename": "NERVE SUPPLY VOCAL CPRD AND PALSY.mp4"
+      },
+      {
+        "channel_name": "Subjectwise Lectures Topic 2647",
+        "chat_id": -1003506593387,
+        "topic_id": 2647,
+        "message_id": 2709,
+        "caption": "62. NERVE SUPPLY VOCAL CPRD AND PALSY.mp4",
+        "filename": "NERVE SUPPLY VOCAL CPRD AND PALSY.mp4"
+      },
+      {
+        "channel_name": "Marrow Channel",
+        "chat_id": -1003659432109,
+        "message_id": 290,
+        "caption": "62. NERVE SUPPLY VOCAL CPRD AND PALSY Yw.mp4",
+        "filename": "62. NERVE SUPPLY VOCAL CPRD AND PALSY Yw.mp4"
+      }
+    ]
+  },
+  {
+    "lecture_no": 63,
+    "title": "63. Carcinoma of Larynx",
+    "duration_seconds": 5347,
+    "duration_formatted": "1h 29m 07s",
+    "file_size": 1085049087,
+    "document_id": "6158726534002641981",
+    "missing_in_my_marrow": false,
+    "primary_source": {
+      "chat_id": -1003264222864,
+      "message_id": 208,
+      "caption": "63. carcinoma larynx",
+      "filename": "1771g5a.mp4"
+    },
+    "corroboration": [
+      {
+        "channel_name": "Subjectwise Lectures Topic 3102",
+        "chat_id": -1003506593387,
+        "topic_id": 3102,
+        "message_id": 3165,
+        "caption": "63. carcinoma larynx",
+        "filename": "1771g5a.mp4"
+      },
+      {
+        "channel_name": "Subjectwise Lectures Topic 2647",
+        "chat_id": -1003506593387,
+        "topic_id": 2647,
+        "message_id": 2710,
+        "caption": "63. carcinoma larynx",
+        "filename": "1771g5a.mp4"
+      },
+      {
+        "channel_name": "Marrow Channel",
+        "chat_id": -1003659432109,
+        "message_id": 291,
+        "caption": "63 Yw. carcinoma larynx",
+        "filename": "63 Yw. carcinoma larynx"
+      }
+    ]
+  },
+  {
+    "lecture_no": 64,
+    "title": "64. Tracheostomy and Foreign Body in Airway",
+    "duration_seconds": 3754,
+    "duration_formatted": "1h 02m 34s",
+    "file_size": 674414034,
+    "document_id": "6161431208052920116",
+    "missing_in_my_marrow": false,
+    "primary_source": {
+      "chat_id": -1003264222864,
+      "message_id": 209,
+      "caption": "64. TRACHEOSTOMY AND FOREIGN BODY.mp4",
+      "filename": "TRACHEOSTOMY AND FOREIGN BODY.mp4"
+    },
+    "corroboration": [
+      {
+        "channel_name": "Subjectwise Lectures Topic 3102",
+        "chat_id": -1003506593387,
+        "topic_id": 3102,
+        "message_id": 3166,
+        "caption": "64. TRACHEOSTOMY AND FOREIGN BODY.mp4",
+        "filename": "TRACHEOSTOMY AND FOREIGN BODY.mp4"
+      },
+      {
+        "channel_name": "Subjectwise Lectures Topic 2647",
+        "chat_id": -1003506593387,
+        "topic_id": 2647,
+        "message_id": 2711,
+        "caption": "64. TRACHEOSTOMY AND FOREIGN BODY.mp4",
+        "filename": "TRACHEOSTOMY AND FOREIGN BODY.mp4"
+      },
+      {
+        "channel_name": "Marrow Channel",
+        "chat_id": -1003659432109,
+        "message_id": 292,
+        "caption": "64. Tracheostomy and Foreign body in airway  Yw.mp4",
+        "filename": "64. Tracheostomy and Foreign body in airway  Yw.mp4"
+      }
+    ]
+  }
+]

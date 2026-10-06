@@ -64,6 +64,7 @@ mobile/android/app/build/
 .stream_cache/
 .scratch_transfer/
 scratch/
+engine/scratch_*
 brain/
 *.session*
 credentials_telegram.json

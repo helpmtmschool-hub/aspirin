@@ -1,57 +1,35 @@
-name: Transfer Lectures from Telegram to SharePoint
+name: Migrate Marrow Ophthalmology & ENT to openmedQ
 
-# Uploads land on the openmedQ commercial tenant (openmedq.sharepoint.com) in
-# Aspirin_LMS/{Marrow_E6|PrepLadder_X|PrepLadder_X_Hinglish|Cerebellum}/{Subject}/.
-# Lectures that already exist on the legacy 5ncjwt tenant are recorded in the manifest for the
-# cloud-to-cloud workflows (migrate_marrow_all.yml, migrate_sharepoint.yml) and NOT re-pulled
-# from Telegram.
-# Upload Sequence (all videos only):
-# 1. Marrow all final years subjects first (except medicine)
-# 2. PrepLadder all final years subjects (except what's already uploaded)
-# 3. Marrow remaining years subjects [never medicine]
-# 4. PrepLadder remaining year subjects
-# The queue in telegram_to_onedrive.py strictly enforces this 4-tier sequence.
+# Migrates the 40 verified Marrow Edition 6 Ophthalmology lectures and
+# 64 verified Marrow Edition 6 ENT lectures directly into openmedQ SharePoint:
+#   - Aspirin_LMS/Marrow_E6/Ophthalmology/
+#   - Aspirin_LMS/Marrow_E6/ENT/
+#
+# Provenance & Recovery:
+# - Ophthalmology: 40 contiguous lectures cross-verified across My Marrow (-1003264222864, topic 211),
+#   Subjectwise (-1003506593387, topic 2741), and Marrow Flat Channel (-1003659432109).
+# - ENT: 64 complete lectures with recovered Lecture 52 ("Adenoid Hypertrophy", 814.7 MB, 3908s)
+#   sourced from Subjectwise (-1003506593387, topic 3102, msg 3154) and corroborated with
+#   Flat Channel msg 280.
+#
+# Execution:
+# Scheduled every 3 hours at minute 17 (35 files/run -> completes all 104 lectures in 3 runs).
 
 on:
+  schedule:
+    # Runs every 3 hours at minute 17 (off-peak minute avoids GitHub top-of-the-hour queue delays)
+    - cron: '17 */3 * * *'
   workflow_dispatch:
     inputs:
-      platform:
-        description: "Select Platform / Curriculum (or 'all')"
-        required: true
-        default: "all"
-        type: choice
-        options:
-          - all
-          - prepx_en
-          - prepx_hi
-          - cerebellum
-          - marrow
       subject:
-        description: "Select Subject to transfer (or 'all')"
+        description: "Select Subject to transfer ('ophthalmology,ent', 'ophthalmology', or 'ent')"
         required: true
-        default: "all"
+        default: "ophthalmology,ent"
         type: choice
         options:
-          - all
-          - medicine
-          - surgery
-          - obg
-          - pediatrics
-          - orthopedics
-          - dermatology
-          - psychiatry
-          - radiology
-          - anesthesia
-          - psm
-          - forensic_medicine
-          - ophthalmology
-          - ent
-          - pathology
-          - pharmacology
-          - microbiology
-          - anatomy
-          - physiology
-          - biochemistry
+          - "ophthalmology,ent"
+          - "ophthalmology"
+          - "ent"
       batch_size:
         description: "Batch limit (number of files to transfer in this run)"
         required: true
@@ -72,7 +50,7 @@ permissions:
 
 jobs:
   transfer:
-    name: Stream Lectures to openmedQ SharePoint
+    name: Stream Ophthalmology & ENT to openmedQ SharePoint
     runs-on: ubuntu-latest
     timeout-minutes: 360 # GitHub maximum job execution time: 6 hours
 
@@ -93,37 +71,25 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: In-Place SharePoint Surgery Rename Fix
-        # Legacy-tenant maintenance: gives the 5ncjwt Marrow Surgery files their verified titles so
-        # the cloud-to-cloud copy that follows lands them named correctly.
+      - name: Execute Marrow Ophthalmology & ENT Transfer
         run: |
-          python engine/rename_sp_surgery.py || true
-        env:
-          ONEDRIVE_CLIENT_ID: ${{ secrets.ONEDRIVE_CLIENT_ID }}
-          ONEDRIVE_REFRESH_TOKEN: ${{ secrets.ONEDRIVE_REFRESH_TOKEN }}
-          ONEDRIVE_TENANT_ID: ${{ secrets.ONEDRIVE_TENANT_ID || '938a1924-0af0-4599-819b-177a1dcf8fd6' }}
-          ONEDRIVE_DRIVE_TARGET: "sites/root/drive"
-
-      - name: Execute Telegram to SharePoint Pipeline
-        run: |
-          PLATFORM="${{ github.event.inputs.platform || 'all' }}"
-          SUBJECT="${{ github.event.inputs.subject || 'all' }}"
+          SUBJECT="${{ github.event.inputs.subject || 'ophthalmology,ent' }}"
           BATCH_SIZE="${{ github.event.inputs.batch_size || '35' }}"
           DRY_RUN_FLAG=""
           if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
             DRY_RUN_FLAG="--dry-run"
           fi
 
-          echo "================================================="
-          echo " Aspirin Pipeline: Telegram -> openmedQ SharePoint"
-          echo " Platform: $PLATFORM"
-          echo " Subject: $SUBJECT"
-          echo " Batch size: $BATCH_SIZE"
-          echo " Videos only: true"
-          echo "================================================="
+          echo "=========================================================="
+          echo " Pipeline: Telegram -> openmedQ SharePoint"
+          echo " Platform: Marrow Edition 6"
+          echo " Subject:  $SUBJECT"
+          echo " Batch limit: $BATCH_SIZE"
+          echo " Destination: Aspirin_LMS/Marrow_E6/{Ophthalmology|ENT}/"
+          echo "=========================================================="
 
           python engine/telegram_to_onedrive.py \
-            --platform "$PLATFORM" \
+            --platform marrow \
             --subject "$SUBJECT" \
             --limit "$BATCH_SIZE" \
             --videos-only \
@@ -132,12 +98,11 @@ jobs:
           TELEGRAM_API_ID: ${{ secrets.TELEGRAM_API_ID }}
           TELEGRAM_API_HASH: ${{ secrets.TELEGRAM_API_HASH }}
           TELEGRAM_SESSION_STRING: ${{ secrets.TELEGRAM_SESSION_STRING }}
-          # Upload destination: the openmedQ commercial tenant.
+          # Upload destination: openmedQ commercial tenant
           NEW_ONEDRIVE_CLIENT_ID: ${{ secrets.NEW_ONEDRIVE_CLIENT_ID }}
           NEW_ONEDRIVE_TENANT_ID: ${{ secrets.NEW_ONEDRIVE_TENANT_ID }}
           NEW_ONEDRIVE_REFRESH_TOKEN: ${{ secrets.NEW_ONEDRIVE_REFRESH_TOKEN }}
-          # Read-only: the legacy tenant is checked so existing lectures are migrated
-          # cloud-to-cloud instead of being downloaded from Telegram a second time.
+          # Read-only check for legacy tenant
           OLD_ONEDRIVE_CLIENT_ID: ${{ secrets.OLD_ONEDRIVE_CLIENT_ID }}
           OLD_ONEDRIVE_TENANT_ID: ${{ secrets.OLD_ONEDRIVE_TENANT_ID }}
           OLD_ONEDRIVE_REFRESH_TOKEN: ${{ secrets.OLD_ONEDRIVE_REFRESH_TOKEN }}
@@ -166,8 +131,7 @@ jobs:
           node engine/sync_catalog.cjs || true
           git add engine/transfer_manifest.json public/transfer_manifest.json public/catalog.json
           if ! git diff --quiet || ! git diff --staged --quiet; then
-            git commit -m "chore: sync transfer manifest + catalog [skip ci]"
+            git commit -m "chore: sync marrow optha & ent manifest + catalog [skip ci]"
             git pull --rebase -X theirs origin main || (git rebase --abort && git pull --no-edit -s recursive -X ours origin main) || true
             git push origin main || true
           fi
-

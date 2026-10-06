@@ -2588,241 +2588,361 @@
         "message_id": 212,
         "title": "1. How to Approach Ophthalmology",
         "raw_filename": "1_watermarked.mp4",
-        "file_size": 154427837
+        "file_size": 154427837,
+        "duration_seconds": 787,
+        "duration_formatted": "13m 07s",
+        "document_id": "5850594121214857568"
       },
       {
         "message_id": 213,
-        "title": "2. Anatomy of Eye , Layers, Str. of Eyeball and Anatomy of Cornea",
+        "title": "2. Anatomy of Eye: Layers, Structure of Eyeball and Cornea",
         "raw_filename": "2_watermarked.mp4",
-        "file_size": 781310815
+        "file_size": 781310815,
+        "duration_seconds": 5527,
+        "duration_formatted": "1h 32m 07s",
+        "document_id": "5850594121214857569"
       },
       {
         "message_id": 214,
-        "title": "3. Anatomy of Eye - Sclera and It's Pathologies, Limbus and Ocular Routes of Drug Administration",
+        "title": "3. Anatomy of Eye: Sclera and Pathologies, Limbus, and Ocular Drug Routes",
         "raw_filename": "3_watermarked.mp4",
-        "file_size": 354207059
+        "file_size": 354207059,
+        "duration_seconds": 2638,
+        "duration_formatted": "43m 58s",
+        "document_id": "5850594121214857570"
       },
       {
         "message_id": 215,
-        "title": "4. Anatomy of Eye - Middle Layer of Eyeball , Horner Syndrome and Accommodation with It's Anomalies",
+        "title": "4. Anatomy of Eye: Middle Layer, Horner Syndrome, and Accommodation",
         "raw_filename": "4_watermarked.mp4",
-        "file_size": 654635990
+        "file_size": 654635990,
+        "duration_seconds": 4158,
+        "duration_formatted": "1h 09m 18s",
+        "document_id": "5850594121214857571"
       },
       {
         "message_id": 216,
-        "title": "5. Anatomy of Eye - Innermost Layer , Blood Supply of Eye and Embryology of Eye",
+        "title": "5. Anatomy of Eye: Innermost Layer, Blood Supply, and Embryology",
         "raw_filename": "5_watermarked.mp4",
-        "file_size": 891536108
+        "file_size": 891536108,
+        "duration_seconds": 5438,
+        "duration_formatted": "1h 30m 38s",
+        "document_id": "5850594121214857572"
       },
       {
         "message_id": 217,
-        "title": "6. Neuro-Ophtha - Visual Pathway and Visual Field Defects",
+        "title": "6. Neuro-Ophthalmology: Visual Pathway and Visual Field Defects",
         "raw_filename": "6_watermarked.mp4",
-        "file_size": 1385072594
+        "file_size": 1385072594,
+        "duration_seconds": 7140,
+        "duration_formatted": "1h 59m 00s",
+        "document_id": "5850594121214857573"
       },
       {
         "message_id": 218,
-        "title": "7. Neuro-Ophtha - Pupillary Reflexes , Light Reflex Pathway and It's Lesions",
+        "title": "7. Neuro-Ophthalmology: Pupillary Reflexes and Light Reflex Pathway Lesions",
         "raw_filename": "7_watermarked.mp4",
-        "file_size": 934161258
+        "file_size": 934161258,
+        "duration_seconds": 4646,
+        "duration_formatted": "1h 17m 26s",
+        "document_id": "5850594121214857574"
       },
       {
         "message_id": 219,
-        "title": "8. Neuro-Ophtha - Optic Atrophy",
+        "title": "8. Neuro-Ophthalmology: Optic Atrophy, Neuritis, and Papilledema",
         "raw_filename": "8_watermarked.mp4",
-        "file_size": 615557415
+        "file_size": 615557415,
+        "duration_seconds": 4468,
+        "duration_formatted": "1h 14m 28s",
+        "document_id": "5850695387953762644"
       },
       {
         "message_id": 220,
-        "title": "9. Neuro-Ophtha - Colour Blindness and Congenital Anomalies",
+        "title": "9. Neuro-Ophthalmology: Color Blindness and Congenital Anomalies",
         "raw_filename": "9_watermarked.mp4",
-        "file_size": 178864128
+        "file_size": 178864128,
+        "duration_seconds": 1353,
+        "duration_formatted": "22m 33s",
+        "document_id": "5850695387953762645"
       },
       {
         "message_id": 221,
-        "title": "10. Squint",
+        "title": "10. Squint: Extraocular Muscles, Binocular Single Vision, and Types",
         "raw_filename": "10_watermarked.mp4",
-        "file_size": 1134671989
+        "file_size": 1134671989,
+        "duration_seconds": 5846,
+        "duration_formatted": "1h 37m 26s",
+        "document_id": "5852947187767448943"
       },
       {
         "message_id": 222,
-        "title": "11. Squint Investigation",
+        "title": "11. Squint: Clinical Investigations",
         "raw_filename": "11_watermarked.mp4",
-        "file_size": 1475612130
+        "file_size": 1475612130,
+        "duration_seconds": 5026,
+        "duration_formatted": "1h 23m 46s",
+        "document_id": "5852947187767448949"
       },
       {
         "message_id": 223,
-        "title": "12. Paralytic Squint",
+        "title": "12. Squint: Paralytic Squint and Gaze Palsy",
         "raw_filename": "12_watermarked.mp4",
-        "file_size": 521617084
+        "file_size": 521617084,
+        "duration_seconds": 4197,
+        "duration_formatted": "1h 09m 57s",
+        "document_id": "5852947187767448940"
       },
       {
         "message_id": 224,
-        "title": "13. Squint Types",
+        "title": "13. Squint: Restrictive, Comitant, and Pseudo-Strabismus",
         "raw_filename": "13_watermarked.mp4",
-        "file_size": 685569544
+        "file_size": 685569544,
+        "duration_seconds": 4518,
+        "duration_formatted": "1h 15m 18s",
+        "document_id": "5852947187767448955"
       },
       {
         "message_id": 225,
-        "title": "14. Lens Anatomy and Metabolism",
+        "title": "14. Lens: Anatomy and Metabolism",
         "raw_filename": "14_watermarked.mp4",
-        "file_size": 339614347
+        "file_size": 339614347,
+        "duration_seconds": 3410,
+        "duration_formatted": "56m 50s",
+        "document_id": "5852947187767448956"
       },
       {
         "message_id": 226,
-        "title": "15. Lens - Acquired Cataract",
+        "title": "15. Lens: Acquired Cataract and Clinical Features",
         "raw_filename": "15_watermarked.mp4",
-        "file_size": 828603720
+        "file_size": 828603720,
+        "duration_seconds": 4799,
+        "duration_formatted": "1h 19m 59s",
+        "document_id": "5852947187767448957"
       },
       {
         "message_id": 227,
-        "title": "16. Lens - Cataract Surgery and It's Complications",
+        "title": "16. Lens: Cataract Surgery and Complications",
         "raw_filename": "16_watermarked.mp4",
-        "file_size": 1111741020
+        "file_size": 1111741020,
+        "duration_seconds": 5392,
+        "duration_formatted": "1h 29m 52s",
+        "document_id": "5852947187767448959"
       },
       {
         "message_id": 228,
-        "title": "17. Lens - Congenital Cataract , Ectopia Lentis",
+        "title": "17. Lens: Congenital Cataract and Ectopia Lentis",
         "raw_filename": "17_watermarked.mp4",
-        "file_size": 400131127
+        "file_size": 400131127,
+        "duration_seconds": 2352,
+        "duration_formatted": "39m 12s",
+        "document_id": "5852947187767448960"
       },
       {
         "message_id": 229,
-        "title": "18. Glaucoma Investigations",
+        "title": "18. Glaucoma: Clinical Investigations",
         "raw_filename": "19_watermarked.mp4",
-        "file_size": 915224646
+        "file_size": 915224646,
+        "duration_seconds": 5996,
+        "duration_formatted": "1h 39m 56s",
+        "document_id": "5852947187767448962"
       },
       {
         "message_id": 230,
-        "title": "19. Glaucoma - Open Angle and Angle Closure",
+        "title": "19. Glaucoma: Open-Angle and Angle-Closure Glaucoma",
         "raw_filename": "20_watermarked.mp4",
-        "file_size": 771808149
+        "file_size": 771808149,
+        "duration_seconds": 5740,
+        "duration_formatted": "1h 35m 40s",
+        "document_id": "5852947187767448963"
       },
       {
         "message_id": 231,
-        "title": "20. Glaucoma - Secondary Glaucoma and Congenital Glaucoma",
+        "title": "20. Glaucoma: Secondary and Congenital Glaucoma",
         "raw_filename": "21_watermarked.mp4",
-        "file_size": 292620817
+        "file_size": 292620817,
+        "duration_seconds": 2076,
+        "duration_formatted": "34m 36s",
+        "document_id": "5852947187767448965"
       },
       {
         "message_id": 232,
-        "title": "21. Optics - Test for Vision and Normal Optics of the Eye",
+        "title": "21. Optics: Tests for Vision and Normal Optics of the Eye",
         "raw_filename": "22_watermarked.mp4",
-        "file_size": 613059076
+        "file_size": 613059076,
+        "duration_seconds": 3064,
+        "duration_formatted": "51m 04s",
+        "document_id": "5852947187767448966"
       },
       {
         "message_id": 233,
-        "title": "22. Optics - Myopia and Hypermetropia",
+        "title": "22. Optics: Myopia and Hypermetropia",
         "raw_filename": "23_watermarked.mp4",
-        "file_size": 612075818
+        "file_size": 612075818,
+        "duration_seconds": 3873,
+        "duration_formatted": "1h 04m 33s",
+        "document_id": "5852947187767448970"
       },
       {
         "message_id": 234,
-        "title": "23. Optics - Astigmatism, Tests for Refraction",
+        "title": "23. Optics: Astigmatism and Tests for Refraction",
         "raw_filename": "24_watermarked.mp4",
-        "file_size": 691481216
+        "file_size": 691481216,
+        "duration_seconds": 4911,
+        "duration_formatted": "1h 21m 51s",
+        "document_id": "5852947187767448972"
       },
       {
         "message_id": 235,
-        "title": "24. Retina - Anatomy and Investigation",
+        "title": "24. Retina: Anatomy and Investigations",
         "raw_filename": "25_watermarked.mp4",
-        "file_size": 1784121091
+        "file_size": 1784121091,
+        "duration_seconds": 5312,
+        "duration_formatted": "1h 28m 32s",
+        "document_id": "5852947187767448974"
       },
       {
         "message_id": 236,
-        "title": "25. Retina - Retinoblastoma and Macular Edema",
+        "title": "25. Retina: Retinoblastoma and Macular Edema",
         "raw_filename": "26_watermarked.mp4",
-        "file_size": 1034641260
+        "file_size": 1034641260,
+        "duration_seconds": 5118,
+        "duration_formatted": "1h 25m 18s",
+        "document_id": "5852947187767448977"
       },
       {
         "message_id": 237,
-        "title": "26. Retina - Dystrophies and Fundus ( Retinitis Pigmentosa Etc )",
+        "title": "26. Retina: Dystrophies and Fundus Changes (Retinitis Pigmentosa)",
         "raw_filename": "27_watermarked.mp4",
-        "file_size": 677518497
+        "file_size": 677518497,
+        "duration_seconds": 2785,
+        "duration_formatted": "46m 25s",
+        "document_id": "5852947187767448979"
       },
       {
         "message_id": 238,
-        "title": "27. Retina - Vascular Disorders - Part 1 - Diabetic Retinopathy and Vitreous Hmg",
+        "title": "27. Retina: Vascular Disorders Part 1 (Diabetic Retinopathy)",
         "raw_filename": "28_watermarked.mp4",
-        "file_size": 912663633
+        "file_size": 912663633,
+        "duration_seconds": 3489,
+        "duration_formatted": "58m 09s",
+        "document_id": "5852947187767448980"
       },
       {
         "message_id": 239,
-        "title": "28. Retina - Vascular Disease Part 2 - Htn Retinopathy, Crao , Crvo and Rop",
+        "title": "28. Retina: Vascular Disorders Part 2 (Hypertensive Retinopathy and CRAO)",
         "raw_filename": "29_watermarked.mp4",
-        "file_size": 745581693
+        "file_size": 745581693,
+        "duration_seconds": 3619,
+        "duration_formatted": "1h 00m 19s",
+        "document_id": "5852947187767448981"
       },
       {
         "message_id": 240,
-        "title": "29. Retinal Detachment",
+        "title": "29. Retina: Retinal Detachment",
         "raw_filename": "30_watermarked.mp4",
-        "file_size": 543681311
+        "file_size": 543681311,
+        "duration_seconds": 2119,
+        "duration_formatted": "35m 19s",
+        "document_id": "5852947187767448982"
       },
       {
         "message_id": 241,
-        "title": "30. Cornea - Special Investigation",
+        "title": "30. Cornea: Special Investigations",
         "raw_filename": "31_watermarked.mp4",
-        "file_size": 315999216
+        "file_size": 315999216,
+        "duration_seconds": 2082,
+        "duration_formatted": "34m 42s",
+        "document_id": "5852947187767448983"
       },
       {
         "message_id": 242,
-        "title": "31. Cornea-Corneal Ulcer/Keratitis",
+        "title": "31. Cornea: Corneal Ulcers and Keratitis",
         "raw_filename": "32_watermarked.mp4",
-        "file_size": 512791507
+        "file_size": 512791507,
+        "duration_seconds": 4010,
+        "duration_formatted": "1h 06m 50s",
+        "document_id": "5852947187767448984"
       },
       {
         "message_id": 243,
-        "title": "32. Cornea - Corneal Dystrophies, Keratoconus and Miscellaneous",
+        "title": "32. Cornea: Corneal Dystrophies, Keratoconus, and Miscellaneous",
         "raw_filename": "33_watermarked.mp4",
-        "file_size": 392558771
+        "file_size": 392558771,
+        "duration_seconds": 2682,
+        "duration_formatted": "44m 42s",
+        "document_id": "5852947187767448995"
       },
       {
         "message_id": 244,
-        "title": "33. Uvea - Anterior Uveitis",
+        "title": "33. Uvea: Anterior Uveitis",
         "raw_filename": "34_watermarked.mp4",
-        "file_size": 502070351
+        "file_size": 502070351,
+        "duration_seconds": 4656,
+        "duration_formatted": "1h 17m 36s",
+        "document_id": "5852947187767448997"
       },
       {
         "message_id": 245,
-        "title": "34. Uvea Intermediate, Posterior, Pan-Uveitis and Miscellaneous",
+        "title": "34. Uvea: Intermediate, Posterior, and Panuveitis",
         "raw_filename": "35_watermarked.mp4",
-        "file_size": 258126348
+        "file_size": 258126348,
+        "duration_seconds": 2524,
+        "duration_formatted": "42m 04s",
+        "document_id": "5852947187767449000"
       },
       {
         "message_id": 246,
-        "title": "35. Conjunctiva - Anatomy, Types of Conjunctivitis, Pterygium",
+        "title": "35. Conjunctiva: Anatomy and Types of Conjunctivitis",
         "raw_filename": "36_watermarked.mp4",
-        "file_size": 533238261
+        "file_size": 533238261,
+        "duration_seconds": 5014,
+        "duration_formatted": "1h 23m 34s",
+        "document_id": "5852947187767449001"
       },
       {
         "message_id": 247,
-        "title": "36. Eyelids - Anatomy and Pathologies",
+        "title": "36. Eyelid: Anatomy and Disorders",
         "raw_filename": "37_watermarked.mp4",
-        "file_size": 557938660
+        "file_size": 557938660,
+        "duration_seconds": 2200,
+        "duration_formatted": "36m 40s",
+        "document_id": "5852947187767449003"
       },
       {
         "message_id": 248,
-        "title": "37. Orbit",
+        "title": "37. Orbit: Clinical Anatomy and Diseases",
         "raw_filename": "38_watermarked.mp4",
-        "file_size": 342263006
+        "file_size": 342263006,
+        "duration_seconds": 1453,
+        "duration_formatted": "24m 13s",
+        "document_id": "5852947187767449005"
       },
       {
         "message_id": 249,
         "title": "38. Ocular Trauma",
         "raw_filename": "39_watermarked.mp4",
-        "file_size": 305677556
+        "file_size": 305677556,
+        "duration_seconds": 2076,
+        "duration_formatted": "34m 36s",
+        "document_id": "5852947187767449007"
       },
       {
         "message_id": 250,
-        "title": "39. Lacrimal Apparatus-Anatomy, Watering Eye and Dry Eye",
+        "title": "39. Lacrimal Apparatus: Anatomy, Watering Eye, and Dacryocystitis",
         "raw_filename": "40_watermarked.mp4",
-        "file_size": 399349569
+        "file_size": 399349569,
+        "duration_seconds": 2425,
+        "duration_formatted": "40m 25s",
+        "document_id": "5852947187767449009"
       },
       {
         "message_id": 251,
         "title": "40. Community Ophthalmology",
         "raw_filename": "41_watermarked.mp4",
-        "file_size": 104233910
+        "file_size": 104233910,
+        "duration_seconds": 784,
+        "duration_formatted": "13m 04s",
+        "document_id": "5852947187767449010"
       }
     ]
   },
@@ -2834,381 +2954,580 @@
     "videos": [
       {
         "message_id": 147,
-        "title": "1. How to Read ENT",
+        "title": "1. How to Prepare ENT Using Edition 6",
         "raw_filename": null,
-        "file_size": 432033493
+        "file_size": 432033493,
+        "duration_seconds": 1717,
+        "duration_formatted": "28m 37s",
+        "document_id": "6143377321614118045"
       },
       {
         "message_id": 148,
-        "title": "2. Basic of Ear",
+        "title": "2. Basics of Ear",
         "raw_filename": null,
-        "file_size": 484936089
+        "file_size": 484936089,
+        "duration_seconds": 2533,
+        "duration_formatted": "42m 13s",
+        "document_id": "6143377321614118046"
       },
       {
         "message_id": 149,
         "title": "3. Clinical Embryology of Inner Ear",
         "raw_filename": null,
-        "file_size": 697187915
+        "file_size": 697187915,
+        "duration_seconds": 4321,
+        "duration_formatted": "1h 12m 01s",
+        "document_id": "6145629121427802903"
       },
       {
         "message_id": 150,
-        "title": "4. Embryo External Ear and Middle Ear",
+        "title": "4. Anatomy of Middle Ear",
         "raw_filename": "CLINICAL EMBRYO EXTERNAL AND MIDDLE BEAR.mp4",
-        "file_size": 388932339
+        "file_size": 388932339,
+        "duration_seconds": 2291,
+        "duration_formatted": "38m 11s",
+        "document_id": "6154212033748274192"
       },
       {
         "message_id": 151,
         "title": "5. Clinical Anatomy of External Ear",
         "raw_filename": null,
-        "file_size": 533390263
+        "file_size": 655847407,
+        "duration_seconds": 3147,
+        "duration_formatted": "52m 27s",
+        "document_id": "6271623752287525236"
       },
       {
         "message_id": 152,
-        "title": "6. Clinical Anatomy of Middle Ear 1",
+        "title": "6. Physiology of Hearing",
         "raw_filename": null,
-        "file_size": 712185658
+        "file_size": 712185658,
+        "duration_seconds": 3947,
+        "duration_formatted": "1h 05m 47s",
+        "document_id": "6145629121427802906"
       },
       {
         "message_id": 153,
-        "title": "7. Clinical Anatomy of Middle Ear 2",
+        "title": "7. Clinical Anatomy of Inner Ear Part 1",
         "raw_filename": "clinical anatomy of middle ear 2.mp4",
-        "file_size": 716455241
+        "file_size": 716455241,
+        "duration_seconds": 4251,
+        "duration_formatted": "1h 10m 51s",
+        "document_id": "6145629121427802975"
       },
       {
         "message_id": 154,
-        "title": "8. Clinical Antomy of Inner Ear",
+        "title": "8. Clinical Anatomy of Inner Ear Part 2",
         "raw_filename": "clinical aNatomy of inner ear.mp4",
-        "file_size": 419401300
+        "file_size": 419401300,
+        "duration_seconds": 2791,
+        "duration_formatted": "46m 31s",
+        "document_id": "6145629121427802970"
       },
       {
         "message_id": 155,
         "title": "9. Nerve Supply of Ear",
         "raw_filename": "nerve supply of ear.mp4",
-        "file_size": 357247469
+        "file_size": 357247469,
+        "duration_seconds": 1924,
+        "duration_formatted": "32m 04s",
+        "document_id": "6145629121427802972"
       },
       {
         "message_id": 156,
-        "title": "10. Tuning Fork",
+        "title": "10. Tuning Fork Tests",
         "raw_filename": "tuning fork.mp4",
-        "file_size": 702704635
+        "file_size": 702704635,
+        "duration_seconds": 4580,
+        "duration_formatted": "1h 16m 20s",
+        "document_id": "6138453240393502386"
       },
       {
         "message_id": 157,
-        "title": "11. Pta",
+        "title": "11. Pure Tone Audiometry (PTA)",
         "raw_filename": "pta.mp4",
-        "file_size": 638629111
+        "file_size": 638629111,
+        "duration_seconds": 4443,
+        "duration_formatted": "1h 14m 03s",
+        "document_id": "6138453240393502388"
       },
       {
         "message_id": 158,
-        "title": "12. Audiology Part 3",
+        "title": "12. Audiology Part 3 (Impedance Audiometry and OAE)",
         "raw_filename": "audiology part 3.mp4",
-        "file_size": 620114268
+        "file_size": 620114268,
+        "duration_seconds": 3418,
+        "duration_formatted": "56m 58s",
+        "document_id": "6138453240393502387"
       },
       {
         "message_id": 159,
-        "title": "13. Part 4 Audiology Bera",
+        "title": "13. Audiology Part 4: BERA and ASSR",
         "raw_filename": "part 4 audiology bera.mp4",
-        "file_size": 686149790
+        "file_size": 686149790,
+        "duration_seconds": 3584,
+        "duration_formatted": "59m 44s",
+        "document_id": "6138453240393502385"
       },
       {
         "message_id": 160,
         "title": "14. Vestibular Physiology",
         "raw_filename": "vestibular physiology.mp4",
-        "file_size": 522908906
+        "file_size": 522908906,
+        "duration_seconds": 2662,
+        "duration_formatted": "44m 22s",
+        "document_id": "6138453240393502384"
       },
       {
         "message_id": 161,
-        "title": "15. Vertigo and Vestibualr Function",
+        "title": "15. Vertigo and Vestibular Function Tests",
         "raw_filename": "vertigo and vestibualr function.mp4",
-        "file_size": 1040320064
+        "file_size": 1040320064,
+        "duration_seconds": 5941,
+        "duration_formatted": "1h 39m 01s",
+        "document_id": "6138453240393502380"
       },
       {
         "message_id": 162,
-        "title": "16. Disease of Pinna",
+        "title": "16. Diseases of Pinna",
         "raw_filename": "disease of pinna.mp4",
-        "file_size": 211197725
+        "file_size": 211197725,
+        "duration_seconds": 1478,
+        "duration_formatted": "24m 38s",
+        "document_id": "6138453240393502383"
       },
       {
         "message_id": 163,
-        "title": "17. Disease of Eac",
+        "title": "17. Diseases of External Auditory Canal (EAC)",
         "raw_filename": "disease of eac.mp4",
-        "file_size": 414162605
+        "file_size": 414162605,
+        "duration_seconds": 2563,
+        "duration_formatted": "42m 43s",
+        "document_id": "6138453240393502378"
       },
       {
         "message_id": 164,
-        "title": "18. Condition of Tm",
+        "title": "18. Conditions of Tympanic Membrane",
         "raw_filename": "condition of tm.mp4",
-        "file_size": 222208660
+        "file_size": 222208660,
+        "duration_seconds": 1666,
+        "duration_formatted": "27m 46s",
+        "document_id": "6138453240393502377"
       },
       {
         "message_id": 165,
-        "title": "19. Aom",
+        "title": "19. Acute Otitis Media (AOM)",
         "raw_filename": "AOM.mp4",
-        "file_size": 290605226
+        "file_size": 290605226,
+        "duration_seconds": 2010,
+        "duration_formatted": "33m 30s",
+        "document_id": "6138453240393502376"
       },
       {
         "message_id": 166,
-        "title": "20. Serous Otitis Media",
+        "title": "20. Serous Otitis Media (OME / Glue Ear)",
         "raw_filename": "serous otitis media.mp4",
-        "file_size": 663173915
+        "file_size": 663173915,
+        "duration_seconds": 3814,
+        "duration_formatted": "1h 03m 34s",
+        "document_id": "6138453240393502373"
       },
       {
         "message_id": 167,
-        "title": "21. Cmom",
+        "title": "21. Chronic Mucosal Otitis Media (CMOM)",
         "raw_filename": "cmos.mp4",
-        "file_size": 593678605
+        "file_size": 593678605,
+        "duration_seconds": 3943,
+        "duration_formatted": "1h 05m 43s",
+        "document_id": "6138453240393502370"
       },
       {
         "message_id": 168,
-        "title": "22. Csom",
+        "title": "22. Chronic Suppurative Otitis Media (CSOM) and Cholesteatoma",
         "raw_filename": "CSOM.mp4",
-        "file_size": 1394771471
+        "file_size": 1394771471,
+        "duration_seconds": 6308,
+        "duration_formatted": "1h 45m 08s",
+        "document_id": "6138453240393502367"
       },
       {
         "message_id": 169,
-        "title": "23. Complication of Om",
+        "title": "23. Complications of Otitis Media",
         "raw_filename": "complication of com.mp4",
-        "file_size": 730060907
+        "file_size": 730060907,
+        "duration_seconds": 3472,
+        "duration_formatted": "57m 52s",
+        "document_id": "6138453240393502363"
       },
       {
         "message_id": 170,
         "title": "24. Otosclerosis",
         "raw_filename": "otosclerosis.mp4",
-        "file_size": 746530197
+        "file_size": 746530197,
+        "duration_seconds": 3647,
+        "duration_formatted": "1h 00m 47s",
+        "document_id": "6138453240393502360"
       },
       {
         "message_id": 171,
-        "title": "25. Meiner's Disease",
+        "title": "25. Meniere's Disease",
         "raw_filename": "meiner's disease.mp4",
-        "file_size": 551062256
+        "file_size": 551062256,
+        "duration_seconds": 3716,
+        "duration_formatted": "1h 01m 56s",
+        "document_id": "6138453240393502357"
       },
       {
         "message_id": 172,
-        "title": "26. Scc Dehiscence",
+        "title": "26. Superior Semicircular Canal Dehiscence",
         "raw_filename": "scc dehiscence.mp4",
-        "file_size": 368677902
+        "file_size": 499845329,
+        "duration_seconds": 2398,
+        "duration_formatted": "39m 58s",
+        "document_id": "6271623752287525245"
       },
       {
         "message_id": 173,
-        "title": "27. Bppv",
+        "title": "27. Benign Paroxysmal Positional Vertigo (BPPV)",
         "raw_filename": "BPPV.mp4",
-        "file_size": 290080206
+        "file_size": 290080206,
+        "duration_seconds": 1630,
+        "duration_formatted": "27m 10s",
+        "document_id": "6138453240393502394"
       },
       {
         "message_id": 174,
-        "title": "28. Vestibular Neruitis",
+        "title": "28. Vestibular Neuritis",
         "raw_filename": "vestibular neruitis.mp4",
-        "file_size": 215659359
+        "file_size": 215659359,
+        "duration_seconds": 1233,
+        "duration_formatted": "20m 33s",
+        "document_id": "6138453240393502353"
       },
       {
         "message_id": 175,
-        "title": "29. Snhl and Other",
+        "title": "29. Sudden Sensorineural Hearing Loss (SNHL) and Other Conditions",
         "raw_filename": "snhl and other.mp4",
-        "file_size": 616366038
+        "file_size": 616366038,
+        "duration_seconds": 4027,
+        "duration_formatted": "1h 07m 07s",
+        "document_id": "6138453240393502392"
       },
       {
         "message_id": 176,
-        "title": "30. Tumor of Middle Ear",
+        "title": "30. Tumors of External and Middle Ear (Glomus Tumor)",
         "raw_filename": "tumor of middle ear.mp4",
-        "file_size": 397598940
+        "file_size": 397598940,
+        "duration_seconds": 2678,
+        "duration_formatted": "44m 38s",
+        "document_id": "6138453240393502393"
       },
       {
         "message_id": 177,
-        "title": "31. Acoustic Neuroma",
+        "title": "31. Acoustic Neuroma (Vestibular Schwannoma)",
         "raw_filename": "acoustic neuroma.mp4",
-        "file_size": 430418602
+        "file_size": 430418602,
+        "duration_seconds": 2891,
+        "duration_formatted": "48m 11s",
+        "document_id": "6138453240393502351"
       },
       {
         "message_id": 178,
-        "title": "32. Facial Nerve 1",
+        "title": "32. Facial Nerve Anatomy and Electrodiagnostic Tests Part 1",
         "raw_filename": "facial nerve 1.mp4",
-        "file_size": 430022875
+        "file_size": 430022875,
+        "duration_seconds": 3075,
+        "duration_formatted": "51m 15s",
+        "document_id": "6138453240393502354"
       },
       {
         "message_id": 179,
-        "title": "33. Facial Nerve Part 2",
+        "title": "33. Facial Nerve Part 2: Bell's Palsy and Other Disorders",
         "raw_filename": "facial nerve part 2.mp4",
-        "file_size": 425908108
+        "file_size": 425908108,
+        "duration_seconds": 2818,
+        "duration_formatted": "46m 58s",
+        "document_id": "6138453240393502356"
       },
       {
         "message_id": 180,
-        "title": "34. Hearing Rehabilitation",
+        "title": "34. Hearing Rehabilitation: Hearing Aids and Cochlear Implants",
         "raw_filename": "hearing rehabilitation.mp4",
-        "file_size": 584753611
+        "file_size": 584753611,
+        "duration_seconds": 2784,
+        "duration_formatted": "46m 24s",
+        "document_id": "6138453240393502362"
       },
       {
         "message_id": 181,
-        "title": "35. Clinical Disease of External Nose and Choanal Atresia",
+        "title": "35. Clinical Diseases of External Nose and Choanal Atresia",
         "raw_filename": "clinical dsz of external nose and choanal atresia.mp4",
-        "file_size": 368614346
+        "file_size": 368614346,
+        "duration_seconds": 2548,
+        "duration_formatted": "42m 28s",
+        "document_id": "6138453240393502364"
       },
       {
         "message_id": 182,
-        "title": "36. Lateral Wall of Nose",
+        "title": "36. Clinical Anatomy of Lateral Wall of Nose",
         "raw_filename": "lateral wall of nose.mp4",
-        "file_size": 860222157
+        "file_size": 860222157,
+        "duration_seconds": 5770,
+        "duration_formatted": "1h 36m 10s",
+        "document_id": "6138453240393502358"
       },
       {
         "message_id": 183,
-        "title": "37. Septum",
+        "title": "37. Clinical Anatomy and Diseases of Nasal Septum",
         "raw_filename": "septum.mp4",
-        "file_size": 700507688
+        "file_size": 700507688,
+        "duration_seconds": 4429,
+        "duration_formatted": "1h 13m 49s",
+        "document_id": "6138453240393502369"
       },
       {
         "message_id": 184,
-        "title": "38. Nerve Supply Nose 1",
+        "title": "38. Nerve Supply of Nose and Related Disorders Part 1",
         "raw_filename": "nerve supply nose 1.mp4",
-        "file_size": 910739014
+        "file_size": 910739014,
+        "duration_seconds": 3586,
+        "duration_formatted": "59m 46s",
+        "document_id": "6138453240393502371"
       },
       {
         "message_id": 185,
-        "title": "39. Nerve Supply of Nose and Diseases 2",
+        "title": "39. Nerve Supply of Nose and Related Disorders Part 2",
         "raw_filename": "nerve supply of nose and diseases 2.mp4",
-        "file_size": 875391467
+        "file_size": 875391467,
+        "duration_seconds": 3783,
+        "duration_formatted": "1h 03m 03s",
+        "document_id": "6138453240393502375"
       },
       {
         "message_id": 186,
-        "title": "40. ENT Part 40",
+        "title": "40. Arterial Supply of Nose and Epistaxis",
         "raw_filename": "40_watermarked.mp4",
-        "file_size": 992201634
+        "file_size": 940232463,
+        "duration_seconds": 4509,
+        "duration_formatted": "1h 15m 09s",
+        "document_id": "6271623752287525268"
       },
       {
         "message_id": 187,
-        "title": "41. Pns",
+        "title": "41. Clinical Anatomy of PNS and Rhinosinusitis",
         "raw_filename": "pns.mp4",
-        "file_size": 787754195
+        "file_size": 787754195,
+        "duration_seconds": 5707,
+        "duration_formatted": "1h 35m 07s",
+        "document_id": "6161431208052920107"
       },
       {
         "message_id": 188,
-        "title": "42. Complication of Sinusitis",
+        "title": "42. Complications of Sinusitis",
         "raw_filename": "COMPLICATION OF SINUSITIS.mp4",
-        "file_size": 244239310
+        "file_size": 244239310,
+        "duration_seconds": 1841,
+        "duration_formatted": "30m 41s",
+        "document_id": "6161431208052920108"
       },
       {
         "message_id": 189,
-        "title": "43. Nasal Polyp",
+        "title": "43. Nasal Polyps (Antrochoanal and Ethmoidal)",
         "raw_filename": "NASAL POLYP.mp4",
-        "file_size": 583294152
+        "file_size": 583294152,
+        "duration_seconds": 4394,
+        "duration_formatted": "1h 13m 14s",
+        "document_id": "6161431208052920402"
       },
       {
         "message_id": 190,
-        "title": "44. Fungal Siusitis",
+        "title": "44. Fungal Sinusitis",
         "raw_filename": "FUNGAL SIUSITIS.mp4",
-        "file_size": 378533887
+        "file_size": 378533887,
+        "duration_seconds": 2861,
+        "duration_formatted": "47m 41s",
+        "document_id": "6161431208052920401"
       },
       {
         "message_id": 191,
-        "title": "45. Athropic Rhinitis and Granulomatous Condition of Nose",
+        "title": "45. Atrophic Rhinitis and Granulomatous Conditions of Nose",
         "raw_filename": "ATHROPIC RHINITIS AND GRANULOMATOUS CONDITION OF NOSE.mp4",
-        "file_size": 736451690
+        "file_size": 736451690,
+        "duration_seconds": 3424,
+        "duration_formatted": "57m 04s",
+        "document_id": "6161431208052920396"
       },
       {
         "message_id": 192,
-        "title": "46. Fracture of Nose and CSF Rhinorrhoea",
+        "title": "46. Fractures of Face and CSF Rhinorrhea",
         "raw_filename": "FRACTURE OF NOSE AND CSF RHINORRHOEA.mp4",
-        "file_size": 479372919
+        "file_size": 479372919,
+        "duration_seconds": 3271,
+        "duration_formatted": "54m 31s",
+        "document_id": "6161431208052920399"
       },
       {
         "message_id": 193,
-        "title": "47. Tumor of Nose and Pns",
+        "title": "47. Tumors of Nose and Paranasal Sinuses",
         "raw_filename": "TUMOR OF NOSE AND PNS.mp4",
-        "file_size": 818884860
+        "file_size": 818884860,
+        "duration_seconds": 3412,
+        "duration_formatted": "56m 52s",
+        "document_id": "6161431208052920395"
       },
       {
         "message_id": 194,
-        "title": "48. Clinical Anatomy of Pharynx 1",
+        "title": "48. Clinical Anatomy of Pharynx Part 1",
         "raw_filename": "CLINICAL ANATOMY OF PHARYNX 1.mp4",
-        "file_size": 527010598
+        "file_size": 527010598,
+        "duration_seconds": 2234,
+        "duration_formatted": "37m 14s",
+        "document_id": "6161431208052920397"
       },
       {
         "message_id": 195,
-        "title": "49. Pharynx 2",
+        "title": "49. Clinical Anatomy of Pharynx Part 2",
         "raw_filename": "PHARYNX 2.mp4",
-        "file_size": 1070873581
+        "file_size": 1070873581,
+        "duration_seconds": 4616,
+        "duration_formatted": "1h 16m 56s",
+        "document_id": "6161431208052920389"
       },
       {
         "message_id": 196,
         "title": "50. Clinical Anatomy of Pharynx Part 3",
         "raw_filename": "CLINICAL ANATOMY OF PHARYNX PART 3.mp4",
-        "file_size": 1635672305
+        "file_size": 1635672305,
+        "duration_seconds": 6811,
+        "duration_formatted": "1h 53m 31s",
+        "document_id": "6161431208052920390"
       },
       {
         "message_id": 197,
-        "title": "51. Pharynx Anatomy 4",
+        "title": "51. Clinical Anatomy of Pharynx Part 4: Retropharyngeal Abscess",
         "raw_filename": "PHARYNX ANATOMY 4.mp4",
-        "file_size": 1133324537
+        "file_size": 1133324537,
+        "duration_seconds": 4621,
+        "duration_formatted": "1h 17m 01s",
+        "document_id": "6161431208052920388"
+      },
+      {
+        "message_id": 3154,
+        "title": "52. Adenoid Hypertrophy",
+        "raw_filename": "IMG_7677.MP4",
+        "file_size": 814683703,
+        "duration_seconds": 3908,
+        "duration_formatted": "1h 05m 08s",
+        "document_id": "6271623752287525271",
+        "chat_id": -1003506593387
       },
       {
         "message_id": 198,
-        "title": "52. Angiofibroma",
+        "title": "53. Juvenile Nasopharyngeal Angiofibroma (JNA)",
         "raw_filename": "ANGIOFIBROMA.mp4",
-        "file_size": 416904679
+        "file_size": 416904679,
+        "duration_seconds": 2166,
+        "duration_formatted": "36m 06s",
+        "document_id": "6161431208052920385"
       },
       {
         "message_id": 199,
-        "title": "53. Nasopharyngeal Carcinoma",
+        "title": "54. Nasopharyngeal Carcinoma",
         "raw_filename": "NASOPHARYNGEAL CARCINOMA.mp4",
-        "file_size": 300835367
+        "file_size": 300835367,
+        "duration_seconds": 1628,
+        "duration_formatted": "27m 08s",
+        "document_id": "6161431208052920383"
       },
       {
         "message_id": 200,
-        "title": "54. Condition of Tonsil and Tonsillectomy",
+        "title": "55. Conditions of Tonsil and Tonsillectomy Part 1",
         "raw_filename": "CONDITION OF TONSIL AND TONSILLECTOMY.mp4",
-        "file_size": 755768252
+        "file_size": 755768252,
+        "duration_seconds": 4181,
+        "duration_formatted": "1h 09m 41s",
+        "document_id": "6161431208052920368"
       },
       {
         "message_id": 201,
-        "title": "55. Condition of Tonsil Part 2",
+        "title": "56. Conditions of Tonsil Part 2",
         "raw_filename": "CONDITION OF TONSIL PART 2.mp4",
-        "file_size": 591139034
+        "file_size": 591139034,
+        "duration_seconds": 3319,
+        "duration_formatted": "55m 19s",
+        "document_id": "6161431208052920365"
       },
       {
         "message_id": 202,
-        "title": "56. Clinical Anatomy Larygnx Part 1",
+        "title": "57. Clinical Anatomy of Larynx Part 1",
         "raw_filename": "CLINICAL ANATOMY LARYGNX PART 1.mp4",
-        "file_size": 825953963
+        "file_size": 825953963,
+        "duration_seconds": 4514,
+        "duration_formatted": "1h 15m 14s",
+        "document_id": "6161431208052920363"
       },
       {
         "message_id": 203,
-        "title": "57. Clinical Anatomy Larny Part 2",
+        "title": "58. Clinical Anatomy of Larynx Part 2",
         "raw_filename": "CLINICAL ANATOMY LARNY PART 2.mp4",
-        "file_size": 642270601
+        "file_size": 642270601,
+        "duration_seconds": 3942,
+        "duration_formatted": "1h 05m 42s",
+        "document_id": "6161431208052920364"
       },
       {
         "message_id": 204,
-        "title": "58. Larynx Infection",
+        "title": "59. Larynx Infections (Acute and Chronic Laryngitis)",
         "raw_filename": null,
-        "file_size": 608172931
+        "file_size": 608586248,
+        "duration_seconds": 2838,
+        "duration_formatted": "47m 18s",
+        "document_id": "6161431208052920327"
       },
       {
         "message_id": 205,
-        "title": "59. Congenital Larynx",
+        "title": "60. Congenital Anomalies of Larynx (Laryngomalacia)",
         "raw_filename": "CONGENITAL LARYNX.mp4",
-        "file_size": 480269960
+        "file_size": 480269960,
+        "duration_seconds": 2675,
+        "duration_formatted": "44m 35s",
+        "document_id": "6161431208052920416"
       },
       {
         "message_id": 206,
-        "title": "60. Voice Disorder",
+        "title": "61. Voice Disorders and Benign Lesions of Vocal Cords",
         "raw_filename": "VOICE DISORDER.mp4",
-        "file_size": 637860253
+        "file_size": 637860253,
+        "duration_seconds": 3623,
+        "duration_formatted": "1h 00m 23s",
+        "document_id": "6161431208052920118"
       },
       {
         "message_id": 207,
-        "title": "61. Nerve Supply Vocal Cprd and Palsy",
+        "title": "62. Nerve Supply of Vocal Cords and Vocal Cord Palsy",
         "raw_filename": "NERVE SUPPLY VOCAL CPRD AND PALSY.mp4",
-        "file_size": 724633773
+        "file_size": 724633773,
+        "duration_seconds": 3652,
+        "duration_formatted": "1h 00m 52s",
+        "document_id": "6161431208052920117"
       },
       {
         "message_id": 208,
-        "title": "62. Carcinoma Larynx",
+        "title": "63. Carcinoma of Larynx",
         "raw_filename": "1771g5a.mp4",
-        "file_size": 1085049087
+        "file_size": 1085049087,
+        "duration_seconds": 5347,
+        "duration_formatted": "1h 29m 07s",
+        "document_id": "6158726534002641981"
       },
       {
         "message_id": 209,
-        "title": "63. Tracheostomy and Foreign Body",
+        "title": "64. Tracheostomy and Foreign Body in Airway",
         "raw_filename": "TRACHEOSTOMY AND FOREIGN BODY.mp4",
-        "file_size": 674414034
+        "file_size": 674414034,
+        "duration_seconds": 3754,
+        "duration_formatted": "1h 02m 34s",
+        "document_id": "6161431208052920116"
       }
     ]
   }

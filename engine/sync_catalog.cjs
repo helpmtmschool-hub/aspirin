@@ -65,59 +65,99 @@ function formatLectureTitle(rawTitle, subjectName, subjectId) {
   return toTitleCase(t);
 }
 
+// A manifest row lives on exactly one tenant: web_url is authoritative, then the program folder the
+// migration scripts write into. Everything else is assumed to still be on the legacy tenant.
+function preferredTenantKey(item) {
+  const url = String(item.web_url || '').toLowerCase();
+  if (url.includes('openmedq')) return 'openmedq';
+  if (url.includes('5ncjwt')) return 'legacy';
+  const remotePath = String(item.onedrive_path || '');
+  return /^\/Aspirin_LMS\/(PrepLadder_X|PrepLadder_X_Hinglish|Marrow_E6|Cerebellum|Legacy_Catalog)\//.test(remotePath)
+    ? 'openmedq'
+    : 'legacy';
+}
+
 async function syncCatalog() {
   const rootDir = path.resolve(__dirname, '..');
-  const tokenFile = path.resolve(rootDir, 'onedrive_token.json');
 
-  // Support both local (token file) and CI (env vars) environments
-  let accessToken = '';
-  let refreshToken = '';
-  const clientId = process.env.ONEDRIVE_CLIENT_ID || 'ba92c830-fac7-4d60-a0ff-8bf0b581a4c4';
-  const clientSecret = process.env.ONEDRIVE_CLIENT_SECRET || '';
-  const tenantId = process.env.ONEDRIVE_TENANT_ID || '938a1924-0af0-4599-819b-177a1dcf8fd6';
+  // Content is moving from 5ncjwt to openmedQ, and a Graph item id only resolves in the tenant that
+  // issued it, so metadata lookups need a token per tenant and pick one per manifest row.
+  // Prefixes are NEW_/OLD_ on purpose: the CI 'ONEDRIVE_*' secrets are the legacy tenant while the
+  // local .env 'ONEDRIVE_*' keys are openmedQ. Both Entra apps are public clients, so no secret.
+  const tenants = [
+    {
+      key: 'legacy', label: '5ncjwt', envPrefix: 'OLD_ONEDRIVE',
+      tokenFiles: ['onedrive_token_old.json', 'onedrive_token.json'],
+      clientId: 'ba92c830-fac7-4d60-a0ff-8bf0b581a4c4',
+      tenantId: '938a1924-0af0-4599-819b-177a1dcf8fd6',
+    },
+    {
+      key: 'openmedq', label: 'openmedQ', envPrefix: 'NEW_ONEDRIVE',
+      tokenFiles: ['onedrive_token_new.json'],
+      clientId: '054e8da3-e1e0-4274-b8a9-2bb6f71ef8f8',
+      tenantId: '9903c5d7-b085-4596-9ee6-98f39ddba128',
+    },
+  ];
 
-  if (fs.existsSync(tokenFile)) {
-    const raw = JSON.parse(fs.readFileSync(tokenFile, 'utf8'));
-    accessToken = raw.access_token || '';
-    refreshToken = raw.refresh_token || '';
-  } else if (process.env.ONEDRIVE_REFRESH_TOKEN) {
-    refreshToken = process.env.ONEDRIVE_REFRESH_TOKEN;
-    console.log('Using ONEDRIVE_REFRESH_TOKEN from environment (CI mode).');
-  } else {
-    console.warn('No token file or ONEDRIVE_REFRESH_TOKEN found. Skipping Graph API metadata fetch.');
-  }
+  // 1. Refresh one Microsoft Graph token per tenant (env vars in CI, token files locally)
+  for (const tenant of tenants) {
+    const clientId = process.env[`${tenant.envPrefix}_CLIENT_ID`] || tenant.clientId;
+    const tenantId = process.env[`${tenant.envPrefix}_TENANT_ID`] || tenant.tenantId;
 
-  // 1. Refresh Microsoft Graph token if needed
-  if (refreshToken) {
+    let accessToken = '';
+    let refreshToken = process.env[`${tenant.envPrefix}_REFRESH_TOKEN`] || '';
+    let tokenFile = null;
+    if (!refreshToken) {
+      tokenFile = tenant.tokenFiles.map((f) => path.resolve(rootDir, f)).find((f) => fs.existsSync(f));
+      if (tokenFile) {
+        try {
+          const raw = JSON.parse(fs.readFileSync(tokenFile, 'utf8'));
+          accessToken = raw.access_token || '';
+          refreshToken = raw.refresh_token || '';
+        } catch (err) {
+          console.warn(`[${tenant.label}] unreadable ${path.basename(tokenFile)}: ${err.message}`);
+        }
+      }
+    }
+    if (!refreshToken) {
+      tenant.accessToken = null;
+      continue;
+    }
+
     try {
-      const body = {
-        client_id: clientId,
-        grant_type: 'refresh_token',
-        refresh_token: refreshToken,
-      };
-      if (clientSecret) body.client_secret = clientSecret;
-
       const refreshRes = await fetch(`https://login.microsoftonline.com/${tenantId}/oauth2/v2.0/token`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-        body: new URLSearchParams(body),
+        body: new URLSearchParams({ client_id: clientId, grant_type: 'refresh_token', refresh_token: refreshToken }),
       });
-
-      if (refreshRes.ok) {
-        const data = await refreshRes.json();
-        accessToken = data.access_token;
-        // Save updated tokens back to local file if it exists
-        if (fs.existsSync(tokenFile)) {
-          const raw = JSON.parse(fs.readFileSync(tokenFile, 'utf8'));
-          raw.access_token = data.access_token;
-          if (data.refresh_token) raw.refresh_token = data.refresh_token;
-          fs.writeFileSync(tokenFile, JSON.stringify(raw, null, 2));
-        }
+      if (!refreshRes.ok) {
+        console.warn(`[${tenant.label}] token refresh failed (${refreshRes.status}); skipping this tenant.`);
+        tenant.accessToken = null;
+        continue;
+      }
+      const data = await refreshRes.json();
+      accessToken = data.access_token;
+      if (tokenFile) {
+        const raw = JSON.parse(fs.readFileSync(tokenFile, 'utf8'));
+        raw.access_token = data.access_token;
+        if (data.refresh_token) raw.refresh_token = data.refresh_token;
+        fs.writeFileSync(tokenFile, JSON.stringify(raw, null, 2));
       }
     } catch (err) {
-      console.warn('Token refresh warning:', err.message);
+      console.warn(`[${tenant.label}] token refresh warning:`, err.message);
+      accessToken = null;
     }
+    tenant.accessToken = accessToken;
   }
+
+  const available = tenants.filter((t) => t.accessToken);
+  if (available.length === 0) {
+    console.warn('No SharePoint tenant is reachable. Skipping Graph API metadata fetch.');
+  }
+  const orderFor = (item) => {
+    const hint = preferredTenantKey(item);
+    return [...available.filter((t) => t.key === hint), ...available.filter((t) => t.key !== hint)];
+  };
 
   // 2. Read manifest
   const manifestPath = path.resolve(rootDir, 'engine/transfer_manifest.json');
@@ -130,36 +170,39 @@ async function syncCatalog() {
 
   // 3. Fetch missing duration metadata from Microsoft Graph
   const pendingMeta = completed.filter(([k, v]) => !v.duration_seconds || v.duration_seconds === 0);
-  if (pendingMeta.length > 0) {
-    console.log(`Fetching metadata for ${pendingMeta.length} items from Microsoft Graph...`);
+  if (pendingMeta.length > 0 && available.length > 0) {
+    console.log(`Fetching metadata for ${pendingMeta.length} items from ${available.map((t) => t.label).join(' + ')}...`);
     const chunk = 5;
     for (let i = 0; i < pendingMeta.length; i += chunk) {
       const slice = pendingMeta.slice(i, i + chunk);
       await Promise.all(
         slice.map(async ([key, item]) => {
-          try {
-            const res = await fetch(
-              `https://graph.microsoft.com/v1.0/sites/root/drive/items/${item.onedrive_item_id}?$select=id,name,video,size`,
-              { headers: { Authorization: `Bearer ${accessToken}` } }
-            );
-            if (!res.ok) return;
-            const data = await res.json();
-            if (data.video && data.video.duration) {
-              const sec = Math.round(data.video.duration / 1000);
-              const m = Math.floor(sec / 60);
-              const s = sec % 60;
-              const formatted = m > 60
-                ? `${Math.floor(m / 60)}h ${m % 60}m`
-                : `${m}m ${s > 0 ? s + 's' : ''}`.trim();
+          for (const tenant of orderFor(item)) {
+            try {
+              const res = await fetch(
+                `https://graph.microsoft.com/v1.0/sites/root/drive/items/${item.onedrive_item_id}?$select=id,name,video,size`,
+                { headers: { Authorization: `Bearer ${tenant.accessToken}` } }
+              );
+              if (!res.ok) continue;  // wrong tenant: a Graph id never resolves outside its own tenant
+              const data = await res.json();
+              if (data.video && data.video.duration) {
+                const sec = Math.round(data.video.duration / 1000);
+                const m = Math.floor(sec / 60);
+                const s = sec % 60;
+                const formatted = m > 60
+                  ? `${Math.floor(m / 60)}h ${m % 60}m`
+                  : `${m}m ${s > 0 ? s + 's' : ''}`.trim();
 
-              item.duration_seconds = sec;
-              item.duration_formatted = formatted;
-              if (data.video.width && data.video.height) {
-                item.resolution = `${data.video.width}x${data.video.height}`;
+                item.duration_seconds = sec;
+                item.duration_formatted = formatted;
+                if (data.video.width && data.video.height) {
+                  item.resolution = `${data.video.width}x${data.video.height}`;
+                }
               }
+              break;
+            } catch (e) {
+              console.error(`Error fetching meta for ${item.filename} on ${tenant.label}:`, e.message);
             }
-          } catch (e) {
-            console.error(`Error fetching meta for ${item.filename}:`, e.message);
           }
         })
       );

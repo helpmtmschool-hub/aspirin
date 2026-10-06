@@ -794,7 +794,7 @@ export const VideoPlayer: React.FC<VideoPlayerProps> = ({
             poster={posterUrl}
             autoPlay
             playsInline
-            preload="auto"
+            preload="metadata"
             crossOrigin="anonymous"
             style={isWhiteboardDark ? { filter: 'invert(0.92) hue-rotate(180deg) contrast(1.08)' } : undefined}
             onLoadStart={() => setIsLoading(true)}

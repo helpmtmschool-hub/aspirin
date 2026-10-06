@@ -1,7 +1,11 @@
 """
-Yui - Cloud Pipeline: Telegram to Microsoft OneDrive Migration Engine
-Transfers 4,000+ medical lecture videos and clinical notes directly from
-the 'Prep X + Cerebellum' Telegram channel (-1003709841202) into your 25 TB SharePoint drive.
+Yui - Cloud Pipeline: Telegram to SharePoint Migration Engine
+Transfers medical lecture videos from the 'Prep X + Cerebellum' channel (-1003709841202) and the
+Marrow channel (-1003264222864) into the openmedQ commercial tenant (openmedq.sharepoint.com),
+in clean program/subject folders such as Aspirin_LMS/Marrow_E6/OBG.
+
+Lectures that already sit on the legacy 5ncjwt tenant are registered in the manifest for the
+cloud-to-cloud workflows instead of being pulled out of Telegram a second time.
 
 Key Features & Ban-Proof Speed Optimizations:
 - 4x Parallel MTProto chunk downloading (exact Telegram Desktop client spec: 4 senders per DC)
@@ -115,6 +119,60 @@ SUBJECT_FOLDER_MAP = {
     "dermatology": "19_Dermatology",
     "notes_pdf": "00_Notes_PDF",
 }
+
+# openmedQ (destination tenant) and 5ncjwt (legacy tenant being drained). The ids match the ones
+# engine/migrate_marrow_all.py and the Pages worker use.
+NEW_TENANT_CLIENT_ID = "054e8da3-e1e0-4274-b8a9-2bb6f71ef8f8"
+NEW_TENANT_ID = "9903c5d7-b085-4596-9ee6-98f39ddba128"
+OLD_TENANT_CLIENT_ID = "ba92c830-fac7-4d60-a0ff-8bf0b581a4c4"
+OLD_TENANT_ID = "938a1924-0af0-4599-819b-177a1dcf8fd6"
+
+# Folder names already established on openmedQ. Marrow_E6 must keep the exact names
+# migrate_marrow_all.py writes, or the same subject lands in two folders.
+NEW_TENANT_PLATFORM_FOLDER_MAP = {
+    "prepx_en": "PrepLadder_X",
+    "prepx_hi": "PrepLadder_X_Hinglish",
+    "cerebellum": "Cerebellum",
+    "marrow": "Marrow_E6",
+    "legacy": "Legacy_Catalog",
+}
+
+NEW_TENANT_SUBJECT_FOLDER_MAP = {
+    "anatomy": "Anatomy",
+    "physiology": "Physiology",
+    "biochemistry": "Biochemistry",
+    "pathology": "Pathology",
+    "pharmacology": "Pharmacology",
+    "microbiology": "Microbiology",
+    "psm": "Community_Medicine_PSM",
+    "forensic_medicine": "Forensic_Medicine",
+    "ophthalmology": "Ophthalmology",
+    "ent": "ENT",
+    "medicine": "Medicine",
+    "surgery": "Surgery",
+    "obg": "OBG",
+    "pediatrics": "Pediatrics",
+    "psychiatry": "Psychiatry",
+    "orthopedics": "Orthopedics",
+    "anesthesia": "Anesthesia",
+    "radiology": "Radiology",
+    "dermatology": "Dermatology",
+    "notes_pdf": "Notes_PDF",
+}
+
+
+def openmedq_subject_folder(subject_id: str, legacy_subject_folder: str) -> str:
+    """Map a legacy subject folder to its openmedQ name, keeping Cerebellum's faculty suffix.
+
+    '13_Obstetrics_and_Gynecology' -> 'OBG', '03_Biochemistry_Dr_Smily_Pruthi' ->
+    'Biochemistry_Dr_Smily_Pruthi' (two faculties of one subject must not share a folder).
+    """
+    stripped = re.sub(r"^\d+_", "", legacy_subject_folder)
+    legacy_base = re.sub(r"^\d+_", "", SUBJECT_FOLDER_MAP.get(subject_id, ""))
+    mapped = NEW_TENANT_SUBJECT_FOLDER_MAP.get(subject_id)
+    if mapped and legacy_base and stripped.startswith(legacy_base):
+        return mapped + stripped[len(legacy_base):]
+    return stripped
 
 
 def sanitize_filename(filename: str) -> str:
@@ -300,10 +358,14 @@ def get_item_priority(item: Dict[str, Any]) -> tuple:
     # 2. Subject rank (surgery=1, obg=2, pediatrics=3, etc.)
     subj_rank = SUBJECT_CLINICAL_RANK.get(subj, 50)
 
-    # 3. Message sequence
-    msg_id = item.get("message_id", 0)
+    # 3. Message or lecture sequence
+    seq = item.get("message_id", 0)
+    title = item.get("preferred_title") or ""
+    m = re.match(r"^(\d+)\.", title)
+    if m:
+        seq = int(m.group(1))
 
-    return (tier, plat_rank, subj_rank, msg_id)
+    return (tier, plat_rank, subj_rank, seq)
 
 
 class FastTelegramDownloader:
@@ -572,8 +634,10 @@ class OneDriveClient:
 
 
 class LectureTransferEngine:
-    def __init__(self, od_client: Optional[OneDriveClient], dry_run: bool = False, videos_only: bool = True):
+    def __init__(self, od_client: Optional[OneDriveClient], legacy_client: Optional[OneDriveClient],
+                 dry_run: bool = False, videos_only: bool = True):
         self.od_client = od_client
+        self.legacy_client = legacy_client
         self.dry_run = dry_run
         self.videos_only = videos_only
         self.tg_client: Optional[TelegramClient] = None
@@ -642,6 +706,21 @@ class LectureTransferEngine:
         """
         raw_items: List[Dict[str, Any]] = []
 
+        # Parse target subject(s) into normalized set (supports comma-separated: 'ophthalmology,ent')
+        target_subjects = None
+        if target_subject and target_subject.lower() != "all":
+            target_subjects = set()
+            for raw_part in re.split(r"[,|\s]+", target_subject.lower().strip()):
+                s = raw_part.strip()
+                if not s:
+                    continue
+                if s in ("obgyn", "obg"): target_subjects.add("obg")
+                elif s in ("anesthesiology", "anesthesia"): target_subjects.add("anesthesia")
+                elif s in ("fmt", "forensic_medicine"): target_subjects.add("forensic_medicine")
+                elif s in ("optha", "eye", "ophthalmology"): target_subjects.add("ophthalmology")
+                elif s in ("ear", "ent", "otorhinolaryngology"): target_subjects.add("ent")
+                else: target_subjects.add(s)
+
         # 1. Load PrepLadder & Cerebellum sections
         prepx_hi_med_titles = {}
         if PREPX_HI_MEDICINE_TITLES_PATH.exists():
@@ -669,19 +748,8 @@ class LectureTransferEngine:
                     continue
 
                 # Filter by subject
-                if target_subject and target_subject.lower() != "all":
-                    tgt = target_subject.lower().strip()
-                    if tgt in ("obgyn", "obg"):
-                        if norm_subj not in ("obgyn", "obg"):
-                            continue
-                    elif tgt in ("anesthesiology", "anesthesia"):
-                        if norm_subj not in ("anesthesiology", "anesthesia"):
-                            continue
-                    elif tgt in ("fmt", "forensic_medicine"):
-                        if norm_subj not in ("fmt", "forensic_medicine"):
-                            continue
-                    elif tgt != norm_subj.lower():
-                        continue
+                if target_subjects and norm_subj.lower() not in target_subjects:
+                    continue
 
                 platform_folder = PLATFORM_FOLDER_MAP.get(sec_platform, sec_platform)
                 subj_folder = SUBJECT_FOLDER_MAP.get(norm_subj, norm_subj)
@@ -710,6 +778,8 @@ class LectureTransferEngine:
                         "message_id": mid,
                         "platform": sec_platform,
                         "platform_folder": platform_folder,
+                        "dest_platform_folder": NEW_TENANT_PLATFORM_FOLDER_MAP.get(sec_platform, sec_platform),
+                        "dest_subject_folder": openmedq_subject_folder(norm_subj, folder_display),
                         "subject_id": norm_subj,
                         "subject_name": raw_title,
                         "subject_folder": folder_display,
@@ -729,35 +799,27 @@ class LectureTransferEngine:
                     if sec_subj == "medicine":
                         continue
 
-                    if target_subject and target_subject.lower() != "all":
-                        tgt = target_subject.lower().strip()
-                        if tgt in ("obgyn", "obg"):
-                            if sec_subj not in ("obgyn", "obg"):
-                                continue
-                        elif tgt in ("anesthesiology", "anesthesia"):
-                            if sec_subj not in ("anesthesiology", "anesthesia"):
-                                continue
-                        elif tgt in ("fmt", "forensic_medicine"):
-                            if sec_subj not in ("fmt", "forensic_medicine"):
-                                continue
-                        elif tgt != sec_subj.lower():
-                            continue
+                    if target_subjects and sec_subj.lower() not in target_subjects:
+                        continue
 
                     platform_folder = PLATFORM_FOLDER_MAP.get("marrow", "04_Marrow_Edition_6")
                     subj_folder = SUBJECT_FOLDER_MAP.get(sec_subj, sec_subj)
 
                     for vid in sec.get("videos", []):
                         mid = vid["message_id"]
-                        item_id = f"mr_{MARROW_CHANNEL_ID}_{mid}"
+                        cid = vid.get("chat_id", MARROW_CHANNEL_ID)
+                        item_id = f"mr_{cid}_{mid}"
                         if item_id in self.manifest and self.manifest[item_id].get("status") == "completed":
                             continue
 
                         raw_items.append({
                             "id": item_id,
-                            "chat_id": MARROW_CHANNEL_ID,
+                            "chat_id": cid,
                             "message_id": mid,
                             "platform": "marrow",
                             "platform_folder": platform_folder,
+                            "dest_platform_folder": NEW_TENANT_PLATFORM_FOLDER_MAP["marrow"],
+                            "dest_subject_folder": openmedq_subject_folder(sec_subj, subj_folder),
                             "subject_id": sec_subj,
                             "subject_name": f"Marrow {sec['title']}",
                             "subject_folder": subj_folder,
@@ -799,6 +861,8 @@ class LectureTransferEngine:
                         "message_id": topic["message_id"],
                         "platform": "legacy",
                         "platform_folder": "00_Legacy_Catalog",
+                        "dest_platform_folder": NEW_TENANT_PLATFORM_FOLDER_MAP["legacy"],
+                        "dest_subject_folder": openmedq_subject_folder(sub_id, sub["name"]),
                         "subject_id": sub_id,
                         "subject_name": sub["name"],
                         "subject_folder": sub["name"],
@@ -806,13 +870,56 @@ class LectureTransferEngine:
                     })
         return queue
 
+    def _record_existing(self, item: Dict[str, Any], meta: Dict[str, Any], clean_name: str,
+                         clean_title: str, is_pdf: bool, remote_path: str, folder_path: str,
+                         telegram_size: int, on_openmedq: bool):
+        """Record a lecture that is already on a SharePoint tenant so the queue stops revisiting it.
+
+        Rows for legacy-only copies keep the 5ncjwt item id, which is what the cloud-to-cloud
+        workflows read as their transfer source; the site streams them from legacy until then.
+        """
+        video = meta.get("video") or {}
+        duration_sec = round(video["duration"] / 1000) if video.get("duration") else None
+        duration_fmt = None
+        if duration_sec:
+            m = duration_sec // 60
+            s = duration_sec % 60
+            duration_fmt = f"{m // 60}h {m % 60}m" if m > 60 else f"{m}m {s}s" if s > 0 else f"{m}m"
+
+        row = {
+            "title": clean_title,
+            "filename": clean_name,
+            "platform": item["platform"],
+            "subject_id": item["subject_id"],
+            "folder_path": folder_path,
+            "telegram_chat_id": item["chat_id"],
+            "telegram_message_id": item["message_id"],
+            "onedrive_item_id": meta.get("id"),
+            "onedrive_path": f"/{remote_path}",
+            "web_url": meta.get("webUrl"),
+            "size_bytes": meta.get("size") or telegram_size,
+            "duration_seconds": duration_sec,
+            "duration_formatted": duration_fmt,
+            "resolution": f"{video['width']}x{video['height']}" if video.get("width") else None,
+            "thumbnail_url": f"/api/thumbnail/{item['chat_id']}/{item['message_id']}" if not is_pdf else None,
+            "uploaded_at": meta.get("lastModifiedDateTime") or time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
+            "status": "completed",
+        }
+        if on_openmedq:
+            row["openmedq_migrated"] = True
+        self.manifest[item["id"]] = row
+        self._save_manifest()
+
     async def transfer_item(self, item: Dict[str, Any]):
-        """Transfers a single lecture item from Telegram directly into Microsoft SharePoint (25 TB)."""
+        """Transfers a single lecture from Telegram into the openmedQ SharePoint tenant."""
         item_id = item["id"]
         chat_id = item["chat_id"]
         message_id = item["message_id"]
+        # The legacy pair is where a copy may already sit on 5ncjwt; the dest pair is where it lands.
         platform_folder = item.get("platform_folder", "01_PrepLadder_X_English")
         subj_folder = item.get("subject_folder", "01_Anatomy")
+        dest_program = item.get("dest_platform_folder", platform_folder)
+        dest_subject = item.get("dest_subject_folder", subj_folder)
 
         # 1. Fetch Telegram message metadata
         try:
@@ -893,52 +1000,38 @@ class LectureTransferEngine:
         # Ensure strict sequential title formatting: e.g. '1. How to Read Surgery'
         clean_title = normalize_lecture_title(raw_fn, item.get("subject_name", ""), item.get("subject_id", ""))
         clean_name = f"{clean_title}.pdf" if is_pdf else f"{clean_title}.mp4"
-        remote_path = f"Aspirin_LMS/{platform_folder}/{subj_folder}/{clean_name}"
+        remote_path = f"Aspirin_LMS/{dest_program}/{dest_subject}/{clean_name}"
+        legacy_path = f"Aspirin_LMS/{platform_folder}/{subj_folder}/{clean_name}"
+        min_expected_size = 100 * 1024 if is_pdf else 1024 * 1024
 
-        # Fast Remote Check: If file already exists on SharePoint (e.g. from an unmerged run), skip download
+        # Fast check 1: already on openmedQ (e.g. a previous run died before its manifest merged).
         if self.od_client:
             existing_meta = self.od_client.get_file_by_path(remote_path)
-            min_expected_size = 100 * 1024 if is_pdf else 1024 * 1024
             if existing_meta and existing_meta.get("size", 0) > min_expected_size:
                 size_mb = round(existing_meta.get("size", 0) / (1024 * 1024), 2)
-                print(f"  [Found on SharePoint] {clean_name} already exists ({size_mb} MB). Skipping download.")
-                drive_item_id = existing_meta.get("id")
-                web_url = existing_meta.get("webUrl")
-                video_obj = existing_meta.get("video") or {}
-                duration_sec = None
-                duration_fmt = None
-                resolution = None
-                if video_obj.get("duration"):
-                    duration_sec = round(video_obj["duration"] / 1000)
-                    m = duration_sec // 60
-                    s = duration_sec % 60
-                    duration_fmt = f"{m // 60}h {m % 60}m" if m > 60 else f"{m}m {s}s" if s > 0 else f"{m}m"
-                if video_obj.get("width"):
-                    resolution = f"{video_obj['width']}x{video_obj.get('height')}"
-
-                self.manifest[item_id] = {
-                    "title": clean_title,
-                    "filename": clean_name,
-                    "platform": item["platform"],
-                    "subject_id": item["subject_id"],
-                    "folder_path": f"{platform_folder}/{subj_folder}",
-                    "telegram_chat_id": chat_id,
-                    "telegram_message_id": message_id,
-                    "onedrive_item_id": drive_item_id,
-                    "onedrive_path": f"/{remote_path}",
-                    "web_url": web_url,
-                    "size_bytes": existing_meta.get("size", total_size),
-                    "duration_seconds": duration_sec,
-                    "duration_formatted": duration_fmt,
-                    "resolution": resolution,
-                    "thumbnail_url": f"/api/thumbnail/{chat_id}/{message_id}" if not is_pdf else None,
-                    "uploaded_at": existing_meta.get("lastModifiedDateTime") or time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
-                    "status": "completed",
-                }
-                self._save_manifest()
+                print(f"  [Found on openmedQ] {clean_name} already exists ({size_mb} MB). Skipping download.")
+                if not self.dry_run:
+                    self._record_existing(item, existing_meta, clean_name, clean_title, is_pdf,
+                                          remote_path, f"{dest_program}/{dest_subject}", total_size,
+                                          on_openmedq=True)
                 return
 
-        print(f"\n[{'PDF' if is_pdf else 'VIDEO'}] {platform_folder} / {subj_folder} -> {clean_name}")
+        # Fast check 2: a copy is already on the legacy tenant. Streaming 5ncjwt -> openmedQ costs
+        # nothing, while pulling the same bytes out of Telegram again risks a FloodWait ban, so
+        # record the legacy item and let the cloud-to-cloud workflow move it.
+        if self.legacy_client:
+            legacy_meta = self.legacy_client.get_file_by_path(legacy_path)
+            if legacy_meta and legacy_meta.get("size", 0) > min_expected_size:
+                size_mb = round(legacy_meta.get("size", 0) / (1024 * 1024), 2)
+                print(f"  [Found on legacy 5ncjwt] {clean_name} ({size_mb} MB). Registering for "
+                      f"cloud-to-cloud migration instead of re-downloading from Telegram.")
+                if not self.dry_run:
+                    self._record_existing(item, legacy_meta, clean_name, clean_title, is_pdf,
+                                          legacy_path, f"{platform_folder}/{subj_folder}", total_size,
+                                          on_openmedq=False)
+                return
+
+        print(f"\n[{'PDF' if is_pdf else 'VIDEO'}] Telegram -> openmedQ: {dest_program} / {dest_subject} -> {clean_name}")
         print(f"Remote: /{remote_path}")
         print(f"  Size: {round(total_size / (1024 * 1024), 2)} MB")
 
@@ -956,7 +1049,7 @@ class LectureTransferEngine:
             # Step A: Safe 4-worker parallel MTProto download directly to SSD
             await self.downloader.download_file(msg.document, local_temp_file)
 
-            # Step B: Create upload session on 25 TB SharePoint drive
+            # Step B: Create upload session on the openmedQ SharePoint drive
             upload_url = self.od_client.create_upload_session(remote_path)
 
             # Step C: High-speed Azure-to-SharePoint 20 MiB chunk upload
@@ -986,7 +1079,7 @@ class LectureTransferEngine:
             "filename": clean_name,
             "platform": item["platform"],
             "subject_id": item["subject_id"],
-            "folder_path": f"{platform_folder}/{subj_folder}",
+            "folder_path": f"{dest_program}/{dest_subject}",
             "telegram_chat_id": chat_id,
             "telegram_message_id": message_id,
             "onedrive_item_id": drive_item_id,
@@ -999,6 +1092,7 @@ class LectureTransferEngine:
             "thumbnail_url": f"/api/thumbnail/{chat_id}/{message_id}" if not is_pdf else None,
             "uploaded_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
             "status": "completed",
+            "openmedq_migrated": True,
         }
         self._save_manifest()
 
@@ -1006,39 +1100,70 @@ class LectureTransferEngine:
         await asyncio.sleep(2)
 
 
+def build_tenant_client(env_prefix: str, token_files: tuple, client_id: str, tenant_id: str) -> Optional[OneDriveClient]:
+    """Build a client for one SharePoint tenant.
+
+    '<PREFIX>_CLIENT_ID / _TENANT_ID / _REFRESH_TOKEN' win (CI), otherwise the first local token
+    file that exists is used. Returns None when this machine has no credentials for that tenant.
+
+    No client secret is ever sent: both Entra apps are public clients, and pairing one tenant's
+    secret with another's client id fails with AADSTS7000215. Prefixes are NEW_/OLD_ rather than
+    plain 'ONEDRIVE_' because the CI secrets and the local .env disagree on what that means.
+    """
+    refresh_token = os.environ.get(f"{env_prefix}_REFRESH_TOKEN")
+    if not refresh_token:
+        for name in token_files:
+            path = PROJECT_DIR / name
+            if not path.exists():
+                continue
+            try:
+                refresh_token = json.loads(path.read_text(encoding="utf-8")).get("refresh_token")
+            except Exception:
+                refresh_token = None
+            if refresh_token:
+                break
+    if not refresh_token:
+        return None
+    return OneDriveClient(
+        client_id=os.environ.get(f"{env_prefix}_CLIENT_ID") or client_id,
+        client_secret=None,
+        refresh_token=refresh_token,
+        tenant_id=os.environ.get(f"{env_prefix}_TENANT_ID") or tenant_id,
+        drive_target=os.environ.get(f"{env_prefix}_DRIVE_TARGET", "sites/root/drive"),
+    )
+
+
 async def run_pipeline(platform: Optional[str] = None, subject: Optional[str] = None, limit: int = 20, dry_run: bool = False, videos_only: bool = True):
-    od_client = None
-    if not dry_run:
-        client_id = os.environ.get("ONEDRIVE_CLIENT_ID")
-        client_secret = os.environ.get("ONEDRIVE_CLIENT_SECRET")
-        refresh_token = os.environ.get("ONEDRIVE_REFRESH_TOKEN")
-        tenant_id = os.environ.get("ONEDRIVE_TENANT_ID", "common")
-        drive_target = os.environ.get("ONEDRIVE_DRIVE_TARGET", "sites/root/drive")
-
-        if not refresh_token:
-            token_file = PROJECT_DIR / "onedrive_token.json"
-            if token_file.exists():
-                with open(token_file, "r", encoding="utf-8") as f:
-                    td = json.load(f)
-                    refresh_token = td.get("refresh_token")
-
-        if not client_id or not refresh_token:
-            raise ValueError("Missing ONEDRIVE_CLIENT_ID or ONEDRIVE_REFRESH_TOKEN.")
-
-        od_client = OneDriveClient(
-            client_id=client_id,
-            client_secret=client_secret,
-            refresh_token=refresh_token,
-            tenant_id=tenant_id,
-            drive_target=drive_target,
+    # Both clients are built even for a dry run: the existence checks below are read-only.
+    od_client = build_tenant_client("NEW_ONEDRIVE", ("onedrive_token_new.json",), NEW_TENANT_CLIENT_ID, NEW_TENANT_ID)
+    if od_client is None:
+        raise ValueError(
+            "No openmedQ credentials (NEW_ONEDRIVE_REFRESH_TOKEN or onedrive_token_new.json). "
+            "Not falling back to the legacy tenant - it is the source of this migration."
         )
+    try:
+        od_client.get_valid_token()
+    except PermissionError as e:
+        raise ValueError(f"openmedQ token rejected: {e}")
 
-    engine = LectureTransferEngine(od_client, dry_run=dry_run, videos_only=videos_only)
+    legacy_client = build_tenant_client(
+        "OLD_ONEDRIVE", ("onedrive_token_old.json", "onedrive_token.json"), OLD_TENANT_CLIENT_ID, OLD_TENANT_ID
+    )
+    if legacy_client is None:
+        print("[Warning] No 5ncjwt credentials: lectures already on the legacy tenant will be re-downloaded from Telegram.")
+    else:
+        try:
+            legacy_client.get_valid_token()
+        except PermissionError as e:
+            print(f"[Warning] 5ncjwt token rejected ({e}); treating it as empty.")
+            legacy_client = None
+
+    engine = LectureTransferEngine(od_client, legacy_client, dry_run=dry_run, videos_only=videos_only)
     await engine.init_telegram()
 
     queue = engine.load_queue(platform=platform, target_subject=subject)
     print("=" * 65)
-    print(f" Yui Pipeline: Telegram -> 25 TB SharePoint Drive (Fast & Ban-Proof)")
+    print(f" Yui Pipeline: Telegram -> openmedQ SharePoint (Fast & Ban-Proof)")
     print(f" Platform Edition:       {platform or 'ALL'}")
     print(f" Target Subject:         {subject or 'ALL'}")
     print(f" Videos Only Filter:     {videos_only}")
