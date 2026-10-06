@@ -1171,7 +1171,8 @@ async def run_pipeline(platform: Optional[str] = None, subject: Optional[str] = 
     print(f" Target Subject:         {subject or 'ALL'}")
     print(f" Videos Only Filter:     {videos_only}")
     print(f" Total Pending in Queue: {len(queue)}")
-    print(f" Batch Limit for run:    {limit}")
+    items_to_process = queue[:limit] if (limit and limit > 0) else queue
+    print(f" Items to Process:       {len(items_to_process)}")
     if queue:
         first = queue[0]
         print(f" Priority #1 in Queue:   [{first['platform']}] {first['subject_name']} (Msg {first['message_id']})")
@@ -1182,7 +1183,7 @@ async def run_pipeline(platform: Optional[str] = None, subject: Optional[str] = 
     # Safety limit: Gracefully exit 45 mins before GitHub's 6-hour hard runner timeout
     MAX_RUN_SECONDS = 5.25 * 3600  # 5 hours 15 minutes
 
-    for item in queue[:limit]:
+    for item in items_to_process:
         elapsed = time.time() - t_start
         if elapsed > MAX_RUN_SECONDS:
             hrs = round(elapsed / 3600, 2)
@@ -1216,7 +1217,7 @@ def main():
     parser = argparse.ArgumentParser(description="Yui Telegram to 25 TB SharePoint Migration Engine (Fast & Ban-Proof)")
     parser.add_argument("--platform", default=None, help="Platform: 'prepx_en', 'prepx_hi', 'cerebellum', 'marrow', or 'all'")
     parser.add_argument("--subject", default=None, help="Target subject (e.g. 'surgery', 'medicine', or 'all')")
-    parser.add_argument("--limit", type=int, default=35, help="Max items to upload in this run (default: 35)")
+    parser.add_argument("--limit", type=int, default=150, help="Max items to upload in this run (default: 150, 0 = all remaining)")
     parser.add_argument("--dry-run", action="store_true", help="List files without actually uploading")
     parser.add_argument("--videos-only", action="store_true", default=True, help="Only upload video files (default: True)")
 
