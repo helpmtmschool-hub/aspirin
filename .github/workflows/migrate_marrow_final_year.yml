@@ -1,19 +1,18 @@
-name: Migrate Marrow Ophthalmology & ENT to openmedQ
+name: Migrate Marrow Final Year Subjects to openmedQ
 
-# Migrates the 40 verified Marrow Edition 6 Ophthalmology lectures and
-# 64 verified Marrow Edition 6 ENT lectures directly into openmedQ SharePoint:
-#   - Aspirin_LMS/Marrow_E6/Ophthalmology/
-#   - Aspirin_LMS/Marrow_E6/ENT/
+# Migrates all remaining Marrow Edition 6 Final Year lectures into openmedQ SharePoint:
+#   1. Radiology (20 remaining lectures -> Aspirin_LMS/Marrow_E6/Radiology/)
+#   2. Anesthesia (22 remaining lectures -> Aspirin_LMS/Marrow_E6/Anesthesia/)
+#   3. Ophthalmology (40 lectures -> Aspirin_LMS/Marrow_E6/Ophthalmology/)
+#   4. ENT (64 lectures, including recovered Lecture 52 -> Aspirin_LMS/Marrow_E6/ENT/)
 #
-# Provenance & Recovery:
-# - Ophthalmology: 40 contiguous lectures cross-verified across My Marrow (-1003264222864, topic 211),
-#   Subjectwise (-1003506593387, topic 2741), and Marrow Flat Channel (-1003659432109).
-# - ENT: 64 complete lectures with recovered Lecture 52 ("Adenoid Hypertrophy", 814.7 MB, 3908s)
-#   sourced from Subjectwise (-1003506593387, topic 3102, msg 3154) and corroborated with
-#   Flat Channel msg 280.
+# Provenance & Verification:
+# - Radiology & Anesthesia: 100% 1:1 cross-verified with Subjectwise (-1003506593387) and My Marrow (-1003264222864).
+# - Ophthalmology: 40 contiguous canonical lectures verified across 3 channels.
+# - ENT: 64 complete lectures with recovered Lecture 52 ("Adenoid Hypertrophy") sourced from Subjectwise (topic 3102 msg 3154).
 #
 # Execution:
-# Scheduled every 3 hours at minute 17 (35 files/run -> completes all 104 lectures in 3 runs).
+# Scheduled every 3 hours at minute 17 UTC (35 files/run -> completes all 146 lectures in ~5 runs).
 
 on:
   schedule:
@@ -22,12 +21,16 @@ on:
   workflow_dispatch:
     inputs:
       subject:
-        description: "Select Subject to transfer ('ophthalmology,ent', 'ophthalmology', or 'ent')"
+        description: "Select Subject(s) to transfer"
         required: true
-        default: "ophthalmology,ent"
+        default: "final_year"
         type: choice
         options:
+          - "final_year"
+          - "radiology,anesthesia"
           - "ophthalmology,ent"
+          - "radiology"
+          - "anesthesia"
           - "ophthalmology"
           - "ent"
       batch_size:
@@ -50,7 +53,7 @@ permissions:
 
 jobs:
   transfer:
-    name: Stream Ophthalmology & ENT to openmedQ SharePoint
+    name: Stream Final Year Subjects to openmedQ SharePoint
     runs-on: ubuntu-latest
     timeout-minutes: 360 # GitHub maximum job execution time: 6 hours
 
@@ -71,9 +74,9 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Execute Marrow Ophthalmology & ENT Transfer
+      - name: Execute Marrow Final Year Transfer
         run: |
-          SUBJECT="${{ github.event.inputs.subject || 'ophthalmology,ent' }}"
+          SUBJECT="${{ github.event.inputs.subject || 'final_year' }}"
           BATCH_SIZE="${{ github.event.inputs.batch_size || '35' }}"
           DRY_RUN_FLAG=""
           if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
@@ -85,7 +88,7 @@ jobs:
           echo " Platform: Marrow Edition 6"
           echo " Subject:  $SUBJECT"
           echo " Batch limit: $BATCH_SIZE"
-          echo " Destination: Aspirin_LMS/Marrow_E6/{Ophthalmology|ENT}/"
+          echo " Target:   Aspirin_LMS/Marrow_E6/{Subject}/"
           echo "=========================================================="
 
           python engine/telegram_to_onedrive.py \
@@ -131,7 +134,7 @@ jobs:
           node engine/sync_catalog.cjs || true
           git add engine/transfer_manifest.json public/transfer_manifest.json public/catalog.json
           if ! git diff --quiet || ! git diff --staged --quiet; then
-            git commit -m "chore: sync marrow optha & ent manifest + catalog [skip ci]"
+            git commit -m "chore: sync marrow final year manifest + catalog [skip ci]"
             git pull --rebase -X theirs origin main || (git rebase --abort && git pull --no-edit -s recursive -X ours origin main) || true
             git push origin main || true
           fi

@@ -706,7 +706,7 @@ class LectureTransferEngine:
         """
         raw_items: List[Dict[str, Any]] = []
 
-        # Parse target subject(s) into normalized set (supports comma-separated: 'ophthalmology,ent')
+        # Parse target subject(s) into normalized set (supports comma-separated: 'radiology,anesthesia,ophthalmology,ent')
         target_subjects = None
         if target_subject and target_subject.lower() != "all":
             target_subjects = set()
@@ -715,10 +715,13 @@ class LectureTransferEngine:
                 if not s:
                     continue
                 if s in ("obgyn", "obg"): target_subjects.add("obg")
-                elif s in ("anesthesiology", "anesthesia"): target_subjects.add("anesthesia")
+                elif s in ("anesthesiology", "anesthesia", "anaesthesia"): target_subjects.add("anesthesia")
                 elif s in ("fmt", "forensic_medicine"): target_subjects.add("forensic_medicine")
                 elif s in ("optha", "eye", "ophthalmology"): target_subjects.add("ophthalmology")
                 elif s in ("ear", "ent", "otorhinolaryngology"): target_subjects.add("ent")
+                elif s in ("radio", "radiology"): target_subjects.add("radiology")
+                elif s in ("final_year", "final", "all_final"):
+                    target_subjects.update(["radiology", "anesthesia", "ophthalmology", "ent", "surgery", "obg", "pediatrics", "orthopedics", "dermatology", "psychiatry"])
                 else: target_subjects.add(s)
 
         # 1. Load PrepLadder & Cerebellum sections
