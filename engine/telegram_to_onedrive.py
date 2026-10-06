@@ -176,11 +176,19 @@ def openmedq_subject_folder(subject_id: str, legacy_subject_folder: str) -> str:
 
 
 def sanitize_filename(filename: str) -> str:
-    """Removes invalid characters and emojis for OneDrive and cross-platform filesystems."""
-    clean = re.sub(r'[^\x00-\x7F]+', '_', filename)
-    clean = re.sub(r'["*:<>?/\\|#%~]', "_", clean)
-    clean = re.sub(r"\s+", " ", clean).strip()
-    return clean[:120]
+    """Removes invalid characters and emojis for OneDrive, SharePoint, and cross-platform filesystems."""
+    ext = ""
+    base = filename
+    m = re.search(r"(\.[a-zA-Z0-9]{2,5})$", filename)
+    if m:
+        ext = m.group(1)
+        base = filename[:-len(ext)]
+    # Replace colons with space-hyphen-space for clean lecture sub-titles (colons break Graph API path syntax & SharePoint)
+    base = re.sub(r"\s*:\s*", " - ", base)
+    base = re.sub(r"[^\x00-\x7F]+", "_", base)
+    base = re.sub(r'["*<>?/\\|#%~]', "_", base)
+    base = re.sub(r"\s+", " ", base).strip(" ._-")
+    return (base[:115] + ext).strip()
 
 
 def normalize_subject_title(raw_title: str) -> str:
@@ -526,7 +534,8 @@ class OneDriveClient:
     def create_upload_session(self, remote_path: str) -> str:
         """Creates a Microsoft Graph Resumable Upload Session on the 25 TB SharePoint drive."""
         token = self.get_valid_token()
-        clean_path = "/" + remote_path.strip("/")
+        parts = [sanitize_filename(p) for p in remote_path.strip("/").split("/") if p.strip()]
+        clean_path = "/" + "/".join(parts)
         endpoint = f"https://graph.microsoft.com/v1.0/{self.drive_target}/root:{clean_path}:/createUploadSession"
         headers = {
             "Authorization": f"Bearer {token}",
@@ -545,7 +554,8 @@ class OneDriveClient:
     def get_file_by_path(self, remote_path: str) -> Optional[Dict[str, Any]]:
         """Checks if a file already exists on SharePoint and returns its metadata."""
         token = self.get_valid_token()
-        clean_path = "/" + remote_path.strip("/")
+        parts = [sanitize_filename(p) for p in remote_path.strip("/").split("/") if p.strip()]
+        clean_path = "/" + "/".join(parts)
         endpoint = f"https://graph.microsoft.com/v1.0/{self.drive_target}/root:{clean_path}?$select=id,name,size,webUrl,video,lastModifiedDateTime"
         headers = {"Authorization": f"Bearer {token}"}
         try:
@@ -1002,7 +1012,8 @@ class LectureTransferEngine:
 
         # Ensure strict sequential title formatting: e.g. '1. How to Read Surgery'
         clean_title = normalize_lecture_title(raw_fn, item.get("subject_name", ""), item.get("subject_id", ""))
-        clean_name = f"{clean_title}.pdf" if is_pdf else f"{clean_title}.mp4"
+        base_name = f"{clean_title}.pdf" if is_pdf else f"{clean_title}.mp4"
+        clean_name = sanitize_filename(base_name)
         remote_path = f"Aspirin_LMS/{dest_program}/{dest_subject}/{clean_name}"
         legacy_path = f"Aspirin_LMS/{platform_folder}/{subj_folder}/{clean_name}"
         min_expected_size = 100 * 1024 if is_pdf else 1024 * 1024
