@@ -81,7 +81,7 @@ function tenantIdForItem(item: any): string | undefined {
   const path = String(item?.onedrive_path || '');
   // Uploads and cloud-to-cloud migrations write into these program folders on openmedQ; the legacy
   // tenant keeps the numeric-prefixed names (01_PrepLadder_X_English/, 04_Marrow_Edition_6/).
-  return /^\/Aspirin_LMS\/(PrepLadder_X|PrepLadder_X_Hinglish|Marrow_E6|Cerebellum|Legacy_Catalog)\//.test(path)
+  return /^\/Aspirin_LMS\/(PrepLadder_X|PrepLadder_X_Hinglish|Marrow_E6|Marrow_E8|Cerebellum|Legacy_Catalog)\//.test(path)
     ? NEW_TENANT_ID
     : undefined;
 }
