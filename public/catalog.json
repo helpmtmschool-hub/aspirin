@@ -1,6 +1,6 @@
 {
   "version": "2.2.0",
-  "updated_at": "2026-10-11T19:35:32.860Z",
+  "updated_at": "2026-10-12T00:37:00.651Z",
   "subjects": [
     {
       "id": "anatomy",
@@ -356,9 +356,33 @@
       "category": "Para-Clinical",
       "icon": "ShieldAlert",
       "color": "#4B5563",
-      "total_topics": 0,
+      "total_topics": 1,
       "total_notes": 9,
-      "modules": [],
+      "modules": [
+        {
+          "id": "mod_prepx_en_forensic_medicine",
+          "name": "PrepLadder Edition X - Forensic Medicine",
+          "topics": [
+            {
+              "id": "topic_-1002863499861_15",
+              "subject_id": "forensic_medicine",
+              "module": "PrepLadder Edition X - Forensic Medicine",
+              "title": "Forensic Medicine (FMT) Marrow Ed8 Notes",
+              "filename": "FMT Marrow Ed8 Notes.pdf",
+              "file_size_bytes": 136602054,
+              "file_size_mb": 130.27,
+              "duration_seconds": 0,
+              "duration_formatted": "0m",
+              "chat_id": -1002863499861,
+              "message_id": 15,
+              "is_high_yield": false,
+              "pearls": [],
+              "date": "2026-10-11T19:43:47Z",
+              "thumbnail_url": "/api/thumbnail/-1002863499861/15"
+            }
+          ]
+        }
+      ],
       "notes": []
     },
     {
@@ -369,9 +393,33 @@
       "category": "Clinical",
       "icon": "Users",
       "color": "#0D9488",
-      "total_topics": 0,
+      "total_topics": 1,
       "total_notes": 6,
-      "modules": [],
+      "modules": [
+        {
+          "id": "mod_prepx_en_psm",
+          "name": "PrepLadder Edition X - Community Medicine (PSM)",
+          "topics": [
+            {
+              "id": "topic_-1002863499861_27",
+              "subject_id": "psm",
+              "module": "PrepLadder Edition X - Community Medicine (PSM)",
+              "title": "Community Medicine (PSM) Marrow Ed8 Notes",
+              "filename": "PSM Marrow Ed8 Notes.pdf",
+              "file_size_bytes": 35019023,
+              "file_size_mb": 33.4,
+              "duration_seconds": 0,
+              "duration_formatted": "0m",
+              "chat_id": -1002863499861,
+              "message_id": 27,
+              "is_high_yield": false,
+              "pearls": [],
+              "date": "2026-10-11T19:42:06Z",
+              "thumbnail_url": "/api/thumbnail/-1002863499861/27"
+            }
+          ]
+        }
+      ],
       "notes": []
     },
     {
@@ -382,7 +430,7 @@
       "category": "Clinical",
       "icon": "Eye",
       "color": "#0284C7",
-      "total_topics": 40,
+      "total_topics": 41,
       "total_notes": 5,
       "modules": [
         {
@@ -1070,6 +1118,29 @@
               "thumbnail_url": "/api/thumbnail/-1003264222864/251"
             }
           ]
+        },
+        {
+          "id": "mod_prepx_en_ophthalmology",
+          "name": "PrepLadder Edition X - Ophthalmology",
+          "topics": [
+            {
+              "id": "topic_-1002863499861_25",
+              "subject_id": "ophthalmology",
+              "module": "PrepLadder Edition X - Ophthalmology",
+              "title": "Ophthalmology Marrow Ed8 Notes",
+              "filename": "Ophthalmology Marrow Ed8 Notes.pdf",
+              "file_size_bytes": 39500869,
+              "file_size_mb": 37.67,
+              "duration_seconds": 0,
+              "duration_formatted": "0m",
+              "chat_id": -1002863499861,
+              "message_id": 25,
+              "is_high_yield": false,
+              "pearls": [],
+              "date": "2026-10-11T19:40:31Z",
+              "thumbnail_url": "/api/thumbnail/-1002863499861/25"
+            }
+          ]
         }
       ],
       "notes": []
@@ -1082,7 +1153,7 @@
       "category": "Clinical",
       "icon": "Ear",
       "color": "#059669",
-      "total_topics": 64,
+      "total_topics": 65,
       "total_notes": 43,
       "modules": [
         {
@@ -2178,6 +2249,29 @@
               "thumbnail_url": "/api/thumbnail/-1003264222864/209"
             }
           ]
+        },
+        {
+          "id": "mod_prepx_en_ent",
+          "name": "PrepLadder Edition X - ENT (Otorhinolaryngology)",
+          "topics": [
+            {
+              "id": "topic_-1002863499861_26",
+              "subject_id": "ent",
+              "module": "PrepLadder Edition X - ENT (Otorhinolaryngology)",
+              "title": "ENT Marrow Ed8 Notes",
+              "filename": "ENT Marrow Ed8 Notes.pdf",
+              "file_size_bytes": 85058369,
+              "file_size_mb": 81.12,
+              "duration_seconds": 0,
+              "duration_formatted": "0m",
+              "chat_id": -1002863499861,
+              "message_id": 26,
+              "is_high_yield": false,
+              "pearls": [],
+              "date": "2026-10-11T19:41:33Z",
+              "thumbnail_url": "/api/thumbnail/-1002863499861/26"
+            }
+          ]
         }
       ],
       "notes": []
@@ -2190,7 +2284,7 @@
       "category": "Clinical",
       "icon": "Stethoscope",
       "color": "#0284C7",
-      "total_topics": 141,
+      "total_topics": 143,
       "total_notes": 20,
       "modules": [
         {
@@ -2861,6 +2955,23 @@
               ],
               "date": "2026-09-23T22:43:25Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/724"
+            },
+            {
+              "id": "topic_-1004345284917_35",
+              "subject_id": "medicine",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
+              "title": "Prepladder Version X Medicine Notes (Master Edition)",
+              "filename": "Medicine_Version_X_Final.pdf",
+              "file_size_bytes": 842676192,
+              "file_size_mb": 803.64,
+              "duration_seconds": 0,
+              "duration_formatted": "0m",
+              "chat_id": -1004345284917,
+              "message_id": 35,
+              "is_high_yield": false,
+              "pearls": [],
+              "date": "2026-10-11T19:53:53Z",
+              "thumbnail_url": "/api/thumbnail/-1004345284917/35"
             },
             {
               "id": "topic_-1003709841202_725",
@@ -4875,6 +4986,23 @@
               ],
               "date": "2026-09-24T13:12:14Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/830"
+            },
+            {
+              "id": "topic_-1002185821255_330",
+              "subject_id": "medicine",
+              "module": "PrepLadder Edition X - General Medicine (Dr. Deepak Marwah)",
+              "title": "Prepladder Version X Medicine Notes (Mobile Edition)",
+              "filename": "Medicine_Version_X_Mobile.pdf",
+              "file_size_bytes": 139274226,
+              "file_size_mb": 132.82,
+              "duration_seconds": 0,
+              "duration_formatted": "0m",
+              "chat_id": -1002185821255,
+              "message_id": 330,
+              "is_high_yield": false,
+              "pearls": [],
+              "date": "2026-10-11T19:55:36Z",
+              "thumbnail_url": "/api/thumbnail/-1002185821255/330"
             }
           ]
         }
@@ -4889,7 +5017,7 @@
       "category": "Clinical",
       "icon": "Scissors",
       "color": "#DC2626",
-      "total_topics": 82,
+      "total_topics": 84,
       "total_notes": 3,
       "modules": [
         {
@@ -6455,6 +6583,46 @@
               "thumbnail_url": "/api/thumbnail/-1003264222864/422"
             }
           ]
+        },
+        {
+          "id": "mod_prepx_en_surgery",
+          "name": "PrepLadder Edition X - General Surgery",
+          "topics": [
+            {
+              "id": "topic_-1002863499861_24",
+              "subject_id": "surgery",
+              "module": "PrepLadder Edition X - General Surgery",
+              "title": "Surgery Vol 1 Marrow Ed8 Notes",
+              "filename": "Surgery Vol 1 Marrow Ed8 Notes.pdf",
+              "file_size_bytes": 92865336,
+              "file_size_mb": 88.56,
+              "duration_seconds": 0,
+              "duration_formatted": "0m",
+              "chat_id": -1002863499861,
+              "message_id": 24,
+              "is_high_yield": false,
+              "pearls": [],
+              "date": "2026-10-11T19:28:33Z",
+              "thumbnail_url": "/api/thumbnail/-1002863499861/24"
+            },
+            {
+              "id": "topic_-1002863499861_199",
+              "subject_id": "surgery",
+              "module": "PrepLadder Edition X - General Surgery",
+              "title": "Surgery Vol 2 Marrow Ed8 Notes",
+              "filename": "Surgery Vol 2 Marrow Ed8 Notes.pdf",
+              "file_size_bytes": 89317015,
+              "file_size_mb": 85.18,
+              "duration_seconds": 0,
+              "duration_formatted": "0m",
+              "chat_id": -1002863499861,
+              "message_id": 199,
+              "is_high_yield": false,
+              "pearls": [],
+              "date": "2026-10-11T19:29:38Z",
+              "thumbnail_url": "/api/thumbnail/-1002863499861/199"
+            }
+          ]
         }
       ],
       "notes": []
@@ -6467,7 +6635,7 @@
       "category": "Clinical",
       "icon": "HeartHandshake",
       "color": "#DB2777",
-      "total_topics": 109,
+      "total_topics": 111,
       "total_notes": 4,
       "modules": [
         {
@@ -8546,6 +8714,46 @@
               "thumbnail_url": "/api/thumbnail/-1003264222864/532"
             }
           ]
+        },
+        {
+          "id": "mod_prepx_en_obgyn",
+          "name": "PrepLadder Edition X - Obstetrics & Gynecology",
+          "topics": [
+            {
+              "id": "topic_-1002863499861_21",
+              "subject_id": "obgyn",
+              "module": "PrepLadder Edition X - Obstetrics & Gynecology",
+              "title": "Obgyn Vol 1 Marrow Ed8 Notes",
+              "filename": "OBGYN Vol 1 Marrow Ed8 Notes.pdf",
+              "file_size_bytes": 127407728,
+              "file_size_mb": 121.51,
+              "duration_seconds": 0,
+              "duration_formatted": "0m",
+              "chat_id": -1002863499861,
+              "message_id": 21,
+              "is_high_yield": false,
+              "pearls": [],
+              "date": "2026-10-11T19:31:18Z",
+              "thumbnail_url": "/api/thumbnail/-1002863499861/21"
+            },
+            {
+              "id": "topic_-1002863499861_22",
+              "subject_id": "obgyn",
+              "module": "PrepLadder Edition X - Obstetrics & Gynecology",
+              "title": "Obgyn Vol 2 Marrow Ed8 Notes",
+              "filename": "OBGYN Vol 2 Marrow Ed8 Notes.pdf",
+              "file_size_bytes": 122085340,
+              "file_size_mb": 116.43,
+              "duration_seconds": 0,
+              "duration_formatted": "0m",
+              "chat_id": -1002863499861,
+              "message_id": 22,
+              "is_high_yield": false,
+              "pearls": [],
+              "date": "2026-10-11T19:32:44Z",
+              "thumbnail_url": "/api/thumbnail/-1002863499861/22"
+            }
+          ]
         }
       ],
       "notes": []
@@ -8558,7 +8766,7 @@
       "category": "Clinical",
       "icon": "Baby",
       "color": "#F59E0B",
-      "total_topics": 57,
+      "total_topics": 58,
       "total_notes": 3,
       "modules": [
         {
@@ -9649,6 +9857,29 @@
               "thumbnail_url": "/api/thumbnail/-1003264222864/309"
             }
           ]
+        },
+        {
+          "id": "mod_prepx_en_pediatrics",
+          "name": "PrepLadder Edition X - Pediatrics",
+          "topics": [
+            {
+              "id": "topic_-1002863499861_19",
+              "subject_id": "pediatrics",
+              "module": "PrepLadder Edition X - Pediatrics",
+              "title": "Pediatrics Marrow Ed8 Notes",
+              "filename": "Pediatrics Marrow Ed8 Notes.pdf",
+              "file_size_bytes": 180937454,
+              "file_size_mb": 172.56,
+              "duration_seconds": 0,
+              "duration_formatted": "0m",
+              "chat_id": -1002863499861,
+              "message_id": 19,
+              "is_high_yield": false,
+              "pearls": [],
+              "date": "2026-10-11T19:34:52Z",
+              "thumbnail_url": "/api/thumbnail/-1002863499861/19"
+            }
+          ]
         }
       ],
       "notes": []
@@ -9661,7 +9892,7 @@
       "category": "Clinical",
       "icon": "Footprints",
       "color": "#65A30D",
-      "total_topics": 29,
+      "total_topics": 30,
       "total_notes": 5,
       "modules": [
         {
@@ -10220,6 +10451,29 @@
               "thumbnail_url": "/api/thumbnail/-1003264222864/816"
             }
           ]
+        },
+        {
+          "id": "mod_prepx_en_orthopedics",
+          "name": "PrepLadder Edition X - Orthopedics",
+          "topics": [
+            {
+              "id": "topic_-1002863499861_20",
+              "subject_id": "orthopedics",
+              "module": "PrepLadder Edition X - Orthopedics",
+              "title": "Orthopedics Marrow Ed8 Notes",
+              "filename": "Orthopedics Marrow Ed8 Notes.pdf",
+              "file_size_bytes": 17792876,
+              "file_size_mb": 16.97,
+              "duration_seconds": 0,
+              "duration_formatted": "0m",
+              "chat_id": -1002863499861,
+              "message_id": 20,
+              "is_high_yield": false,
+              "pearls": [],
+              "date": "2026-10-11T19:35:05Z",
+              "thumbnail_url": "/api/thumbnail/-1002863499861/20"
+            }
+          ]
         }
       ],
       "notes": []
@@ -10232,7 +10486,7 @@
       "category": "Clinical",
       "icon": "Sparkles",
       "color": "#9333EA",
-      "total_topics": 28,
+      "total_topics": 29,
       "total_notes": 4,
       "modules": [
         {
@@ -10716,6 +10970,29 @@
               "thumbnail_url": "/api/thumbnail/-1003264222864/338"
             }
           ]
+        },
+        {
+          "id": "mod_prepx_en_dermatology",
+          "name": "PrepLadder Edition X - Dermatology",
+          "topics": [
+            {
+              "id": "topic_-1002863499861_18",
+              "subject_id": "dermatology",
+              "module": "PrepLadder Edition X - Dermatology",
+              "title": "Dermatology Marrow Ed8 Notes",
+              "filename": "Dermatology Marrow Ed8 Notes.pdf",
+              "file_size_bytes": 15451064,
+              "file_size_mb": 14.74,
+              "duration_seconds": 0,
+              "duration_formatted": "0m",
+              "chat_id": -1002863499861,
+              "message_id": 18,
+              "is_high_yield": false,
+              "pearls": [],
+              "date": "2026-10-11T19:35:19Z",
+              "thumbnail_url": "/api/thumbnail/-1002863499861/18"
+            }
+          ]
         }
       ],
       "notes": []
@@ -10728,7 +11005,7 @@
       "category": "Clinical",
       "icon": "Brain",
       "color": "#4F46E5",
-      "total_topics": 24,
+      "total_topics": 25,
       "total_notes": 4,
       "modules": [
         {
@@ -11192,6 +11469,29 @@
               "thumbnail_url": "/api/thumbnail/-1003264222864/1317"
             }
           ]
+        },
+        {
+          "id": "mod_prepx_en_psychiatry",
+          "name": "PrepLadder Edition X - Psychiatry",
+          "topics": [
+            {
+              "id": "topic_-1002863499861_23",
+              "subject_id": "psychiatry",
+              "module": "PrepLadder Edition X - Psychiatry",
+              "title": "Psychiatry Marrow Ed8 Notes",
+              "filename": "Psychiatry Marrow Ed8 Notes.pdf",
+              "file_size_bytes": 7863337,
+              "file_size_mb": 7.5,
+              "duration_seconds": 0,
+              "duration_formatted": "0m",
+              "chat_id": -1002863499861,
+              "message_id": 23,
+              "is_high_yield": false,
+              "pearls": [],
+              "date": "2026-10-11T19:35:30Z",
+              "thumbnail_url": "/api/thumbnail/-1002863499861/23"
+            }
+          ]
         }
       ],
       "notes": []
@@ -11204,7 +11504,7 @@
       "category": "Clinical",
       "icon": "Scan",
       "color": "#0891B2",
-      "total_topics": 41,
+      "total_topics": 42,
       "total_notes": 4,
       "modules": [
         {
@@ -11951,6 +12251,29 @@
               "thumbnail_url": "/api/thumbnail/-1003264222864/574"
             }
           ]
+        },
+        {
+          "id": "mod_prepx_en_radiology",
+          "name": "PrepLadder Edition X - Radiology",
+          "topics": [
+            {
+              "id": "topic_-1002863499861_16",
+              "subject_id": "radiology",
+              "module": "PrepLadder Edition X - Radiology",
+              "title": "Radiology Marrow Ed8 Notes",
+              "filename": "Radiology Marrow Ed8 Notes.pdf",
+              "file_size_bytes": 190877337,
+              "file_size_mb": 182.03,
+              "duration_seconds": 0,
+              "duration_formatted": "0m",
+              "chat_id": -1002863499861,
+              "message_id": 16,
+              "is_high_yield": false,
+              "pearls": [],
+              "date": "2026-10-11T19:37:54Z",
+              "thumbnail_url": "/api/thumbnail/-1002863499861/16"
+            }
+          ]
         }
       ],
       "notes": []
@@ -11963,7 +12286,7 @@
       "category": "Clinical",
       "icon": "Wind",
       "color": "#475569",
-      "total_topics": 31,
+      "total_topics": 32,
       "total_notes": 5,
       "modules": [
         {
@@ -12514,6 +12837,29 @@
               "pearls": [],
               "date": "2026-10-06T22:49:48Z",
               "thumbnail_url": "/api/thumbnail/-1003264222864/786"
+            }
+          ]
+        },
+        {
+          "id": "mod_prepx_en_anesthesiology",
+          "name": "PrepLadder Edition X - Anesthesiology",
+          "topics": [
+            {
+              "id": "topic_-1002863499861_17",
+              "subject_id": "anesthesiology",
+              "module": "PrepLadder Edition X - Anesthesiology",
+              "title": "Anesthesiology Marrow Ed8 Notes",
+              "filename": "Anesthesiology Marrow Ed8 Notes.pdf",
+              "file_size_bytes": 160622989,
+              "file_size_mb": 153.18,
+              "duration_seconds": 0,
+              "duration_formatted": "0m",
+              "chat_id": -1002863499861,
+              "message_id": 17,
+              "is_high_yield": false,
+              "pearls": [],
+              "date": "2026-10-11T19:39:57Z",
+              "thumbnail_url": "/api/thumbnail/-1002863499861/17"
             }
           ]
         }
