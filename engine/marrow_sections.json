@@ -3530,5 +3530,501 @@
         "document_id": "6161431208052920116"
       }
     ]
+  },
+  {
+    "platform": "marrow",
+    "subject_id": "biochemistry",
+    "topic_id": 1318,
+    "title": "Biochemistry",
+    "videos": [
+      {
+        "message_id": 1319,
+        "title": "1. How to approach Biochemistry",
+        "raw_filename": "1_Dr_Rebecca_James,_MD_Biochemistry_How_to_approch_Biochemistry.mp4",
+        "file_size": 245967081,
+        "duration_seconds": 1313,
+        "document_id": "5816543663441842299"
+      },
+      {
+        "message_id": 1320,
+        "title": "2. Biochemistry of Fed State",
+        "raw_filename": "2_watermarked.mp4",
+        "file_size": 262517329,
+        "duration_seconds": 1874,
+        "document_id": "5816543663441842300"
+      },
+      {
+        "message_id": 1321,
+        "title": "3. Biochemistry of Fasting State",
+        "raw_filename": "3_watermarked.mp4",
+        "file_size": 346298652,
+        "duration_seconds": 2373,
+        "document_id": "5816543663441842303"
+      },
+      {
+        "message_id": 1322,
+        "title": "4. Concept of Enzyme Regulation",
+        "raw_filename": "4_watermarked.mp4",
+        "file_size": 208384213,
+        "duration_seconds": 1381,
+        "document_id": "5816543663441842304"
+      },
+      {
+        "message_id": 1323,
+        "title": "5. Introduction to Enzymes",
+        "raw_filename": "5_watermarked.mp4",
+        "file_size": 347710851,
+        "duration_seconds": 2735,
+        "document_id": "5816543663441842305"
+      },
+      {
+        "message_id": 1324,
+        "title": "6. Classification of Enzymes",
+        "raw_filename": "6_watermarked.mp4",
+        "file_size": 508809482,
+        "duration_seconds": 4219,
+        "document_id": "5816543663441842306"
+      },
+      {
+        "message_id": 1325,
+        "title": "7. Mechanism of Action of Enzymes",
+        "raw_filename": "7_watermarked.mp4",
+        "file_size": 629462885,
+        "duration_seconds": 3169,
+        "document_id": "5816543663441842307"
+      },
+      {
+        "message_id": 1326,
+        "title": "8. Enzyme Kinetics",
+        "raw_filename": "8_watermarked.mp4",
+        "file_size": 717799020,
+        "duration_seconds": 4123,
+        "document_id": "5816543663441842308"
+      },
+      {
+        "message_id": 1327,
+        "title": "9. Enzyme Inhibition",
+        "raw_filename": "9_watermarked.mp4",
+        "file_size": 949517346,
+        "duration_seconds": 3947,
+        "document_id": "5816543663441842310"
+      },
+      {
+        "message_id": 1328,
+        "title": "10. Enzyme Regulation",
+        "raw_filename": "10_watermarked.mp4",
+        "file_size": 799154131,
+        "duration_seconds": 3159,
+        "document_id": "5816543663441842314"
+      },
+      {
+        "message_id": 1329,
+        "title": "11. Clinical Enzymology",
+        "raw_filename": "11_watermarked.mp4",
+        "file_size": 723675767,
+        "duration_seconds": 3979,
+        "document_id": "5816543663441842315"
+      },
+      {
+        "message_id": 1330,
+        "title": "12. Chemistry of Carbohydrates",
+        "raw_filename": "12_watermarked.mp4",
+        "file_size": 842235010,
+        "duration_seconds": 3840,
+        "document_id": "5816543663441842316"
+      },
+      {
+        "message_id": 1331,
+        "title": "13. Glucosamino glycans and Mucopolysaccharides",
+        "raw_filename": "13_watermarked.mp4",
+        "file_size": 536614166,
+        "duration_seconds": 2872,
+        "document_id": "5816543663441842317"
+      },
+      {
+        "message_id": 1332,
+        "title": "14. Glucose Transporters",
+        "raw_filename": "14_watermarked.mp4",
+        "file_size": 624275135,
+        "duration_seconds": 2971,
+        "document_id": "5816543663441842318"
+      },
+      {
+        "message_id": 1333,
+        "title": "15. Glycolysis",
+        "raw_filename": "15_watermarked.mp4",
+        "file_size": 734955622,
+        "duration_seconds": 4750,
+        "document_id": "5816543663441842319"
+      },
+      {
+        "message_id": 1334,
+        "title": "16. Applied aspects of Glycolysis",
+        "raw_filename": "16_watermarked.mp4",
+        "file_size": 198607730,
+        "duration_seconds": 1192,
+        "document_id": "5816543663441842320"
+      },
+      {
+        "message_id": 1335,
+        "title": "17. Pyruvate dehydrogenase",
+        "raw_filename": "17_watermarked.mp4",
+        "file_size": 269544715,
+        "duration_seconds": 2085,
+        "document_id": "5816543663441842526"
+      },
+      {
+        "message_id": 1336,
+        "title": "18. Glycogen Metabolism",
+        "raw_filename": "18_watermarked.mp4",
+        "file_size": 381159134,
+        "duration_seconds": 3160,
+        "document_id": "5816543663441842527"
+      },
+      {
+        "message_id": 1337,
+        "title": "19. Glycogen Storage Disease",
+        "raw_filename": "19_watermarked.mp4",
+        "file_size": 642089297,
+        "duration_seconds": 2982,
+        "document_id": "5816543663441842528"
+      },
+      {
+        "message_id": 1338,
+        "title": "20. Gluconeogenesis",
+        "raw_filename": "20_watermarked.mp4",
+        "file_size": 541673156,
+        "duration_seconds": 2966,
+        "document_id": "5816543663441842529"
+      },
+      {
+        "message_id": 1339,
+        "title": "21. Minor Metabolic pathways",
+        "raw_filename": "21_watermarked.mp4",
+        "file_size": 1235843474,
+        "duration_seconds": 4005,
+        "document_id": "5816543663441842530"
+      },
+      {
+        "message_id": 1340,
+        "title": "22. Chemistry of Lipids",
+        "raw_filename": "22_watermarked.mp4",
+        "file_size": 237555288,
+        "duration_seconds": 2108,
+        "document_id": "5816543663441842531"
+      },
+      {
+        "message_id": 1341,
+        "title": "23. Sphingolipidosis",
+        "raw_filename": "23_watermarked.mp4",
+        "file_size": 378253382,
+        "duration_seconds": 3223,
+        "document_id": "5816543663441842532"
+      },
+      {
+        "message_id": 1342,
+        "title": "24. Oxidation of Fatty acids",
+        "raw_filename": "24_watermarked.mp4",
+        "file_size": 780559040,
+        "duration_seconds": 3532,
+        "document_id": "5816543663441842533"
+      },
+      {
+        "message_id": 1343,
+        "title": "25. Ketone Bodies",
+        "raw_filename": "25_watermarked.mp4",
+        "file_size": 168432949,
+        "duration_seconds": 1237,
+        "document_id": "5816543663441842534"
+      },
+      {
+        "message_id": 1344,
+        "title": "26. Fatty acid synthesis",
+        "raw_filename": "26_watermarked.mp4",
+        "file_size": 212994554,
+        "duration_seconds": 1532,
+        "document_id": "5816543663441842535"
+      },
+      {
+        "message_id": 1345,
+        "title": "27. Cholesterol and Bile acids",
+        "raw_filename": "27_watermarked.mp4",
+        "file_size": 307354713,
+        "duration_seconds": 1481,
+        "document_id": "5816543663441842536"
+      },
+      {
+        "message_id": 1346,
+        "title": "28. Lipoproteins",
+        "raw_filename": "28_watermarked.mp4",
+        "file_size": 457886520,
+        "duration_seconds": 2663,
+        "document_id": "5816543663441842537"
+      },
+      {
+        "message_id": 1347,
+        "title": "29. Dyslipidemia",
+        "raw_filename": "29_watermarked.mp4",
+        "file_size": 394702268,
+        "duration_seconds": 2325,
+        "document_id": "5816543663441842538"
+      },
+      {
+        "message_id": 1348,
+        "title": "30. Lipases",
+        "raw_filename": "30_watermarked.mp4",
+        "file_size": 306038548,
+        "duration_seconds": 1743,
+        "document_id": "5816543663441842539"
+      },
+      {
+        "message_id": 1349,
+        "title": "31. Chemistry of Amino acids",
+        "raw_filename": "31_watermarked.mp4",
+        "file_size": 523041007,
+        "duration_seconds": 3809,
+        "document_id": "5816543663441842541"
+      },
+      {
+        "message_id": 1350,
+        "title": "32. Fibrous Proteins",
+        "raw_filename": "32_watermarked.mp4",
+        "file_size": 552556857,
+        "duration_seconds": 2894,
+        "document_id": "5816543663441842542"
+      },
+      {
+        "message_id": 1351,
+        "title": "33. General Amino Acid metabolism",
+        "raw_filename": "33_watermarked.mp4",
+        "file_size": 400336960,
+        "duration_seconds": 2555,
+        "document_id": "5816543663441842543"
+      },
+      {
+        "message_id": 1352,
+        "title": "34. Urea Cycle and its disorders",
+        "raw_filename": "34_watermarked.mp4",
+        "file_size": 556855957,
+        "duration_seconds": 2860,
+        "document_id": "5816543663441842544"
+      },
+      {
+        "message_id": 1353,
+        "title": "35. Aromatic Amino acids",
+        "raw_filename": "35_watermarked.mp4",
+        "file_size": 726388373,
+        "duration_seconds": 4275,
+        "document_id": "5816543663441842545"
+      },
+      {
+        "message_id": 1354,
+        "title": "36. Glycine and serine",
+        "raw_filename": "36_watermarked.mp4",
+        "file_size": 376368321,
+        "duration_seconds": 2385,
+        "document_id": "5816543663441842547"
+      },
+      {
+        "message_id": 1355,
+        "title": "37. Sulphur containing Amino acids",
+        "raw_filename": "37_watermarked.mp4",
+        "file_size": 978866579,
+        "duration_seconds": 4960,
+        "document_id": "5816543663441842548"
+      },
+      {
+        "message_id": 1356,
+        "title": "38. Tryptophan",
+        "raw_filename": "38_watermarked.mp4",
+        "file_size": 362057597,
+        "duration_seconds": 2481,
+        "document_id": "5816543663441842549"
+      },
+      {
+        "message_id": 1357,
+        "title": "39. Branched Chain Amino acids",
+        "raw_filename": "39_watermarked.mp4",
+        "file_size": 235873881,
+        "duration_seconds": 1374,
+        "document_id": "5816543663441842550"
+      },
+      {
+        "message_id": 1358,
+        "title": "40. Acidic and Basic Amino acids",
+        "raw_filename": "40_watermarked.mp4",
+        "file_size": 704392412,
+        "duration_seconds": 2492,
+        "document_id": "5816543663441842551"
+      },
+      {
+        "message_id": 1359,
+        "title": "41. Miscellaneous Amino Acids",
+        "raw_filename": "41_watermarked.mp4",
+        "file_size": 167235588,
+        "duration_seconds": 1374,
+        "document_id": "5816543663441842552"
+      },
+      {
+        "message_id": 1360,
+        "title": "42. Krebs Cycle",
+        "raw_filename": "42_watermarked.mp4",
+        "file_size": 455366619,
+        "duration_seconds": 2521,
+        "document_id": "5816543663441842553"
+      },
+      {
+        "message_id": 1361,
+        "title": "43. Electron Transport Chain",
+        "raw_filename": "43_watermarked.mp4",
+        "file_size": 433927046,
+        "duration_seconds": 2538,
+        "document_id": "5816543663441842554"
+      },
+      {
+        "message_id": 1362,
+        "title": "44. Chemistry of Nucleotides",
+        "raw_filename": "44_watermarked.mp4",
+        "file_size": 224315516,
+        "duration_seconds": 1758,
+        "document_id": "5818795463255527421"
+      },
+      {
+        "message_id": 1363,
+        "title": "45. Metabolism of Nucleotides",
+        "raw_filename": "45_watermarked.mp4",
+        "file_size": 443754124,
+        "duration_seconds": 3799,
+        "document_id": "5818795463255527422"
+      },
+      {
+        "message_id": 1364,
+        "title": "46. Structural organisation of DNA",
+        "raw_filename": "46_watermarked.mp4",
+        "file_size": 560674102,
+        "duration_seconds": 2584,
+        "document_id": "5818795463255527423"
+      },
+      {
+        "message_id": 1365,
+        "title": "47. DNA Replication",
+        "raw_filename": "47_watermarked.mp4",
+        "file_size": 716094905,
+        "duration_seconds": 3401,
+        "document_id": "5818795463255527424"
+      },
+      {
+        "message_id": 1366,
+        "title": "48. Transcription",
+        "raw_filename": "48_watermarked.mp4",
+        "file_size": 631904829,
+        "duration_seconds": 3402,
+        "document_id": "5818795463255527425"
+      },
+      {
+        "message_id": 1367,
+        "title": "49. Translation",
+        "raw_filename": "49_watermarked.mp4",
+        "file_size": 599226943,
+        "duration_seconds": 4243,
+        "document_id": "5818795463255527426"
+      },
+      {
+        "message_id": 1368,
+        "title": "50. Gene Expression",
+        "raw_filename": "50_watermarked.mp4",
+        "file_size": 611624455,
+        "duration_seconds": 3677,
+        "document_id": "5818795463255527427"
+      },
+      {
+        "message_id": 1369,
+        "title": "51. Hybridization Techniques",
+        "raw_filename": "51_watermarked.mp4",
+        "file_size": 923143692,
+        "duration_seconds": 4061,
+        "document_id": "5818795463255527428"
+      },
+      {
+        "message_id": 1370,
+        "title": "52. Recombinant DNA technology",
+        "raw_filename": "52_watermarked.mp4",
+        "file_size": 526202252,
+        "duration_seconds": 1908,
+        "document_id": "5818795463255527429"
+      },
+      {
+        "message_id": 1371,
+        "title": "53. Polymerase Chain Reaction",
+        "raw_filename": "53_watermarked.mp4",
+        "file_size": 377656483,
+        "duration_seconds": 2397,
+        "document_id": "5818795463255527430"
+      },
+      {
+        "message_id": 1372,
+        "title": "54. DNA Sequencing",
+        "raw_filename": "54_watermarked.mp4",
+        "file_size": 455737037,
+        "duration_seconds": 1721,
+        "document_id": "5818795463255527431"
+      },
+      {
+        "message_id": 1373,
+        "title": "55. Mutation",
+        "raw_filename": "55_watermarked.mp4",
+        "file_size": 649535719,
+        "duration_seconds": 2399,
+        "document_id": "5818795463255527432"
+      },
+      {
+        "message_id": 1374,
+        "title": "56. Vitamin A",
+        "raw_filename": "56_watermarked.mp4",
+        "file_size": 510778293,
+        "duration_seconds": 2536,
+        "document_id": "5818795463255527433"
+      },
+      {
+        "message_id": 1375,
+        "title": "57. Vitamin D, E and K",
+        "raw_filename": "57_watermarked.mp4",
+        "file_size": 535437595,
+        "duration_seconds": 2652,
+        "document_id": "5818795463255527434"
+      },
+      {
+        "message_id": 1376,
+        "title": "58. Hematopoietic Vitamins",
+        "raw_filename": "58_watermarked.mp4",
+        "file_size": 536698051,
+        "duration_seconds": 3059,
+        "document_id": "5818795463255527435"
+      },
+      {
+        "message_id": 1377,
+        "title": "59. Energy Releasing Vitamins",
+        "raw_filename": "59_watermarked.mp4",
+        "file_size": 378626712,
+        "duration_seconds": 2720,
+        "document_id": "5818795463255527436"
+      },
+      {
+        "message_id": 1378,
+        "title": "60. Vitamin B6 and Vitamin C",
+        "raw_filename": "60_watermarked.mp4",
+        "file_size": 303287462,
+        "duration_seconds": 1877,
+        "document_id": "5818795463255527437"
+      },
+      {
+        "message_id": 1379,
+        "title": "61. Heme Metabolism",
+        "raw_filename": "61_watermarked.mp4",
+        "file_size": 668649938,
+        "duration_seconds": 3927,
+        "document_id": "5818795463255527438"
+      }
+    ]
   }
 ]

@@ -56,6 +56,7 @@ MANIFEST_PATH = PROJECT_DIR / "engine" / "transfer_manifest.json"
 PUBLIC_MANIFEST_PATH = PROJECT_DIR / "public" / "transfer_manifest.json"
 SECTIONS_PATH = PROJECT_DIR / "engine" / "prepx_sections.json"
 MARROW_SECTIONS_PATH = PROJECT_DIR / "engine" / "marrow_sections.json"
+EGURUKUL_ANATOMY_PATH = PROJECT_DIR / "engine" / "egurukul_anatomy_verified.json"
 LEGACY_CATALOG_PATH = PROJECT_DIR / "public" / "catalog.json"
 PREPX_CHANNEL_ID = -1003709841202
 MARROW_CHANNEL_ID = -1003264222864
@@ -81,6 +82,7 @@ PLATFORM_FOLDER_MAP = {
     "prepx_hi": "02_PrepLadder_X_Hinglish",
     "cerebellum": "03_Cerebellum_Academy",
     "marrow": "04_Marrow_Edition_6",
+    "egurukul": "05_eGurukul_4.0",
 }
 
 MARROW_FINAL_YEAR_TOPICS = {
@@ -134,6 +136,7 @@ NEW_TENANT_PLATFORM_FOLDER_MAP = {
     "prepx_hi": "PrepLadder_X_Hinglish",
     "cerebellum": "Cerebellum",
     "marrow": "Marrow_E6",
+    "egurukul": "eGurukul_4.0",
     "legacy": "Legacy_Catalog",
 }
 
@@ -349,6 +352,8 @@ def get_item_priority(item: Dict[str, Any]) -> tuple:
         tier = 3
     elif platform in ("prepx_en", "prepx_hi") and not is_final_year:
         tier = 4
+    elif platform == "egurukul":
+        tier = 4
     elif platform == "cerebellum":
         tier = 5
     else:
@@ -367,11 +372,14 @@ def get_item_priority(item: Dict[str, Any]) -> tuple:
     subj_rank = SUBJECT_CLINICAL_RANK.get(subj, 50)
 
     # 3. Message or lecture sequence
-    seq = item.get("message_id", 0)
-    title = item.get("preferred_title") or ""
-    m = re.match(r"^(\d+)\.", title)
-    if m:
-        seq = int(m.group(1))
+    if "global_order" in item:
+        seq = item["global_order"]
+    else:
+        seq = item.get("message_id", 0)
+        title = item.get("preferred_title") or ""
+        m = re.match(r"^(\d+)\.", title)
+        if m:
+            seq = int(m.group(1))
 
     return (tier, plat_rank, subj_rank, seq)
 
@@ -718,6 +726,7 @@ class LectureTransferEngine:
 
         # Parse target subject(s) into normalized set (supports comma-separated: 'radiology,anesthesia,ophthalmology,ent')
         target_subjects = None
+        is_first_year = False
         if target_subject and target_subject.lower() != "all":
             target_subjects = set()
             for raw_part in re.split(r"[,|\s]+", target_subject.lower().strip()):
@@ -732,6 +741,9 @@ class LectureTransferEngine:
                 elif s in ("radio", "radiology"): target_subjects.add("radiology")
                 elif s in ("final_year", "final", "all_final"):
                     target_subjects.update(["radiology", "anesthesia", "ophthalmology", "ent", "surgery", "obg", "pediatrics", "orthopedics", "dermatology", "psychiatry"])
+                elif s in ("first_year", "first", "1st_year", "all_first"):
+                    is_first_year = True
+                    target_subjects.update(["anatomy", "physiology", "biochemistry"])
                 else: target_subjects.add(s)
 
         # 1. Load PrepLadder & Cerebellum sections
@@ -763,6 +775,16 @@ class LectureTransferEngine:
                 # Filter by subject
                 if target_subjects and norm_subj.lower() not in target_subjects:
                     continue
+
+                # First-Year curriculum enforcement:
+                # Anatomy is eGurukul, Physiology is PrepLadder X English, Biochemistry is Marrow
+                if is_first_year:
+                    if norm_subj == "anatomy":
+                        continue
+                    if norm_subj == "biochemistry":
+                        continue
+                    if norm_subj == "physiology" and sec_platform != "prepx_en":
+                        continue
 
                 platform_folder = PLATFORM_FOLDER_MAP.get(sec_platform, sec_platform)
                 subj_folder = SUBJECT_FOLDER_MAP.get(norm_subj, norm_subj)
@@ -798,6 +820,39 @@ class LectureTransferEngine:
                         "subject_folder": folder_display,
                         "preferred_title": pref_title,
                     })
+
+        # 3. Load eGurukul verified sections (Dr. Ashwini Kumar Anatomy)
+        if EGURUKUL_ANATOMY_PATH.exists() and (not platform or platform.lower() in ("egurukul", "all")):
+            try:
+                with open(EGURUKUL_ANATOMY_PATH, "r", encoding="utf-8") as f:
+                    egurukul_data = json.load(f)
+
+                if not target_subjects or "anatomy" in target_subjects:
+                    platform_folder = PLATFORM_FOLDER_MAP.get("egurukul", "05_eGurukul_4.0")
+                    for lec in egurukul_data.get("lectures", []):
+                        ps = lec["primary_source"]
+                        cid = ps["chat_id"]
+                        mid = ps["message_id"]
+                        item_id = f"eg_{cid}_{mid}"
+                        if item_id in self.manifest and self.manifest[item_id].get("status") == "completed":
+                            continue
+
+                        raw_items.append({
+                            "id": item_id,
+                            "chat_id": cid,
+                            "message_id": mid,
+                            "platform": "egurukul",
+                            "platform_folder": platform_folder,
+                            "dest_platform_folder": NEW_TENANT_PLATFORM_FOLDER_MAP.get("egurukul", "eGurukul_4.0"),
+                            "dest_subject_folder": f"01_Anatomy_Dr_Ashwini_Kumar/{lec['section_slug']}",
+                            "subject_id": "anatomy",
+                            "subject_name": f"eGurukul Anatomy ({lec['section_name']})",
+                            "subject_folder": f"01_Anatomy_Dr_Ashwini_Kumar/{lec['section_slug']}",
+                            "preferred_title": lec.get("title"),
+                            "global_order": lec.get("global_lecture_no"),
+                        })
+            except Exception as e:
+                print(f"[Warning] Failed to load egurukul sections: {e}")
 
         # 2. Load Marrow sections
         if MARROW_SECTIONS_PATH.exists() and (not platform or platform.lower() in ("marrow", "all")):

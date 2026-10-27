@@ -1,0 +1,1779 @@
+{
+  "subject": "Biochemistry",
+  "faculty": "Dr. Rebecca James",
+  "platform": "Marrow Edition 6",
+  "total_lectures": 61,
+  "total_size_bytes": 31116686763,
+  "total_duration_seconds": 171578,
+  "lectures": [
+    {
+      "lecture_no": 1,
+      "title": "1. How to approach Biochemistry",
+      "filename": "1. How to approach Biochemistry.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/03_Biochemistry/1. How to approach Biochemistry.mp4",
+      "duration_seconds": 1313,
+      "duration_formatted": "21m 53s",
+      "file_size": 245967081,
+      "document_id": "5816543663441842299",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 1318: Biochemistry)",
+        "chat_id": -1003264222864,
+        "topic_id": 1318,
+        "message_id": 1319,
+        "caption": "1⃣",
+        "filename": "1_Dr_Rebecca_James,_MD_Biochemistry_How_to_approch_Biochemistry.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Lectures (Topic 2351: Biochemistry (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2351,
+        "message_id": 2352,
+        "caption": "01 How to approach Biochemistry",
+        "filename": "1_Dr_Rebecca_James,_MD_Biochemistry_How_to_approch_Biochemistry.mp4",
+        "duration_match": true,
+        "size_match": true,
+        "notes": "Subjectwise provides canonical titles resolving My Marrow bare-number emojis; durations match exactly on all 61 lectures."
+      }
+    },
+    {
+      "lecture_no": 2,
+      "title": "2. Biochemistry of Fed State",
+      "filename": "2. Biochemistry of Fed State.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/03_Biochemistry/2. Biochemistry of Fed State.mp4",
+      "duration_seconds": 1874,
+      "duration_formatted": "31m 14s",
+      "file_size": 262517329,
+      "document_id": "5816543663441842300",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 1318: Biochemistry)",
+        "chat_id": -1003264222864,
+        "topic_id": 1318,
+        "message_id": 1320,
+        "caption": "2⃣",
+        "filename": "2_watermarked.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Lectures (Topic 2351: Biochemistry (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2351,
+        "message_id": 2353,
+        "caption": "02 Biochemistry of Fed State",
+        "filename": "2_watermarked.mp4",
+        "duration_match": true,
+        "size_match": true,
+        "notes": "Subjectwise provides canonical titles resolving My Marrow bare-number emojis; durations match exactly on all 61 lectures."
+      }
+    },
+    {
+      "lecture_no": 3,
+      "title": "3. Biochemistry of Fasting State",
+      "filename": "3. Biochemistry of Fasting State.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/03_Biochemistry/3. Biochemistry of Fasting State.mp4",
+      "duration_seconds": 2373,
+      "duration_formatted": "39m 33s",
+      "file_size": 346298652,
+      "document_id": "5816543663441842303",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 1318: Biochemistry)",
+        "chat_id": -1003264222864,
+        "topic_id": 1318,
+        "message_id": 1321,
+        "caption": "3⃣",
+        "filename": "3_watermarked.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Lectures (Topic 2351: Biochemistry (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2351,
+        "message_id": 2354,
+        "caption": "03 Biochemistry of Fasting State",
+        "filename": "3_watermarked.mp4",
+        "duration_match": true,
+        "size_match": true,
+        "notes": "Subjectwise provides canonical titles resolving My Marrow bare-number emojis; durations match exactly on all 61 lectures."
+      }
+    },
+    {
+      "lecture_no": 4,
+      "title": "4. Concept of Enzyme Regulation",
+      "filename": "4. Concept of Enzyme Regulation.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/03_Biochemistry/4. Concept of Enzyme Regulation.mp4",
+      "duration_seconds": 1381,
+      "duration_formatted": "23m 1s",
+      "file_size": 208384213,
+      "document_id": "5816543663441842304",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 1318: Biochemistry)",
+        "chat_id": -1003264222864,
+        "topic_id": 1318,
+        "message_id": 1322,
+        "caption": "4⃣",
+        "filename": "4_watermarked.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Lectures (Topic 2351: Biochemistry (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2351,
+        "message_id": 2355,
+        "caption": "04 Concept of Enzyme Regulation",
+        "filename": "4_watermarked.mp4",
+        "duration_match": true,
+        "size_match": true,
+        "notes": "Subjectwise provides canonical titles resolving My Marrow bare-number emojis; durations match exactly on all 61 lectures."
+      }
+    },
+    {
+      "lecture_no": 5,
+      "title": "5. Introduction to Enzymes",
+      "filename": "5. Introduction to Enzymes.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/03_Biochemistry/5. Introduction to Enzymes.mp4",
+      "duration_seconds": 2735,
+      "duration_formatted": "45m 35s",
+      "file_size": 347710851,
+      "document_id": "5816543663441842305",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 1318: Biochemistry)",
+        "chat_id": -1003264222864,
+        "topic_id": 1318,
+        "message_id": 1323,
+        "caption": "5⃣",
+        "filename": "5_watermarked.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Lectures (Topic 2351: Biochemistry (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2351,
+        "message_id": 2356,
+        "caption": "05  Introduction to Enzymes",
+        "filename": "IMG_4202.MP4",
+        "duration_match": true,
+        "size_match": false,
+        "notes": "Subjectwise provides canonical titles resolving My Marrow bare-number emojis; durations match exactly on all 61 lectures."
+      }
+    },
+    {
+      "lecture_no": 6,
+      "title": "6. Classification of Enzymes",
+      "filename": "6. Classification of Enzymes.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/03_Biochemistry/6. Classification of Enzymes.mp4",
+      "duration_seconds": 4219,
+      "duration_formatted": "1h 10m 19s",
+      "file_size": 508809482,
+      "document_id": "5816543663441842306",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 1318: Biochemistry)",
+        "chat_id": -1003264222864,
+        "topic_id": 1318,
+        "message_id": 1324,
+        "caption": "6⃣",
+        "filename": "6_watermarked.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Lectures (Topic 2351: Biochemistry (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2351,
+        "message_id": 2357,
+        "caption": "06 Classification of Enzymes",
+        "filename": "6_watermarked.mp4",
+        "duration_match": true,
+        "size_match": true,
+        "notes": "Subjectwise provides canonical titles resolving My Marrow bare-number emojis; durations match exactly on all 61 lectures."
+      }
+    },
+    {
+      "lecture_no": 7,
+      "title": "7. Mechanism of Action of Enzymes",
+      "filename": "7. Mechanism of Action of Enzymes.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/03_Biochemistry/7. Mechanism of Action of Enzymes.mp4",
+      "duration_seconds": 3169,
+      "duration_formatted": "52m 49s",
+      "file_size": 629462885,
+      "document_id": "5816543663441842307",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 1318: Biochemistry)",
+        "chat_id": -1003264222864,
+        "topic_id": 1318,
+        "message_id": 1325,
+        "caption": "7⃣",
+        "filename": "7_watermarked.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Lectures (Topic 2351: Biochemistry (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2351,
+        "message_id": 2358,
+        "caption": "07 Mechanism of Action of Enzymes",
+        "filename": "7_watermarked.mp4",
+        "duration_match": true,
+        "size_match": true,
+        "notes": "Subjectwise provides canonical titles resolving My Marrow bare-number emojis; durations match exactly on all 61 lectures."
+      }
+    },
+    {
+      "lecture_no": 8,
+      "title": "8. Enzyme Kinetics",
+      "filename": "8. Enzyme Kinetics.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/03_Biochemistry/8. Enzyme Kinetics.mp4",
+      "duration_seconds": 4123,
+      "duration_formatted": "1h 8m 43s",
+      "file_size": 717799020,
+      "document_id": "5816543663441842308",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 1318: Biochemistry)",
+        "chat_id": -1003264222864,
+        "topic_id": 1318,
+        "message_id": 1326,
+        "caption": "8⃣",
+        "filename": "8_watermarked.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Lectures (Topic 2351: Biochemistry (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2351,
+        "message_id": 2359,
+        "caption": "08 Enzyme Kinetics",
+        "filename": "8_watermarked.mp4",
+        "duration_match": true,
+        "size_match": true,
+        "notes": "Subjectwise provides canonical titles resolving My Marrow bare-number emojis; durations match exactly on all 61 lectures."
+      }
+    },
+    {
+      "lecture_no": 9,
+      "title": "9. Enzyme Inhibition",
+      "filename": "9. Enzyme Inhibition.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/03_Biochemistry/9. Enzyme Inhibition.mp4",
+      "duration_seconds": 3947,
+      "duration_formatted": "1h 5m 47s",
+      "file_size": 949517346,
+      "document_id": "5816543663441842310",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 1318: Biochemistry)",
+        "chat_id": -1003264222864,
+        "topic_id": 1318,
+        "message_id": 1327,
+        "caption": "9⃣",
+        "filename": "9_watermarked.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Lectures (Topic 2351: Biochemistry (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2351,
+        "message_id": 2360,
+        "caption": "09 Enzyme Inhibition",
+        "filename": "9_watermarked.mp4",
+        "duration_match": true,
+        "size_match": true,
+        "notes": "Subjectwise provides canonical titles resolving My Marrow bare-number emojis; durations match exactly on all 61 lectures."
+      }
+    },
+    {
+      "lecture_no": 10,
+      "title": "10. Enzyme Regulation",
+      "filename": "10. Enzyme Regulation.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/03_Biochemistry/10. Enzyme Regulation.mp4",
+      "duration_seconds": 3159,
+      "duration_formatted": "52m 39s",
+      "file_size": 799154131,
+      "document_id": "5816543663441842314",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 1318: Biochemistry)",
+        "chat_id": -1003264222864,
+        "topic_id": 1318,
+        "message_id": 1328,
+        "caption": "🔟",
+        "filename": "10_watermarked.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Lectures (Topic 2351: Biochemistry (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2351,
+        "message_id": 2361,
+        "caption": "10 Enzyme Regulation",
+        "filename": "10_watermarked.mp4",
+        "duration_match": true,
+        "size_match": true,
+        "notes": "Subjectwise provides canonical titles resolving My Marrow bare-number emojis; durations match exactly on all 61 lectures."
+      }
+    },
+    {
+      "lecture_no": 11,
+      "title": "11. Clinical Enzymology",
+      "filename": "11. Clinical Enzymology.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/03_Biochemistry/11. Clinical Enzymology.mp4",
+      "duration_seconds": 3979,
+      "duration_formatted": "1h 6m 19s",
+      "file_size": 723675767,
+      "document_id": "5816543663441842315",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 1318: Biochemistry)",
+        "chat_id": -1003264222864,
+        "topic_id": 1318,
+        "message_id": 1329,
+        "caption": "11",
+        "filename": "11_watermarked.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Lectures (Topic 2351: Biochemistry (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2351,
+        "message_id": 2362,
+        "caption": "11 Clinical Enzymology",
+        "filename": "11_watermarked.mp4",
+        "duration_match": true,
+        "size_match": true,
+        "notes": "Subjectwise provides canonical titles resolving My Marrow bare-number emojis; durations match exactly on all 61 lectures."
+      }
+    },
+    {
+      "lecture_no": 12,
+      "title": "12. Chemistry of Carbohydrates",
+      "filename": "12. Chemistry of Carbohydrates.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/03_Biochemistry/12. Chemistry of Carbohydrates.mp4",
+      "duration_seconds": 3840,
+      "duration_formatted": "1h 4m 0s",
+      "file_size": 842235010,
+      "document_id": "5816543663441842316",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 1318: Biochemistry)",
+        "chat_id": -1003264222864,
+        "topic_id": 1318,
+        "message_id": 1330,
+        "caption": "12",
+        "filename": "12_watermarked.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Lectures (Topic 2351: Biochemistry (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2351,
+        "message_id": 2363,
+        "caption": "12 Chemistry of Carbohydrates",
+        "filename": "12_watermarked.mp4",
+        "duration_match": true,
+        "size_match": true,
+        "notes": "Subjectwise provides canonical titles resolving My Marrow bare-number emojis; durations match exactly on all 61 lectures."
+      }
+    },
+    {
+      "lecture_no": 13,
+      "title": "13. Glucosamino glycans and Mucopolysaccharides",
+      "filename": "13. Glucosamino glycans and Mucopolysaccharides.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/03_Biochemistry/13. Glucosamino glycans and Mucopolysaccharides.mp4",
+      "duration_seconds": 2872,
+      "duration_formatted": "47m 52s",
+      "file_size": 536614166,
+      "document_id": "5816543663441842317",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 1318: Biochemistry)",
+        "chat_id": -1003264222864,
+        "topic_id": 1318,
+        "message_id": 1331,
+        "caption": "13",
+        "filename": "13_watermarked.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Lectures (Topic 2351: Biochemistry (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2351,
+        "message_id": 2364,
+        "caption": "13 Glucosamino glycans and Mucopolysaccharides",
+        "filename": "13_watermarked.mp4",
+        "duration_match": true,
+        "size_match": true,
+        "notes": "Subjectwise provides canonical titles resolving My Marrow bare-number emojis; durations match exactly on all 61 lectures."
+      }
+    },
+    {
+      "lecture_no": 14,
+      "title": "14. Glucose Transporters",
+      "filename": "14. Glucose Transporters.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/03_Biochemistry/14. Glucose Transporters.mp4",
+      "duration_seconds": 2971,
+      "duration_formatted": "49m 31s",
+      "file_size": 624275135,
+      "document_id": "5816543663441842318",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 1318: Biochemistry)",
+        "chat_id": -1003264222864,
+        "topic_id": 1318,
+        "message_id": 1332,
+        "caption": "14",
+        "filename": "14_watermarked.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Lectures (Topic 2351: Biochemistry (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2351,
+        "message_id": 2365,
+        "caption": "14 Glucose Transporters",
+        "filename": "IMG_4210.MP4",
+        "duration_match": true,
+        "size_match": false,
+        "notes": "Subjectwise provides canonical titles resolving My Marrow bare-number emojis; durations match exactly on all 61 lectures."
+      }
+    },
+    {
+      "lecture_no": 15,
+      "title": "15. Glycolysis",
+      "filename": "15. Glycolysis.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/03_Biochemistry/15. Glycolysis.mp4",
+      "duration_seconds": 4750,
+      "duration_formatted": "1h 19m 10s",
+      "file_size": 734955622,
+      "document_id": "5816543663441842319",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 1318: Biochemistry)",
+        "chat_id": -1003264222864,
+        "topic_id": 1318,
+        "message_id": 1333,
+        "caption": "15",
+        "filename": "15_watermarked.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Lectures (Topic 2351: Biochemistry (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2351,
+        "message_id": 2366,
+        "caption": "15 Glycolysis",
+        "filename": "15_watermarked.mp4",
+        "duration_match": true,
+        "size_match": true,
+        "notes": "Subjectwise provides canonical titles resolving My Marrow bare-number emojis; durations match exactly on all 61 lectures."
+      }
+    },
+    {
+      "lecture_no": 16,
+      "title": "16. Applied aspects of Glycolysis",
+      "filename": "16. Applied aspects of Glycolysis.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/03_Biochemistry/16. Applied aspects of Glycolysis.mp4",
+      "duration_seconds": 1192,
+      "duration_formatted": "19m 52s",
+      "file_size": 198607730,
+      "document_id": "5816543663441842320",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 1318: Biochemistry)",
+        "chat_id": -1003264222864,
+        "topic_id": 1318,
+        "message_id": 1334,
+        "caption": "16",
+        "filename": "16_watermarked.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Lectures (Topic 2351: Biochemistry (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2351,
+        "message_id": 2367,
+        "caption": "16 Applied aspects of Glycolysis",
+        "filename": "IMG_4221.MP4",
+        "duration_match": true,
+        "size_match": false,
+        "notes": "Subjectwise provides canonical titles resolving My Marrow bare-number emojis; durations match exactly on all 61 lectures."
+      }
+    },
+    {
+      "lecture_no": 17,
+      "title": "17. Pyruvate dehydrogenase",
+      "filename": "17. Pyruvate dehydrogenase.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/03_Biochemistry/17. Pyruvate dehydrogenase.mp4",
+      "duration_seconds": 2085,
+      "duration_formatted": "34m 45s",
+      "file_size": 269544715,
+      "document_id": "5816543663441842526",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 1318: Biochemistry)",
+        "chat_id": -1003264222864,
+        "topic_id": 1318,
+        "message_id": 1335,
+        "caption": "17",
+        "filename": "17_watermarked.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Lectures (Topic 2351: Biochemistry (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2351,
+        "message_id": 2368,
+        "caption": "17 Pyruvate dehydrogenase",
+        "filename": "17_watermarked.mp4",
+        "duration_match": true,
+        "size_match": true,
+        "notes": "Subjectwise provides canonical titles resolving My Marrow bare-number emojis; durations match exactly on all 61 lectures."
+      }
+    },
+    {
+      "lecture_no": 18,
+      "title": "18. Glycogen Metabolism",
+      "filename": "18. Glycogen Metabolism.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/03_Biochemistry/18. Glycogen Metabolism.mp4",
+      "duration_seconds": 3160,
+      "duration_formatted": "52m 40s",
+      "file_size": 381159134,
+      "document_id": "5816543663441842527",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 1318: Biochemistry)",
+        "chat_id": -1003264222864,
+        "topic_id": 1318,
+        "message_id": 1336,
+        "caption": "18",
+        "filename": "18_watermarked.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Lectures (Topic 2351: Biochemistry (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2351,
+        "message_id": 2369,
+        "caption": "18 Glycogen Metabolism",
+        "filename": "18_watermarked.mp4",
+        "duration_match": true,
+        "size_match": true,
+        "notes": "Subjectwise provides canonical titles resolving My Marrow bare-number emojis; durations match exactly on all 61 lectures."
+      }
+    },
+    {
+      "lecture_no": 19,
+      "title": "19. Glycogen Storage Disease",
+      "filename": "19. Glycogen Storage Disease.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/03_Biochemistry/19. Glycogen Storage Disease.mp4",
+      "duration_seconds": 2982,
+      "duration_formatted": "49m 42s",
+      "file_size": 642089297,
+      "document_id": "5816543663441842528",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 1318: Biochemistry)",
+        "chat_id": -1003264222864,
+        "topic_id": 1318,
+        "message_id": 1337,
+        "caption": "19",
+        "filename": "19_watermarked.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Lectures (Topic 2351: Biochemistry (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2351,
+        "message_id": 2370,
+        "caption": "19 Glycogen Storage Disease",
+        "filename": "19_watermarked.mp4",
+        "duration_match": true,
+        "size_match": true,
+        "notes": "Subjectwise provides canonical titles resolving My Marrow bare-number emojis; durations match exactly on all 61 lectures."
+      }
+    },
+    {
+      "lecture_no": 20,
+      "title": "20. Gluconeogenesis",
+      "filename": "20. Gluconeogenesis.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/03_Biochemistry/20. Gluconeogenesis.mp4",
+      "duration_seconds": 2966,
+      "duration_formatted": "49m 26s",
+      "file_size": 541673156,
+      "document_id": "5816543663441842529",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 1318: Biochemistry)",
+        "chat_id": -1003264222864,
+        "topic_id": 1318,
+        "message_id": 1338,
+        "caption": "20",
+        "filename": "20_watermarked.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Lectures (Topic 2351: Biochemistry (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2351,
+        "message_id": 2371,
+        "caption": "20 Gluconeogenesis",
+        "filename": "20_watermarked.mp4",
+        "duration_match": true,
+        "size_match": true,
+        "notes": "Subjectwise provides canonical titles resolving My Marrow bare-number emojis; durations match exactly on all 61 lectures."
+      }
+    },
+    {
+      "lecture_no": 21,
+      "title": "21. Minor Metabolic pathways",
+      "filename": "21. Minor Metabolic pathways.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/03_Biochemistry/21. Minor Metabolic pathways.mp4",
+      "duration_seconds": 4005,
+      "duration_formatted": "1h 6m 45s",
+      "file_size": 1235843474,
+      "document_id": "5816543663441842530",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 1318: Biochemistry)",
+        "chat_id": -1003264222864,
+        "topic_id": 1318,
+        "message_id": 1339,
+        "caption": "21",
+        "filename": "21_watermarked.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Lectures (Topic 2351: Biochemistry (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2351,
+        "message_id": 2372,
+        "caption": "21 Minor Metabolic pathways",
+        "filename": "21_watermarked.mp4",
+        "duration_match": true,
+        "size_match": true,
+        "notes": "Subjectwise provides canonical titles resolving My Marrow bare-number emojis; durations match exactly on all 61 lectures."
+      }
+    },
+    {
+      "lecture_no": 22,
+      "title": "22. Chemistry of Lipids",
+      "filename": "22. Chemistry of Lipids.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/03_Biochemistry/22. Chemistry of Lipids.mp4",
+      "duration_seconds": 2108,
+      "duration_formatted": "35m 8s",
+      "file_size": 237555288,
+      "document_id": "5816543663441842531",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 1318: Biochemistry)",
+        "chat_id": -1003264222864,
+        "topic_id": 1318,
+        "message_id": 1340,
+        "caption": "22",
+        "filename": "22_watermarked.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Lectures (Topic 2351: Biochemistry (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2351,
+        "message_id": 2373,
+        "caption": "22 Chemistry of Lipids",
+        "filename": "22_watermarked.mp4",
+        "duration_match": true,
+        "size_match": true,
+        "notes": "Subjectwise provides canonical titles resolving My Marrow bare-number emojis; durations match exactly on all 61 lectures."
+      }
+    },
+    {
+      "lecture_no": 23,
+      "title": "23. Sphingolipidosis",
+      "filename": "23. Sphingolipidosis.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/03_Biochemistry/23. Sphingolipidosis.mp4",
+      "duration_seconds": 3223,
+      "duration_formatted": "53m 43s",
+      "file_size": 378253382,
+      "document_id": "5816543663441842532",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 1318: Biochemistry)",
+        "chat_id": -1003264222864,
+        "topic_id": 1318,
+        "message_id": 1341,
+        "caption": "23",
+        "filename": "23_watermarked.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Lectures (Topic 2351: Biochemistry (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2351,
+        "message_id": 2374,
+        "caption": "23 Sphingolipidosis",
+        "filename": "23_watermarked.mp4",
+        "duration_match": true,
+        "size_match": true,
+        "notes": "Subjectwise provides canonical titles resolving My Marrow bare-number emojis; durations match exactly on all 61 lectures."
+      }
+    },
+    {
+      "lecture_no": 24,
+      "title": "24. Oxidation of Fatty acids",
+      "filename": "24. Oxidation of Fatty acids.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/03_Biochemistry/24. Oxidation of Fatty acids.mp4",
+      "duration_seconds": 3532,
+      "duration_formatted": "58m 52s",
+      "file_size": 780559040,
+      "document_id": "5816543663441842533",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 1318: Biochemistry)",
+        "chat_id": -1003264222864,
+        "topic_id": 1318,
+        "message_id": 1342,
+        "caption": "24",
+        "filename": "24_watermarked.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Lectures (Topic 2351: Biochemistry (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2351,
+        "message_id": 2375,
+        "caption": "24 Oxidation of Fatty acids",
+        "filename": "24_watermarked.mp4",
+        "duration_match": true,
+        "size_match": true,
+        "notes": "Subjectwise provides canonical titles resolving My Marrow bare-number emojis; durations match exactly on all 61 lectures."
+      }
+    },
+    {
+      "lecture_no": 25,
+      "title": "25. Ketone Bodies",
+      "filename": "25. Ketone Bodies.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/03_Biochemistry/25. Ketone Bodies.mp4",
+      "duration_seconds": 1237,
+      "duration_formatted": "20m 37s",
+      "file_size": 168432949,
+      "document_id": "5816543663441842534",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 1318: Biochemistry)",
+        "chat_id": -1003264222864,
+        "topic_id": 1318,
+        "message_id": 1343,
+        "caption": "25",
+        "filename": "25_watermarked.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Lectures (Topic 2351: Biochemistry (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2351,
+        "message_id": 2376,
+        "caption": "25 Ketone Bodies",
+        "filename": "25_watermarked.mp4",
+        "duration_match": true,
+        "size_match": true,
+        "notes": "Subjectwise provides canonical titles resolving My Marrow bare-number emojis; durations match exactly on all 61 lectures."
+      }
+    },
+    {
+      "lecture_no": 26,
+      "title": "26. Fatty acid synthesis",
+      "filename": "26. Fatty acid synthesis.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/03_Biochemistry/26. Fatty acid synthesis.mp4",
+      "duration_seconds": 1532,
+      "duration_formatted": "25m 32s",
+      "file_size": 212994554,
+      "document_id": "5816543663441842535",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 1318: Biochemistry)",
+        "chat_id": -1003264222864,
+        "topic_id": 1318,
+        "message_id": 1344,
+        "caption": "26",
+        "filename": "26_watermarked.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Lectures (Topic 2351: Biochemistry (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2351,
+        "message_id": 2377,
+        "caption": "26 Fatty acid synthesis",
+        "filename": "26_watermarked.mp4",
+        "duration_match": true,
+        "size_match": true,
+        "notes": "Subjectwise provides canonical titles resolving My Marrow bare-number emojis; durations match exactly on all 61 lectures."
+      }
+    },
+    {
+      "lecture_no": 27,
+      "title": "27. Cholesterol and Bile acids",
+      "filename": "27. Cholesterol and Bile acids.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/03_Biochemistry/27. Cholesterol and Bile acids.mp4",
+      "duration_seconds": 1481,
+      "duration_formatted": "24m 41s",
+      "file_size": 307354713,
+      "document_id": "5816543663441842536",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 1318: Biochemistry)",
+        "chat_id": -1003264222864,
+        "topic_id": 1318,
+        "message_id": 1345,
+        "caption": "27",
+        "filename": "27_watermarked.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Lectures (Topic 2351: Biochemistry (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2351,
+        "message_id": 2378,
+        "caption": "27 Cholesterol and Bile acids",
+        "filename": "27_watermarked.mp4",
+        "duration_match": true,
+        "size_match": true,
+        "notes": "Subjectwise provides canonical titles resolving My Marrow bare-number emojis; durations match exactly on all 61 lectures."
+      }
+    },
+    {
+      "lecture_no": 28,
+      "title": "28. Lipoproteins",
+      "filename": "28. Lipoproteins.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/03_Biochemistry/28. Lipoproteins.mp4",
+      "duration_seconds": 2663,
+      "duration_formatted": "44m 23s",
+      "file_size": 457886520,
+      "document_id": "5816543663441842537",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 1318: Biochemistry)",
+        "chat_id": -1003264222864,
+        "topic_id": 1318,
+        "message_id": 1346,
+        "caption": "28",
+        "filename": "28_watermarked.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Lectures (Topic 2351: Biochemistry (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2351,
+        "message_id": 2379,
+        "caption": "28 Lipoproteins",
+        "filename": "28_watermarked.mp4",
+        "duration_match": true,
+        "size_match": true,
+        "notes": "Subjectwise provides canonical titles resolving My Marrow bare-number emojis; durations match exactly on all 61 lectures."
+      }
+    },
+    {
+      "lecture_no": 29,
+      "title": "29. Dyslipidemia",
+      "filename": "29. Dyslipidemia.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/03_Biochemistry/29. Dyslipidemia.mp4",
+      "duration_seconds": 2325,
+      "duration_formatted": "38m 45s",
+      "file_size": 394702268,
+      "document_id": "5816543663441842538",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 1318: Biochemistry)",
+        "chat_id": -1003264222864,
+        "topic_id": 1318,
+        "message_id": 1347,
+        "caption": "29",
+        "filename": "29_watermarked.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Lectures (Topic 2351: Biochemistry (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2351,
+        "message_id": 2380,
+        "caption": "29 Dyslipidemia",
+        "filename": "29_watermarked.mp4",
+        "duration_match": true,
+        "size_match": true,
+        "notes": "Subjectwise provides canonical titles resolving My Marrow bare-number emojis; durations match exactly on all 61 lectures."
+      }
+    },
+    {
+      "lecture_no": 30,
+      "title": "30. Lipases",
+      "filename": "30. Lipases.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/03_Biochemistry/30. Lipases.mp4",
+      "duration_seconds": 1743,
+      "duration_formatted": "29m 3s",
+      "file_size": 306038548,
+      "document_id": "5816543663441842539",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 1318: Biochemistry)",
+        "chat_id": -1003264222864,
+        "topic_id": 1318,
+        "message_id": 1348,
+        "caption": "30",
+        "filename": "30_watermarked.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Lectures (Topic 2351: Biochemistry (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2351,
+        "message_id": 2381,
+        "caption": "30 Lipases",
+        "filename": "30_watermarked.mp4",
+        "duration_match": true,
+        "size_match": true,
+        "notes": "Subjectwise provides canonical titles resolving My Marrow bare-number emojis; durations match exactly on all 61 lectures."
+      }
+    },
+    {
+      "lecture_no": 31,
+      "title": "31. Chemistry of Amino acids",
+      "filename": "31. Chemistry of Amino acids.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/03_Biochemistry/31. Chemistry of Amino acids.mp4",
+      "duration_seconds": 3809,
+      "duration_formatted": "1h 3m 29s",
+      "file_size": 523041007,
+      "document_id": "5816543663441842541",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 1318: Biochemistry)",
+        "chat_id": -1003264222864,
+        "topic_id": 1318,
+        "message_id": 1349,
+        "caption": "31",
+        "filename": "31_watermarked.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Lectures (Topic 2351: Biochemistry (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2351,
+        "message_id": 2382,
+        "caption": "31 Chemistry of Amino acids",
+        "filename": "31_watermarked.mp4",
+        "duration_match": true,
+        "size_match": true,
+        "notes": "Subjectwise provides canonical titles resolving My Marrow bare-number emojis; durations match exactly on all 61 lectures."
+      }
+    },
+    {
+      "lecture_no": 32,
+      "title": "32. Fibrous Proteins",
+      "filename": "32. Fibrous Proteins.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/03_Biochemistry/32. Fibrous Proteins.mp4",
+      "duration_seconds": 2894,
+      "duration_formatted": "48m 14s",
+      "file_size": 552556857,
+      "document_id": "5816543663441842542",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 1318: Biochemistry)",
+        "chat_id": -1003264222864,
+        "topic_id": 1318,
+        "message_id": 1350,
+        "caption": "32",
+        "filename": "32_watermarked.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Lectures (Topic 2351: Biochemistry (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2351,
+        "message_id": 2383,
+        "caption": "32 Fibrous Proteins",
+        "filename": "32_watermarked.mp4",
+        "duration_match": true,
+        "size_match": true,
+        "notes": "Subjectwise provides canonical titles resolving My Marrow bare-number emojis; durations match exactly on all 61 lectures."
+      }
+    },
+    {
+      "lecture_no": 33,
+      "title": "33. General Amino Acid metabolism",
+      "filename": "33. General Amino Acid metabolism.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/03_Biochemistry/33. General Amino Acid metabolism.mp4",
+      "duration_seconds": 2555,
+      "duration_formatted": "42m 35s",
+      "file_size": 400336960,
+      "document_id": "5816543663441842543",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 1318: Biochemistry)",
+        "chat_id": -1003264222864,
+        "topic_id": 1318,
+        "message_id": 1351,
+        "caption": "33",
+        "filename": "33_watermarked.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Lectures (Topic 2351: Biochemistry (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2351,
+        "message_id": 2384,
+        "caption": "33 General Amino Acid metabolism",
+        "filename": "33_watermarked.mp4",
+        "duration_match": true,
+        "size_match": true,
+        "notes": "Subjectwise provides canonical titles resolving My Marrow bare-number emojis; durations match exactly on all 61 lectures."
+      }
+    },
+    {
+      "lecture_no": 34,
+      "title": "34. Urea Cycle and its disorders",
+      "filename": "34. Urea Cycle and its disorders.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/03_Biochemistry/34. Urea Cycle and its disorders.mp4",
+      "duration_seconds": 2860,
+      "duration_formatted": "47m 40s",
+      "file_size": 556855957,
+      "document_id": "5816543663441842544",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 1318: Biochemistry)",
+        "chat_id": -1003264222864,
+        "topic_id": 1318,
+        "message_id": 1352,
+        "caption": "**34**",
+        "filename": "34_watermarked.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Lectures (Topic 2351: Biochemistry (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2351,
+        "message_id": 2385,
+        "caption": "34 Urea Cycle and its disorders",
+        "filename": "34_watermarked.mp4",
+        "duration_match": true,
+        "size_match": true,
+        "notes": "Subjectwise provides canonical titles resolving My Marrow bare-number emojis; durations match exactly on all 61 lectures."
+      }
+    },
+    {
+      "lecture_no": 35,
+      "title": "35. Aromatic Amino acids",
+      "filename": "35. Aromatic Amino acids.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/03_Biochemistry/35. Aromatic Amino acids.mp4",
+      "duration_seconds": 4275,
+      "duration_formatted": "1h 11m 15s",
+      "file_size": 726388373,
+      "document_id": "5816543663441842545",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 1318: Biochemistry)",
+        "chat_id": -1003264222864,
+        "topic_id": 1318,
+        "message_id": 1353,
+        "caption": "35",
+        "filename": "35_watermarked.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Lectures (Topic 2351: Biochemistry (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2351,
+        "message_id": 2386,
+        "caption": "35 Aromatic Amino acids",
+        "filename": "35_watermarked.mp4",
+        "duration_match": true,
+        "size_match": true,
+        "notes": "Subjectwise provides canonical titles resolving My Marrow bare-number emojis; durations match exactly on all 61 lectures."
+      }
+    },
+    {
+      "lecture_no": 36,
+      "title": "36. Glycine and serine",
+      "filename": "36. Glycine and serine.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/03_Biochemistry/36. Glycine and serine.mp4",
+      "duration_seconds": 2385,
+      "duration_formatted": "39m 45s",
+      "file_size": 376368321,
+      "document_id": "5816543663441842547",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 1318: Biochemistry)",
+        "chat_id": -1003264222864,
+        "topic_id": 1318,
+        "message_id": 1354,
+        "caption": "36",
+        "filename": "36_watermarked.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Lectures (Topic 2351: Biochemistry (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2351,
+        "message_id": 2387,
+        "caption": "36 Glycine and serine",
+        "filename": "36_watermarked.mp4",
+        "duration_match": true,
+        "size_match": true,
+        "notes": "Subjectwise provides canonical titles resolving My Marrow bare-number emojis; durations match exactly on all 61 lectures."
+      }
+    },
+    {
+      "lecture_no": 37,
+      "title": "37. Sulphur containing Amino acids",
+      "filename": "37. Sulphur containing Amino acids.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/03_Biochemistry/37. Sulphur containing Amino acids.mp4",
+      "duration_seconds": 4960,
+      "duration_formatted": "1h 22m 40s",
+      "file_size": 978866579,
+      "document_id": "5816543663441842548",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 1318: Biochemistry)",
+        "chat_id": -1003264222864,
+        "topic_id": 1318,
+        "message_id": 1355,
+        "caption": "37",
+        "filename": "37_watermarked.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Lectures (Topic 2351: Biochemistry (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2351,
+        "message_id": 2388,
+        "caption": "37 Sulphur containing Amino acids",
+        "filename": "37_watermarked.mp4",
+        "duration_match": true,
+        "size_match": true,
+        "notes": "Subjectwise provides canonical titles resolving My Marrow bare-number emojis; durations match exactly on all 61 lectures."
+      }
+    },
+    {
+      "lecture_no": 38,
+      "title": "38. Tryptophan",
+      "filename": "38. Tryptophan.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/03_Biochemistry/38. Tryptophan.mp4",
+      "duration_seconds": 2481,
+      "duration_formatted": "41m 21s",
+      "file_size": 362057597,
+      "document_id": "5816543663441842549",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 1318: Biochemistry)",
+        "chat_id": -1003264222864,
+        "topic_id": 1318,
+        "message_id": 1356,
+        "caption": "38",
+        "filename": "38_watermarked.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Lectures (Topic 2351: Biochemistry (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2351,
+        "message_id": 2389,
+        "caption": "38 Tryptophan",
+        "filename": "38_watermarked.mp4",
+        "duration_match": true,
+        "size_match": true,
+        "notes": "Subjectwise provides canonical titles resolving My Marrow bare-number emojis; durations match exactly on all 61 lectures."
+      }
+    },
+    {
+      "lecture_no": 39,
+      "title": "39. Branched Chain Amino acids",
+      "filename": "39. Branched Chain Amino acids.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/03_Biochemistry/39. Branched Chain Amino acids.mp4",
+      "duration_seconds": 1374,
+      "duration_formatted": "22m 54s",
+      "file_size": 235873881,
+      "document_id": "5816543663441842550",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 1318: Biochemistry)",
+        "chat_id": -1003264222864,
+        "topic_id": 1318,
+        "message_id": 1357,
+        "caption": "39",
+        "filename": "39_watermarked.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Lectures (Topic 2351: Biochemistry (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2351,
+        "message_id": 2390,
+        "caption": "39 Branched Chain Amino acids",
+        "filename": "39_watermarked.mp4",
+        "duration_match": true,
+        "size_match": true,
+        "notes": "Subjectwise provides canonical titles resolving My Marrow bare-number emojis; durations match exactly on all 61 lectures."
+      }
+    },
+    {
+      "lecture_no": 40,
+      "title": "40. Acidic and Basic Amino acids",
+      "filename": "40. Acidic and Basic Amino acids.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/03_Biochemistry/40. Acidic and Basic Amino acids.mp4",
+      "duration_seconds": 2492,
+      "duration_formatted": "41m 32s",
+      "file_size": 704392412,
+      "document_id": "5816543663441842551",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 1318: Biochemistry)",
+        "chat_id": -1003264222864,
+        "topic_id": 1318,
+        "message_id": 1358,
+        "caption": "40",
+        "filename": "40_watermarked.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Lectures (Topic 2351: Biochemistry (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2351,
+        "message_id": 2391,
+        "caption": "40 Acidic and Basic Amino acids",
+        "filename": "40_watermarked.mp4",
+        "duration_match": true,
+        "size_match": true,
+        "notes": "Subjectwise provides canonical titles resolving My Marrow bare-number emojis; durations match exactly on all 61 lectures."
+      }
+    },
+    {
+      "lecture_no": 41,
+      "title": "41. Miscellaneous Amino Acids",
+      "filename": "41. Miscellaneous Amino Acids.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/03_Biochemistry/41. Miscellaneous Amino Acids.mp4",
+      "duration_seconds": 1374,
+      "duration_formatted": "22m 54s",
+      "file_size": 167235588,
+      "document_id": "5816543663441842552",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 1318: Biochemistry)",
+        "chat_id": -1003264222864,
+        "topic_id": 1318,
+        "message_id": 1359,
+        "caption": "__41__",
+        "filename": "41_watermarked.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Lectures (Topic 2351: Biochemistry (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2351,
+        "message_id": 2392,
+        "caption": "41  Miscellaneous Amino Acids",
+        "filename": "IMG_4222.MP4",
+        "duration_match": true,
+        "size_match": false,
+        "notes": "Subjectwise provides canonical titles resolving My Marrow bare-number emojis; durations match exactly on all 61 lectures."
+      }
+    },
+    {
+      "lecture_no": 42,
+      "title": "42. Krebs Cycle",
+      "filename": "42. Krebs Cycle.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/03_Biochemistry/42. Krebs Cycle.mp4",
+      "duration_seconds": 2521,
+      "duration_formatted": "42m 1s",
+      "file_size": 455366619,
+      "document_id": "5816543663441842553",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 1318: Biochemistry)",
+        "chat_id": -1003264222864,
+        "topic_id": 1318,
+        "message_id": 1360,
+        "caption": "42",
+        "filename": "42_watermarked.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Lectures (Topic 2351: Biochemistry (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2351,
+        "message_id": 2393,
+        "caption": "42 Krebs Cycle",
+        "filename": "42_watermarked.mp4",
+        "duration_match": true,
+        "size_match": true,
+        "notes": "Subjectwise provides canonical titles resolving My Marrow bare-number emojis; durations match exactly on all 61 lectures."
+      }
+    },
+    {
+      "lecture_no": 43,
+      "title": "43. Electron Transport Chain",
+      "filename": "43. Electron Transport Chain.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/03_Biochemistry/43. Electron Transport Chain.mp4",
+      "duration_seconds": 2538,
+      "duration_formatted": "42m 18s",
+      "file_size": 433927046,
+      "document_id": "5816543663441842554",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 1318: Biochemistry)",
+        "chat_id": -1003264222864,
+        "topic_id": 1318,
+        "message_id": 1361,
+        "caption": "43",
+        "filename": "43_watermarked.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Lectures (Topic 2351: Biochemistry (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2351,
+        "message_id": 2394,
+        "caption": "43 Electron Transport Chain",
+        "filename": "43_watermarked.mp4",
+        "duration_match": true,
+        "size_match": true,
+        "notes": "Subjectwise provides canonical titles resolving My Marrow bare-number emojis; durations match exactly on all 61 lectures."
+      }
+    },
+    {
+      "lecture_no": 44,
+      "title": "44. Chemistry of Nucleotides",
+      "filename": "44. Chemistry of Nucleotides.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/03_Biochemistry/44. Chemistry of Nucleotides.mp4",
+      "duration_seconds": 1758,
+      "duration_formatted": "29m 18s",
+      "file_size": 224315516,
+      "document_id": "5818795463255527421",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 1318: Biochemistry)",
+        "chat_id": -1003264222864,
+        "topic_id": 1318,
+        "message_id": 1362,
+        "caption": "44",
+        "filename": "44_watermarked.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Lectures (Topic 2351: Biochemistry (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2351,
+        "message_id": 2395,
+        "caption": "44 Chemistry of Nucleotides",
+        "filename": "44_watermarked.mp4",
+        "duration_match": true,
+        "size_match": true,
+        "notes": "Subjectwise provides canonical titles resolving My Marrow bare-number emojis; durations match exactly on all 61 lectures."
+      }
+    },
+    {
+      "lecture_no": 45,
+      "title": "45. Metabolism of Nucleotides",
+      "filename": "45. Metabolism of Nucleotides.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/03_Biochemistry/45. Metabolism of Nucleotides.mp4",
+      "duration_seconds": 3799,
+      "duration_formatted": "1h 3m 19s",
+      "file_size": 443754124,
+      "document_id": "5818795463255527422",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 1318: Biochemistry)",
+        "chat_id": -1003264222864,
+        "topic_id": 1318,
+        "message_id": 1363,
+        "caption": "45",
+        "filename": "45_watermarked.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Lectures (Topic 2351: Biochemistry (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2351,
+        "message_id": 2396,
+        "caption": "45 Metabolism of Nucleotides",
+        "filename": "45_watermarked.mp4",
+        "duration_match": true,
+        "size_match": true,
+        "notes": "Subjectwise provides canonical titles resolving My Marrow bare-number emojis; durations match exactly on all 61 lectures."
+      }
+    },
+    {
+      "lecture_no": 46,
+      "title": "46. Structural organisation of DNA",
+      "filename": "46. Structural organisation of DNA.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/03_Biochemistry/46. Structural organisation of DNA.mp4",
+      "duration_seconds": 2584,
+      "duration_formatted": "43m 4s",
+      "file_size": 560674102,
+      "document_id": "5818795463255527423",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 1318: Biochemistry)",
+        "chat_id": -1003264222864,
+        "topic_id": 1318,
+        "message_id": 1364,
+        "caption": "46",
+        "filename": "46_watermarked.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Lectures (Topic 2351: Biochemistry (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2351,
+        "message_id": 2397,
+        "caption": "46 Structural organisation of DNA",
+        "filename": "46_watermarked.mp4",
+        "duration_match": true,
+        "size_match": true,
+        "notes": "Subjectwise provides canonical titles resolving My Marrow bare-number emojis; durations match exactly on all 61 lectures."
+      }
+    },
+    {
+      "lecture_no": 47,
+      "title": "47. DNA Replication",
+      "filename": "47. DNA Replication.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/03_Biochemistry/47. DNA Replication.mp4",
+      "duration_seconds": 3401,
+      "duration_formatted": "56m 41s",
+      "file_size": 716094905,
+      "document_id": "5818795463255527424",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 1318: Biochemistry)",
+        "chat_id": -1003264222864,
+        "topic_id": 1318,
+        "message_id": 1365,
+        "caption": "47",
+        "filename": "47_watermarked.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Lectures (Topic 2351: Biochemistry (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2351,
+        "message_id": 2398,
+        "caption": "47 DNA Replication",
+        "filename": "47_watermarked.mp4",
+        "duration_match": true,
+        "size_match": true,
+        "notes": "Subjectwise provides canonical titles resolving My Marrow bare-number emojis; durations match exactly on all 61 lectures."
+      }
+    },
+    {
+      "lecture_no": 48,
+      "title": "48. Transcription",
+      "filename": "48. Transcription.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/03_Biochemistry/48. Transcription.mp4",
+      "duration_seconds": 3402,
+      "duration_formatted": "56m 42s",
+      "file_size": 631904829,
+      "document_id": "5818795463255527425",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 1318: Biochemistry)",
+        "chat_id": -1003264222864,
+        "topic_id": 1318,
+        "message_id": 1366,
+        "caption": "48",
+        "filename": "48_watermarked.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Lectures (Topic 2351: Biochemistry (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2351,
+        "message_id": 2399,
+        "caption": "48 Transcription",
+        "filename": "48_watermarked.mp4",
+        "duration_match": true,
+        "size_match": true,
+        "notes": "Subjectwise provides canonical titles resolving My Marrow bare-number emojis; durations match exactly on all 61 lectures."
+      }
+    },
+    {
+      "lecture_no": 49,
+      "title": "49. Translation",
+      "filename": "49. Translation.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/03_Biochemistry/49. Translation.mp4",
+      "duration_seconds": 4243,
+      "duration_formatted": "1h 10m 43s",
+      "file_size": 599226943,
+      "document_id": "5818795463255527426",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 1318: Biochemistry)",
+        "chat_id": -1003264222864,
+        "topic_id": 1318,
+        "message_id": 1367,
+        "caption": "49",
+        "filename": "49_watermarked.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Lectures (Topic 2351: Biochemistry (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2351,
+        "message_id": 2400,
+        "caption": "49 Translation",
+        "filename": "49_watermarked.mp4",
+        "duration_match": true,
+        "size_match": true,
+        "notes": "Subjectwise provides canonical titles resolving My Marrow bare-number emojis; durations match exactly on all 61 lectures."
+      }
+    },
+    {
+      "lecture_no": 50,
+      "title": "50. Gene Expression",
+      "filename": "50. Gene Expression.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/03_Biochemistry/50. Gene Expression.mp4",
+      "duration_seconds": 3677,
+      "duration_formatted": "1h 1m 17s",
+      "file_size": 611624455,
+      "document_id": "5818795463255527427",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 1318: Biochemistry)",
+        "chat_id": -1003264222864,
+        "topic_id": 1318,
+        "message_id": 1368,
+        "caption": "50",
+        "filename": "50_watermarked.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Lectures (Topic 2351: Biochemistry (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2351,
+        "message_id": 2401,
+        "caption": "50  Gene Expression",
+        "filename": "IMG_4223.MP4",
+        "duration_match": true,
+        "size_match": false,
+        "notes": "Subjectwise provides canonical titles resolving My Marrow bare-number emojis; durations match exactly on all 61 lectures."
+      }
+    },
+    {
+      "lecture_no": 51,
+      "title": "51. Hybridization Techniques",
+      "filename": "51. Hybridization Techniques.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/03_Biochemistry/51. Hybridization Techniques.mp4",
+      "duration_seconds": 4061,
+      "duration_formatted": "1h 7m 41s",
+      "file_size": 923143692,
+      "document_id": "5818795463255527428",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 1318: Biochemistry)",
+        "chat_id": -1003264222864,
+        "topic_id": 1318,
+        "message_id": 1369,
+        "caption": "51",
+        "filename": "51_watermarked.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Lectures (Topic 2351: Biochemistry (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2351,
+        "message_id": 2402,
+        "caption": "51 Hybridization Techniques",
+        "filename": "51_watermarked.mp4",
+        "duration_match": true,
+        "size_match": true,
+        "notes": "Subjectwise provides canonical titles resolving My Marrow bare-number emojis; durations match exactly on all 61 lectures."
+      }
+    },
+    {
+      "lecture_no": 52,
+      "title": "52. Recombinant DNA technology",
+      "filename": "52. Recombinant DNA technology.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/03_Biochemistry/52. Recombinant DNA technology.mp4",
+      "duration_seconds": 1908,
+      "duration_formatted": "31m 48s",
+      "file_size": 526202252,
+      "document_id": "5818795463255527429",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 1318: Biochemistry)",
+        "chat_id": -1003264222864,
+        "topic_id": 1318,
+        "message_id": 1370,
+        "caption": "52",
+        "filename": "52_watermarked.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Lectures (Topic 2351: Biochemistry (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2351,
+        "message_id": 2403,
+        "caption": "52 Recombinant DNA technology",
+        "filename": "52_watermarked.mp4",
+        "duration_match": true,
+        "size_match": true,
+        "notes": "Subjectwise provides canonical titles resolving My Marrow bare-number emojis; durations match exactly on all 61 lectures."
+      }
+    },
+    {
+      "lecture_no": 53,
+      "title": "53. Polymerase Chain Reaction",
+      "filename": "53. Polymerase Chain Reaction.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/03_Biochemistry/53. Polymerase Chain Reaction.mp4",
+      "duration_seconds": 2397,
+      "duration_formatted": "39m 57s",
+      "file_size": 377656483,
+      "document_id": "5818795463255527430",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 1318: Biochemistry)",
+        "chat_id": -1003264222864,
+        "topic_id": 1318,
+        "message_id": 1371,
+        "caption": "53",
+        "filename": "53_watermarked.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Lectures (Topic 2351: Biochemistry (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2351,
+        "message_id": 2404,
+        "caption": "53 Polymerase Chain Reaction",
+        "filename": "53_watermarked.mp4",
+        "duration_match": true,
+        "size_match": true,
+        "notes": "Subjectwise provides canonical titles resolving My Marrow bare-number emojis; durations match exactly on all 61 lectures."
+      }
+    },
+    {
+      "lecture_no": 54,
+      "title": "54. DNA Sequencing",
+      "filename": "54. DNA Sequencing.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/03_Biochemistry/54. DNA Sequencing.mp4",
+      "duration_seconds": 1721,
+      "duration_formatted": "28m 41s",
+      "file_size": 455737037,
+      "document_id": "5818795463255527431",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 1318: Biochemistry)",
+        "chat_id": -1003264222864,
+        "topic_id": 1318,
+        "message_id": 1372,
+        "caption": "54",
+        "filename": "54_watermarked.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Lectures (Topic 2351: Biochemistry (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2351,
+        "message_id": 2405,
+        "caption": "54 DNA Sequencing",
+        "filename": "54_watermarked.mp4",
+        "duration_match": true,
+        "size_match": true,
+        "notes": "Subjectwise provides canonical titles resolving My Marrow bare-number emojis; durations match exactly on all 61 lectures."
+      }
+    },
+    {
+      "lecture_no": 55,
+      "title": "55. Mutation",
+      "filename": "55. Mutation.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/03_Biochemistry/55. Mutation.mp4",
+      "duration_seconds": 2399,
+      "duration_formatted": "39m 59s",
+      "file_size": 649535719,
+      "document_id": "5818795463255527432",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 1318: Biochemistry)",
+        "chat_id": -1003264222864,
+        "topic_id": 1318,
+        "message_id": 1373,
+        "caption": "55",
+        "filename": "55_watermarked.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Lectures (Topic 2351: Biochemistry (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2351,
+        "message_id": 2406,
+        "caption": "55 Mutation",
+        "filename": "55_watermarked.mp4",
+        "duration_match": true,
+        "size_match": true,
+        "notes": "Subjectwise provides canonical titles resolving My Marrow bare-number emojis; durations match exactly on all 61 lectures."
+      }
+    },
+    {
+      "lecture_no": 56,
+      "title": "56. Vitamin A",
+      "filename": "56. Vitamin A.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/03_Biochemistry/56. Vitamin A.mp4",
+      "duration_seconds": 2536,
+      "duration_formatted": "42m 16s",
+      "file_size": 510778293,
+      "document_id": "5818795463255527433",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 1318: Biochemistry)",
+        "chat_id": -1003264222864,
+        "topic_id": 1318,
+        "message_id": 1374,
+        "caption": "56",
+        "filename": "56_watermarked.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Lectures (Topic 2351: Biochemistry (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2351,
+        "message_id": 2407,
+        "caption": "56 Vitamin A",
+        "filename": "56_watermarked.mp4",
+        "duration_match": true,
+        "size_match": true,
+        "notes": "Subjectwise provides canonical titles resolving My Marrow bare-number emojis; durations match exactly on all 61 lectures."
+      }
+    },
+    {
+      "lecture_no": 57,
+      "title": "57. Vitamin D, E and K",
+      "filename": "57. Vitamin D, E and K.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/03_Biochemistry/57. Vitamin D, E and K.mp4",
+      "duration_seconds": 2652,
+      "duration_formatted": "44m 12s",
+      "file_size": 535437595,
+      "document_id": "5818795463255527434",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 1318: Biochemistry)",
+        "chat_id": -1003264222864,
+        "topic_id": 1318,
+        "message_id": 1375,
+        "caption": "57",
+        "filename": "57_watermarked.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Lectures (Topic 2351: Biochemistry (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2351,
+        "message_id": 2408,
+        "caption": "57 Vitamin D, E and K",
+        "filename": "57_watermarked.mp4",
+        "duration_match": true,
+        "size_match": true,
+        "notes": "Subjectwise provides canonical titles resolving My Marrow bare-number emojis; durations match exactly on all 61 lectures."
+      }
+    },
+    {
+      "lecture_no": 58,
+      "title": "58. Hematopoietic Vitamins",
+      "filename": "58. Hematopoietic Vitamins.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/03_Biochemistry/58. Hematopoietic Vitamins.mp4",
+      "duration_seconds": 3059,
+      "duration_formatted": "50m 59s",
+      "file_size": 536698051,
+      "document_id": "5818795463255527435",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 1318: Biochemistry)",
+        "chat_id": -1003264222864,
+        "topic_id": 1318,
+        "message_id": 1376,
+        "caption": "58",
+        "filename": "58_watermarked.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Lectures (Topic 2351: Biochemistry (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2351,
+        "message_id": 2409,
+        "caption": "58 Hematopoietic Vitamins",
+        "filename": "58_watermarked.mp4",
+        "duration_match": true,
+        "size_match": true,
+        "notes": "Subjectwise provides canonical titles resolving My Marrow bare-number emojis; durations match exactly on all 61 lectures."
+      }
+    },
+    {
+      "lecture_no": 59,
+      "title": "59. Energy Releasing Vitamins",
+      "filename": "59. Energy Releasing Vitamins.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/03_Biochemistry/59. Energy Releasing Vitamins.mp4",
+      "duration_seconds": 2720,
+      "duration_formatted": "45m 20s",
+      "file_size": 378626712,
+      "document_id": "5818795463255527436",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 1318: Biochemistry)",
+        "chat_id": -1003264222864,
+        "topic_id": 1318,
+        "message_id": 1377,
+        "caption": "59",
+        "filename": "59_watermarked.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Lectures (Topic 2351: Biochemistry (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2351,
+        "message_id": 2410,
+        "caption": "59 Energy Releasing Vitamins",
+        "filename": "59_watermarked.mp4",
+        "duration_match": true,
+        "size_match": true,
+        "notes": "Subjectwise provides canonical titles resolving My Marrow bare-number emojis; durations match exactly on all 61 lectures."
+      }
+    },
+    {
+      "lecture_no": 60,
+      "title": "60. Vitamin B6 and Vitamin C",
+      "filename": "60. Vitamin B6 and Vitamin C.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/03_Biochemistry/60. Vitamin B6 and Vitamin C.mp4",
+      "duration_seconds": 1877,
+      "duration_formatted": "31m 17s",
+      "file_size": 303287462,
+      "document_id": "5818795463255527437",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 1318: Biochemistry)",
+        "chat_id": -1003264222864,
+        "topic_id": 1318,
+        "message_id": 1378,
+        "caption": "60",
+        "filename": "60_watermarked.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Lectures (Topic 2351: Biochemistry (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2351,
+        "message_id": 2411,
+        "caption": "60 Vitamin B6 and Vitamin C",
+        "filename": "60_watermarked.mp4",
+        "duration_match": true,
+        "size_match": true,
+        "notes": "Subjectwise provides canonical titles resolving My Marrow bare-number emojis; durations match exactly on all 61 lectures."
+      }
+    },
+    {
+      "lecture_no": 61,
+      "title": "61. Heme Metabolism",
+      "filename": "61. Heme Metabolism.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/03_Biochemistry/61. Heme Metabolism.mp4",
+      "duration_seconds": 3927,
+      "duration_formatted": "1h 5m 27s",
+      "file_size": 668649938,
+      "document_id": "5818795463255527438",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 1318: Biochemistry)",
+        "chat_id": -1003264222864,
+        "topic_id": 1318,
+        "message_id": 1379,
+        "caption": "61",
+        "filename": "61_watermarked.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Lectures (Topic 2351: Biochemistry (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2351,
+        "message_id": 2412,
+        "caption": "61 Heme Metabolism",
+        "filename": "61_watermarked.mp4",
+        "duration_match": true,
+        "size_match": true,
+        "notes": "Subjectwise provides canonical titles resolving My Marrow bare-number emojis; durations match exactly on all 61 lectures."
+      }
+    }
+  ]
+}

@@ -1,18 +1,21 @@
-name: Migrate Marrow Final Year Subjects to openmedQ
+name: Migrate First Year Subjects to openmedQ
 
-# Migrates all remaining Marrow Edition 6 Final Year lectures into openmedQ SharePoint:
-#   1. Radiology (20 remaining lectures -> Aspirin_LMS/Marrow_E6/Radiology/)
-#   2. Anesthesia (22 remaining lectures -> Aspirin_LMS/Marrow_E6/Anesthesia/)
-#   3. Ophthalmology (40 lectures -> Aspirin_LMS/Marrow_E6/Ophthalmology/)
-#   4. ENT (64 lectures, including recovered Lecture 52 -> Aspirin_LMS/Marrow_E6/ENT/)
-#
-# Provenance & Verification:
-# - Radiology & Anesthesia: 100% 1:1 cross-verified with Subjectwise (-1003506593387) and My Marrow (-1003264222864).
-# - Ophthalmology: 40 contiguous canonical lectures verified across 3 channels.
-# - ENT: 64 complete lectures with recovered Lecture 52 ("Adenoid Hypertrophy") sourced from Subjectwise (topic 3102 msg 3154).
+# Migrates all First Professional Year MBBS lectures into openmedQ SharePoint:
+#   1. Anatomy (139 verified lectures -> Aspirin_LMS/eGurukul_4.0/01_Anatomy_Dr_Ashwini_Kumar/{Section}/)
+#      - Faculty: Dr. Ashwini Kumar (eGurukul 4.0 / DBMCI)
+#      - Sourced from Folderwise (topic 15033), corroborated with Subjectwise (topic 5071).
+#      - Includes 1 Master Notes PDF (Anatomy 4.0 Complete Notes).
+#   2. Physiology (61 verified lectures -> Aspirin_LMS/PrepLadder_X/Physiology/)
+#      - Faculty: Dr. Vivek Nalgirkar (PrepLadder Edition X English)
+#      - Sourced from Primary PrepX Channel (-1003709841202, msgs 116..176).
+#      - Complete 1..61 series including recovered Lecture 32 (Oxygen Transport).
+#   3. Biochemistry (61 verified lectures -> Aspirin_LMS/Marrow_E6/Biochemistry/)
+#      - Faculty: Dr. Rebecca James (Marrow Edition 6)
+#      - Sourced from My Marrow (topic 1318), canonical titles corroborated from Subjectwise (topic 2351).
 #
 # Execution:
-# Scheduled every 3 hours at minute 17 UTC (35 files/run -> completes all 146 lectures in ~5 runs).
+# Scheduled every 3 hours at minute 17 UTC (runs 150 files/batch -> completes all 261 lectures in 2 batches).
+# Concurrency lock ensures only 1 runner executes at a time to prevent Telegram rate limits.
 
 on:
   schedule:
@@ -21,25 +24,22 @@ on:
   workflow_dispatch:
     inputs:
       subject:
-        description: "Select Subject(s) to transfer"
+        description: "Select Subject(s) to transfer (or 'first_year' for all 3 subjects)"
         required: true
-        default: "final_year"
+        default: "first_year"
         type: choice
         options:
-          - "final_year"
-          - "radiology,anesthesia"
-          - "ophthalmology,ent"
-          - "radiology"
-          - "anesthesia"
-          - "ophthalmology"
-          - "ent"
+          - "first_year"
+          - "anatomy"
+          - "physiology"
+          - "biochemistry"
       batch_size:
         description: "Batch limit (number of files to transfer in this run, 0 = all remaining)"
         required: true
         default: "150"
         type: string
       dry_run:
-        description: "Dry run (test without actually transferring)"
+        description: "Dry run (test queue and existence checks without actually transferring)"
         required: true
         default: false
         type: boolean
@@ -54,7 +54,7 @@ permissions:
 
 jobs:
   transfer:
-    name: Stream Final Year Subjects to openmedQ SharePoint
+    name: Stream First Year Subjects to openmedQ SharePoint
     runs-on: ubuntu-latest
     timeout-minutes: 360 # GitHub maximum job execution time: 6 hours
 
@@ -75,9 +75,9 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Execute Marrow Final Year Transfer
+      - name: Execute First Year Transfer
         run: |
-          SUBJECT="${{ github.event.inputs.subject || 'final_year' }}"
+          SUBJECT="${{ github.event.inputs.subject || 'first_year' }}"
           BATCH_SIZE="${{ github.event.inputs.batch_size || '150' }}"
           DRY_RUN_FLAG=""
           if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
@@ -85,15 +85,14 @@ jobs:
           fi
 
           echo "=========================================================="
-          echo " Pipeline: Telegram -> openmedQ SharePoint"
-          echo " Platform: Marrow Edition 6"
-          echo " Subject:  $SUBJECT"
+          echo " Pipeline: Telegram -> openmedQ SharePoint (First Year)"
+          echo " Subject:     $SUBJECT"
           echo " Batch limit: $BATCH_SIZE"
-          echo " Target:   Aspirin_LMS/Marrow_E6/{Subject}/"
+          echo " Scope:       Anatomy (eGurukul) + Physio (PrepX) + Biochem (Marrow)"
+          echo " Target:      Aspirin_LMS/{Platform}/{Subject}/"
           echo "=========================================================="
 
           python engine/telegram_to_onedrive.py \
-            --platform marrow \
             --subject "$SUBJECT" \
             --limit "$BATCH_SIZE" \
             --videos-only \
@@ -135,7 +134,7 @@ jobs:
           node engine/sync_catalog.cjs || true
           git add engine/transfer_manifest.json public/transfer_manifest.json public/catalog.json
           if ! git diff --quiet || ! git diff --staged --quiet; then
-            git commit -m "chore: sync marrow final year manifest + catalog [skip ci]"
+            git commit -m "chore: sync first year transfer manifest + catalog [skip ci]"
             git pull --rebase -X theirs origin main || (git rebase --abort && git pull --no-edit -s recursive -X ours origin main) || true
             git push origin main || true
           fi
@@ -146,17 +145,18 @@ jobs:
           REMAINING=$(python -c "
           from engine.telegram_to_onedrive import LectureTransferEngine
           e = LectureTransferEngine(None, None, True, True)
-          q = e.load_queue('marrow', 'final_year')
+          q = e.load_queue(None, 'first_year')
           print(len(q))
           ")
           echo "Remaining lectures in queue: $REMAINING"
           if [ "$REMAINING" -gt 0 ]; then
-            echo "Queue has $REMAINING lectures remaining! Auto-triggering next batch..."
-            gh workflow run migrate_marrow_final_year.yml || true
+            echo "Queue has $REMAINING first-year lectures remaining! Auto-triggering next batch..."
+            gh workflow run migrate_first_year.yml || true
           else
             echo "=========================================================="
-            echo " All Final Year Marrow lectures have been 100% transferred!"
+            echo " All First-Year MBBS lectures have been 100% transferred!"
             echo "=========================================================="
           fi
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
