@@ -236,6 +236,17 @@ async function syncCatalog() {
     subjectMap.set(sub.id, sub);
   }
 
+  // Remove egurukul topics mistakenly placed in mod_anat_neuro
+  for (const s of catalog.subjects || []) {
+    if (s.id === 'anatomy') {
+      for (const m of s.modules || []) {
+        if (m.id === 'mod_anat_neuro') {
+          m.topics = m.topics.filter(t => t.chat_id !== -1003839992379);
+        }
+      }
+    }
+  }
+
   // Purge any skipped or incomplete topics from catalog
   for (const [key, item] of Object.entries(manifest)) {
     if (item.skipped || !item.onedrive_item_id || item.type === 'separator' || item.type === 'dummy_placeholder_skipped') {
@@ -261,7 +272,7 @@ async function syncCatalog() {
     if (!sub) continue;
 
     // Determine platform and module name
-    const platform = item.platform || (key.startsWith('mr_') ? 'marrow' : 'prepx_en');
+    const platform = item.platform || (key.startsWith('mr_') ? 'marrow' : (key.startsWith('eg_') ? 'egurukul' : 'prepx_en'));
     
     if (!sub.modules) sub.modules = [];
     let mod = null;
@@ -282,6 +293,16 @@ async function syncCatalog() {
         mod = {
           id: `mod_cerebellum_${subId}`,
           name: `Cerebellum Academy - ${sub.name}`,
+          topics: [],
+        };
+        sub.modules.push(mod);
+      }
+    } else if (platform === 'egurukul') {
+      mod = sub.modules.find((m) => m.id === `mod_egurukul_${subId}` || m.name.includes('eGurukul'));
+      if (!mod) {
+        mod = {
+          id: `mod_egurukul_${subId}`,
+          name: `eGurukul 4.0 - ${sub.name} (Dr. Ashwini Kumar)`,
           topics: [],
         };
         sub.modules.push(mod);
