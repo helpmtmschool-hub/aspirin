@@ -1,0 +1,1206 @@
+{
+  "subject": "Microbiology",
+  "faculty": "PrepLadder X Faculty",
+  "platform": "PrepLadder Edition X (English)",
+  "total_lectures": 52,
+  "total_size_bytes": 15545358582,
+  "total_duration_seconds": 144752,
+  "lectures": [
+    {
+      "lecture_no": 1,
+      "title": "01. Microbiology and Pathology INICET May 2025",
+      "filename": "01. Microbiology and Pathology INICET May 2025.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/04_Microbiology/01. Microbiology and Pathology INICET May 2025.mp4",
+      "duration_seconds": 2242,
+      "duration_formatted": "37m 22s",
+      "file_size": 128548896,
+      "document_id": "5877598908477085249",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 392,
+        "filename": "1. Microbiology and Pathology INICET May 2025.mp4",
+        "caption": "01. Microbiology and Pathology INICET May 2025.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 389)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..52 against Folderwise (range 25272..25324) and Subjectwise Topic 389."
+      }
+    },
+    {
+      "lecture_no": 2,
+      "title": "02. Scientists and Stains",
+      "filename": "02. Scientists and Stains.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/04_Microbiology/02. Scientists and Stains.mp4",
+      "duration_seconds": 3416,
+      "duration_formatted": "56m 56s",
+      "file_size": 368036326,
+      "document_id": "5877598908477085266",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 393,
+        "filename": "2. Scientists and Stains.mp4",
+        "caption": "02. Scientists and Stains.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 389)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..52 against Folderwise (range 25272..25324) and Subjectwise Topic 389."
+      }
+    },
+    {
+      "lecture_no": 3,
+      "title": "03. Microscopes",
+      "filename": "03. Microscopes.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/04_Microbiology/03. Microscopes.mp4",
+      "duration_seconds": 2478,
+      "duration_formatted": "41m 18s",
+      "file_size": 192397483,
+      "document_id": "5877598908477085284",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 394,
+        "filename": "3. Microscopes.mp4",
+        "caption": "03. Microscopes.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 389)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..52 against Folderwise (range 25272..25324) and Subjectwise Topic 389."
+      }
+    },
+    {
+      "lecture_no": 4,
+      "title": "04. Bacterial Anatomy",
+      "filename": "04. Bacterial Anatomy.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/04_Microbiology/04. Bacterial Anatomy.mp4",
+      "duration_seconds": 4193,
+      "duration_formatted": "1h 9m 53s",
+      "file_size": 475000106,
+      "document_id": "5877598908477085286",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 395,
+        "filename": "4. Bacterial Anatomy.mp4",
+        "caption": "04. Bacterial Anatomy.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 389)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..52 against Folderwise (range 25272..25324) and Subjectwise Topic 389."
+      }
+    },
+    {
+      "lecture_no": 5,
+      "title": "05. Bacterial Shapes And Physiology",
+      "filename": "05. Bacterial Shapes And Physiology.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/04_Microbiology/05. Bacterial Shapes And Physiology.mp4",
+      "duration_seconds": 1690,
+      "duration_formatted": "28m 10s",
+      "file_size": 165553957,
+      "document_id": "5877598908477085287",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 396,
+        "filename": "5. Bacterial Shapes And Physiology.mp4",
+        "caption": "05. Bacterial Shapes And Physiology.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 389)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..52 against Folderwise (range 25272..25324) and Subjectwise Topic 389."
+      }
+    },
+    {
+      "lecture_no": 6,
+      "title": "06. Bacterial Genetics",
+      "filename": "06. Bacterial Genetics.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/04_Microbiology/06. Bacterial Genetics.mp4",
+      "duration_seconds": 3819,
+      "duration_formatted": "1h 3m 39s",
+      "file_size": 358483057,
+      "document_id": "5877598908477085288",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 397,
+        "filename": "6. Bacterial Genetics.mp4",
+        "caption": "06. Bacterial Genetics.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 389)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..52 against Folderwise (range 25272..25324) and Subjectwise Topic 389."
+      }
+    },
+    {
+      "lecture_no": 7,
+      "title": "07. Culture Media",
+      "filename": "07. Culture Media.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/04_Microbiology/07. Culture Media.mp4",
+      "duration_seconds": 3858,
+      "duration_formatted": "1h 4m 18s",
+      "file_size": 394351754,
+      "document_id": "5877598908477085289",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 398,
+        "filename": "7. Culture Media.mp4",
+        "caption": "07. Culture Media.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 389)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..52 against Folderwise (range 25272..25324) and Subjectwise Topic 389."
+      }
+    },
+    {
+      "lecture_no": 8,
+      "title": "08. Sterilization and Disinfection",
+      "filename": "08. Sterilization and Disinfection.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/04_Microbiology/08. Sterilization and Disinfection.mp4",
+      "duration_seconds": 5242,
+      "duration_formatted": "1h 27m 22s",
+      "file_size": 488487815,
+      "document_id": "5877598908477085290",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 399,
+        "filename": "8. Sterilization and Disinfection.mp4",
+        "caption": "08. Sterilization and Disinfection.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 389)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..52 against Folderwise (range 25272..25324) and Subjectwise Topic 389."
+      }
+    },
+    {
+      "lecture_no": 9,
+      "title": "09. Bacteriology",
+      "filename": "09. Bacteriology.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/04_Microbiology/09. Bacteriology.mp4",
+      "duration_seconds": 3160,
+      "duration_formatted": "52m 40s",
+      "file_size": 378079464,
+      "document_id": "5877598908477085291",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 400,
+        "filename": "9. Bacteriology.mp4",
+        "caption": "09. Bacteriology.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 389)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..52 against Folderwise (range 25272..25324) and Subjectwise Topic 389."
+      }
+    },
+    {
+      "lecture_no": 10,
+      "title": "10. Streptococcaceae",
+      "filename": "10. Streptococcaceae.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/04_Microbiology/10. Streptococcaceae.mp4",
+      "duration_seconds": 2730,
+      "duration_formatted": "45m 30s",
+      "file_size": 328385674,
+      "document_id": "5877598908477085251",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 401,
+        "filename": "10. Streptococcaceae.mp4",
+        "caption": "10. Streptococcaceae.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 389)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..52 against Folderwise (range 25272..25324) and Subjectwise Topic 389."
+      }
+    },
+    {
+      "lecture_no": 11,
+      "title": "11. Neisseria",
+      "filename": "11. Neisseria.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/04_Microbiology/11. Neisseria.mp4",
+      "duration_seconds": 1106,
+      "duration_formatted": "18m 26s",
+      "file_size": 136583264,
+      "document_id": "5877598908477085252",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 402,
+        "filename": "11. Neisseria.mp4",
+        "caption": "11. Neisseria.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 389)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..52 against Folderwise (range 25272..25324) and Subjectwise Topic 389."
+      }
+    },
+    {
+      "lecture_no": 12,
+      "title": "12. Corynebacterium, Filamentous Bacteria, Listeria and Erysipelothrix",
+      "filename": "12. Corynebacterium, Filamentous Bacteria, Listeria and Erysipelothrix.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/04_Microbiology/12. Corynebacterium, Filamentous Bacteria, Listeria and Erysipelothrix.mp4",
+      "duration_seconds": 3601,
+      "duration_formatted": "1h 0m 1s",
+      "file_size": 390244826,
+      "document_id": "5877598908477085253",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 403,
+        "filename": "12. Corynebacterium, Filamentous Bacteria, Listeria and Ery.mp4",
+        "caption": "12. Corynebacterium, Filamentous Bacteria, Listeria and Erysipelothrix.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 389)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..52 against Folderwise (range 25272..25324) and Subjectwise Topic 389."
+      }
+    },
+    {
+      "lecture_no": 13,
+      "title": "13. Spore Forming Bacteria",
+      "filename": "13. Spore Forming Bacteria.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/04_Microbiology/13. Spore Forming Bacteria.mp4",
+      "duration_seconds": 4694,
+      "duration_formatted": "1h 18m 14s",
+      "file_size": 515785244,
+      "document_id": "5877598908477085255",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 404,
+        "filename": "13. Spore Forming Bacteria.mp4",
+        "caption": "13. Spore Forming Bacteria.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 389)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..52 against Folderwise (range 25272..25324) and Subjectwise Topic 389."
+      }
+    },
+    {
+      "lecture_no": 14,
+      "title": "14. Mycobacteria",
+      "filename": "14. Mycobacteria.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/04_Microbiology/14. Mycobacteria.mp4",
+      "duration_seconds": 5065,
+      "duration_formatted": "1h 24m 25s",
+      "file_size": 471622774,
+      "document_id": "5877598908477085256",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 405,
+        "filename": "14. Mycobacteria.mp4",
+        "caption": "14. Mycobacteria.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 389)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..52 against Folderwise (range 25272..25324) and Subjectwise Topic 389."
+      }
+    },
+    {
+      "lecture_no": 15,
+      "title": "15. Rickettsiae",
+      "filename": "15. Rickettsiae.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/04_Microbiology/15. Rickettsiae.mp4",
+      "duration_seconds": 2076,
+      "duration_formatted": "34m 36s",
+      "file_size": 256494400,
+      "document_id": "5877598908477085257",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 406,
+        "filename": "15. Rickettsiae.mp4",
+        "caption": "15. Rickettsiae.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 389)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..52 against Folderwise (range 25272..25324) and Subjectwise Topic 389."
+      }
+    },
+    {
+      "lecture_no": 16,
+      "title": "16. Escherichia Coli and Shigella",
+      "filename": "16. Escherichia Coli and Shigella.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/04_Microbiology/16. Escherichia Coli and Shigella.mp4",
+      "duration_seconds": 3004,
+      "duration_formatted": "50m 4s",
+      "file_size": 266462911,
+      "document_id": "5877598908477085260",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 407,
+        "filename": "16. Escherichia Coli & Shigella.mp4",
+        "caption": "16. Escherichia Coli & Shigella.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 389)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..52 against Folderwise (range 25272..25324) and Subjectwise Topic 389."
+      }
+    },
+    {
+      "lecture_no": 17,
+      "title": "17. Klebsiella- Proteus- Yersinia- Salmonella",
+      "filename": "17. Klebsiella- Proteus- Yersinia- Salmonella.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/04_Microbiology/17. Klebsiella- Proteus- Yersinia- Salmonella.mp4",
+      "duration_seconds": 4873,
+      "duration_formatted": "1h 21m 13s",
+      "file_size": 474012616,
+      "document_id": "5877598908477085262",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 408,
+        "filename": "17. Klebsiella- Proteus- Yersinia- Salmonella.mp4",
+        "caption": "17. Klebsiella- Proteus- Yersinia- Salmonella.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 389)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..52 against Folderwise (range 25272..25324) and Subjectwise Topic 389."
+      }
+    },
+    {
+      "lecture_no": 18,
+      "title": "18. Vibrio and Non Fermenters",
+      "filename": "18. Vibrio and Non Fermenters.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/04_Microbiology/18. Vibrio and Non Fermenters.mp4",
+      "duration_seconds": 3235,
+      "duration_formatted": "53m 55s",
+      "file_size": 326645142,
+      "document_id": "5877598908477085263",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 409,
+        "filename": "18. Vibrio and Non Fermenters.mp4",
+        "caption": "18. Vibrio and Non Fermenters.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 389)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..52 against Folderwise (range 25272..25324) and Subjectwise Topic 389."
+      }
+    },
+    {
+      "lecture_no": 19,
+      "title": "19. HBB (Hemophilus, Bordetella and Brucella)",
+      "filename": "19. HBB (Hemophilus, Bordetella and Brucella).mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/04_Microbiology/19. HBB (Hemophilus, Bordetella and Brucella).mp4",
+      "duration_seconds": 2305,
+      "duration_formatted": "38m 25s",
+      "file_size": 335348317,
+      "document_id": "5877598908477085264",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 410,
+        "filename": "19. HBB (Hemophilus, Bordetella and Brucella).mp4",
+        "caption": "19. HBB (Hemophilus, Bordetella and Brucella).mp4"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 389)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..52 against Folderwise (range 25272..25324) and Subjectwise Topic 389."
+      }
+    },
+    {
+      "lecture_no": 20,
+      "title": "20. Spirochetes",
+      "filename": "20. Spirochetes.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/04_Microbiology/20. Spirochetes.mp4",
+      "duration_seconds": 3135,
+      "duration_formatted": "52m 15s",
+      "file_size": 524806390,
+      "document_id": "5877598908477085267",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 411,
+        "filename": "20. Spirochetes.mp4",
+        "caption": "20. Spirochetes.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 389)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..52 against Folderwise (range 25272..25324) and Subjectwise Topic 389."
+      }
+    },
+    {
+      "lecture_no": 21,
+      "title": "21. Chlamydia",
+      "filename": "21. Chlamydia.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/04_Microbiology/21. Chlamydia.mp4",
+      "duration_seconds": 920,
+      "duration_formatted": "15m 20s",
+      "file_size": 129442926,
+      "document_id": "5877598908477085268",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 412,
+        "filename": "21. Chlamydia.mp4",
+        "caption": "21. Chlamydia.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 389)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..52 against Folderwise (range 25272..25324) and Subjectwise Topic 389."
+      }
+    },
+    {
+      "lecture_no": 22,
+      "title": "22. Miscellaneous Bacteria",
+      "filename": "22. Miscellaneous Bacteria.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/04_Microbiology/22. Miscellaneous Bacteria.mp4",
+      "duration_seconds": 1801,
+      "duration_formatted": "30m 1s",
+      "file_size": 234549370,
+      "document_id": "5877598908477085270",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 413,
+        "filename": "22. Miscellaneous Bacteria.mp4",
+        "caption": "22. Miscellaneous Bacteria.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 389)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..52 against Folderwise (range 25272..25324) and Subjectwise Topic 389."
+      }
+    },
+    {
+      "lecture_no": 23,
+      "title": "23. Virology General Properties",
+      "filename": "23. Virology General Properties.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/04_Microbiology/23. Virology General Properties.mp4",
+      "duration_seconds": 2948,
+      "duration_formatted": "49m 8s",
+      "file_size": 299112538,
+      "document_id": "5877598908477085271",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 414,
+        "filename": "23. Virology General Properties.mp4",
+        "caption": "23. Virology General Properties.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 389)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..52 against Folderwise (range 25272..25324) and Subjectwise Topic 389."
+      }
+    },
+    {
+      "lecture_no": 24,
+      "title": "24. Herpesviridae",
+      "filename": "24. Herpesviridae.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/04_Microbiology/24. Herpesviridae.mp4",
+      "duration_seconds": 2615,
+      "duration_formatted": "43m 35s",
+      "file_size": 259648601,
+      "document_id": "5877598908477085274",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 415,
+        "filename": "24. Herpesviridae.mp4",
+        "caption": "24. Herpesviridae.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 389)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..52 against Folderwise (range 25272..25324) and Subjectwise Topic 389."
+      }
+    },
+    {
+      "lecture_no": 25,
+      "title": "25. Parvoviridae- Poxviridae- Adenovirus",
+      "filename": "25. Parvoviridae- Poxviridae- Adenovirus.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/04_Microbiology/25. Parvoviridae- Poxviridae- Adenovirus.mp4",
+      "duration_seconds": 2466,
+      "duration_formatted": "41m 6s",
+      "file_size": 223090835,
+      "document_id": "5877598908477085277",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 416,
+        "filename": "25. Parvoviridae- Poxviridae- Adenovirus.mp4",
+        "caption": "25. Parvoviridae- Poxviridae- Adenovirus.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 389)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..52 against Folderwise (range 25272..25324) and Subjectwise Topic 389."
+      }
+    },
+    {
+      "lecture_no": 26,
+      "title": "26. Hepatitis",
+      "filename": "26. Hepatitis.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/04_Microbiology/26. Hepatitis.mp4",
+      "duration_seconds": 3098,
+      "duration_formatted": "51m 38s",
+      "file_size": 224476672,
+      "document_id": "5877598908477085278",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 417,
+        "filename": "26. Hepatitis.mp4",
+        "caption": "26. Hepatitis.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 389)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..52 against Folderwise (range 25272..25324) and Subjectwise Topic 389."
+      }
+    },
+    {
+      "lecture_no": 27,
+      "title": "27. Myxovirus",
+      "filename": "27. Myxovirus.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/04_Microbiology/27. Myxovirus.mp4",
+      "duration_seconds": 3063,
+      "duration_formatted": "51m 3s",
+      "file_size": 313940467,
+      "document_id": "5877598908477085279",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 418,
+        "filename": "27. Myxovirus.mp4",
+        "caption": "27. Myxovirus.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 389)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..52 against Folderwise (range 25272..25324) and Subjectwise Topic 389."
+      }
+    },
+    {
+      "lecture_no": 28,
+      "title": "28. Picornaviridae",
+      "filename": "28. Picornaviridae.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/04_Microbiology/28. Picornaviridae.mp4",
+      "duration_seconds": 1290,
+      "duration_formatted": "21m 30s",
+      "file_size": 100929057,
+      "document_id": "5877598908477085280",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 419,
+        "filename": "28. Picornaviridae.mp4",
+        "caption": "28. Picornaviridae.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 389)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..52 against Folderwise (range 25272..25324) and Subjectwise Topic 389."
+      }
+    },
+    {
+      "lecture_no": 29,
+      "title": "29. Rhabdoviridae",
+      "filename": "29. Rhabdoviridae.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/04_Microbiology/29. Rhabdoviridae.mp4",
+      "duration_seconds": 1528,
+      "duration_formatted": "25m 28s",
+      "file_size": 150616464,
+      "document_id": "5877598908477085283",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 420,
+        "filename": "29. Rhabdoviridae.mp4",
+        "caption": "29. Rhabdoviridae.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 389)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..52 against Folderwise (range 25272..25324) and Subjectwise Topic 389."
+      }
+    },
+    {
+      "lecture_no": 30,
+      "title": "30. Arboviridae",
+      "filename": "30. Arboviridae.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/04_Microbiology/30. Arboviridae.mp4",
+      "duration_seconds": 2615,
+      "duration_formatted": "43m 35s",
+      "file_size": 452266241,
+      "document_id": "5877598908477085285",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 421,
+        "filename": "30. Arboviridae.mp4",
+        "caption": "30. Arboviridae.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 389)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..52 against Folderwise (range 25272..25324) and Subjectwise Topic 389."
+      }
+    },
+    {
+      "lecture_no": 31,
+      "title": "31. Retroviridae",
+      "filename": "31. Retroviridae.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/04_Microbiology/31. Retroviridae.mp4",
+      "duration_seconds": 2755,
+      "duration_formatted": "45m 55s",
+      "file_size": 380398756,
+      "document_id": "5877598908477085383",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 422,
+        "filename": "31. Retroviridae.mp4",
+        "caption": "31. Retroviridae.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 389)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..52 against Folderwise (range 25272..25324) and Subjectwise Topic 389."
+      }
+    },
+    {
+      "lecture_no": 32,
+      "title": "32. Miscellaneous RNA Viruses",
+      "filename": "32. Miscellaneous RNA Viruses.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/04_Microbiology/32. Miscellaneous RNA Viruses.mp4",
+      "duration_seconds": 623,
+      "duration_formatted": "10m 23s",
+      "file_size": 88966503,
+      "document_id": "5877598908477085384",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 423,
+        "filename": "32. Miscellaneous RNA Viruses.mp4",
+        "caption": "32. Miscellaneous RNA Viruses.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 389)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..52 against Folderwise (range 25272..25324) and Subjectwise Topic 389."
+      }
+    },
+    {
+      "lecture_no": 33,
+      "title": "33. COVID 19",
+      "filename": "33. COVID 19.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/04_Microbiology/33. COVID 19.mp4",
+      "duration_seconds": 1395,
+      "duration_formatted": "23m 15s",
+      "file_size": 119655505,
+      "document_id": "5877598908477085385",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 424,
+        "filename": "33. COVID 19.mp4",
+        "caption": "33. COVID 19.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 389)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..52 against Folderwise (range 25272..25324) and Subjectwise Topic 389."
+      }
+    },
+    {
+      "lecture_no": 34,
+      "title": "34. Introduction and Classification",
+      "filename": "34. Introduction and Classification.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/04_Microbiology/34. Introduction and Classification.mp4",
+      "duration_seconds": 1994,
+      "duration_formatted": "33m 14s",
+      "file_size": 199862302,
+      "document_id": "5877598908477085386",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 425,
+        "filename": "34. Introduction and Classification.mp4",
+        "caption": "34. Introduction and Classification.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 389)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..52 against Folderwise (range 25272..25324) and Subjectwise Topic 389."
+      }
+    },
+    {
+      "lecture_no": 35,
+      "title": "35. Superficial and Subcutaneous Mycosis",
+      "filename": "35. Superficial and Subcutaneous Mycosis.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/04_Microbiology/35. Superficial and Subcutaneous Mycosis.mp4",
+      "duration_seconds": 2720,
+      "duration_formatted": "45m 20s",
+      "file_size": 310799966,
+      "document_id": "5877598908477085387",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 426,
+        "filename": "35. Superficial and Subcutaneous Mycosis.mp4",
+        "caption": "35. Superficial and Subcutaneous Mycosis.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 389)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..52 against Folderwise (range 25272..25324) and Subjectwise Topic 389."
+      }
+    },
+    {
+      "lecture_no": 36,
+      "title": "36. Dimorphic Fungus",
+      "filename": "36. Dimorphic Fungus.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/04_Microbiology/36. Dimorphic Fungus.mp4",
+      "duration_seconds": 1409,
+      "duration_formatted": "23m 29s",
+      "file_size": 150157219,
+      "document_id": "5877598908477085388",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 427,
+        "filename": "36. Dimorphic Fungus.mp4",
+        "caption": "36. Dimorphic Fungus.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 389)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..52 against Folderwise (range 25272..25324) and Subjectwise Topic 389."
+      }
+    },
+    {
+      "lecture_no": 37,
+      "title": "37. Opportunistic Infections",
+      "filename": "37. Opportunistic Infections.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/04_Microbiology/37. Opportunistic Infections.mp4",
+      "duration_seconds": 3332,
+      "duration_formatted": "55m 32s",
+      "file_size": 340925739,
+      "document_id": "5877598908477085389",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 428,
+        "filename": "37. Opportunistic Infections.mp4",
+        "caption": "37. Opportunistic Infections.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 389)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..52 against Folderwise (range 25272..25324) and Subjectwise Topic 389."
+      }
+    },
+    {
+      "lecture_no": 38,
+      "title": "38. Classification of Amoeba",
+      "filename": "38. Classification of Amoeba.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/04_Microbiology/38. Classification of Amoeba.mp4",
+      "duration_seconds": 2615,
+      "duration_formatted": "43m 35s",
+      "file_size": 253605240,
+      "document_id": "5877598908477085390",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 429,
+        "filename": "38. Classification of Amoeba.mp4",
+        "caption": "38. Classification of Amoeba.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 389)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..52 against Folderwise (range 25272..25324) and Subjectwise Topic 389."
+      }
+    },
+    {
+      "lecture_no": 39,
+      "title": "39. Flagellates and Hemoflagellates",
+      "filename": "39. Flagellates and Hemoflagellates.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/04_Microbiology/39. Flagellates and Hemoflagellates.mp4",
+      "duration_seconds": 3460,
+      "duration_formatted": "57m 40s",
+      "file_size": 340361379,
+      "document_id": "5877598908477085392",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 430,
+        "filename": "39. Flagellates and Hemoflagellates.mp4",
+        "caption": "39. Flagellates and Hemoflagellates.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 389)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..52 against Folderwise (range 25272..25324) and Subjectwise Topic 389."
+      }
+    },
+    {
+      "lecture_no": 40,
+      "title": "40. Coccidian Parasites",
+      "filename": "40. Coccidian Parasites.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/04_Microbiology/40. Coccidian Parasites.mp4",
+      "duration_seconds": 1814,
+      "duration_formatted": "30m 14s",
+      "file_size": 234945155,
+      "document_id": "5877598908477085393",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 431,
+        "filename": "40. Coccidian Parasites.mp4",
+        "caption": "40. Coccidian Parasites.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 389)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..52 against Folderwise (range 25272..25324) and Subjectwise Topic 389."
+      }
+    },
+    {
+      "lecture_no": 41,
+      "title": "41. Haematozoa (Plasmodium and Babesia)",
+      "filename": "41. Haematozoa (Plasmodium and Babesia).mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/04_Microbiology/41. Haematozoa (Plasmodium and Babesia).mp4",
+      "duration_seconds": 3035,
+      "duration_formatted": "50m 35s",
+      "file_size": 302049216,
+      "document_id": "5877598908477085394",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 432,
+        "filename": "41. Haematozoa (Plasmodium and Babesia).mp4",
+        "caption": "41. Haematozoa (Plasmodium and Babesia).mp4"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 389)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..52 against Folderwise (range 25272..25324) and Subjectwise Topic 389."
+      }
+    },
+    {
+      "lecture_no": 42,
+      "title": "42. Definitions and Techniques in Parasitology and Cestodes",
+      "filename": "42. Definitions and Techniques in Parasitology and Cestodes.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/04_Microbiology/42. Definitions and Techniques in Parasitology and Cestodes.mp4",
+      "duration_seconds": 3416,
+      "duration_formatted": "56m 56s",
+      "file_size": 409083561,
+      "document_id": "5877598908477085395",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 433,
+        "filename": "42. Definitions and Techniques in Parasitology and Cestodes.mp4",
+        "caption": "42. Definitions and Techniques in Parasitology and Cestodes.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 389)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..52 against Folderwise (range 25272..25324) and Subjectwise Topic 389."
+      }
+    },
+    {
+      "lecture_no": 43,
+      "title": "43. Trematodes",
+      "filename": "43. Trematodes.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/04_Microbiology/43. Trematodes.mp4",
+      "duration_seconds": 1914,
+      "duration_formatted": "31m 54s",
+      "file_size": 238026087,
+      "document_id": "5877598908477085396",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 434,
+        "filename": "43. Trematodes.mp4",
+        "caption": "43. Trematodes.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 389)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..52 against Folderwise (range 25272..25324) and Subjectwise Topic 389."
+      }
+    },
+    {
+      "lecture_no": 44,
+      "title": "44. Nematodes",
+      "filename": "44. Nematodes.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/04_Microbiology/44. Nematodes.mp4",
+      "duration_seconds": 4460,
+      "duration_formatted": "1h 14m 20s",
+      "file_size": 508188580,
+      "document_id": "5877598908477085397",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 435,
+        "filename": "44. Nematodes.mp4",
+        "caption": "44. Nematodes.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 389)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..52 against Folderwise (range 25272..25324) and Subjectwise Topic 389."
+      }
+    },
+    {
+      "lecture_no": 45,
+      "title": "45. Immunity",
+      "filename": "45. Immunity.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/04_Microbiology/45. Immunity.mp4",
+      "duration_seconds": 4118,
+      "duration_formatted": "1h 8m 38s",
+      "file_size": 422410889,
+      "document_id": "5877598908477085398",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 436,
+        "filename": "45. Immunity.mp4",
+        "caption": "45. Immunity.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 389)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..52 against Folderwise (range 25272..25324) and Subjectwise Topic 389."
+      }
+    },
+    {
+      "lecture_no": 46,
+      "title": "46. Immunodeficiency Disorders",
+      "filename": "46. Immunodeficiency Disorders.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/04_Microbiology/46. Immunodeficiency Disorders.mp4",
+      "duration_seconds": 2159,
+      "duration_formatted": "35m 59s",
+      "file_size": 197170651,
+      "document_id": "5877598908477085399",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 437,
+        "filename": "46. Immunodeficiency Disorders.mp4",
+        "caption": "46. Immunodeficiency Disorders.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 389)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..52 against Folderwise (range 25272..25324) and Subjectwise Topic 389."
+      }
+    },
+    {
+      "lecture_no": 47,
+      "title": "47. Types of Hypersensitivity Reactions",
+      "filename": "47. Types of Hypersensitivity Reactions.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/04_Microbiology/47. Types of Hypersensitivity Reactions.mp4",
+      "duration_seconds": 2171,
+      "duration_formatted": "36m 11s",
+      "file_size": 226121932,
+      "document_id": "5877598908477085400",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 438,
+        "filename": "47. Types of Hypersensitivity Reactions.mp4",
+        "caption": "47. Types of Hypersensitivity Reactions.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 389)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..52 against Folderwise (range 25272..25324) and Subjectwise Topic 389."
+      }
+    },
+    {
+      "lecture_no": 48,
+      "title": "48. Tolerance and Autoimmune disorders",
+      "filename": "48. Tolerance and Autoimmune disorders.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/04_Microbiology/48. Tolerance and Autoimmune disorders.mp4",
+      "duration_seconds": 3672,
+      "duration_formatted": "1h 1m 12s",
+      "file_size": 362141274,
+      "document_id": "5877598908477085403",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 439,
+        "filename": "48. Tolerance and Autoimmune disorders.mp4",
+        "caption": "48. Tolerance and Autoimmune disorders.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 389)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..52 against Folderwise (range 25272..25324) and Subjectwise Topic 389."
+      }
+    },
+    {
+      "lecture_no": 49,
+      "title": "49. Antigen and Antibody",
+      "filename": "49. Antigen and Antibody.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/04_Microbiology/49. Antigen and Antibody.mp4",
+      "duration_seconds": 2981,
+      "duration_formatted": "49m 41s",
+      "file_size": 407313896,
+      "document_id": "5877598908477085405",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 440,
+        "filename": "49. Antigen and Antibody.mp4",
+        "caption": "49. Antigen and Antibody.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 389)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..52 against Folderwise (range 25272..25324) and Subjectwise Topic 389."
+      }
+    },
+    {
+      "lecture_no": 50,
+      "title": "50. Antigen Antibody Reactions",
+      "filename": "50. Antigen Antibody Reactions.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/04_Microbiology/50. Antigen Antibody Reactions.mp4",
+      "duration_seconds": 2488,
+      "duration_formatted": "41m 28s",
+      "file_size": 306219507,
+      "document_id": "5877598908477085406",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 441,
+        "filename": "50. Antigen Antibody Reactions.mp4",
+        "caption": "50. Antigen Antibody Reactions.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 389)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..52 against Folderwise (range 25272..25324) and Subjectwise Topic 389."
+      }
+    },
+    {
+      "lecture_no": 51,
+      "title": "51. Transplant Immunology",
+      "filename": "51. Transplant Immunology.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/04_Microbiology/51. Transplant Immunology.mp4",
+      "duration_seconds": 1895,
+      "duration_formatted": "31m 35s",
+      "file_size": 165540356,
+      "document_id": "5877598908477085407",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 442,
+        "filename": "51. Transplant Immunology.mp4",
+        "caption": "51. Transplant Immunology.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 389)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..52 against Folderwise (range 25272..25324) and Subjectwise Topic 389."
+      }
+    },
+    {
+      "lecture_no": 52,
+      "title": "52. Standard and Transmission Based Precautions",
+      "filename": "52. Standard and Transmission Based Precautions.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/04_Microbiology/52. Standard and Transmission Based Precautions.mp4",
+      "duration_seconds": 2060,
+      "duration_formatted": "34m 20s",
+      "file_size": 218011282,
+      "document_id": "5877598908477085408",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 443,
+        "filename": "52. Standard and Transmission Based Precautions.mp4",
+        "caption": "52. Standard and Transmission Based Precautions.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 389)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..52 against Folderwise (range 25272..25324) and Subjectwise Topic 389."
+      }
+    }
+  ]
+}

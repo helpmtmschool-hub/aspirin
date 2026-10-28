@@ -1,0 +1,1885 @@
+{
+  "subject": "Pharmacology",
+  "faculty": "Dr. Gobind Rai Garg (GRG sir)",
+  "platform": "Cerebellum Academy",
+  "total_items": 72,
+  "video_lectures_count": 71,
+  "has_notes_pdf": true,
+  "total_size_bytes": 25880760273,
+  "total_duration_seconds": 211879,
+  "lectures": [
+    {
+      "global_order": 1,
+      "section_slug": "00_Orientation_Strategy",
+      "section_name": "Orientation & Strategy",
+      "section_lecture_no": 1,
+      "title": "01. About The Faculty",
+      "filename": "01. About The Faculty.mp4",
+      "destination_path": "/Aspirin_LMS/06_Cerebellum/03_Pharmacology_Dr_GRG/00_Orientation_Strategy/01. About The Faculty.mp4",
+      "duration_seconds": 125,
+      "duration_formatted": "2m 5s",
+      "file_size": 31753447,
+      "document_id": "6017078589889977555",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 2866,
+        "filename": "About The Faculty English  Uploaded By 👉 @Cerebellumvide.mp4",
+        "caption": "About The Faculty English"
+      },
+      "corroboration": {
+        "channel_name": "Dedicated GRG Channel (-1002138638940) & Folderwise Topic 46021",
+        "chat_id": -1003839992379,
+        "topic_id": 46021,
+        "notes": "Verified against Cerebellum Main Videos topic 46021 (msgs 46506..46577) and dedicated GRG channel."
+      }
+    },
+    {
+      "global_order": 2,
+      "section_slug": "00_Orientation_Strategy",
+      "section_name": "Orientation & Strategy",
+      "section_lecture_no": 2,
+      "title": "02. How To Use The App!",
+      "filename": "02. How To Use The App!.mp4",
+      "destination_path": "/Aspirin_LMS/06_Cerebellum/03_Pharmacology_Dr_GRG/00_Orientation_Strategy/02. How To Use The App!.mp4",
+      "duration_seconds": 429,
+      "duration_formatted": "7m 9s",
+      "file_size": 64453191,
+      "document_id": "6017078589889977556",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 2867,
+        "filename": "How_To_Use_The_App!_English_Uploaded_By_👉_@Cerebellumvi.mp4",
+        "caption": "How To Use The App! English"
+      },
+      "corroboration": {
+        "channel_name": "Dedicated GRG Channel (-1002138638940) & Folderwise Topic 46021",
+        "chat_id": -1003839992379,
+        "topic_id": 46021,
+        "notes": "Verified against Cerebellum Main Videos topic 46021 (msgs 46506..46577) and dedicated GRG channel."
+      }
+    },
+    {
+      "global_order": 3,
+      "section_slug": "00_Orientation_Strategy",
+      "section_name": "Orientation & Strategy",
+      "section_lecture_no": 3,
+      "title": "03. Life Story of Dr. GRG",
+      "filename": "03. Life Story of Dr. GRG.mp4",
+      "destination_path": "/Aspirin_LMS/06_Cerebellum/03_Pharmacology_Dr_GRG/00_Orientation_Strategy/03. Life Story of Dr. GRG.mp4",
+      "duration_seconds": 2617,
+      "duration_formatted": "43m 37s",
+      "file_size": 289174609,
+      "document_id": "6017078589889977662",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 2868,
+        "filename": "Life Story of Dr. GRG  Uploaded By 👉 @Cerebellumvideos_b.mp4",
+        "caption": "Life Story of Dr. GRG"
+      },
+      "corroboration": {
+        "channel_name": "Dedicated GRG Channel (-1002138638940) & Folderwise Topic 46021",
+        "chat_id": -1003839992379,
+        "topic_id": 46021,
+        "notes": "Verified against Cerebellum Main Videos topic 46021 (msgs 46506..46577) and dedicated GRG channel."
+      }
+    },
+    {
+      "global_order": 4,
+      "section_slug": "00_Orientation_Strategy",
+      "section_name": "Orientation & Strategy",
+      "section_lecture_no": 4,
+      "title": "04. Motivation and Strategy",
+      "filename": "04. Motivation and Strategy.mp4",
+      "destination_path": "/Aspirin_LMS/06_Cerebellum/03_Pharmacology_Dr_GRG/00_Orientation_Strategy/04. Motivation and Strategy.mp4",
+      "duration_seconds": 2035,
+      "duration_formatted": "33m 55s",
+      "file_size": 199980225,
+      "document_id": "6017078589889977663",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 2869,
+        "filename": "Motivation and Strategy  Uploaded By 👉 @Cerebellumvideos.mp4",
+        "caption": "Motivation and Strategy"
+      },
+      "corroboration": {
+        "channel_name": "Dedicated GRG Channel (-1002138638940) & Folderwise Topic 46021",
+        "chat_id": -1003839992379,
+        "topic_id": 46021,
+        "notes": "Verified against Cerebellum Main Videos topic 46021 (msgs 46506..46577) and dedicated GRG channel."
+      }
+    },
+    {
+      "global_order": 5,
+      "section_slug": "01_General_Pharmacology",
+      "section_name": "General Pharmacology",
+      "section_lecture_no": 1,
+      "title": "01. Introduction and Routes of Drug Administration",
+      "filename": "01. Introduction and Routes of Drug Administration.mp4",
+      "destination_path": "/Aspirin_LMS/06_Cerebellum/03_Pharmacology_Dr_GRG/01_General_Pharmacology/01. Introduction and Routes of Drug Administration.mp4",
+      "duration_seconds": 1788,
+      "duration_formatted": "29m 48s",
+      "file_size": 168901591,
+      "document_id": "6017078589889977557",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 2870,
+        "filename": "Introduction_and_Routes_of_Drug_Administration_English_ .mp4",
+        "caption": "Introduction and Routes of Drug Administration English"
+      },
+      "corroboration": {
+        "channel_name": "Dedicated GRG Channel (-1002138638940) & Folderwise Topic 46021",
+        "chat_id": -1003839992379,
+        "topic_id": 46021,
+        "notes": "Verified against Cerebellum Main Videos topic 46021 (msgs 46506..46577) and dedicated GRG channel."
+      }
+    },
+    {
+      "global_order": 6,
+      "section_slug": "01_General_Pharmacology",
+      "section_name": "General Pharmacology",
+      "section_lecture_no": 2,
+      "title": "02. Pharmacokinetics Absorption",
+      "filename": "02. Pharmacokinetics Absorption.mp4",
+      "destination_path": "/Aspirin_LMS/06_Cerebellum/03_Pharmacology_Dr_GRG/01_General_Pharmacology/02. Pharmacokinetics Absorption.mp4",
+      "duration_seconds": 3360,
+      "duration_formatted": "56m 0s",
+      "file_size": 338393887,
+      "document_id": "6017078589889977558",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 2871,
+        "filename": "Pharmacokinetics Absorption English  Uploaded By 👉 @Cere.mp4",
+        "caption": "Pharmacokinetics Absorption English"
+      },
+      "corroboration": {
+        "channel_name": "Dedicated GRG Channel (-1002138638940) & Folderwise Topic 46021",
+        "chat_id": -1003839992379,
+        "topic_id": 46021,
+        "notes": "Verified against Cerebellum Main Videos topic 46021 (msgs 46506..46577) and dedicated GRG channel."
+      }
+    },
+    {
+      "global_order": 7,
+      "section_slug": "01_General_Pharmacology",
+      "section_name": "General Pharmacology",
+      "section_lecture_no": 3,
+      "title": "03. Pharmacokinetics Distribution",
+      "filename": "03. Pharmacokinetics Distribution.mp4",
+      "destination_path": "/Aspirin_LMS/06_Cerebellum/03_Pharmacology_Dr_GRG/01_General_Pharmacology/03. Pharmacokinetics Distribution.mp4",
+      "duration_seconds": 2368,
+      "duration_formatted": "39m 28s",
+      "file_size": 219732073,
+      "document_id": "6017078589889977560",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 2872,
+        "filename": "Pharmacokinetics Distribution English  Uploaded By 👉 @Ce.mp4",
+        "caption": "Pharmacokinetics Distribution English"
+      },
+      "corroboration": {
+        "channel_name": "Dedicated GRG Channel (-1002138638940) & Folderwise Topic 46021",
+        "chat_id": -1003839992379,
+        "topic_id": 46021,
+        "notes": "Verified against Cerebellum Main Videos topic 46021 (msgs 46506..46577) and dedicated GRG channel."
+      }
+    },
+    {
+      "global_order": 8,
+      "section_slug": "01_General_Pharmacology",
+      "section_name": "General Pharmacology",
+      "section_lecture_no": 4,
+      "title": "04. Pharmacokinetics Metabolism",
+      "filename": "04. Pharmacokinetics Metabolism.mp4",
+      "destination_path": "/Aspirin_LMS/06_Cerebellum/03_Pharmacology_Dr_GRG/01_General_Pharmacology/04. Pharmacokinetics Metabolism.mp4",
+      "duration_seconds": 2560,
+      "duration_formatted": "42m 40s",
+      "file_size": 229139673,
+      "document_id": "6017078589889977561",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 2873,
+        "filename": "Pharmacokinetics Metabolism English  Uploaded By 👉 @Cere.mp4",
+        "caption": "Pharmacokinetics Metabolism English"
+      },
+      "corroboration": {
+        "channel_name": "Dedicated GRG Channel (-1002138638940) & Folderwise Topic 46021",
+        "chat_id": -1003839992379,
+        "topic_id": 46021,
+        "notes": "Verified against Cerebellum Main Videos topic 46021 (msgs 46506..46577) and dedicated GRG channel."
+      }
+    },
+    {
+      "global_order": 9,
+      "section_slug": "01_General_Pharmacology",
+      "section_name": "General Pharmacology",
+      "section_lecture_no": 5,
+      "title": "05. Pharmacokinetics Excretion",
+      "filename": "05. Pharmacokinetics Excretion.mp4",
+      "destination_path": "/Aspirin_LMS/06_Cerebellum/03_Pharmacology_Dr_GRG/01_General_Pharmacology/05. Pharmacokinetics Excretion.mp4",
+      "duration_seconds": 1209,
+      "duration_formatted": "20m 9s",
+      "file_size": 109528707,
+      "document_id": "6017078589889977562",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 2874,
+        "filename": "Pharmacokinetics Excretion English  Uploaded By 👉 @Cereb.mp4",
+        "caption": "Pharmacokinetics Excretion English"
+      },
+      "corroboration": {
+        "channel_name": "Dedicated GRG Channel (-1002138638940) & Folderwise Topic 46021",
+        "chat_id": -1003839992379,
+        "topic_id": 46021,
+        "notes": "Verified against Cerebellum Main Videos topic 46021 (msgs 46506..46577) and dedicated GRG channel."
+      }
+    },
+    {
+      "global_order": 10,
+      "section_slug": "01_General_Pharmacology",
+      "section_name": "General Pharmacology",
+      "section_lecture_no": 6,
+      "title": "06. Kinetics of Elimination",
+      "filename": "06. Kinetics of Elimination.mp4",
+      "destination_path": "/Aspirin_LMS/06_Cerebellum/03_Pharmacology_Dr_GRG/01_General_Pharmacology/06. Kinetics of Elimination.mp4",
+      "duration_seconds": 3322,
+      "duration_formatted": "55m 22s",
+      "file_size": 297925463,
+      "document_id": "6017078589889977563",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 2875,
+        "filename": "Kinetics of Elimination English  Uploaded By 👉 @Cerebell.mp4",
+        "caption": "Kinetics of Elimination English"
+      },
+      "corroboration": {
+        "channel_name": "Dedicated GRG Channel (-1002138638940) & Folderwise Topic 46021",
+        "chat_id": -1003839992379,
+        "topic_id": 46021,
+        "notes": "Verified against Cerebellum Main Videos topic 46021 (msgs 46506..46577) and dedicated GRG channel."
+      }
+    },
+    {
+      "global_order": 11,
+      "section_slug": "01_General_Pharmacology",
+      "section_name": "General Pharmacology",
+      "section_lecture_no": 7,
+      "title": "07. Pharmacodynamics Introduction and Enzyme Inhibitors",
+      "filename": "07. Pharmacodynamics Introduction and Enzyme Inhibitors.mp4",
+      "destination_path": "/Aspirin_LMS/06_Cerebellum/03_Pharmacology_Dr_GRG/01_General_Pharmacology/07. Pharmacodynamics Introduction and Enzyme Inhibitors.mp4",
+      "duration_seconds": 779,
+      "duration_formatted": "12m 59s",
+      "file_size": 80573257,
+      "document_id": "6017078589889977564",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 2876,
+        "filename": "Pharmacodynamics_Introduction_and_Enzyme_inhibitors_Engl.mp4",
+        "caption": "Pharmacodynamics Introduction and Enzyme inhibitors English"
+      },
+      "corroboration": {
+        "channel_name": "Dedicated GRG Channel (-1002138638940) & Folderwise Topic 46021",
+        "chat_id": -1003839992379,
+        "topic_id": 46021,
+        "notes": "Verified against Cerebellum Main Videos topic 46021 (msgs 46506..46577) and dedicated GRG channel."
+      }
+    },
+    {
+      "global_order": 12,
+      "section_slug": "01_General_Pharmacology",
+      "section_name": "General Pharmacology",
+      "section_lecture_no": 8,
+      "title": "08. Pharmacodynamics Receptors",
+      "filename": "08. Pharmacodynamics Receptors.mp4",
+      "destination_path": "/Aspirin_LMS/06_Cerebellum/03_Pharmacology_Dr_GRG/01_General_Pharmacology/08. Pharmacodynamics Receptors.mp4",
+      "duration_seconds": 3160,
+      "duration_formatted": "52m 40s",
+      "file_size": 282783924,
+      "document_id": "6017078589889977565",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 2877,
+        "filename": "Pharmacodynamics Receptors English  Uploaded By 👉 @Cereb.mp4",
+        "caption": "Pharmacodynamics Receptors English"
+      },
+      "corroboration": {
+        "channel_name": "Dedicated GRG Channel (-1002138638940) & Folderwise Topic 46021",
+        "chat_id": -1003839992379,
+        "topic_id": 46021,
+        "notes": "Verified against Cerebellum Main Videos topic 46021 (msgs 46506..46577) and dedicated GRG channel."
+      }
+    },
+    {
+      "global_order": 13,
+      "section_slug": "01_General_Pharmacology",
+      "section_name": "General Pharmacology",
+      "section_lecture_no": 9,
+      "title": "09. Dose Response Curve",
+      "filename": "09. Dose Response Curve.mp4",
+      "destination_path": "/Aspirin_LMS/06_Cerebellum/03_Pharmacology_Dr_GRG/01_General_Pharmacology/09. Dose Response Curve.mp4",
+      "duration_seconds": 2100,
+      "duration_formatted": "35m 0s",
+      "file_size": 201933596,
+      "document_id": "6017078589889977566",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 2878,
+        "filename": "Dose Response Curve English (2)  Uploaded By 👉 @Cerebell.mp4",
+        "caption": "Dose Response Curve English (2)"
+      },
+      "corroboration": {
+        "channel_name": "Dedicated GRG Channel (-1002138638940) & Folderwise Topic 46021",
+        "chat_id": -1003839992379,
+        "topic_id": 46021,
+        "notes": "Verified against Cerebellum Main Videos topic 46021 (msgs 46506..46577) and dedicated GRG channel."
+      }
+    },
+    {
+      "global_order": 14,
+      "section_slug": "01_General_Pharmacology",
+      "section_name": "General Pharmacology",
+      "section_lecture_no": 10,
+      "title": "10. Clinical Trials and Pharmacovigilance",
+      "filename": "10. Clinical Trials and Pharmacovigilance.mp4",
+      "destination_path": "/Aspirin_LMS/06_Cerebellum/03_Pharmacology_Dr_GRG/01_General_Pharmacology/10. Clinical Trials and Pharmacovigilance.mp4",
+      "duration_seconds": 3721,
+      "duration_formatted": "1h 2m 1s",
+      "file_size": 386532773,
+      "document_id": "6017078589889977568",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 2879,
+        "filename": "Clinical Trials and Pharmacovigilance English  Uploaded .mp4",
+        "caption": "Clinical Trials and Pharmacovigilance English"
+      },
+      "corroboration": {
+        "channel_name": "Dedicated GRG Channel (-1002138638940) & Folderwise Topic 46021",
+        "chat_id": -1003839992379,
+        "topic_id": 46021,
+        "notes": "Verified against Cerebellum Main Videos topic 46021 (msgs 46506..46577) and dedicated GRG channel."
+      }
+    },
+    {
+      "global_order": 15,
+      "section_slug": "01_General_Pharmacology",
+      "section_name": "General Pharmacology",
+      "section_lecture_no": 11,
+      "title": "11. Factors Affecting Drug Action",
+      "filename": "11. Factors Affecting Drug Action.mp4",
+      "destination_path": "/Aspirin_LMS/06_Cerebellum/03_Pharmacology_Dr_GRG/01_General_Pharmacology/11. Factors Affecting Drug Action.mp4",
+      "duration_seconds": 1695,
+      "duration_formatted": "28m 15s",
+      "file_size": 225272493,
+      "document_id": "6017078589889977570",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 2880,
+        "filename": "Factors affecting Drug Action English  Uploaded By 👉 @Ce.mp4",
+        "caption": "Factors affecting Drug Action English"
+      },
+      "corroboration": {
+        "channel_name": "Dedicated GRG Channel (-1002138638940) & Folderwise Topic 46021",
+        "chat_id": -1003839992379,
+        "topic_id": 46021,
+        "notes": "Verified against Cerebellum Main Videos topic 46021 (msgs 46506..46577) and dedicated GRG channel."
+      }
+    },
+    {
+      "global_order": 16,
+      "section_slug": "01_General_Pharmacology",
+      "section_name": "General Pharmacology",
+      "section_lecture_no": 12,
+      "title": "12. Combined Effect of Drugs",
+      "filename": "12. Combined Effect of Drugs.mp4",
+      "destination_path": "/Aspirin_LMS/06_Cerebellum/03_Pharmacology_Dr_GRG/01_General_Pharmacology/12. Combined Effect of Drugs.mp4",
+      "duration_seconds": 924,
+      "duration_formatted": "15m 24s",
+      "file_size": 116991618,
+      "document_id": "6017078589889977571",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 2881,
+        "filename": "Combined Effect of Drugs English  Uploaded By 👉 @Cerebel.mp4",
+        "caption": "Combined Effect of Drugs English"
+      },
+      "corroboration": {
+        "channel_name": "Dedicated GRG Channel (-1002138638940) & Folderwise Topic 46021",
+        "chat_id": -1003839992379,
+        "topic_id": 46021,
+        "notes": "Verified against Cerebellum Main Videos topic 46021 (msgs 46506..46577) and dedicated GRG channel."
+      }
+    },
+    {
+      "global_order": 17,
+      "section_slug": "01_General_Pharmacology",
+      "section_name": "General Pharmacology",
+      "section_lecture_no": 13,
+      "title": "13. Practicals in General Pharmacology",
+      "filename": "13. Practicals in General Pharmacology.mp4",
+      "destination_path": "/Aspirin_LMS/06_Cerebellum/03_Pharmacology_Dr_GRG/01_General_Pharmacology/13. Practicals in General Pharmacology.mp4",
+      "duration_seconds": 1531,
+      "duration_formatted": "25m 31s",
+      "file_size": 170316476,
+      "document_id": "6017078589889977572",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 2882,
+        "filename": "Practicals in General Pharmacology English  Uploaded By .mp4",
+        "caption": "Practicals in General Pharmacology English"
+      },
+      "corroboration": {
+        "channel_name": "Dedicated GRG Channel (-1002138638940) & Folderwise Topic 46021",
+        "chat_id": -1003839992379,
+        "topic_id": 46021,
+        "notes": "Verified against Cerebellum Main Videos topic 46021 (msgs 46506..46577) and dedicated GRG channel."
+      }
+    },
+    {
+      "global_order": 18,
+      "section_slug": "02_Autonomic_Nervous_System",
+      "section_name": "Autonomic Nervous System (ANS)",
+      "section_lecture_no": 14,
+      "title": "14. Basics and Cholinergic Drugs",
+      "filename": "14. Basics and Cholinergic Drugs.mp4",
+      "destination_path": "/Aspirin_LMS/06_Cerebellum/03_Pharmacology_Dr_GRG/02_Autonomic_Nervous_System/14. Basics and Cholinergic Drugs.mp4",
+      "duration_seconds": 6533,
+      "duration_formatted": "1h 48m 53s",
+      "file_size": 822797866,
+      "document_id": "6017078589889977574",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 2883,
+        "filename": "Basics and Cholinergic Drugs English  Uploaded By 👉 @Cer.mp4",
+        "caption": "Basics and Cholinergic Drugs English"
+      },
+      "corroboration": {
+        "channel_name": "Dedicated GRG Channel (-1002138638940) & Folderwise Topic 46021",
+        "chat_id": -1003839992379,
+        "topic_id": 46021,
+        "notes": "Verified against Cerebellum Main Videos topic 46021 (msgs 46506..46577) and dedicated GRG channel."
+      }
+    },
+    {
+      "global_order": 19,
+      "section_slug": "02_Autonomic_Nervous_System",
+      "section_name": "Autonomic Nervous System (ANS)",
+      "section_lecture_no": 15,
+      "title": "15. Anti-Cholinergic Drugs",
+      "filename": "15. Anti-Cholinergic Drugs.mp4",
+      "destination_path": "/Aspirin_LMS/06_Cerebellum/03_Pharmacology_Dr_GRG/02_Autonomic_Nervous_System/15. Anti-Cholinergic Drugs.mp4",
+      "duration_seconds": 3507,
+      "duration_formatted": "58m 27s",
+      "file_size": 500949908,
+      "document_id": "6017078589889977575",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 2884,
+        "filename": "Anti-cholinergic Drugs English  Uploaded By 👉 @Cerebellu.mp4",
+        "caption": "Anti-cholinergic Drugs English"
+      },
+      "corroboration": {
+        "channel_name": "Dedicated GRG Channel (-1002138638940) & Folderwise Topic 46021",
+        "chat_id": -1003839992379,
+        "topic_id": 46021,
+        "notes": "Verified against Cerebellum Main Videos topic 46021 (msgs 46506..46577) and dedicated GRG channel."
+      }
+    },
+    {
+      "global_order": 20,
+      "section_slug": "02_Autonomic_Nervous_System",
+      "section_name": "Autonomic Nervous System (ANS)",
+      "section_lecture_no": 16,
+      "title": "16. Adrenergic Drugs",
+      "filename": "16. Adrenergic Drugs.mp4",
+      "destination_path": "/Aspirin_LMS/06_Cerebellum/03_Pharmacology_Dr_GRG/02_Autonomic_Nervous_System/16. Adrenergic Drugs.mp4",
+      "duration_seconds": 10222,
+      "duration_formatted": "2h 50m 22s",
+      "file_size": 1396139045,
+      "document_id": "6017078589889977576",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 2885,
+        "filename": "Adrenergic Drugs English  Uploaded By 👉 @Cerebellumvideo.mp4",
+        "caption": "Adrenergic Drugs English"
+      },
+      "corroboration": {
+        "channel_name": "Dedicated GRG Channel (-1002138638940) & Folderwise Topic 46021",
+        "chat_id": -1003839992379,
+        "topic_id": 46021,
+        "notes": "Verified against Cerebellum Main Videos topic 46021 (msgs 46506..46577) and dedicated GRG channel."
+      }
+    },
+    {
+      "global_order": 21,
+      "section_slug": "02_Autonomic_Nervous_System",
+      "section_name": "Autonomic Nervous System (ANS)",
+      "section_lecture_no": 17,
+      "title": "17. Anti-Adrenergic Drugs",
+      "filename": "17. Anti-Adrenergic Drugs.mp4",
+      "destination_path": "/Aspirin_LMS/06_Cerebellum/03_Pharmacology_Dr_GRG/02_Autonomic_Nervous_System/17. Anti-Adrenergic Drugs.mp4",
+      "duration_seconds": 5184,
+      "duration_formatted": "1h 26m 24s",
+      "file_size": 886009330,
+      "document_id": "6017078589889977578",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 2886,
+        "filename": "Anti-Adrenergic Drugs English  Uploaded By 👉 @Cerebellum.mp4",
+        "caption": "Anti-Adrenergic Drugs English"
+      },
+      "corroboration": {
+        "channel_name": "Dedicated GRG Channel (-1002138638940) & Folderwise Topic 46021",
+        "chat_id": -1003839992379,
+        "topic_id": 46021,
+        "notes": "Verified against Cerebellum Main Videos topic 46021 (msgs 46506..46577) and dedicated GRG channel."
+      }
+    },
+    {
+      "global_order": 22,
+      "section_slug": "02_Autonomic_Nervous_System",
+      "section_name": "Autonomic Nervous System (ANS)",
+      "section_lecture_no": 18,
+      "title": "18. Glaucoma",
+      "filename": "18. Glaucoma.mp4",
+      "destination_path": "/Aspirin_LMS/06_Cerebellum/03_Pharmacology_Dr_GRG/02_Autonomic_Nervous_System/18. Glaucoma.mp4",
+      "duration_seconds": 1363,
+      "duration_formatted": "22m 43s",
+      "file_size": 210147703,
+      "document_id": "6017078589889977580",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 2887,
+        "filename": "Glaucoma English  Uploaded By 👉 @Cerebellumvideos_bot.mp4",
+        "caption": "Glaucoma English"
+      },
+      "corroboration": {
+        "channel_name": "Dedicated GRG Channel (-1002138638940) & Folderwise Topic 46021",
+        "chat_id": -1003839992379,
+        "topic_id": 46021,
+        "notes": "Verified against Cerebellum Main Videos topic 46021 (msgs 46506..46577) and dedicated GRG channel."
+      }
+    },
+    {
+      "global_order": 23,
+      "section_slug": "02_Autonomic_Nervous_System",
+      "section_name": "Autonomic Nervous System (ANS)",
+      "section_lecture_no": 19,
+      "title": "19. Practicals in ANS",
+      "filename": "19. Practicals in ANS.mp4",
+      "destination_path": "/Aspirin_LMS/06_Cerebellum/03_Pharmacology_Dr_GRG/02_Autonomic_Nervous_System/19. Practicals in ANS.mp4",
+      "duration_seconds": 1590,
+      "duration_formatted": "26m 30s",
+      "file_size": 249771719,
+      "document_id": "6017078589889977581",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 2888,
+        "filename": "Practicals in ANS English  Uploaded By 👉 @Cerebellumvide.mp4",
+        "caption": "Practicals in ANS English"
+      },
+      "corroboration": {
+        "channel_name": "Dedicated GRG Channel (-1002138638940) & Folderwise Topic 46021",
+        "chat_id": -1003839992379,
+        "topic_id": 46021,
+        "notes": "Verified against Cerebellum Main Videos topic 46021 (msgs 46506..46577) and dedicated GRG channel."
+      }
+    },
+    {
+      "global_order": 24,
+      "section_slug": "03_Autacoids_Inflammation",
+      "section_name": "Autacoids & Inflammation",
+      "section_lecture_no": 20,
+      "title": "20. Histamine and Serotonin",
+      "filename": "20. Histamine and Serotonin.mp4",
+      "destination_path": "/Aspirin_LMS/06_Cerebellum/03_Pharmacology_Dr_GRG/03_Autacoids_Inflammation/20. Histamine and Serotonin.mp4",
+      "duration_seconds": 2476,
+      "duration_formatted": "41m 16s",
+      "file_size": 284446985,
+      "document_id": "6017078589889977667",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 2932,
+        "filename": "Histamine and Serotonin English  Uploaded By 👉 @Cerebell.mp4",
+        "caption": "Histamine and Serotonin English"
+      },
+      "corroboration": {
+        "channel_name": "Dedicated GRG Channel (-1002138638940) & Folderwise Topic 46021",
+        "chat_id": -1003839992379,
+        "topic_id": 46021,
+        "notes": "Verified against Cerebellum Main Videos topic 46021 (msgs 46506..46577) and dedicated GRG channel."
+      }
+    },
+    {
+      "global_order": 25,
+      "section_slug": "03_Autacoids_Inflammation",
+      "section_name": "Autacoids & Inflammation",
+      "section_lecture_no": 21,
+      "title": "21. Migraine",
+      "filename": "21. Migraine.mp4",
+      "destination_path": "/Aspirin_LMS/06_Cerebellum/03_Pharmacology_Dr_GRG/03_Autacoids_Inflammation/21. Migraine.mp4",
+      "duration_seconds": 1197,
+      "duration_formatted": "19m 57s",
+      "file_size": 129122602,
+      "document_id": "6017078589889977582",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 2889,
+        "filename": "Migraine English  Uploaded By 👉 @Cerebellumvideos_bot.mp4",
+        "caption": "Migraine English"
+      },
+      "corroboration": {
+        "channel_name": "Dedicated GRG Channel (-1002138638940) & Folderwise Topic 46021",
+        "chat_id": -1003839992379,
+        "topic_id": 46021,
+        "notes": "Verified against Cerebellum Main Videos topic 46021 (msgs 46506..46577) and dedicated GRG channel."
+      }
+    },
+    {
+      "global_order": 26,
+      "section_slug": "03_Autacoids_Inflammation",
+      "section_name": "Autacoids & Inflammation",
+      "section_lecture_no": 22,
+      "title": "22. PG and NSAIDs",
+      "filename": "22. PG and NSAIDs.mp4",
+      "destination_path": "/Aspirin_LMS/06_Cerebellum/03_Pharmacology_Dr_GRG/03_Autacoids_Inflammation/22. PG and NSAIDs.mp4",
+      "duration_seconds": 4585,
+      "duration_formatted": "1h 16m 25s",
+      "file_size": 572035136,
+      "document_id": "6017078589889977583",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 2890,
+        "filename": "PG and NSAIDs English  Uploaded By 👉 @Cerebellumvideos_b.mp4",
+        "caption": "PG and NSAIDs English"
+      },
+      "corroboration": {
+        "channel_name": "Dedicated GRG Channel (-1002138638940) & Folderwise Topic 46021",
+        "chat_id": -1003839992379,
+        "topic_id": 46021,
+        "notes": "Verified against Cerebellum Main Videos topic 46021 (msgs 46506..46577) and dedicated GRG channel."
+      }
+    },
+    {
+      "global_order": 27,
+      "section_slug": "03_Autacoids_Inflammation",
+      "section_name": "Autacoids & Inflammation",
+      "section_lecture_no": 23,
+      "title": "23. Gout and Rheumatoid Arthritis",
+      "filename": "23. Gout and Rheumatoid Arthritis.mp4",
+      "destination_path": "/Aspirin_LMS/06_Cerebellum/03_Pharmacology_Dr_GRG/03_Autacoids_Inflammation/23. Gout and Rheumatoid Arthritis.mp4",
+      "duration_seconds": 3570,
+      "duration_formatted": "59m 30s",
+      "file_size": 441291502,
+      "document_id": "6017078589889977585",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 2891,
+        "filename": "Gout and Rheumatoid Arthritis English  Uploaded By 👉 @Ce.mp4",
+        "caption": "Gout and Rheumatoid Arthritis English"
+      },
+      "corroboration": {
+        "channel_name": "Dedicated GRG Channel (-1002138638940) & Folderwise Topic 46021",
+        "chat_id": -1003839992379,
+        "topic_id": 46021,
+        "notes": "Verified against Cerebellum Main Videos topic 46021 (msgs 46506..46577) and dedicated GRG channel."
+      }
+    },
+    {
+      "global_order": 28,
+      "section_slug": "04_Cardiovascular_System",
+      "section_name": "Cardiovascular System (CVS)",
+      "section_lecture_no": 24,
+      "title": "24. Congestive Heart Failure",
+      "filename": "24. Congestive Heart Failure.mp4",
+      "destination_path": "/Aspirin_LMS/06_Cerebellum/03_Pharmacology_Dr_GRG/04_Cardiovascular_System/24. Congestive Heart Failure.mp4",
+      "duration_seconds": 6368,
+      "duration_formatted": "1h 46m 8s",
+      "file_size": 1039161407,
+      "document_id": "6017078589889977586",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 2892,
+        "filename": "Congestive Heart Failure English  Uploaded By 👉 @Cerebel.mp4",
+        "caption": "Congestive Heart Failure English"
+      },
+      "corroboration": {
+        "channel_name": "Dedicated GRG Channel (-1002138638940) & Folderwise Topic 46021",
+        "chat_id": -1003839992379,
+        "topic_id": 46021,
+        "notes": "Verified against Cerebellum Main Videos topic 46021 (msgs 46506..46577) and dedicated GRG channel."
+      }
+    },
+    {
+      "global_order": 29,
+      "section_slug": "04_Cardiovascular_System",
+      "section_name": "Cardiovascular System (CVS)",
+      "section_lecture_no": 25,
+      "title": "25. Ischemic Heart Disease",
+      "filename": "25. Ischemic Heart Disease.mp4",
+      "destination_path": "/Aspirin_LMS/06_Cerebellum/03_Pharmacology_Dr_GRG/04_Cardiovascular_System/25. Ischemic Heart Disease.mp4",
+      "duration_seconds": 3691,
+      "duration_formatted": "1h 1m 31s",
+      "file_size": 467522751,
+      "document_id": "6017078589889977589",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 2893,
+        "filename": "Ischemic Heart Disease English  Uploaded By 👉 @Cerebellu.mp4",
+        "caption": "Ischemic Heart Disease English"
+      },
+      "corroboration": {
+        "channel_name": "Dedicated GRG Channel (-1002138638940) & Folderwise Topic 46021",
+        "chat_id": -1003839992379,
+        "topic_id": 46021,
+        "notes": "Verified against Cerebellum Main Videos topic 46021 (msgs 46506..46577) and dedicated GRG channel."
+      }
+    },
+    {
+      "global_order": 30,
+      "section_slug": "04_Cardiovascular_System",
+      "section_name": "Cardiovascular System (CVS)",
+      "section_lecture_no": 26,
+      "title": "26. Drug Used in Hypertension",
+      "filename": "26. Drug Used in Hypertension.mp4",
+      "destination_path": "/Aspirin_LMS/06_Cerebellum/03_Pharmacology_Dr_GRG/04_Cardiovascular_System/26. Drug Used in Hypertension.mp4",
+      "duration_seconds": 4080,
+      "duration_formatted": "1h 8m 0s",
+      "file_size": 500695639,
+      "document_id": "6017078589889977592",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 2894,
+        "filename": "Drug Used in Hypertension English  Uploaded By 👉 @Cerebe.mp4",
+        "caption": "Drug Used in Hypertension English"
+      },
+      "corroboration": {
+        "channel_name": "Dedicated GRG Channel (-1002138638940) & Folderwise Topic 46021",
+        "chat_id": -1003839992379,
+        "topic_id": 46021,
+        "notes": "Verified against Cerebellum Main Videos topic 46021 (msgs 46506..46577) and dedicated GRG channel."
+      }
+    },
+    {
+      "global_order": 31,
+      "section_slug": "04_Cardiovascular_System",
+      "section_name": "Cardiovascular System (CVS)",
+      "section_lecture_no": 27,
+      "title": "27. Anti-Arrhythmic Drugs",
+      "filename": "27. Anti-Arrhythmic Drugs.mp4",
+      "destination_path": "/Aspirin_LMS/06_Cerebellum/03_Pharmacology_Dr_GRG/04_Cardiovascular_System/27. Anti-Arrhythmic Drugs.mp4",
+      "duration_seconds": 2753,
+      "duration_formatted": "45m 53s",
+      "file_size": 326658247,
+      "document_id": "6017078589889977596",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 2895,
+        "filename": "Anti-Arrhythmic Drugs English  Uploaded By 👉 @Cerebellum.mp4",
+        "caption": "Anti-Arrhythmic Drugs English"
+      },
+      "corroboration": {
+        "channel_name": "Dedicated GRG Channel (-1002138638940) & Folderwise Topic 46021",
+        "chat_id": -1003839992379,
+        "topic_id": 46021,
+        "notes": "Verified against Cerebellum Main Videos topic 46021 (msgs 46506..46577) and dedicated GRG channel."
+      }
+    },
+    {
+      "global_order": 32,
+      "section_slug": "04_Cardiovascular_System",
+      "section_name": "Cardiovascular System (CVS)",
+      "section_lecture_no": 28,
+      "title": "28. Anti-Dyslipidemic",
+      "filename": "28. Anti-Dyslipidemic.mp4",
+      "destination_path": "/Aspirin_LMS/06_Cerebellum/03_Pharmacology_Dr_GRG/04_Cardiovascular_System/28. Anti-Dyslipidemic.mp4",
+      "duration_seconds": 2830,
+      "duration_formatted": "47m 10s",
+      "file_size": 291482707,
+      "document_id": "6017078589889977597",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 2896,
+        "filename": "Anti-Dyslipidemic English  Uploaded By 👉 @Cerebellumvide.mp4",
+        "caption": "Anti-Dyslipidemic English"
+      },
+      "corroboration": {
+        "channel_name": "Dedicated GRG Channel (-1002138638940) & Folderwise Topic 46021",
+        "chat_id": -1003839992379,
+        "topic_id": 46021,
+        "notes": "Verified against Cerebellum Main Videos topic 46021 (msgs 46506..46577) and dedicated GRG channel."
+      }
+    },
+    {
+      "global_order": 33,
+      "section_slug": "05_Renal_System",
+      "section_name": "Renal System",
+      "section_lecture_no": 29,
+      "title": "29. Diuretics",
+      "filename": "29. Diuretics.mp4",
+      "destination_path": "/Aspirin_LMS/06_Cerebellum/03_Pharmacology_Dr_GRG/05_Renal_System/29. Diuretics.mp4",
+      "duration_seconds": 3365,
+      "duration_formatted": "56m 5s",
+      "file_size": 421998771,
+      "document_id": "6017078589889977598",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 2897,
+        "filename": "Diuretics English  Uploaded By 👉 @Cerebellumvideos_bot.mp4",
+        "caption": "Diuretics English"
+      },
+      "corroboration": {
+        "channel_name": "Dedicated GRG Channel (-1002138638940) & Folderwise Topic 46021",
+        "chat_id": -1003839992379,
+        "topic_id": 46021,
+        "notes": "Verified against Cerebellum Main Videos topic 46021 (msgs 46506..46577) and dedicated GRG channel."
+      }
+    },
+    {
+      "global_order": 34,
+      "section_slug": "06_Endocrine_System",
+      "section_name": "Endocrine System",
+      "section_lecture_no": 30,
+      "title": "30. Pituitary Hypothalamic System",
+      "filename": "30. Pituitary Hypothalamic System.mp4",
+      "destination_path": "/Aspirin_LMS/06_Cerebellum/03_Pharmacology_Dr_GRG/06_Endocrine_System/30. Pituitary Hypothalamic System.mp4",
+      "duration_seconds": 3345,
+      "duration_formatted": "55m 45s",
+      "file_size": 455403045,
+      "document_id": "6017078589889977599",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 2898,
+        "filename": "Pituitary Hypothalamic System English  Uploaded By 👉 @Ce.mp4",
+        "caption": "Pituitary Hypothalamic System English"
+      },
+      "corroboration": {
+        "channel_name": "Dedicated GRG Channel (-1002138638940) & Folderwise Topic 46021",
+        "chat_id": -1003839992379,
+        "topic_id": 46021,
+        "notes": "Verified against Cerebellum Main Videos topic 46021 (msgs 46506..46577) and dedicated GRG channel."
+      }
+    },
+    {
+      "global_order": 35,
+      "section_slug": "06_Endocrine_System",
+      "section_name": "Endocrine System",
+      "section_lecture_no": 31,
+      "title": "31. Thyroid",
+      "filename": "31. Thyroid.mp4",
+      "destination_path": "/Aspirin_LMS/06_Cerebellum/03_Pharmacology_Dr_GRG/06_Endocrine_System/31. Thyroid.mp4",
+      "duration_seconds": 2680,
+      "duration_formatted": "44m 40s",
+      "file_size": 308315774,
+      "document_id": "6017078589889977602",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 2899,
+        "filename": "Thyroid English  Uploaded By 👉 @Cerebellumvideos_bot.mp4",
+        "caption": "Thyroid English"
+      },
+      "corroboration": {
+        "channel_name": "Dedicated GRG Channel (-1002138638940) & Folderwise Topic 46021",
+        "chat_id": -1003839992379,
+        "topic_id": 46021,
+        "notes": "Verified against Cerebellum Main Videos topic 46021 (msgs 46506..46577) and dedicated GRG channel."
+      }
+    },
+    {
+      "global_order": 36,
+      "section_slug": "06_Endocrine_System",
+      "section_name": "Endocrine System",
+      "section_lecture_no": 32,
+      "title": "32. Pancreas",
+      "filename": "32. Pancreas.mp4",
+      "destination_path": "/Aspirin_LMS/06_Cerebellum/03_Pharmacology_Dr_GRG/06_Endocrine_System/32. Pancreas.mp4",
+      "duration_seconds": 6063,
+      "duration_formatted": "1h 41m 3s",
+      "file_size": 964534933,
+      "document_id": "6017078589889977603",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 2900,
+        "filename": "Pancreas English  Uploaded By 👉 @Cerebellumvideos_bot.mp4",
+        "caption": "Pancreas English"
+      },
+      "corroboration": {
+        "channel_name": "Dedicated GRG Channel (-1002138638940) & Folderwise Topic 46021",
+        "chat_id": -1003839992379,
+        "topic_id": 46021,
+        "notes": "Verified against Cerebellum Main Videos topic 46021 (msgs 46506..46577) and dedicated GRG channel."
+      }
+    },
+    {
+      "global_order": 37,
+      "section_slug": "06_Endocrine_System",
+      "section_name": "Endocrine System",
+      "section_lecture_no": 33,
+      "title": "33. Adrenal",
+      "filename": "33. Adrenal.mp4",
+      "destination_path": "/Aspirin_LMS/06_Cerebellum/03_Pharmacology_Dr_GRG/06_Endocrine_System/33. Adrenal.mp4",
+      "duration_seconds": 2816,
+      "duration_formatted": "46m 56s",
+      "file_size": 350365522,
+      "document_id": "6017078589889977604",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 2901,
+        "filename": "Adrenal English  Uploaded By 👉 @Cerebellumvideos_bot.mp4",
+        "caption": "Adrenal English"
+      },
+      "corroboration": {
+        "channel_name": "Dedicated GRG Channel (-1002138638940) & Folderwise Topic 46021",
+        "chat_id": -1003839992379,
+        "topic_id": 46021,
+        "notes": "Verified against Cerebellum Main Videos topic 46021 (msgs 46506..46577) and dedicated GRG channel."
+      }
+    },
+    {
+      "global_order": 38,
+      "section_slug": "06_Endocrine_System",
+      "section_name": "Endocrine System",
+      "section_lecture_no": 34,
+      "title": "34. Osteoporosis",
+      "filename": "34. Osteoporosis.mp4",
+      "destination_path": "/Aspirin_LMS/06_Cerebellum/03_Pharmacology_Dr_GRG/06_Endocrine_System/34. Osteoporosis.mp4",
+      "duration_seconds": 2206,
+      "duration_formatted": "36m 46s",
+      "file_size": 264489123,
+      "document_id": "6017078589889977606",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 2902,
+        "filename": "Osteoporosis English  Uploaded By 👉 @Cerebellumvideos_bo.mp4",
+        "caption": "Osteoporosis English"
+      },
+      "corroboration": {
+        "channel_name": "Dedicated GRG Channel (-1002138638940) & Folderwise Topic 46021",
+        "chat_id": -1003839992379,
+        "topic_id": 46021,
+        "notes": "Verified against Cerebellum Main Videos topic 46021 (msgs 46506..46577) and dedicated GRG channel."
+      }
+    },
+    {
+      "global_order": 39,
+      "section_slug": "06_Endocrine_System",
+      "section_name": "Endocrine System",
+      "section_lecture_no": 35,
+      "title": "35. Sex Hormones",
+      "filename": "35. Sex Hormones.mp4",
+      "destination_path": "/Aspirin_LMS/06_Cerebellum/03_Pharmacology_Dr_GRG/06_Endocrine_System/35. Sex Hormones.mp4",
+      "duration_seconds": 2751,
+      "duration_formatted": "45m 51s",
+      "file_size": 405976666,
+      "document_id": "6017078589889977607",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 2903,
+        "filename": "Sex Hormones English  Uploaded By 👉 @Cerebellumvideos_bo.mp4",
+        "caption": "Sex Hormones English"
+      },
+      "corroboration": {
+        "channel_name": "Dedicated GRG Channel (-1002138638940) & Folderwise Topic 46021",
+        "chat_id": -1003839992379,
+        "topic_id": 46021,
+        "notes": "Verified against Cerebellum Main Videos topic 46021 (msgs 46506..46577) and dedicated GRG channel."
+      }
+    },
+    {
+      "global_order": 40,
+      "section_slug": "06_Endocrine_System",
+      "section_name": "Endocrine System",
+      "section_lecture_no": 36,
+      "title": "36. Oral Contraceptives",
+      "filename": "36. Oral Contraceptives.mp4",
+      "destination_path": "/Aspirin_LMS/06_Cerebellum/03_Pharmacology_Dr_GRG/06_Endocrine_System/36. Oral Contraceptives.mp4",
+      "duration_seconds": 2119,
+      "duration_formatted": "35m 19s",
+      "file_size": 331984589,
+      "document_id": "6017078589889977610",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 2904,
+        "filename": "Oral Contraceptives English  Uploaded By 👉 @Cerebellumvi.mp4",
+        "caption": "Oral Contraceptives English"
+      },
+      "corroboration": {
+        "channel_name": "Dedicated GRG Channel (-1002138638940) & Folderwise Topic 46021",
+        "chat_id": -1003839992379,
+        "topic_id": 46021,
+        "notes": "Verified against Cerebellum Main Videos topic 46021 (msgs 46506..46577) and dedicated GRG channel."
+      }
+    },
+    {
+      "global_order": 41,
+      "section_slug": "07_Central_Nervous_System",
+      "section_name": "Central Nervous System (CNS)",
+      "section_lecture_no": 37,
+      "title": "37. Sedative Hypnotics",
+      "filename": "37. Sedative Hypnotics.mp4",
+      "destination_path": "/Aspirin_LMS/06_Cerebellum/03_Pharmacology_Dr_GRG/07_Central_Nervous_System/37. Sedative Hypnotics.mp4",
+      "duration_seconds": 2081,
+      "duration_formatted": "34m 41s",
+      "file_size": 286193107,
+      "document_id": "6017078589889977611",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 2905,
+        "filename": "Sedative Hypnotics English  Uploaded By 👉 @Cerebellumvid.mp4",
+        "caption": "Sedative Hypnotics English"
+      },
+      "corroboration": {
+        "channel_name": "Dedicated GRG Channel (-1002138638940) & Folderwise Topic 46021",
+        "chat_id": -1003839992379,
+        "topic_id": 46021,
+        "notes": "Verified against Cerebellum Main Videos topic 46021 (msgs 46506..46577) and dedicated GRG channel."
+      }
+    },
+    {
+      "global_order": 42,
+      "section_slug": "07_Central_Nervous_System",
+      "section_name": "Central Nervous System (CNS)",
+      "section_lecture_no": 38,
+      "title": "38. Neurodegenerative Diseases",
+      "filename": "38. Neurodegenerative Diseases.mp4",
+      "destination_path": "/Aspirin_LMS/06_Cerebellum/03_Pharmacology_Dr_GRG/07_Central_Nervous_System/38. Neurodegenerative Diseases.mp4",
+      "duration_seconds": 3378,
+      "duration_formatted": "56m 18s",
+      "file_size": 381785002,
+      "document_id": "6017078589889977612",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 2906,
+        "filename": "Neurodegenerative Diseases English  Uploaded By 👉 @Cereb.mp4",
+        "caption": "Neurodegenerative Diseases English"
+      },
+      "corroboration": {
+        "channel_name": "Dedicated GRG Channel (-1002138638940) & Folderwise Topic 46021",
+        "chat_id": -1003839992379,
+        "topic_id": 46021,
+        "notes": "Verified against Cerebellum Main Videos topic 46021 (msgs 46506..46577) and dedicated GRG channel."
+      }
+    },
+    {
+      "global_order": 43,
+      "section_slug": "07_Central_Nervous_System",
+      "section_name": "Central Nervous System (CNS)",
+      "section_lecture_no": 39,
+      "title": "39. Anti-Epileptic Drugs",
+      "filename": "39. Anti-Epileptic Drugs.mp4",
+      "destination_path": "/Aspirin_LMS/06_Cerebellum/03_Pharmacology_Dr_GRG/07_Central_Nervous_System/39. Anti-Epileptic Drugs.mp4",
+      "duration_seconds": 4091,
+      "duration_formatted": "1h 8m 11s",
+      "file_size": 449248965,
+      "document_id": "6017078589889977614",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 2907,
+        "filename": "Anti-Epileptic Drugs English  Uploaded By 👉 @Cerebellumv.mp4",
+        "caption": "Anti-Epileptic Drugs English"
+      },
+      "corroboration": {
+        "channel_name": "Dedicated GRG Channel (-1002138638940) & Folderwise Topic 46021",
+        "chat_id": -1003839992379,
+        "topic_id": 46021,
+        "notes": "Verified against Cerebellum Main Videos topic 46021 (msgs 46506..46577) and dedicated GRG channel."
+      }
+    },
+    {
+      "global_order": 44,
+      "section_slug": "07_Central_Nervous_System",
+      "section_name": "Central Nervous System (CNS)",
+      "section_lecture_no": 40,
+      "title": "40. Anti-Psychotic Drugs",
+      "filename": "40. Anti-Psychotic Drugs.mp4",
+      "destination_path": "/Aspirin_LMS/06_Cerebellum/03_Pharmacology_Dr_GRG/07_Central_Nervous_System/40. Anti-Psychotic Drugs.mp4",
+      "duration_seconds": 2766,
+      "duration_formatted": "46m 6s",
+      "file_size": 298568410,
+      "document_id": "6017078589889977618",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 2908,
+        "filename": "Anti-Psychotic Drugs English  Uploaded By 👉 @Cerebellumv.mp4",
+        "caption": "Anti-Psychotic Drugs English"
+      },
+      "corroboration": {
+        "channel_name": "Dedicated GRG Channel (-1002138638940) & Folderwise Topic 46021",
+        "chat_id": -1003839992379,
+        "topic_id": 46021,
+        "notes": "Verified against Cerebellum Main Videos topic 46021 (msgs 46506..46577) and dedicated GRG channel."
+      }
+    },
+    {
+      "global_order": 45,
+      "section_slug": "07_Central_Nervous_System",
+      "section_name": "Central Nervous System (CNS)",
+      "section_lecture_no": 41,
+      "title": "41. Drugs for Mania and Depression",
+      "filename": "41. Drugs for Mania and Depression.mp4",
+      "destination_path": "/Aspirin_LMS/06_Cerebellum/03_Pharmacology_Dr_GRG/07_Central_Nervous_System/41. Drugs for Mania and Depression.mp4",
+      "duration_seconds": 4452,
+      "duration_formatted": "1h 14m 12s",
+      "file_size": 548631605,
+      "document_id": "6017078589889977620",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 2909,
+        "filename": "Drugs for Mania and Depression English  Uploaded By 👉 @C.mp4",
+        "caption": "Drugs for Mania and Depression English"
+      },
+      "corroboration": {
+        "channel_name": "Dedicated GRG Channel (-1002138638940) & Folderwise Topic 46021",
+        "chat_id": -1003839992379,
+        "topic_id": 46021,
+        "notes": "Verified against Cerebellum Main Videos topic 46021 (msgs 46506..46577) and dedicated GRG channel."
+      }
+    },
+    {
+      "global_order": 46,
+      "section_slug": "07_Central_Nervous_System",
+      "section_name": "Central Nervous System (CNS)",
+      "section_lecture_no": 42,
+      "title": "42. Drugs of Abuse",
+      "filename": "42. Drugs of Abuse.mp4",
+      "destination_path": "/Aspirin_LMS/06_Cerebellum/03_Pharmacology_Dr_GRG/07_Central_Nervous_System/42. Drugs of Abuse.mp4",
+      "duration_seconds": 4791,
+      "duration_formatted": "1h 19m 51s",
+      "file_size": 528565422,
+      "document_id": "6017078589889977622",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 2910,
+        "filename": "Drugs of Abuse English  Uploaded By 👉 @Cerebellumvideos_.mp4",
+        "caption": "Drugs of Abuse English"
+      },
+      "corroboration": {
+        "channel_name": "Dedicated GRG Channel (-1002138638940) & Folderwise Topic 46021",
+        "chat_id": -1003839992379,
+        "topic_id": 46021,
+        "notes": "Verified against Cerebellum Main Videos topic 46021 (msgs 46506..46577) and dedicated GRG channel."
+      }
+    },
+    {
+      "global_order": 47,
+      "section_slug": "07_Central_Nervous_System",
+      "section_name": "Central Nervous System (CNS)",
+      "section_lecture_no": 43,
+      "title": "43. Local Anaesthetics and Skeletal Muscle Relaxants",
+      "filename": "43. Local Anaesthetics and Skeletal Muscle Relaxants.mp4",
+      "destination_path": "/Aspirin_LMS/06_Cerebellum/03_Pharmacology_Dr_GRG/07_Central_Nervous_System/43. Local Anaesthetics and Skeletal Muscle Relaxants.mp4",
+      "duration_seconds": 3376,
+      "duration_formatted": "56m 16s",
+      "file_size": 390512693,
+      "document_id": "6017078589889977623",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 2911,
+        "filename": "Local_Anaesthetics_and_Skeletal_Muscle_Relaxants_English.mp4",
+        "caption": "Local Anaesthetics and Skeletal Muscle Relaxants English"
+      },
+      "corroboration": {
+        "channel_name": "Dedicated GRG Channel (-1002138638940) & Folderwise Topic 46021",
+        "chat_id": -1003839992379,
+        "topic_id": 46021,
+        "notes": "Verified against Cerebellum Main Videos topic 46021 (msgs 46506..46577) and dedicated GRG channel."
+      }
+    },
+    {
+      "global_order": 48,
+      "section_slug": "07_Central_Nervous_System",
+      "section_name": "Central Nervous System (CNS)",
+      "section_lecture_no": 44,
+      "title": "44. General Anaesthetics",
+      "filename": "44. General Anaesthetics.mp4",
+      "destination_path": "/Aspirin_LMS/06_Cerebellum/03_Pharmacology_Dr_GRG/07_Central_Nervous_System/44. General Anaesthetics.mp4",
+      "duration_seconds": 3453,
+      "duration_formatted": "57m 33s",
+      "file_size": 422273449,
+      "document_id": "6017078589889977624",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 2912,
+        "filename": "General Anaesthetics English  Uploaded By 👉 @Cerebellumv.mp4",
+        "caption": "General Anaesthetics English"
+      },
+      "corroboration": {
+        "channel_name": "Dedicated GRG Channel (-1002138638940) & Folderwise Topic 46021",
+        "chat_id": -1003839992379,
+        "topic_id": 46021,
+        "notes": "Verified against Cerebellum Main Videos topic 46021 (msgs 46506..46577) and dedicated GRG channel."
+      }
+    },
+    {
+      "global_order": 49,
+      "section_slug": "08_Hematology",
+      "section_name": "Hematology",
+      "section_lecture_no": 45,
+      "title": "45. Drugs Affecting Blood Flow",
+      "filename": "45. Drugs Affecting Blood Flow.mp4",
+      "destination_path": "/Aspirin_LMS/06_Cerebellum/03_Pharmacology_Dr_GRG/08_Hematology/45. Drugs Affecting Blood Flow.mp4",
+      "duration_seconds": 5471,
+      "duration_formatted": "1h 31m 11s",
+      "file_size": 708159092,
+      "document_id": "6017078589889977625",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 2913,
+        "filename": "Drugs Affecting Blood Flow English  Uploaded By 👉 @Cereb.mp4",
+        "caption": "Drugs Affecting Blood Flow English"
+      },
+      "corroboration": {
+        "channel_name": "Dedicated GRG Channel (-1002138638940) & Folderwise Topic 46021",
+        "chat_id": -1003839992379,
+        "topic_id": 46021,
+        "notes": "Verified against Cerebellum Main Videos topic 46021 (msgs 46506..46577) and dedicated GRG channel."
+      }
+    },
+    {
+      "global_order": 50,
+      "section_slug": "08_Hematology",
+      "section_name": "Hematology",
+      "section_lecture_no": 46,
+      "title": "46. Drugs Affecting Cells of Blood",
+      "filename": "46. Drugs Affecting Cells of Blood.mp4",
+      "destination_path": "/Aspirin_LMS/06_Cerebellum/03_Pharmacology_Dr_GRG/08_Hematology/46. Drugs Affecting Cells of Blood.mp4",
+      "duration_seconds": 1635,
+      "duration_formatted": "27m 15s",
+      "file_size": 256206783,
+      "document_id": "6017078589889977626",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 2914,
+        "filename": "Drugs Affecting Cells of Blood English  Uploaded By 👉 @C.mp4",
+        "caption": "Drugs Affecting Cells of Blood English"
+      },
+      "corroboration": {
+        "channel_name": "Dedicated GRG Channel (-1002138638940) & Folderwise Topic 46021",
+        "chat_id": -1003839992379,
+        "topic_id": 46021,
+        "notes": "Verified against Cerebellum Main Videos topic 46021 (msgs 46506..46577) and dedicated GRG channel."
+      }
+    },
+    {
+      "global_order": 51,
+      "section_slug": "09_Respiratory_System",
+      "section_name": "Respiratory System",
+      "section_lecture_no": 47,
+      "title": "47. Cough and Bronchial Asthma",
+      "filename": "47. Cough and Bronchial Asthma.mp4",
+      "destination_path": "/Aspirin_LMS/06_Cerebellum/03_Pharmacology_Dr_GRG/09_Respiratory_System/47. Cough and Bronchial Asthma.mp4",
+      "duration_seconds": 2434,
+      "duration_formatted": "40m 34s",
+      "file_size": 278942600,
+      "document_id": "6017078589889977627",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 2915,
+        "filename": "Cough and Bronchial Asthma English  Uploaded By 👉 @Cereb.mp4",
+        "caption": "Cough and Bronchial Asthma English"
+      },
+      "corroboration": {
+        "channel_name": "Dedicated GRG Channel (-1002138638940) & Folderwise Topic 46021",
+        "chat_id": -1003839992379,
+        "topic_id": 46021,
+        "notes": "Verified against Cerebellum Main Videos topic 46021 (msgs 46506..46577) and dedicated GRG channel."
+      }
+    },
+    {
+      "global_order": 52,
+      "section_slug": "10_Gastrointestinal_System",
+      "section_name": "Gastrointestinal System (GIT)",
+      "section_lecture_no": 48,
+      "title": "48. Gastro-Intestinal Tract (GIT)",
+      "filename": "48. Gastro-Intestinal Tract (GIT).mp4",
+      "destination_path": "/Aspirin_LMS/06_Cerebellum/03_Pharmacology_Dr_GRG/10_Gastrointestinal_System/48. Gastro-Intestinal Tract (GIT).mp4",
+      "duration_seconds": 4872,
+      "duration_formatted": "1h 21m 12s",
+      "file_size": 564986900,
+      "document_id": "6017078589889977630",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 2916,
+        "filename": "Gastro-Intestinal Tract (GIT) English  Uploaded By 👉 @Ce.mp4",
+        "caption": "Gastro-Intestinal Tract (GIT) English"
+      },
+      "corroboration": {
+        "channel_name": "Dedicated GRG Channel (-1002138638940) & Folderwise Topic 46021",
+        "chat_id": -1003839992379,
+        "topic_id": 46021,
+        "notes": "Verified against Cerebellum Main Videos topic 46021 (msgs 46506..46577) and dedicated GRG channel."
+      }
+    },
+    {
+      "global_order": 53,
+      "section_slug": "11_Antimicrobial_Agents",
+      "section_name": "Antimicrobial Agents",
+      "section_lecture_no": 49,
+      "title": "49. General Considerations about Anti-Microbial Agents",
+      "filename": "49. General Considerations about Anti-Microbial Agents.mp4",
+      "destination_path": "/Aspirin_LMS/06_Cerebellum/03_Pharmacology_Dr_GRG/11_Antimicrobial_Agents/49. General Considerations about Anti-Microbial Agents.mp4",
+      "duration_seconds": 2597,
+      "duration_formatted": "43m 17s",
+      "file_size": 317106882,
+      "document_id": "6017078589889977631",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 2917,
+        "filename": "General_Considerations_about_Anti_Microbial_Agents_Engli.mp4",
+        "caption": "General Considerations about Anti-Microbial Agents English"
+      },
+      "corroboration": {
+        "channel_name": "Dedicated GRG Channel (-1002138638940) & Folderwise Topic 46021",
+        "chat_id": -1003839992379,
+        "topic_id": 46021,
+        "notes": "Verified against Cerebellum Main Videos topic 46021 (msgs 46506..46577) and dedicated GRG channel."
+      }
+    },
+    {
+      "global_order": 54,
+      "section_slug": "11_Antimicrobial_Agents",
+      "section_name": "Antimicrobial Agents",
+      "section_lecture_no": 50,
+      "title": "50. Drugs Inhibiting Cell Wall Synthesis",
+      "filename": "50. Drugs Inhibiting Cell Wall Synthesis.mp4",
+      "destination_path": "/Aspirin_LMS/06_Cerebellum/03_Pharmacology_Dr_GRG/11_Antimicrobial_Agents/50. Drugs Inhibiting Cell Wall Synthesis.mp4",
+      "duration_seconds": 6252,
+      "duration_formatted": "1h 44m 12s",
+      "file_size": 769328190,
+      "document_id": "6017078589889977632",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 2918,
+        "filename": "Drugs Inhibiting Cell Wall Synthesis English  Uploaded B.mp4",
+        "caption": "Drugs Inhibiting Cell Wall Synthesis English"
+      },
+      "corroboration": {
+        "channel_name": "Dedicated GRG Channel (-1002138638940) & Folderwise Topic 46021",
+        "chat_id": -1003839992379,
+        "topic_id": 46021,
+        "notes": "Verified against Cerebellum Main Videos topic 46021 (msgs 46506..46577) and dedicated GRG channel."
+      }
+    },
+    {
+      "global_order": 55,
+      "section_slug": "11_Antimicrobial_Agents",
+      "section_name": "Antimicrobial Agents",
+      "section_lecture_no": 51,
+      "title": "51. AMA Acting by Other Mechanisms",
+      "filename": "51. AMA Acting by Other Mechanisms.mp4",
+      "destination_path": "/Aspirin_LMS/06_Cerebellum/03_Pharmacology_Dr_GRG/11_Antimicrobial_Agents/51. AMA Acting by Other Mechanisms.mp4",
+      "duration_seconds": 5860,
+      "duration_formatted": "1h 37m 40s",
+      "file_size": 687961130,
+      "document_id": "6017078589889977635",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 2919,
+        "filename": "AMA Acting by Other Mechanisms English  Uploaded By 👉 @C.mp4",
+        "caption": "AMA Acting by Other Mechanisms English"
+      },
+      "corroboration": {
+        "channel_name": "Dedicated GRG Channel (-1002138638940) & Folderwise Topic 46021",
+        "chat_id": -1003839992379,
+        "topic_id": 46021,
+        "notes": "Verified against Cerebellum Main Videos topic 46021 (msgs 46506..46577) and dedicated GRG channel."
+      }
+    },
+    {
+      "global_order": 56,
+      "section_slug": "11_Antimicrobial_Agents",
+      "section_name": "Antimicrobial Agents",
+      "section_lecture_no": 52,
+      "title": "52. Tuberculosis and Leprosy",
+      "filename": "52. Tuberculosis and Leprosy.mp4",
+      "destination_path": "/Aspirin_LMS/06_Cerebellum/03_Pharmacology_Dr_GRG/11_Antimicrobial_Agents/52. Tuberculosis and Leprosy.mp4",
+      "duration_seconds": 3640,
+      "duration_formatted": "1h 0m 40s",
+      "file_size": 328727661,
+      "document_id": "6017078589889977637",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 2920,
+        "filename": "Tuberculosis and Leprosy English  Uploaded By 👉 @Cerebel.mp4",
+        "caption": "Tuberculosis and Leprosy English"
+      },
+      "corroboration": {
+        "channel_name": "Dedicated GRG Channel (-1002138638940) & Folderwise Topic 46021",
+        "chat_id": -1003839992379,
+        "topic_id": 46021,
+        "notes": "Verified against Cerebellum Main Videos topic 46021 (msgs 46506..46577) and dedicated GRG channel."
+      }
+    },
+    {
+      "global_order": 57,
+      "section_slug": "11_Antimicrobial_Agents",
+      "section_name": "Antimicrobial Agents",
+      "section_lecture_no": 53,
+      "title": "53. Anti-Viral Drugs",
+      "filename": "53. Anti-Viral Drugs.mp4",
+      "destination_path": "/Aspirin_LMS/06_Cerebellum/03_Pharmacology_Dr_GRG/11_Antimicrobial_Agents/53. Anti-Viral Drugs.mp4",
+      "duration_seconds": 4556,
+      "duration_formatted": "1h 15m 56s",
+      "file_size": 483364417,
+      "document_id": "6017078589889977640",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 2921,
+        "filename": "Anti-Viral Drugs English  Uploaded By 👉 @Cerebellumvideo.mp4",
+        "caption": "Anti-Viral Drugs English"
+      },
+      "corroboration": {
+        "channel_name": "Dedicated GRG Channel (-1002138638940) & Folderwise Topic 46021",
+        "chat_id": -1003839992379,
+        "topic_id": 46021,
+        "notes": "Verified against Cerebellum Main Videos topic 46021 (msgs 46506..46577) and dedicated GRG channel."
+      }
+    },
+    {
+      "global_order": 58,
+      "section_slug": "11_Antimicrobial_Agents",
+      "section_name": "Antimicrobial Agents",
+      "section_lecture_no": 54,
+      "title": "54. Anti-Fungal Drugs",
+      "filename": "54. Anti-Fungal Drugs.mp4",
+      "destination_path": "/Aspirin_LMS/06_Cerebellum/03_Pharmacology_Dr_GRG/11_Antimicrobial_Agents/54. Anti-Fungal Drugs.mp4",
+      "duration_seconds": 2078,
+      "duration_formatted": "34m 38s",
+      "file_size": 179774091,
+      "document_id": "6017078589889977641",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 2922,
+        "filename": "Anti-Fungal Drugs English  Uploaded By 👉 @Cerebellumvide.mp4",
+        "caption": "Anti-Fungal Drugs English"
+      },
+      "corroboration": {
+        "channel_name": "Dedicated GRG Channel (-1002138638940) & Folderwise Topic 46021",
+        "chat_id": -1003839992379,
+        "topic_id": 46021,
+        "notes": "Verified against Cerebellum Main Videos topic 46021 (msgs 46506..46577) and dedicated GRG channel."
+      }
+    },
+    {
+      "global_order": 59,
+      "section_slug": "11_Antimicrobial_Agents",
+      "section_name": "Antimicrobial Agents",
+      "section_lecture_no": 55,
+      "title": "55. Malaria and Other Parasites",
+      "filename": "55. Malaria and Other Parasites.mp4",
+      "destination_path": "/Aspirin_LMS/06_Cerebellum/03_Pharmacology_Dr_GRG/11_Antimicrobial_Agents/55. Malaria and Other Parasites.mp4",
+      "duration_seconds": 4826,
+      "duration_formatted": "1h 20m 26s",
+      "file_size": 538036200,
+      "document_id": "6017078589889977644",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 2923,
+        "filename": "Malaria and Other Parasites English  Uploaded By 👉 @Cere.mp4",
+        "caption": "Malaria and Other Parasites English"
+      },
+      "corroboration": {
+        "channel_name": "Dedicated GRG Channel (-1002138638940) & Folderwise Topic 46021",
+        "chat_id": -1003839992379,
+        "topic_id": 46021,
+        "notes": "Verified against Cerebellum Main Videos topic 46021 (msgs 46506..46577) and dedicated GRG channel."
+      }
+    },
+    {
+      "global_order": 60,
+      "section_slug": "12_Chemotherapy_Oncology_Immunopharmacology",
+      "section_name": "Chemotherapy & Immunopharmacology",
+      "section_lecture_no": 56,
+      "title": "56. Cytotoxic Drugs",
+      "filename": "56. Cytotoxic Drugs.mp4",
+      "destination_path": "/Aspirin_LMS/06_Cerebellum/03_Pharmacology_Dr_GRG/12_Chemotherapy_Oncology_Immunopharmacology/56. Cytotoxic Drugs.mp4",
+      "duration_seconds": 4883,
+      "duration_formatted": "1h 21m 23s",
+      "file_size": 571211907,
+      "document_id": "6017078589889977646",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 2924,
+        "filename": "Cytotoxic Drugs English  Uploaded By 👉 @Cerebellumvideos.mp4",
+        "caption": "Cytotoxic Drugs English"
+      },
+      "corroboration": {
+        "channel_name": "Dedicated GRG Channel (-1002138638940) & Folderwise Topic 46021",
+        "chat_id": -1003839992379,
+        "topic_id": 46021,
+        "notes": "Verified against Cerebellum Main Videos topic 46021 (msgs 46506..46577) and dedicated GRG channel."
+      }
+    },
+    {
+      "global_order": 61,
+      "section_slug": "12_Chemotherapy_Oncology_Immunopharmacology",
+      "section_name": "Chemotherapy & Immunopharmacology",
+      "section_lecture_no": 57,
+      "title": "57. Targeted Anti-Cancer Drugs",
+      "filename": "57. Targeted Anti-Cancer Drugs.mp4",
+      "destination_path": "/Aspirin_LMS/06_Cerebellum/03_Pharmacology_Dr_GRG/12_Chemotherapy_Oncology_Immunopharmacology/57. Targeted Anti-Cancer Drugs.mp4",
+      "duration_seconds": 1798,
+      "duration_formatted": "29m 58s",
+      "file_size": 209966783,
+      "document_id": "6017078589889977666",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 2931,
+        "filename": "Targeted Anti-Cancer Drugs  Uploaded By 👉 @Cerebellumvid.mp4",
+        "caption": "Targeted Anti-Cancer Drugs"
+      },
+      "corroboration": {
+        "channel_name": "Dedicated GRG Channel (-1002138638940) & Folderwise Topic 46021",
+        "chat_id": -1003839992379,
+        "topic_id": 46021,
+        "notes": "Verified against Cerebellum Main Videos topic 46021 (msgs 46506..46577) and dedicated GRG channel."
+      }
+    },
+    {
+      "global_order": 62,
+      "section_slug": "12_Chemotherapy_Oncology_Immunopharmacology",
+      "section_name": "Chemotherapy & Immunopharmacology",
+      "section_lecture_no": 58,
+      "title": "58. Immunosuppressants Drugs",
+      "filename": "58. Immunosuppressants Drugs.mp4",
+      "destination_path": "/Aspirin_LMS/06_Cerebellum/03_Pharmacology_Dr_GRG/12_Chemotherapy_Oncology_Immunopharmacology/58. Immunosuppressants Drugs.mp4",
+      "duration_seconds": 1267,
+      "duration_formatted": "21m 7s",
+      "file_size": 123239587,
+      "document_id": "6017078589889977647",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 2925,
+        "filename": "Immunosuppressants Drugs English  Uploaded By 👉 @Cerebel.mp4",
+        "caption": "Immunosuppressants Drugs English"
+      },
+      "corroboration": {
+        "channel_name": "Dedicated GRG Channel (-1002138638940) & Folderwise Topic 46021",
+        "chat_id": -1003839992379,
+        "topic_id": 46021,
+        "notes": "Verified against Cerebellum Main Videos topic 46021 (msgs 46506..46577) and dedicated GRG channel."
+      }
+    },
+    {
+      "global_order": 63,
+      "section_slug": "12_Chemotherapy_Oncology_Immunopharmacology",
+      "section_name": "Chemotherapy & Immunopharmacology",
+      "section_lecture_no": 59,
+      "title": "59. Monoclonal Antibodies",
+      "filename": "59. Monoclonal Antibodies.mp4",
+      "destination_path": "/Aspirin_LMS/06_Cerebellum/03_Pharmacology_Dr_GRG/12_Chemotherapy_Oncology_Immunopharmacology/59. Monoclonal Antibodies.mp4",
+      "duration_seconds": 2756,
+      "duration_formatted": "45m 56s",
+      "file_size": 333346334,
+      "document_id": "6017078589889977648",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 2926,
+        "filename": "Monoclonal Antibodies English  Uploaded By 👉 @Cerebellum.mp4",
+        "caption": "Monoclonal Antibodies English"
+      },
+      "corroboration": {
+        "channel_name": "Dedicated GRG Channel (-1002138638940) & Folderwise Topic 46021",
+        "chat_id": -1003839992379,
+        "topic_id": 46021,
+        "notes": "Verified against Cerebellum Main Videos topic 46021 (msgs 46506..46577) and dedicated GRG channel."
+      }
+    },
+    {
+      "global_order": 64,
+      "section_slug": "13_Toxicology_Miscellaneous",
+      "section_name": "Toxicology & Miscellaneous",
+      "section_lecture_no": 60,
+      "title": "60. Drug Interactions and Antidotes",
+      "filename": "60. Drug Interactions and Antidotes.mp4",
+      "destination_path": "/Aspirin_LMS/06_Cerebellum/03_Pharmacology_Dr_GRG/13_Toxicology_Miscellaneous/60. Drug Interactions and Antidotes.mp4",
+      "duration_seconds": 3821,
+      "duration_formatted": "1h 3m 41s",
+      "file_size": 457002024,
+      "document_id": "6017078589889977650",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 2927,
+        "filename": "Drug Interactions and Antidotes English  Uploaded By 👉 @.mp4",
+        "caption": "Drug Interactions and Antidotes English"
+      },
+      "corroboration": {
+        "channel_name": "Dedicated GRG Channel (-1002138638940) & Folderwise Topic 46021",
+        "chat_id": -1003839992379,
+        "topic_id": 46021,
+        "notes": "Verified against Cerebellum Main Videos topic 46021 (msgs 46506..46577) and dedicated GRG channel."
+      }
+    },
+    {
+      "global_order": 65,
+      "section_slug": "13_Toxicology_Miscellaneous",
+      "section_name": "Toxicology & Miscellaneous",
+      "section_lecture_no": 61,
+      "title": "61. Miscellaneous Topics",
+      "filename": "61. Miscellaneous Topics.mp4",
+      "destination_path": "/Aspirin_LMS/06_Cerebellum/03_Pharmacology_Dr_GRG/13_Toxicology_Miscellaneous/61. Miscellaneous Topics.mp4",
+      "duration_seconds": 1687,
+      "duration_formatted": "28m 7s",
+      "file_size": 162057504,
+      "document_id": "6017078589889977652",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 2928,
+        "filename": "Miscellaneous Topics English  Uploaded By 👉 @Cerebellumv.mp4",
+        "caption": "Miscellaneous Topics English"
+      },
+      "corroboration": {
+        "channel_name": "Dedicated GRG Channel (-1002138638940) & Folderwise Topic 46021",
+        "chat_id": -1003839992379,
+        "topic_id": 46021,
+        "notes": "Verified against Cerebellum Main Videos topic 46021 (msgs 46506..46577) and dedicated GRG channel."
+      }
+    },
+    {
+      "global_order": 66,
+      "section_slug": "13_Toxicology_Miscellaneous",
+      "section_name": "Toxicology & Miscellaneous",
+      "section_lecture_no": 62,
+      "title": "62. New Drugs",
+      "filename": "62. New Drugs.mp4",
+      "destination_path": "/Aspirin_LMS/06_Cerebellum/03_Pharmacology_Dr_GRG/13_Toxicology_Miscellaneous/62. New Drugs.mp4",
+      "duration_seconds": 2311,
+      "duration_formatted": "38m 31s",
+      "file_size": 252973886,
+      "document_id": "6017078589889977653",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 2929,
+        "filename": "New Drugs English  Uploaded By 👉 @Cerebellumvideos_bot.mp4",
+        "caption": "New Drugs English"
+      },
+      "corroboration": {
+        "channel_name": "Dedicated GRG Channel (-1002138638940) & Folderwise Topic 46021",
+        "chat_id": -1003839992379,
+        "topic_id": 46021,
+        "notes": "Verified against Cerebellum Main Videos topic 46021 (msgs 46506..46577) and dedicated GRG channel."
+      }
+    },
+    {
+      "global_order": 67,
+      "section_slug": "14_Clinical_Punches",
+      "section_name": "High-Yield Clinical Punches",
+      "section_lecture_no": 1,
+      "title": "01. Clinical Punch - 1",
+      "filename": "01. Clinical Punch - 1.mp4",
+      "destination_path": "/Aspirin_LMS/06_Cerebellum/03_Pharmacology_Dr_GRG/14_Clinical_Punches/01. Clinical Punch - 1.mp4",
+      "duration_seconds": 315,
+      "duration_formatted": "5m 15s",
+      "file_size": 45804134,
+      "document_id": "6017078589889977656",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 2933,
+        "filename": "Clinical Punch - 1  Uploaded By 👉 @Cerebellumvideos_bot.mp4",
+        "caption": "Clinical Punch - 1"
+      },
+      "corroboration": {
+        "channel_name": "Dedicated GRG Channel (-1002138638940) & Folderwise Topic 46021",
+        "chat_id": -1003839992379,
+        "topic_id": 46021,
+        "notes": "Verified against Cerebellum Main Videos topic 46021 (msgs 46506..46577) and dedicated GRG channel."
+      }
+    },
+    {
+      "global_order": 68,
+      "section_slug": "14_Clinical_Punches",
+      "section_name": "High-Yield Clinical Punches",
+      "section_lecture_no": 2,
+      "title": "02. Clinical Punch - 2",
+      "filename": "02. Clinical Punch - 2.mp4",
+      "destination_path": "/Aspirin_LMS/06_Cerebellum/03_Pharmacology_Dr_GRG/14_Clinical_Punches/02. Clinical Punch - 2.mp4",
+      "duration_seconds": 373,
+      "duration_formatted": "6m 13s",
+      "file_size": 49707792,
+      "document_id": "6017078589889977657",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 2934,
+        "filename": "Clinical Punch - 2  Uploaded By 👉 @Cerebellumvideos_bot.mp4",
+        "caption": "Clinical Punch - 2"
+      },
+      "corroboration": {
+        "channel_name": "Dedicated GRG Channel (-1002138638940) & Folderwise Topic 46021",
+        "chat_id": -1003839992379,
+        "topic_id": 46021,
+        "notes": "Verified against Cerebellum Main Videos topic 46021 (msgs 46506..46577) and dedicated GRG channel."
+      }
+    },
+    {
+      "global_order": 69,
+      "section_slug": "14_Clinical_Punches",
+      "section_name": "High-Yield Clinical Punches",
+      "section_lecture_no": 3,
+      "title": "03. Clinical Punch - 3",
+      "filename": "03. Clinical Punch - 3.mp4",
+      "destination_path": "/Aspirin_LMS/06_Cerebellum/03_Pharmacology_Dr_GRG/14_Clinical_Punches/03. Clinical Punch - 3.mp4",
+      "duration_seconds": 275,
+      "duration_formatted": "4m 35s",
+      "file_size": 38859342,
+      "document_id": "6017078589889977658",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 2935,
+        "filename": "Clinical Punch - 3  Uploaded By 👉 @Cerebellumvideos_bot.mp4",
+        "caption": "Clinical Punch - 3"
+      },
+      "corroboration": {
+        "channel_name": "Dedicated GRG Channel (-1002138638940) & Folderwise Topic 46021",
+        "chat_id": -1003839992379,
+        "topic_id": 46021,
+        "notes": "Verified against Cerebellum Main Videos topic 46021 (msgs 46506..46577) and dedicated GRG channel."
+      }
+    },
+    {
+      "global_order": 70,
+      "section_slug": "14_Clinical_Punches",
+      "section_name": "High-Yield Clinical Punches",
+      "section_lecture_no": 4,
+      "title": "04. Clinical Punch - 4",
+      "filename": "04. Clinical Punch - 4.mp4",
+      "destination_path": "/Aspirin_LMS/06_Cerebellum/03_Pharmacology_Dr_GRG/14_Clinical_Punches/04. Clinical Punch - 4.mp4",
+      "duration_seconds": 343,
+      "duration_formatted": "5m 43s",
+      "file_size": 49703295,
+      "document_id": "6017078589889977659",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 2936,
+        "filename": "Clinical Punch - 4  Uploaded By 👉 @Cerebellumvideos_bot.mp4",
+        "caption": "Clinical Punch - 4"
+      },
+      "corroboration": {
+        "channel_name": "Dedicated GRG Channel (-1002138638940) & Folderwise Topic 46021",
+        "chat_id": -1003839992379,
+        "topic_id": 46021,
+        "notes": "Verified against Cerebellum Main Videos topic 46021 (msgs 46506..46577) and dedicated GRG channel."
+      }
+    },
+    {
+      "global_order": 71,
+      "section_slug": "14_Clinical_Punches",
+      "section_name": "High-Yield Clinical Punches",
+      "section_lecture_no": 5,
+      "title": "05. Clinical Punch - 5",
+      "filename": "05. Clinical Punch - 5.mp4",
+      "destination_path": "/Aspirin_LMS/06_Cerebellum/03_Pharmacology_Dr_GRG/14_Clinical_Punches/05. Clinical Punch - 5.mp4",
+      "duration_seconds": 424,
+      "duration_formatted": "7m 4s",
+      "file_size": 55823784,
+      "document_id": "6017078589889977660",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 2937,
+        "filename": "Clinical Punch - 5  Uploaded By 👉 @Cerebellumvideos_bot.mp4",
+        "caption": "Clinical Punch - 5"
+      },
+      "corroboration": {
+        "channel_name": "Dedicated GRG Channel (-1002138638940) & Folderwise Topic 46021",
+        "chat_id": -1003839992379,
+        "topic_id": 46021,
+        "notes": "Verified against Cerebellum Main Videos topic 46021 (msgs 46506..46577) and dedicated GRG channel."
+      }
+    },
+    {
+      "global_order": 72,
+      "section_slug": "15_Notes_PDF",
+      "section_name": "Notes PDF",
+      "section_lecture_no": 1,
+      "title": "New Edition Cerebellum GRG Pharmacology Notes",
+      "filename": "New Edition Cerebellum GRG Pharmacology Notes.pdf",
+      "destination_path": "/Aspirin_LMS/06_Cerebellum/03_Pharmacology_Dr_GRG/15_Notes_PDF/New Edition Cerebellum GRG Pharmacology Notes.pdf",
+      "duration_seconds": 0,
+      "duration_formatted": "PDF Document",
+      "file_size": 78003329,
+      "document_id": "6339264887289548477",
+      "is_pdf": true,
+      "primary_source": {
+        "channel_name": "Dedicated GRG Channel",
+        "chat_id": -1002138638940,
+        "message_id": 273,
+        "filename": "New Ed. Cerebellum GRG Pharma Note(1).pdf",
+        "caption": ""
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Topic 46021 (Msg 47640)",
+        "chat_id": -1003839992379,
+        "topic_id": 46021,
+        "notes": "Complete handwritten/printed Cerebellum Dr. GRG Pharmacology notes."
+      }
+    }
+  ]
+}

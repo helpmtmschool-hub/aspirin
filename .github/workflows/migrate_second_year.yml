@@ -1,20 +1,21 @@
-name: Migrate First Year Subjects to openmedQ
+name: Migrate Second Year Subjects to openmedQ
 
-# Migrates all First Professional Year MBBS lectures into openmedQ SharePoint:
-#   1. Anatomy (139 verified lectures -> Aspirin_LMS/eGurukul_4.0/01_Anatomy_Dr_Ashwini_Kumar/{Section}/)
-#      - Faculty: Dr. Ashwini Kumar (eGurukul 4.0 / DBMCI)
-#      - Sourced from Folderwise (topic 15033), corroborated with Subjectwise (topic 5071).
-#      - Includes 1 Master Notes PDF (Anatomy 4.0 Complete Notes).
-#   2. Physiology (61 verified lectures -> Aspirin_LMS/PrepLadder_X/Physiology/)
-#      - Faculty: Dr. Vivek Nalgirkar (PrepLadder Edition X English)
-#      - Sourced from Primary PrepX Channel (-1003709841202, msgs 116..176).
-#      - Complete 1..61 series including recovered Lecture 32 (Oxygen Transport).
-#   3. Biochemistry (61 verified lectures -> Aspirin_LMS/Marrow_E6/Biochemistry/)
-#      - Faculty: Dr. Rebecca James (Marrow Edition 6)
-#      - Sourced from My Marrow (topic 1318), canonical titles corroborated from Subjectwise (topic 2351).
+# Migrates all Second Professional Year MBBS lectures into openmedQ SharePoint:
+#   1. Pathology (77 verified lectures -> Aspirin_LMS/PrepLadder_X/Pathology/)
+#      - Faculty: PrepLadder Edition X English Faculty
+#      - Sourced from Primary PrepX Channel (-1003709841202, msgs 230..306).
+#      - Contiguous 1..77 sequence with zero missing lectures (100% complete).
+#   2. Microbiology (52 verified lectures -> Aspirin_LMS/PrepLadder_X/Microbiology/)
+#      - Faculty: PrepLadder Edition X English Faculty
+#      - Sourced from Primary PrepX Channel (-1003709841202, msgs 392..443).
+#      - Contiguous 1..52 sequence with zero missing lectures (100% complete).
+#   3. Pharmacology (71 video lectures + 1 Master Notes PDF -> Aspirin_LMS/Cerebellum/03_Pharmacology_Dr_GRG/{Section}/)
+#      - Faculty: Dr. Gobind Rai Garg (Cerebellum Academy)
+#      - Sourced from Primary Channel (-1003709841202, msgs 2865..2937) and Dedicated Channel (-1002138638940).
+#      - 16 canonical modules, deduplicated, includes 5 Clinical Punches and Dr. GRG Notes PDF.
 #
 # Execution:
-# Scheduled every 3 hours at minute 17 UTC (runs 150 files/batch -> completes all 261 lectures in 2 batches).
+# Scheduled every 3 hours at minute 17 UTC (runs 150 files/batch -> completes all 200 video lectures in 2 batches).
 # Concurrency lock ensures only 1 runner executes at a time to prevent Telegram rate limits.
 
 on:
@@ -24,15 +25,15 @@ on:
   workflow_dispatch:
     inputs:
       subject:
-        description: "Select Subject(s) to transfer (or 'first_year' for all 3 subjects)"
+        description: "Select Subject(s) to transfer (or 'second_year' for all 3 subjects)"
         required: true
-        default: "first_year"
+        default: "second_year"
         type: choice
         options:
-          - "first_year"
-          - "anatomy"
-          - "physiology"
-          - "biochemistry"
+          - "second_year"
+          - "pathology"
+          - "microbiology"
+          - "pharmacology"
       batch_size:
         description: "Batch limit (number of files to transfer in this run, 0 = all remaining)"
         required: true
@@ -54,7 +55,7 @@ permissions:
 
 jobs:
   transfer:
-    name: Stream First Year Subjects to openmedQ SharePoint
+    name: Stream Second Year Subjects to openmedQ SharePoint
     runs-on: ubuntu-latest
     timeout-minutes: 360 # GitHub maximum job execution time: 6 hours
 
@@ -75,9 +76,9 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Execute First Year Transfer
+      - name: Execute Second Year Transfer
         run: |
-          SUBJECT="${{ github.event.inputs.subject || 'first_year' }}"
+          SUBJECT="${{ github.event.inputs.subject || 'second_year' }}"
           BATCH_SIZE="${{ github.event.inputs.batch_size || '150' }}"
           DRY_RUN_FLAG=""
           if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
@@ -85,10 +86,10 @@ jobs:
           fi
 
           echo "=========================================================="
-          echo " Pipeline: Telegram -> openmedQ SharePoint (First Year)"
+          echo " Pipeline: Telegram -> openmedQ SharePoint (Second Year)"
           echo " Subject:     $SUBJECT"
           echo " Batch limit: $BATCH_SIZE"
-          echo " Scope:       Anatomy (eGurukul) + Physio (PrepX) + Biochem (Marrow)"
+          echo " Scope:       Pathology (PrepX) + Microbiology (PrepX) + Pharmacology (Cerebellum Dr. GRG)"
           echo " Target:      Aspirin_LMS/{Platform}/{Subject}/"
           echo "=========================================================="
 
@@ -134,7 +135,7 @@ jobs:
           node engine/sync_catalog.cjs || true
           git add engine/transfer_manifest.json public/transfer_manifest.json public/catalog.json
           if ! git diff --quiet || ! git diff --staged --quiet; then
-            git commit -m "chore: sync first year transfer manifest + catalog [skip ci]"
+            git commit -m "chore: sync second year transfer manifest + catalog [skip ci]"
             git pull --rebase -X theirs origin main || (git rebase --abort && git pull --no-edit -s recursive -X ours origin main) || true
             git push origin main || true
           fi
@@ -145,16 +146,16 @@ jobs:
           REMAINING=$(python -c "
           from engine.telegram_to_onedrive import LectureTransferEngine
           e = LectureTransferEngine(None, None, True, True)
-          q = e.load_queue(None, 'first_year')
+          q = e.load_queue(None, 'second_year')
           print(len(q))
           ")
           echo "Remaining lectures in queue: $REMAINING"
           if [ "$REMAINING" -gt 0 ]; then
-            echo "Queue has $REMAINING first-year lectures remaining! Auto-triggering next batch..."
-            gh workflow run migrate_first_year.yml || true
+            echo "Queue has $REMAINING second-year lectures remaining! Auto-triggering next batch..."
+            gh workflow run migrate_second_year.yml || true
           else
             echo "=========================================================="
-            echo " All First-Year MBBS lectures have been 100% transferred!"
+            echo " All Second-Year MBBS lectures have been 100% transferred!"
             echo "=========================================================="
           fi
         env:

@@ -57,6 +57,9 @@ PUBLIC_MANIFEST_PATH = PROJECT_DIR / "public" / "transfer_manifest.json"
 SECTIONS_PATH = PROJECT_DIR / "engine" / "prepx_sections.json"
 MARROW_SECTIONS_PATH = PROJECT_DIR / "engine" / "marrow_sections.json"
 EGURUKUL_ANATOMY_PATH = PROJECT_DIR / "engine" / "egurukul_anatomy_verified.json"
+PREPX_PATHO_PATH = PROJECT_DIR / "engine" / "prepx_pathology_verified.json"
+PREPX_MICRO_PATH = PROJECT_DIR / "engine" / "prepx_microbiology_verified.json"
+CEREBELLUM_PHARMA_PATH = PROJECT_DIR / "engine" / "cerebellum_pharmacology_grg_verified.json"
 LEGACY_CATALOG_PATH = PROJECT_DIR / "public" / "catalog.json"
 PREPX_CHANNEL_ID = -1003709841202
 MARROW_CHANNEL_ID = -1003264222864
@@ -727,6 +730,7 @@ class LectureTransferEngine:
         # Parse target subject(s) into normalized set (supports comma-separated: 'radiology,anesthesia,ophthalmology,ent')
         target_subjects = None
         is_first_year = False
+        is_second_year = False
         if target_subject and target_subject.lower() != "all":
             target_subjects = set()
             for raw_part in re.split(r"[,|\s]+", target_subject.lower().strip()):
@@ -744,6 +748,9 @@ class LectureTransferEngine:
                 elif s in ("first_year", "first", "1st_year", "all_first"):
                     is_first_year = True
                     target_subjects.update(["anatomy", "physiology", "biochemistry"])
+                elif s in ("second_year", "second", "2nd_year", "all_second"):
+                    is_second_year = True
+                    target_subjects.update(["pathology", "microbiology", "pharmacology"])
                 else: target_subjects.add(s)
 
         # 1. Load PrepLadder & Cerebellum sections
@@ -785,6 +792,11 @@ class LectureTransferEngine:
                         continue
                     if norm_subj == "physiology" and sec_platform != "prepx_en":
                         continue
+
+                # Second-Year curriculum enforcement:
+                # Pathology and Microbiology are PrepLadder X English, Pharmacology is Cerebellum (Dr. GRG)
+                if is_second_year and norm_subj in ("pathology", "microbiology", "pharmacology"):
+                    continue
 
                 platform_folder = PLATFORM_FOLDER_MAP.get(sec_platform, sec_platform)
                 subj_folder = SUBJECT_FOLDER_MAP.get(norm_subj, norm_subj)
@@ -853,6 +865,111 @@ class LectureTransferEngine:
                         })
             except Exception as e:
                 print(f"[Warning] Failed to load egurukul sections: {e}")
+
+        # 4. Load PrepLadder X English verified Pathology
+        if PREPX_PATHO_PATH.exists() and (not platform or platform.lower() in ("prepx_en", "all")):
+            try:
+                with open(PREPX_PATHO_PATH, "r", encoding="utf-8") as f:
+                    patho_data = json.load(f)
+
+                if not target_subjects or "pathology" in target_subjects:
+                    platform_folder = PLATFORM_FOLDER_MAP.get("prepx_en", "01_PrepLadder_X_English")
+                    dest_plat = NEW_TENANT_PLATFORM_FOLDER_MAP.get("prepx_en", "PrepLadder_X")
+                    for lec in patho_data.get("lectures", []):
+                        ps = lec["primary_source"]
+                        cid = ps["chat_id"]
+                        mid = ps["message_id"]
+                        item_id = f"px_{cid}_{mid}"
+                        if item_id in self.manifest and self.manifest[item_id].get("status") == "completed":
+                            continue
+
+                        raw_items.append({
+                            "id": item_id,
+                            "chat_id": cid,
+                            "message_id": mid,
+                            "platform": "prepx_en",
+                            "platform_folder": platform_folder,
+                            "dest_platform_folder": dest_plat,
+                            "dest_subject_folder": "Pathology",
+                            "subject_id": "pathology",
+                            "subject_name": "PrepLadder X Pathology (English)",
+                            "subject_folder": "04_Pathology",
+                            "preferred_title": lec.get("title"),
+                            "global_order": lec.get("lecture_no"),
+                        })
+            except Exception as e:
+                print(f"[Warning] Failed to load verified pathology sections: {e}")
+
+        # 5. Load PrepLadder X English verified Microbiology
+        if PREPX_MICRO_PATH.exists() and (not platform or platform.lower() in ("prepx_en", "all")):
+            try:
+                with open(PREPX_MICRO_PATH, "r", encoding="utf-8") as f:
+                    micro_data = json.load(f)
+
+                if not target_subjects or "microbiology" in target_subjects:
+                    platform_folder = PLATFORM_FOLDER_MAP.get("prepx_en", "01_PrepLadder_X_English")
+                    dest_plat = NEW_TENANT_PLATFORM_FOLDER_MAP.get("prepx_en", "PrepLadder_X")
+                    for lec in micro_data.get("lectures", []):
+                        ps = lec["primary_source"]
+                        cid = ps["chat_id"]
+                        mid = ps["message_id"]
+                        item_id = f"px_{cid}_{mid}"
+                        if item_id in self.manifest and self.manifest[item_id].get("status") == "completed":
+                            continue
+
+                        raw_items.append({
+                            "id": item_id,
+                            "chat_id": cid,
+                            "message_id": mid,
+                            "platform": "prepx_en",
+                            "platform_folder": platform_folder,
+                            "dest_platform_folder": dest_plat,
+                            "dest_subject_folder": "Microbiology",
+                            "subject_id": "microbiology",
+                            "subject_name": "PrepLadder X Microbiology (English)",
+                            "subject_folder": "06_Microbiology",
+                            "preferred_title": lec.get("title"),
+                            "global_order": lec.get("lecture_no"),
+                        })
+            except Exception as e:
+                print(f"[Warning] Failed to load verified microbiology sections: {e}")
+
+        # 6. Load Cerebellum verified Pharmacology (Dr. GRG)
+        if CEREBELLUM_PHARMA_PATH.exists() and (not platform or platform.lower() in ("cerebellum", "all")):
+            try:
+                with open(CEREBELLUM_PHARMA_PATH, "r", encoding="utf-8") as f:
+                    pharma_data = json.load(f)
+
+                if not target_subjects or "pharmacology" in target_subjects:
+                    platform_folder = PLATFORM_FOLDER_MAP.get("cerebellum", "03_Cerebellum_Academy")
+                    dest_plat = NEW_TENANT_PLATFORM_FOLDER_MAP.get("cerebellum", "Cerebellum")
+                    for lec in pharma_data.get("lectures", []):
+                        if self.videos_only and lec.get("is_pdf"):
+                            continue
+                        ps = lec["primary_source"]
+                        cid = ps["chat_id"]
+                        mid = ps["message_id"]
+                        item_id = f"cb_{cid}_{mid}"
+                        if item_id in self.manifest and self.manifest[item_id].get("status") == "completed":
+                            continue
+
+                        dest_sub = f"03_Pharmacology_Dr_GRG/{lec['section_slug']}"
+                        raw_items.append({
+                            "id": item_id,
+                            "chat_id": cid,
+                            "message_id": mid,
+                            "platform": "cerebellum",
+                            "platform_folder": platform_folder,
+                            "dest_platform_folder": dest_plat,
+                            "dest_subject_folder": dest_sub,
+                            "subject_id": "pharmacology",
+                            "subject_name": f"Cerebellum Pharmacology ({lec['section_name']})",
+                            "subject_folder": dest_sub,
+                            "preferred_title": lec.get("title"),
+                            "global_order": lec.get("global_order"),
+                        })
+            except Exception as e:
+                print(f"[Warning] Failed to load verified cerebellum pharmacology sections: {e}")
 
         # 2. Load Marrow sections
         if MARROW_SECTIONS_PATH.exists() and (not platform or platform.lower() in ("marrow", "all")):

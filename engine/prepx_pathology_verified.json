@@ -1,0 +1,1781 @@
+{
+  "subject": "Pathology",
+  "faculty": "PrepLadder X Faculty",
+  "platform": "PrepLadder Edition X (English)",
+  "total_lectures": 77,
+  "total_size_bytes": 22762753257,
+  "total_duration_seconds": 222053,
+  "lectures": [
+    {
+      "lecture_no": 1,
+      "title": "01. Pathology and Microbiology INICET May 2025",
+      "filename": "01. Pathology and Microbiology INICET May 2025.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/05_Pathology/01. Pathology and Microbiology INICET May 2025.mp4",
+      "duration_seconds": 2242,
+      "duration_formatted": "37m 22s",
+      "file_size": 128369354,
+      "document_id": "5879741242459298590",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 306,
+        "filename": "1. Pathology and Microbiology INICET May 2025.mp4",
+        "caption": "01. Pathology and Microbiology INICET May 2025.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 322)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..77 against Folderwise (range 25381..25422) and Subjectwise Topic 322."
+      }
+    },
+    {
+      "lecture_no": 2,
+      "title": "02. Cell Injury",
+      "filename": "02. Cell Injury.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/05_Pathology/02. Cell Injury.mp4",
+      "duration_seconds": 3049,
+      "duration_formatted": "50m 49s",
+      "file_size": 465924420,
+      "document_id": "5875108866827493107",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 230,
+        "filename": "48461.mp4",
+        "caption": "02. Cell Injury"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 322)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..77 against Folderwise (range 25381..25422) and Subjectwise Topic 322."
+      }
+    },
+    {
+      "lecture_no": 3,
+      "title": "03. Apoptosis and Newer Cell Deaths",
+      "filename": "03. Apoptosis and Newer Cell Deaths.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/05_Pathology/03. Apoptosis and Newer Cell Deaths.mp4",
+      "duration_seconds": 3284,
+      "duration_formatted": "54m 44s",
+      "file_size": 361759198,
+      "document_id": "5875108866827493112",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 231,
+        "filename": "48462.mp4",
+        "caption": "03. Apoptosis & Newer Cell Deaths"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 322)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..77 against Folderwise (range 25381..25422) and Subjectwise Topic 322."
+      }
+    },
+    {
+      "lecture_no": 4,
+      "title": "04. Cellular Adaptations",
+      "filename": "04. Cellular Adaptations.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/05_Pathology/04. Cellular Adaptations.mp4",
+      "duration_seconds": 2109,
+      "duration_formatted": "35m 9s",
+      "file_size": 273970753,
+      "document_id": "5875108866827493117",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 232,
+        "filename": "48576.mp4",
+        "caption": "04. Cellular Adaptations"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 322)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..77 against Folderwise (range 25381..25422) and Subjectwise Topic 322."
+      }
+    },
+    {
+      "lecture_no": 5,
+      "title": "05. Intracellular Accumulations",
+      "filename": "05. Intracellular Accumulations.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/05_Pathology/05. Intracellular Accumulations.mp4",
+      "duration_seconds": 3065,
+      "duration_formatted": "51m 5s",
+      "file_size": 458930656,
+      "document_id": "5875108866827493127",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 233,
+        "filename": "48575.mp4",
+        "caption": "05. Intracellular Accumulations"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 322)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..77 against Folderwise (range 25381..25422) and Subjectwise Topic 322."
+      }
+    },
+    {
+      "lecture_no": 6,
+      "title": "06. Autophagy and Free Radical Injury",
+      "filename": "06. Autophagy and Free Radical Injury.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/05_Pathology/06. Autophagy and Free Radical Injury.mp4",
+      "duration_seconds": 2721,
+      "duration_formatted": "45m 21s",
+      "file_size": 379172054,
+      "document_id": "5875108866827493133",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 234,
+        "filename": "48577.mp4",
+        "caption": "06. Autophagy and Free Radical Injury"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 322)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..77 against Folderwise (range 25381..25422) and Subjectwise Topic 322."
+      }
+    },
+    {
+      "lecture_no": 7,
+      "title": "07. Introduction to Inflammation and Acute Inflammation",
+      "filename": "07. Introduction to Inflammation and Acute Inflammation.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/05_Pathology/07. Introduction to Inflammation and Acute Inflammation.mp4",
+      "duration_seconds": 6113,
+      "duration_formatted": "1h 41m 53s",
+      "file_size": 562433371,
+      "document_id": "5875108866827493139",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 235,
+        "filename": "48727.mp4",
+        "caption": "07. Introduction to Inflammation and Acute Inflammation"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 322)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..77 against Folderwise (range 25381..25422) and Subjectwise Topic 322."
+      }
+    },
+    {
+      "lecture_no": 8,
+      "title": "08. Inflammatory Mediators",
+      "filename": "08. Inflammatory Mediators.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/05_Pathology/08. Inflammatory Mediators.mp4",
+      "duration_seconds": 4532,
+      "duration_formatted": "1h 15m 32s",
+      "file_size": 455074822,
+      "document_id": "5875108866827493145",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 236,
+        "filename": "48728.mp4",
+        "caption": "08. Inflammatory Mediators"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 322)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..77 against Folderwise (range 25381..25422) and Subjectwise Topic 322."
+      }
+    },
+    {
+      "lecture_no": 9,
+      "title": "09. Chronic Inflammation, Granuloma and Wound Healing",
+      "filename": "09. Chronic Inflammation, Granuloma and Wound Healing.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/05_Pathology/09. Chronic Inflammation, Granuloma and Wound Healing.mp4",
+      "duration_seconds": 3672,
+      "duration_formatted": "1h 1m 12s",
+      "file_size": 329075396,
+      "document_id": "5875108866827493150",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 237,
+        "filename": "48726.mp4",
+        "caption": "09. Chronic Inflammation, Granuloma and Wound Healing"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 322)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..77 against Folderwise (range 25381..25422) and Subjectwise Topic 322."
+      }
+    },
+    {
+      "lecture_no": 10,
+      "title": "10. Introduction to Genetics",
+      "filename": "10. Introduction to Genetics.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/05_Pathology/10. Introduction to Genetics.mp4",
+      "duration_seconds": 1912,
+      "duration_formatted": "31m 52s",
+      "file_size": 91856144,
+      "document_id": "5875108866827493154",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 238,
+        "filename": "48994.mp4",
+        "caption": "10. Introduction to Genetics"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 322)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..77 against Folderwise (range 25381..25422) and Subjectwise Topic 322."
+      }
+    },
+    {
+      "lecture_no": 11,
+      "title": "11. Mendelian Disorders",
+      "filename": "11. Mendelian Disorders.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/05_Pathology/11. Mendelian Disorders.mp4",
+      "duration_seconds": 5801,
+      "duration_formatted": "1h 36m 41s",
+      "file_size": 615272380,
+      "document_id": "5875108866827493164",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 239,
+        "filename": "48995.mp4",
+        "caption": "11. Mendelian Disorders"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 322)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..77 against Folderwise (range 25381..25422) and Subjectwise Topic 322."
+      }
+    },
+    {
+      "lecture_no": 12,
+      "title": "12. Non Mendelian Disorders",
+      "filename": "12. Non Mendelian Disorders.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/05_Pathology/12. Non Mendelian Disorders.mp4",
+      "duration_seconds": 2944,
+      "duration_formatted": "49m 4s",
+      "file_size": 329768198,
+      "document_id": "5875108866827493172",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 240,
+        "filename": "48997.mp4",
+        "caption": "12. Non Mendelian Disorders"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 322)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..77 against Folderwise (range 25381..25422) and Subjectwise Topic 322."
+      }
+    },
+    {
+      "lecture_no": 13,
+      "title": "13. Chromosomal Disorders",
+      "filename": "13. Chromosomal Disorders.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/05_Pathology/13. Chromosomal Disorders.mp4",
+      "duration_seconds": 4133,
+      "duration_formatted": "1h 8m 53s",
+      "file_size": 422244710,
+      "document_id": "5875108866827493180",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 241,
+        "filename": "48998.mp4",
+        "caption": "13. Chromosomal Disorders"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 322)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..77 against Folderwise (range 25381..25422) and Subjectwise Topic 322."
+      }
+    },
+    {
+      "lecture_no": 14,
+      "title": "14. Diagnosis of Genetic Disorders",
+      "filename": "14. Diagnosis of Genetic Disorders.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/05_Pathology/14. Diagnosis of Genetic Disorders.mp4",
+      "duration_seconds": 4282,
+      "duration_formatted": "1h 11m 22s",
+      "file_size": 411942283,
+      "document_id": "5875108866827493186",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 242,
+        "filename": "48999.mp4",
+        "caption": "14. Diagnosis of Genetic Disorders"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 322)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..77 against Folderwise (range 25381..25422) and Subjectwise Topic 322."
+      }
+    },
+    {
+      "lecture_no": 15,
+      "title": "15. Miscellaneous Concepts in Genetics",
+      "filename": "15. Miscellaneous Concepts in Genetics.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/05_Pathology/15. Miscellaneous Concepts in Genetics.mp4",
+      "duration_seconds": 1566,
+      "duration_formatted": "26m 6s",
+      "file_size": 167956494,
+      "document_id": "5875108866827493188",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 243,
+        "filename": "49000.mp4",
+        "caption": "15. Miscellaneous Concepts in Genetics"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 322)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..77 against Folderwise (range 25381..25422) and Subjectwise Topic 322."
+      }
+    },
+    {
+      "lecture_no": 16,
+      "title": "16. Classification of Neoplasia",
+      "filename": "16. Classification of Neoplasia.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/05_Pathology/16. Classification of Neoplasia.mp4",
+      "duration_seconds": 2093,
+      "duration_formatted": "34m 53s",
+      "file_size": 230044062,
+      "document_id": "5875108866827493193",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 244,
+        "filename": "49003.mp4",
+        "caption": "16. Classification of Neoplasia"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 322)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..77 against Folderwise (range 25381..25422) and Subjectwise Topic 322."
+      }
+    },
+    {
+      "lecture_no": 17,
+      "title": "17. Features of Neoplasia",
+      "filename": "17. Features of Neoplasia.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/05_Pathology/17. Features of Neoplasia.mp4",
+      "duration_seconds": 2647,
+      "duration_formatted": "44m 7s",
+      "file_size": 275697677,
+      "document_id": "5875108866827493199",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 245,
+        "filename": "49005.mp4",
+        "caption": "17. Features of Neoplasia"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 322)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..77 against Folderwise (range 25381..25422) and Subjectwise Topic 322."
+      }
+    },
+    {
+      "lecture_no": 18,
+      "title": "18. Fundamentals of Neoplasia Part 1",
+      "filename": "18. Fundamentals of Neoplasia Part 1.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/05_Pathology/18. Fundamentals of Neoplasia Part 1.mp4",
+      "duration_seconds": 3399,
+      "duration_formatted": "56m 39s",
+      "file_size": 261182464,
+      "document_id": "5875108866827493209",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 246,
+        "filename": "49001.mp4",
+        "caption": "18. Fundamentals of Neoplasia Part 1"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 322)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..77 against Folderwise (range 25381..25422) and Subjectwise Topic 322."
+      }
+    },
+    {
+      "lecture_no": 19,
+      "title": "19. Fundamentals of Neoplasia Part 2",
+      "filename": "19. Fundamentals of Neoplasia Part 2.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/05_Pathology/19. Fundamentals of Neoplasia Part 2.mp4",
+      "duration_seconds": 3940,
+      "duration_formatted": "1h 5m 40s",
+      "file_size": 403296286,
+      "document_id": "5875108866827493214",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 247,
+        "filename": "49002.mp4",
+        "caption": "19. Fundamentals of Neoplasia Part 2"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 322)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..77 against Folderwise (range 25381..25422) and Subjectwise Topic 322."
+      }
+    },
+    {
+      "lecture_no": 20,
+      "title": "20. Etiology of Neoplasia",
+      "filename": "20. Etiology of Neoplasia.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/05_Pathology/20. Etiology of Neoplasia.mp4",
+      "duration_seconds": 3062,
+      "duration_formatted": "51m 2s",
+      "file_size": 371162099,
+      "document_id": "5875108866827493222",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 248,
+        "filename": "49004.mp4",
+        "caption": "20. Etiology of Neoplasia"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 322)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..77 against Folderwise (range 25381..25422) and Subjectwise Topic 322."
+      }
+    },
+    {
+      "lecture_no": 21,
+      "title": "21. Diagnosis of Tumors and Paraneoplastic Syndrome",
+      "filename": "21. Diagnosis of Tumors and Paraneoplastic Syndrome.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/05_Pathology/21. Diagnosis of Tumors and Paraneoplastic Syndrome.mp4",
+      "duration_seconds": 3076,
+      "duration_formatted": "51m 16s",
+      "file_size": 372359730,
+      "document_id": "5875108866827493226",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 249,
+        "filename": "49006.mp4",
+        "caption": "21. Diagnosis of Tumors and Paraneoplastic Syndrome"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 322)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..77 against Folderwise (range 25381..25422) and Subjectwise Topic 322."
+      }
+    },
+    {
+      "lecture_no": 22,
+      "title": "22. Types of Immunity",
+      "filename": "22. Types of Immunity.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/05_Pathology/22. Types of Immunity.mp4",
+      "duration_seconds": 4118,
+      "duration_formatted": "1h 8m 38s",
+      "file_size": 422041587,
+      "document_id": "5875108866827493232",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 250,
+        "filename": "49598.mp4",
+        "caption": "22. Types of Immunity"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 322)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..77 against Folderwise (range 25381..25422) and Subjectwise Topic 322."
+      }
+    },
+    {
+      "lecture_no": 23,
+      "title": "23. Types of Hypersensitivity Reactions",
+      "filename": "23. Types of Hypersensitivity Reactions.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/05_Pathology/23. Types of Hypersensitivity Reactions.mp4",
+      "duration_seconds": 2171,
+      "duration_formatted": "36m 11s",
+      "file_size": 225923894,
+      "document_id": "5875108866827493238",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 251,
+        "filename": "49601.mp4",
+        "caption": "23. Types of Hypersensitivity Reactions"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 322)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..77 against Folderwise (range 25381..25422) and Subjectwise Topic 322."
+      }
+    },
+    {
+      "lecture_no": 24,
+      "title": "24. Tolerance and Autoimmune disorders",
+      "filename": "24. Tolerance and Autoimmune disorders.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/05_Pathology/24. Tolerance and Autoimmune disorders.mp4",
+      "duration_seconds": 3672,
+      "duration_formatted": "1h 1m 12s",
+      "file_size": 361749143,
+      "document_id": "5875108866827493247",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 252,
+        "filename": "49597.mp4",
+        "caption": "24. Tolerance and Autoimmune disorders"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 322)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..77 against Folderwise (range 25381..25422) and Subjectwise Topic 322."
+      }
+    },
+    {
+      "lecture_no": 25,
+      "title": "25. Immunodeficiency Disorders",
+      "filename": "25. Immunodeficiency Disorders.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/05_Pathology/25. Immunodeficiency Disorders.mp4",
+      "duration_seconds": 2159,
+      "duration_formatted": "35m 59s",
+      "file_size": 197008797,
+      "document_id": "5875108866827493252",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 253,
+        "filename": "49599.mp4",
+        "caption": "25. Immunodeficiency Disorders"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 322)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..77 against Folderwise (range 25381..25422) and Subjectwise Topic 322."
+      }
+    },
+    {
+      "lecture_no": 26,
+      "title": "26. Transplant Immunology",
+      "filename": "26. Transplant Immunology.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/05_Pathology/26. Transplant Immunology.mp4",
+      "duration_seconds": 1895,
+      "duration_formatted": "31m 35s",
+      "file_size": 165396412,
+      "document_id": "5875108866827493255",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 254,
+        "filename": "49600 #yourwish.mp4",
+        "caption": "26. Transplant Immunology"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 322)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..77 against Folderwise (range 25381..25422) and Subjectwise Topic 322."
+      }
+    },
+    {
+      "lecture_no": 27,
+      "title": "27. Amyloidosis",
+      "filename": "27. Amyloidosis.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/05_Pathology/27. Amyloidosis.mp4",
+      "duration_seconds": 1072,
+      "duration_formatted": "17m 52s",
+      "file_size": 128298632,
+      "document_id": "5875108866827493259",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 255,
+        "filename": "49596 #yourwish.mp4",
+        "caption": "27. Amyloidosis"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 322)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..77 against Folderwise (range 25381..25422) and Subjectwise Topic 322."
+      }
+    },
+    {
+      "lecture_no": 28,
+      "title": "28. Vasculitis",
+      "filename": "28. Vasculitis.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/05_Pathology/28. Vasculitis.mp4",
+      "duration_seconds": 3550,
+      "duration_formatted": "59m 10s",
+      "file_size": 357040020,
+      "document_id": "5875108866827493264",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 256,
+        "filename": "49073 #yourwish.mp4",
+        "caption": "28. Vasculitis"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 322)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..77 against Folderwise (range 25381..25422) and Subjectwise Topic 322."
+      }
+    },
+    {
+      "lecture_no": 29,
+      "title": "29. Sclerosis and Vascular Tumors",
+      "filename": "29. Sclerosis and Vascular Tumors.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/05_Pathology/29. Sclerosis and Vascular Tumors.mp4",
+      "duration_seconds": 3778,
+      "duration_formatted": "1h 2m 58s",
+      "file_size": 390941055,
+      "document_id": "5875108866827493271",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 257,
+        "filename": "49074 #yourwish.mp4",
+        "caption": "29. Sclerosis and Vascular Tumors"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 322)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..77 against Folderwise (range 25381..25422) and Subjectwise Topic 322."
+      }
+    },
+    {
+      "lecture_no": 30,
+      "title": "30. Carditis",
+      "filename": "30. Carditis.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/05_Pathology/30. Carditis.mp4",
+      "duration_seconds": 2174,
+      "duration_formatted": "36m 14s",
+      "file_size": 188934487,
+      "document_id": "5875108866827493277",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 258,
+        "filename": "49129 #yourwish.mp4",
+        "caption": "30. Carditis"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 322)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..77 against Folderwise (range 25381..25422) and Subjectwise Topic 322."
+      }
+    },
+    {
+      "lecture_no": 31,
+      "title": "31. Ischemic Heart Diseases And Myocardial Infarction",
+      "filename": "31. Ischemic Heart Diseases And Myocardial Infarction.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/05_Pathology/31. Ischemic Heart Diseases And Myocardial Infarction.mp4",
+      "duration_seconds": 2512,
+      "duration_formatted": "41m 52s",
+      "file_size": 244375656,
+      "document_id": "5877360666641176754",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 259,
+        "filename": "49128 #yourwish.mp4",
+        "caption": "31. Ischemic Heart Diseases And Myocardial Infarction"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 322)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..77 against Folderwise (range 25381..25422) and Subjectwise Topic 322."
+      }
+    },
+    {
+      "lecture_no": 32,
+      "title": "32. Cardiomyopathy and Cardiac Tumors",
+      "filename": "32. Cardiomyopathy and Cardiac Tumors.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/05_Pathology/32. Cardiomyopathy and Cardiac Tumors.mp4",
+      "duration_seconds": 2144,
+      "duration_formatted": "35m 44s",
+      "file_size": 211332288,
+      "document_id": "5877360666641176759",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 260,
+        "filename": "49130 #yourwish.mp4",
+        "caption": "32. Cardiomyopathy and Cardiac Tumors"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 322)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..77 against Folderwise (range 25381..25422) and Subjectwise Topic 322."
+      }
+    },
+    {
+      "lecture_no": 33,
+      "title": "33. Obstructive Lung Disease",
+      "filename": "33. Obstructive Lung Disease.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/05_Pathology/33. Obstructive Lung Disease.mp4",
+      "duration_seconds": 3493,
+      "duration_formatted": "58m 13s",
+      "file_size": 354488397,
+      "document_id": "5877360666641176769",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 261,
+        "filename": "49221 #yourwish.mp4",
+        "caption": "33. Obstructive Lung Disease"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 322)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..77 against Folderwise (range 25381..25422) and Subjectwise Topic 322."
+      }
+    },
+    {
+      "lecture_no": 34,
+      "title": "34. Restrictive Lung Disease",
+      "filename": "34. Restrictive Lung Disease.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/05_Pathology/34. Restrictive Lung Disease.mp4",
+      "duration_seconds": 2668,
+      "duration_formatted": "44m 28s",
+      "file_size": 268725064,
+      "document_id": "5877360666641176778",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 262,
+        "filename": "49222 #yourwish.mp4",
+        "caption": "34. Restrictive Lung Disease"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 322)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..77 against Folderwise (range 25381..25422) and Subjectwise Topic 322."
+      }
+    },
+    {
+      "lecture_no": 35,
+      "title": "35. Pulmonary Infections/Pulmonary Hypertension and ARDS",
+      "filename": "35. Pulmonary Infections/Pulmonary Hypertension and ARDS.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/05_Pathology/35. Pulmonary Infections/Pulmonary Hypertension and ARDS.mp4",
+      "duration_seconds": 2627,
+      "duration_formatted": "43m 47s",
+      "file_size": 306978503,
+      "document_id": "5877360666641176785",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 263,
+        "filename": "49223 #yourwish.mp4",
+        "caption": "35. Pulmonary Infections/Pulmonary Hypertension and ARDS"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 322)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..77 against Folderwise (range 25381..25422) and Subjectwise Topic 322."
+      }
+    },
+    {
+      "lecture_no": 36,
+      "title": "36. Pulmonary Tumors",
+      "filename": "36. Pulmonary Tumors.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/05_Pathology/36. Pulmonary Tumors.mp4",
+      "duration_seconds": 2427,
+      "duration_formatted": "40m 27s",
+      "file_size": 264459890,
+      "document_id": "5877360666641176803",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 264,
+        "filename": "49224 #yourwish.mp4",
+        "caption": "36. Pulmonary Tumors"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 322)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..77 against Folderwise (range 25381..25422) and Subjectwise Topic 322."
+      }
+    },
+    {
+      "lecture_no": 37,
+      "title": "37. Salivary Gland Pathology",
+      "filename": "37. Salivary Gland Pathology.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/05_Pathology/37. Salivary Gland Pathology.mp4",
+      "duration_seconds": 925,
+      "duration_formatted": "15m 25s",
+      "file_size": 108190545,
+      "document_id": "5877360666641176808",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 265,
+        "filename": "49315 #yourwish.mp4",
+        "caption": "37. Salivary Gland Pathology"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 322)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..77 against Folderwise (range 25381..25422) and Subjectwise Topic 322."
+      }
+    },
+    {
+      "lecture_no": 38,
+      "title": "38. Esophagus",
+      "filename": "38. Esophagus.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/05_Pathology/38. Esophagus.mp4",
+      "duration_seconds": 2629,
+      "duration_formatted": "43m 49s",
+      "file_size": 325794860,
+      "document_id": "5877360666641176824",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 266,
+        "filename": "49225 #yourwish.mp4",
+        "caption": "38. Esophagus"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 322)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..77 against Folderwise (range 25381..25422) and Subjectwise Topic 322."
+      }
+    },
+    {
+      "lecture_no": 39,
+      "title": "39. Stomach",
+      "filename": "39. Stomach.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/05_Pathology/39. Stomach.mp4",
+      "duration_seconds": 4011,
+      "duration_formatted": "1h 6m 51s",
+      "file_size": 383318720,
+      "document_id": "5877360666641176841",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 267,
+        "filename": "49212 #yourwish.mp4",
+        "caption": "39. Stomach"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 322)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..77 against Folderwise (range 25381..25422) and Subjectwise Topic 322."
+      }
+    },
+    {
+      "lecture_no": 40,
+      "title": "40. Malabsorption Syndrome Ulcers of Intestine and Inflammatory Bowel",
+      "filename": "40. Malabsorption Syndrome Ulcers of Intestine and Inflammatory Bowel.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/05_Pathology/40. Malabsorption Syndrome Ulcers of Intestine and Inflammatory Bowel.mp4",
+      "duration_seconds": 3616,
+      "duration_formatted": "1h 0m 16s",
+      "file_size": 395767139,
+      "document_id": "5879741242459298591",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 268,
+        "filename": "40_Malabsorption_Syndrome_Ulcers_of_Intestine_and_Inflammat.mp4",
+        "caption": "40_Malabsorption_Syndrome_Ulcers_of_Intestine_and_Inflammatory_Bowel.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 322)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..77 against Folderwise (range 25381..25422) and Subjectwise Topic 322."
+      }
+    },
+    {
+      "lecture_no": 41,
+      "title": "41. Polyps and Intestinal Carcinoma",
+      "filename": "41. Polyps and Intestinal Carcinoma.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/05_Pathology/41. Polyps and Intestinal Carcinoma.mp4",
+      "duration_seconds": 3224,
+      "duration_formatted": "53m 44s",
+      "file_size": 310935068,
+      "document_id": "5879741242459298592",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 269,
+        "filename": "41. Polyps and Intestinal Carcinoma.mp4",
+        "caption": "41. Polyps and Intestinal Carcinoma.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 322)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..77 against Folderwise (range 25381..25422) and Subjectwise Topic 322."
+      }
+    },
+    {
+      "lecture_no": 42,
+      "title": "42. Hepatobiliary Pathology",
+      "filename": "42. Hepatobiliary Pathology.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/05_Pathology/42. Hepatobiliary Pathology.mp4",
+      "duration_seconds": 2423,
+      "duration_formatted": "40m 23s",
+      "file_size": 287055683,
+      "document_id": "5879741242459298594",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 270,
+        "filename": "42. Hepatobiliary Pathology.mp4",
+        "caption": "42. Hepatobiliary Pathology.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 322)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..77 against Folderwise (range 25381..25422) and Subjectwise Topic 322."
+      }
+    },
+    {
+      "lecture_no": 43,
+      "title": "43. Liver Cirrhosis, Tumors and Miscellaneous Topics",
+      "filename": "43. Liver Cirrhosis, Tumors and Miscellaneous Topics.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/05_Pathology/43. Liver Cirrhosis, Tumors and Miscellaneous Topics.mp4",
+      "duration_seconds": 4541,
+      "duration_formatted": "1h 15m 41s",
+      "file_size": 506126759,
+      "document_id": "5879741242459298595",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 271,
+        "filename": "43. Liver Cirrhosis , Tumors and Miscellaneous Topics.mp4",
+        "caption": "43. Liver Cirrhosis , Tumors and Miscellaneous Topics.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 322)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..77 against Folderwise (range 25381..25422) and Subjectwise Topic 322."
+      }
+    },
+    {
+      "lecture_no": 44,
+      "title": "44. Introduction and Cystic Diseases of Kidney",
+      "filename": "44. Introduction and Cystic Diseases of Kidney.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/05_Pathology/44. Introduction and Cystic Diseases of Kidney.mp4",
+      "duration_seconds": 3207,
+      "duration_formatted": "53m 27s",
+      "file_size": 380930710,
+      "document_id": "5879741242459298596",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 272,
+        "filename": "44. Introduction and Cystic Diseases of Kidney.mp4",
+        "caption": "44. Introduction and Cystic Diseases of Kidney.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 322)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..77 against Folderwise (range 25381..25422) and Subjectwise Topic 322."
+      }
+    },
+    {
+      "lecture_no": 45,
+      "title": "45. Nephritic Syndrome",
+      "filename": "45. Nephritic Syndrome.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/05_Pathology/45. Nephritic Syndrome.mp4",
+      "duration_seconds": 2486,
+      "duration_formatted": "41m 26s",
+      "file_size": 242425206,
+      "document_id": "5879741242459298597",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 273,
+        "filename": "45. Nephritic Syndrome.mp4",
+        "caption": "45. Nephritic Syndrome.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 322)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..77 against Folderwise (range 25381..25422) and Subjectwise Topic 322."
+      }
+    },
+    {
+      "lecture_no": 46,
+      "title": "46. Nephrotic Syndrome",
+      "filename": "46. Nephrotic Syndrome.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/05_Pathology/46. Nephrotic Syndrome.mp4",
+      "duration_seconds": 2844,
+      "duration_formatted": "47m 24s",
+      "file_size": 280444764,
+      "document_id": "5879741242459298599",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 274,
+        "filename": "46. Nephrotic Syndrome.mp4",
+        "caption": "46. Nephrotic Syndrome.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 322)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..77 against Folderwise (range 25381..25422) and Subjectwise Topic 322."
+      }
+    },
+    {
+      "lecture_no": 47,
+      "title": "47. Renal Tumors",
+      "filename": "47. Renal Tumors.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/05_Pathology/47. Renal Tumors.mp4",
+      "duration_seconds": 1566,
+      "duration_formatted": "26m 6s",
+      "file_size": 200320274,
+      "document_id": "5879741242459298601",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 275,
+        "filename": "47. Renal Tumors.mp4",
+        "caption": "47. Renal Tumors.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 322)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..77 against Folderwise (range 25381..25422) and Subjectwise Topic 322."
+      }
+    },
+    {
+      "lecture_no": 48,
+      "title": "48. Vulva, Vagina and Cervix Pathology",
+      "filename": "48. Vulva, Vagina and Cervix Pathology.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/05_Pathology/48. Vulva, Vagina and Cervix Pathology.mp4",
+      "duration_seconds": 2436,
+      "duration_formatted": "40m 36s",
+      "file_size": 316941083,
+      "document_id": "5879741242459298602",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 276,
+        "filename": "48. Vulva, Vagina and Cervix Pathology.mp4",
+        "caption": "48. Vulva, Vagina and Cervix Pathology.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 322)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..77 against Folderwise (range 25381..25422) and Subjectwise Topic 322."
+      }
+    },
+    {
+      "lecture_no": 49,
+      "title": "49. Endometrium, Gestational Trophoblastic Tumors and Ovarian Pathologies",
+      "filename": "49. Endometrium, Gestational Trophoblastic Tumors and Ovarian Pathologies.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/05_Pathology/49. Endometrium, Gestational Trophoblastic Tumors and Ovarian Pathologies.mp4",
+      "duration_seconds": 5039,
+      "duration_formatted": "1h 23m 59s",
+      "file_size": 547303708,
+      "document_id": "5879741242459298604",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 277,
+        "filename": "49_Endometrium,_Gestational_Trophoblastic_Tumors_&_Ovarian_.mp4",
+        "caption": "49_Endometrium,_Gestational_Trophoblastic_Tumors_&_Ovarian_Pathologies.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 322)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..77 against Folderwise (range 25381..25422) and Subjectwise Topic 322."
+      }
+    },
+    {
+      "lecture_no": 50,
+      "title": "50. Pathology of Male Genital Tract",
+      "filename": "50. Pathology of Male Genital Tract.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/05_Pathology/50. Pathology of Male Genital Tract.mp4",
+      "duration_seconds": 3544,
+      "duration_formatted": "59m 4s",
+      "file_size": 359507425,
+      "document_id": "5879741242459298606",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 278,
+        "filename": "50. Pathology of Male Genital Tract.mp4",
+        "caption": "50. Pathology of Male Genital Tract.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 322)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..77 against Folderwise (range 25381..25422) and Subjectwise Topic 322."
+      }
+    },
+    {
+      "lecture_no": 51,
+      "title": "51. Breast Pathology",
+      "filename": "51. Breast Pathology.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/05_Pathology/51. Breast Pathology.mp4",
+      "duration_seconds": 1327,
+      "duration_formatted": "22m 7s",
+      "file_size": 112268565,
+      "document_id": "5879741242459298607",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 279,
+        "filename": "51. Breast Pathology.mp4",
+        "caption": "51. Breast Pathology.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 322)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..77 against Folderwise (range 25381..25422) and Subjectwise Topic 322."
+      }
+    },
+    {
+      "lecture_no": 52,
+      "title": "52. Breast Tumors",
+      "filename": "52. Breast Tumors.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/05_Pathology/52. Breast Tumors.mp4",
+      "duration_seconds": 3386,
+      "duration_formatted": "56m 26s",
+      "file_size": 327998104,
+      "document_id": "5879741242459298608",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 280,
+        "filename": "52. Breast Tumors.mp4",
+        "caption": "52. Breast Tumors.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 322)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..77 against Folderwise (range 25381..25422) and Subjectwise Topic 322."
+      }
+    },
+    {
+      "lecture_no": 53,
+      "title": "53. Basics of Central Nervous System",
+      "filename": "53. Basics of Central Nervous System.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/05_Pathology/53. Basics of Central Nervous System.mp4",
+      "duration_seconds": 2700,
+      "duration_formatted": "45m 0s",
+      "file_size": 301497135,
+      "document_id": "5879741242459298609",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 281,
+        "filename": "53. Basics of Central Nervous System.mp4",
+        "caption": "53. Basics of Central Nervous System.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 322)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..77 against Folderwise (range 25381..25422) and Subjectwise Topic 322."
+      }
+    },
+    {
+      "lecture_no": 54,
+      "title": "54. Brain Tumors",
+      "filename": "54. Brain Tumors.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/05_Pathology/54. Brain Tumors.mp4",
+      "duration_seconds": 2912,
+      "duration_formatted": "48m 32s",
+      "file_size": 333884437,
+      "document_id": "5879741242459298610",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 282,
+        "filename": "54. Brain Tumors.mp4",
+        "caption": "54. Brain Tumors.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 322)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..77 against Folderwise (range 25381..25422) and Subjectwise Topic 322."
+      }
+    },
+    {
+      "lecture_no": 55,
+      "title": "55. Thyroid Gland and Tumor Pathology",
+      "filename": "55. Thyroid Gland and Tumor Pathology.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/05_Pathology/55. Thyroid Gland and Tumor Pathology.mp4",
+      "duration_seconds": 2351,
+      "duration_formatted": "39m 11s",
+      "file_size": 211927784,
+      "document_id": "5879741242459298611",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 283,
+        "filename": "55. Thyroid Gland and Tumor Pathology.mp4",
+        "caption": "55. Thyroid Gland and Tumor Pathology.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 322)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..77 against Folderwise (range 25381..25422) and Subjectwise Topic 322."
+      }
+    },
+    {
+      "lecture_no": 56,
+      "title": "56. Parathyroid, Adrenal and Pituitary Gland",
+      "filename": "56. Parathyroid, Adrenal and Pituitary Gland.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/05_Pathology/56. Parathyroid, Adrenal and Pituitary Gland.mp4",
+      "duration_seconds": 2585,
+      "duration_formatted": "43m 5s",
+      "file_size": 276267239,
+      "document_id": "5879741242459298612",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 284,
+        "filename": "56. Parathyroid, Adrenal & Pituitary Gland.mp4",
+        "caption": "56. Parathyroid, Adrenal & Pituitary Gland.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 322)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..77 against Folderwise (range 25381..25422) and Subjectwise Topic 322."
+      }
+    },
+    {
+      "lecture_no": 57,
+      "title": "57. Bone and Soft Tissue Pathology",
+      "filename": "57. Bone and Soft Tissue Pathology.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/05_Pathology/57. Bone and Soft Tissue Pathology.mp4",
+      "duration_seconds": 3842,
+      "duration_formatted": "1h 4m 2s",
+      "file_size": 370013343,
+      "document_id": "5879741242459298615",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 285,
+        "filename": "57. Bone and Soft Tissue Pathology.mp4",
+        "caption": "57. Bone and Soft Tissue Pathology.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 322)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..77 against Folderwise (range 25381..25422) and Subjectwise Topic 322."
+      }
+    },
+    {
+      "lecture_no": 58,
+      "title": "58. Skin Pathology",
+      "filename": "58. Skin Pathology.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/05_Pathology/58. Skin Pathology.mp4",
+      "duration_seconds": 3761,
+      "duration_formatted": "1h 2m 41s",
+      "file_size": 298815586,
+      "document_id": "5879741242459298617",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 286,
+        "filename": "58. Skin Pathology.mp4",
+        "caption": "58. Skin Pathology.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 322)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..77 against Folderwise (range 25381..25422) and Subjectwise Topic 322."
+      }
+    },
+    {
+      "lecture_no": 59,
+      "title": "59. Introduction to Hematology",
+      "filename": "59. Introduction to Hematology.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/05_Pathology/59. Introduction to Hematology.mp4",
+      "duration_seconds": 3387,
+      "duration_formatted": "56m 27s",
+      "file_size": 340942632,
+      "document_id": "5879741242459298619",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 287,
+        "filename": "59. Introduction to Hematology.mp4",
+        "caption": "59. Introduction to Hematology.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 322)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..77 against Folderwise (range 25381..25422) and Subjectwise Topic 322."
+      }
+    },
+    {
+      "lecture_no": 60,
+      "title": "60. Microcytic Hypochromic Anaemia",
+      "filename": "60. Microcytic Hypochromic Anaemia.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/05_Pathology/60. Microcytic Hypochromic Anaemia.mp4",
+      "duration_seconds": 3265,
+      "duration_formatted": "54m 25s",
+      "file_size": 286035762,
+      "document_id": "5879741242459298620",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 288,
+        "filename": "60. Microcytic Hypochromic Anaemia.mp4",
+        "caption": "60. Microcytic Hypochromic Anaemia.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 322)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..77 against Folderwise (range 25381..25422) and Subjectwise Topic 322."
+      }
+    },
+    {
+      "lecture_no": 61,
+      "title": "61. Macrocytic Hypochromic Anemia",
+      "filename": "61. Macrocytic Hypochromic Anemia.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/05_Pathology/61. Macrocytic Hypochromic Anemia.mp4",
+      "duration_seconds": 2133,
+      "duration_formatted": "35m 33s",
+      "file_size": 203823036,
+      "document_id": "5879741242459298621",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 289,
+        "filename": "61. Macrocytic Hypochromic Anemia.mp4",
+        "caption": "61. Macrocytic Hypochromic Anemia.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 322)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..77 against Folderwise (range 25381..25422) and Subjectwise Topic 322."
+      }
+    },
+    {
+      "lecture_no": 62,
+      "title": "62. Hemolytic Anemias",
+      "filename": "62. Hemolytic Anemias.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/05_Pathology/62. Hemolytic Anemias.mp4",
+      "duration_seconds": 3704,
+      "duration_formatted": "1h 1m 44s",
+      "file_size": 324823042,
+      "document_id": "5879741242459298622",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 290,
+        "filename": "62. Hemolytic Anemias.mp4",
+        "caption": "62. Hemolytic Anemias.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 322)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..77 against Folderwise (range 25381..25422) and Subjectwise Topic 322."
+      }
+    },
+    {
+      "lecture_no": 63,
+      "title": "63. Hemoglobinopathies",
+      "filename": "63. Hemoglobinopathies.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/05_Pathology/63. Hemoglobinopathies.mp4",
+      "duration_seconds": 3169,
+      "duration_formatted": "52m 49s",
+      "file_size": 270639122,
+      "document_id": "5879741242459298623",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 291,
+        "filename": "63. Hemoglobinopathies.mp4",
+        "caption": "63. Hemoglobinopathies.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 322)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..77 against Folderwise (range 25381..25422) and Subjectwise Topic 322."
+      }
+    },
+    {
+      "lecture_no": 64,
+      "title": "64. Auto Immune Hemolytic Anemia",
+      "filename": "64. Auto Immune Hemolytic Anemia.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/05_Pathology/64. Auto Immune Hemolytic Anemia.mp4",
+      "duration_seconds": 1160,
+      "duration_formatted": "19m 20s",
+      "file_size": 106291074,
+      "document_id": "5879741242459298624",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 292,
+        "filename": "64. Auto Immune Hemolytic Anemia.mp4",
+        "caption": "64. Auto Immune Hemolytic Anemia.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 322)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..77 against Folderwise (range 25381..25422) and Subjectwise Topic 322."
+      }
+    },
+    {
+      "lecture_no": 65,
+      "title": "65. RBC Shapes and Inclusions",
+      "filename": "65. RBC Shapes and Inclusions.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/05_Pathology/65. RBC Shapes and Inclusions.mp4",
+      "duration_seconds": 321,
+      "duration_formatted": "5m 21s",
+      "file_size": 33536703,
+      "document_id": "5879741242459298625",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 293,
+        "filename": "65. RBC Shapes and Inclusions.mp4",
+        "caption": "65. RBC Shapes and Inclusions.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 322)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..77 against Folderwise (range 25381..25422) and Subjectwise Topic 322."
+      }
+    },
+    {
+      "lecture_no": 66,
+      "title": "66. Basics of WBC",
+      "filename": "66. Basics of WBC.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/05_Pathology/66. Basics of WBC.mp4",
+      "duration_seconds": 1833,
+      "duration_formatted": "30m 33s",
+      "file_size": 188515831,
+      "document_id": "5879741242459298626",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 294,
+        "filename": "66. Basics of WBC.mp4",
+        "caption": "66. Basics of WBC.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 322)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..77 against Folderwise (range 25381..25422) and Subjectwise Topic 322."
+      }
+    },
+    {
+      "lecture_no": 67,
+      "title": "67. Acute Lymphoblastic Leukemia ALL and Acute Myeloid Leukemia AML",
+      "filename": "67. Acute Lymphoblastic Leukemia ALL and Acute Myeloid Leukemia AML.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/05_Pathology/67. Acute Lymphoblastic Leukemia ALL and Acute Myeloid Leukemia AML.mp4",
+      "duration_seconds": 2670,
+      "duration_formatted": "44m 30s",
+      "file_size": 266373258,
+      "document_id": "5879741242459298627",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 295,
+        "filename": "67_Acute_Lymphoblastic_Leukemia_ALL_&_Acute_Myeloid_Leukemi.mp4",
+        "caption": "67_Acute_Lymphoblastic_Leukemia_ALL_&_Acute_Myeloid_Leukemia_AML.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 322)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..77 against Folderwise (range 25381..25422) and Subjectwise Topic 322."
+      }
+    },
+    {
+      "lecture_no": 68,
+      "title": "68. Chronic Lymphocytic Leukemia CLL and Chronic Myeloid Leukemia CML",
+      "filename": "68. Chronic Lymphocytic Leukemia CLL and Chronic Myeloid Leukemia CML.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/05_Pathology/68. Chronic Lymphocytic Leukemia CLL and Chronic Myeloid Leukemia CML.mp4",
+      "duration_seconds": 1830,
+      "duration_formatted": "30m 30s",
+      "file_size": 182811557,
+      "document_id": "5879741242459298628",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 296,
+        "filename": "68_Chronic_Lymphocytic_Leukemia_CLL_&_Chronic_Myeloid_Leuke.mp4",
+        "caption": "68_Chronic_Lymphocytic_Leukemia_CLL_&_Chronic_Myeloid_Leukemia_CML.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 322)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..77 against Folderwise (range 25381..25422) and Subjectwise Topic 322."
+      }
+    },
+    {
+      "lecture_no": 69,
+      "title": "69. Hodgkin's and Non- Hodgkin's Lymphoma",
+      "filename": "69. Hodgkin's and Non- Hodgkin's Lymphoma.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/05_Pathology/69. Hodgkin's and Non- Hodgkin's Lymphoma.mp4",
+      "duration_seconds": 4436,
+      "duration_formatted": "1h 13m 56s",
+      "file_size": 428072820,
+      "document_id": "5879741242459298629",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 297,
+        "filename": "69. Hodgkin's & Non- Hodgkin's Lymphoma.mp4",
+        "caption": "69. Hodgkin's & Non- Hodgkin's Lymphoma.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 322)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..77 against Folderwise (range 25381..25422) and Subjectwise Topic 322."
+      }
+    },
+    {
+      "lecture_no": 70,
+      "title": "70. Chronic Myeloproliferative Disorder and Myelodysplastic Syndromes",
+      "filename": "70. Chronic Myeloproliferative Disorder and Myelodysplastic Syndromes.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/05_Pathology/70. Chronic Myeloproliferative Disorder and Myelodysplastic Syndromes.mp4",
+      "duration_seconds": 1728,
+      "duration_formatted": "28m 48s",
+      "file_size": 142250534,
+      "document_id": "5879741242459298630",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 298,
+        "filename": "70_Chronic_Myeloproliferative_Disorder_and_Myelodysplastic_.mp4",
+        "caption": "70_Chronic_Myeloproliferative_Disorder_and_Myelodysplastic_Syndromes.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 322)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..77 against Folderwise (range 25381..25422) and Subjectwise Topic 322."
+      }
+    },
+    {
+      "lecture_no": 71,
+      "title": "71. Plasma Cell Dyscrasia",
+      "filename": "71. Plasma Cell Dyscrasia.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/05_Pathology/71. Plasma Cell Dyscrasia.mp4",
+      "duration_seconds": 2103,
+      "duration_formatted": "35m 3s",
+      "file_size": 206612746,
+      "document_id": "5879741242459298631",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 299,
+        "filename": "71. Plasma Cell Dyscrasia.mp4",
+        "caption": "71. Plasma Cell Dyscrasia.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 322)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..77 against Folderwise (range 25381..25422) and Subjectwise Topic 322."
+      }
+    },
+    {
+      "lecture_no": 72,
+      "title": "72. Coagulation and Bleeding Disorders",
+      "filename": "72. Coagulation and Bleeding Disorders.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/05_Pathology/72. Coagulation and Bleeding Disorders.mp4",
+      "duration_seconds": 4945,
+      "duration_formatted": "1h 22m 25s",
+      "file_size": 537735719,
+      "document_id": "5879741242459298633",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 300,
+        "filename": "72. Coagulation and Bleeding Disorders.mp4",
+        "caption": "72. Coagulation and Bleeding Disorders.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 322)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..77 against Folderwise (range 25381..25422) and Subjectwise Topic 322."
+      }
+    },
+    {
+      "lecture_no": 73,
+      "title": "73. Special Tests for Platelets Function",
+      "filename": "73. Special Tests for Platelets Function.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/05_Pathology/73. Special Tests for Platelets Function.mp4",
+      "duration_seconds": 1077,
+      "duration_formatted": "17m 57s",
+      "file_size": 71693509,
+      "document_id": "5879741242459298634",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 301,
+        "filename": "73. Special Tests for Platelets Function.mp4",
+        "caption": "73. Special Tests for Platelets Function.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 322)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..77 against Folderwise (range 25381..25422) and Subjectwise Topic 322."
+      }
+    },
+    {
+      "lecture_no": 74,
+      "title": "74. Blood Banking and Transfusion Medicine",
+      "filename": "74. Blood Banking and Transfusion Medicine.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/05_Pathology/74. Blood Banking and Transfusion Medicine.mp4",
+      "duration_seconds": 5433,
+      "duration_formatted": "1h 30m 33s",
+      "file_size": 519689018,
+      "document_id": "5879741242459298635",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 302,
+        "filename": "74. Blood Banking and Transfusion Medicine.mp4",
+        "caption": "74. Blood Banking and Transfusion Medicine.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 322)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..77 against Folderwise (range 25381..25422) and Subjectwise Topic 322."
+      }
+    },
+    {
+      "lecture_no": 75,
+      "title": "75. Vacutainers and Pipettes",
+      "filename": "75. Vacutainers and Pipettes.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/05_Pathology/75. Vacutainers and Pipettes.mp4",
+      "duration_seconds": 1410,
+      "duration_formatted": "23m 30s",
+      "file_size": 126444431,
+      "document_id": "5879741242459298636",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 303,
+        "filename": "75. Vacutainers and Pipettes.mp4",
+        "caption": "75. Vacutainers and Pipettes.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 322)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..77 against Folderwise (range 25381..25422) and Subjectwise Topic 322."
+      }
+    },
+    {
+      "lecture_no": 76,
+      "title": "76. Tissue Processing",
+      "filename": "76. Tissue Processing.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/05_Pathology/76. Tissue Processing.mp4",
+      "duration_seconds": 761,
+      "duration_formatted": "12m 41s",
+      "file_size": 98696263,
+      "document_id": "5879741242459298637",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 304,
+        "filename": "76. Tissue Processing.mp4",
+        "caption": "76. Tissue Processing.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 322)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..77 against Folderwise (range 25381..25422) and Subjectwise Topic 322."
+      }
+    },
+    {
+      "lecture_no": 77,
+      "title": "77. Flow Cytometry",
+      "filename": "77. Flow Cytometry.mp4",
+      "destination_path": "/Aspirin_LMS/01_PrepLadder_X_English/05_Pathology/77. Flow Cytometry.mp4",
+      "duration_seconds": 1231,
+      "duration_formatted": "20m 31s",
+      "file_size": 94845687,
+      "document_id": "5879741242459298638",
+      "primary_source": {
+        "channel_name": "Prep X + Cerebellum Primary Channel",
+        "chat_id": -1003709841202,
+        "message_id": 305,
+        "filename": "77. Flow Cytometry.mp4",
+        "caption": "77. Flow Cytometry.mp4"
+      },
+      "corroboration": {
+        "channel_name": "Folderwise Free Group (Topic 24829) & Subjectwise (Topic 322)",
+        "chat_id": -1003839992379,
+        "topic_id": 24829,
+        "notes": "Verified contiguous 1..77 against Folderwise (range 25381..25422) and Subjectwise Topic 322."
+      }
+    }
+  ]
+}
