@@ -1,6 +1,6 @@
 {
   "version": "2.2.0",
-  "updated_at": "2026-10-28T22:21:30.355Z",
+  "updated_at": "2026-10-28T23:00:30.220Z",
   "subjects": [
     {
       "id": "anatomy",
@@ -6101,7 +6101,7 @@
       "category": "Para-Clinical",
       "icon": "Pill",
       "color": "#2563EB",
-      "total_topics": 61,
+      "total_topics": 71,
       "total_notes": 4,
       "modules": [
         {
@@ -6143,6 +6143,23 @@
               "thumbnail_url": "/api/thumbnail/-1003709841202/2870"
             },
             {
+              "id": "topic_-1003709841202_2933",
+              "subject_id": "pharmacology",
+              "module": "Cerebellum Academy - Pharmacology",
+              "title": "1. Clinical Punch - 1",
+              "filename": "1. Clinical Punch - 1.mp4",
+              "file_size_bytes": 45804134,
+              "file_size_mb": 43.68,
+              "duration_seconds": 315,
+              "duration_formatted": "5m 15s",
+              "chat_id": -1003709841202,
+              "message_id": 2933,
+              "is_high_yield": false,
+              "pearls": [],
+              "date": "2026-10-28T22:55:52Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/2933"
+            },
+            {
               "id": "topic_-1003709841202_2867",
               "subject_id": "pharmacology",
               "module": "Cerebellum Academy - Pharmacology",
@@ -6175,6 +6192,23 @@
               "pearls": [],
               "date": "2026-10-28T18:34:24Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/2871"
+            },
+            {
+              "id": "topic_-1003709841202_2934",
+              "subject_id": "pharmacology",
+              "module": "Cerebellum Academy - Pharmacology",
+              "title": "2. Clinical Punch - 2",
+              "filename": "2. Clinical Punch - 2.mp4",
+              "file_size_bytes": 49707792,
+              "file_size_mb": 47.41,
+              "duration_seconds": 373,
+              "duration_formatted": "6m 13s",
+              "chat_id": -1003709841202,
+              "message_id": 2934,
+              "is_high_yield": false,
+              "pearls": [],
+              "date": "2026-10-28T22:57:00Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/2934"
             },
             {
               "id": "topic_-1003709841202_2868",
@@ -6211,6 +6245,23 @@
               "thumbnail_url": "/api/thumbnail/-1003709841202/2872"
             },
             {
+              "id": "topic_-1003709841202_2935",
+              "subject_id": "pharmacology",
+              "module": "Cerebellum Academy - Pharmacology",
+              "title": "3. Clinical Punch - 3",
+              "filename": "3. Clinical Punch - 3.mp4",
+              "file_size_bytes": 38859342,
+              "file_size_mb": 37.06,
+              "duration_seconds": 275,
+              "duration_formatted": "4m 35s",
+              "chat_id": -1003709841202,
+              "message_id": 2935,
+              "is_high_yield": false,
+              "pearls": [],
+              "date": "2026-10-28T22:57:49Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/2935"
+            },
+            {
               "id": "topic_-1003709841202_2869",
               "subject_id": "pharmacology",
               "module": "Cerebellum Academy - Pharmacology",
@@ -6245,6 +6296,23 @@
               "thumbnail_url": "/api/thumbnail/-1003709841202/2873"
             },
             {
+              "id": "topic_-1003709841202_2936",
+              "subject_id": "pharmacology",
+              "module": "Cerebellum Academy - Pharmacology",
+              "title": "4. Clinical Punch - 4",
+              "filename": "4. Clinical Punch - 4.mp4",
+              "file_size_bytes": 49703295,
+              "file_size_mb": 47.4,
+              "duration_seconds": 343,
+              "duration_formatted": "5m 43s",
+              "chat_id": -1003709841202,
+              "message_id": 2936,
+              "is_high_yield": false,
+              "pearls": [],
+              "date": "2026-10-28T22:58:57Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/2936"
+            },
+            {
               "id": "topic_-1003709841202_2874",
               "subject_id": "pharmacology",
               "module": "Cerebellum Academy - Pharmacology",
@@ -6260,6 +6328,23 @@
               "pearls": [],
               "date": "2026-10-28T18:38:06Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/2874"
+            },
+            {
+              "id": "topic_-1003709841202_2937",
+              "subject_id": "pharmacology",
+              "module": "Cerebellum Academy - Pharmacology",
+              "title": "5. Clinical Punch - 5",
+              "filename": "5. Clinical Punch - 5.mp4",
+              "file_size_bytes": 55823784,
+              "file_size_mb": 53.24,
+              "duration_seconds": 424,
+              "duration_formatted": "7m 4s",
+              "chat_id": -1003709841202,
+              "message_id": 2937,
+              "is_high_yield": false,
+              "pearls": [],
+              "date": "2026-10-28T23:00:18Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/2937"
             },
             {
               "id": "topic_-1003709841202_2875",
@@ -7119,8 +7204,8 @@
               "filename": "56. Cytotoxic Drugs.mp4",
               "file_size_bytes": 571211907,
               "file_size_mb": 544.75,
-              "duration_seconds": 0,
-              "duration_formatted": "0m",
+              "duration_seconds": 4883,
+              "duration_formatted": "1h 21m",
               "chat_id": -1003709841202,
               "message_id": 2924,
               "is_high_yield": false,
@@ -7144,6 +7229,91 @@
               "pearls": [],
               "date": "2026-10-28T22:21:11Z",
               "thumbnail_url": "/api/thumbnail/-1003709841202/2931"
+            },
+            {
+              "id": "topic_-1003709841202_2925",
+              "subject_id": "pharmacology",
+              "module": "Cerebellum Academy - Pharmacology",
+              "title": "58. Immunosuppressants Drugs",
+              "filename": "58. Immunosuppressants Drugs.mp4",
+              "file_size_bytes": 123239587,
+              "file_size_mb": 117.53,
+              "duration_seconds": 1267,
+              "duration_formatted": "21m 7s",
+              "chat_id": -1003709841202,
+              "message_id": 2925,
+              "is_high_yield": false,
+              "pearls": [],
+              "date": "2026-10-28T22:24:53Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/2925"
+            },
+            {
+              "id": "topic_-1003709841202_2926",
+              "subject_id": "pharmacology",
+              "module": "Cerebellum Academy - Pharmacology",
+              "title": "59. Monoclonal Antibodies",
+              "filename": "59. Monoclonal Antibodies.mp4",
+              "file_size_bytes": 333346334,
+              "file_size_mb": 317.9,
+              "duration_seconds": 2756,
+              "duration_formatted": "45m 56s",
+              "chat_id": -1003709841202,
+              "message_id": 2926,
+              "is_high_yield": false,
+              "pearls": [],
+              "date": "2026-10-28T22:33:03Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/2926"
+            },
+            {
+              "id": "topic_-1003709841202_2927",
+              "subject_id": "pharmacology",
+              "module": "Cerebellum Academy - Pharmacology",
+              "title": "60. Drug Interactions and Antidotes",
+              "filename": "60. Drug Interactions and Antidotes.mp4",
+              "file_size_bytes": 457002024,
+              "file_size_mb": 435.83,
+              "duration_seconds": 3821,
+              "duration_formatted": "1h 3m",
+              "chat_id": -1003709841202,
+              "message_id": 2927,
+              "is_high_yield": false,
+              "pearls": [],
+              "date": "2026-10-28T22:44:37Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/2927"
+            },
+            {
+              "id": "topic_-1003709841202_2928",
+              "subject_id": "pharmacology",
+              "module": "Cerebellum Academy - Pharmacology",
+              "title": "61. Miscellaneous Topics",
+              "filename": "61. Miscellaneous Topics.mp4",
+              "file_size_bytes": 162057504,
+              "file_size_mb": 154.55,
+              "duration_seconds": 1687,
+              "duration_formatted": "28m 7s",
+              "chat_id": -1003709841202,
+              "message_id": 2928,
+              "is_high_yield": false,
+              "pearls": [],
+              "date": "2026-10-28T22:48:44Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/2928"
+            },
+            {
+              "id": "topic_-1003709841202_2929",
+              "subject_id": "pharmacology",
+              "module": "Cerebellum Academy - Pharmacology",
+              "title": "62. New Drugs",
+              "filename": "62. New Drugs.mp4",
+              "file_size_bytes": 252973886,
+              "file_size_mb": 241.25,
+              "duration_seconds": 2311,
+              "duration_formatted": "38m 31s",
+              "chat_id": -1003709841202,
+              "message_id": 2929,
+              "is_high_yield": false,
+              "pearls": [],
+              "date": "2026-10-28T22:54:46Z",
+              "thumbnail_url": "/api/thumbnail/-1003709841202/2929"
             }
           ]
         }
