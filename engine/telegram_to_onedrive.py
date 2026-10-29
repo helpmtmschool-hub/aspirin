@@ -60,6 +60,8 @@ EGURUKUL_ANATOMY_PATH = PROJECT_DIR / "engine" / "egurukul_anatomy_verified.json
 PREPX_PATHO_PATH = PROJECT_DIR / "engine" / "prepx_pathology_verified.json"
 PREPX_MICRO_PATH = PROJECT_DIR / "engine" / "prepx_microbiology_verified.json"
 CEREBELLUM_PHARMA_PATH = PROJECT_DIR / "engine" / "cerebellum_pharmacology_grg_verified.json"
+MARROW_FMT_PATH = PROJECT_DIR / "engine" / "marrow_fmt_verified.json"
+CEREBELLUM_PSM_PATH = PROJECT_DIR / "engine" / "cerebellum_psm_vivek_jain_verified.json"
 LEGACY_CATALOG_PATH = PROJECT_DIR / "public" / "catalog.json"
 PREPX_CHANNEL_ID = -1003709841202
 MARROW_CHANNEL_ID = -1003264222864
@@ -152,6 +154,8 @@ NEW_TENANT_SUBJECT_FOLDER_MAP = {
     "microbiology": "Microbiology",
     "psm": "Community_Medicine_PSM",
     "forensic_medicine": "Forensic_Medicine",
+    "fmt": "Forensic_Medicine",
+    "community_medicine": "Community_Medicine_PSM",
     "ophthalmology": "Ophthalmology",
     "ent": "ENT",
     "medicine": "Medicine",
@@ -731,6 +735,7 @@ class LectureTransferEngine:
         target_subjects = None
         is_first_year = False
         is_second_year = False
+        is_third_year = False
         if target_subject and target_subject.lower() != "all":
             target_subjects = set()
             for raw_part in re.split(r"[,|\s]+", target_subject.lower().strip()):
@@ -751,6 +756,9 @@ class LectureTransferEngine:
                 elif s in ("second_year", "second", "2nd_year", "all_second"):
                     is_second_year = True
                     target_subjects.update(["pathology", "microbiology", "pharmacology"])
+                elif s in ("third_year", "third", "3rd_year", "all_third"):
+                    is_third_year = True
+                    target_subjects.update(["psm", "community_medicine", "fmt", "forensic_medicine"])
                 else: target_subjects.add(s)
 
         # 1. Load PrepLadder & Cerebellum sections
@@ -796,6 +804,11 @@ class LectureTransferEngine:
                 # Second-Year curriculum enforcement:
                 # Pathology and Microbiology are PrepLadder X English, Pharmacology is Cerebellum (Dr. GRG)
                 if is_second_year and norm_subj in ("pathology", "microbiology", "pharmacology"):
+                    continue
+
+                # Third-Year curriculum enforcement:
+                # PSM is Cerebellum Dr. Vivek Jain, FMT is Marrow Edition 6
+                if is_third_year and norm_subj in ("psm", "community_medicine", "fmt", "forensic_medicine"):
                     continue
 
                 platform_folder = PLATFORM_FOLDER_MAP.get(sec_platform, sec_platform)
@@ -970,6 +983,77 @@ class LectureTransferEngine:
                         })
             except Exception as e:
                 print(f"[Warning] Failed to load verified cerebellum pharmacology sections: {e}")
+
+        # 7. Load Marrow verified FMT
+        if MARROW_FMT_PATH.exists() and (not platform or platform.lower() in ("marrow", "all")):
+            try:
+                with open(MARROW_FMT_PATH, "r", encoding="utf-8") as f:
+                    fmt_data = json.load(f)
+
+                if not target_subjects or any(s in target_subjects for s in ("fmt", "forensic_medicine")):
+                    platform_folder = PLATFORM_FOLDER_MAP.get("marrow", "04_Marrow_Edition_6")
+                    dest_plat = NEW_TENANT_PLATFORM_FOLDER_MAP.get("marrow", "Marrow_E6")
+                    for lec in fmt_data.get("lectures", []):
+                        ps = lec["primary_source"]
+                        cid = ps["chat_id"]
+                        mid = ps["message_id"]
+                        item_id = f"mr_{cid}_{mid}"
+                        if item_id in self.manifest and self.manifest[item_id].get("status") == "completed":
+                            continue
+
+                        raw_items.append({
+                            "id": item_id,
+                            "chat_id": cid,
+                            "message_id": mid,
+                            "platform": "marrow",
+                            "platform_folder": platform_folder,
+                            "dest_platform_folder": dest_plat,
+                            "dest_subject_folder": "Forensic_Medicine",
+                            "subject_id": "forensic_medicine",
+                            "subject_name": "Marrow FMT (Forensic Medicine)",
+                            "subject_folder": "07_Forensic_Medicine",
+                            "preferred_title": lec.get("title"),
+                            "global_order": lec.get("lecture_no"),
+                        })
+            except Exception as e:
+                print(f"[Warning] Failed to load verified FMT sections: {e}")
+
+        # 8. Load Cerebellum verified PSM (Dr. Vivek Jain)
+        if CEREBELLUM_PSM_PATH.exists() and (not platform or platform.lower() in ("cerebellum", "all")):
+            try:
+                with open(CEREBELLUM_PSM_PATH, "r", encoding="utf-8") as f:
+                    psm_data = json.load(f)
+
+                if not target_subjects or any(s in target_subjects for s in ("psm", "community_medicine")):
+                    platform_folder = PLATFORM_FOLDER_MAP.get("cerebellum", "03_Cerebellum_Academy")
+                    dest_plat = NEW_TENANT_PLATFORM_FOLDER_MAP.get("cerebellum", "Cerebellum")
+                    for lec in psm_data.get("lectures", []):
+                        if self.videos_only and lec.get("is_pdf"):
+                            continue
+                        ps = lec["primary_source"]
+                        cid = ps["chat_id"]
+                        mid = ps["message_id"]
+                        item_id = f"cb_{cid}_{mid}"
+                        if item_id in self.manifest and self.manifest[item_id].get("status") == "completed":
+                            continue
+
+                        dest_sub = f"04_PSM_Dr_Vivek_Jain/{lec['section_slug']}"
+                        raw_items.append({
+                            "id": item_id,
+                            "chat_id": cid,
+                            "message_id": mid,
+                            "platform": "cerebellum",
+                            "platform_folder": platform_folder,
+                            "dest_platform_folder": dest_plat,
+                            "dest_subject_folder": dest_sub,
+                            "subject_id": "psm",
+                            "subject_name": f"Cerebellum PSM ({lec['section_name']})",
+                            "subject_folder": dest_sub,
+                            "preferred_title": lec.get("title"),
+                            "global_order": lec.get("global_order"),
+                        })
+            except Exception as e:
+                print(f"[Warning] Failed to load verified cerebellum PSM sections: {e}")
 
         # 2. Load Marrow sections
         if MARROW_SECTIONS_PATH.exists() and (not platform or platform.lower() in ("marrow", "all")):

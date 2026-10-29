@@ -1,0 +1,1036 @@
+{
+  "subject": "Forensic Medicine & Toxicology",
+  "faculty": "Dr. Akhilesh Raj / Dr. Magendran",
+  "platform": "Marrow Edition 6",
+  "total_lectures": 38,
+  "total_size_bytes": 8562426098,
+  "total_duration_seconds": 141181,
+  "lectures": [
+    {
+      "lecture_no": 1,
+      "title": "01. How to approach Forensic Medicine",
+      "filename": "01. How to approach Forensic Medicine.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/07_Forensic_Medicine/01. How to approach Forensic Medicine.mp4",
+      "duration_seconds": 575,
+      "duration_formatted": "9m 35s",
+      "file_size": 36656441,
+      "document_id": "6282983150511460047",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 107: FMT)",
+        "chat_id": -1003264222864,
+        "topic_id": 107,
+        "message_id": 108,
+        "filename": "01. How to approach Forensic Medicine Edition 6.mp4",
+        "caption": "01. How to approach Forensic Medicine Edition 6"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Supergroup (Topic 2147: FMT (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2147,
+        "message_id": 2148,
+        "caption": "01: How to approach Forensic Medicine",
+        "duration_match": true,
+        "notes": "Subjectwise Topic 2147 provides canonical title text resolving Marrow E6 bare numbers; durations match exactly on all 38 lectures."
+      }
+    },
+    {
+      "lecture_no": 2,
+      "title": "02. Indian Legal System - Part 1",
+      "filename": "02. Indian Legal System - Part 1.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/07_Forensic_Medicine/02. Indian Legal System - Part 1.mp4",
+      "duration_seconds": 4555,
+      "duration_formatted": "1h 15m 55s",
+      "file_size": 255141212,
+      "document_id": "6282983150511460060",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 107: FMT)",
+        "chat_id": -1003264222864,
+        "topic_id": 107,
+        "message_id": 109,
+        "filename": "02.Indian Legal system - Part 1.mp4",
+        "caption": "02.Indian Legal system - Part 1"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Supergroup (Topic 2147: FMT (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2147,
+        "message_id": 2149,
+        "caption": "02: Indian Legal System - Part 1",
+        "duration_match": true,
+        "notes": "Subjectwise Topic 2147 provides canonical title text resolving Marrow E6 bare numbers; durations match exactly on all 38 lectures."
+      }
+    },
+    {
+      "lecture_no": 3,
+      "title": "03. Indian Legal System - Part 2",
+      "filename": "03. Indian Legal System - Part 2.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/07_Forensic_Medicine/03. Indian Legal System - Part 2.mp4",
+      "duration_seconds": 2994,
+      "duration_formatted": "49m 54s",
+      "file_size": 156502877,
+      "document_id": "6282983150511460063",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 107: FMT)",
+        "chat_id": -1003264222864,
+        "topic_id": 107,
+        "message_id": 110,
+        "filename": "03.Indian Legal system - Part 2.mp4",
+        "caption": "03.Indian Legal system - Part 2"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Supergroup (Topic 2147: FMT (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2147,
+        "message_id": 2150,
+        "caption": "03: Indian Legal System - Part 2",
+        "duration_match": true,
+        "notes": "Subjectwise Topic 2147 provides canonical title text resolving Marrow E6 bare numbers; durations match exactly on all 38 lectures."
+      }
+    },
+    {
+      "lecture_no": 4,
+      "title": "04. Medical Law and Ethics",
+      "filename": "04. Medical Law and Ethics.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/07_Forensic_Medicine/04. Medical Law and Ethics.mp4",
+      "duration_seconds": 2845,
+      "duration_formatted": "47m 25s",
+      "file_size": 153459921,
+      "document_id": "6282983150511460087",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 107: FMT)",
+        "chat_id": -1003264222864,
+        "topic_id": 107,
+        "message_id": 111,
+        "filename": "04. Medical law and Ethics.mp4",
+        "caption": "04. Medical law and Ethics"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Supergroup (Topic 2147: FMT (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2147,
+        "message_id": 2151,
+        "caption": "04: Medical Law & Ethics",
+        "duration_match": true,
+        "notes": "Subjectwise Topic 2147 provides canonical title text resolving Marrow E6 bare numbers; durations match exactly on all 38 lectures."
+      }
+    },
+    {
+      "lecture_no": 5,
+      "title": "05. Medical Negligence",
+      "filename": "05. Medical Negligence.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/07_Forensic_Medicine/05. Medical Negligence.mp4",
+      "duration_seconds": 4196,
+      "duration_formatted": "1h 9m 56s",
+      "file_size": 234418623,
+      "document_id": "6282983150511460115",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 107: FMT)",
+        "chat_id": -1003264222864,
+        "topic_id": 107,
+        "message_id": 112,
+        "filename": "05.Medical Negligence.mp4",
+        "caption": "05.Medical Negligence"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Supergroup (Topic 2147: FMT (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2147,
+        "message_id": 2152,
+        "caption": "05: Medical Negligence",
+        "duration_match": true,
+        "notes": "Subjectwise Topic 2147 provides canonical title text resolving Marrow E6 bare numbers; durations match exactly on all 38 lectures."
+      }
+    },
+    {
+      "lecture_no": 6,
+      "title": "06. Consent in Medical Practice",
+      "filename": "06. Consent in Medical Practice.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/07_Forensic_Medicine/06. Consent in Medical Practice.mp4",
+      "duration_seconds": 1963,
+      "duration_formatted": "32m 43s",
+      "file_size": 100066076,
+      "document_id": "6282983150511460127",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 107: FMT)",
+        "chat_id": -1003264222864,
+        "topic_id": 107,
+        "message_id": 113,
+        "filename": "06.Consent in Medical practice.mp4",
+        "caption": "06.Consent in Medical practice"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Supergroup (Topic 2147: FMT (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2147,
+        "message_id": 2153,
+        "caption": "06: Consent in Medical Practice",
+        "duration_match": true,
+        "notes": "Subjectwise Topic 2147 provides canonical title text resolving Marrow E6 bare numbers; durations match exactly on all 38 lectures."
+      }
+    },
+    {
+      "lecture_no": 7,
+      "title": "07. Mechanical Injuries - Part 1",
+      "filename": "07. Mechanical Injuries - Part 1.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/07_Forensic_Medicine/07. Mechanical Injuries - Part 1.mp4",
+      "duration_seconds": 3820,
+      "duration_formatted": "1h 3m 40s",
+      "file_size": 257324869,
+      "document_id": "6282983150511460213",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 107: FMT)",
+        "chat_id": -1003264222864,
+        "topic_id": 107,
+        "message_id": 114,
+        "filename": "07.Mechanical injuries - Part 1.mp4",
+        "caption": "07.Mechanical injuries - Part 1"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Supergroup (Topic 2147: FMT (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2147,
+        "message_id": 2154,
+        "caption": "07: Mechanical Injuries - Part 1",
+        "duration_match": true,
+        "notes": "Subjectwise Topic 2147 provides canonical title text resolving Marrow E6 bare numbers; durations match exactly on all 38 lectures."
+      }
+    },
+    {
+      "lecture_no": 8,
+      "title": "08. Mechanical Injuries - Part 2",
+      "filename": "08. Mechanical Injuries - Part 2.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/07_Forensic_Medicine/08. Mechanical Injuries - Part 2.mp4",
+      "duration_seconds": 3871,
+      "duration_formatted": "1h 4m 31s",
+      "file_size": 262842321,
+      "document_id": "6282983150511460351",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 107: FMT)",
+        "chat_id": -1003264222864,
+        "topic_id": 107,
+        "message_id": 115,
+        "filename": "08.Mechanical injuries - Part 2.mp4",
+        "caption": "08.Mechanical injuries - Part 2"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Supergroup (Topic 2147: FMT (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2147,
+        "message_id": 2155,
+        "caption": "08: Mechanical Injuries - Part 2",
+        "duration_match": true,
+        "notes": "Subjectwise Topic 2147 provides canonical title text resolving Marrow E6 bare numbers; durations match exactly on all 38 lectures."
+      }
+    },
+    {
+      "lecture_no": 9,
+      "title": "09. Regional Injuries",
+      "filename": "09. Regional Injuries.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/07_Forensic_Medicine/09. Regional Injuries.mp4",
+      "duration_seconds": 4492,
+      "duration_formatted": "1h 14m 52s",
+      "file_size": 246373569,
+      "document_id": "6282983150511460556",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 107: FMT)",
+        "chat_id": -1003264222864,
+        "topic_id": 107,
+        "message_id": 116,
+        "filename": "09.Regional injuries.mp4",
+        "caption": "09.Regional injuries"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Supergroup (Topic 2147: FMT (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2147,
+        "message_id": 2156,
+        "caption": "09: Regional Injuries",
+        "duration_match": true,
+        "notes": "Subjectwise Topic 2147 provides canonical title text resolving Marrow E6 bare numbers; durations match exactly on all 38 lectures."
+      }
+    },
+    {
+      "lecture_no": 10,
+      "title": "10. Thermal Injuries",
+      "filename": "10. Thermal Injuries.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/07_Forensic_Medicine/10. Thermal Injuries.mp4",
+      "duration_seconds": 4942,
+      "duration_formatted": "1h 22m 22s",
+      "file_size": 300573944,
+      "document_id": "6282983150511460557",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 107: FMT)",
+        "chat_id": -1003264222864,
+        "topic_id": 107,
+        "message_id": 117,
+        "filename": "10. Thermal injuries.mp4",
+        "caption": "10. Thermal injuries"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Supergroup (Topic 2147: FMT (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2147,
+        "message_id": 2157,
+        "caption": "10: Thermal Injuries",
+        "duration_match": true,
+        "notes": "Subjectwise Topic 2147 provides canonical title text resolving Marrow E6 bare numbers; durations match exactly on all 38 lectures."
+      }
+    },
+    {
+      "lecture_no": 11,
+      "title": "11. Proximal Ballistics",
+      "filename": "11. Proximal Ballistics.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/07_Forensic_Medicine/11. Proximal Ballistics.mp4",
+      "duration_seconds": 4042,
+      "duration_formatted": "1h 7m 22s",
+      "file_size": 238635385,
+      "document_id": "6285234950325145109",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 107: FMT)",
+        "chat_id": -1003264222864,
+        "topic_id": 107,
+        "message_id": 118,
+        "filename": "11. Proximal Ballistics.mp4",
+        "caption": "11. Proximal Ballistics"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Supergroup (Topic 2147: FMT (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2147,
+        "message_id": 2158,
+        "caption": "11: Proximal Ballistics",
+        "duration_match": true,
+        "notes": "Subjectwise Topic 2147 provides canonical title text resolving Marrow E6 bare numbers; durations match exactly on all 38 lectures."
+      }
+    },
+    {
+      "lecture_no": 12,
+      "title": "12. Intermediate and Terminal Ballistics",
+      "filename": "12. Intermediate and Terminal Ballistics.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/07_Forensic_Medicine/12. Intermediate and Terminal Ballistics.mp4",
+      "duration_seconds": 5258,
+      "duration_formatted": "1h 27m 38s",
+      "file_size": 318112251,
+      "document_id": "6285234950325145112",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 107: FMT)",
+        "chat_id": -1003264222864,
+        "topic_id": 107,
+        "message_id": 119,
+        "filename": "12. Intermediate and Terminal Ballistics.mp4",
+        "caption": "12. Intermediate and Terminal Ballistics"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Supergroup (Topic 2147: FMT (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2147,
+        "message_id": 2159,
+        "caption": "12: Intermediate & Terminal Ballistics",
+        "duration_match": true,
+        "notes": "Subjectwise Topic 2147 provides canonical title text resolving Marrow E6 bare numbers; durations match exactly on all 38 lectures."
+      }
+    },
+    {
+      "lecture_no": 13,
+      "title": "13. Electrical Injuries, Explosion Injuries and Torture methods",
+      "filename": "13. Electrical Injuries, Explosion Injuries and Torture methods.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/07_Forensic_Medicine/13. Electrical Injuries, Explosion Injuries and Torture methods.mp4",
+      "duration_seconds": 3267,
+      "duration_formatted": "54m 27s",
+      "file_size": 228202175,
+      "document_id": "6285234950325145113",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 107: FMT)",
+        "chat_id": -1003264222864,
+        "topic_id": 107,
+        "message_id": 120,
+        "filename": "13_Electrical_injuries,_Explosion_injuries_and_Torture_methods.mp4",
+        "caption": "13.Electrical injuries, Explosion injuries and Torture methods"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Supergroup (Topic 2147: FMT (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2147,
+        "message_id": 2160,
+        "caption": "13: Electrical Injuries, Explosion Injuries & Torture methods",
+        "duration_match": true,
+        "notes": "Subjectwise Topic 2147 provides canonical title text resolving Marrow E6 bare numbers; durations match exactly on all 38 lectures."
+      }
+    },
+    {
+      "lecture_no": 14,
+      "title": "14. Transportation Injuries",
+      "filename": "14. Transportation Injuries.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/07_Forensic_Medicine/14. Transportation Injuries.mp4",
+      "duration_seconds": 2504,
+      "duration_formatted": "41m 44s",
+      "file_size": 145627470,
+      "document_id": "6285234950325145114",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 107: FMT)",
+        "chat_id": -1003264222864,
+        "topic_id": 107,
+        "message_id": 121,
+        "filename": "14. Transportation injuries.mp4",
+        "caption": "14. Transportation injuries"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Supergroup (Topic 2147: FMT (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2147,
+        "message_id": 2161,
+        "caption": "14: Transportation Injuries",
+        "duration_match": true,
+        "notes": "Subjectwise Topic 2147 provides canonical title text resolving Marrow E6 bare numbers; durations match exactly on all 38 lectures."
+      }
+    },
+    {
+      "lecture_no": 15,
+      "title": "15. Autopsy Procedures",
+      "filename": "15. Autopsy Procedures.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/07_Forensic_Medicine/15. Autopsy Procedures.mp4",
+      "duration_seconds": 4215,
+      "duration_formatted": "1h 10m 15s",
+      "file_size": 236452113,
+      "document_id": "6285234950325145115",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 107: FMT)",
+        "chat_id": -1003264222864,
+        "topic_id": 107,
+        "message_id": 122,
+        "filename": "15. Autopsy procedures.mp4",
+        "caption": "15. Autopsy procedures"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Supergroup (Topic 2147: FMT (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2147,
+        "message_id": 2162,
+        "caption": "15: Autopsy Procedures",
+        "duration_match": true,
+        "notes": "Subjectwise Topic 2147 provides canonical title text resolving Marrow E6 bare numbers; durations match exactly on all 38 lectures."
+      }
+    },
+    {
+      "lecture_no": 16,
+      "title": "16. Early Postmortem changes",
+      "filename": "16. Early Postmortem changes.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/07_Forensic_Medicine/16. Early Postmortem changes.mp4",
+      "duration_seconds": 4468,
+      "duration_formatted": "1h 14m 28s",
+      "file_size": 244855264,
+      "document_id": "6285234950325145116",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 107: FMT)",
+        "chat_id": -1003264222864,
+        "topic_id": 107,
+        "message_id": 123,
+        "filename": "16. Early Postmortem changes.mp4",
+        "caption": "16. Early Postmortem changes"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Supergroup (Topic 2147: FMT (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2147,
+        "message_id": 2163,
+        "caption": "16: Early Postmortem changes",
+        "duration_match": true,
+        "notes": "Subjectwise Topic 2147 provides canonical title text resolving Marrow E6 bare numbers; durations match exactly on all 38 lectures."
+      }
+    },
+    {
+      "lecture_no": 17,
+      "title": "17. Late Postmortem changes",
+      "filename": "17. Late Postmortem changes.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/07_Forensic_Medicine/17. Late Postmortem changes.mp4",
+      "duration_seconds": 2558,
+      "duration_formatted": "42m 38s",
+      "file_size": 135122651,
+      "document_id": "6285234950325145117",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 107: FMT)",
+        "chat_id": -1003264222864,
+        "topic_id": 107,
+        "message_id": 124,
+        "filename": "17.Late Postmortem changes.mp4",
+        "caption": "17.Late Postmortem changes"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Supergroup (Topic 2147: FMT (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2147,
+        "message_id": 2164,
+        "caption": "17: Late Postmortem changes",
+        "duration_match": true,
+        "notes": "Subjectwise Topic 2147 provides canonical title text resolving Marrow E6 bare numbers; durations match exactly on all 38 lectures."
+      }
+    },
+    {
+      "lecture_no": 18,
+      "title": "18. Asphyxial Deaths - Part 1",
+      "filename": "18. Asphyxial Deaths - Part 1.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/07_Forensic_Medicine/18. Asphyxial Deaths - Part 1.mp4",
+      "duration_seconds": 4745,
+      "duration_formatted": "1h 19m 5s",
+      "file_size": 303534330,
+      "document_id": "6285234950325145119",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 107: FMT)",
+        "chat_id": -1003264222864,
+        "topic_id": 107,
+        "message_id": 125,
+        "filename": "18.Asphyxial deaths - Part 1.mp4",
+        "caption": "18.Asphyxial deaths - Part 1"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Supergroup (Topic 2147: FMT (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2147,
+        "message_id": 2165,
+        "caption": "18: Asphyxial Deaths - Part 1",
+        "duration_match": true,
+        "notes": "Subjectwise Topic 2147 provides canonical title text resolving Marrow E6 bare numbers; durations match exactly on all 38 lectures."
+      }
+    },
+    {
+      "lecture_no": 19,
+      "title": "19. Asphyxial Deaths - Part 2",
+      "filename": "19. Asphyxial Deaths - Part 2.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/07_Forensic_Medicine/19. Asphyxial Deaths - Part 2.mp4",
+      "duration_seconds": 4384,
+      "duration_formatted": "1h 13m 4s",
+      "file_size": 254215457,
+      "document_id": "6285234950325145120",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 107: FMT)",
+        "chat_id": -1003264222864,
+        "topic_id": 107,
+        "message_id": 126,
+        "filename": "19.Asphyxial deaths - Part 2.mp4",
+        "caption": "19.Asphyxial deaths - Part 2"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Supergroup (Topic 2147: FMT (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2147,
+        "message_id": 2166,
+        "caption": "19: Asphyxial Deaths - Part 2",
+        "duration_match": true,
+        "notes": "Subjectwise Topic 2147 provides canonical title text resolving Marrow E6 bare numbers; durations match exactly on all 38 lectures."
+      }
+    },
+    {
+      "lecture_no": 20,
+      "title": "20. Human Identification - Part 1",
+      "filename": "20. Human Identification - Part 1.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/07_Forensic_Medicine/20. Human Identification - Part 1.mp4",
+      "duration_seconds": 4808,
+      "duration_formatted": "1h 20m 8s",
+      "file_size": 293360202,
+      "document_id": "6285234950325145121",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 107: FMT)",
+        "chat_id": -1003264222864,
+        "topic_id": 107,
+        "message_id": 127,
+        "filename": "20.Human Identification - Part 1.mp4",
+        "caption": "20.Human Identification - Part 1"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Supergroup (Topic 2147: FMT (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2147,
+        "message_id": 2167,
+        "caption": "20: Human Identification - Part 1",
+        "duration_match": true,
+        "notes": "Subjectwise Topic 2147 provides canonical title text resolving Marrow E6 bare numbers; durations match exactly on all 38 lectures."
+      }
+    },
+    {
+      "lecture_no": 21,
+      "title": "21. Human Identification - Part 2",
+      "filename": "21. Human Identification - Part 2.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/07_Forensic_Medicine/21. Human Identification - Part 2.mp4",
+      "duration_seconds": 5918,
+      "duration_formatted": "1h 38m 38s",
+      "file_size": 362102552,
+      "document_id": "6285234950325145122",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 107: FMT)",
+        "chat_id": -1003264222864,
+        "topic_id": 107,
+        "message_id": 128,
+        "filename": "21.Human Identification - Part 2.mp4",
+        "caption": "21.Human Identification - Part 2"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Supergroup (Topic 2147: FMT (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2147,
+        "message_id": 2168,
+        "caption": "21: Human Identification - Part 2",
+        "duration_match": true,
+        "notes": "Subjectwise Topic 2147 provides canonical title text resolving Marrow E6 bare numbers; durations match exactly on all 38 lectures."
+      }
+    },
+    {
+      "lecture_no": 22,
+      "title": "22. Human Identification - Part 3",
+      "filename": "22. Human Identification - Part 3.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/07_Forensic_Medicine/22. Human Identification - Part 3.mp4",
+      "duration_seconds": 3576,
+      "duration_formatted": "59m 36s",
+      "file_size": 194584548,
+      "document_id": "6285234950325145124",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 107: FMT)",
+        "chat_id": -1003264222864,
+        "topic_id": 107,
+        "message_id": 129,
+        "filename": "22.Human Identification - Part 3.mp4",
+        "caption": "22.Human Identification - Part 3"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Supergroup (Topic 2147: FMT (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2147,
+        "message_id": 2169,
+        "caption": "22: Human Identification - Part 3",
+        "duration_match": true,
+        "notes": "Subjectwise Topic 2147 provides canonical title text resolving Marrow E6 bare numbers; durations match exactly on all 38 lectures."
+      }
+    },
+    {
+      "lecture_no": 23,
+      "title": "23. Impotence, Virginity, Delivery and Abortion",
+      "filename": "23. Impotence, Virginity, Delivery and Abortion.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/07_Forensic_Medicine/23. Impotence, Virginity, Delivery and Abortion.mp4",
+      "duration_seconds": 5422,
+      "duration_formatted": "1h 30m 22s",
+      "file_size": 292224794,
+      "document_id": "6285234950325145125",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 107: FMT)",
+        "chat_id": -1003264222864,
+        "topic_id": 107,
+        "message_id": 130,
+        "filename": "23.Impotence, Virginity, Delivery and Abortion.mp4",
+        "caption": "23.Impotence, Virginity, Delivery and Abortion"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Supergroup (Topic 2147: FMT (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2147,
+        "message_id": 2170,
+        "caption": "23: Impotence, Virginity, Delivery & Abortion",
+        "duration_match": true,
+        "notes": "Subjectwise Topic 2147 provides canonical title text resolving Marrow E6 bare numbers; durations match exactly on all 38 lectures."
+      }
+    },
+    {
+      "lecture_no": 24,
+      "title": "24. Infant Deaths and Child Abuse",
+      "filename": "24. Infant Deaths and Child Abuse.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/07_Forensic_Medicine/24. Infant Deaths and Child Abuse.mp4",
+      "duration_seconds": 3490,
+      "duration_formatted": "58m 10s",
+      "file_size": 194228644,
+      "document_id": "6285234950325145127",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 107: FMT)",
+        "chat_id": -1003264222864,
+        "topic_id": 107,
+        "message_id": 131,
+        "filename": "24.Infant deaths and Child abuse.mp4",
+        "caption": "24.Infant deaths and Child abuse"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Supergroup (Topic 2147: FMT (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2147,
+        "message_id": 2171,
+        "caption": "24: Infant Deaths & Child Abuse",
+        "duration_match": true,
+        "notes": "Subjectwise Topic 2147 provides canonical title text resolving Marrow E6 bare numbers; durations match exactly on all 38 lectures."
+      }
+    },
+    {
+      "lecture_no": 25,
+      "title": "25. Sexual Offences",
+      "filename": "25. Sexual Offences.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/07_Forensic_Medicine/25. Sexual Offences.mp4",
+      "duration_seconds": 5071,
+      "duration_formatted": "1h 24m 31s",
+      "file_size": 284812357,
+      "document_id": "6285234950325145131",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 107: FMT)",
+        "chat_id": -1003264222864,
+        "topic_id": 107,
+        "message_id": 132,
+        "filename": "25. Sexual offences.mp4",
+        "caption": "25. Sexual offences"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Supergroup (Topic 2147: FMT (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2147,
+        "message_id": 2172,
+        "caption": "25: Sexual Offences",
+        "duration_match": true,
+        "notes": "Subjectwise Topic 2147 provides canonical title text resolving Marrow E6 bare numbers; durations match exactly on all 38 lectures."
+      }
+    },
+    {
+      "lecture_no": 26,
+      "title": "26. General Toxicology",
+      "filename": "26. General Toxicology.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/07_Forensic_Medicine/26. General Toxicology.mp4",
+      "duration_seconds": 4499,
+      "duration_formatted": "1h 14m 59s",
+      "file_size": 306870446,
+      "document_id": "6285234950325145132",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 107: FMT)",
+        "chat_id": -1003264222864,
+        "topic_id": 107,
+        "message_id": 133,
+        "filename": "26.General Toxicology.mp4",
+        "caption": "26.General Toxicology"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Supergroup (Topic 2147: FMT (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2147,
+        "message_id": 2173,
+        "caption": "26: General Toxicology",
+        "duration_match": true,
+        "notes": "Subjectwise Topic 2147 provides canonical title text resolving Marrow E6 bare numbers; durations match exactly on all 38 lectures."
+      }
+    },
+    {
+      "lecture_no": 27,
+      "title": "27. Duties of a Doctor in a Case of Poisoning",
+      "filename": "27. Duties of a Doctor in a Case of Poisoning.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/07_Forensic_Medicine/27. Duties of a Doctor in a Case of Poisoning.mp4",
+      "duration_seconds": 1980,
+      "duration_formatted": "33m 0s",
+      "file_size": 112533252,
+      "document_id": "6285234950325145133",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 107: FMT)",
+        "chat_id": -1003264222864,
+        "topic_id": 107,
+        "message_id": 134,
+        "filename": "27. Duties of a doctor in a case of poisoning.mp4",
+        "caption": "27. Duties of a doctor in a case of poisoning"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Supergroup (Topic 2147: FMT (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2147,
+        "message_id": 2174,
+        "caption": "27: Duties of a Doctor in a Case of Poisoning",
+        "duration_match": true,
+        "notes": "Subjectwise Topic 2147 provides canonical title text resolving Marrow E6 bare numbers; durations match exactly on all 38 lectures."
+      }
+    },
+    {
+      "lecture_no": 28,
+      "title": "28. Corrosive Poisons",
+      "filename": "28. Corrosive Poisons.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/07_Forensic_Medicine/28. Corrosive Poisons.mp4",
+      "duration_seconds": 3138,
+      "duration_formatted": "52m 18s",
+      "file_size": 214548837,
+      "document_id": "6285234950325145134",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 107: FMT)",
+        "chat_id": -1003264222864,
+        "topic_id": 107,
+        "message_id": 135,
+        "filename": "28.Corrosive poisons.mp4",
+        "caption": "28.Corrosive poisons"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Supergroup (Topic 2147: FMT (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2147,
+        "message_id": 2175,
+        "caption": "28: Corrosive Poisons",
+        "duration_match": true,
+        "notes": "Subjectwise Topic 2147 provides canonical title text resolving Marrow E6 bare numbers; durations match exactly on all 38 lectures."
+      }
+    },
+    {
+      "lecture_no": 29,
+      "title": "29. Metallic and Non-Metallic Irritants",
+      "filename": "29. Metallic and Non-Metallic Irritants.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/07_Forensic_Medicine/29. Metallic and Non-Metallic Irritants.mp4",
+      "duration_seconds": 5467,
+      "duration_formatted": "1h 31m 7s",
+      "file_size": 350956444,
+      "document_id": "6285234950325145137",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 107: FMT)",
+        "chat_id": -1003264222864,
+        "topic_id": 107,
+        "message_id": 136,
+        "filename": "29. Metallic and Non-Metallic irritants.mp4",
+        "caption": "29. Metallic and Non-Metallic irritants"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Supergroup (Topic 2147: FMT (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2147,
+        "message_id": 2176,
+        "caption": "29: Metallic & Non-Metallic Irritants",
+        "duration_match": true,
+        "notes": "Subjectwise Topic 2147 provides canonical title text resolving Marrow E6 bare numbers; durations match exactly on all 38 lectures."
+      }
+    },
+    {
+      "lecture_no": 30,
+      "title": "30. Animal and Plant Irritants",
+      "filename": "30. Animal and Plant Irritants.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/07_Forensic_Medicine/30. Animal and Plant Irritants.mp4",
+      "duration_seconds": 5535,
+      "duration_formatted": "1h 32m 15s",
+      "file_size": 374884903,
+      "document_id": "6285234950325145138",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 107: FMT)",
+        "chat_id": -1003264222864,
+        "topic_id": 107,
+        "message_id": 137,
+        "filename": "30 Animal and Plant irritants.mp4",
+        "caption": "30 Animal and Plant irritants"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Supergroup (Topic 2147: FMT (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2147,
+        "message_id": 2177,
+        "caption": "30: Animal & Plant Irritants",
+        "duration_match": true,
+        "notes": "Subjectwise Topic 2147 provides canonical title text resolving Marrow E6 bare numbers; durations match exactly on all 38 lectures."
+      }
+    },
+    {
+      "lecture_no": 31,
+      "title": "31. Neurotoxic Poisons [Deliriants]",
+      "filename": "31. Neurotoxic Poisons [Deliriants].mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/07_Forensic_Medicine/31. Neurotoxic Poisons [Deliriants].mp4",
+      "duration_seconds": 3534,
+      "duration_formatted": "58m 54s",
+      "file_size": 243291432,
+      "document_id": "6285234950325145139",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 107: FMT)",
+        "chat_id": -1003264222864,
+        "topic_id": 107,
+        "message_id": 138,
+        "filename": "31. Neurotoxic poisons (Deliriants).mp4",
+        "caption": "31. Neurotoxic poisons (Deliriants)"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Supergroup (Topic 2147: FMT (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2147,
+        "message_id": 2178,
+        "caption": "31: Neurotoxic Poisons [Deliriants]",
+        "duration_match": true,
+        "notes": "Subjectwise Topic 2147 provides canonical title text resolving Marrow E6 bare numbers; durations match exactly on all 38 lectures."
+      }
+    },
+    {
+      "lecture_no": 32,
+      "title": "32. Neurotoxic Poisons [Inebriants]",
+      "filename": "32. Neurotoxic Poisons [Inebriants].mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/07_Forensic_Medicine/32. Neurotoxic Poisons [Inebriants].mp4",
+      "duration_seconds": 2699,
+      "duration_formatted": "44m 59s",
+      "file_size": 181204356,
+      "document_id": "6285234950325145140",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 107: FMT)",
+        "chat_id": -1003264222864,
+        "topic_id": 107,
+        "message_id": 139,
+        "filename": "32.Neurotoxic poisons (Inebriants.mp4",
+        "caption": "32.Neurotoxic poisons (Inebriants"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Supergroup (Topic 2147: FMT (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2147,
+        "message_id": 2179,
+        "caption": "32: Neurotoxic Poisons [Inebriants]",
+        "duration_match": true,
+        "notes": "Subjectwise Topic 2147 provides canonical title text resolving Marrow E6 bare numbers; durations match exactly on all 38 lectures."
+      }
+    },
+    {
+      "lecture_no": 33,
+      "title": "33. Neurotoxic Poisons [Somniferous and Spinal Poisons]",
+      "filename": "33. Neurotoxic Poisons [Somniferous and Spinal Poisons].mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/07_Forensic_Medicine/33. Neurotoxic Poisons [Somniferous and Spinal Poisons].mp4",
+      "duration_seconds": 2040,
+      "duration_formatted": "34m 0s",
+      "file_size": 147624359,
+      "document_id": "6285234950325145141",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 107: FMT)",
+        "chat_id": -1003264222864,
+        "topic_id": 107,
+        "message_id": 140,
+        "filename": "33.Neurotoxic poisons (Somniferous and Spinal poisons.mp4",
+        "caption": "33.Neurotoxic poisons (Somniferous and Spinal poisons"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Supergroup (Topic 2147: FMT (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2147,
+        "message_id": 2180,
+        "caption": "33: Neurotoxic Poisons [Somniferous & Spinal Poisons]",
+        "duration_match": true,
+        "notes": "Subjectwise Topic 2147 provides canonical title text resolving Marrow E6 bare numbers; durations match exactly on all 38 lectures."
+      }
+    },
+    {
+      "lecture_no": 34,
+      "title": "34. Asphyxiants and Cardiac Poisons",
+      "filename": "34. Asphyxiants and Cardiac Poisons.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/07_Forensic_Medicine/34. Asphyxiants and Cardiac Poisons.mp4",
+      "duration_seconds": 3422,
+      "duration_formatted": "57m 2s",
+      "file_size": 227368460,
+      "document_id": "6285234950325145142",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 107: FMT)",
+        "chat_id": -1003264222864,
+        "topic_id": 107,
+        "message_id": 141,
+        "filename": "34.Asphyxiants and Cardiac poisons.mp4",
+        "caption": "34.Asphyxiants and Cardiac poisons"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Supergroup (Topic 2147: FMT (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2147,
+        "message_id": 2181,
+        "caption": "34: Asphyxiants & Cardiac Poisons",
+        "duration_match": true,
+        "notes": "Subjectwise Topic 2147 provides canonical title text resolving Marrow E6 bare numbers; durations match exactly on all 38 lectures."
+      }
+    },
+    {
+      "lecture_no": 35,
+      "title": "35. Agricultural Poisons",
+      "filename": "35. Agricultural Poisons.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/07_Forensic_Medicine/35. Agricultural Poisons.mp4",
+      "duration_seconds": 1446,
+      "duration_formatted": "24m 6s",
+      "file_size": 99833472,
+      "document_id": "6285234950325145143",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 107: FMT)",
+        "chat_id": -1003264222864,
+        "topic_id": 107,
+        "message_id": 142,
+        "filename": "35. Agricultural poisons.mp4",
+        "caption": "35. Agricultural poisons"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Supergroup (Topic 2147: FMT (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2147,
+        "message_id": 2182,
+        "caption": "35: Agricultural Poisons",
+        "duration_match": true,
+        "notes": "Subjectwise Topic 2147 provides canonical title text resolving Marrow E6 bare numbers; durations match exactly on all 38 lectures."
+      }
+    },
+    {
+      "lecture_no": 36,
+      "title": "36. Forensic Psychiatry",
+      "filename": "36. Forensic Psychiatry.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/07_Forensic_Medicine/36. Forensic Psychiatry.mp4",
+      "duration_seconds": 2958,
+      "duration_formatted": "49m 18s",
+      "file_size": 191187825,
+      "document_id": "6285234950325145144",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 107: FMT)",
+        "chat_id": -1003264222864,
+        "topic_id": 107,
+        "message_id": 143,
+        "filename": "36 Forensic Psychiatry.mp4",
+        "caption": "36 Forensic Psychiatry"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Supergroup (Topic 2147: FMT (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2147,
+        "message_id": 2183,
+        "caption": "36: Forensic Psychiatry",
+        "duration_match": true,
+        "notes": "Subjectwise Topic 2147 provides canonical title text resolving Marrow E6 bare numbers; durations match exactly on all 38 lectures."
+      }
+    },
+    {
+      "lecture_no": 37,
+      "title": "37. Trace Evidence",
+      "filename": "37. Trace Evidence.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/07_Forensic_Medicine/37. Trace Evidence.mp4",
+      "duration_seconds": 1397,
+      "duration_formatted": "23m 17s",
+      "file_size": 79346906,
+      "document_id": "6285234950325145145",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 107: FMT)",
+        "chat_id": -1003264222864,
+        "topic_id": 107,
+        "message_id": 144,
+        "filename": "37. Trace Evidence.mp4",
+        "caption": "37. Trace Evidence"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Supergroup (Topic 2147: FMT (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2147,
+        "message_id": 2184,
+        "caption": "37: Trace Evidence",
+        "duration_match": true,
+        "notes": "Subjectwise Topic 2147 provides canonical title text resolving Marrow E6 bare numbers; durations match exactly on all 38 lectures."
+      }
+    },
+    {
+      "lecture_no": 38,
+      "title": "38. Acts and Legal sections of Importance",
+      "filename": "38. Acts and Legal sections of Importance.mp4",
+      "destination_path": "/Aspirin_LMS/04_Marrow_Edition_6/07_Forensic_Medicine/38. Acts and Legal sections of Importance.mp4",
+      "duration_seconds": 5087,
+      "duration_formatted": "1h 24m 47s",
+      "file_size": 303345360,
+      "document_id": "6285234950325145146",
+      "primary_source": {
+        "channel_name": "My Marrow (Topic 107: FMT)",
+        "chat_id": -1003264222864,
+        "topic_id": 107,
+        "message_id": 145,
+        "filename": "38.Acts and Legal sections of importance.mp4",
+        "caption": "38.Acts and Legal sections of importance"
+      },
+      "corroboration": {
+        "channel_name": "Subjectwise Supergroup (Topic 2147: FMT (Marrow))",
+        "chat_id": -1003506593387,
+        "topic_id": 2147,
+        "message_id": 2185,
+        "caption": "38: Acts & Legal sections of Importance",
+        "duration_match": true,
+        "notes": "Subjectwise Topic 2147 provides canonical title text resolving Marrow E6 bare numbers; durations match exactly on all 38 lectures."
+      }
+    }
+  ]
+}
