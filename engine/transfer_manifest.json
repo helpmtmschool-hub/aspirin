@@ -14012,7 +14012,7 @@
           "chat_id": -1003506593387,
           "topic_id": 2712,
           "message_id": 2728,
-          "title": "16: Hansen\u2019s Disease - Part 1"
+          "title": "16: Hansen’s Disease - Part 1"
         },
         {
           "chat": "Marrow",
@@ -14060,7 +14060,7 @@
           "chat_id": -1003506593387,
           "topic_id": 2712,
           "message_id": 2729,
-          "title": "17: Hansen\u2019s Disease - Part 2"
+          "title": "17: Hansen’s Disease - Part 2"
         },
         {
           "chat": "Marrow",
@@ -29900,7 +29900,7 @@
     "openmedq_migrated": true
   },
   "cb_-1003709841202_3237": {
-    "title": "4. Bayes\u2019 Theorem, Roc, Precision & Accuracy, Lr",
+    "title": "4. Bayes’ Theorem, Roc, Precision & Accuracy, Lr",
     "filename": "4. Bayes_ Theorem, Roc, Precision & Accuracy, Lr.mp4",
     "platform": "cerebellum",
     "subject_id": "psm",
@@ -32478,5 +32478,117 @@
     "uploaded_at": "2026-10-29T22:17:39Z",
     "status": "completed",
     "openmedq_migrated": true
+  },
+  "note_anat_egurukul4": {
+    "title": "Anatomy (Dr. Ashwini Kumar) eGurukul 4.0 Notes",
+    "filename": "Anatomy Dr. Ashwini Kumar Notes.pdf",
+    "platform": "egurukul_4",
+    "subject_id": "anatomy",
+    "folder_path": "Aspirin_LMS/eGurukul_4.0/01_Anatomy_Dr_Ashwini_Kumar",
+    "telegram_chat_id": -1003839992379,
+    "telegram_message_id": 17227,
+    "onedrive_item_id": "012RONM2QZS227E3NOE5BYB322R5MHTMDQ",
+    "onedrive_path": "/Aspirin_LMS/eGurukul_4.0/01_Anatomy_Dr_Ashwini_Kumar/Anatomy Dr. Ashwini Kumar Notes.pdf",
+    "web_url": "https://openmedq.sharepoint.com/Shared%20Documents/Aspirin_LMS/eGurukul_4.0/01_Anatomy_Dr_Ashwini_Kumar/Anatomy%20Dr.%20Ashwini%20Kumar%20Notes.pdf",
+    "size_bytes": 106365567,
+    "uploaded_at": "2026-10-30T15:54:36Z",
+    "status": "completed",
+    "is_master_textbook": true
+  },
+  "note_physio_prepx": {
+    "title": "Physiology (Dr. Vivek Nalgirkar) PrepLadder Version X Notes",
+    "filename": "Physiology Version X Notes.pdf",
+    "platform": "prepx_en",
+    "subject_id": "physiology",
+    "folder_path": "Aspirin_LMS/PrepLadder_X/Physiology",
+    "telegram_chat_id": -1002185821255,
+    "telegram_message_id": 270,
+    "onedrive_item_id": "012RONM2SRBOJSSKYZVBA3OAK5FHHSC2W5",
+    "onedrive_path": "/Aspirin_LMS/PrepLadder_X/Physiology/Physiology Version X Notes.pdf",
+    "web_url": "https://openmedq.sharepoint.com/Shared%20Documents/Aspirin_LMS/PrepLadder_X/Physiology/Physiology%20Version%20X%20Notes.pdf",
+    "size_bytes": 51407728,
+    "uploaded_at": "2026-10-30T15:54:58Z",
+    "status": "completed",
+    "is_master_textbook": true
+  },
+  "note_biochem_marrow_e8": {
+    "title": "Biochemistry (Dr. Rebecca James) Marrow Ed8 Notes",
+    "filename": "Biochemistry Marrow Ed8 Notes.pdf",
+    "platform": "marrow_e8",
+    "subject_id": "biochemistry",
+    "folder_path": "Aspirin_LMS/Marrow_E8/Notes",
+    "telegram_chat_id": -1002863499861,
+    "telegram_message_id": 29,
+    "onedrive_item_id": "012RONM2RFJAIQ57HPNJC3PVJBEAMQE4PD",
+    "onedrive_path": "/Aspirin_LMS/Marrow_E8/Notes/Biochemistry Marrow Ed8 Notes.pdf",
+    "web_url": "https://openmedq.sharepoint.com/Shared%20Documents/Aspirin_LMS/Marrow_E8/Notes/Biochemistry%20Marrow%20Ed8%20Notes.pdf",
+    "size_bytes": 163745684,
+    "uploaded_at": "2026-10-30T15:56:20Z",
+    "status": "completed",
+    "is_master_textbook": true
+  },
+  "note_patho_prepx": {
+    "title": "Pathology (Dr. Sparsh Gupta) PrepLadder Version X Notes",
+    "filename": "Pathology Version X Notes.pdf",
+    "platform": "prepx_en",
+    "subject_id": "pathology",
+    "folder_path": "Aspirin_LMS/PrepLadder_X/Pathology",
+    "telegram_chat_id": -1002185821255,
+    "telegram_message_id": 267,
+    "onedrive_item_id": "012RONM2X7JBR3XTNPSZFYHN7HL4KHBVWL",
+    "onedrive_path": "/Aspirin_LMS/PrepLadder_X/Pathology/Pathology Version X Notes.pdf",
+    "web_url": "https://openmedq.sharepoint.com/Shared%20Documents/Aspirin_LMS/PrepLadder_X/Pathology/Pathology%20Version%20X%20Notes.pdf",
+    "size_bytes": 57527010,
+    "uploaded_at": "2026-10-30T15:56:44Z",
+    "status": "completed",
+    "is_master_textbook": true
+  },
+  "note_micro_prepx": {
+    "title": "Microbiology (Dr. Preeti Sharma) PrepLadder Version X Notes",
+    "filename": "Microbiology Version X Notes.pdf",
+    "platform": "prepx_en",
+    "subject_id": "microbiology",
+    "folder_path": "Aspirin_LMS/PrepLadder_X/Microbiology",
+    "telegram_chat_id": -1002185821255,
+    "telegram_message_id": 314,
+    "onedrive_item_id": "012RONM2U6WKGMUTSDIFHLPGW2XEAN6QYM",
+    "onedrive_path": "/Aspirin_LMS/PrepLadder_X/Microbiology/Microbiology Version X Notes.pdf",
+    "web_url": "https://openmedq.sharepoint.com/Shared%20Documents/Aspirin_LMS/PrepLadder_X/Microbiology/Microbiology%20Version%20X%20Notes.pdf",
+    "size_bytes": 67728771,
+    "uploaded_at": "2026-10-30T15:57:19Z",
+    "status": "completed",
+    "is_master_textbook": true
+  },
+  "note_pharma_cerebellum_grg_compressed": {
+    "title": "Pharmacology (Dr. Gobind Rai Garg) Cerebellum Notes",
+    "filename": "Pharmacology Dr. GRG Cerebellum Notes.pdf",
+    "platform": "cerebellum",
+    "subject_id": "pharmacology",
+    "folder_path": "Aspirin_LMS/Cerebellum/03_Pharmacology_Dr_GRG",
+    "telegram_chat_id": -1002138638940,
+    "telegram_message_id": 273,
+    "onedrive_item_id": "012RONM2VPTDSJHULOYJH3WH72GVDFSRBD",
+    "onedrive_path": "/Aspirin_LMS/Cerebellum/03_Pharmacology_Dr_GRG/Pharmacology Dr. GRG Cerebellum Notes.pdf",
+    "web_url": "https://openmedq.sharepoint.com/Shared%20Documents/Aspirin_LMS/Cerebellum/03_Pharmacology_Dr_GRG/Pharmacology%20Dr.%20GRG%20Cerebellum%20Notes.pdf",
+    "size_bytes": 78003329,
+    "uploaded_at": "2026-10-30T15:57:48Z",
+    "status": "completed",
+    "is_master_textbook": true
+  },
+  "note_psm_cerebellum_vj": {
+    "title": "Preventive & Social Medicine (Dr. Vivek Jain) Cerebellum Notes",
+    "filename": "PSM Dr. Vivek Jain Cerebellum Notes.pdf",
+    "platform": "cerebellum",
+    "subject_id": "psm",
+    "folder_path": "Aspirin_LMS/Cerebellum/04_PSM_Dr_Vivek_Jain",
+    "telegram_chat_id": -1003839992379,
+    "telegram_message_id": 47644,
+    "onedrive_item_id": "012RONM2S7Y3R6TFOEFZGZ6LO6IJCGHQLO",
+    "onedrive_path": "/Aspirin_LMS/Cerebellum/04_PSM_Dr_Vivek_Jain/PSM Dr. Vivek Jain Cerebellum Notes.pdf",
+    "web_url": "https://openmedq.sharepoint.com/Shared%20Documents/Aspirin_LMS/Cerebellum/04_PSM_Dr_Vivek_Jain/PSM%20Dr.%20Vivek%20Jain%20Cerebellum%20Notes.pdf",
+    "size_bytes": 1892627553,
+    "uploaded_at": "2026-10-30T16:07:36Z",
+    "status": "completed",
+    "is_master_textbook": true
   }
 }
