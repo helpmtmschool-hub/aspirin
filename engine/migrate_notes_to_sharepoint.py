@@ -1,14 +1,14 @@
 """
 Yui - Cloud Pipeline: Telegram Notes to SharePoint Migration Engine
 Transfers verified PDF Notes from Telegram to the openmedQ commercial SharePoint:
-1. Marrow Edition 8 Main Notes (Final Year subjects, except medicine) -> Aspirin_LMS/Marrow_E8/Notes/
-2. PrepLadder Version X Medicine Notes PDF -> Aspirin_LMS/PrepLadder_X/Medicine/
+Loads target items from engine/missing_7_notes_manifest.json (or specified manifest).
 
-Safety & Resilience Features:
-- 4x Parallel MTProto chunk downloading (official Telegram Desktop spec).
-- 20 MiB chunked upload to Microsoft Graph API.
-- Idempotent: Skips files already uploaded and verified.
-- Updates engine/transfer_manifest.json, public/transfer_manifest.json, and public/catalog.json.
+Features:
+- Fast multi-connection MTProto chunked downloading.
+- 20 MiB chunked upload to Microsoft Graph API with retry and backoff.
+- Idempotent: Skips files already in manifest or verified on SharePoint.
+- Automatic local staging cleanup (zero leftover disk usage).
+- Updates transfer_manifest.json and public/catalog.json.
 """
 
 import argparse
@@ -16,7 +16,6 @@ import asyncio
 import json
 import os
 from pathlib import Path
-import re
 import sys
 import time
 from typing import Any, Dict, List, Optional
@@ -30,7 +29,6 @@ from telethon.tl.functions import InvokeWithLayerRequest
 from telethon.tl.functions.auth import ExportAuthorizationRequest, ImportAuthorizationRequest
 from telethon.tl.functions.upload import GetFileRequest
 
-# UTF-8 console output
 if sys.platform == "win32":
     try:
         sys.stdout.reconfigure(encoding="utf-8")
@@ -42,6 +40,7 @@ PROJECT_DIR = Path(__file__).resolve().parent.parent
 MANIFEST_PATH = PROJECT_DIR / "engine" / "transfer_manifest.json"
 PUBLIC_MANIFEST_PATH = PROJECT_DIR / "public" / "transfer_manifest.json"
 CATALOG_PATH = PROJECT_DIR / "public" / "catalog.json"
+DEFAULT_TARGETS_PATH = PROJECT_DIR / "engine" / "missing_7_notes_manifest.json"
 TEMP_DIR = PROJECT_DIR / ".scratch_transfer"
 TEMP_DIR.mkdir(exist_ok=True)
 
@@ -62,202 +61,45 @@ def load_env():
 
 load_env()
 
-# Target items specification
-NOTES_MIGRATION_TARGETS = [
-    # --- Marrow Edition 8 Final Year Main Notes (Chat: M-E 8 Notes , q Banks [-1002863499861]) ---
-    {
-        "id": "note_-1002863499861_24",
-        "chat_id": -1002863499861,
-        "message_id": 24,
-        "platform": "marrow_e8",
-        "subject_id": "surgery",
-        "title": "Surgery Vol 1 Marrow Ed8 Notes",
-        "preferred_filename": "Surgery Vol 1 Marrow Ed8 Notes.pdf",
-        "folder_path": "Aspirin_LMS/Marrow_E8/Notes",
-        "is_master_textbook": True,
-    },
-    {
-        "id": "note_-1002863499861_199",
-        "chat_id": -1002863499861,
-        "message_id": 199,
-        "platform": "marrow_e8",
-        "subject_id": "surgery",
-        "title": "Surgery Vol 2 Marrow Ed8 Notes",
-        "preferred_filename": "Surgery Vol 2 Marrow Ed8 Notes.pdf",
-        "folder_path": "Aspirin_LMS/Marrow_E8/Notes",
-        "is_master_textbook": True,
-    },
-    {
-        "id": "note_-1002863499861_21",
-        "chat_id": -1002863499861,
-        "message_id": 21,
-        "platform": "marrow_e8",
-        "subject_id": "obg",
-        "title": "OBGYN Vol 1 Marrow Ed8 Notes",
-        "preferred_filename": "OBGYN Vol 1 Marrow Ed8 Notes.pdf",
-        "folder_path": "Aspirin_LMS/Marrow_E8/Notes",
-        "is_master_textbook": True,
-    },
-    {
-        "id": "note_-1002863499861_22",
-        "chat_id": -1002863499861,
-        "message_id": 22,
-        "platform": "marrow_e8",
-        "subject_id": "obg",
-        "title": "OBGYN Vol 2 Marrow Ed8 Notes",
-        "preferred_filename": "OBGYN Vol 2 Marrow Ed8 Notes.pdf",
-        "folder_path": "Aspirin_LMS/Marrow_E8/Notes",
-        "is_master_textbook": True,
-    },
-    {
-        "id": "note_-1002863499861_19",
-        "chat_id": -1002863499861,
-        "message_id": 19,
-        "platform": "marrow_e8",
-        "subject_id": "pediatrics",
-        "title": "Pediatrics Marrow Ed8 Notes",
-        "preferred_filename": "Pediatrics Marrow Ed8 Notes.pdf",
-        "folder_path": "Aspirin_LMS/Marrow_E8/Notes",
-        "is_master_textbook": True,
-    },
-    {
-        "id": "note_-1002863499861_20",
-        "chat_id": -1002863499861,
-        "message_id": 20,
-        "platform": "marrow_e8",
-        "subject_id": "orthopedics",
-        "title": "Orthopedics Marrow Ed8 Notes",
-        "preferred_filename": "Orthopedics Marrow Ed8 Notes.pdf",
-        "folder_path": "Aspirin_LMS/Marrow_E8/Notes",
-        "is_master_textbook": True,
-    },
-    {
-        "id": "note_-1002863499861_18",
-        "chat_id": -1002863499861,
-        "message_id": 18,
-        "platform": "marrow_e8",
-        "subject_id": "dermatology",
-        "title": "Dermatology Marrow Ed8 Notes",
-        "preferred_filename": "Dermatology Marrow Ed8 Notes.pdf",
-        "folder_path": "Aspirin_LMS/Marrow_E8/Notes",
-        "is_master_textbook": True,
-    },
-    {
-        "id": "note_-1002863499861_23",
-        "chat_id": -1002863499861,
-        "message_id": 23,
-        "platform": "marrow_e8",
-        "subject_id": "psychiatry",
-        "title": "Psychiatry Marrow Ed8 Notes",
-        "preferred_filename": "Psychiatry Marrow Ed8 Notes.pdf",
-        "folder_path": "Aspirin_LMS/Marrow_E8/Notes",
-        "is_master_textbook": True,
-    },
-    {
-        "id": "note_-1002863499861_16",
-        "chat_id": -1002863499861,
-        "message_id": 16,
-        "platform": "marrow_e8",
-        "subject_id": "radiology",
-        "title": "Radiology Marrow Ed8 Notes",
-        "preferred_filename": "Radiology Marrow Ed8 Notes.pdf",
-        "folder_path": "Aspirin_LMS/Marrow_E8/Notes",
-        "is_master_textbook": True,
-    },
-    {
-        "id": "note_-1002863499861_17",
-        "chat_id": -1002863499861,
-        "message_id": 17,
-        "platform": "marrow_e8",
-        "subject_id": "anesthesia",
-        "title": "Anesthesiology Marrow Ed8 Notes",
-        "preferred_filename": "Anesthesiology Marrow Ed8 Notes.pdf",
-        "folder_path": "Aspirin_LMS/Marrow_E8/Notes",
-        "is_master_textbook": True,
-    },
-    {
-        "id": "note_-1002863499861_25",
-        "chat_id": -1002863499861,
-        "message_id": 25,
-        "platform": "marrow_e8",
-        "subject_id": "ophthalmology",
-        "title": "Ophthalmology Marrow Ed8 Notes",
-        "preferred_filename": "Ophthalmology Marrow Ed8 Notes.pdf",
-        "folder_path": "Aspirin_LMS/Marrow_E8/Notes",
-        "is_master_textbook": True,
-    },
-    {
-        "id": "note_-1002863499861_26",
-        "chat_id": -1002863499861,
-        "message_id": 26,
-        "platform": "marrow_e8",
-        "subject_id": "ent",
-        "title": "ENT Marrow Ed8 Notes",
-        "preferred_filename": "ENT Marrow Ed8 Notes.pdf",
-        "folder_path": "Aspirin_LMS/Marrow_E8/Notes",
-        "is_master_textbook": True,
-    },
-    {
-        "id": "note_-1002863499861_27",
-        "chat_id": -1002863499861,
-        "message_id": 27,
-        "platform": "marrow_e8",
-        "subject_id": "psm",
-        "title": "Community Medicine (PSM) Marrow Ed8 Notes",
-        "preferred_filename": "PSM Marrow Ed8 Notes.pdf",
-        "folder_path": "Aspirin_LMS/Marrow_E8/Notes",
-        "is_master_textbook": True,
-    },
-    {
-        "id": "note_-1002863499861_15",
-        "chat_id": -1002863499861,
-        "message_id": 15,
-        "platform": "marrow_e8",
-        "subject_id": "forensic_medicine",
-        "title": "Forensic Medicine (FMT) Marrow Ed8 Notes",
-        "preferred_filename": "FMT Marrow Ed8 Notes.pdf",
-        "folder_path": "Aspirin_LMS/Marrow_E8/Notes",
-        "is_master_textbook": True,
-    },
-
-    # --- PrepLadder Version X Medicine Notes PDF ---
-    {
-        "id": "note_-1004345284917_35",
-        "chat_id": -1004345284917,
-        "message_id": 35,
-        "platform": "prepx_en",
-        "subject_id": "medicine",
-        "title": "PrepLadder Version X Medicine Notes (Master Edition)",
-        "preferred_filename": "Medicine_Version_X_Final.pdf",
-        "folder_path": "Aspirin_LMS/PrepLadder_X/Medicine",
-        "is_master_textbook": True,
-    },
-    {
-        "id": "note_-1002185821255_330",
-        "chat_id": -1002185821255,
-        "message_id": 330,
-        "platform": "prepx_en",
-        "subject_id": "medicine",
-        "title": "PrepLadder Version X Medicine Notes (Mobile Edition)",
-        "preferred_filename": "Medicine_Version_X_Mobile.pdf",
-        "folder_path": "Aspirin_LMS/PrepLadder_X/Medicine",
-        "is_master_textbook": True,
-    },
-]
-
 
 class MicrosoftGraphUploader:
     """Handles upload session creation and 20 MiB chunked upload to openmedQ SharePoint."""
+
     def __init__(self):
-        # Support both Client Credentials grant and Delegated Refresh Token grant
-        self.tenant_id = os.environ.get("M365_TENANT_ID") or os.environ.get("NEW_ONEDRIVE_TENANT_ID") or "9903c5d7-b085-4596-9ee6-98f39ddba128"
-        self.client_id = os.environ.get("M365_CLIENT_ID") or os.environ.get("NEW_ONEDRIVE_CLIENT_ID") or "2ba94e86-b064-42bb-819d-faacdfb80351"
+        self.tenant_id = (
+            os.environ.get("NEW_ONEDRIVE_TENANT_ID")
+            or os.environ.get("M365_TENANT_ID")
+            or "9903c5d7-b085-4596-9ee6-98f39ddba128"
+        )
+        self.client_id = (
+            os.environ.get("NEW_ONEDRIVE_CLIENT_ID")
+            or os.environ.get("M365_CLIENT_ID")
+            or "054e8da3-e1e0-4274-b8a9-2bb6f71ef8f8"
+        )
         self.client_secret = os.environ.get("M365_CLIENT_SECRET")
         self.refresh_token = os.environ.get("NEW_ONEDRIVE_REFRESH_TOKEN")
-        self.drive_id = os.environ.get("M365_DRIVE_ID") or "b!7354rmdgw0SfqPTGsKSQkPl-icC0zvdHjkdWYIvLto-5RraAMfwPTKEbLj10i14Y"
+        self.drive_id = (
+            os.environ.get("M365_DRIVE_ID")
+            or "b!7354rmdgw0SfqPTGsKSQkPl-icC0zvdHjkdWYIvLto-5RraAMfwPTKEbLj10i14Y"
+        )
 
         self.access_token: Optional[str] = None
         self.token_expiry: float = 0
+        self.token_file: Optional[Path] = None
+
+        if not self.refresh_token and not self.client_secret:
+            for tf in [PROJECT_DIR / "onedrive_token_new.json", PROJECT_DIR / "onedrive_token.json"]:
+                if tf.exists():
+                    try:
+                        tdata = json.loads(tf.read_text(encoding="utf-8"))
+                        self.refresh_token = tdata.get("refresh_token")
+                        self.token_file = tf
+                        if tdata.get("access_token") and time.time() < (tdata.get("expires_at", 0) - 300):
+                            self.access_token = tdata["access_token"]
+                            self.token_expiry = tdata.get("expires_at", 0)
+                        break
+                    except Exception:
+                        pass
 
     def get_token(self) -> str:
         if self.access_token and time.time() < (self.token_expiry - 300):
@@ -266,20 +108,18 @@ class MicrosoftGraphUploader:
         endpoint = f"https://login.microsoftonline.com/{self.tenant_id}/oauth2/v2.0/token"
 
         if self.client_secret:
-            # Client Credentials Grant (MFA-exempt, app-level service principal)
             data = {
                 "client_id": self.client_id,
                 "client_secret": self.client_secret,
                 "grant_type": "client_credentials",
-                "scope": "https://graph.microsoft.com/.default"
+                "scope": "https://graph.microsoft.com/.default",
             }
         elif self.refresh_token:
-            # Delegated Refresh Token Grant
             data = {
                 "client_id": self.client_id,
                 "grant_type": "refresh_token",
                 "refresh_token": self.refresh_token,
-                "scope": "offline_access Files.ReadWrite.All User.Read"
+                "scope": "https://graph.microsoft.com/.default offline_access",
             }
         else:
             raise RuntimeError("No Microsoft Graph authentication credentials provided!")
@@ -290,7 +130,21 @@ class MicrosoftGraphUploader:
 
         resp_data = res.json()
         self.access_token = resp_data["access_token"]
+        if resp_data.get("refresh_token"):
+            self.refresh_token = resp_data["refresh_token"]
         self.token_expiry = time.time() + resp_data.get("expires_in", 3600)
+
+        if self.token_file and self.token_file.exists():
+            try:
+                save_data = {
+                    "access_token": self.access_token,
+                    "refresh_token": self.refresh_token,
+                    "expires_at": self.token_expiry,
+                }
+                self.token_file.write_text(json.dumps(save_data, indent=2), encoding="utf-8")
+            except Exception:
+                pass
+
         return self.access_token
 
     def get_file_metadata(self, remote_path: str) -> Optional[Dict[str, Any]]:
@@ -314,7 +168,7 @@ class MicrosoftGraphUploader:
             endpoint,
             headers={"Authorization": f"Bearer {token}", "Content-Type": "application/json"},
             json=body,
-            timeout=30
+            timeout=30,
         )
         if r.status_code in (200, 201):
             return r.json()["uploadUrl"]
@@ -336,7 +190,7 @@ class MicrosoftGraphUploader:
 
                 for attempt in range(5):
                     try:
-                        res = requests.put(upload_url, headers=headers, data=chunk, timeout=60)
+                        res = requests.put(upload_url, headers=headers, data=chunk, timeout=90)
                         if res.status_code in (200, 201):
                             elapsed = time.time() - t0
                             speed_mb = (total_size / (1024 * 1024)) / max(elapsed, 0.1)
@@ -363,6 +217,7 @@ class MicrosoftGraphUploader:
 
 class FastTelegramDownloader:
     """4-connection MTProto downloader."""
+
     def __init__(self, client: TelegramClient, max_workers: int = 4):
         self.client = client
         self.max_workers = max_workers
@@ -463,8 +318,11 @@ def update_catalog_file(item: Dict[str, Any]):
         if "notes" not in target_sub:
             target_sub["notes"] = []
 
-        existing_idx = next((i for i, n in enumerate(target_sub["notes"]) if n.get("id") == item["id"] or n.get("filename") == item["preferred_filename"]), None)
-        
+        existing_idx = next(
+            (i for i, n in enumerate(target_sub["notes"]) if n.get("id") == item["id"] or n.get("filename") == item["preferred_filename"]),
+            None,
+        )
+
         note_entry = {
             "id": item["id"],
             "subject_id": sub_id,
@@ -492,43 +350,36 @@ def update_catalog_file(item: Dict[str, Any]):
         print(f"  [Catalog Error] Failed to update catalog.json: {e}")
 
 
-async def run_migration(target_filter: str = "all", dry_run: bool = False, limit: int = 0):
+async def run_migration(manifest_path: Path, dry_run: bool = False, limit: int = 0):
     print("=" * 65)
-    print(" 🏥 Aspirin LMS: Notes to SharePoint Migration Engine")
-    print(f" Target Mode: {target_filter}")
+    print(" 🏥 Aspirin LMS: MBBS Notes to SharePoint Migration Engine")
+    print(f" Manifest:    {manifest_path.name}")
     print(f" Dry Run:     {dry_run}")
     print("=" * 65)
 
-    # Filter targets
-    targets = []
-    for t in NOTES_MIGRATION_TARGETS:
-        if target_filter == "marrow_e8" and t["platform"] != "marrow_e8":
-            continue
-        if target_filter == "prepx_medicine" and t["subject_id"] != "medicine":
-            continue
-        targets.append(t)
+    if not manifest_path.exists():
+        print(f"✗ Manifest file not found: {manifest_path}")
+        return
 
+    targets = json.loads(manifest_path.read_text(encoding="utf-8"))
     if limit > 0:
         targets = targets[:limit]
 
-    print(f"\nTotal targets to process: {len(targets)}")
+    print(f"\nTotal targets in manifest: {len(targets)}")
 
-    # Load existing manifest
     manifest: Dict[str, Any] = {}
     if MANIFEST_PATH.exists():
         manifest = json.loads(MANIFEST_PATH.read_text(encoding="utf-8"))
 
     sp_uploader = MicrosoftGraphUploader()
-    # Test Graph auth
     if not dry_run:
         try:
-            token = sp_uploader.get_token()
+            sp_uploader.get_token()
             print("✓ Microsoft Graph API authenticated successfully.")
         except Exception as e:
             print(f"✗ Microsoft Graph authentication failed: {e}")
             return
 
-    # Initialize Telegram client
     session_str = os.environ.get("TELEGRAM_SESSION_STRING")
     api_id = int(os.environ.get("TELEGRAM_API_ID", 24716450))
     api_hash = os.environ.get("TELEGRAM_API_HASH", "0e491fad22372b564277743abb718b61")
@@ -536,6 +387,11 @@ async def run_migration(target_filter: str = "all", dry_run: bool = False, limit
     if session_str:
         client = TelegramClient(StringSession(session_str), api_id, api_hash)
     else:
+        creds_file = PROJECT_DIR / "credentials_telegram.json"
+        if creds_file.exists():
+            cdata = json.loads(creds_file.read_text(encoding="utf-8"))
+            api_id = cdata.get("api_id", api_id)
+            api_hash = cdata.get("api_hash", api_hash)
         client = TelegramClient(str(PROJECT_DIR / "telegram_session"), api_id, api_hash)
 
     await client.connect()
@@ -559,15 +415,15 @@ async def run_migration(target_filter: str = "all", dry_run: bool = False, limit
         chat_id = target["chat_id"]
         msg_id = target["message_id"]
 
-        print(f"[{idx}/{len(targets)}] {target['title']} ({remote_filename})")
+        print(f"\n[{idx}/{len(targets)}] {target['title']} ({remote_filename})")
 
-        # Check if already completed in manifest
+        # Check manifest
         if item_id in manifest and manifest[item_id].get("status") == "completed" and manifest[item_id].get("onedrive_item_id"):
             print(f"  ✓ Already in manifest and marked completed. Skipping.")
             skipped_count += 1
             continue
 
-        # Check if already exists on SharePoint
+        # Check SharePoint
         if not dry_run:
             existing_sp = sp_uploader.get_file_metadata(remote_path)
             if existing_sp and existing_sp.get("size", 0) > 0:
@@ -598,7 +454,8 @@ async def run_migration(target_filter: str = "all", dry_run: bool = False, limit
             success_count += 1
             continue
 
-        # Fetch message and document from Telegram
+        # Fetch message from Telegram
+        local_stage_file = TEMP_DIR / f"stage_{msg_id}_{remote_filename}"
         try:
             entity = await client.get_entity(chat_id)
             msg = await client.get_messages(entity, ids=msg_id)
@@ -610,22 +467,20 @@ async def run_migration(target_filter: str = "all", dry_run: bool = False, limit
             file_size_mb = msg.document.size / (1024 * 1024)
             print(f"  Found document: {file_size_mb:.1f} MB")
 
-            local_stage_file = TEMP_DIR / f"stage_{msg_id}_{remote_filename}"
-            
-            # Step 1: Download from Telegram
+            # Step 1: Download
             await tg_downloader.download_file(msg.document, local_stage_file)
 
-            # Step 2: Create upload session on SharePoint
+            # Step 2: Create upload session
             upload_url = sp_uploader.create_upload_session(remote_path)
 
-            # Step 3: Chunked upload to SharePoint
+            # Step 3: Upload chunks
             sp_result = sp_uploader.upload_chunks(upload_url, local_stage_file)
 
-            # Step 4: Cleanup local file
+            # Step 4: Cleanup local file immediately
             if local_stage_file.exists():
                 local_stage_file.unlink()
 
-            # Step 5: Save manifest and update catalog
+            # Step 5: Manifest & Catalog update
             manifest_entry = {
                 "title": target["title"],
                 "filename": remote_filename,
@@ -644,22 +499,22 @@ async def run_migration(target_filter: str = "all", dry_run: bool = False, limit
             }
             manifest[item_id] = manifest_entry
 
-            # Atomic manifest save
             MANIFEST_PATH.write_text(json.dumps(manifest, ensure_ascii=False, indent=2), encoding="utf-8")
             PUBLIC_MANIFEST_PATH.write_text(json.dumps(manifest, ensure_ascii=False, indent=2), encoding="utf-8")
             update_catalog_file(manifest_entry)
 
             print(f"  ✓ Saved to manifest: ID {sp_result.get('id')}")
             success_count += 1
-
-            # 2.5s cooldown
-            time.sleep(2.5)
+            time.sleep(2)
 
         except Exception as e:
             print(f"  ✗ Transfer failed: {e}")
             failed_count += 1
+        finally:
             if local_stage_file.exists():
                 local_stage_file.unlink()
+
+    await client.disconnect()
 
     print("\n" + "=" * 65)
     print(f" MIGRATION SUMMARY:")
@@ -671,9 +526,9 @@ async def run_migration(target_filter: str = "all", dry_run: bool = False, limit
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Migrate Notes from Telegram to SharePoint")
-    parser.add_argument("--target", choices=["all", "marrow_e8", "prepx_medicine"], default="all")
+    parser.add_argument("--manifest", type=str, default=str(DEFAULT_TARGETS_PATH))
     parser.add_argument("--dry-run", action="store_true", help="Simulate without uploading")
     parser.add_argument("--limit", type=int, default=0, help="Limit number of files")
     args = parser.parse_args()
 
-    asyncio.run(run_migration(target_filter=args.target, dry_run=args.dry_run, limit=args.limit))
+    asyncio.run(run_migration(manifest_path=Path(args.manifest), dry_run=args.dry_run, limit=args.limit))

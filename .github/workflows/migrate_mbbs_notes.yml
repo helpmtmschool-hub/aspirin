@@ -1,0 +1,115 @@
+name: Migrate MBBS Notes to openmedQ SharePoint
+
+# Manual migration pipeline for the 7 missing MBBS Notes:
+#   1. Anatomy: eGurukul 4.0 (Dr. Ashwini Kumar) -> Aspirin_LMS/eGurukul_4.0/01_Anatomy_Dr_Ashwini_Kumar/
+#   2. Physiology: PrepLadder Edition X (Dr. Vivek Nalgirkar) -> Aspirin_LMS/PrepLadder_X/Physiology/
+#   3. Biochemistry: Marrow Edition 8 (Dr. Rebecca James) -> Aspirin_LMS/Marrow_E8/Notes/
+#   4. Pathology: PrepLadder Edition X (Dr. Sparsh Gupta) -> Aspirin_LMS/PrepLadder_X/Pathology/
+#   5. Microbiology: PrepLadder Edition X (Dr. Preeti Sharma) -> Aspirin_LMS/PrepLadder_X/Microbiology/
+#   6. Pharmacology: Cerebellum (Dr. Gobind Rai Garg, Compressed) -> Aspirin_LMS/Cerebellum/03_Pharmacology_Dr_GRG/
+#   7. PSM: Cerebellum (Dr. Vivek Jain) -> Aspirin_LMS/Cerebellum/04_PSM_Dr_Vivek_Jain/
+#
+# Execution:
+# MANUAL TRIGGER ONLY (workflow_dispatch). No scheduled/cron execution.
+
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Dry run (test verification without uploading)"
+        required: true
+        default: false
+        type: boolean
+      limit:
+        description: "Limit number of files to transfer (0 = all 7 notes)"
+        required: true
+        default: "0"
+        type: string
+
+concurrency:
+  group: mbbs-notes-migration-pipeline
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  migrate_notes:
+    name: Transfer 7 MBBS Notes to SharePoint
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+
+    steps:
+      - name: Free Up Runner Disk Space
+        run: |
+          echo "=== Disk space before cleanup ==="
+          df -h
+          echo "Removing heavy unused tools and caches..."
+          sudo rm -rf /usr/share/dotnet /usr/local/lib/android /opt/ghc /opt/hostedtoolcache
+          sudo rm -rf /usr/local/share/boost "$AGENT_TOOLSDIRECTORY"
+          sudo docker image prune --all --force 2>/dev/null || true
+          sudo apt-get clean
+          echo "=== Disk space after cleanup ==="
+          df -h
+
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install Python Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Execute Notes Migration
+        run: |
+          DRY_RUN_FLAG=""
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+            DRY_RUN_FLAG="--dry-run"
+          fi
+
+          LIMIT_FLAG=""
+          if [ "${{ github.event.inputs.limit }}" != "0" ] && [ -n "${{ github.event.inputs.limit }}" ]; then
+            LIMIT_FLAG="--limit ${{ github.event.inputs.limit }}"
+          fi
+
+          echo "=========================================================="
+          echo " Pipeline: Telegram -> openmedQ SharePoint (MBBS Notes)"
+          echo " Scope:    7 Missing Notes (Anat, Physio, Biochem, Patho, Micro, Pharma, PSM)"
+          echo " Mode:     Manual Trigger (workflow_dispatch)"
+          echo " Dry run:  ${{ github.event.inputs.dry_run || 'false' }}"
+          echo "=========================================================="
+
+          python engine/migrate_notes_to_sharepoint.py \
+            --manifest engine/missing_7_notes_manifest.json \
+            $DRY_RUN_FLAG \
+            $LIMIT_FLAG
+        env:
+          TELEGRAM_API_ID: ${{ secrets.TELEGRAM_API_ID }}
+          TELEGRAM_API_HASH: ${{ secrets.TELEGRAM_API_HASH }}
+          TELEGRAM_SESSION_STRING: ${{ secrets.TELEGRAM_SESSION_STRING }}
+          NEW_ONEDRIVE_CLIENT_ID: ${{ secrets.NEW_ONEDRIVE_CLIENT_ID }}
+          NEW_ONEDRIVE_TENANT_ID: ${{ secrets.NEW_ONEDRIVE_TENANT_ID }}
+          NEW_ONEDRIVE_REFRESH_TOKEN: ${{ secrets.NEW_ONEDRIVE_REFRESH_TOKEN }}
+          PYTHONUNBUFFERED: "1"
+
+      - name: Commit & Push Updated Manifest + Catalog
+        if: ${{ always() && github.event.inputs.dry_run != 'true' }}
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git fetch origin main || true
+          git add engine/transfer_manifest.json public/transfer_manifest.json public/catalog.json
+          if ! git diff --quiet || ! git diff --staged --quiet; then
+            git commit -m "chore: sync mbbs notes transfer manifest + catalog [skip ci]"
+            git pull --rebase -X theirs origin main || (git rebase --abort && git pull --no-edit -s recursive -X ours origin main) || true
+            git push origin main || true
+          fi

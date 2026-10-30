@@ -1,0 +1,107 @@
+[
+  {
+    "path": "Aspirin_LMS/Marrow_E8/Notes/Anesthesiology Marrow Ed8 Notes.pdf",
+    "name": "Anesthesiology Marrow Ed8 Notes.pdf",
+    "size_bytes": 160622989,
+    "size_mb": 153.18,
+    "id": "012RONM2RSEIKKUC5KSVAKZL6ZSFNVAV62"
+  },
+  {
+    "path": "Aspirin_LMS/Marrow_E8/Notes/Dermatology Marrow Ed8 Notes.pdf",
+    "name": "Dermatology Marrow Ed8 Notes.pdf",
+    "size_bytes": 15451064,
+    "size_mb": 14.74,
+    "id": "012RONM2TLI34QX5HOFVC2FHTBYUEGX4GQ"
+  },
+  {
+    "path": "Aspirin_LMS/Marrow_E8/Notes/ENT Marrow Ed8 Notes.pdf",
+    "name": "ENT Marrow Ed8 Notes.pdf",
+    "size_bytes": 85058369,
+    "size_mb": 81.12,
+    "id": "012RONM2SSQTZ3ECGC5BCKC5DKNO3HAKQQ"
+  },
+  {
+    "path": "Aspirin_LMS/Marrow_E8/Notes/FMT Marrow Ed8 Notes.pdf",
+    "name": "FMT Marrow Ed8 Notes.pdf",
+    "size_bytes": 136602054,
+    "size_mb": 130.27,
+    "id": "012RONM2XK4NBZTGQ2EBDZQ3OEPX4QXGGU"
+  },
+  {
+    "path": "Aspirin_LMS/Marrow_E8/Notes/OBGYN Vol 1 Marrow Ed8 Notes.pdf",
+    "name": "OBGYN Vol 1 Marrow Ed8 Notes.pdf",
+    "size_bytes": 127407728,
+    "size_mb": 121.51,
+    "id": "012RONM2V3QXLJJS2RA5EKY75A4EN7SMPF"
+  },
+  {
+    "path": "Aspirin_LMS/Marrow_E8/Notes/OBGYN Vol 2 Marrow Ed8 Notes.pdf",
+    "name": "OBGYN Vol 2 Marrow Ed8 Notes.pdf",
+    "size_bytes": 122085340,
+    "size_mb": 116.43,
+    "id": "012RONM2XI52ID4NCBJFBYR6DZLL42GKYE"
+  },
+  {
+    "path": "Aspirin_LMS/Marrow_E8/Notes/Ophthalmology Marrow Ed8 Notes.pdf",
+    "name": "Ophthalmology Marrow Ed8 Notes.pdf",
+    "size_bytes": 39500869,
+    "size_mb": 37.67,
+    "id": "012RONM2VNCLQCOF2PVRDIJ7E66TP24KJK"
+  },
+  {
+    "path": "Aspirin_LMS/Marrow_E8/Notes/Orthopedics Marrow Ed8 Notes.pdf",
+    "name": "Orthopedics Marrow Ed8 Notes.pdf",
+    "size_bytes": 17792876,
+    "size_mb": 16.97,
+    "id": "012RONM2STO4SYGF527NGK2PTCFKVCLN7G"
+  },
+  {
+    "path": "Aspirin_LMS/Marrow_E8/Notes/Pediatrics Marrow Ed8 Notes.pdf",
+    "name": "Pediatrics Marrow Ed8 Notes.pdf",
+    "size_bytes": 180937454,
+    "size_mb": 172.56,
+    "id": "012RONM2V5JRUUMWCXWNA3GXLYYTNR5E65"
+  },
+  {
+    "path": "Aspirin_LMS/Marrow_E8/Notes/PSM Marrow Ed8 Notes.pdf",
+    "name": "PSM Marrow Ed8 Notes.pdf",
+    "size_bytes": 35019023,
+    "size_mb": 33.4,
+    "id": "012RONM2X6KDZMPV5KVVCYKY45POUJ6P3O"
+  },
+  {
+    "path": "Aspirin_LMS/Marrow_E8/Notes/Psychiatry Marrow Ed8 Notes.pdf",
+    "name": "Psychiatry Marrow Ed8 Notes.pdf",
+    "size_bytes": 7863337,
+    "size_mb": 7.5,
+    "id": "012RONM2UKFHPQMWL46ZDYCCSTEZ6AGBIU"
+  },
+  {
+    "path": "Aspirin_LMS/Marrow_E8/Notes/Radiology Marrow Ed8 Notes.pdf",
+    "name": "Radiology Marrow Ed8 Notes.pdf",
+    "size_bytes": 190877337,
+    "size_mb": 182.03,
+    "id": "012RONM2QXCGXVOWK5RBHKZ6YKJQGNFDUX"
+  },
+  {
+    "path": "Aspirin_LMS/Marrow_E8/Notes/Surgery Vol 1 Marrow Ed8 Notes.pdf",
+    "name": "Surgery Vol 1 Marrow Ed8 Notes.pdf",
+    "size_bytes": 92865336,
+    "size_mb": 88.56,
+    "id": "012RONM2R3CI4XNM6QYFCZFOUSDKYFLMTD"
+  },
+  {
+    "path": "Aspirin_LMS/Marrow_E8/Notes/Surgery Vol 2 Marrow Ed8 Notes.pdf",
+    "name": "Surgery Vol 2 Marrow Ed8 Notes.pdf",
+    "size_bytes": 89317015,
+    "size_mb": 85.18,
+    "id": "012RONM2WMH36UHMY3WVHINDRKSDC6KDPK"
+  },
+  {
+    "path": "Aspirin_LMS/PrepLadder_X/Medicine/Medicine_Version_X_Final.pdf",
+    "name": "Medicine_Version_X_Final.pdf",
+    "size_bytes": 842676192,
+    "size_mb": 803.64,
+    "id": "012RONM2XLEYAC2HMBLBHZFBTTFEQXUJL4"
+  }
+]
